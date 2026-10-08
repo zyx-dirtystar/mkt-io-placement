@@ -1,6 +1,10 @@
 # 把网站放到你自己的 GitHub
 
-目标仓库：[zyx-dirtystar/mkt-io-placement](https://github.com/zyx-dirtystar/mkt-io-placement)。网站源文件与部署流程已准备好；是否发布成功，以仓库 Actions 中的绿色成功状态和 Pages 实际网址为准。现有私有预览继续保留。
+已于 2026-10-08 完成首次发布：[打开网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [打开仓库](https://github.com/zyx-dirtystar/mkt-io-placement) · [查看发布状态](https://github.com/zyx-dirtystar/mkt-io-placement/actions)。现有私有预览继续保留。
+
+日常查看：直接收藏“打开网站”的网址，不需要运行程序。仓库是保存文件和修改历史的地方，Actions 是检查与发布记录。
+
+下次更新：可以把要新增或更正的学校、人员、来源发给助手，由助手整理后提交；也可以按文末步骤在 GitHub 自己编辑。无需重复创建仓库或重新设置 Pages。
 
 你不需要一次完成下面所有步骤。我们可以每次只处理一步；不需要先学习命令行。
 
@@ -20,9 +24,9 @@ GitHub 仓库保存网站文件和修改记录；GitHub Pages 将文件发布成
 
 如果手动创建：GitHub 右上角 “+” → “New repository”，填写仓库名，并按已确认的公开范围选择 Public 或 Private。为了上传现有项目，初次创建无需勾选初始化 README、许可证或 .gitignore。
 
-本地项目根目录是 `market-observatory`。上传时需要包含 `data`、`config.json`、`scripts`、`dist` 和隐藏目录 `.github`，不应把它们再包在仓库里的同名外层文件夹下。
+与 GitHub 对应的本地项目根目录是 `mkt-io-placement`。上传时需要包含 `data`、`config.json`、`scripts`、`dist` 和隐藏目录 `.github`，不应把它们再包在仓库里的同名外层文件夹下。
 
-`.openai/hosting.json` 是旧预览的配置，GitHub Pages 不使用它。GitHub 发布时只上传 `dist` 作为网站内容。
+本仓库不依赖旧 Sites 预览的配置。GitHub 发布时只上传 `dist` 作为网站内容。
 
 ## 3. 开启 GitHub Pages
 
@@ -43,6 +47,16 @@ GitHub 仓库保存网站文件和修改记录；GitHub Pages 将文件发布成
 主要维护 `data/records.json` 中的人员记录。跨年时再修改 `config.json`，保留旧年份资料。每次将更新提交到 `main` 后，GitHub 会自动检查并重新发布。不要直接只修改 `dist/data`；它会从 `data` 重新生成。
 
 自动发布不等于自动搜集数据。新增候选人、首职和证据仍需核验。
+
+### 在 GitHub 网页自己修改一条记录
+
+1. 打开仓库的 `data/records.json`，点击铅笔图标（Edit this file）。
+2. 找到对应人员，修改已核验字段，补上来源和实际核验日期。JSON 中的引号、逗号和括号需要保持完整。
+3. 点击 “Commit changes”，写明修改原因，提交到 `main`。
+4. 打开 “Actions”，查看最新一条运行。绿色表示成功；红色时查看错误并修正。校验失败不会发布这次错误数据，已发布网页仍保留上一成功版本。
+5. 成功后刷新网站；若仍显示旧内容，可用 Ctrl+F5 强制刷新。
+
+`dist/data` 是发布时生成的副本，在 GitHub 网页编辑数据后不会自动提交回仓库；网站会使用 Actions 根据 `data` 重新生成的最新副本。本地预览前也应执行 `node scripts/sync-data.mjs`。
 
 ## 官方说明
 
