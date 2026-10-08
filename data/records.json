@@ -931,25 +931,37 @@
     "program_id": "hong-kong-university-of-science-and-technology-marketing",
     "origin": "HK",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing",
+      "Platform Design",
+      "Digital Economy"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "博弈论"
+    ],
+    "topics": [
+      "数字平台",
+      "公共政策"
+    ],
     "market_cycle": null,
     "placement_year": 2024,
     "source_cohort_year": 2024,
-    "graduation_year": null,
+    "graduation_year": 2024,
     "status": "placed",
     "destination": "Xiamen University",
     "destination_region": "CN",
-    "role": null,
-    "job_kind": "unknown",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
-    "undergraduate": null,
+    "field_evidence": "本人 ORCID 明确 Quantitative marketing；CV 与主页记载平台博弈模型研究。",
+    "undergraduate": {
+      "institution": "Hong Kong Baptist University",
+      "region": "HK",
+      "year": 2013
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -964,13 +976,57 @@
       {
         "label": "官方 Marketing 博士首次去向名单",
         "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+      },
+      {
+        "label": "个人主页：厦门大学 2024-10 入职",
+        "url": "https://da-he.weebly.com/"
+      },
+      {
+        "label": "本人 2025-08 CV：任职与研究方法",
+        "url": "https://da-he.weebly.com/uploads/1/1/4/8/114842469/dahe_cv_aug2025.pdf"
+      },
+      {
+        "label": "本人 ORCID：Quantitative marketing",
+        "url": "https://orcid.org/0000-0001-9530-6501"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。 本人主页、CV 与 ORCID 交叉确认厦门大学助理教授 2024 年 10 月起。",
     "aliases": [
       "HE, Da"
+    ],
+    "homepage": "https://da-he.weebly.com/",
+    "cv_url": "https://da-he.weebly.com/uploads/1/1/4/8/114842469/dahe_cv_aug2025.pdf",
+    "research_classification": {
+      "status": "explicit",
+      "source_urls": [
+        "https://orcid.org/0000-0001-9530-6501",
+        "https://da-he.weebly.com/uploads/1/1/4/8/114842469/dahe_cv_aug2025.pdf",
+        "https://da-he.weebly.com/"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://orcid.org/0000-0001-9530-6501",
+        "https://da-he.weebly.com/uploads/1/1/4/8/114842469/dahe_cv_aug2025.pdf",
+        "https://da-he.weebly.com/"
+      ]
+    },
+    "regional_signals": [
+      {
+        "kind": "academic_exchange",
+        "region": "CN",
+        "institution": "Xiamen University, School of Management",
+        "observed_date": "2024-03",
+        "event_status": "reported",
+        "source_url": "https://da-he.weebly.com/uploads/1/1/4/8/114842469/dahe_cv_aug2025.pdf",
+        "evidence": "本人 CV 列厦门大学报告，未明确标为 job talk；仅记录一般学术交流。",
+        "checked_at": "2026-10-08"
+      }
     ]
   },
   {
@@ -2580,6 +2636,10 @@
       {
         "label": "personal research page",
         "url": "https://www.jingmancao.com/research"
+      },
+      {
+        "label": "SWUFE 普通学术研讨公告（非明确招聘活动）",
+        "url": "https://ies.swufe.edu.cn/info/1271/3471.htm"
       }
     ],
     "subsequent": [],
@@ -2589,7 +2649,19 @@
     "methods_original": [],
     "program_id": "national-university-of-singapore-economics",
     "cv_url": "https://drive.google.com/file/d/17uG9JAnPihsT7xuI-nN7NergVtIbdX4p/view?usp=sharing",
-    "homepage": "https://www.jingmancao.com/"
+    "homepage": "https://www.jingmancao.com/",
+    "regional_signals": [
+      {
+        "kind": "academic_exchange",
+        "region": "CN",
+        "institution": "Southwestern University of Finance and Economics",
+        "observed_date": "2026-03-04",
+        "event_status": "announced",
+        "source_url": "https://ies.swufe.edu.cn/info/1271/3471.htm",
+        "evidence": "官方公告列出报告题目和候选人，但未注明招聘 / Job Talk；不把这条公告当作申请或求职意向。",
+        "checked_at": "2026-10-08"
+      }
+    ]
   },
   {
     "id": "us-io-jingyi-cui",
@@ -4990,13 +5062,25 @@
     "program_id": "national-university-of-singapore-marketing",
     "origin": "SG",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing",
+      "Digital Marketing",
+      "Consumer Search"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "博弈论",
+      "因果推断",
+      "实验方法",
+      "文本分析",
+      "图像分析"
+    ],
+    "topics": [
+      "数字平台",
+      "消费者搜索"
+    ],
     "market_cycle": null,
     "placement_year": 2023,
     "source_cohort_year": 2023,
@@ -5006,9 +5090,13 @@
     "destination_region": "CN",
     "role": "Assistant Professor of Marketing",
     "job_kind": "faculty",
-    "jmp": null,
-    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
-    "undergraduate": null,
+    "jmp": "Influencer-Generated Organic Content and Firm Strategies",
+    "field_evidence": "本人 2022-06 CV 研究兴趣明确列 Quantitative Marketing；该旧版只用于研究方向与当时 JMP，不推定当前求职状态。",
+    "undergraduate": {
+      "institution": "Nanyang Technological University",
+      "region": "SG",
+      "year": 2015
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -5023,6 +5111,14 @@
       {
         "label": "官方 Marketing 博士首次去向名单",
         "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      },
+      {
+        "label": "个人研究主页（仍为旧求职页）",
+        "url": "https://shiwengao.github.io/"
+      },
+      {
+        "label": "本人 2022-06 CV：Quant 与明确标注的 JMP",
+        "url": "https://shiwengao.github.io/assets/pdf/cv.pdf"
       }
     ],
     "subsequent": [],
@@ -5030,7 +5126,25 @@
     "notes": "来源名单年份另行保存；未核验具体入职月份。",
     "aliases": [
       "Gao Shiwen"
-    ]
+    ],
+    "homepage": "https://shiwengao.github.io/",
+    "cv_url": "https://shiwengao.github.io/assets/pdf/cv.pdf",
+    "research_classification": {
+      "status": "explicit",
+      "source_urls": [
+        "https://shiwengao.github.io/assets/pdf/cv.pdf"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://shiwengao.github.io/assets/pdf/cv.pdf"
+      ]
+    },
+    "jmp_url": "https://shiwengao.github.io/assets/pdf/cv.pdf",
+    "jmp_evidence": "本人 2022-06 CV 第一页明确在 Job Market Paper 标题下列此论文；保存历史求职论文版本。"
   },
   {
     "id": "us-io-shoki-kusaka",
@@ -5954,13 +6068,20 @@
     "program_id": "national-university-of-singapore-marketing",
     "origin": "SG",
     "fields": [
-      "Marketing"
+      "Digital Marketing",
+      "Platform Economics",
+      "Business Data Analytics"
     ],
     "tracks": [
       "marketing"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "博弈论"
+    ],
+    "topics": [
+      "数字平台",
+      "定价"
+    ],
     "market_cycle": null,
     "placement_year": 2024,
     "source_cohort_year": 2024,
@@ -5987,6 +6108,14 @@
       {
         "label": "官方 Marketing 博士首次去向名单",
         "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      },
+      {
+        "label": "浙江大学个人主页：数字营销、平台经济、商业数据分析",
+        "url": "https://person.zju.edu.cn/en/dwj"
+      },
+      {
+        "label": "2023 ISMS 官方会议册：消费者跨期选择与定价模型",
+        "url": "https://rdmobile-palermo-production.s3.amazonaws.com/53e9bf2c-a89a-4df5-8478-b3f659f94ace/event-16330/326830739-2023_INFORMS_ISMS_Marketing_Science_Conference_Program.pdf"
       }
     ],
     "subsequent": [],
@@ -5994,7 +6123,28 @@
     "notes": "来源名单年份另行保存；未核验具体入职月份。",
     "aliases": [
       "Deng Wanjiang"
-    ]
+    ],
+    "homepage": "https://person.zju.edu.cn/en/dwj",
+    "research_inference": {
+      "status": "provisional",
+      "tracks": [
+        "qm"
+      ],
+      "reason": "浙江大学主页列平台经济、商业数据分析；2023 ISMS 摘要研究跨期效用与厂商定价模型，支持暂归 Quant / analytical。尚未取得本人明确的子方向标签。",
+      "source_urls": [
+        "https://person.zju.edu.cn/en/dwj",
+        "https://rdmobile-palermo-production.s3.amazonaws.com/53e9bf2c-a89a-4df5-8478-b3f659f94ace/event-16330/326830739-2023_INFORMS_ISMS_Marketing_Science_Conference_Program.pdf"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://person.zju.edu.cn/en/dwj",
+        "https://rdmobile-palermo-production.s3.amazonaws.com/53e9bf2c-a89a-4df5-8478-b3f659f94ace/event-16330/326830739-2023_INFORMS_ISMS_Marketing_Science_Conference_Program.pdf"
+      ]
+    }
   },
   {
     "id": "hku-wanyi-zheng",
@@ -7044,25 +7194,40 @@
     "program_id": "university-of-chicago-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Consumer Behavior",
+      "Human-AI Interaction",
+      "Financial Decision-Making"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "实验方法",
+      "回归分析",
+      "机器学习",
+      "自然语言处理"
+    ],
+    "topics": [
+      "消费者行为",
+      "AI 与算法"
+    ],
     "market_cycle": null,
     "placement_year": 2026,
     "source_cohort_year": 2026,
-    "graduation_year": null,
+    "graduation_year": 2026,
     "status": "placed",
     "destination": "Peking University, HSBC Business School",
     "destination_region": "CN",
     "role": "Assistant Professor of Marketing",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
-    "undergraduate": null,
+    "field_evidence": "接收院校官方教员页明确列 Consumer Behavior；同时使用回归、机器学习和 NLP 不自动改列 Quant。",
+    "undergraduate": {
+      "institution": "Southwestern University of Finance and Economics",
+      "region": "CN",
+      "year": 2019
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -7077,11 +7242,29 @@
       {
         "label": "官方 Marketing 博士首次去向名单",
         "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "label": "北大汇丰官方教员页：明确 Consumer Behavior（搜索索引可读，直连超时）",
+        "url": "https://english.phbs.pku.edu.cn/info/3812/62322.htm"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "research_classification": {
+      "status": "explicit",
+      "source_urls": [
+        "https://english.phbs.pku.edu.cn/info/3812/62322.htm"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://english.phbs.pku.edu.cn/info/3812/62322.htm"
+      ]
+    }
   },
   {
     "id": "chicago-yuxiao-li",
@@ -8662,25 +8845,40 @@
     "program_id": "indiana-university-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Consumer Behavior",
+      "Digital Marketing",
+      "Experiential Consumption",
+      "Social Relationships"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "实验方法",
+      "文本分析",
+      "图像分析"
+    ],
+    "topics": [
+      "消费者行为",
+      "数字平台"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2023,
     "source_cohort_year": 2023,
     "graduation_year": 2023,
     "status": "placed",
     "destination": "Chinese University of Hong Kong, Shenzhen",
     "destination_region": "CN",
-    "role": null,
-    "job_kind": "unknown",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "本人 CV 明确 Marketing (Consumer Behavior)；实验与文本图像分析是方法，不自动归为 Quant。",
+    "undergraduate": {
+      "institution": "National Taiwan University",
+      "region": "TW",
+      "year": 2015
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -8695,11 +8893,49 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html"
+      },
+      {
+        "label": "个人主页：研究内容与方法",
+        "url": "https://dwhuang5.github.io/"
+      },
+      {
+        "label": "本人 CV：Consumer Behavior 与 2023-07 入职",
+        "url": "https://dwhuang5.github.io/files/cv.pdf"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。  原网页姓名/院校分栏有误；Chinese 是院校名称的组成部分。"
+    "notes": "来源列为毕业年，未自动当作首职年。  原网页姓名/院校分栏有误；Chinese 是院校名称的组成部分。 2026-10-08 本人 CV 直接确认 CUHK Shenzhen 助理教授自 2023-07 起；据此补齐首职年与岗位。",
+    "homepage": "https://dwhuang5.github.io/",
+    "cv_url": "https://dwhuang5.github.io/files/cv.pdf",
+    "research_classification": {
+      "status": "explicit",
+      "source_urls": [
+        "https://dwhuang5.github.io/files/cv.pdf",
+        "https://dwhuang5.github.io/"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://dwhuang5.github.io/files/cv.pdf",
+        "https://dwhuang5.github.io/"
+      ]
+    },
+    "regional_signals": [
+      {
+        "kind": "academic_exchange",
+        "region": "CN",
+        "institution": "Renmin University, Renmin Business School",
+        "observed_date": "2024",
+        "event_status": "reported",
+        "source_url": "https://dwhuang5.github.io/files/cv.pdf",
+        "evidence": "CV 将人大报告列在首次求职之后的受邀报告栏；不作为招聘活动或当前求职意向。",
+        "checked_at": "2026-10-08"
+      }
+    ]
   },
   {
     "id": "indiana-university-luciano-lapa",
@@ -9273,25 +9509,34 @@
     "program_id": "duke-university-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Brand Communications",
+      "Interpersonal Relationships",
+      "Gift Giving"
     ],
     "tracks": [
       "marketing"
     ],
     "methods": [],
-    "topics": [],
+    "topics": [
+      "消费者行为",
+      "品牌"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2023,
     "source_cohort_year": 2023,
     "graduation_year": 2023,
     "status": "placed",
     "destination": "University of Hong Kong",
     "destination_region": "HK",
-    "role": null,
-    "job_kind": "unknown",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
     "jmp": null,
     "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "undergraduate": {
+      "institution": "Duke University",
+      "region": "US",
+      "year": 2017
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -9306,11 +9551,33 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+      },
+      {
+        "label": "HKU 官方教员资料：2023 年加入与研究主题",
+        "url": "https://www.hkubs.hku.hk/people/lingrui-zhou/"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。  "
+    "notes": "来源列为毕业年，未自动当作首职年。   HKU 官方介绍明确 2023 年加入；结合 Duke 首次去向表补齐首职年份。",
+    "research_inference": {
+      "status": "provisional",
+      "tracks": [
+        "cb"
+      ],
+      "reason": "HKU 介绍主要研究品牌沟通、人际关系及礼物赠送如何影响消费者判断。暂归 CB；所查页面未明确给出 CB 子方向名称，尚待本人 CV 核对。",
+      "source_urls": [
+        "https://www.hkubs.hku.hk/people/lingrui-zhou/"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.hkubs.hku.hk/people/lingrui-zhou/"
+      ]
+    }
   },
   {
     "id": "university-of-texas-at-dallas-salar-nozari",
@@ -16023,13 +16290,18 @@
     "program_id": "singapore-management-university-marketing",
     "origin": "SG",
     "fields": [
-      "Marketing"
+      "Marketing Strategy",
+      "Marketing Budgeting",
+      "Firm Performance"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "strategy"
     ],
     "methods": [],
-    "topics": [],
+    "topics": [
+      "营销战略"
+    ],
     "market_cycle": null,
     "placement_year": 2024,
     "source_cohort_year": 2024,
@@ -16040,8 +16312,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "SMU 校友条目本人表述研究兴趣为 Marketing Strategy，ESSEC 介绍营销预算和组织决策；使用定量方法不自动列 Quant。",
+    "undergraduate": {
+      "institution": "University of the Arts London, London College of Fashion",
+      "region": "UK"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -16056,12 +16331,36 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/"
+      },
+      {
+        "label": "SMU 本人研究兴趣：Marketing Strategy（年份冲突另存）",
+        "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni"
+      },
+      {
+        "label": "ESSEC 官方个人资料：研究与教育",
+        "url": "https://faculty.essec.edu/en/cv/jiang-junqiu/"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
     "notes": "ESSEC 本人 CV 同时记 SMU PhD 2024、ESSEC Assistant Professor 2024 至今。SMU 网页出现 2021 / 2023 两种标年，采用 CV 的毕业与就业年；仍保留冲突说明。",
-    "cv_url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/"
+    "cv_url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/",
+    "research_classification": {
+      "status": "explicit",
+      "source_urls": [
+        "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+        "https://faculty.essec.edu/en/cv/jiang-junqiu/"
+      ],
+      "checked_at": "2026-10-08"
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+        "https://faculty.essec.edu/en/cv/jiang-junqiu/"
+      ]
+    }
   },
   {
     "id": "texas-a-m-university-chi-zhang",

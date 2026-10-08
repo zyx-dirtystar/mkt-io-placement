@@ -42,5 +42,8 @@
   "jmp_url": null,
   "jmp_evidence": null,
   "final_placement": null,
-  "research_review": null
+  "research_review": null,
+  "research_classification": null,
+  "research_inference": null,
+  "regional_signals": []
 }

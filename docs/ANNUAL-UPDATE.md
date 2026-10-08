@@ -99,3 +99,11 @@ UBC 本批是一个例子：官方来源表把 Zining Wang 列在 2023，但 BC 
 教职率分母仅含教职、非终身轨、博后、业界及其他；延期、未知和仍在求职者排除。美国/加拿大 Lecturer 归非终身轨，英国/澳大利亚/新西兰 Lecturer 归教职；其他地区需补依据。岗位性质未知的大学去向仍显示机构，但不强行计入教职率分母。校区按实际所在地归类，四个指定大陆分校均归中国大陆。
 
 发布前执行 `node scripts/sync-data.mjs`、`node scripts/check.mjs`、`node scripts/check-placement.mjs`、`node --check dist/app.js`。实际打开网站检查首次/最终切换、排名、个人资料和 CSV。姓名不同写法通过 `aliases` 合并；同步修正 coverage 的 record_ids，不能重复计人。
+
+## 0.6.0：暂定研究方向与区域公开证据
+
+- 新的内容推断放在 research_inference，结构为 {status: "provisional", tracks: ["qm"], reason: "具体研究内容支持的理由", source_urls: ["https://..."], checked_at: "YYYY-MM-DD"}。默认不修改 tracks；取得明确方向后移入 tracks，删除或记录已被替代的暂定标签，保留变更历史。
+- 有明确自述或院校子方向标签时可补 research_classification: {status: "explicit", source_urls: [...], checked_at: "..."}。不要批量把旧标签升级为 explicit。
+- regional_signals 是数组，每条含 kind（explicit_interest / recruiting_event / academic_exchange）、region（CN / HK）、institution、observed_date（实际来源可支持的年 / 月 / 日）、event_status（announced / reported）、source_url、evidence、checked_at。需要具体证据，所有 source_url 也加入 sources。公告不证明出席，一般讲座不证明应聘。
+- 每年保留过去活动日期，不把历史表述自动改成新季意愿。姓名、语言、合作网络、教育地区都不参与意向或身份推断。
+- 发布前额外运行 node scripts/check-evidence.mjs，验证情景和暂定字段不改写事实。
