@@ -6,9 +6,13 @@ Placement about mkt and IO PhD
 
 Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial Organization 的个人就业市场观察网站。博士培养院校范围为美国、加拿大、香港、新加坡；去向覆盖全球。
 
-这是带有来源的首批样本，**不是完整市场普查**。所有图表明确展示样本分母。未核验的记录和信息不能作为不存在或否定值。
+这是持续扩充、带有来源的样本，**不是完整市场普查**。所有图表明确展示样本分母。未核验的记录和信息不能作为不存在或否定值。
 
-当前版本 0.3.0：114 人（第二批新增 38 人），其中 CB 标签 27 人、当季候选人 14 人。第二批核验 Northwestern、Penn、Toronto、HKU、NTU；累计 28 个来源年份 / 求职季单元与指定官方表对齐。发现清单仍为 139 个 Marketing 项目线索，不能当作已覆盖项目。默认历史首职筛选显示 88 人；11 条首职或年份待核验记录可用新增筛选查看。另有 1 条首职年为 2022 的保留档案。详见 [第二批修订与缺口](docs/BATCH-2-2026-10-08.md)；[第一批记录](docs/BATCH-2026-10-08.md)继续保留。
+当前版本 **0.4.0：296 人，本轮新增 182 人**。Marketing 标签 270 人，CB 标签 37 人，明确的 2026–27 当季记录 14 人。当前默认近四年名录显示 280 人；严格按 2023–2026 首职年筛选为 132 人。149 条首职或年份仍待核验，保留在名录中，不能直接进入首职年度图。
+
+目标范围固定为 **北美 Marketing 研究前 50、港五、新加坡三所**。依据 UTD 四本 Marketing 期刊的 2021–2025 北美研究产出结果，含美国 46 所、加拿大 4 所、香港 5 所、新加坡 3 所。58 所中 53 所找到对应博士项目资料，47 所已有实名记录（264 人）；其余记录保留在扩展档案。研究排名不代表就业质量或一定开设博士项目。107 个来源年份 / 求职季单元与所查表对齐，**所有整届完整性标记仍为未确认**。
+
+选校依据、全部 58 校进度与缺口见 [本轮修订记录](docs/SCOPE-58-2026-10-08.md)。[第二批](docs/BATCH-2-2026-10-08.md)和[第一批](docs/BATCH-2026-10-08.md)记录继续保留。网站覆盖页默认显示全部目标学校，缺资料的学校不会被隐藏。
 
 ## 使用与预览
 
@@ -20,9 +24,9 @@ Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial 
 
 1. 编辑 `data/records.json`。人员使用稳定 id，一人一条记录，领域允许多标签。`dist/data/record-template.json` 提供新增条目模板。
 2. 在 `config.json` 更新 `current_cycle`（例如 `2027-2028`）、默认最近四年 `history_years`（例如 `[2024,2025,2026,2027]`）、版本、发布日期和更新说明。旧记录保留；旧年份自动留在时间筛选里。
-3. 新增项目写入 `data/programs.json`，逐项目年度核验记录写入 `data/coverage.json`，当季官方发布进度写入 `data/release-notes.json`。日期应来自来源，不因刷新自动更改个人 `checked_at`。
+3. 当前选校清单在 `data/scope.json`；跨年可沿用，不要随排名刷新静默改变历史范围。需改范围时先保留旧清单快照，再创建新版本。新增项目写入 `data/programs.json`，逐项目年度核验记录写入 `data/coverage.json`，当季官方发布进度写入 `data/release-notes.json`。日期应来自来源，不因刷新自动更改个人 `checked_at`。
 4. 执行 `node scripts/sync-data.mjs`，再执行 `node scripts/check.mjs` 和 `node --check dist/app.js`。
-5. 在本地查看筛选和个人详情后发布。完成 GitHub Pages 设置后，将更新提交到 `main` 会自动检查并发布；现有 Sites 私有预览仍可单独维护。`dist` 是部署资产。历史源文件和发布版本可追溯。
+5. 在本地查看筛选和个人详情后发布。完成 GitHub Pages 设置后，将更新提交到 `main` 会自动检查并发布。`dist` 是部署资产。历史源文件和发布版本可追溯。
 
 ## GitHub 部署与分阶段改进
 
@@ -53,4 +57,4 @@ Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial 
 
 `scripts/check.mjs` 校验唯一人员、来源、领域、日期和资产，并检查当前季已获岗位者仍保留、历史分母排除未知、身份未知不误分类、跨领域人数去重，以及跨年配置生效。
 
-站点使用静态 HTML/CSS/JavaScript，无数据库、账户管理或分析追踪。GitHub 仓库与 Pages 网站公开；原 Sites 预览为所有者私有。
+站点使用静态 HTML/CSS/JavaScript，无数据库、账户管理或分析追踪。GitHub 仓库与 Pages 网站公开。

@@ -1,6 +1,8 @@
 # 分阶段完善网站
 
-2026-10-08 范围修订：用户要求 Marketing 全方向纳入，包括 Quantitative Marketing、Consumer Behavior 和其他 Marketing 方向。收集单位为目标地区的博士年度名单，不限于能明确分类为 Quant 的候选人。研究方向作为后续筛选标签；Economics IO 部分继续保留。已完成两批扩充，总记录为 114 人；仍未完成全地区、全项目、全 cohort 覆盖。
+2026-10-08 范围修订：用户要求 Marketing 全方向纳入，包括 Quantitative Marketing、Consumer Behavior 和其他 Marketing 方向。收集单位为目标地区的博士年度名单，不限于能明确分类为 Quant 的候选人。研究方向作为后续筛选标签；Economics IO 部分继续保留。已完成三轮扩充，总记录为 296 人；选校范围固定为 UTD 四本 Marketing 期刊 2021–2025 北美研究前 50、港五、新加坡三所。58 所全部显示，53 所找到博士项目资料，47 所已有实名记录；仍未完成全 cohort 覆盖。
+
+最新修订与逐校索引见 [58 校记录](SCOPE-58-2026-10-08.md)。下方早期阶段数字保留为历史交付记录。
 
 ## 当前缺口
 

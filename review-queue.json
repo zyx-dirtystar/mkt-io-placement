@@ -6,21 +6,6 @@
     "research_file": "us-marketing-extra.json"
   },
   {
-    "name": "Siddharth Prusty",
-    "reason": "待补证",
-    "research_file": "us-marketing-extra.json"
-  },
-  {
-    "name": "Lan E. Luo",
-    "reason": "待补证",
-    "research_file": "us-marketing-extra.json"
-  },
-  {
-    "name": "Jasmine Y. Yang",
-    "reason": "待补证",
-    "research_file": "us-marketing-extra.json"
-  },
-  {
     "name": "Da He",
     "reason": [
       "Analytical game-theoretic work and a blog tile mentioning Quant Marketing are suggestive, but no sufficiently clear explicit classification was established. Keep outside a strict confirmed-Quant cohort until reviewed.",
@@ -55,6 +40,36 @@
         "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
       }
     ],
+    "checked_at": "2026-10-08"
+  },
+  {
+    "name": "Qiaochu Wang",
+    "school": "Carnegie Mellon University",
+    "reason": "NYU 官方页确认 Business Technologies 博士；虽在 Marketing 任教，不能归入 CMU Marketing 培养项目。扩展领域归属待审。",
+    "sources": [
+      {
+        "label": "NYU 官方个人页",
+        "url": "https://www.stern.nyu.edu/faculty/bio/qiaochu-wang"
+      }
+    ],
+    "checked_at": "2026-10-08"
+  },
+  {
+    "name": "Xu Zhu",
+    "school": "Chinese University of Hong Kong",
+    "reason": "导师 CV 列为毕业生，但确切毕业年和初始去向仍待补证。",
+    "checked_at": "2026-10-08"
+  },
+  {
+    "name": "Gizem Ceylan",
+    "school": "University of Southern California",
+    "reason": "AMA DocSIG 2024 招聘表有 Ohio State，但可能经历毕业后博后；不能自动当作 2024 PhD 首职。",
+    "checked_at": "2026-10-08"
+  },
+  {
+    "name": "Matt Healey",
+    "school": "Washington University in St. Louis",
+    "reason": "AMA DocSIG 2024 招聘表有 Ivey；博士年份与首职顺序尚待核验。",
     "checked_at": "2026-10-08"
   }
 ]

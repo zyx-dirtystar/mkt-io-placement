@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {auditPeriods,findAudit,selectPrograms,AUDIT_STATUS} from '../dist/coverage-view.js';
+import {auditPeriods,findAudit,selectPrograms,scopeRows,AUDIT_STATUS} from '../dist/coverage-view.js';
 import assert from 'node:assert/strict';
 import {filterRecords,summarize,backgroundMatches,configure,REGIONS,JOBS} from '../dist/core.js';
 const records=JSON.parse(fs.readFileSync('dist/data/records.json','utf8'));
@@ -24,7 +24,7 @@ console.log(JSON.stringify({result:'passed',records:records.length,schools:new S
 const programs=catalog.programs,coverage=catalog.coverage;
 assert.equal(new Set(programs.map(p=>p.id)).size,programs.length,'Duplicate program IDs');
 assert.equal(new Set(coverage.map(c=>c.program_id+'|'+c.period)).size,coverage.length,'Duplicate audit cells');
-for(const p of programs){assert.ok(['marketing','economics'].includes(p.kind));assert.ok(['verified','pending'].includes(p.eligibility));assert.ok(p.sources.length);}
+for(const p of programs){assert.ok(['marketing','economics'].includes(p.kind));assert.ok(['verified','pending','not_identified'].includes(p.eligibility));assert.ok(p.sources.length);}
 for(const r of records){
   const p=programs.find(p=>p.id===r.program_id);
   assert.ok(p&&p.school===r.school&&p.region===r.origin,'Wrong program membership: '+r.id);
@@ -90,7 +90,39 @@ assert.equal(records.find(r=>r.id==='ntu-lingyu-lin').market_cycle,'2025-2026','
 const hku=programs.find(p=>p.school==='University of Hong Kong'&&p.kind==='marketing');
 const anonymous={...catalog,coverage:[{...findAudit(catalog,hku.id,'2024'),listed_count:null,status:'partial'}]};
 assert.equal(findAudit(anonymous,hku.id,'2024').listed_count,null,'An anonymous destination list is not a person denominator');
-assert.equal(selectPrograms(catalog,{q:'University of Hong Kong',region:'HK',kind:'marketing',progress:'checked'}).length,1);
+assert.ok(selectPrograms(catalog,{q:'University of Hong Kong',region:'HK',kind:'marketing',progress:'checked'}).some(p=>p.id===hku.id));
 const nw=programs.find(p=>p.school==='Northwestern University'&&p.kind==='marketing');
 for(const id of ['northwestern-samuel-su','northwestern-caroline-wang','northwestern-andrew-wooders'])assert.ok(findAudit(catalog,nw.id,'2026-2027').record_ids.includes(id),'Keep observed candidates when a rolling list expands');
 console.log(JSON.stringify({batch2:'passed',checks:'unresolved filter, career conflicts, missing outcomes, stale candidate pages, unknown denominators, current season'}));
+
+// A cohort record can be discoverable without being eligible for a first-job trend.
+const cohortUnknown={...noOutcome,id:'cohort-unknown',source_cohort_year:catalog.history_years[0],target_scope:catalog.scope.id};
+const cohortCurrent={...market,source_cohort_year:catalog.history_years.at(-1),target_scope:catalog.scope.id};
+assert.deepEqual(filterRecords([cohortUnknown,cohortCurrent],{period:'cohorts'}).map(r=>r.id),['cohort-unknown']);
+assert.equal(filterRecords([cohortUnknown],{period:'history'}).length,0);
+assert.equal(summarize([cohortUnknown]).known,0);
+assert.equal(filterRecords([cohortUnknown,{...cohortUnknown,id:'extension',target_scope:null}],{scope:'target'}).length,1);
+assert.equal(filterRecords([cohortUnknown,{...cohortUnknown,id:'extension',target_scope:null}],{scope:'extension'}).length,1);
+const scope=catalog.scope,targets=scopeRows(catalog),targetIds=new Set(targets.map(p=>p.program_id));
+assert.equal(scope.ranking.rows.length,50,'The selected research universe is 50 North American schools');
+assert.equal(new Set(scope.ranking.rows.map(p=>p.school)).size,50);
+assert.equal(scope.ranking.journals.length,4);
+assert.equal(scope.asia.filter(p=>p.region==='HK').length,5);
+assert.equal(scope.asia.filter(p=>p.region==='SG').length,3);
+assert.equal(targetIds.size,58);
+for(const row of targets){const p=programs.find(p=>p.id===row.program_id);assert.ok(p?.target_scope);assert.equal(p.region,row.region);assert.equal(p.school,row.school);assert.equal(p.kind,'marketing');}
+for(const r of records)assert.equal(Boolean(r.target_scope),targetIds.has(r.program_id),'Scope follows training program, not hiring institution or a field tag');
+const targetSelection=selectPrograms(catalog,{q:'',region:'all',kind:'all',progress:'all',scope:'target'});
+assert.equal(targetSelection.length,58,'The coverage view must not hide schools lacking people');
+assert.equal(selectPrograms(catalog,{q:'City University of Hong Kong',region:'HK',kind:'marketing',progress:'all',scope:'target'}).length,1);
+assert.ok(targetSelection.some(p=>p.eligibility==='not_identified'),'Research rank does not imply a Marketing doctorate exists');
+assert.equal(filterRecords(records,{period:'cohorts'}).some(r=>r.id==='york-university-rowan-el-bialy'),true,'Graduates without a known job remain discoverable');
+assert.equal(findAudit(catalog,'university-of-california-san-diego-marketing','2023').record_ids.length,2,'Multiple source passes must not drop earlier names');
+assert.equal(records.find(r=>r.name==='Junqiu Jiang').placement_year,2024,'Prefer dated personal employment evidence to a conflicting alumni label');
+assert.equal(records.find(r=>r.name==='Tsung-Yiou Hsieh').destination,null,'Unresolved parallel 2023 jobs must not become a 2025 faculty first job');
+assert.ok(fs.existsSync('dist/data/scope.json'));
+assert.deepEqual(JSON.parse(fs.readFileSync('dist/data/scope.json','utf8')),scope);
+configure({currentCycle:'2027-2028',historyYears:[2024,2025,2026,2027]});
+assert.equal(filterRecords([{...cohortUnknown,source_cohort_year:2027}],{period:'cohorts'}).length,1,'Cohort discovery rolls forward with configuration');
+configure({currentCycle:catalog.current_cycle,historyYears:catalog.history_years});
+console.log(JSON.stringify({scope58:'passed',targetSchools:targetIds.size,checks:'scope membership, visible gaps, unknown outcomes, career sequence, multi-source reconciliation, yearly rollover'}));

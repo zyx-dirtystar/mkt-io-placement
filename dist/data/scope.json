@@ -1,0 +1,465 @@
+{
+  "id": "marketing-na50-hk5-sg3-2021-2025",
+  "label": "北美 Marketing 研究前 50 · 港五 · 新加坡三所",
+  "frozen_at": "2026-10-08",
+  "ranking": {
+    "provider": "UT Dallas Rankings by Journal",
+    "start_year": 2021,
+    "end_year": 2025,
+    "region": "North America",
+    "journals": [
+      "Journal of Consumer Research",
+      "Journal of Marketing",
+      "Journal of Marketing Research",
+      "Marketing Science"
+    ],
+    "methodology_url": "https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/index.php",
+    "source_url": "https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/search#rankingsByJournal",
+    "selection": "官方页面四刊均为橙色选中；结果标题 North American 2021-2025；按官方展示顺序保留前 50（第 50 与 51 分数不同）。",
+    "rows": [
+      {
+        "program_id": "university-of-pennsylvania-marketing",
+        "rank": 1,
+        "articles": 59,
+        "score": 27.17,
+        "school": "University of Pennsylvania",
+        "region": "US"
+      },
+      {
+        "program_id": "columbia-university-marketing",
+        "rank": 2,
+        "articles": 55,
+        "score": 26.09,
+        "school": "Columbia University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-chicago-marketing",
+        "rank": 3,
+        "articles": 52,
+        "score": 23.14,
+        "school": "University of Chicago",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-washington-marketing",
+        "rank": 4,
+        "articles": 41,
+        "score": 17.68,
+        "school": "University of Washington",
+        "region": "US"
+      },
+      {
+        "program_id": "cornell-university-marketing",
+        "rank": 5,
+        "articles": 40,
+        "score": 17.36,
+        "school": "Cornell University",
+        "region": "US"
+      },
+      {
+        "program_id": "northwestern-university-marketing",
+        "rank": 6,
+        "articles": 39,
+        "score": 16.51,
+        "school": "Northwestern University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-texas-at-dallas-marketing",
+        "rank": 7,
+        "articles": 24,
+        "score": 14.16,
+        "school": "University of Texas at Dallas",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-southern-california-marketing",
+        "rank": 8,
+        "articles": 32,
+        "score": 14.06,
+        "school": "University of Southern California",
+        "region": "US"
+      },
+      {
+        "program_id": "indiana-university-marketing",
+        "rank": 9,
+        "articles": 35,
+        "score": 13.81,
+        "school": "Indiana University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-wisconsin-madison-marketing",
+        "rank": 10,
+        "articles": 33,
+        "score": 13.65,
+        "school": "University of Wisconsin-Madison",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-maryland-marketing",
+        "rank": 11,
+        "articles": 30,
+        "score": 13.33,
+        "school": "University of Maryland",
+        "region": "US"
+      },
+      {
+        "program_id": "yale-university-marketing",
+        "rank": 12,
+        "articles": 31,
+        "score": 13.23,
+        "school": "Yale University",
+        "region": "US"
+      },
+      {
+        "program_id": "texas-a-m-university-marketing",
+        "rank": 13,
+        "articles": 31,
+        "score": 11.85,
+        "school": "Texas A&M University",
+        "region": "US"
+      },
+      {
+        "program_id": "new-york-university-marketing",
+        "rank": 14,
+        "articles": 31,
+        "score": 11.85,
+        "school": "New York University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-michigan-marketing",
+        "rank": 15,
+        "articles": 23,
+        "score": 11.46,
+        "school": "University of Michigan",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "rank": 16,
+        "articles": 26,
+        "score": 11.29,
+        "school": "University of North Carolina at Chapel Hill",
+        "region": "US"
+      },
+      {
+        "program_id": "duke-university-marketing",
+        "rank": 17,
+        "articles": 26,
+        "score": 10.89,
+        "school": "Duke University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-california-berkeley-marketing",
+        "rank": 18,
+        "articles": 22,
+        "score": 10.5,
+        "school": "University of California, Berkeley",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-british-columbia-marketing",
+        "rank": 19,
+        "articles": 28,
+        "score": 10.43,
+        "school": "University of British Columbia",
+        "region": "CA"
+      },
+      {
+        "program_id": "boston-university-marketing",
+        "rank": 20,
+        "articles": 24,
+        "score": 10.13,
+        "school": "Boston University",
+        "region": "US"
+      },
+      {
+        "program_id": "emory-university-marketing",
+        "rank": 21,
+        "articles": 19,
+        "score": 9.66,
+        "school": "Emory University",
+        "region": "US"
+      },
+      {
+        "program_id": "harvard-university-marketing",
+        "rank": 22,
+        "articles": 24,
+        "score": 8.71,
+        "school": "Harvard University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-houston-marketing",
+        "rank": 23,
+        "articles": 18,
+        "score": 8.68,
+        "school": "University of Houston",
+        "region": "US"
+      },
+      {
+        "program_id": "washington-university-in-st-louis-marketing",
+        "rank": 24,
+        "articles": 20,
+        "score": 8.36,
+        "school": "Washington University in St. Louis",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-toronto-marketing",
+        "rank": 25,
+        "articles": 22,
+        "score": 8,
+        "school": "University of Toronto",
+        "region": "CA"
+      },
+      {
+        "program_id": "university-of-texas-at-austin-marketing",
+        "rank": 26,
+        "articles": 18,
+        "score": 7.91,
+        "school": "University of Texas at Austin",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-california-los-angeles-marketing",
+        "rank": 27,
+        "articles": 17,
+        "score": 7.76,
+        "school": "University of California, Los Angeles",
+        "region": "US"
+      },
+      {
+        "program_id": "johns-hopkins-university-marketing",
+        "rank": 28,
+        "articles": 13,
+        "score": 7.75,
+        "school": "Johns Hopkins University",
+        "region": "US"
+      },
+      {
+        "program_id": "arizona-state-university-marketing",
+        "rank": 29,
+        "articles": 22,
+        "score": 7.75,
+        "school": "Arizona State University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-georgia-marketing",
+        "rank": 30,
+        "articles": 18,
+        "score": 7.73,
+        "school": "University of Georgia",
+        "region": "US"
+      },
+      {
+        "program_id": "stanford-university-marketing",
+        "rank": 31,
+        "articles": 19,
+        "score": 7.66,
+        "school": "Stanford University",
+        "region": "US"
+      },
+      {
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "rank": 32,
+        "articles": 20,
+        "score": 7.66,
+        "school": "Massachusetts Institute of Technology",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-rochester-marketing",
+        "rank": 33,
+        "articles": 12,
+        "score": 7.45,
+        "school": "University of Rochester",
+        "region": "US"
+      },
+      {
+        "program_id": "the-ohio-state-university-marketing",
+        "rank": 34,
+        "articles": 16,
+        "score": 7.45,
+        "school": "The Ohio State University",
+        "region": "US"
+      },
+      {
+        "program_id": "carnegie-mellon-university-marketing",
+        "rank": 35,
+        "articles": 17,
+        "score": 7.28,
+        "school": "Carnegie Mellon University",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-florida-marketing",
+        "rank": 36,
+        "articles": 17,
+        "score": 7,
+        "school": "University of Florida",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-notre-dame-marketing",
+        "rank": 37,
+        "articles": 22,
+        "score": 6.86,
+        "school": "University of Notre Dame",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-colorado-boulder-marketing",
+        "rank": 38,
+        "articles": 17,
+        "score": 6.62,
+        "school": "University of Colorado Boulder",
+        "region": "US"
+      },
+      {
+        "program_id": "dartmouth-college-marketing",
+        "rank": 39,
+        "articles": 15,
+        "score": 6.5,
+        "school": "Dartmouth College",
+        "region": "US"
+      },
+      {
+        "program_id": "pennsylvania-state-university-marketing",
+        "rank": 40,
+        "articles": 15,
+        "score": 6.45,
+        "school": "Pennsylvania State University",
+        "region": "US"
+      },
+      {
+        "program_id": "western-university-marketing",
+        "rank": 41,
+        "articles": 15,
+        "score": 6.28,
+        "school": "Western University",
+        "region": "CA"
+      },
+      {
+        "program_id": "university-of-south-carolina-marketing",
+        "rank": 42,
+        "articles": 15,
+        "score": 6.28,
+        "school": "University of South Carolina",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-minnesota-marketing",
+        "rank": 43,
+        "articles": 15,
+        "score": 6.12,
+        "school": "University of Minnesota",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-california-san-diego-marketing",
+        "rank": 44,
+        "articles": 12,
+        "score": 5.66,
+        "school": "University of California, San Diego",
+        "region": "US"
+      },
+      {
+        "program_id": "georgetown-university-marketing",
+        "rank": 45,
+        "articles": 16,
+        "score": 5.62,
+        "school": "Georgetown University",
+        "region": "US"
+      },
+      {
+        "program_id": "york-university-marketing",
+        "rank": 46,
+        "articles": 14,
+        "score": 5.41,
+        "school": "York University",
+        "region": "CA"
+      },
+      {
+        "program_id": "boston-college-marketing",
+        "rank": 47,
+        "articles": 11,
+        "score": 5.37,
+        "school": "Boston College",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-arizona-marketing",
+        "rank": 48,
+        "articles": 13,
+        "score": 5.27,
+        "school": "University of Arizona",
+        "region": "US"
+      },
+      {
+        "program_id": "university-of-pittsburgh-marketing",
+        "rank": 49,
+        "articles": 12,
+        "score": 5.25,
+        "school": "University of Pittsburgh",
+        "region": "US"
+      },
+      {
+        "program_id": "rice-university-marketing",
+        "rank": 50,
+        "articles": 14,
+        "score": 5.15,
+        "school": "Rice University",
+        "region": "US"
+      }
+    ]
+  },
+  "asia": [
+    {
+      "program_id": "chinese-university-of-hong-kong-marketing",
+      "school": "Chinese University of Hong Kong",
+      "region": "HK"
+    },
+    {
+      "program_id": "city-university-of-hong-kong-marketing",
+      "school": "City University of Hong Kong",
+      "region": "HK"
+    },
+    {
+      "program_id": "hong-kong-polytechnic-university-marketing",
+      "school": "Hong Kong Polytechnic University",
+      "region": "HK"
+    },
+    {
+      "program_id": "hong-kong-university-of-science-and-technology-marketing",
+      "school": "Hong Kong University of Science and Technology",
+      "region": "HK"
+    },
+    {
+      "program_id": "university-of-hong-kong-marketing",
+      "school": "University of Hong Kong",
+      "region": "HK"
+    },
+    {
+      "program_id": "nanyang-technological-university-marketing",
+      "school": "Nanyang Technological University",
+      "region": "SG"
+    },
+    {
+      "program_id": "national-university-of-singapore-marketing",
+      "school": "National University of Singapore",
+      "region": "SG"
+    },
+    {
+      "program_id": "singapore-management-university-marketing",
+      "school": "Singapore Management University",
+      "region": "SG"
+    }
+  ],
+  "notes": "排名衡量商学院研究产出，不是博士培养或就业质量排名。58 为目标学校数，不等于开设 Marketing 博士的学校数；项目资格独立核验。排名外既有记录保留为扩展档案。Economics IO 保留原有档案，不冒称 Marketing 排名也代表 IO 排名。年度更新保留本清单快照，改范围须新建版本。"
+}
