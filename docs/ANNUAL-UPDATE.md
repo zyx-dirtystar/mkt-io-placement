@@ -50,7 +50,8 @@ node server.mjs
 - `graduation_year`：只有明确毕业资料时填写。
 - `placement_year`：核验后的首职年份。若来源冲突尚未解决，保留 `null` 并写备注；仍可在“全部记录”与对应来源名单里看到。
 - `market_cycle`：例如 `2026-2027`，只有明确本季求职依据时填写。毕业年不能自动转换为求职季。
-- `status`：已知首职用 `placed`；有明确求职季的求职者用 `on_market`；历史名册中去向仍未知者用 `outcome_unknown`，雇主与首职年留空。
+- `status`：已知首职用 `placed`；有明确求职季的求职者用 `on_market`；历史名册中首职仍未知或职业顺序未厘清者用 `outcome_unknown`，雇主与首职年留空。已有工作但无法确认哪段算首职，也可以用这个待核验状态；不代表未就业。
+- `source_reported_placement`（可选）：来源表列出的机构，但尚不能确认为真正初始岗位时保留在这里。它会在个人详情与导出中展示，不进入首职统计。
 - `subsequent`：后续工作。先博士后、后教职，不能把后来的教职改写为首职。
 - `job_kind`：普通 Assistant Professor 用 `faculty`，只有明确终身轨依据才用 `tt`；visiting/adjunct 用 `non_tt`，博士后用 `postdoc`，企业岗位用 `industry`。
 - `identity`：未知继续 `unknown`，不能根据姓名或本科院校猜国籍、华裔身份。本科地区单独记。
@@ -69,3 +70,5 @@ node server.mjs
 `cohort_complete: false` 是目前所有单元的状态。仅把 placement 成功案例表录完，不能改成整届完整。需要独立的候选人/毕业生名册与人员范围交叉核对，明确缺失去向者也包含在内，才能确认整届分母。Marketing 整届与 Economics 的 IO 子集口径要写清。
 
 UBC 本批是一个例子：官方来源表把 Zining Wang 列在 2023，但 BC 官方 CV 明确 2024 年开始任职。因此其覆盖单元留在 2023，首职图计入 2024。不要为了让两个表人数一致而改掉实际日期。
+
+第二批的 Yu Zhao、Mohsen Foroughifar 是尚未解决的例子：来源表所报机构、毕业年和个人履历不能直接拼成首职。人员照常录入，首职保留未知，其他经历与冲突原因写清。名录的“去向 / 首职年待核验”筛选可以集中找到这些记录。只有匿名去向机构的表不能作为人员分母；核验格显示“已录入 / ?”。

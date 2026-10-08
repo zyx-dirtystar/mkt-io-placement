@@ -233,15 +233,19 @@
     "school": "University of Toronto",
     "region": "CA",
     "kind": "marketing",
-    "eligibility": "pending",
+    "eligibility": "verified",
     "sources": [
       {
         "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
         "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方博士项目 / 毕业及就业资料",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+    "notes": "已确认 Marketing 博士项目；校友就业页明确为选录且可能显示现职，来源名单完整不代表整届完整。"
   },
   {
     "id": "western-university-marketing",
@@ -407,25 +411,33 @@
       {
         "label": "官方项目或既有人员来源",
         "url": "https://phd.hkubs.hku.hk/programmes/fields-of-study"
+      },
+      {
+        "label": "官方博士项目 / 毕业及就业资料",
+        "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "项目存在与年度名单完整性分别核验。"
+    "notes": "已确认 Marketing 博士项目；官方学术去向只列机构、未列姓名，不能据此确定整届人数。"
   },
   {
     "id": "nanyang-technological-university-marketing",
     "school": "Nanyang Technological University",
     "region": "SG",
     "kind": "marketing",
-    "eligibility": "pending",
+    "eligibility": "verified",
     "sources": [
       {
         "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
         "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方博士项目 / 毕业及就业资料",
+        "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd"
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+    "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。"
   },
   {
     "id": "national-university-of-singapore-economics",
@@ -1055,15 +1067,19 @@
     "school": "Northwestern University",
     "region": "US",
     "kind": "marketing",
-    "eligibility": "pending",
+    "eligibility": "verified",
     "sources": [
       {
         "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
         "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方博士项目 / 毕业及就业资料",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+    "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。"
   },
   {
     "id": "oklahoma-state-university-marketing",
@@ -1914,15 +1930,19 @@
     "school": "University of Pennsylvania",
     "region": "US",
     "kind": "marketing",
-    "eligibility": "pending",
+    "eligibility": "verified",
     "sources": [
       {
         "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
         "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方博士项目 / 毕业及就业资料",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+    "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。"
   },
   {
     "id": "university-of-pittsburgh-marketing",

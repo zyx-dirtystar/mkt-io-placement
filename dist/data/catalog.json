@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0 · Marketing 全方向",
+  "version": "0.3.0 · 第二批名单核验",
   "updated_at": "2026-10-08",
   "current_cycle": "2026-2027",
   "history_years": [
@@ -8,7 +8,7 @@
     2025,
     2026
   ],
-  "change_note": "新增 25 人；按官方表核对 Harvard、Chicago Booth、UBC、HKUST、NUS 的 Marketing 历史名单，新增 CB 筛选及逐项目年度核验矩阵。AMA 目录用于建立待核实项目清单，不能当作已完成覆盖。毕业年、名单年份和首职年分别保留；整届完整性仍待核实。",
+  "change_note": "新增 38 人，总计 114 人。扩充 Northwestern、Penn、Toronto、HKU、NTU 的 Marketing 全方向资料；录入 Kellogg 2026–27 名单目前公布的 3 人。保留去向未知及首职冲突，校友现职不直接当作首职。共 28 个项目年度/求职季单元与指定官方表对齐，仍不代表整届或全市场完整。",
   "exhaustive": false,
   "programs": [
     {
@@ -245,15 +245,19 @@
       "school": "University of Toronto",
       "region": "CA",
       "kind": "marketing",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
           "url": "https://www.ama.org/phd-programs-in-marketing/"
+        },
+        {
+          "label": "官方博士项目 / 毕业及就业资料",
+          "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
         }
       ],
       "checked_at": "2026-10-08",
-      "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+      "notes": "已确认 Marketing 博士项目；校友就业页明确为选录且可能显示现职，来源名单完整不代表整届完整。"
     },
     {
       "id": "western-university-marketing",
@@ -419,25 +423,33 @@
         {
           "label": "官方项目或既有人员来源",
           "url": "https://phd.hkubs.hku.hk/programmes/fields-of-study"
+        },
+        {
+          "label": "官方博士项目 / 毕业及就业资料",
+          "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
         }
       ],
       "checked_at": "2026-10-08",
-      "notes": "项目存在与年度名单完整性分别核验。"
+      "notes": "已确认 Marketing 博士项目；官方学术去向只列机构、未列姓名，不能据此确定整届人数。"
     },
     {
       "id": "nanyang-technological-university-marketing",
       "school": "Nanyang Technological University",
       "region": "SG",
       "kind": "marketing",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
           "url": "https://www.ama.org/phd-programs-in-marketing/"
+        },
+        {
+          "label": "官方博士项目 / 毕业及就业资料",
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd"
         }
       ],
       "checked_at": "2026-10-08",
-      "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+      "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。"
     },
     {
       "id": "national-university-of-singapore-economics",
@@ -1067,15 +1079,19 @@
       "school": "Northwestern University",
       "region": "US",
       "kind": "marketing",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
           "url": "https://www.ama.org/phd-programs-in-marketing/"
+        },
+        {
+          "label": "官方博士项目 / 毕业及就业资料",
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
         }
       ],
       "checked_at": "2026-10-08",
-      "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+      "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。"
     },
     {
       "id": "oklahoma-state-university-marketing",
@@ -1926,15 +1942,19 @@
       "school": "University of Pennsylvania",
       "region": "US",
       "kind": "marketing",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
           "url": "https://www.ama.org/phd-programs-in-marketing/"
+        },
+        {
+          "label": "官方博士项目 / 毕业及就业资料",
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
         }
       ],
       "checked_at": "2026-10-08",
-      "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+      "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。"
     },
     {
       "id": "university-of-pittsburgh-marketing",
@@ -4294,62 +4314,110 @@
     {
       "program_id": "northwestern-university-marketing",
       "period": "2023",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 2,
+      "record_ids": [
+        "yingkang-xie-2023",
+        "youngeun-lee-2023"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        }
+      ],
+      "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
     },
     {
       "program_id": "northwestern-university-marketing",
       "period": "2024",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 4,
+      "record_ids": [
+        "malika-korganbekova-2024",
+        "northwestern-julia-jeong",
+        "northwestern-jane-jiaqian-wang",
+        "northwestern-bindan-zhang"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        }
+      ],
+      "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
     },
     {
       "program_id": "northwestern-university-marketing",
       "period": "2025",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 5,
+      "record_ids": [
+        "northwestern-joseph-abruzzo",
+        "northwestern-jocelyn-grabke",
+        "northwestern-seo-young-myaeng",
+        "northwestern-sarena-su",
+        "northwestern-jason-zhao"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        }
+      ],
+      "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
     },
     {
       "program_id": "northwestern-university-marketing",
       "period": "2026",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 4,
+      "record_ids": [
+        "northwestern-jesse-dagostino",
+        "northwestern-jessie-jia",
+        "northwestern-matejas-mackin",
+        "northwestern-xuekang-wu"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        }
+      ],
+      "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
     },
     {
       "program_id": "northwestern-university-marketing",
       "period": "2026-2027",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 3,
+      "record_ids": [
+        "northwestern-samuel-su",
+        "northwestern-caroline-wang",
+        "northwestern-andrew-wooders"
+      ],
+      "year_basis": "market_cycle",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "Kellogg 2026–27 滚动名单",
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+        }
+      ],
+      "notes": "2026-10-08 已对齐官方 Marketing 栏目前列出的 Samuel Su、Caroline Wang、Andrew Wooders 三人。官网说明名单仍会更新，因此不是最终完整 cohort。"
     },
     {
       "program_id": "the-ohio-state-university-marketing",
@@ -7513,62 +7581,105 @@
     {
       "program_id": "university-of-pennsylvania-marketing",
       "period": "2023",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 1,
+      "record_ids": [
+        "penn-ada-aka"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        }
+      ],
+      "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
     },
     {
       "program_id": "university-of-pennsylvania-marketing",
       "period": "2024",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 3,
+      "record_ids": [
+        "penn-mingyung-kim",
+        "penn-andrew-morningstar",
+        "penn-yu-zhao"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        }
+      ],
+      "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
     },
     {
       "program_id": "university-of-pennsylvania-marketing",
       "period": "2025",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 7,
+      "record_ids": [
+        "hangcheng-zhao-2025",
+        "yihao-yuan-2025",
+        "penn-shannon-duncan",
+        "penn-henrique-laurino",
+        "penn-ekaterina-goncharova",
+        "penn-anna-gao",
+        "penn-siyuan-yin"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        }
+      ],
+      "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
     },
     {
       "program_id": "university-of-pennsylvania-marketing",
       "period": "2026",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 3,
+      "record_ids": [
+        "penn-rachele-ciulli",
+        "penn-anya-shchetkina",
+        "penn-jiani-xue"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        }
+      ],
+      "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
     },
     {
       "program_id": "university-of-pennsylvania-marketing",
       "period": "2026-2027",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "market_cycle",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "Wharton 当前博士生目录",
+          "url": "https://marketing.wharton.upenn.edu/contact-us/phdstudentscontact/"
+        }
+      ],
+      "notes": "当前博士生目录有姓名，但未明确这些人属于 2026–27 求职季；不能把全体在读博士生当作本季求职者。尚未核实完整当季名单。"
     },
     {
       "program_id": "university-of-pittsburgh-marketing",
@@ -9879,62 +9990,96 @@
     {
       "program_id": "university-of-toronto-marketing",
       "period": "2023",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 3,
+      "record_ids": [
+        "toronto-moein-javadian",
+        "toronto-wei-lu",
+        "toronto-mohsen-foroughifar"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+        }
+      ],
+      "notes": "已对齐官方校友选录中该毕业年列出的全部姓名；该表展示部分校友当前就业，不是完整首职 cohort。2023 另从本人 CV 补录 Vivek Nandur，不加入这张三人表的分母。"
     },
     {
       "program_id": "university-of-toronto-marketing",
       "period": "2024",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 1,
+      "record_ids": [
+        "toronto-ying-zeng"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+        }
+      ],
+      "notes": "已对齐官方校友选录中该毕业年列出的全部姓名；该表展示部分校友当前就业，不是完整首职 cohort。2023 另从本人 CV 补录 Vivek Nandur，不加入这张三人表的分母。"
     },
     {
       "program_id": "university-of-toronto-marketing",
       "period": "2025",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 2,
+      "record_ids": [
+        "toronto-lorenzo-cecutti",
+        "toronto-verina-que"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+        }
+      ],
+      "notes": "已对齐官方校友选录中该毕业年列出的全部姓名；该表展示部分校友当前就业，不是完整首职 cohort。2023 另从本人 CV 补录 Vivek Nandur，不加入这张三人表的分母。"
     },
     {
       "program_id": "university-of-toronto-marketing",
       "period": "2026",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+        }
+      ],
+      "notes": "本次查阅的官方页面没有足够资料建立该年完整姓名名册；名单人数保留未知，不推断零毕业生。"
     },
     {
       "program_id": "university-of-toronto-marketing",
       "period": "2026-2027",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "market_cycle",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "Rotman 求职页面",
+          "url": "https://rotman.utoronto.ca/programs/phd-program/students-on-the-market/"
+        }
+      ],
+      "notes": "Marketing 栏仍显示 Ying Zeng，接收单位已确认其 2024 年入职。此页面内容过时，不能用于认定 2026–27 名单；也不能推断本季没有候选人。"
     },
     {
       "program_id": "western-university-marketing",
@@ -10445,62 +10590,100 @@
     {
       "program_id": "nanyang-technological-university-marketing",
       "period": "2023",
-      "status": "not_started",
-      "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "status": "source_reconciled",
+      "listed_count": 2,
+      "record_ids": [
+        "ntu-qing-tang",
+        "ntu-ruoding-wang"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd"
+        }
+      ],
+      "notes": "已对齐 Marketing 毕业生表的两位 2023 毕业生；其中一位去向未公开。整届是否穷尽仍需独立名册。"
     },
     {
       "program_id": "nanyang-technological-university-marketing",
       "period": "2024",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd"
+        }
+      ],
+      "notes": "本次查阅的官方页面没有足够资料建立该年完整姓名名册；名单人数保留未知，不推断零毕业生。"
     },
     {
       "program_id": "nanyang-technological-university-marketing",
       "period": "2025",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd"
+        }
+      ],
+      "notes": "本次查阅的官方页面没有足够资料建立该年完整姓名名册；名单人数保留未知，不推断零毕业生。"
     },
     {
       "program_id": "nanyang-technological-university-marketing",
       "period": "2026",
-      "status": "not_started",
+      "status": "partial",
       "listed_count": null,
-      "record_ids": [],
+      "record_ids": [
+        "ntu-lingyu-lin"
+      ],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "officially hosted faculty cv",
+          "url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf"
+        },
+        {
+          "label": "official program candidate roster",
+          "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/on-the-job-market-candidates"
+        },
+        {
+          "label": "official employer profile",
+          "url": "https://fob.cityu.edu.mo/en/full-time-academic-staff/1003"
+        }
+      ],
+      "notes": "已通过个人及接收单位资料确认 Lingyu Lin 2026 首职；2026 全体毕业生名单仍未取得，人数分母未知。此单元按任职年线索记录，未推定毕业年。"
     },
     {
       "program_id": "nanyang-technological-university-marketing",
       "period": "2026-2027",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "market_cycle",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "NTU 全校商学院求职页",
+          "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/on-the-job-market-candidates"
+        }
+      ],
+      "notes": "页面明确是 2025/2026 季，Marketing 列 Lin Lingyu。已有 CityU Macau 官方 CV 确认其 2026 首职，继续保留原 2025–26 求职季；未把此旧页面改记为新季。"
     },
     {
       "program_id": "national-university-of-singapore-marketing",
@@ -10592,62 +10775,91 @@
     {
       "program_id": "university-of-hong-kong-marketing",
       "period": "2023",
-      "status": "not_started",
+      "status": "partial",
       "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "record_ids": [
+        "hku-wanyi-zheng"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+        }
+      ],
+      "notes": "官方仅列 2023 毕业生去向 HKBU，未列姓名；与 Wanyi Zheng 学位和 2023 任职证据对应后录入。机构列表不是人员总数分母，仍不能确认完整姓名名册。"
     },
     {
       "program_id": "university-of-hong-kong-marketing",
       "period": "2024",
-      "status": "not_started",
+      "status": "partial",
       "listed_count": null,
-      "record_ids": [],
-      "year_basis": null,
+      "record_ids": [
+        "hku-zhengyu-shi"
+      ],
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+        }
+      ],
+      "notes": "官方列 Lingnan 与 SJTU 两个学术去向，但未列姓名或人数。已交叉核验 Zhengyu Shi；Lingnan 的 Xunchang (Krystal) Fang 为待核对线索，其博士及首职年份还需证据，不强行匹配到 2024。"
     },
     {
       "program_id": "university-of-hong-kong-marketing",
       "period": "2025",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+        }
+      ],
+      "notes": "Marketing 部分尚无该毕业年度的公开去向 / 姓名表。院系其他学科的 2025 数据不能移用到 Marketing。"
     },
     {
       "program_id": "university-of-hong-kong-marketing",
       "period": "2026",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+        }
+      ],
+      "notes": "Marketing 部分尚无该毕业年度的公开去向 / 姓名表。院系其他学科的 2025 数据不能移用到 Marketing。"
     },
     {
       "program_id": "university-of-hong-kong-marketing",
       "period": "2026-2027",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
-      "year_basis": null,
+      "year_basis": "market_cycle",
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-08",
+      "sources": [
+        {
+          "label": "官方年度来源",
+          "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+        }
+      ],
+      "notes": "官方 Job Market Candidates 链接本次未能读取；未取得可核验的 2026–27 Marketing 名单。链接读取失败不等于未发布或零候选人。"
     },
     {
       "program_id": "hong-kong-polytechnic-university-marketing",
@@ -11879,6 +12091,31 @@
       "school": "NUS Economics",
       "note": "2026–27 名单待发布；未把毕业年份当作 placement 年。",
       "url": "https://fass.nus.edu.sg/ecs/phd-job-market-candidates/"
+    },
+    {
+      "school": "Northwestern University",
+      "note": "2026–27 官方 Marketing 栏已列 3 人，本版已录入；官方说明还会滚动更新。",
+      "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+    },
+    {
+      "school": "University of Toronto",
+      "note": "求职页仍列已于 2024 年入职的 Ying Zeng，暂不能作为 2026–27 名册。",
+      "url": "https://rotman.utoronto.ca/programs/phd-program/students-on-the-market/"
+    },
+    {
+      "school": "University of Pennsylvania",
+      "note": "当前博士生目录不等于本季求职名单；本版未据此推定所有学生都上市场。",
+      "url": "https://marketing.wharton.upenn.edu/contact-us/phdstudentscontact/"
+    },
+    {
+      "school": "Nanyang Technological University",
+      "note": "求职页仍注明 2025/2026。Lin Lingyu 已有 2026 任职证据，不重复纳入新季。",
+      "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/on-the-job-market-candidates"
+    },
+    {
+      "school": "University of Hong Kong",
+      "note": "求职名单链接本次未能读取；2026–27 Marketing 候选人范围仍待核验。",
+      "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
     }
   ]
 }

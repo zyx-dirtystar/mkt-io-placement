@@ -40,5 +40,21 @@
     "name": "Maximiliano Machado",
     "reason": "2026-2027 cycle is present only in a researcher-curated third-party list; personal webpage confirms PhD status and IO but not market cycle.",
     "research_file": "ca-hk-sg.json"
+  },
+  {
+    "name": "Xunchang (Krystal) Fang",
+    "school": "University of Hong Kong",
+    "reason": "Lingnan 官方页确认 HKU Marketing 博士及 Research Assistant Professor，但尚未确认毕业与首职年，不能强配 HKU 2024 匿名 Lingnan 去向。",
+    "sources": [
+      {
+        "label": "Lingnan 官方个人页",
+        "url": "https://www.ln.edu.hk/mkt/faculty-staff/staff-list/fang-xunchang-krystal"
+      },
+      {
+        "label": "HKU 匿名毕业去向表",
+        "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+      }
+    ],
+    "checked_at": "2026-10-08"
   }
 ]

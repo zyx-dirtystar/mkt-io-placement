@@ -1,5 +1,72 @@
 [
   {
+    "id": "penn-ada-aka",
+    "name": "Ada Aka",
+    "school": "University of Pennsylvania",
+    "program": "Joint PhD in Marketing and Psychology",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Consumer Memory",
+      "Decision Making",
+      "Computational Psychology"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [
+      "实验方法",
+      "文本分析"
+    ],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Stanford University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Stanford 官方明确 consumer behavior 与记忆决策研究；计算心理学方法不自动等于 Quant Marketing。",
+    "undergraduate": {
+      "institution": "Duke University",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.gsb.stanford.edu/faculty-research/faculty/ada-aka"
+      },
+      {
+        "label": "Stanford 2023 新教员名单",
+        "url": "https://facultydevelopment.stanford.edu/people/2023"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 Stanford 官方 2023 新教员名单确认入职年与教职，非博士后。"
+  },
+  {
     "id": "us-io-adam-harris",
     "name": "Adam Harris",
     "school": "Massachusetts Institute of Technology",
@@ -262,6 +329,120 @@
     "program_id": "duke-university-economics"
   },
   {
+    "id": "penn-andrew-morningstar",
+    "name": "Andrew Morningstar",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2024,
+    "graduation_year": 2024,
+    "status": "placed",
+    "destination": "Bristol Myers Squibb",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士名录确认项目归属；细分研究方向尚待核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 近期首职表",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "Wharton 校友表（首职栏 / 当前岗位栏）",
+        "url": "https://marketing.wharton.upenn.edu/phd-alumni/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "近期首职表列 Bristol Myers Squibb；较长校友表的首职栏为空、当前岗位栏列同机构。保留近期首职表依据，首职年与工作地点继续待核验。"
+  },
+  {
+    "id": "northwestern-andrew-wooders",
+    "name": "Andrew Wooders",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Empirical Industrial Organization",
+      "Asymmetric Information",
+      "Selection Markets",
+      "Product Returns",
+      "Auctions"
+    ],
+    "tracks": [
+      "marketing",
+      "qm",
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "定价与需求",
+      "隐私与信息"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "source_cohort_year": null,
+    "graduation_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Mitigating Customer Returns before Checkout: The Role of Selection and Moral Hazard",
+    "field_evidence": "本人明确 empirical industrial organization；Quant 标签依据实证 IO 研究内容，培养项目仍为 Marketing。",
+    "undergraduate": {
+      "institution": "University of Chicago",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 2026–27 官方 Marketing 候选人名单",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://sites.google.com/view/andrewwooders"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "本求职季依据 Kellogg 官方页；JMP 根据本人明确标注。"
+  },
+  {
     "id": "anmol-madan-2026-27",
     "name": "Anmol Madan",
     "school": "University of Texas at Dallas",
@@ -327,6 +508,244 @@
       "Quasi-experiments"
     ],
     "program_id": "university-of-texas-at-dallas-marketing"
+  },
+  {
+    "id": "penn-anna-gao",
+    "name": "Anna Gao",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Netflix Data Science",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士名录确认项目归属；细分研究方向尚待核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Wharton 确认首职机构/团队；毕业年为 2025，入职年、工作地点、职称与细分研究方向未确认。不能由 Data Science 工作推定其博士研究方向。"
+  },
+  {
+    "id": "penn-anya-shchetkina",
+    "name": "Anya Shchetkina",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Personalization",
+      "Privacy",
+      "Marketing Mix Modeling"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "因果推断",
+      "机器学习 / AI",
+      "优化与算法"
+    ],
+    "topics": [
+      "隐私与信息",
+      "广告与品牌",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": 2026,
+    "status": "placed",
+    "destination": "Massachusetts Institute of Technology",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "MIT 官方新教员介绍确认应用计量、因果推断和机器学习研究；按内容归为 Quant。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/meet-new-faculty-members-joining-mit-sloan-2026"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 入职年独立来自 MIT 2026 新教员公告。"
+  },
+  {
+    "id": "northwestern-bindan-zhang",
+    "name": "Bindan Zhang",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Creator Economy",
+      "Social Networks",
+      "Platform Design",
+      "Recommender Systems"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [],
+    "topics": [
+      "平台与数字市场",
+      "广告与品牌"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Chinese University of Hong Kong, Shenzhen",
+    "destination_region": "CN",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "接收单位明确写明 Quantitative Marketing 博士及研究领域。",
+    "undergraduate": {
+      "institution": "Sichuan University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://mscmkt.cuhk.edu.cn/en/node/3968"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。 深圳校区按中国大陆计数。"
+  },
+  {
+    "id": "northwestern-caroline-wang",
+    "name": "Caroline Wang",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Sustainability",
+      "Product Innovation",
+      "Digital Platforms"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "实验方法",
+      "因果推断",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "环境与能源"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "source_cohort_year": null,
+    "graduation_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": null,
+    "field_evidence": "本人明确 Quantitative Marketing；方法页列实验、因果推断、层级贝叶斯与机器学习。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 2026–27 官方 Marketing 候选人名单",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://carolinejunyuwang.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "本人和院系均明确本求职季；不把预计毕业年当作实际毕业年。",
+    "aliases": [
+      "Junyu Wang",
+      "Caroline Junyu Wang"
+    ]
   },
   {
     "id": "us-io-chanwool-kim",
@@ -547,6 +966,66 @@
     "subsequent": [],
     "checked_at": "2026-10-08",
     "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "penn-ekaterina-goncharova",
+    "name": "Ekaterina Goncharova",
+    "school": "University of Pennsylvania",
+    "program": "Joint PhD in Marketing and Psychology",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Income Volatility",
+      "Financial Decision Making"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Vanguard Behavioral Science",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "合作者公开列出其消费者财务决策研究与 SCP 博士论文奖；按内容归为 CB。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://wendydelarosa.com/research"
+      },
+      {
+        "label": "联合 Marketing / Psychology 博士项目名册",
+        "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 首职年份与实际工作地点尚待核验，不能使用公司总部替代工作地区。"
   },
   {
     "id": "ubc-ekin-ok",
@@ -1016,7 +1495,74 @@
       "Artificial intelligence",
       "Empirical IO"
     ],
-    "program_id": "university-of-pennsylvania-marketing"
+    "program_id": "university-of-pennsylvania-marketing",
+    "source_cohort_year": 2025,
+    "graduation_year": 2025
+  },
+  {
+    "id": "penn-henrique-laurino",
+    "name": "Henrique Laurino Dos Santos",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Bayesian Modeling",
+      "Machine Learning",
+      "Privacy-Restricted Data"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "机器学习 / AI",
+      "计量方法"
+    ],
+    "topics": [
+      "广告与品牌",
+      "隐私与信息"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "University of Oxford",
+    "destination_region": "UK",
+    "role": "Associate Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": "Analyzing Privacy-Restricted Clickstream Data Using Hawkes Processes",
+    "field_evidence": "本人明确 quantitative marketing methodologist，并列 Bayesian / ML 方法。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.henriquelaurino.com/"
+      },
+      {
+        "label": "Oxford 官方任职年份",
+        "url": "https://www.sbs.ox.ac.uk/about-us/people/henrique-laurino-dos-santos"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 Oxford 公告确认 2025 年加入，初始头衔为 Associate Professor，不改写为 Assistant Professor。"
   },
   {
     "id": "hung-ho-2026",
@@ -1161,6 +1707,64 @@
     "program_id": "stanford-university-economics"
   },
   {
+    "id": "northwestern-jason-zhao",
+    "name": "Jason Zhao",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing",
+      "Information Acquisition",
+      "Pharmaceutical Marketing",
+      "Limited Consideration"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Purdue University",
+    "destination_region": "US",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "作者论文确认 pharmaceutical marketing / limited consideration；本批仍待补充分支及岗位证据。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4598197"
+      },
+      {
+        "label": "官方博士毕业与论文名单",
+        "url": "https://www.northwestern.edu/tgs/documents/academic-policies-procedures/tgs_hoodingceremonyprogram_2025.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。"
+  },
+  {
     "id": "us-io-jaume-vives-i-bastida",
     "name": "Jaume Vives-i-Bastida",
     "school": "Massachusetts Institute of Technology",
@@ -1229,6 +1833,70 @@
     "source_file": "us-io-extra.json",
     "methods_original": [],
     "program_id": "massachusetts-institute-of-technology-economics"
+  },
+  {
+    "id": "northwestern-jesse-dagostino",
+    "name": "Jesse D'Agostino",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Persuasion",
+      "Word of Mouth",
+      "Social Signaling"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为",
+      "广告与品牌"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Bonsai",
+    "destination_region": "US",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "Kellogg 个人页明确列出 Consumer Behavior。",
+    "undergraduate": {
+      "institution": "University of Oregon",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://kelloggphds.northwestern.edu/jesse-dagostino/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。 官方表注明 Bonsai, Chicago；职位名称未确认，避免同名人员混淆。",
+    "aliases": [
+      "Jesse D’Agostino"
+    ]
   },
   {
     "id": "us-io-jesse-silbert",
@@ -1300,6 +1968,118 @@
     "program_id": "princeton-university-economics"
   },
   {
+    "id": "northwestern-jessie-jia",
+    "name": "Jessie Jia",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Goals and Motivation",
+      "Social Influence",
+      "Identity and Self-concept"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Hong Kong Polytechnic University",
+    "destination_region": "HK",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "根据 PolyU 官方简介中的消费者动机、身份与决策研究归为 CB。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.polyu.edu.hk/mm/people/academic-staff/dr-jessie-jia/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。",
+    "aliases": [
+      "Zhisui Jessie Jia",
+      "Jessie Zhisui Jia"
+    ]
+  },
+  {
+    "id": "penn-jiani-xue",
+    "name": "Jiani (Jenny) Xue",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": 2026,
+    "status": "placed",
+    "destination": "Kepler AI",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士名录确认项目归属；细分研究方向尚待核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Wharton 确认首职机构；2026 是博士毕业年。具体工作所在地、岗位、开始日期和研究细分方向待核验。",
+    "aliases": [
+      "Jenny Xue",
+      "Jiani Xue"
+    ]
+  },
+  {
     "id": "chicago-jiaqi-yu",
     "name": "Jiaqi Yu",
     "school": "University of Chicago",
@@ -1353,6 +2133,75 @@
     "subsequent": [],
     "checked_at": "2026-10-08",
     "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "northwestern-jane-jiaqian-wang",
+    "name": "Jiaqian (Jane) Wang",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Self and Identity",
+      "Moral Psychology",
+      "Inclusive Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [
+      "实验方法"
+    ],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "National University of Singapore",
+    "destination_region": "SG",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "个人主页以社会心理学、身份和道德判断解释消费，列出实验研究；按内容归为 CB。",
+    "undergraduate": {
+      "institution": "Peking University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.janejiaqianwang.com/"
+      },
+      {
+        "label": "NUS 官方 CV：2024 起任职",
+        "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2024/07/CV-Website-Jane-July2024.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。",
+    "aliases": [
+      "Jane Jiaqian Wang"
+    ]
   },
   {
     "id": "toronto-jie-fang",
@@ -1714,6 +2563,169 @@
     "program_id": "yale-university-economics"
   },
   {
+    "id": "northwestern-jocelyn-grabke",
+    "name": "Jocelyn Grabke",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Secondhand Consumption",
+      "Circular Economy"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Saint Mary's University",
+    "destination_region": "CA",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "接收单位列出二手消费研究；官方毕业论文讨论节俭购物的他人印象，按内容归为 CB。",
+    "undergraduate": {
+      "institution": "York University",
+      "region": "CA"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.smu.ca/researchers/sobey/profiles/jocelyn-grabke.html"
+      },
+      {
+        "label": "官方博士论文题目",
+        "url": "https://www.northwestern.edu/tgs/documents/academic-policies-procedures/tgs_hoodingceremonyprogram_2025.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。"
+  },
+  {
+    "id": "northwestern-joseph-abruzzo",
+    "name": "Joseph Abruzzo",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing",
+      "Social Networks",
+      "Attitude Strength"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Northwestern University",
+    "destination_region": "US",
+    "role": "Postdoctoral Scholar",
+    "job_kind": "postdoc",
+    "jmp": null,
+    "field_evidence": "毕业典礼名册确认 Marketing 归属及态度强度、友谊网络论文；细分方向暂不强判。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "2025 官方毕业典礼 Marketing 名单与论文",
+        "url": "https://www.northwestern.edu/tgs/documents/academic-policies-procedures/tgs_hoodingceremonyprogram_2025.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。"
+  },
+  {
+    "id": "northwestern-julia-jeong",
+    "name": "Julia Jeong",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Arkansas State University",
+    "destination_region": "US",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士名录确认项目归属；细分研究方向尚待核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。"
+  },
+  {
     "id": "us-io-kate-reinmuth",
     "name": "Kate Reinmuth",
     "school": "Stanford University",
@@ -1996,6 +3008,63 @@
     "program_id": "nanyang-technological-university-marketing"
   },
   {
+    "id": "toronto-lorenzo-cecutti",
+    "name": "Lorenzo Cecutti",
+    "school": "University of Toronto",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-toronto-marketing",
+    "origin": "CA",
+    "fields": [
+      "Consumer Behavior",
+      "Sensory Experience",
+      "Consumer Cognition",
+      "Decision Making"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "HEC Paris",
+    "destination_region": "FR",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "HEC 官方简介说明心理学与消费认知研究，按内容归为 CB。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Rotman 校友就业选录（含当前任职）",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.hec.edu/en/faculty-research/faculty-directory/faculty-member/cecutti-lorenzo"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 HEC 官方学术任职表明确 2025 起。"
+  },
+  {
     "id": "hkust-lulu-shi",
     "name": "Lulu Shi",
     "school": "Hong Kong University of Science and Technology",
@@ -2170,7 +3239,65 @@
       "Machine learning",
       "Empirical IO"
     ],
-    "program_id": "northwestern-university-marketing"
+    "program_id": "northwestern-university-marketing",
+    "source_cohort_year": 2024
+  },
+  {
+    "id": "northwestern-matejas-mackin",
+    "name": "Matejas Mackin",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Judgment and Decision Making",
+      "Counterfactual Thinking"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为",
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Northwestern University",
+    "destination_region": "US",
+    "role": "Postdoctoral Scholar",
+    "job_kind": "postdoc",
+    "jmp": null,
+    "field_evidence": "根据 Kellogg 官方研究介绍中的判断、反事实与政策态度研究归为 CB。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://insight.kellogg.northwestern.edu/author/matejas-mackin"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。"
   },
   {
     "id": "us-io-max-pienkny",
@@ -2354,6 +3481,70 @@
     "program_id": "georgetown-university-economics"
   },
   {
+    "id": "penn-mingyung-kim",
+    "name": "Mingyung Kim",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Statistical Machine Learning"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": 2024,
+    "status": "placed",
+    "destination": "Ohio State University",
+    "destination_region": "US",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "本人说明统计机器学习与 quantitative marketing 研究。",
+    "undergraduate": {
+      "institution": "Yonsei University",
+      "region": "KR"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.mingyung-kim.com/"
+      },
+      {
+        "label": "Ohio State 2024 新教员公告",
+        "url": "https://fisher.osu.edu/news/get-know-fishers-new-2024-faculty"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 Ohio State 2024 新教员公告独立确认加入年份。"
+  },
+  {
     "id": "chicago-minkwang-jang",
     "name": "Minkwang Jang",
     "school": "University of Chicago",
@@ -2464,6 +3655,70 @@
     "program_id": "stanford-university-economics"
   },
   {
+    "id": "toronto-moein-javadian",
+    "name": "Moein Javadian",
+    "school": "University of Toronto",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-toronto-marketing",
+    "origin": "CA",
+    "fields": [
+      "Quantitative Marketing",
+      "Industrial Organization",
+      "Social Responsibility",
+      "Pricing",
+      "Product Differentiation"
+    ],
+    "tracks": [
+      "marketing",
+      "qm",
+      "io"
+    ],
+    "methods": [
+      "理论建模",
+      "实验方法",
+      "因果推断"
+    ],
+    "topics": [
+      "定价与需求",
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Concordia University",
+    "destination_region": "CA",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方研究介绍列出博弈建模、实验经济学、因果推断和 empirical IO 工作论文。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Rotman 校友就业选录（含当前任职）",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.concordia.ca/faculty/moein-javadian.html"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 2023 为 Rotman 毕业年份；未取得明确首职开始日期，因此保留首职年为空。"
+  },
+  {
     "id": "toronto-mohaddeseh-heydari-nejad",
     "name": "Mohaddeseh Heydari Nejad",
     "school": "University of Toronto",
@@ -2530,6 +3785,93 @@
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
     "program_id": "university-of-toronto-economics"
+  },
+  {
+    "id": "toronto-mohsen-foroughifar",
+    "name": "Mohsen Foroughifar",
+    "school": "University of Toronto",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-toronto-marketing",
+    "origin": "CA",
+    "fields": [
+      "Quantitative Marketing",
+      "Algorithmic Pricing",
+      "Sharing Economy",
+      "Advertising Markets"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [],
+    "topics": [
+      "定价与需求",
+      "平台与数字市场"
+    ],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "本人研究说明采用经济学视角研究算法定价、共享平台与广告，按内容归为 Quant。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Rotman 校友就业选录（含当前任职）",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://mforoughifar.github.io/"
+      },
+      {
+        "label": "本人 2026-08 CV：中间工作与日期冲突",
+        "url": "https://mforoughifar.github.io/CV_MF_Aug2026.pdf"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "University of Toronto",
+        "title": "Research and Teaching Associate",
+        "start_year": 2018,
+        "end_year": 2024
+      },
+      {
+        "institution": "University of Toronto Mississauga",
+        "title": "Sessional Lecturer",
+        "start_year": 2024,
+        "end_year": 2024
+      },
+      {
+        "institution": "Analysis Group",
+        "title": "Associate",
+        "start_year": 2025,
+        "end_year": 2025
+      },
+      {
+        "institution": "Carnegie Mellon University",
+        "title": "Assistant Professor",
+        "start_year": 2025
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Rotman 选录列 2023 博士毕业、现职 CMU；2026 年 8 月本人 CV 却将 CMU 起始年列为 2025，还列 Toronto 2018–2024、2024 临时教学与 Analysis Group 2025 经历。不能把 2023 毕业年或当前教职直接当作首职。最早毕业转衔岗位及开始年待核验，已知经历完整保留。",
+    "source_reported_placement": "Carnegie Mellon University"
   },
   {
     "id": "us-io-nathaniel-hickok",
@@ -2790,6 +4132,197 @@
     "program_id": "stanford-university-economics"
   },
   {
+    "id": "ntu-qing-tang",
+    "name": "Qing Tang",
+    "school": "Nanyang Technological University",
+    "program": "PhD in Marketing",
+    "program_id": "nanyang-technological-university-marketing",
+    "origin": "SG",
+    "fields": [
+      "Consumer Behavior",
+      "Brand Communication",
+      "Visual Marketing",
+      "Interpersonal Perceptions"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为",
+      "广告与品牌"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Hong Kong Baptist University",
+    "destination_region": "HK",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方简介和论文说明消费如何影响人际感知、品牌判断，按研究内容归为 CB。",
+    "undergraduate": {
+      "institution": "Sun Yat-sen University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "NTU Marketing 毕业生名单",
+        "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://mmis.hkbu.edu.hk/faculty-members/qing-tang.html"
+      },
+      {
+        "label": "HKBU 官方 CV 任职日期",
+        "url": "https://scholars.hkbu.edu.hk/ws/portalfiles/portal/cv/e273e810-a085-4657-804f-4e23b5e78e8b?locale=en_GB"
+      },
+      {
+        "label": "ACR 2023 原始会议论文集：HKBU 任职",
+        "url": "https://acr.memberclicks.net/assets/Proceedings/Volume%2051%20-%20complete%20book.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "NTU 毕业表、HKBU 院系教育经历与 2023 ACR 会议中的 HKBU 任职相互印证。HKBU CV 的搜索索引旧版本写 2023-04，当前自动生成版本写 2026-09；保留该来源差异，不把当前部门日期当作首次就业。2023 首职依据历史任职与旧版本日期交叉核验。",
+    "aliases": [
+      "TANG Qing"
+    ]
+  },
+  {
+    "id": "penn-rachele-ciulli",
+    "name": "Rachele Ciulli",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Judgment and Decision Making",
+      "Effort",
+      "Procrastination"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": 2026,
+    "status": "placed",
+    "destination": "LUISS University",
+    "destination_region": "IT",
+    "role": null,
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "本人介绍判断决策、努力与拖延研究；按内容归为 CB。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.racheleciulli.com/"
+      },
+      {
+        "label": "本人公开入职宣布",
+        "url": "https://it.linkedin.com/in/rachele-ciulli-789525138"
+      },
+      {
+        "label": "LUISS 2026–27 任课记录",
+        "url": "https://www.luiss.it/en/university/governance/faculty/teaching/439in/f/1eel2base/2026/marketing"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 本人公开宣布 2026 年 9 月加入 LUISS，官方 2026–27 第一学期课程也列出其任教；具体职级未核实。"
+  },
+  {
+    "id": "ntu-ruoding-wang",
+    "name": "Ruoding Wang",
+    "school": "Nanyang Technological University",
+    "program": "PhD in Marketing",
+    "program_id": "nanyang-technological-university-marketing",
+    "origin": "SG",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士名录确认项目归属；细分研究方向尚待核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "NTU Marketing 毕业名单：无去向栏内容",
+        "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd"
+      },
+      {
+        "label": "NTU 2023 官方毕业典礼名单",
+        "url": "https://www.ntu.edu.sg/docs/default-source/ntu-convocation/2023-graduate-listing/ceremony-1_graduate-listing.pdf?sfvrsn=9f70435c_3"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "NTU 官方 Marketing Graduates 表列出 2023 毕业，但未列工作。保留此人且首职、岗位与日期为空；这不意味着未就业。",
+    "aliases": [
+      "WANG Ruoding"
+    ]
+  },
+  {
     "id": "ruru-hoong-2026",
     "name": "Ruru Hoong",
     "school": "Harvard University",
@@ -2908,6 +4441,194 @@
     "subsequent": [],
     "checked_at": "2026-10-08",
     "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "northwestern-samuel-su",
+    "name": "Samuel Su",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Time Perception",
+      "Human-AI Collaboration",
+      "Visual Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [
+      "实验方法",
+      "机器学习 / AI",
+      "文本分析"
+    ],
+    "topics": [
+      "消费者行为",
+      "AI 与算法"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "source_cohort_year": null,
+    "graduation_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": null,
+    "field_evidence": "本人说明时间感知与消费决策研究，采用实验与 LLM 文本分析；按研究内容归为 CB，使用机器学习不自动改归 Quant。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 2026–27 官方 Marketing 候选人名单",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://samuelsukellogg.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "官网为滚动发布，已对齐核验当日列出的人员，不代表最终完整求职届。"
+  },
+  {
+    "id": "northwestern-sarena-su",
+    "name": "Sarena Su",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Brand Purpose",
+      "Prosocial Emotions",
+      "Persuasion"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为",
+      "广告与品牌"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Chinese University of Hong Kong, Shenzhen",
+    "destination_region": "CN",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "接收单位明确列出 Digital Consumer Behavior 等方向。",
+    "undergraduate": {
+      "institution": "University of California, Berkeley",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://sfi.cuhk.edu.cn/en/node/8564"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。 就业地点为深圳，地区归中国大陆。",
+    "aliases": [
+      "Sarena Jiang Su",
+      "Sarena J. Su"
+    ]
+  },
+  {
+    "id": "northwestern-seo-young-myaeng",
+    "name": "Seo Young Myaeng",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Deepfake Advertising",
+      "Brand Authenticity",
+      "Luxury Consumption"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [
+      "实验方法"
+    ],
+    "topics": [
+      "消费者行为",
+      "广告与品牌",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Meta",
+    "destination_region": "US",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "Kellogg 论文页明确报告五项实验，研究消费者对广告、品牌的态度；按内容归为 CB。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.kellogg.northwestern.edu/faculty/research/detail/2024/deepfake-aversion-the-negative-impact-of-deepfake-advertising-on/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。 Meta 的具体岗位未公开核实；不能因进入科技公司而改为 Quant。"
   },
   {
     "id": "seung-yoon-lee-2025",
@@ -3048,6 +4769,63 @@
     "subsequent": [],
     "checked_at": "2026-10-08",
     "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "penn-shannon-duncan",
+    "name": "Shannon Duncan",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Choice Architecture",
+      "Motivation",
+      "Judgment and Decision Making"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "University of Alberta",
+    "destination_region": "CA",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Alberta 官方公告明确 consumer behaviour 与 choice architecture。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.ualberta.ca/en/business/news/articles/2025/postexpert-in-consumer-behaviour-and-choice-architecture-joins-asb-faculty.html"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 Alberta 公告明确 2025-07-01 开始任职。"
   },
   {
     "id": "nus-shiwen-gao",
@@ -3309,6 +5087,66 @@
     "aliases": [
       "Chen Sijin"
     ]
+  },
+  {
+    "id": "penn-siyuan-yin",
+    "name": "Siyuan Yin",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Risk Preferences",
+      "Behavioral Biases",
+      "Consumer Decision Making"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Stony Brook University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 CV 列出风险偏好与消费心理研究，按内容归为 CB。",
+    "undergraduate": {
+      "institution": "Zhejiang University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.stonybrook.edu/commcms/business/_cv/faculty/siyyin.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 官方 CV 将任职起始年列为 2025。"
   },
   {
     "id": "chicago-soaham-bharti",
@@ -3688,6 +5526,160 @@
     "program_id": "yale-university-economics"
   },
   {
+    "id": "toronto-verina-que",
+    "name": "Verina F. Que",
+    "school": "University of Toronto",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-toronto-marketing",
+    "origin": "CA",
+    "fields": [
+      "Quantitative Marketing",
+      "Economics of Privacy",
+      "Consumer Privacy Decisions",
+      "Platform Strategies"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "因果推断",
+      "实验方法",
+      "结构建模 / 估计",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "隐私与信息",
+      "平台与数字市场",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Nanyang Technological University",
+    "destination_region": "SG",
+    "role": "Assistant Professor",
+    "job_kind": "tt",
+    "jmp": null,
+    "field_evidence": "本人说明实证经济学与结构、因果方法研究数字隐私，按研究内容归为 Quant。",
+    "undergraduate": {
+      "institution": "University of Illinois Urbana-Champaign",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Rotman 校友就业选录（含当前任职）",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://verinaque.com/"
+      },
+      {
+        "label": "本人 Vita 与教学日期",
+        "url": "https://verinaque.com/vita.html"
+      },
+      {
+        "label": "NTU Marketing 接收系迎新公告",
+        "url": "https://www.linkedin.com/posts/marketing-division-nbs_nanyangbusinessschool-mktdivisionnbsntu-activity-7367820947841585152-3-qL"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 本人明确 tenure-track；Vita 列 NTU 2025 起任课，接收系 2025 迎新公告相互印证。",
+    "aliases": [
+      "Verina Que"
+    ]
+  },
+  {
+    "id": "toronto-vivek-nandur",
+    "name": "Vivek Nandur",
+    "school": "University of Toronto",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-toronto-marketing",
+    "origin": "CA",
+    "fields": [
+      "Quantitative Marketing",
+      "Industrial Organization",
+      "Health Economics",
+      "Market Power"
+    ],
+    "tracks": [
+      "marketing",
+      "qm",
+      "io"
+    ],
+    "methods": [
+      "计量方法",
+      "结构建模 / 估计",
+      "因果推断"
+    ],
+    "topics": [
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Edge",
+    "destination_region": "UNKNOWN",
+    "role": "Senior Data Scientist",
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "本人明确 Quantitative Marketing PhD 与 industrial organization 研究。",
+    "undergraduate": {
+      "institution": "University of Florida",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "本人 CV：明确月份的教育与就业经历",
+        "url": "https://www.viveknandurphd.com/_files/ugd/a1671a_18935c6aefc8477e8001f3e56cbc1816.pdf"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.viveknandurphd.com/"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Lumiya",
+        "title": "Co-Founder, CEO and Chief Scientist",
+        "start_date": "2023-12"
+      },
+      {
+        "institution": "University of Chicago, Booth School of Business",
+        "title": "Postdoctoral Researcher",
+        "start_date": "2024-07"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "此人不在 Rotman 的三人 2023 校友选录中，经导师与本人 CV 补录。CV 显示校内研究工作于 2023-06 结束，Edge 的 Senior Data Scientist 岗位为 2023-06 至 2023-10，博士授予为 2023-11；按毕业转衔的首份已列职业岗位记录 Edge，不把 2024 博士后改为首职。Edge 工作地点未明确。"
+  },
+  {
     "id": "walter-zhang-2024",
     "name": "Walter W. Zhang",
     "school": "University of Chicago",
@@ -3811,6 +5803,145 @@
     "notes": "来源名单年份另行保存；未核验具体入职月份。",
     "aliases": [
       "Deng Wanjiang"
+    ]
+  },
+  {
+    "id": "hku-wanyi-zheng",
+    "name": "Wanyi Zheng",
+    "school": "University of Hong Kong",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-hong-kong-marketing",
+    "origin": "HK",
+    "fields": [
+      "Consumer Behavior",
+      "Visual Marketing",
+      "Digital Aesthetics"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为",
+      "广告与品牌"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Hong Kong Baptist University",
+    "destination_region": "HK",
+    "role": null,
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 CB 新人研讨会明确列其姓名与 HKBU；个人研究领域为视觉营销与数字平台美学。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "HKU 学术去向表（毕业年份、未列姓名）",
+        "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://scholars.hkbu.edu.hk/en/persons/ZWYMKT/"
+      },
+      {
+        "label": "2023 年 CB 新人活动与 HKBU 任职",
+        "url": "https://www.polyu.edu.hk/mm/about-mm/news-and-events/news/2023/consumer-behavior-newcomers-symposium-2023/"
+      },
+      {
+        "label": "当前自动 CV（部门任职日期与历史资料有差异）",
+        "url": "https://scholars.hkbu.edu.hk/ws/portalfiles/portal/cv/040a0278-ce05-4c2d-be0e-5f97250fb5a3?locale=en_GB"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 HKU 2023 毕业学术去向与 2023-12 PolyU 活动已确认其 HKBU 任职。当前 HKBU 自动生成 CV 将当前部门任职日期写为 2026-09，搜索索引旧版本则为 2023-04；日期冲突保留，不把 2026 自动解释为首次就业或晋升。初始职级继续待核验。",
+    "aliases": [
+      "鄭婉怡",
+      "郑婉怡"
+    ]
+  },
+  {
+    "id": "toronto-wei-lu",
+    "name": "Wei Lu",
+    "school": "University of Toronto",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-toronto-marketing",
+    "origin": "CA",
+    "fields": [
+      "Quantitative Marketing",
+      "Video Game Platforms",
+      "Information Economics"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [],
+    "topics": [
+      "平台与数字市场"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Baruch College, City University of New York",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "CV 列 Marketing 博士与平台经济学博士论文；Baruch 官方招聘资料明确 Quantitative Marketing。",
+    "undergraduate": {
+      "institution": "Central University of Finance and Economics / Victoria University (joint program)",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Rotman 校友就业选录（含当前任职）",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://arthurweilu.com/assets/pdf/CV_20250704.pdf"
+      },
+      {
+        "label": "Baruch 2023 新教员公告",
+        "url": "https://zicklin.baruch.cuny.edu/zicklinbusiness/september-2023/"
+      },
+      {
+        "label": "Baruch 官方 Quantitative Marketing 招聘分类（起始年份疑似笔误，以个人 CV 与迎新公告为准）",
+        "url": "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2023/03/Spring2023_GeneralFacultyReportfinal-ZSB.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 CV 明确 2023 起任职，并由 Baruch 2023 年 9 月新教员报道交叉确认；双校本科不强制归为单一地区。",
+    "aliases": [
+      "Arthur Wei Lu"
     ]
   },
   {
@@ -3962,6 +6093,73 @@
     ],
     "program_id": "university-of-chicago-marketing",
     "source_cohort_year": 2023
+  },
+  {
+    "id": "northwestern-xuekang-wu",
+    "name": "Xuekang Wu",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "program_id": "northwestern-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Artificial Intelligence",
+      "Digital Platforms",
+      "Human-AI Interaction"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "实验方法",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "AI 与算法",
+      "平台与数字市场"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Zhejiang University",
+    "destination_region": "CN",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "个人主页明确写明 quantitative marketing，并说明计算与实验方法。",
+    "undergraduate": {
+      "institution": "University of Michigan",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Kellogg 初始 placement 年度表",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.xuekangwu.com/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。",
+    "aliases": [
+      "吴学康"
+    ]
   },
   {
     "id": "hkust-xuewen-wang",
@@ -4220,7 +6418,69 @@
       "Bargaining models",
       "Demand estimation"
     ],
-    "program_id": "university-of-pennsylvania-marketing"
+    "program_id": "university-of-pennsylvania-marketing",
+    "source_cohort_year": 2025,
+    "graduation_year": 2025
+  },
+  {
+    "id": "toronto-ying-zeng",
+    "name": "Ying Zeng",
+    "school": "University of Toronto",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-toronto-marketing",
+    "origin": "CA",
+    "fields": [
+      "Consumer Behavior",
+      "Consumer Decision Making",
+      "Online Reviews"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": 2024,
+    "status": "placed",
+    "destination": "University of Colorado Boulder",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Colorado 官方介绍说明消费者决策研究，按内容归为 CB。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Rotman 校友就业选录（含当前任职）",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.colorado.edu/business/faces/2026/02/20/ying-zeng"
+      },
+      {
+        "label": "过时求职页：仅用于说明年份冲突",
+        "url": "https://rotman.utoronto.ca/programs/phd-program/students-on-the-market/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 接收单位明确 2024 年加入。Toronto undated 求职页仍列此人，不据此放入 2026–27 求职季。"
   },
   {
     "id": "yingkang-xie-2023",
@@ -4293,7 +6553,8 @@
       "Econometrics",
       "Structural modeling"
     ],
-    "program_id": "northwestern-university-marketing"
+    "program_id": "northwestern-university-marketing",
+    "source_cohort_year": 2023
   },
   {
     "id": "youngeun-lee-2023",
@@ -4365,7 +6626,84 @@
     "notes": "Kellogg placement listing says 2023; CV independently dates Boston College employment to July 2023. CV identifies Yonsei as Seoul, Korea.",
     "source_file": "us-marketing.json",
     "methods_original": [],
-    "program_id": "northwestern-university-marketing"
+    "program_id": "northwestern-university-marketing",
+    "source_cohort_year": 2023
+  },
+  {
+    "id": "penn-yu-zhao",
+    "name": "Yu Zhao",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-pennsylvania-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Privacy Regulation",
+      "Consumer Search",
+      "Information Transparency"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "因果推断",
+      "文本分析"
+    ],
+    "topics": [
+      "隐私与信息",
+      "平台与数字市场"
+    ],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2024,
+    "graduation_year": 2024,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "清华官方研究简介说明因果推断、选择模型与自然语言处理；按内容归为 Quant。",
+    "undergraduate": {
+      "institution": "Beijing Jiaotong University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Wharton 首职表（Year 为毕业年）",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.sem.tsinghua.edu.cn/en/info/1220/8989.htm"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Indeed",
+        "title": "Marketing Analyst（经历性质及月份待核验）",
+        "start_year": 2024
+      },
+      {
+        "institution": "Tsinghua University",
+        "title": "Assistant Professor of Marketing",
+        "start_year": 2025
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Wharton 把清华列为 first placement、2024 为毕业年；清华官方履历写 2025 起任助理教授，并列 Indeed 2024 Marketing Analyst。尚不能确认 Indeed 是否为毕业前实习、过渡岗位或真正首职，因此初始雇主与首职年留空，保留已知经历，不把清华错误计为 2024 首职。",
+    "source_reported_placement": "Tsinghua University"
   },
   {
     "id": "us-io-yuki-ito",
@@ -4633,6 +6971,78 @@
     "source_file": "us-io.json",
     "methods_original": [],
     "program_id": "georgetown-university-economics"
+  },
+  {
+    "id": "hku-zhengyu-shi",
+    "name": "Zhengyu Shi",
+    "school": "University of Hong Kong",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-hong-kong-marketing",
+    "origin": "HK",
+    "fields": [
+      "Consumer Behavior",
+      "Gift Giving",
+      "Price Promotions",
+      "Health Decisions"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为",
+      "定价与需求"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": 2024,
+    "status": "placed",
+    "destination": "Shanghai Jiao Tong University",
+    "destination_region": "CN",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 2024 讲座介绍明确 HKU Marketing 博士及消费者决策研究；HKU 学位库将论文归类 Consumer behavior。",
+    "undergraduate": {
+      "institution": "Shanghai Jiao Tong University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "HKU 学术去向表（毕业年份、未列姓名）",
+        "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+      },
+      {
+        "label": "个人或接收单位资料",
+        "url": "https://www.rmbs.ruc.edu.cn/xwzx/jzhd/d27a203f8dc84eb1b589588cf02d7102.htm"
+      },
+      {
+        "label": "HKU 2024 博士学位记录",
+        "url": "https://hub.hku.hk/handle/10722/344156"
+      },
+      {
+        "label": "SJTU 官方教员页",
+        "url": "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 HKU 2024 博士论文与 2024 年 11 月官方讲座中的 SJTU 任职交叉核实；匿名去向表仍无法确认整届人数。",
+    "aliases": [
+      "史正煜"
+    ]
   },
   {
     "id": "us-io-zhichun-wang",

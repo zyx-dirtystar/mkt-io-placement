@@ -60,3 +60,37 @@ assert.equal(findAudit(next,ubc.id,'2027').status,'not_started');
 assert.equal(selectPrograms(catalog,{q:'Harvard',region:'US',kind:'marketing',progress:'audited'}).length,1);
 assert.equal(selectPrograms(catalog,{q:'Harvard',region:'CA',kind:'marketing',progress:'all'}).length,0);
 console.log(JSON.stringify({coverage:'passed',programs:programs.length,auditCells:coverage.length,checks:'program membership, source reconciliation, unknown years, CB filters, year conflicts, annual audit rollover'}));
+
+// Keep incomplete historical evidence discoverable without treating it as a dated placement.
+configure({currentCycle:catalog.current_cycle,historyYears:catalog.history_years});
+const dated={...base,market_cycle:null,placement_year:catalog.history_years.at(-1)};
+const noYear={...dated,id:'no-year',placement_year:null};
+const noOutcome={...noYear,id:'no-outcome',status:'outcome_unknown',destination:null};
+const market={...base,id:'market',status:'on_market',placement_year:null,destination:null};
+assert.deepEqual(filterRecords([dated,noYear,noOutcome,market],{period:'unresolved'}).map(r=>r.id),['no-year','no-outcome']);
+assert.deepEqual(filterRecords([dated,noYear,noOutcome,market],{period:'history'}).map(r=>r.id),['test']);
+assert.equal(summarize([market,{...market,id:'past',market_cycle:'2000-2001'}]).onMarket,1,'Past market status must not inflate current-cycle counts');
+const conflict={...noOutcome,graduation_year:2024,source_cohort_year:2024,source_reported_placement:'University B',subsequent:[{institution:'University B',start_year:2025}]};
+assert.equal(filterRecords([conflict],{period:'2024'}).length,0,'Source table and graduation dates must not create a first-placement year');
+assert.equal(summarize([conflict]).known,0,'A reported employer under review must not enter the confirmed denominator');
+for(const id of ['penn-yu-zhao','toronto-mohsen-foroughifar']){
+  const r=records.find(r=>r.id===id);
+  if(r.status==='outcome_unknown'){
+    assert.equal(r.destination,null,'Unresolved career sequence must not be presented as a confirmed first employer');
+    assert.equal(r.placement_year,null,'Graduation year must not replace disputed job-start year');
+  }
+  assert.ok(r.source_reported_placement&&r.subsequent.length,'Preserve reported placements and observed career evidence');
+}
+const ntu=programs.find(p=>p.school==='Nanyang Technological University'&&p.kind==='marketing');
+assert.deepEqual(new Set(findAudit(catalog,ntu.id,'2023').record_ids),new Set(['ntu-qing-tang','ntu-ruoding-wang']));
+const ruoding=records.find(r=>r.id==='ntu-ruoding-wang');
+assert.ok(ruoding,'Known graduates must remain in the archive');
+if(ruoding.status==='outcome_unknown')assert.ok(filterRecords(records,{period:'unresolved'}).includes(ruoding),'Known graduates without outcomes must remain discoverable');
+assert.equal(records.find(r=>r.id==='ntu-lingyu-lin').market_cycle,'2025-2026','Old candidate roster is not the new cycle');
+const hku=programs.find(p=>p.school==='University of Hong Kong'&&p.kind==='marketing');
+const anonymous={...catalog,coverage:[{...findAudit(catalog,hku.id,'2024'),listed_count:null,status:'partial'}]};
+assert.equal(findAudit(anonymous,hku.id,'2024').listed_count,null,'An anonymous destination list is not a person denominator');
+assert.equal(selectPrograms(catalog,{q:'University of Hong Kong',region:'HK',kind:'marketing',progress:'checked'}).length,1);
+const nw=programs.find(p=>p.school==='Northwestern University'&&p.kind==='marketing');
+for(const id of ['northwestern-samuel-su','northwestern-caroline-wang','northwestern-andrew-wooders'])assert.ok(findAudit(catalog,nw.id,'2026-2027').record_ids.includes(id),'Keep observed candidates when a rolling list expands');
+console.log(JSON.stringify({batch2:'passed',checks:'unresolved filter, career conflicts, missing outcomes, stale candidate pages, unknown denominators, current season'}));

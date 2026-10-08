@@ -8,7 +8,7 @@ Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial 
 
 这是带有来源的首批样本，**不是完整市场普查**。所有图表明确展示样本分母。未核验的记录和信息不能作为不存在或否定值。
 
-当前版本 0.2.0：76 人，第一批对齐 Harvard、Chicago Booth、UBC、HKUST、NUS 的官方 Marketing 历史表。新增 CB 与方向待分类筛选；建立 139 个 Marketing 项目线索和逐项目年度核验矩阵。发现清单不代表已覆盖，官方表对齐也不代表整届完整。详见 [本批修订与缺口](docs/BATCH-2026-10-08.md)。
+当前版本 0.3.0：114 人（第二批新增 38 人），其中 CB 标签 27 人、当季候选人 14 人。第二批核验 Northwestern、Penn、Toronto、HKU、NTU；累计 28 个来源年份 / 求职季单元与指定官方表对齐。发现清单仍为 139 个 Marketing 项目线索，不能当作已覆盖项目。默认历史首职筛选显示 88 人；11 条首职或年份待核验记录可用新增筛选查看。另有 1 条首职年为 2022 的保留档案。详见 [第二批修订与缺口](docs/BATCH-2-2026-10-08.md)；[第一批记录](docs/BATCH-2026-10-08.md)继续保留。
 
 ## 使用与预览
 
@@ -38,7 +38,7 @@ Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial 
 
 `fields` 保留公开研究领域；`tracks` 为 `marketing`、`qm`、`cb`、`io`（可同时包含）；Marketing 细分方向未确认时只标 `marketing`。`program_id` 独立标记培养项目；`source_cohort_year`、`graduation_year` 与 `placement_year` 分开；`topics` 是公开领域/论文的整理标签；`methods` 仅采用明确证据。`sources` 包含 URL 与用途。Assistant Professor 没有明确 tenure 证据时使用 `job_kind: "faculty"`。
 
-`status` 可为 `placed`、`on_market` 或 `outcome_unknown`（完整历史名册中的去向未知者）；资料仍需补证的线索放到 `review-queue.json`，不进入默认统计。年份未知但首职可核验者可保留为 placed，在“全部记录”中查看，不进入年度图。
+`status` 可为 `placed`、`on_market` 或 `outcome_unknown`（历史名册中首职仍未知或职业顺序未厘清者）；项目 / 年份归属仍需补证的线索放到 `review-queue.json`，不进入默认统计。已确认名册归属的人不会因为去向未知而被排除。年份未知但首职可核验者保留为 placed；可在“去向 / 首职年待核验”或“全部记录”中查看，不进入年度图。`source_reported_placement` 保留来源表所报的机构，供首职冲突审阅，不进入首职统计；其他已知任职和相关说明保留在 `subsequent` 与 `notes`。
 
 `source-data/` 保存首版研究证据。`scripts/prepare-data.mjs` 是首版来源格式转换器；日常维护以 `data/records.json` 为准，**不要重新运行此转换器覆盖后续手动修订**。
 
