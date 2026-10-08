@@ -1,0 +1,2332 @@
+[
+  {
+    "id": "carleton-university-marketing",
+    "school": "Carleton University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "concordia-university-marketing",
+    "school": "Concordia University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "hec-montreal-marketing",
+    "school": "HEC Montréal",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "laval-university-marketing",
+    "school": "Laval University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "mcgill-university-marketing",
+    "school": "McGill University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "mcmaster-university-marketing",
+    "school": "McMaster University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "queen-s-university-marketing",
+    "school": "Queen's University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "simon-fraser-university-marketing",
+    "school": "Simon Fraser University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-alberta-marketing",
+    "school": "University of Alberta",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-british-columbia-economics",
+    "school": "University of British Columbia",
+    "region": "CA",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://economics.ubc.ca/profile/kisho-hoshi-2/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "university-of-british-columbia-marketing",
+    "school": "University of British Columbia",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方 Marketing 博士 placement 资料",
+        "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。"
+  },
+  {
+    "id": "university-of-calgary-marketing",
+    "school": "University of Calgary",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-guelph-marketing",
+    "school": "University of Guelph",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-manitoba-marketing",
+    "school": "University of Manitoba",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-toronto-economics",
+    "school": "University of Toronto",
+    "region": "CA",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://sites.google.com/view/victoraguirregabiriaswebsite/phd-supervision"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "university-of-toronto-marketing",
+    "school": "University of Toronto",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "western-university-marketing",
+    "school": "Western University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "wilfrid-laurier-university-marketing",
+    "school": "Wilfrid Laurier University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "york-university-marketing",
+    "school": "York University",
+    "region": "CA",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "chinese-university-of-hong-kong-marketing",
+    "school": "Chinese University of Hong Kong",
+    "region": "HK",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "city-university-of-hong-kong-marketing",
+    "school": "City University of Hong Kong",
+    "region": "HK",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "hong-kong-baptist-university-marketing",
+    "school": "Hong Kong Baptist University",
+    "region": "HK",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://gs.hkbu.edu.hk/sc/programmes/doctor-of-philosophy-department-of-management-marketing-and-information-systems"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "hong-kong-polytechnic-university-marketing",
+    "school": "Hong Kong Polytechnic University",
+    "region": "HK",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://www.polyu.edu.hk/mm/study/research-postgraduate-programme/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "hong-kong-university-of-science-and-technology-economics",
+    "school": "Hong Kong University of Science and Technology",
+    "region": "HK",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://yizhangwebsite.weebly.com/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "hong-kong-university-of-science-and-technology-marketing",
+    "school": "Hong Kong University of Science and Technology",
+    "region": "HK",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方 Marketing 博士 placement 资料",
+        "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。"
+  },
+  {
+    "id": "lingnan-university-marketing",
+    "school": "Lingnan University",
+    "region": "HK",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-hong-kong-marketing",
+    "school": "University of Hong Kong",
+    "region": "HK",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://phd.hkubs.hku.hk/programmes/fields-of-study"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "nanyang-technological-university-marketing",
+    "school": "Nanyang Technological University",
+    "region": "SG",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "national-university-of-singapore-economics",
+    "school": "National University of Singapore",
+    "region": "SG",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://www.jingmancao.com/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "national-university-of-singapore-marketing",
+    "school": "National University of Singapore",
+    "region": "SG",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方 Marketing 博士 placement 资料",
+        "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。"
+  },
+  {
+    "id": "singapore-management-university-marketing",
+    "school": "Singapore Management University",
+    "region": "SG",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://business.smu.edu.sg/disciplines/marketing/phd-programme"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "arizona-state-university-marketing",
+    "school": "Arizona State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "bentley-university-marketing",
+    "school": "Bentley University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "boston-college-economics",
+    "school": "Boston College",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://www.scottkom.com/teaching/students/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "boston-university-marketing",
+    "school": "Boston University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "carnegie-mellon-university-marketing",
+    "school": "Carnegie Mellon University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "city-university-of-new-york-baruch-college-marketing",
+    "school": "City University of New York (Baruch College)",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "cleveland-state-university-marketing",
+    "school": "Cleveland State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "columbia-university-marketing",
+    "school": "Columbia University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "cornell-university-marketing",
+    "school": "Cornell University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "drexel-university-marketing",
+    "school": "Drexel University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "duke-university-economics",
+    "school": "Duke University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://econ.duke.edu/phd-program/prospective-students/placements"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "duke-university-marketing",
+    "school": "Duke University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "emory-university-marketing",
+    "school": "Emory University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "florida-atlantic-university-marketing",
+    "school": "Florida Atlantic University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "florida-international-university-marketing",
+    "school": "Florida International University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "florida-state-university-marketing",
+    "school": "Florida State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "fordham-university-marketing",
+    "school": "Fordham University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "george-washington-university-marketing",
+    "school": "George Washington University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "georgetown-university-economics",
+    "school": "Georgetown University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "georgia-institute-of-technology-marketing",
+    "school": "Georgia Institute of Technology",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "georgia-state-university-marketing",
+    "school": "Georgia State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "grand-canyon-university-marketing",
+    "school": "Grand Canyon University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "harvard-university-economics",
+    "school": "Harvard University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://www.hbs.edu/doctoral/placement/business-economics"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "harvard-university-marketing",
+    "school": "Harvard University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方 Marketing 博士 placement 资料",
+        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。"
+  },
+  {
+    "id": "indiana-university-marketing",
+    "school": "Indiana University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "iowa-state-university-marketing",
+    "school": "Iowa State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "kennesaw-state-university-marketing",
+    "school": "Kennesaw State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "kent-state-university-marketing",
+    "school": "Kent State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "louisiana-state-university-marketing",
+    "school": "Louisiana State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "louisiana-tech-university-marketing",
+    "school": "Louisiana Tech University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "massachusetts-institute-of-technology-economics",
+    "school": "Massachusetts Institute of Technology",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "massachusetts-institute-of-technology-marketing",
+    "school": "Massachusetts Institute of Technology",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "michigan-state-university-marketing",
+    "school": "Michigan State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "mississippi-state-university-marketing",
+    "school": "Mississippi State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "morgan-state-university-marketing",
+    "school": "Morgan State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "new-mexico-state-university-marketing",
+    "school": "New Mexico State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "new-york-university-marketing",
+    "school": "New York University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "northwestern-university-economics",
+    "school": "Northwestern University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://maxpienkny.github.io/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "northwestern-university-marketing",
+    "school": "Northwestern University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "oklahoma-state-university-marketing",
+    "school": "Oklahoma State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "old-dominion-university-marketing",
+    "school": "Old Dominion University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "pace-university-marketing",
+    "school": "Pace University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "pennsylvania-state-university-marketing",
+    "school": "Pennsylvania State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "princeton-university-economics",
+    "school": "Princeton University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://economics.princeton.edu/graduate-program/job-market-and-placements/statistics-on-past-placements/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "purdue-university-marketing",
+    "school": "Purdue University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "rutgers-university-marketing",
+    "school": "Rutgers University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "saint-louis-university-marketing",
+    "school": "Saint Louis University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "southern-illinois-university-marketing",
+    "school": "Southern Illinois University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "stanford-university-economics",
+    "school": "Stanford University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "stanford-university-marketing",
+    "school": "Stanford University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "state-university-of-new-york-binghamton-marketing",
+    "school": "State University of New York, Binghamton",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "syracuse-university-marketing",
+    "school": "Syracuse University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "temple-university-marketing",
+    "school": "Temple University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "texas-a-m-university-marketing",
+    "school": "Texas A&M University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "texas-tech-university-marketing",
+    "school": "Texas Tech University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "the-ohio-state-university-marketing",
+    "school": "The Ohio State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-at-buffalo-marketing",
+    "school": "University at Buffalo",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-alabama-marketing",
+    "school": "University of Alabama",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-arizona-marketing",
+    "school": "University of Arizona",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-arkansas-marketing",
+    "school": "University of Arkansas",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-california-berkeley-economics",
+    "school": "University of California, Berkeley",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://econ.berkeley.edu/sites/default/files/2024-11/FINAL%20Roster%2010.31.24.pdf"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "university-of-california-berkeley-marketing",
+    "school": "University of California, Berkeley",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-california-irvine-marketing",
+    "school": "University of California, Irvine",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-california-los-angeles-marketing",
+    "school": "University of California, Los Angeles",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-california-riverside-marketing",
+    "school": "University of California, Riverside",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-california-san-diego-marketing",
+    "school": "University of California, San Diego",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-central-florida-marketing",
+    "school": "University of Central Florida",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-chicago-economics",
+    "school": "University of Chicago",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://chanwoolkim.github.io/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "university-of-chicago-marketing",
+    "school": "University of Chicago",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      },
+      {
+        "label": "官方 Marketing 博士 placement 资料",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。"
+  },
+  {
+    "id": "university-of-cincinnati-marketing",
+    "school": "University of Cincinnati",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-colorado-boulder-marketing",
+    "school": "University of Colorado Boulder",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-connecticut-marketing",
+    "school": "University of Connecticut",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-florida-marketing",
+    "school": "University of Florida",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-georgia-marketing",
+    "school": "University of Georgia",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-hawaii-at-manoa-marketing",
+    "school": "University of Hawaii at Manoa",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-houston-marketing",
+    "school": "University of Houston",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-illinois-chicago-marketing",
+    "school": "University of Illinois Chicago",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign-marketing",
+    "school": "University of Illinois Urbana-Champaign",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-iowa-marketing",
+    "school": "University of Iowa",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-kansas-marketing",
+    "school": "University of Kansas",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-kentucky-marketing",
+    "school": "University of Kentucky",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-maryland-marketing",
+    "school": "University of Maryland",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-massachusetts-amherst-marketing",
+    "school": "University of Massachusetts Amherst",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-massachusetts-lowell-marketing",
+    "school": "University of Massachusetts Lowell",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-memphis-marketing",
+    "school": "University of Memphis",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-miami-marketing",
+    "school": "University of Miami",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-michigan-marketing",
+    "school": "University of Michigan",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-minnesota-marketing",
+    "school": "University of Minnesota",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-mississippi-marketing",
+    "school": "University of Mississippi",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-missouri-marketing",
+    "school": "University of Missouri",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-nebraska-lincoln-marketing",
+    "school": "University of Nebraska-Lincoln",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-north-carolina-at-chapel-hill-marketing",
+    "school": "University of North Carolina at Chapel Hill",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-north-texas-marketing",
+    "school": "University of North Texas",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-oklahoma-marketing",
+    "school": "University of Oklahoma",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-oregon-marketing",
+    "school": "University of Oregon",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-pennsylvania-marketing",
+    "school": "University of Pennsylvania",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-pittsburgh-marketing",
+    "school": "University of Pittsburgh",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-rhode-island-marketing",
+    "school": "University of Rhode Island",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-rochester-marketing",
+    "school": "University of Rochester",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-south-carolina-marketing",
+    "school": "University of South Carolina",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-south-florida-marketing",
+    "school": "University of South Florida",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-southern-california-marketing",
+    "school": "University of Southern California",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-tennessee-marketing",
+    "school": "University of Tennessee",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-texas-at-arlington-marketing",
+    "school": "University of Texas at Arlington",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-texas-at-austin-marketing",
+    "school": "University of Texas at Austin",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-texas-at-dallas-marketing",
+    "school": "University of Texas at Dallas",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-texas-at-el-paso-marketing",
+    "school": "University of Texas at El Paso",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-texas-at-san-antonio-marketing",
+    "school": "University of Texas at San Antonio",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-texas-rio-grande-valley-marketing",
+    "school": "University of Texas Rio Grande Valley",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-utah-marketing",
+    "school": "University of Utah",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-virginia-marketing",
+    "school": "University of Virginia",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-washington-marketing",
+    "school": "University of Washington",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-wisconsin-madison-marketing",
+    "school": "University of Wisconsin-Madison",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-wisconsin-milwaukee-marketing",
+    "school": "University of Wisconsin-Milwaukee",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "university-of-wyoming-marketing",
+    "school": "University of Wyoming",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "vanderbilt-university-marketing",
+    "school": "Vanderbilt University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "virginia-polytechnic-institute-and-state-university-marketing",
+    "school": "Virginia Polytechnic Institute and State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "washington-state-university-marketing",
+    "school": "Washington State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "washington-university-in-st-louis-marketing",
+    "school": "Washington University in St. Louis",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "wayne-state-university-marketing",
+    "school": "Wayne State University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "west-virginia-university-marketing",
+    "school": "West Virginia University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  },
+  {
+    "id": "yale-university-economics",
+    "school": "Yale University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "官方项目或既有人员来源",
+        "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "项目存在与年度名单完整性分别核验。"
+  },
+  {
+    "id": "yale-university-marketing",
+    "school": "Yale University",
+    "region": "US",
+    "kind": "marketing",
+    "eligibility": "pending",
+    "sources": [
+      {
+        "label": "AMA 博士项目发现目录（含 PhD/DBA，需逐项确认）",
+        "url": "https://www.ama.org/phd-programs-in-marketing/"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。"
+  }
+]

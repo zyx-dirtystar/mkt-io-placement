@@ -63,3 +63,8 @@ GitHub 仓库保存网站文件和修改记录；GitHub Pages 将文件发布成
 - [创建 GitHub Pages 网站](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 - [选择发布方式与网站可见性](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [使用 GitHub Actions 发布](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+
+
+## 继续补数据
+
+网站已部署完成，无需重复设置 Pages。0.2.0 已完成第一批 Marketing 全方向补录；参见 [本批变更](BATCH-2026-10-08.md) 与 [每年更新步骤](ANNUAL-UPDATE.md)。覆盖矩阵中的“待核验”是下一批工作的清单，不代表该学校没有毕业生。

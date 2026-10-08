@@ -1,7 +1,12 @@
 {
-  "version": "0.1.1 · GitHub edition",
+  "version": "0.2.0 · Marketing 全方向",
   "updated_at": "2026-10-08",
   "current_cycle": "2026-2027",
-  "history_years": [2023, 2024, 2025, 2026],
-  "change_note": "已迁移至自己的 GitHub Pages，并启用提交后的自动校验和发布。当前仍为 51 人的首批样本；下一阶段逐校核验 Marketing 全方向（含 Consumer Behavior）完整年度名单，同时保留 Economics IO。"
+  "history_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "change_note": "新增 25 人；按官方表核对 Harvard、Chicago Booth、UBC、HKUST、NUS 的 Marketing 历史名单，新增 CB 筛选及逐项目年度核验矩阵。AMA 目录用于建立待核实项目清单，不能当作已完成覆盖。毕业年、名单年份和首职年分别保留；整届完整性仍待核实。"
 }

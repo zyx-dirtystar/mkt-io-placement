@@ -4,21 +4,23 @@ Placement about mkt and IO PhD
 
 [网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [源代码与数据](https://github.com/zyx-dirtystar/mkt-io-placement) · [发布状态](https://github.com/zyx-dirtystar/mkt-io-placement/actions)
 
-Quantitative Marketing × Economics / Industrial Organization 的个人就业市场观察网站。博士培养院校范围为美国、加拿大、香港、新加坡；去向覆盖全球。
+Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial Organization 的个人就业市场观察网站。博士培养院校范围为美国、加拿大、香港、新加坡；去向覆盖全球。
 
 这是带有来源的首批样本，**不是完整市场普查**。所有图表明确展示样本分母。未核验的记录和信息不能作为不存在或否定值。
 
-下一阶段扩展为 Marketing 全方向，包括 Quantitative Marketing、Consumer Behavior 和其他方向，并继续保留 Economics IO。现有数据尚未完成这一扩充；已有学校也需要重新核验完整年度名单。
+当前版本 0.2.0：76 人，第一批对齐 Harvard、Chicago Booth、UBC、HKUST、NUS 的官方 Marketing 历史表。新增 CB 与方向待分类筛选；建立 139 个 Marketing 项目线索和逐项目年度核验矩阵。发现清单不代表已覆盖，官方表对齐也不代表整届完整。详见 [本批修订与缺口](docs/BATCH-2026-10-08.md)。
 
 ## 使用与预览
 
 在此目录执行 `node server.mjs`，打开 http://127.0.0.1:4173 。无需安装依赖。页面包括概览、可筛选名录、当前求职季、院校覆盖和统计口径。身份筛选只接受公开明确依据；不根据姓名、照片、语言或教育推断国籍或族裔。
 
+详细操作见 [年度更新指南](docs/ANNUAL-UPDATE.md)，包含 GitHub 网页修改、数据字段和年份冲突处理。
+
 ## 每年更新
 
 1. 编辑 `data/records.json`。人员使用稳定 id，一人一条记录，领域允许多标签。`dist/data/record-template.json` 提供新增条目模板。
 2. 在 `config.json` 更新 `current_cycle`（例如 `2027-2028`）、默认最近四年 `history_years`（例如 `[2024,2025,2026,2027]`）、版本、发布日期和更新说明。旧记录保留；旧年份自动留在时间筛选里。
-3. 新增院校写入 `data/schools.json`，当季官方发布进度写入 `data/release-notes.json`。日期应来自来源，不因刷新自动更改个人 `checked_at`。
+3. 新增项目写入 `data/programs.json`，逐项目年度核验记录写入 `data/coverage.json`，当季官方发布进度写入 `data/release-notes.json`。日期应来自来源，不因刷新自动更改个人 `checked_at`。
 4. 执行 `node scripts/sync-data.mjs`，再执行 `node scripts/check.mjs` 和 `node --check dist/app.js`。
 5. 在本地查看筛选和个人详情后发布。完成 GitHub Pages 设置后，将更新提交到 `main` 会自动检查并发布；现有 Sites 私有预览仍可单独维护。`dist` 是部署资产。历史源文件和发布版本可追溯。
 
@@ -34,9 +36,9 @@ Quantitative Marketing × Economics / Industrial Organization 的个人就业市
 
 ## 数据结构
 
-`fields` 保留公开研究领域；`tracks` 为 `qm`、`io`（可同时包含）；`topics` 是公开领域/论文的整理标签；`methods` 仅采用明确证据。`sources` 包含 URL 与用途。Assistant Professor 没有明确 tenure 证据时使用 `job_kind: "faculty"`。
+`fields` 保留公开研究领域；`tracks` 为 `marketing`、`qm`、`cb`、`io`（可同时包含）；Marketing 细分方向未确认时只标 `marketing`。`program_id` 独立标记培养项目；`source_cohort_year`、`graduation_year` 与 `placement_year` 分开；`topics` 是公开领域/论文的整理标签；`methods` 仅采用明确证据。`sources` 包含 URL 与用途。Assistant Professor 没有明确 tenure 证据时使用 `job_kind: "faculty"`。
 
-`status` 可为 `placed` 或 `on_market`；资料仍需补证的线索放到 `review-queue.json`，不进入默认统计。年份未知但首职可核验者可保留为 placed，在“全部记录”中查看，不进入年度图。
+`status` 可为 `placed`、`on_market` 或 `outcome_unknown`（完整历史名册中的去向未知者）；资料仍需补证的线索放到 `review-queue.json`，不进入默认统计。年份未知但首职可核验者可保留为 placed，在“全部记录”中查看，不进入年度图。
 
 `source-data/` 保存首版研究证据。`scripts/prepare-data.mjs` 是首版来源格式转换器；日常维护以 `data/records.json` 为准，**不要重新运行此转换器覆盖后续手动修订**。
 

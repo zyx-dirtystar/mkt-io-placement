@@ -71,7 +71,8 @@
     "checked_at": "2026-10-08",
     "notes": "Year conflict retained: mentor labels 2024, but personal CV explicitly dates NBER July 2023–July 2024 and PhD June 2023. Count 2023 only under first actual employment convention; market_cycle unknown. The current page identifies a work-in-progress as extension of his JMP; title is current corresponding working-paper title.",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "massachusetts-institute-of-technology-economics"
   },
   {
     "id": "us-io-adam-rosenberg",
@@ -144,7 +145,63 @@
     "checked_at": "2026-10-08",
     "notes": "Department's 2025 destination is the deferred Stanford GSB appointment. First actual post-PhD job was Yale postdoc. Both stages retained.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "stanford-university-economics"
+  },
+  {
+    "id": "chicago-akshina-banerjee",
+    "name": "Akshina Banerjee",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "University of Michigan, Ross School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Michigan Ross 新教师公告明确其 Behavioral Marketing 博士方向。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://michiganross.umich.edu/news/michigan-ross-welcomes-twelve-new-faculty"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "us-io-alison-pei",
@@ -201,7 +258,8 @@
     "checked_at": "2026-10-08",
     "notes": "Country of initial office not established; employer's global headquarters must not be used as a substitute. Education location is a factual education variable and does not establish citizenship or ethnicity.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "duke-university-economics"
   },
   {
     "id": "anmol-madan-2026-27",
@@ -218,6 +276,7 @@
       "Market design"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -266,7 +325,8 @@
       "Causal analysis",
       "Game theory",
       "Quasi-experiments"
-    ]
+    ],
+    "program_id": "university-of-texas-at-dallas-marketing"
   },
   {
     "id": "us-io-chanwool-kim",
@@ -280,6 +340,7 @@
       "Public Economics"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -317,7 +378,8 @@
     "checked_at": "2026-10-08",
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "university-of-chicago-economics"
   },
   {
     "id": "chi-ying-wang-2025",
@@ -334,6 +396,7 @@
       "Communication"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -385,7 +448,160 @@
     "methods_original": [
       "Analytical modeling",
       "Causal inference"
+    ],
+    "program_id": "yale-university-marketing"
+  },
+  {
+    "id": "hkust-da-he",
+    "name": "Da He",
+    "school": "Hong Kong University of Science and Technology",
+    "program": "PhD in Marketing",
+    "program_id": "hong-kong-university-of-science-and-technology-marketing",
+    "origin": "HK",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Xiamen University",
+    "destination_region": "CN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "aliases": [
+      "HE, Da"
     ]
+  },
+  {
+    "id": "chicago-daniel-katz",
+    "name": "Daniel Katz",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Northeastern University, D’Amore-McKim School of Business",
+    "destination_region": "US",
+    "role": "Visiting Assistant Professor of Marketing",
+    "job_kind": "non_tt",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "ubc-ekin-ok",
+    "name": "Ekin Ok",
+    "school": "University of British Columbia",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-british-columbia-marketing",
+    "origin": "CA",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2022,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Queen's University, Smith School of Business",
+    "destination_region": "CA",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 CV 明确 Consumer Behavior 研究领域。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://smith.queensu.ca/faculty_and_research/faculty_list/CVs/Ekin-Ok-CV.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "UBC 表列于 2023；Queen’s 官方 CV 明确 2022 年 7 月开始首职，博士于 2023 年毕业。首职按 2022 计，不进入默认 2023–2026 图；仍在来源 2023 名单及全部记录中保留。"
   },
   {
     "id": "ella-xu-2025",
@@ -401,6 +617,7 @@
       "Retailing"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -459,7 +676,63 @@
       "Machine learning",
       "Field experiments",
       "Econometrics"
-    ]
+    ],
+    "program_id": "new-york-university-marketing"
+  },
+  {
+    "id": "harvard-emily-prinsloo",
+    "name": "Emily Prinsloo",
+    "school": "Harvard University",
+    "program": "PhD in Marketing",
+    "program_id": "harvard-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Rice University, Jones Graduate School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Rice 官方资料明确 Consumer Behavior 与 Judgment and Decision Making。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://business.rice.edu/person/emily-prinsloo"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "fei-teng-2025",
@@ -475,6 +748,7 @@
       "Public policy"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -527,7 +801,8 @@
       "Structural modeling",
       "Field experiments",
       "Machine learning"
-    ]
+    ],
+    "program_id": "yale-university-marketing"
   },
   {
     "id": "toronto-francis-guiton",
@@ -591,7 +866,8 @@
     "checked_at": "2026-10-08",
     "notes": "The official adviser page calls the dissertation Essays in Industrial Organization and Inventory Management. No employer job title or explicit appointment year was established. The PDF filename alone is not treated as conclusive JMP designation. The September 2024 department announcement identifies the cohort as having found first jobs. Announcement year is stored separately; exact employment start remains unverified.",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "university-of-toronto-economics"
   },
   {
     "id": "haihao-guo-2026-27",
@@ -608,6 +884,7 @@
       "Generative AI"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -662,7 +939,8 @@
       "Causal inference",
       "Game theory",
       "Structural estimation"
-    ]
+    ],
+    "program_id": "washington-university-in-st-louis-marketing"
   },
   {
     "id": "hangcheng-zhao-2025",
@@ -679,6 +957,7 @@
       "Platforms"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -736,7 +1015,8 @@
       "Reinforcement learning",
       "Artificial intelligence",
       "Empirical IO"
-    ]
+    ],
+    "program_id": "university-of-pennsylvania-marketing"
   },
   {
     "id": "hung-ho-2026",
@@ -751,6 +1031,7 @@
       "Consumer self-control"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -797,6 +1078,10 @@
       {
         "label": "research",
         "url": "https://www.hungqdho.com/research"
+      },
+      {
+        "label": "本批对齐官方 Marketing placement 名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
       }
     ],
     "subsequent": [],
@@ -807,7 +1092,9 @@
       "Causal inference",
       "Structural modeling",
       "Machine learning"
-    ]
+    ],
+    "program_id": "university-of-chicago-marketing",
+    "source_cohort_year": 2026
   },
   {
     "id": "us-io-jacob-conway",
@@ -822,6 +1109,7 @@
       "Quantitative Marketing"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -869,7 +1157,8 @@
     "checked_at": "2026-10-08",
     "notes": "Placement year explicitly reported by the department; market cycle left null because it was not explicitly established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "stanford-university-economics"
   },
   {
     "id": "us-io-jaume-vives-i-bastida",
@@ -938,7 +1227,8 @@
     "checked_at": "2026-10-08",
     "notes": "IO is explicitly a secondary field. Preserve primary/secondary distinction when filtering core IO versus broader IO-adjacent candidates.",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "massachusetts-institute-of-technology-economics"
   },
   {
     "id": "us-io-jesse-silbert",
@@ -1006,7 +1296,63 @@
     "checked_at": "2026-10-08",
     "notes": "The Princeton department table is anonymized. This match uses unique destination MIT FutureTech plus IO field and named host profile; retain this linkage provenance for review.",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "princeton-university-economics"
+  },
+  {
+    "id": "chicago-jiaqi-yu",
+    "name": "Jiaqi Yu",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "University of Hong Kong, Business School",
+    "destination_region": "HK",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "HKU 官方介绍消费者如何从线索形成推断与决策。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://www.hkubs.hku.hk/sc/people/jiaqi-yu/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "toronto-jie-fang",
@@ -1083,7 +1429,73 @@
     "checked_at": "2026-10-08",
     "notes": "2024 is explicitly the PhD award year on the adviser supervision page; it is not automatically assigned as placement year. Only initial postdoctoral placement is established here. A later tenure-track transition would require a separate employment event. The September 2024 department announcement identifies the cohort as having found first jobs. Announcement year is stored separately; exact employment start remains unverified.",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "university-of-toronto-economics"
+  },
+  {
+    "id": "harvard-jimin-nam",
+    "name": "Jimin Nam",
+    "school": "Harvard University",
+    "program": "PhD in Marketing",
+    "program_id": "harvard-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "The Ohio State University, Fisher College of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "MIT 官方资料描述消费者注意力研究及实验与计算方法。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://mitsloan.mit.edu/faculty/directory/jimin-nam"
+      },
+      {
+        "label": "MIT 2025 新教师公告：后续任职时间",
+        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/meet-new-faculty-members-joining-mit-sloan-2025"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Massachusetts Institute of Technology, Sloan School of Management",
+        "role": "Assistant Professor of Marketing",
+        "start_year": 2025
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "HBS 表中 Ohio State 是首次去向，MIT 是后续任职，不用现单位替换首职。"
   },
   {
     "id": "hkust-jingling-yu",
@@ -1095,6 +1507,7 @@
       "Quantitative Marketing"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [],
@@ -1104,7 +1517,7 @@
       "消费者行为"
     ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2025,
     "status": "placed",
     "destination": "East China Normal University",
     "destination_region": "CN",
@@ -1138,13 +1551,19 @@
       {
         "label": "official employer profile",
         "url": "https://aebs.ecnu.edu.cn/english/JinlinYU/list.htm"
+      },
+      {
+        "label": "本批对齐官方 Marketing placement 名单",
+        "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "Current employer profile confirms assistant professor title but not the start date. Do not silently assign the current title to the initial placement. June 2024 CV lists PhD study as in progress, so it does not establish the PhD award year. Original PDF verified: English page 2 confirms initial destination; Chinese heading on page 5 says destination at graduation. No year-column definition distinguishes graduation/cohort year from appointment year, so actual placement_year remains null and reported table year is stored as 2025.",
+    "notes": "Current employer profile confirms assistant professor title but not the start date. Do not silently assign the current title to the initial placement. June 2024 CV lists PhD study as in progress, so it does not establish the PhD award year. Original PDF verified: English page 2 confirms initial destination; Chinese heading on page 5 says destination at graduation. No year-column definition distinguishes graduation/cohort year from appointment year, so actual placement_year remains null and reported table year is stored as 2025. 本批根据 HKUST 2025 夏令营官方初始去向表补充 placement 年 2025。",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "hong-kong-university-of-science-and-technology-marketing",
+    "source_cohort_year": 2025
   },
   {
     "id": "nus-jingman-cao",
@@ -1160,6 +1579,7 @@
       "Artificial Intelligence"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -1221,7 +1641,8 @@
     "checked_at": "2026-10-08",
     "notes": "Official NUS table labels 2026 as Year of Graduation; this is not used as placement year. Bocconi identifies the 13 April 2026 seminar as Job Market; market cycle remains null without an explicit cycle statement. A follow-up check independently verified 2026 employment start in the downloaded personal CV and SUFE faculty biography. This is not inferred from the NUS graduation year.",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "national-university-of-singapore-economics"
   },
   {
     "id": "us-io-jingyi-cui",
@@ -1289,7 +1710,8 @@
     "checked_at": "2026-10-08",
     "notes": "Current personal website explicitly identifies Berkeley postdoc as 2026–27. This is employment period, not market cycle. Disambiguated from a different Jingyi Cui who attended Berkeley as an undergraduate.",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "yale-university-economics"
   },
   {
     "id": "us-io-kate-reinmuth",
@@ -1338,7 +1760,8 @@
     "checked_at": "2026-10-08",
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "stanford-university-economics"
   },
   {
     "id": "us-io-kelly-kaili-yang",
@@ -1400,7 +1823,8 @@
     "checked_at": "2026-10-08",
     "notes": "Duke records this placement under 2023; IU's new-faculty story was published September 2024. Publication date does not establish appointment start, so start_year remains null.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "duke-university-economics"
   },
   {
     "id": "ubc-kisho-hoshi",
@@ -1455,7 +1879,55 @@
     "checked_at": "2026-10-08",
     "notes": "Official profile explicitly says on the 2026–2027 job market. Undergraduate institution is explicit; its country was not stated in the reviewed profile and is left null.",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "university-of-british-columbia-economics"
+  },
+  {
+    "id": "chicago-lin-fei",
+    "name": "Lin Fei",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Uber",
+    "destination_region": "UNKNOWN",
+    "role": "Applied Scientist",
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "ntu-lingyu-lin",
@@ -1470,6 +1942,7 @@
       "Branding"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -1519,7 +1992,105 @@
     "checked_at": "2026-10-08",
     "notes": "Employer profile's release date is not used as appointment start; the CV independently states 2026–present. Macau is an observed destination outside the requested PhD-origin regions. The August 2026 CV uses a more specific JMP title than the historical NTU roster.",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "nanyang-technological-university-marketing"
+  },
+  {
+    "id": "hkust-lulu-shi",
+    "name": "Lulu Shi",
+    "school": "Hong Kong University of Science and Technology",
+    "program": "PhD in Marketing",
+    "program_id": "hong-kong-university-of-science-and-technology-marketing",
+    "origin": "HK",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Paris School of Business",
+    "destination_region": "FR",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "aliases": [
+      "SHI, Lulu"
+    ]
+  },
+  {
+    "id": "chicago-lydia-zhao",
+    "name": "Lydia Zhao",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Amazon",
+    "destination_region": "UNKNOWN",
+    "role": "Economist",
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "官方表确认 Amazon Economist，具体工作地区未核验。"
   },
   {
     "id": "malika-korganbekova-2024",
@@ -1535,6 +2106,7 @@
       "Experimentation"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -1597,7 +2169,8 @@
       "Causal inference",
       "Machine learning",
       "Empirical IO"
-    ]
+    ],
+    "program_id": "northwestern-university-marketing"
   },
   {
     "id": "us-io-max-pienkny",
@@ -1647,7 +2220,8 @@
     "checked_at": "2026-10-08",
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "northwestern-university-economics"
   },
   {
     "id": "magie-cheng-2026",
@@ -1663,6 +2237,7 @@
       "Social media"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -1708,6 +2283,10 @@
       {
         "label": "领域与方法",
         "url": "https://www.magiecheng.com/research"
+      },
+      {
+        "label": "本批对齐官方 Marketing placement 名单",
+        "url": "https://www.hbs.edu/doctoral/placement/marketing"
       }
     ],
     "subsequent": [],
@@ -1718,7 +2297,9 @@
       "Machine learning",
       "Large language models",
       "Causal inference"
-    ]
+    ],
+    "program_id": "harvard-university-marketing",
+    "source_cohort_year": 2026
   },
   {
     "id": "us-io-mingao-xie",
@@ -1769,7 +2350,55 @@
     "checked_at": "2026-10-08",
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "georgetown-university-economics"
+  },
+  {
+    "id": "chicago-minkwang-jang",
+    "name": "Minkwang Jang",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Singapore Management University",
+    "destination_region": "SG",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "us-io-mitchell-watt",
@@ -1831,7 +2460,8 @@
     "checked_at": "2026-10-08",
     "notes": "CV describes Lecturer as equivalent to Assistant Professor in the American system; retained original title and did not infer tenure status.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "stanford-university-economics"
   },
   {
     "id": "toronto-mohaddeseh-heydari-nejad",
@@ -1898,7 +2528,8 @@
     "checked_at": "2026-10-08",
     "notes": "Market-cycle evidence is a researcher-maintained field list; employment start is independently explicit in the candidate's CV. 求职季尚仅由领域汇总名单提供，未作为明确市场周期存储。",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "university-of-toronto-economics"
   },
   {
     "id": "us-io-nathaniel-hickok",
@@ -1973,7 +2604,110 @@
     "checked_at": "2026-10-08",
     "notes": "Postdoc category follows advisor's explicit description; current personal website gives formal title Senior Researcher. Preserve both rather than assuming corporate research equals permanent industry employment. 2026 placement is supported by advisor's 2026 entry with initial destination and current 2026 confirmation; exact start date and Microsoft office not established. 岗位类型按本人所列 Microsoft Senior Researcher 计为企业；导师所用 postdoc 称谓另保留在原始来源备注。",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "massachusetts-institute-of-technology-economics"
+  },
+  {
+    "id": "chicago-nicholas-herzog",
+    "name": "Nicholas Herzog",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Tulane University, A. B. Freeman School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方研究介绍聚焦消费者金融决策，并使用实验与调查。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://freeman.tulane.edu/faculty-research/marketing/nicholas-herzog"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "chicago-ningyin-ariel-xu",
+    "name": "Ningyin (Ariel) Xu",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "CUNEF Universidad",
+    "destination_region": "ES",
+    "role": "Assistant Professor of Business Management",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "us-io-pearl-li",
@@ -2052,7 +2786,8 @@
     "checked_at": "2026-10-08",
     "notes": "Initial FTC title and employment start date were not specified in the consulted department source. Current UIUC appointment must not overwrite the 2024 FTC placement.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "stanford-university-economics"
   },
   {
     "id": "ruru-hoong-2026",
@@ -2068,6 +2803,7 @@
       "Platform design"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -2123,7 +2859,55 @@
       "Economic theory",
       "Field experiments",
       "Quantitative analysis"
-    ]
+    ],
+    "program_id": "harvard-university-economics"
+  },
+  {
+    "id": "nus-samantha-sim",
+    "name": "Samantha Sim",
+    "school": "National University of Singapore",
+    "program": "PhD in Marketing",
+    "program_id": "national-university-of-singapore-marketing",
+    "origin": "SG",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "National University of Singapore, Business School",
+    "destination_region": "SG",
+    "role": "Adjunct Lecturer",
+    "job_kind": "non_tt",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "seung-yoon-lee-2025",
@@ -2139,6 +2923,7 @@
       "Player monetization"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -2195,6 +2980,123 @@
       "Structural modeling",
       "Machine learning",
       "Field experiments"
+    ],
+    "program_id": "yale-university-marketing"
+  },
+  {
+    "id": "ubc-shangwen-yi",
+    "name": "Shangwen Yi",
+    "school": "University of British Columbia",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-british-columbia-marketing",
+    "origin": "CA",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [
+      "实验方法",
+      "文本分析"
+    ],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Hong Kong Polytechnic University",
+    "destination_region": "HK",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "PolyU CB 研讨会及教师资料支持消费者行为分类。",
+    "undergraduate": {
+      "institution": "Beijing Normal University",
+      "region": "CN",
+      "year": 2019
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://www.polyu.edu.hk/mm/about-mm/news-and-events/news/2025/cb2025/"
+      },
+      {
+        "label": "官方 CV：2025 入职、博士及本科资料",
+        "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/yi_shangwen/cv_sy.pdf?hash=30C700D7274A76F700A86E9F84491816&rev=4da49e684cf942389693654a6d5fc663"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "nus-shiwen-gao",
+    "name": "Shiwen Gao",
+    "school": "National University of Singapore",
+    "program": "PhD in Marketing",
+    "program_id": "national-university-of-singapore-marketing",
+    "origin": "SG",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Wenzhou-Kean University, College of Business and Public Management",
+    "destination_region": "CN",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "aliases": [
+      "Gao Shiwen"
     ]
   },
   {
@@ -2245,7 +3147,215 @@
     "checked_at": "2026-10-08",
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "yale-university-economics"
+  },
+  {
+    "id": "chicago-shweta-desiraju",
+    "name": "Shweta Desiraju",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Fors Marsh",
+    "destination_region": "UNKNOWN",
+    "role": "Research Associate",
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "ubc-siddhanth-mookerjee",
+    "name": "Siddhanth Mookerjee",
+    "school": "University of British Columbia",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-british-columbia-marketing",
+    "origin": "CA",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2023,
+    "graduation_year": 2024,
+    "status": "placed",
+    "destination": "McGill University",
+    "destination_region": "CA",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "McGill 官方领域为 Consumer Psychology。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://www.mcgill.ca/desautels/siddhanth-mookerjee"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "UBC 首职表列在 2023，McGill 资料列博士毕业于 2024。名单年份保留为 2023；因同表其他人员年份与履历存在冲突，具体首次入职年暂留空，等待 CV 或任命公告。"
+  },
+  {
+    "id": "nus-sijin-chen",
+    "name": "Sijin Chen",
+    "school": "National University of Singapore",
+    "program": "PhD in Marketing",
+    "program_id": "national-university-of-singapore-marketing",
+    "origin": "SG",
+    "fields": [
+      "Marketing",
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "University of Chicago, Booth School of Business",
+    "destination_region": "US",
+    "role": "Postdoctoral Researcher",
+    "job_kind": "postdoc",
+    "jmp": null,
+    "field_evidence": "Booth 官方资料明确 Consumer Behavior、Judgment and Decision Making 与 Social Psychology。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "aliases": [
+      "Chen Sijin"
+    ]
+  },
+  {
+    "id": "chicago-soaham-bharti",
+    "name": "Soaham Bharti",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "University of Washington, Foster School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "ta-wei-huang-2025",
@@ -2261,6 +3371,7 @@
       "Privacy"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -2306,6 +3417,10 @@
       {
         "label": "placement year role and methods",
         "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf"
+      },
+      {
+        "label": "本批对齐官方 Marketing placement 名单",
+        "url": "https://www.hbs.edu/doctoral/placement/marketing"
       }
     ],
     "subsequent": [],
@@ -2317,7 +3432,9 @@
       "Machine learning",
       "Representation learning",
       "Reinforcement learning"
-    ]
+    ],
+    "program_id": "harvard-university-marketing",
+    "source_cohort_year": 2025
   },
   {
     "id": "us-io-tess-snyder",
@@ -2367,7 +3484,8 @@
     "checked_at": "2026-10-08",
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "stanford-university-economics"
   },
   {
     "id": "us-io-thi-mai-anh-nguyen",
@@ -2439,7 +3557,8 @@
     "checked_at": "2026-10-08",
     "notes": "Placement year is first actual post-PhD role in 2023; NYU appointment starts 2024.",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "massachusetts-institute-of-technology-economics"
   },
   {
     "id": "us-io-tulio-sousa",
@@ -2454,6 +3573,7 @@
       "Digital Ads"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -2500,7 +3620,8 @@
     "checked_at": "2026-10-08",
     "notes": "Department spells name Tulio Sousa. Market cycle and appointment start left null; placement year is explicit.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "duke-university-economics"
   },
   {
     "id": "us-io-tuyetanh-tran",
@@ -2563,7 +3684,8 @@
     "checked_at": "2026-10-08",
     "notes": "",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "yale-university-economics"
   },
   {
     "id": "walter-zhang-2024",
@@ -2580,6 +3702,7 @@
       "Incentives"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -2622,6 +3745,10 @@
       {
         "label": "role methods and education",
         "url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf"
+      },
+      {
+        "label": "本批对齐官方 Marketing placement 名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
       }
     ],
     "subsequent": [],
@@ -2632,6 +3759,58 @@
       "Machine learning",
       "Causal inference",
       "Optimal transport"
+    ],
+    "program_id": "university-of-chicago-marketing",
+    "source_cohort_year": 2024
+  },
+  {
+    "id": "nus-wanjiang-deng",
+    "name": "Wanjiang Deng",
+    "school": "National University of Singapore",
+    "program": "PhD in Marketing",
+    "program_id": "national-university-of-singapore-marketing",
+    "origin": "SG",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Zhejiang University, School of Management",
+    "destination_region": "CN",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "aliases": [
+      "Deng Wanjiang"
     ]
   },
   {
@@ -2698,7 +3877,8 @@
     "checked_at": "2026-10-08",
     "notes": "Official NUS graduation year is 2026; July 2025 CV expected a November 2025 completion. Retain the later official observed year and preserve this discrepancy. No explicit JMP designation or market cycle was found in the reviewed sources. Undergraduate institution is explicit but region was not stated in the reviewed CV. SUFE official faculty biography explicitly dates the Marketing Department appointment from 2026. This independently establishes employment year; it is not converted from the graduation year.",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "national-university-of-singapore-economics"
   },
   {
     "id": "xinyao-kong-2023",
@@ -2714,6 +3894,7 @@
       "Demand estimation"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -2759,6 +3940,10 @@
       {
         "label": "初始去向与年份",
         "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "label": "本批对齐官方 Marketing placement 名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
       }
     ],
     "subsequent": [
@@ -2774,6 +3959,58 @@
     "methods_original": [
       "Dynamic discrete choice",
       "Nonparametric methods"
+    ],
+    "program_id": "university-of-chicago-marketing",
+    "source_cohort_year": 2023
+  },
+  {
+    "id": "hkust-xuewen-wang",
+    "name": "Xuewen Wang",
+    "school": "Hong Kong University of Science and Technology",
+    "program": "PhD in Marketing",
+    "program_id": "hong-kong-university-of-science-and-technology-marketing",
+    "origin": "HK",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Tianjin University",
+    "destination_region": "CN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "aliases": [
+      "WANG, Xuewen"
     ]
   },
   {
@@ -2787,6 +4024,7 @@
       "Quantitative Marketing"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -2841,7 +4079,8 @@
     "checked_at": "2026-10-08",
     "notes": "JMP has been retitled; preserve the historical and current titles as versions. CV lists the Peking appointment immediately after PhD completion, but does not literally label it first placement. 求职季尚仅由领域汇总名单提供，未作为明确市场周期存储。",
     "source_file": "ca-hk-sg.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "hong-kong-university-of-science-and-technology-economics"
   },
   {
     "id": "yi-wen-chen-2026-27",
@@ -2857,6 +4096,7 @@
       "Influencer markets"
     ],
     "tracks": [
+      "marketing",
       "qm"
     ],
     "methods": [
@@ -2904,7 +4144,8 @@
       "Causal inference",
       "Optimization",
       "Game theory"
-    ]
+    ],
+    "program_id": "columbia-university-marketing"
   },
   {
     "id": "yihao-yuan-2025",
@@ -2920,6 +4161,7 @@
       "Streaming markets"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -2977,7 +4219,8 @@
       "Structural modeling",
       "Bargaining models",
       "Demand estimation"
-    ]
+    ],
+    "program_id": "university-of-pennsylvania-marketing"
   },
   {
     "id": "yingkang-xie-2023",
@@ -2994,6 +4237,7 @@
       "Empirical IO"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -3048,7 +4292,8 @@
       "Machine learning",
       "Econometrics",
       "Structural modeling"
-    ]
+    ],
+    "program_id": "northwestern-university-marketing"
   },
   {
     "id": "youngeun-lee-2023",
@@ -3064,6 +4309,7 @@
       "Behavioral economics"
     ],
     "tracks": [
+      "marketing",
       "qm",
       "io"
     ],
@@ -3118,7 +4364,8 @@
     "checked_at": "2026-10-08",
     "notes": "Kellogg placement listing says 2023; CV independently dates Boston College employment to July 2023. CV identifies Yonsei as Seoul, Korea.",
     "source_file": "us-marketing.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "northwestern-university-marketing"
   },
   {
     "id": "us-io-yuki-ito",
@@ -3183,7 +4430,8 @@
     "checked_at": "2026-10-08",
     "notes": "2025 appointment year from dated CV, not inferred from graduation year.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "university-of-california-berkeley-economics"
   },
   {
     "id": "us-io-yunus-semih-coskun",
@@ -3241,7 +4489,102 @@
     "checked_at": "2026-10-08",
     "notes": "Initial office location and explicit JMP designation not established. Current research page lists affordable-housing paper as WP, so it was not automatically labeled JMP.",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "boston-college-economics"
+  },
+  {
+    "id": "chicago-yusu-wang",
+    "name": "Yusu Wang",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Peking University, HSBC Business School",
+    "destination_region": "CN",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+  },
+  {
+    "id": "chicago-yuxiao-li",
+    "name": "Yuxiao Li",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-chicago-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Cornerstone Research",
+    "destination_region": "UNKNOWN",
+    "role": "Associate",
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "官方 Marketing 博士 placement 名单确认项目；细分方向尚未核验。",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "来源名单年份另行保存；未核验具体入职月份。"
   },
   {
     "id": "us-io-zhengrui-cheng",
@@ -3288,7 +4631,8 @@
     "checked_at": "2026-10-08",
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "georgetown-university-economics"
   },
   {
     "id": "us-io-zhichun-wang",
@@ -3347,6 +4691,71 @@
     "checked_at": "2026-10-08",
     "notes": "CV explicitly labels JMP AY2025–26. Undergraduate institution/region does not establish ethnicity or citizenship.",
     "source_file": "us-io-extra.json",
-    "methods_original": []
+    "methods_original": [],
+    "program_id": "yale-university-economics"
+  },
+  {
+    "id": "ubc-zining-wang",
+    "name": "Zining Wang",
+    "school": "University of British Columbia",
+    "program": "PhD in Marketing",
+    "program_id": "university-of-british-columbia-marketing",
+    "origin": "CA",
+    "fields": [
+      "Marketing",
+      "Quantitative Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [
+      "因果推断",
+      "机器学习 / AI"
+    ],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "source_cohort_year": 2023,
+    "graduation_year": 2024,
+    "status": "placed",
+    "destination": "Boston College",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "BC 官方资料明确 Marketing Science、计量和深度学习方法。",
+    "undergraduate": {
+      "institution": "Beijing Foreign Studies University",
+      "region": "CN",
+      "year": 2016
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "官方 Marketing 博士首次去向名单",
+        "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+      },
+      {
+        "label": "接收院校或个人资料：方向与履历",
+        "url": "https://www.bc.edu/content/bc-web/schools/carroll-school/faculty-research/faculty-directory/Zining-Wang.html"
+      },
+      {
+        "label": "BC 官方 CV：2024 年 7 月开始任职",
+        "url": "https://www.bc.edu/content/dam/bc1/schools/carroll/faculty/PDFs/Zining%20Wang%20CV.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "UBC 表列于 2023；BC 官方 CV 明确首职从 2024 年 7 月开始、博士 2024 年毕业。年度就业图采用 2024，覆盖矩阵按来源表 2023 核对。"
   }
 ]

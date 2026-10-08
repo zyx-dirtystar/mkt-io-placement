@@ -5,7 +5,9 @@
   "program": "",
   "origin": "US",
   "fields": [],
-  "tracks": [],
+  "tracks": [
+    "marketing"
+  ],
   "methods": [],
   "topics": [],
   "market_cycle": null,
@@ -31,5 +33,8 @@
   "sources": [],
   "subsequent": [],
   "checked_at": null,
-  "notes": ""
+  "notes": "",
+  "program_id": "",
+  "source_cohort_year": null,
+  "graduation_year": null
 }

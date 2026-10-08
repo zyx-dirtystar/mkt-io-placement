@@ -1,6 +1,6 @@
 # 分阶段完善网站
 
-2026-10-08 范围修订：用户要求 Marketing 全方向纳入，包括 Quantitative Marketing、Consumer Behavior 和其他 Marketing 方向。收集单位为目标地区的博士年度名单，不限于能明确分类为 Quant 的候选人。研究方向作为后续筛选标签；Economics IO 部分继续保留。此修订是下一阶段目标，现有 51 人的数据集尚未完成扩充。
+2026-10-08 范围修订：用户要求 Marketing 全方向纳入，包括 Quantitative Marketing、Consumer Behavior 和其他 Marketing 方向。收集单位为目标地区的博士年度名单，不限于能明确分类为 Quant 的候选人。研究方向作为后续筛选标签；Economics IO 部分继续保留。第一批扩充已完成，总记录为 76 人；仍未完成全地区、全项目、全 cohort 覆盖。
 
 ## 当前缺口
 
@@ -17,6 +17,10 @@
 网站：https://zyx-dirtystar.github.io/mkt-io-placement/ 。后续通过提交数据与配置更新自动发布，具体步骤见 `GITHUB-START-HERE.md`。下一阶段重点是完整 cohort 核验与 CB 等方向的扩充。
 
 ## 阶段 2：建立目标院校与覆盖矩阵
+
+2026-10-08 已交付首版：139 个 Marketing 项目线索、15 个既有 Economics 相关项目；网站可按项目/地区/进度筛选年度核验矩阵。15 个 Marketing 项目年度单元已与官方表对齐，整届完整性均未确认。项目资格与名单覆盖分开标记。
+
+同步完成阶段 3 第一批 5 校补录，新增 25 人。详见 [本批修订](BATCH-2026-10-08.md) 与 [年度更新指南](ANNUAL-UPDATE.md)。
 
 范围：美国、加拿大、香港、新加坡的 Marketing 博士项目及 Economics IO；全球就业去向。Marketing 与 Economics 分开核验，即使属于同一学校。Marketing 先收完整候选人或毕业生名单，再标注 Quant、CB、其他或待确认；不因方向不清而排除 Marketing 项目人员。Economics 仍依据公开资料识别 IO。
 
