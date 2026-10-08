@@ -1,0 +1,614 @@
+{
+  "schema_version": "research-v1",
+  "compiled_on": "2026-10-08",
+  "scope": "Additional bounded US-trained IO placement research; no duplicate records from us-io.json.",
+  "identity_policy": "No nationality or ethnicity inference. Undergraduate education institution/region facts are independent of citizenship or ethnicity.",
+  "record_count": 9,
+  "coverage": {
+    "historical_placements": 9,
+    "current_market_candidates": 0,
+    "historical_placement_years": [
+      2023,
+      2025,
+      2026
+    ],
+    "historical_schools": [
+      "Yale University",
+      "Massachusetts Institute of Technology",
+      "Princeton University",
+      "Boston College"
+    ],
+    "exhaustive": false,
+    "gaps": [
+      "Non-exhaustive sample; selection favors clearly sourced appointments and cannot support overall placement-rate estimates.",
+      "Nathaniel Hickok's role has a formal industry title and advisor-described postdoc status; both retained.",
+      "Adam Harris's placement-year label differs between advisor CV and own dated employment history; first actual job convention retained.",
+      "Jesse Silbert's Princeton anonymized placement row is linked using named MIT destination and matching field.",
+      "Exact historical market cycles, employer offices, and some education variables remain unverified."
+    ]
+  },
+  "release_notes": [],
+  "records": [
+    {
+      "id": "us-io-jingyi-cui",
+      "name": "Jingyi Cui",
+      "phd_institution": "Yale University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2026,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Labor Economics"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization, Labor Economics",
+        "url": "https://jingyi-cui.github.io/resume.pdf"
+      },
+      "job_market_paper": "Bidding for Reputation",
+      "undergraduate": {
+        "institution": "Yale University",
+        "region": "United States",
+        "year": 2020
+      },
+      "initial_placement": {
+        "institution": "University of California, Berkeley",
+        "title": "Postdoctoral Scholar",
+        "category": "postdoc",
+        "region": "United States",
+        "start_year": 2026,
+        "end_year": 2027
+      },
+      "subsequent_positions": [
+        {
+          "institution": "Carnegie Mellon University Tepper School of Business",
+          "title": "Assistant Professor of Economics",
+          "category": "faculty",
+          "region": "United States",
+          "start_year": 2027,
+          "status": "announced_future"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026",
+          "role": "placement_year_and_sequence",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://jingyi-cui.github.io/",
+          "role": "current_and_announced_future_positions_and_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://jingyi-cui.github.io/resume.pdf",
+          "role": "field_and_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Current personal website explicitly identifies Berkeley postdoc as 2026–27. This is employment period, not market cycle.",
+        "Disambiguated from a different Jingyi Cui who attended Berkeley as an undergraduate."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-tuyetanh-tran",
+      "name": "Tuyetanh L. Tran",
+      "phd_institution": "Yale University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2026,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Urban Economics",
+        "Innovation"
+      ],
+      "field_evidence": {
+        "text": "Primary Field(s): Industrial Organization; Secondary Field(s): Urban Economics, Innovation",
+        "url": "https://tuyetanhltran.github.io/downloads/Tran_Tuyetanh_CV.pdf"
+      },
+      "job_market_paper": "The Trade-Offs of Curbside Parking: Evidence from Demand-Based Pricing",
+      "undergraduate": {
+        "institution": "Macalester College",
+        "region": "United States",
+        "year": 2018
+      },
+      "initial_placement": {
+        "institution": "Compass Lexecon",
+        "title": "Senior Economist",
+        "category": "consulting",
+        "region": "United States",
+        "city": "Washington, DC",
+        "start_year": 2026
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026",
+          "role": "placement_year_and_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://tuyetanhltran.github.io/",
+          "role": "current_position_and_office",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://tuyetanhltran.github.io/downloads/Tran_Tuyetanh_CV.pdf",
+          "role": "field_jmp_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-zhichun-wang",
+      "name": "Zhichun Wang",
+      "phd_institution": "Yale University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2025-2026",
+      "placement_year": 2026,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Urban Economics"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization, Urban Economics",
+        "url": "https://zwangecon.github.io/draft/Wang_Zhichun_CV_final.pdf"
+      },
+      "job_market_paper": "The Expansion and Dynamic Equilibrium Effects of Institutional Landlords",
+      "undergraduate": {
+        "institution": "Peking University",
+        "region": "Mainland China",
+        "year": 2020
+      },
+      "initial_placement": {
+        "institution": "Harvard University",
+        "title": "Postdoctoral Fellow in Economics",
+        "category": "postdoc",
+        "region": "United States",
+        "start_year": 2026
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026",
+          "role": "placement_year_and_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://zwangecon.github.io/draft/Wang_Zhichun_CV_final.pdf",
+          "role": "field_jmp_market_cycle_employment_and_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://sites.google.com/view/zhichun-wang/home",
+          "role": "current_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "CV explicitly labels JMP AY2025–26.",
+        "Undergraduate institution/region does not establish ethnicity or citizenship."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-nathaniel-hickok",
+      "name": "Nathaniel Hickok",
+      "phd_institution": "Massachusetts Institute of Technology",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2026,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Environmental Economics"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization, Environmental Economics",
+        "url": "https://economics.mit.edu/people/phd-students/nathaniel-hickok"
+      },
+      "job_market_paper": "Environmental Regulation with Irreversible Investments: Evidence from High Plains Aquifer Depletion",
+      "undergraduate": {
+        "institution": "Princeton University",
+        "region": "United States",
+        "year": 2020
+      },
+      "initial_placement": {
+        "institution": "Microsoft Research",
+        "title": "Senior Researcher",
+        "category": "postdoc",
+        "region": null,
+        "start_year": null
+      },
+      "subsequent_positions": [
+        {
+          "institution": "University of Pennsylvania, Wharton, Business Economics and Public Policy",
+          "title": "Assistant Professor",
+          "category": "faculty",
+          "region": "United States",
+          "start_year": 2027,
+          "status": "announced_future"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf",
+          "role": "initial_placement_sequence",
+          "note": "Advisor's April 2026 CV labels Microsoft postdoc then Wharton.",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.nathanielhickok.com/",
+          "role": "current_title_and_announced_future_role",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.mit.edu/people/phd-students/nathaniel-hickok",
+          "role": "field_and_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.mit.edu/sites/default/files/2025-11/Hickok_CV.pdf",
+          "role": "undergraduate_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Postdoc category follows advisor's explicit description; current personal website gives formal title Senior Researcher. Preserve both rather than assuming corporate research equals permanent industry employment.",
+        "2026 placement is supported by advisor's 2026 entry with initial destination and current 2026 confirmation; exact start date and Microsoft office not established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-jesse-silbert",
+      "name": "Jesse Silbert",
+      "phd_institution": "Princeton University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2025-2026",
+      "placement_year": 2026,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Labor Economics",
+        "Economics of AI",
+        "Market Design"
+      ],
+      "field_evidence": {
+        "text": "Primary: Industrial Organization, Labor Economics; Secondary: Economics of AI, Market Design",
+        "url": "https://jesse-silbert.github.io/website/Silbert_CV.pdf"
+      },
+      "job_market_paper": "Making Talk Cheap: Generative AI and Labor Market Signaling",
+      "undergraduate": {
+        "institution": "Columbia University",
+        "region": "United States",
+        "year": 2017
+      },
+      "initial_placement": {
+        "institution": "Massachusetts Institute of Technology, FutureTech at Sloan and CSAIL",
+        "title": "Postdoctoral Associate",
+        "category": "postdoc",
+        "region": "United States",
+        "start_year": 2026
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://economics.princeton.edu/graduate-program/job-market-and-placements/statistics-on-past-placements/",
+          "role": "placement_cycle_and_category",
+          "note": "Anonymized 2025–26 IO row lists MIT FutureTech postdoc; named MIT page below corroborates identity.",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://futuretech.mit.edu/team/jesse-silbert",
+          "role": "named_destination_and_field",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://jesse-silbert.github.io/website/Silbert_CV.pdf",
+          "role": "field_jmp_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://jesse-silbert.github.io/",
+          "role": "current_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "The Princeton department table is anonymized. This match uses unique destination MIT FutureTech plus IO field and named host profile; retain this linkage provenance for review."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-yunus-semih-coskun",
+      "name": "Yunus Semih Coskun",
+      "phd_institution": "Boston College",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2026,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Applied Microeconomics",
+        "Market Design"
+      ],
+      "field_evidence": {
+        "text": "Applied Micro, Industrial Organization, Market Design",
+        "url": "https://www.scottkom.com/teaching/students/"
+      },
+      "job_market_paper": null,
+      "undergraduate": null,
+      "initial_placement": {
+        "institution": "Amazon",
+        "title": "Economist",
+        "category": "industry",
+        "region": null,
+        "start_year": null
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://www.scottkom.com/teaching/students/",
+          "role": "year_field_initial_placement",
+          "note": "Graduate table explicitly has Initial Placement column and 2026 Boston College Amazon entry.",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.yunussemihcoskun.com/",
+          "role": "current_position_and_phd_institution",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.yunussemihcoskun.com/research",
+          "role": "research_fields",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Initial office location and explicit JMP designation not established. Current research page lists affordable-housing paper as WP, so it was not automatically labeled JMP."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-thi-mai-anh-nguyen",
+      "name": "Thi Mai Anh Nguyen",
+      "phd_institution": "Massachusetts Institute of Technology",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2023,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Organizational Economics",
+        "Theory"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization, Organizational Economics, Theory",
+        "url": "https://nguyentmanh.github.io/files/Nguyen_CV.pdf"
+      },
+      "job_market_paper": "Long-Term Relationships and the Spot Market: Evidence from US Trucking",
+      "undergraduate": {
+        "institution": "University of Queensland",
+        "region": "Australia",
+        "year": 2016
+      },
+      "initial_placement": {
+        "institution": "Microsoft Research New England",
+        "title": "Postdoctoral Researcher, Economics and Computation",
+        "category": "postdoc",
+        "region": "United States",
+        "start_date": "2023-07",
+        "end_date": "2024-06"
+      },
+      "subsequent_positions": [
+        {
+          "institution": "New York University, Department of Economics",
+          "title": "Assistant Professor",
+          "category": "faculty",
+          "region": "United States",
+          "start_date": "2024-09"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://nguyentmanh.github.io/files/Nguyen_CV.pdf",
+          "role": "field_employment_dates_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.mit.edu/sites/default/files/2022-10/NGUYEN_ThiMaiAnh_cv.pdf",
+          "role": "jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.mit.edu/people/faculty/stephen-morris/phd-students",
+          "role": "initial_sequence",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.anhnguyentm.com/",
+          "role": "current_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Placement year is first actual post-PhD role in 2023; NYU appointment starts 2024."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-adam-harris",
+      "name": "Adam Harris",
+      "phd_institution": "Massachusetts Institute of Technology",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2023,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Transportation Economics",
+        "Economics of Artificial Intelligence"
+      ],
+      "field_evidence": {
+        "text": "Industrial organization; Transportation economics; Economics of artificial intelligence",
+        "url": "https://economics.cornell.edu/adam-harris"
+      },
+      "job_market_paper": "Human Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking",
+      "undergraduate": {
+        "institution": "Yale University",
+        "region": "United States",
+        "year": 2017
+      },
+      "initial_placement": {
+        "institution": "National Bureau of Economic Research",
+        "title": "Postdoctoral Fellow",
+        "category": "postdoc",
+        "region": "United States",
+        "start_date": "2023-07",
+        "end_date": "2024-07"
+      },
+      "subsequent_positions": [
+        {
+          "institution": "Cornell University, Department of Economics",
+          "title": "Assistant Professor",
+          "category": "faculty",
+          "region": "United States",
+          "start_date": "2024-07"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf",
+          "role": "employment_dates_and_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.cornell.edu/adam-harris",
+          "role": "field",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://adamharris.phd/",
+          "role": "research_and_jmp_context",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf",
+          "role": "conflicting_year_label",
+          "note": "Advisor CV lists Adam Harris with 2024 and NBER postdoc then Cornell; personal dated CV establishes first role July 2023.",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Year conflict retained: mentor labels 2024, but personal CV explicitly dates NBER July 2023–July 2024 and PhD June 2023. Count 2023 only under first actual employment convention; market_cycle unknown.",
+        "The current page identifies a work-in-progress as extension of his JMP; title is current corresponding working-paper title."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-jaume-vives-i-bastida",
+      "name": "Jaume Vives-i-Bastida",
+      "phd_institution": "Massachusetts Institute of Technology",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics and Statistics",
+      "market_cycle": null,
+      "placement_year": 2025,
+      "status": "placed",
+      "fields": [
+        "Econometrics",
+        "Industrial Organization",
+        "Statistics",
+        "Applied Econometrics"
+      ],
+      "field_evidence": {
+        "text": "Primary Field: Econometrics; Secondary Fields: Industrial Organization, Statistics, Applied Econometrics",
+        "url": "https://economics.mit.edu/sites/default/files/2024-11/ResumeJaumeVives24.pdf"
+      },
+      "job_market_paper": "Synthetic IV Estimation in Panels",
+      "undergraduate": {
+        "institution": "London School of Economics",
+        "region": "United Kingdom",
+        "year": 2018
+      },
+      "initial_placement": {
+        "institution": "Stanford Graduate School of Business",
+        "title": "Postdoctoral Scholar",
+        "category": "postdoc",
+        "region": "United States",
+        "start_date": "2025-09",
+        "end_date": "2026-08"
+      },
+      "subsequent_positions": [
+        {
+          "institution": "New York University",
+          "title": "Assistant Professor of Economics and Data Science",
+          "category": "faculty",
+          "region": "United States",
+          "start_date": "2026-09"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://economics.mit.edu/sites/default/files/2024-11/ResumeJaumeVives24.pdf",
+          "role": "field_and_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://jvivesb.github.io/misc/academic_cv_vives_i_bastida_26.pdf",
+          "role": "employment_dates_and_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf",
+          "role": "initial_sequence",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "IO is explicitly a secondary field. Preserve primary/secondary distinction when filtering core IO versus broader IO-adjacent candidates."
+      ],
+      "tenure_track_status": "not_verified"
+    }
+  ]
+}

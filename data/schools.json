@@ -1,0 +1,122 @@
+[
+  {
+    "name": "University of British Columbia",
+    "region": "CA",
+    "url": "https://economics.ubc.ca/graduate/phd-program/phd-job-market-placement/"
+  },
+  {
+    "name": "University of Toronto",
+    "region": "CA",
+    "url": null
+  },
+  {
+    "name": "Chinese University of Hong Kong",
+    "region": "HK",
+    "url": "https://admission.econ.cuhk.edu.hk/pg/phd-economics/"
+  },
+  {
+    "name": "Hong Kong University of Science and Technology",
+    "region": "HK",
+    "url": "https://econ.hkust.edu.hk/programs-n-courses/mphd/placement-record"
+  },
+  {
+    "name": "University of Hong Kong",
+    "region": "HK",
+    "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+  },
+  {
+    "name": "Nanyang Technological University",
+    "region": "SG",
+    "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/on-the-job-market-candidates"
+  },
+  {
+    "name": "National University of Singapore",
+    "region": "SG",
+    "url": "https://fass.nus.edu.sg/ecs/phd-placements/"
+  },
+  {
+    "name": "Singapore Management University",
+    "region": "SG",
+    "url": "https://economics.smu.edu.sg/phd-economics/students/student-placements"
+  },
+  {
+    "name": "Boston College",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Columbia University",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Duke University",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Georgetown University",
+    "region": "US",
+    "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+  },
+  {
+    "name": "Harvard University",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Massachusetts Institute of Technology",
+    "region": "US",
+    "url": "https://economics.mit.edu/academic-programs/phd-program/job-market"
+  },
+  {
+    "name": "New York University",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Northwestern University",
+    "region": "US",
+    "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+  },
+  {
+    "name": "Princeton University",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Stanford University",
+    "region": "US",
+    "url": "https://economics.stanford.edu/graduate/student-placement"
+  },
+  {
+    "name": "University of California, Berkeley",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "University of Chicago",
+    "region": "US",
+    "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+  },
+  {
+    "name": "University of Pennsylvania",
+    "region": "US",
+    "url": "https://doctoral.wharton.upenn.edu/placement/"
+  },
+  {
+    "name": "University of Texas at Dallas",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Washington University in St. Louis",
+    "region": "US",
+    "url": null
+  },
+  {
+    "name": "Yale University",
+    "region": "US",
+    "url": "https://economics.yale.edu/phd-program/placement"
+  }
+]

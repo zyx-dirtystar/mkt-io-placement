@@ -1,0 +1,163 @@
+{
+  "version": "0.1 · verified pilot",
+  "updated_at": "2026-10-08",
+  "current_cycle": "2026-2027",
+  "history_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "change_note": "首版：建立跨四地区的来源化样本；历史首职和当季候选人分开，保留后续任职和待审线索。",
+  "exhaustive": false,
+  "archive_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "schools": [
+    {
+      "name": "University of British Columbia",
+      "region": "CA",
+      "url": "https://economics.ubc.ca/graduate/phd-program/phd-job-market-placement/"
+    },
+    {
+      "name": "University of Toronto",
+      "region": "CA",
+      "url": null
+    },
+    {
+      "name": "Chinese University of Hong Kong",
+      "region": "HK",
+      "url": "https://admission.econ.cuhk.edu.hk/pg/phd-economics/"
+    },
+    {
+      "name": "Hong Kong University of Science and Technology",
+      "region": "HK",
+      "url": "https://econ.hkust.edu.hk/programs-n-courses/mphd/placement-record"
+    },
+    {
+      "name": "University of Hong Kong",
+      "region": "HK",
+      "url": "https://phd.hkubs.hku.hk/People/graduate-placement"
+    },
+    {
+      "name": "Nanyang Technological University",
+      "region": "SG",
+      "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/on-the-job-market-candidates"
+    },
+    {
+      "name": "National University of Singapore",
+      "region": "SG",
+      "url": "https://fass.nus.edu.sg/ecs/phd-placements/"
+    },
+    {
+      "name": "Singapore Management University",
+      "region": "SG",
+      "url": "https://economics.smu.edu.sg/phd-economics/students/student-placements"
+    },
+    {
+      "name": "Boston College",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Columbia University",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Duke University",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Georgetown University",
+      "region": "US",
+      "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+    },
+    {
+      "name": "Harvard University",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Massachusetts Institute of Technology",
+      "region": "US",
+      "url": "https://economics.mit.edu/academic-programs/phd-program/job-market"
+    },
+    {
+      "name": "New York University",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Northwestern University",
+      "region": "US",
+      "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+    },
+    {
+      "name": "Princeton University",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Stanford University",
+      "region": "US",
+      "url": "https://economics.stanford.edu/graduate/student-placement"
+    },
+    {
+      "name": "University of California, Berkeley",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "University of Chicago",
+      "region": "US",
+      "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+    },
+    {
+      "name": "University of Pennsylvania",
+      "region": "US",
+      "url": "https://doctoral.wharton.upenn.edu/placement/"
+    },
+    {
+      "name": "University of Texas at Dallas",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Washington University in St. Louis",
+      "region": "US",
+      "url": null
+    },
+    {
+      "name": "Yale University",
+      "region": "US",
+      "url": "https://economics.yale.edu/phd-program/placement"
+    }
+  ],
+  "release_notes": [
+    {
+      "school": "Chicago Booth",
+      "note": "官方说明 2026–27 候选人将陆续加入；Marketing 名单仍待更新。",
+      "url": "https://www.chicagobooth.edu/phd/job-market-candidates"
+    },
+    {
+      "school": "Yale Economics",
+      "note": "院系列表预告 11 月 4 日发布；部分个人主页已明确参加本季。",
+      "url": "https://economics.yale.edu/phd-program/placement"
+    },
+    {
+      "school": "Georgetown Economics",
+      "note": "2026–27 名单已发布；本版已核验其中两位 IO 候选人。",
+      "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+    },
+    {
+      "school": "NUS Economics",
+      "note": "2026–27 名单待发布；未把毕业年份当作 placement 年。",
+      "url": "https://fass.nus.edu.sg/ecs/phd-job-market-candidates/"
+    }
+  ]
+}

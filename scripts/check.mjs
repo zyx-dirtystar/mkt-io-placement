@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {filterRecords,summarize,backgroundMatches,configure,REGIONS,JOBS} from '../dist/core.js';
+const records=JSON.parse(fs.readFileSync('dist/data/records.json','utf8'));
+const catalog=JSON.parse(fs.readFileSync('dist/data/catalog.json','utf8'));
+configure({currentCycle:catalog.current_cycle,historyYears:catalog.history_years});
+assert.equal(new Set(records.map(r=>r.id)).size,records.length,'Duplicate record IDs');
+assert.equal(new Set(records.map(r=>r.name.toLowerCase()+'|'+r.school)).size,records.length,'Duplicate people');
+for(const r of records){assert.ok(r.name&&r.school&&['US','CA','HK','SG'].includes(r.origin),r.id);assert.ok(r.sources.length>0,'Missing source: '+r.id);for(const s of r.sources)assert.match(s.url,/^https?:\/\//);assert.ok(r.tracks.length&&r.tracks.every(t=>['qm','io'].includes(t)),r.id);assert.ok(JOBS[r.job_kind],r.id);assert.ok(r.placement_year===null||Number.isInteger(r.placement_year),r.id);assert.ok(r.checked_at&&/^\d{4}-\d{2}-\d{2}$/.test(r.checked_at),r.id);for(const v of Object.values(r.identity))if(v.value!=='unknown')assert.ok(v.source,'Identity without evidence: '+r.id);if(r.status==='on_market'){assert.match(r.market_cycle,/^20\d{2}-20\d{2}$/);assert.equal(r.destination,null);assert.equal(r.placement_year,null)}}
+const base={id:'test',name:'Test',school:'Test University',program:'Economics',origin:'US',fields:['IO'],tracks:['qm','io'],topics:[],methods:[],undergraduate:null,identity:{chinese_national:{value:'unknown'},chinese_heritage:{value:'unknown'}},status:'placed',placement_year:2026,market_cycle:catalog.current_cycle,destination:'University A',job_kind:'faculty'};
+assert.equal(filterRecords([base],{period:'current'}).length,1,'Confirmed placement must remain in its current cohort');
+assert.equal(filterRecords([base],{period:'history'}).length,0,'Current cohort must not enter historical comparison');
+assert.equal(filterRecords([base],{track:'all'}).length,1,'Cross-fields must not double count');
+assert.equal(backgroundMatches(base,'ug_other'),false,'Unknown education is not other education');
+assert.equal(backgroundMatches(base,'cn_heritage'),false,'Unknown identity is not affirmative');
+const mixed=[{...base,market_cycle:null},{...base,id:'unknown',destination:null,job_kind:'unknown'},{...base,id:'current',status:'on_market',destination:null,job_kind:'on_market'}];
+assert.deepEqual([summarize(mixed).known,summarize(mixed).faculty,summarize(mixed).unknown],[1,1,1]);
+configure({currentCycle:'2027-2028',historyYears:[2024,2025,2026,2027]});assert.equal(filterRecords([{...base,market_cycle:null,placement_year:2027}],{period:'history'}).length,1,'Annual configuration must include the new year');
+assert.equal(filterRecords([{...base,market_cycle:'2027-2028'}],{period:'current'}).length,1);
+const index=fs.readFileSync('dist/index.html','utf8');for(const file of ['styles.css','app-styles.css','app.js','core.js','data/records.json','data/catalog.json','data/record-template.json'])assert.ok(fs.existsSync('dist/'+file),'Missing asset '+file);assert.ok(index.includes('src="app.js"'));
+console.log(JSON.stringify({result:'passed',records:records.length,schools:new Set(records.map(r=>r.school)).size,checks:'evidence, unique people, dates, current placed cohort, denominator, background unknowns, annual rollover, assets'}));

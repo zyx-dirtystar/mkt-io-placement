@@ -1,0 +1,776 @@
+{
+  "schema_version": "research-v1",
+  "compiled_on": "2026-10-08",
+  "scope": "Bounded pilot research for US-trained Economics/Business Economics candidates with explicit IO research field evidence.",
+  "identity_policy": "No nationality, citizenship, ethnicity, or Chinese-background inference from names, language, education, or photographs. Only education institution/region facts are captured.",
+  "record_count": 15,
+  "coverage": {
+    "historical_placements": 8,
+    "current_market_candidates": 7,
+    "historical_placement_years": [
+      2023,
+      2024,
+      2025
+    ],
+    "historical_schools": [
+      "Stanford University",
+      "Duke University",
+      "University of California, Berkeley"
+    ],
+    "current_schools": [
+      "Stanford University",
+      "Northwestern University",
+      "University of Chicago",
+      "Yale University",
+      "Georgetown University"
+    ],
+    "exhaustive": false,
+    "gaps": [
+      "Not an exhaustive departmental census; all ratios require a coverage denominator and unknown-status reporting.",
+      "No fully verified 2026 IO placement selected in this bounded pass.",
+      "MIT and Yale departmental 2026–27 consolidated lists were not yet posted, although individual Yale candidates were already advertising their market status.",
+      "Some employment start dates, exact first-job titles, office countries, undergraduate education and historical market cycles remain unknown.",
+      "Only explicit IO field labels included; government/consulting placement alone never establishes an IO specialty."
+    ]
+  },
+  "release_notes": [
+    {
+      "institution": "MIT",
+      "market_cycle": "2026-2027",
+      "state": "department_page_awaiting_release",
+      "url": "https://economics.mit.edu/academic-programs/phd-program/job-market",
+      "note": "Department invites visitors to check back in Fall."
+    },
+    {
+      "institution": "Yale",
+      "market_cycle": "2026-2027",
+      "state": "department_page_announced_release",
+      "release_date": "2026-11-04",
+      "url": "https://economics.yale.edu/phd-program/placement",
+      "note": "Department says candidate information will be posted November 4. Individual candidate pages may already be live."
+    }
+  ],
+  "records": [
+    {
+      "id": "us-io-jacob-conway",
+      "name": "Jacob Conway",
+      "phd_institution": "Stanford University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2024,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Corporate Finance",
+        "Political Economy",
+        "Quantitative Marketing"
+      ],
+      "field_evidence": {
+        "text": "Primary fields: Corporate Finance, Industrial Organization, Political Economy; Secondary fields: Quantitative Marketing, Behavioral Economics",
+        "url": "https://jacob-conway.com/pdfs/Conway_Jacob_CV.pdf"
+      },
+      "job_market_paper": "Consuming Values",
+      "undergraduate": {
+        "institution": "University of Chicago",
+        "region": "United States",
+        "year": 2015
+      },
+      "initial_placement": {
+        "institution": "University of Chicago Booth School of Business",
+        "title": "Assistant Professor of Economics",
+        "category": "faculty",
+        "region": "United States",
+        "start_year": 2024
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1",
+          "role": "placement_year",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.stanford.edu/people/jacob-conway",
+          "role": "field_and_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://jacob-conway.com/pdfs/Conway_Jacob_CV.pdf",
+          "role": "employment_and_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Placement year explicitly reported by the department; market cycle left null because it was not explicitly established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-pearl-li",
+      "name": "Pearl Li",
+      "phd_institution": "Stanford University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2024,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Market Design",
+        "Urban Economics"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization; Market Design; Urban Economics",
+        "url": "https://economics.stanford.edu/people/pearl-li"
+      },
+      "job_market_paper": "Value Pricing or Lexus Lanes? The Distributional Effects of Dynamic Tolling",
+      "undergraduate": null,
+      "initial_placement": {
+        "institution": "Federal Trade Commission",
+        "title": null,
+        "category": "government",
+        "region": "United States",
+        "start_year": null
+      },
+      "subsequent_positions": [
+        {
+          "institution": "Yale University",
+          "title": "Postdoctoral Fellow",
+          "category": "postdoc",
+          "region": "United States",
+          "start_date": "2025-07-01",
+          "end_date": "2026-06-30"
+        },
+        {
+          "institution": "University of Illinois Urbana-Champaign",
+          "title": "Assistant Professor of Economics",
+          "category": "faculty",
+          "region": "United States",
+          "start_year": null
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1",
+          "role": "placement_year",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.stanford.edu/people/pearl-li",
+          "role": "placement_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.yale.edu/people/pearl-li",
+          "role": "subsequent_postdoc",
+          "note": "Lists visiting from FTC.",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.pearlzli.com/",
+          "role": "current_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Initial FTC title and employment start date were not specified in the consulted department source.",
+        "Current UIUC appointment must not overwrite the 2024 FTC placement."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-adam-rosenberg",
+      "name": "Adam Rosenberg",
+      "phd_institution": "Stanford University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2025,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Public Economics"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization; Public Economics",
+        "url": "https://www.gsb.stanford.edu/faculty-research/faculty/adam-rosenberg"
+      },
+      "job_market_paper": "Regulating Firearm Markets: Evidence from California",
+      "undergraduate": {
+        "institution": "Middlebury College",
+        "region": "United States",
+        "year": 2016
+      },
+      "initial_placement": {
+        "institution": "Yale University, Cowles Foundation",
+        "title": "Postdoctoral Fellow",
+        "category": "postdoc",
+        "region": "United States",
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      },
+      "subsequent_positions": [
+        {
+          "institution": "Stanford Graduate School of Business",
+          "title": "Assistant Professor of Economics",
+          "category": "faculty",
+          "region": "United States",
+          "start_year": 2026
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1",
+          "role": "placement_year_and_reported_destination",
+          "note": "Department lists Stanford GSB as placement.",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.gsb.stanford.edu/faculty-research/faculty/adam-rosenberg",
+          "role": "employment_sequence_and_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://cowles.yale.edu/people/adam-rosenberg",
+          "role": "postdoc_dates",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://arosenbe.github.io/",
+          "role": "jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Department's 2025 destination is the deferred Stanford GSB appointment. First actual post-PhD job was Yale postdoc. Both stages retained."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-mitchell-watt",
+      "name": "Mitchell Watt",
+      "phd_institution": "Stanford University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2025,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Market Design",
+        "Theory"
+      ],
+      "field_evidence": {
+        "text": "Market Design; Theory; Industrial Organization",
+        "url": "https://economics.stanford.edu/people/mitchell-watt"
+      },
+      "job_market_paper": "Optimal Redistribution Through Subsidies",
+      "undergraduate": {
+        "institution": "University of Queensland",
+        "region": "Australia",
+        "year": 2012
+      },
+      "initial_placement": {
+        "institution": "Monash University",
+        "title": "Lecturer in Economics",
+        "category": "faculty",
+        "region": "Australia",
+        "start_date": "2025-07"
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1",
+          "role": "placement_year",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.stanford.edu/people/mitchell-watt",
+          "role": "field_and_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://www.mitchellwatt.com/files/MitchellWatt_CV.pdf",
+          "role": "employment_and_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "CV describes Lecturer as equivalent to Assistant Professor in the American system; retained original title and did not infer tenure status."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-tulio-sousa",
+      "name": "Túlio Sousa",
+      "phd_institution": "Duke University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2025,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Microeconometrics",
+        "Quantitative Marketing",
+        "Digital Ads"
+      ],
+      "field_evidence": {
+        "text": "Primary: Industrial Organization, Microeconometrics. Secondary: Quantitative Marketing, Digital Ads.",
+        "url": "https://econ.duke.edu/sites/econ.duke.edu/files/2024-10/Tulio%20Sousa%20CV%202024.pdf"
+      },
+      "job_market_paper": "Competition and Targeting in Auctions for Online Ads",
+      "undergraduate": {
+        "institution": "University of São Paulo",
+        "region": "Brazil",
+        "year": 2015
+      },
+      "initial_placement": {
+        "institution": "Indiana University Kelley School of Business",
+        "title": "Assistant Professor",
+        "category": "faculty",
+        "region": "United States",
+        "start_year": null
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://econ.duke.edu/phd-program/prospective-students/placements",
+          "role": "placement_year_and_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://econ.duke.edu/sites/econ.duke.edu/files/2024-10/Tulio%20Sousa%20CV%202024.pdf",
+          "role": "field_jmp_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Department spells name Tulio Sousa. Market cycle and appointment start left null; placement year is explicit."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-kelly-kaili-yang",
+      "name": "Kelly Kaili Yang",
+      "phd_institution": "Duke University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": null,
+      "placement_year": 2023,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Health Economics",
+        "International Trade"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization, Health Economics, International Trade.",
+        "url": "https://econ.duke.edu/sites/econ.duke.edu/files/2022-10/Yang%2CKelly_draftCV_10-14-22.pdf"
+      },
+      "job_market_paper": "Experience Effects and Technology Adoption: Evidence from Aortic Valve Replacement",
+      "undergraduate": {
+        "institution": "Hong Kong University of Science and Technology",
+        "region": "Hong Kong",
+        "year": 2015
+      },
+      "initial_placement": {
+        "institution": "Indiana University Kelley School of Business",
+        "title": "Assistant Professor",
+        "category": "faculty",
+        "region": "United States",
+        "start_year": null
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://econ.duke.edu/phd-program/prospective-students/placements",
+          "role": "placement_year_and_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://econ.duke.edu/sites/econ.duke.edu/files/2022-10/Yang%2CKelly_draftCV_10-14-22.pdf",
+          "role": "field_jmp_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://beppblog.kelley.iu.edu/2024/09/06/new-faculty-kelly-yang/",
+          "role": "faculty_profile",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Duke records this placement under 2023; IU's new-faculty story was published September 2024. Publication date does not establish appointment start, so start_year remains null."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-alison-pei",
+      "name": "Alison Pei",
+      "phd_institution": "Duke University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics & Public Policy",
+      "market_cycle": null,
+      "placement_year": 2024,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Labor Economics"
+      ],
+      "field_evidence": {
+        "text": "Labor Economics; Industrial Organization",
+        "url": "https://alisonpei.github.io/files/Alison_Pei_CV.pdf"
+      },
+      "job_market_paper": "Monopsony in the High-Skilled Migrant Labor Market: Evidence from H-1B Petition Data",
+      "undergraduate": {
+        "institution": "Nankai University",
+        "region": "Mainland China",
+        "year": 2017
+      },
+      "initial_placement": {
+        "institution": "Charles River Associates",
+        "title": "Senior Associate",
+        "category": "consulting",
+        "region": null,
+        "start_year": null
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://econ.duke.edu/phd-program/prospective-students/placements",
+          "role": "placement_year_and_position",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://alisonpei.github.io/files/Alison_Pei_CV.pdf",
+          "role": "field_jmp_education",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Country of initial office not established; employer's global headquarters must not be used as a substitute.",
+        "Education location is a factual education variable and does not establish citizenship or ethnicity."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-yuki-ito",
+      "name": "Yuki Ito",
+      "phd_institution": "University of California, Berkeley",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2024-2025",
+      "placement_year": 2025,
+      "status": "placed",
+      "fields": [
+        "Industrial Organization",
+        "Health Economics",
+        "Market Microstructure"
+      ],
+      "field_evidence": {
+        "text": "PRIMARY: Industrial Organization. SECONDARY: Health Economics; Market Microstructure.",
+        "url": "https://econ.berkeley.edu/sites/default/files/2024-11/FINAL%20Roster%2010.31.24.pdf"
+      },
+      "job_market_paper": "Entry Deterrence in Procurement Auctions",
+      "undergraduate": {
+        "institution": "University of Tokyo",
+        "region": "Japan",
+        "year": 2013,
+        "degree_note": "B.A. Medicine (M.D. equivalent)"
+      },
+      "initial_placement": {
+        "institution": "Indiana University Bloomington, Department of Economics",
+        "title": "Assistant Professor",
+        "category": "faculty",
+        "region": "United States",
+        "start_date": "2025-08"
+      },
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://econ.berkeley.edu/sites/default/files/2024-11/FINAL%20Roster%2010.31.24.pdf",
+          "role": "market_cycle_field_jmp_education",
+          "note": "Roster explicitly titled 2024-2025 academic year.",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://yukiito.github.io/files/ItoYuki_CV_121825.pdf",
+          "role": "appointment_start",
+          "note": "",
+          "checked_on": "2026-10-08"
+        },
+        {
+          "url": "https://economics.indiana.edu/about/faculty/ito-yuki.html",
+          "role": "appointment_and_degree",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "2025 appointment year from dated CV, not inferred from graduation year."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-tess-snyder",
+      "name": "Tess Snyder",
+      "phd_institution": "Stanford University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2026-2027",
+      "placement_year": null,
+      "status": "on_market",
+      "fields": [
+        "Industrial Organization",
+        "Environmental Economics"
+      ],
+      "field_evidence": {
+        "text": "environmental economics and industrial organization",
+        "url": "https://www.tess-snyder.com/"
+      },
+      "job_market_paper": "Product Design Under Regulation: Evidence from the U.S. Automobile Market",
+      "undergraduate": null,
+      "initial_placement": null,
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://www.tess-snyder.com/",
+          "role": "market_cycle_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Explicitly on the 2026–27 market in the source as checked; no placement outcome established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-kate-reinmuth",
+      "name": "Kate Reinmuth",
+      "phd_institution": "Stanford University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2026-2027",
+      "placement_year": null,
+      "status": "on_market",
+      "fields": [
+        "Industrial Organization",
+        "Labor Economics"
+      ],
+      "field_evidence": {
+        "text": "labor economics and industrial organization",
+        "url": "https://www.kate-reinmuth.com/"
+      },
+      "job_market_paper": "The Leaky Pipeline: Retention, Performance, and Promotion Policies",
+      "undergraduate": null,
+      "initial_placement": null,
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://www.kate-reinmuth.com/",
+          "role": "market_cycle_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Explicitly on the 2026–27 market in the source as checked; no placement outcome established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-max-pienkny",
+      "name": "Max Pienkny",
+      "phd_institution": "Northwestern University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2026-2027",
+      "placement_year": null,
+      "status": "on_market",
+      "fields": [
+        "Industrial Organization",
+        "Applied Microeconomics"
+      ],
+      "field_evidence": {
+        "text": "applied microeconomics and industrial organization",
+        "url": "https://maxpienkny.github.io/"
+      },
+      "job_market_paper": "The Safety Cost of Attribute-Based Environmental Regulation: Evidence from Fuel-Economy Standards",
+      "undergraduate": null,
+      "initial_placement": null,
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://maxpienkny.github.io/",
+          "role": "market_cycle_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Explicitly on the 2026–27 market in the source as checked; no placement outcome established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-chanwool-kim",
+      "name": "Chanwool Kim",
+      "phd_institution": "University of Chicago",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2026-2027",
+      "placement_year": null,
+      "status": "on_market",
+      "fields": [
+        "Quantitative Marketing",
+        "Industrial Organization",
+        "Public Economics"
+      ],
+      "field_evidence": {
+        "text": "quantitative marketing, industrial organization, and public economics",
+        "url": "https://chanwoolkim.github.io/"
+      },
+      "job_market_paper": "Causes of Retail Pharmacy Closures",
+      "undergraduate": null,
+      "initial_placement": null,
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://chanwoolkim.github.io/",
+          "role": "market_cycle_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Explicitly on the 2026–27 market in the source as checked; no placement outcome established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-shoki-kusaka",
+      "name": "Shoki Kusaka",
+      "phd_institution": "Yale University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2026-2027",
+      "placement_year": null,
+      "status": "on_market",
+      "fields": [
+        "Industrial Organization",
+        "International Trade",
+        "Macroeconomics"
+      ],
+      "field_evidence": {
+        "text": "international trade, industrial organization, and macroeconomics",
+        "url": "https://shokikusaka.github.io/"
+      },
+      "job_market_paper": "Minimum Wage, Trade Policy, and Informality: Evidence from Colombia",
+      "undergraduate": null,
+      "initial_placement": null,
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://shokikusaka.github.io/",
+          "role": "market_cycle_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Explicitly on the 2026–27 market in the source as checked; no placement outcome established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-zhengrui-cheng",
+      "name": "Zhengrui Cheng",
+      "phd_institution": "Georgetown University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2026-2027",
+      "placement_year": null,
+      "status": "on_market",
+      "fields": [
+        "International Trade",
+        "Industrial Organization"
+      ],
+      "field_evidence": {
+        "text": "International Trade, Industrial Organization",
+        "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+      },
+      "job_market_paper": "Going Overseas: FDI Decisions and Supply Chain Integration",
+      "undergraduate": null,
+      "initial_placement": null,
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/",
+          "role": "market_cycle_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Explicitly on the 2026–27 market in the source as checked; no placement outcome established."
+      ],
+      "tenure_track_status": "not_verified"
+    },
+    {
+      "id": "us-io-mingao-xie",
+      "name": "Mingao Xie",
+      "phd_institution": "Georgetown University",
+      "phd_region": "United States",
+      "phd_program": "PhD Economics",
+      "market_cycle": "2026-2027",
+      "placement_year": null,
+      "status": "on_market",
+      "fields": [
+        "Industrial Organization",
+        "Online Marketplace",
+        "Applied Microeconomics"
+      ],
+      "field_evidence": {
+        "text": "Industrial Organization, Online Marketplace, Applied Microeconomics",
+        "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+      },
+      "job_market_paper": "The Dealer’s Problem: Two-Sided Pricing and Inventory Management in Second-Hand Markets",
+      "undergraduate": null,
+      "initial_placement": null,
+      "subsequent_positions": [],
+      "sources": [
+        {
+          "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/",
+          "role": "market_cycle_field_jmp",
+          "note": "",
+          "checked_on": "2026-10-08"
+        }
+      ],
+      "notes": [
+        "Explicitly on the 2026–27 market in the source as checked; no placement outcome established."
+      ],
+      "tenure_track_status": "not_verified"
+    }
+  ]
+}

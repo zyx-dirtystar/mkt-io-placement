@@ -1,0 +1,3352 @@
+[
+  {
+    "id": "us-io-adam-harris",
+    "name": "Adam Harris",
+    "school": "Massachusetts Institute of Technology",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Transportation Economics",
+      "Economics of Artificial Intelligence"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "status": "placed",
+    "destination": "National Bureau of Economic Research",
+    "destination_region": "US",
+    "role": "Postdoctoral Fellow",
+    "job_kind": "postdoc",
+    "jmp": "Human Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking",
+    "field_evidence": "Industrial organization; Transportation economics; Economics of artificial intelligence",
+    "undergraduate": {
+      "institution": "Yale University",
+      "region": "US",
+      "year": 2017
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "employment dates and education",
+        "url": "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf"
+      },
+      {
+        "label": "研究领域",
+        "url": "https://economics.cornell.edu/adam-harris"
+      },
+      {
+        "label": "research and jmp context",
+        "url": "https://adamharris.phd/"
+      },
+      {
+        "label": "conflicting year label",
+        "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Cornell University, Department of Economics",
+        "title": "Assistant Professor",
+        "category": "faculty",
+        "region": "United States",
+        "start_date": "2024-07"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Year conflict retained: mentor labels 2024, but personal CV explicitly dates NBER July 2023–July 2024 and PhD June 2023. Count 2023 only under first actual employment convention; market_cycle unknown. The current page identifies a work-in-progress as extension of his JMP; title is current corresponding working-paper title.",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-adam-rosenberg",
+    "name": "Adam Rosenberg",
+    "school": "Stanford University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Public Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Yale University, Cowles Foundation",
+    "destination_region": "US",
+    "role": "Postdoctoral Fellow",
+    "job_kind": "postdoc",
+    "jmp": "Regulating Firearm Markets: Evidence from California",
+    "field_evidence": "Industrial Organization; Public Economics",
+    "undergraduate": {
+      "institution": "Middlebury College",
+      "region": "US",
+      "year": 2016
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement year and reported destination",
+        "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1"
+      },
+      {
+        "label": "employment sequence and education",
+        "url": "https://www.gsb.stanford.edu/faculty-research/faculty/adam-rosenberg"
+      },
+      {
+        "label": "postdoc dates",
+        "url": "https://cowles.yale.edu/people/adam-rosenberg"
+      },
+      {
+        "label": "Job Market Paper",
+        "url": "https://arosenbe.github.io/"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Stanford Graduate School of Business",
+        "title": "Assistant Professor of Economics",
+        "category": "faculty",
+        "region": "United States",
+        "start_year": 2026
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Department's 2025 destination is the deferred Stanford GSB appointment. First actual post-PhD job was Yale postdoc. Both stages retained.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-alison-pei",
+    "name": "Alison Pei",
+    "school": "Duke University",
+    "program": "PhD Economics & Public Policy",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Labor Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "竞争与市场势力"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "status": "placed",
+    "destination": "Charles River Associates",
+    "destination_region": "UNKNOWN",
+    "role": "Senior Associate",
+    "job_kind": "industry",
+    "jmp": "Monopsony in the High-Skilled Migrant Labor Market: Evidence from H-1B Petition Data",
+    "field_evidence": "Labor Economics; Industrial Organization",
+    "undergraduate": {
+      "institution": "Nankai University",
+      "region": "CN",
+      "year": 2017
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement year and position",
+        "url": "https://econ.duke.edu/phd-program/prospective-students/placements"
+      },
+      {
+        "label": "field jmp education",
+        "url": "https://alisonpei.github.io/files/Alison_Pei_CV.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Country of initial office not established; employer's global headquarters must not be used as a substitute. Education location is a factual education variable and does not establish citizenship or ethnicity.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "anmol-madan-2026-27",
+    "name": "Anmol Madan",
+    "school": "University of Texas at Dallas",
+    "program": "PhD in Quantitative Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Loyalty programs",
+      "Pricing",
+      "Reward currencies",
+      "Platforms",
+      "Market design"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "因果推断",
+      "理论建模"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "定价与需求",
+      "拍卖与市场设计"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Transitioning from a Spend-Based to Status-Based Loyalty Program: Evidence from a Quasi-Experimental Study",
+    "field_evidence": "Personal homepage explicitly identifies Quantitative Marketing candidacy.",
+    "undergraduate": {
+      "institution": null,
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "all recorded facts",
+        "url": "https://anmolmadan.me/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Homepage explicitly labels 2026–2027 Academic Job Market Candidate and labels the recorded paper as Job Market Paper.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Causal analysis",
+      "Game theory",
+      "Quasi-experiments"
+    ]
+  },
+  {
+    "id": "us-io-chanwool-kim",
+    "name": "Chanwool Kim",
+    "school": "University of Chicago",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Industrial Organization",
+      "Public Economics"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "公共政策"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Causes of Retail Pharmacy Closures",
+    "field_evidence": "quantitative marketing, industrial organization, and public economics",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp",
+        "url": "https://chanwoolkim.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "chi-ying-wang-2025",
+    "name": "Chi-Ying Wang",
+    "school": "Yale University",
+    "program": "PhD in Management (Quantitative Marketing)",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Recommender systems",
+      "AI",
+      "Platform design",
+      "Advertising",
+      "Communication"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "理论建模",
+      "因果推断"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "广告与品牌",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Fordham University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Fordham biography explicitly identifies Quantitative Marketing doctorate; Yale places candidate on quantitative graduates list.",
+    "undergraduate": {
+      "institution": "National Taiwan University",
+      "region": "TW"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "field and initial placement",
+        "url": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students"
+      },
+      {
+        "label": "placement year role methods and education",
+        "url": "https://www.fordham.edu/gabelli-school-of-business/faculty/full-time-faculty/chi-ying-wang/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Fordham explicitly says Joined Fordham: 2025; this confirms employment year independently of the degree year.",
+    "source_file": "us-marketing-extra.json",
+    "methods_original": [
+      "Analytical modeling",
+      "Causal inference"
+    ]
+  },
+  {
+    "id": "ella-xu-2025",
+    "name": "Ella J. Xu",
+    "school": "New York University",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Consumer search",
+      "Information acquisition",
+      "Algorithmic fairness",
+      "Retailing"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "机器学习 / AI",
+      "实验方法",
+      "计量方法"
+    ],
+    "topics": [
+      "AI 与算法",
+      "隐私与信息",
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Emory University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": "An Explainable and Theory-Driven Deep Learning Architecture for Consumer Search and Consideration Sets",
+    "field_evidence": "CV linked by official Emory profile explicitly lists Quantitative Marketing.",
+    "undergraduate": {
+      "institution": "Tsinghua University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "初始去向",
+        "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements"
+      },
+      {
+        "label": "placement year role and education",
+        "url": "https://goizueta.emory.edu/faculty/profiles/ella-xu"
+      },
+      {
+        "label": "field methods jmp and employment history",
+        "url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Emory biography explicitly says joined in 2025 after NYU doctorate; official-profile-linked CV independently dates first academic appointment to 2025.",
+    "source_file": "us-marketing-extra.json",
+    "methods_original": [
+      "Deep learning",
+      "Machine learning",
+      "Field experiments",
+      "Econometrics"
+    ]
+  },
+  {
+    "id": "fei-teng-2025",
+    "name": "Fei Teng",
+    "school": "Yale University",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Platforms",
+      "Customer relationship management",
+      "Customer ratings",
+      "Public policy"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "结构建模 / 估计",
+      "实验方法",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "National University of Singapore",
+    "destination_region": "SG",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Listed in Yale's Quantitative Marketing Recent Graduates page; NUS CV supplies methodological fields.",
+    "undergraduate": {
+      "institution": "Johns Hopkins University",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "field and initial placement",
+        "url": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students"
+      },
+      {
+        "label": "placement year role methods and education",
+        "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "CV explicitly dates Assistant Professor employment to July 2025. Papers not explicitly labeled JMP in inspected CV remain outside the JMP field.",
+    "source_file": "us-marketing-extra.json",
+    "methods_original": [
+      "Structural modeling",
+      "Field experiments",
+      "Machine learning"
+    ]
+  },
+  {
+    "id": "toronto-francis-guiton",
+    "name": "Francis Guiton",
+    "school": "University of Toronto",
+    "program": "Economics",
+    "origin": "CA",
+    "fields": [
+      "Industrial Organization"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": "2023-2024",
+    "placement_year": null,
+    "status": "placed",
+    "destination": "Analysis Group",
+    "destination_region": "CA",
+    "role": null,
+    "job_kind": "industry",
+    "field_evidence": "explicit_in_doctoral_thesis_title",
+    "undergraduate": {
+      "institution": "",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "faculty supervision page",
+        "url": "https://sites.google.com/view/victoraguirregabiriaswebsite/phd-supervision"
+      },
+      {
+        "label": "research paper",
+        "url": "https://congresscreator.org/system/files/papers/Guiton_JMP_draft_180823_0.pdf"
+      },
+      {
+        "label": "official department social post",
+        "url": "https://www.linkedin.com/posts/study-economics-university-of-toronto_ready-for-it-phd-candidates-on-the-job-market-activity-7137899171516203009-UCAa"
+      },
+      {
+        "label": "official department news archive",
+        "url": "https://newsletter.economics.utoronto.ca/tag/phd-placements-2024/"
+      },
+      {
+        "label": "official department social post",
+        "url": "https://www.linkedin.com/posts/study-economics-university-of-toronto_congratulations-to-alexander-hempel-paul-activity-7240084699555975169-Ldgt"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "The official adviser page calls the dissertation Essays in Industrial Organization and Inventory Management. No employer job title or explicit appointment year was established. The PDF filename alone is not treated as conclusive JMP designation. The September 2024 department announcement identifies the cohort as having found first jobs. Announcement year is stored separately; exact employment start remains unverified.",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "haihao-guo-2026-27",
+    "name": "Haihao Guo",
+    "school": "Washington University in St. Louis",
+    "program": "PhD in Quantitative Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Entertainment markets",
+      "Product design",
+      "Product diffusion",
+      "Pricing",
+      "Generative AI"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "机器学习 / AI",
+      "因果推断",
+      "理论建模",
+      "结构建模 / 估计"
+    ],
+    "topics": [
+      "定价与需求",
+      "AI 与算法"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Data-Driven Product Design Guided by Past Successes: An Application to Music with GenAI",
+    "field_evidence": "Personal homepage explicitly identifies Quantitative Marketing candidacy.",
+    "undergraduate": {
+      "institution": null,
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "doctoral program field methods and market cycle",
+        "url": "https://guohaihao.github.io/"
+      },
+      {
+        "label": "Job Market Paper",
+        "url": "https://guohaihao.github.io/research/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Homepage explicitly says 2026–2027 academic job market for a tenure-track position; this is the desired role, not an obtained placement. Advisors stated: Seethu Seetharaman, Baojun Jiang, Yingkang Xie.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Multimodal machine learning",
+      "Causal inference",
+      "Game theory",
+      "Structural estimation"
+    ]
+  },
+  {
+    "id": "hangcheng-zhao-2025",
+    "name": "Hangcheng Zhao",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Quantitative Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Pricing",
+      "Algorithmic decision-making",
+      "Advertising",
+      "Recommendation systems",
+      "Platforms"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "优化与算法",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "定价与需求",
+      "广告与品牌",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Rutgers University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": "Algorithmic Collusion of Pricing and Advertising on E-commerce Platforms",
+    "field_evidence": "Rutgers official profile and CV explicitly identify the Quantitative Marketing doctorate.",
+    "undergraduate": {
+      "institution": "Tsinghua University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "博士项目与研究领域",
+        "url": "https://www.business.rutgers.edu/faculty/hangcheng-zhao"
+      },
+      {
+        "label": "初始去向",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      },
+      {
+        "label": "placement year role methods jmp and education",
+        "url": "https://www.business.rutgers.edu/sites/default/files/documents/faculty/cv-hangcheng-zhao.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Wharton Year is degree year; Rutgers CV independently dates employment to 2025. CV explicitly identifies undergraduate institution as Tsinghua University, Beijing, China.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Reinforcement learning",
+      "Artificial intelligence",
+      "Empirical IO"
+    ]
+  },
+  {
+    "id": "hung-ho-2026",
+    "name": "Hung Ho",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Behavioral IO",
+      "Marketing and public policy",
+      "Consumer self-control"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [
+      "因果推断",
+      "结构建模 / 估计",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Nanyang Technological University",
+    "destination_region": "SG",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Research classification based on self-described behavioral IO questions and use of structural models, causal inference, and machine learning.",
+    "undergraduate": {
+      "institution": "University of Chicago",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement 年份",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "label": "field methods role and education",
+        "url": "https://www.hungqdho.com/about"
+      },
+      {
+        "label": "research",
+        "url": "https://www.hungqdho.com/research"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Listed under Booth's 2026 Graduate Outcomes. Self-Control and Overconsumption appears as working paper/dissertation award paper; inspected sources do not explicitly label JMP, so left null.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Causal inference",
+      "Structural modeling",
+      "Machine learning"
+    ]
+  },
+  {
+    "id": "us-io-jacob-conway",
+    "name": "Jacob Conway",
+    "school": "Stanford University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Corporate Finance",
+      "Political Economy",
+      "Quantitative Marketing"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "status": "placed",
+    "destination": "University of Chicago Booth School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor of Economics",
+    "job_kind": "faculty",
+    "jmp": "Consuming Values",
+    "field_evidence": "Primary fields: Corporate Finance, Industrial Organization, Political Economy; Secondary fields: Quantitative Marketing, Behavioral Economics",
+    "undergraduate": {
+      "institution": "University of Chicago",
+      "region": "US",
+      "year": 2015
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement 年份",
+        "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1"
+      },
+      {
+        "label": "领域与论文",
+        "url": "https://economics.stanford.edu/people/jacob-conway"
+      },
+      {
+        "label": "任职与教育经历",
+        "url": "https://jacob-conway.com/pdfs/Conway_Jacob_CV.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Placement year explicitly reported by the department; market cycle left null because it was not explicitly established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-jaume-vives-i-bastida",
+    "name": "Jaume Vives-i-Bastida",
+    "school": "Massachusetts Institute of Technology",
+    "program": "PhD Economics and Statistics",
+    "origin": "US",
+    "fields": [
+      "Econometrics",
+      "Industrial Organization",
+      "Statistics",
+      "Applied Econometrics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Stanford Graduate School of Business",
+    "destination_region": "US",
+    "role": "Postdoctoral Scholar",
+    "job_kind": "postdoc",
+    "jmp": "Synthetic IV Estimation in Panels",
+    "field_evidence": "Primary Field: Econometrics; Secondary Fields: Industrial Organization, Statistics, Applied Econometrics",
+    "undergraduate": {
+      "institution": "London School of Economics",
+      "region": "UK",
+      "year": 2018
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "领域与论文",
+        "url": "https://economics.mit.edu/sites/default/files/2024-11/ResumeJaumeVives24.pdf"
+      },
+      {
+        "label": "employment dates and education",
+        "url": "https://jvivesb.github.io/misc/academic_cv_vives_i_bastida_26.pdf"
+      },
+      {
+        "label": "initial sequence",
+        "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "New York University",
+        "title": "Assistant Professor of Economics and Data Science",
+        "category": "faculty",
+        "region": "United States",
+        "start_date": "2026-09"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "IO is explicitly a secondary field. Preserve primary/secondary distinction when filtering core IO versus broader IO-adjacent candidates.",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-jesse-silbert",
+    "name": "Jesse Silbert",
+    "school": "Princeton University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Labor Economics",
+      "Economics of AI",
+      "Market Design"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "AI 与算法",
+      "拍卖与市场设计"
+    ],
+    "market_cycle": "2025-2026",
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Massachusetts Institute of Technology, FutureTech at Sloan and CSAIL",
+    "destination_region": "US",
+    "role": "Postdoctoral Associate",
+    "job_kind": "postdoc",
+    "jmp": "Making Talk Cheap: Generative AI and Labor Market Signaling",
+    "field_evidence": "Primary: Industrial Organization, Labor Economics; Secondary: Economics of AI, Market Design",
+    "undergraduate": {
+      "institution": "Columbia University",
+      "region": "US",
+      "year": 2017
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement cycle and category",
+        "url": "https://economics.princeton.edu/graduate-program/job-market-and-placements/statistics-on-past-placements/"
+      },
+      {
+        "label": "named destination and field",
+        "url": "https://futuretech.mit.edu/team/jesse-silbert"
+      },
+      {
+        "label": "field jmp education",
+        "url": "https://jesse-silbert.github.io/website/Silbert_CV.pdf"
+      },
+      {
+        "label": "current position",
+        "url": "https://jesse-silbert.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "The Princeton department table is anonymized. This match uses unique destination MIT FutureTech plus IO field and named host profile; retain this linkage provenance for review.",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "toronto-jie-fang",
+    "name": "Jie Fang",
+    "school": "University of Toronto",
+    "program": "Economics",
+    "origin": "CA",
+    "fields": [
+      "Industrial Organization",
+      "Innovation Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "医疗与健康",
+      "创新与创业"
+    ],
+    "market_cycle": "2023-2024",
+    "placement_year": null,
+    "status": "placed",
+    "destination": "McGill University",
+    "destination_region": "CA",
+    "role": "Postdoctoral Fellow",
+    "job_kind": "postdoc",
+    "jmp": "When are Patents Traded and Why: A Dynamic Structural Model of Drug Development and Patent Trading",
+    "field_evidence": "explicit",
+    "undergraduate": {
+      "institution": "Université Pierre-Mendès-France / Université Stendhal",
+      "region": "FR"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "personal academic page",
+        "url": "https://sites.google.com/view/fang-jie"
+      },
+      {
+        "label": "faculty supervision page",
+        "url": "https://sites.google.com/view/victoraguirregabiriaswebsite/phd-supervision"
+      },
+      {
+        "label": "official department news",
+        "url": "https://newsletter.economics.utoronto.ca/category/graduate-student-news/page/16/"
+      },
+      {
+        "label": "official department social post",
+        "url": "https://www.linkedin.com/posts/study-economics-university-of-toronto_ready-for-it-phd-candidates-on-the-job-market-activity-7137899171516203009-UCAa"
+      },
+      {
+        "label": "faculty cv",
+        "url": "https://muratcelik.faculty.economics.utoronto.ca/wp-content/uploads/2024/09/Celik_CV_2024_09_05.pdf"
+      },
+      {
+        "label": "official department news archive",
+        "url": "https://newsletter.economics.utoronto.ca/tag/phd-placements-2024/"
+      },
+      {
+        "label": "official department social post",
+        "url": "https://www.linkedin.com/posts/study-economics-university-of-toronto_congratulations-to-alexander-hempel-paul-activity-7240084699555975169-Ldgt"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "2024 is explicitly the PhD award year on the adviser supervision page; it is not automatically assigned as placement year. Only initial postdoctoral placement is established here. A later tenure-track transition would require a separate employment event. The September 2024 department announcement identifies the cohort as having found first jobs. Announcement year is stored separately; exact employment start remains unverified.",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "hkust-jingling-yu",
+    "name": "Jingling Yu",
+    "school": "Hong Kong University of Science and Technology",
+    "program": "Quantitative Marketing",
+    "origin": "HK",
+    "fields": [
+      "Quantitative Marketing"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [],
+    "topics": [
+      "广告与品牌",
+      "AI 与算法",
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": null,
+    "status": "placed",
+    "destination": "East China Normal University",
+    "destination_region": "CN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": "Using Deep Learning and Eye Tracking to Optimize Package Design",
+    "field_evidence": "explicit_phd_program",
+    "undergraduate": {
+      "institution": "Xiamen University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "officially hosted candidate cv",
+        "url": "https://bmphd.hkust.edu.hk/sites/default/files/2024-06/CV%20Jingling%20Yu_1.pdf"
+      },
+      {
+        "label": "official program brochure",
+        "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+      },
+      {
+        "label": "official employer profile",
+        "url": "https://aebs.ecnu.edu.cn/english/JinlinYU/list.htm"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Current employer profile confirms assistant professor title but not the start date. Do not silently assign the current title to the initial placement. June 2024 CV lists PhD study as in progress, so it does not establish the PhD award year. Original PDF verified: English page 2 confirms initial destination; Chinese heading on page 5 says destination at graduation. No year-column definition distinguishes graduation/cohort year from appointment year, so actual placement_year remains null and reported table year is stored as 2025.",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "nus-jingman-cao",
+    "name": "Jingman Cao",
+    "school": "National University of Singapore",
+    "program": "Economics",
+    "origin": "SG",
+    "fields": [
+      "Empirical Industrial Organization",
+      "Quantitative Marketing",
+      "Platform Economy",
+      "Applied Microeconomics",
+      "Artificial Intelligence"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "平台与数字市场",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Shanghai University of Finance and Economics",
+    "destination_region": "CN",
+    "role": "Assistant Professor of Economics",
+    "job_kind": "faculty",
+    "jmp": "When AI Writes Alike: Implications for Efficiency on Matching Platforms",
+    "field_evidence": "explicit",
+    "undergraduate": {
+      "institution": "Xiamen University",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "personal academic page",
+        "url": "https://www.jingmancao.com/"
+      },
+      {
+        "label": "official department placement table",
+        "url": "https://fass.nus.edu.sg/ecs/phd-placements/"
+      },
+      {
+        "label": "personal cv linked from homepage",
+        "url": "https://drive.google.com/file/d/17uG9JAnPihsT7xuI-nN7NergVtIbdX4p/view?usp=sharing"
+      },
+      {
+        "label": "official employer profile",
+        "url": "https://cob.sufe.edu.cn/Faculty/Resume/268"
+      },
+      {
+        "label": "official host job market seminar",
+        "url": "https://marketing.unibocconi.eu/events/when-ai-writes-alike-implications-efficiency-matching-platforms"
+      },
+      {
+        "label": "personal research page",
+        "url": "https://www.jingmancao.com/research"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Official NUS table labels 2026 as Year of Graduation; this is not used as placement year. Bocconi identifies the 13 April 2026 seminar as Job Market; market cycle remains null without an explicit cycle statement. A follow-up check independently verified 2026 employment start in the downloaded personal CV and SUFE faculty biography. This is not inferred from the NUS graduation year.",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-jingyi-cui",
+    "name": "Jingyi Cui",
+    "school": "Yale University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Labor Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "University of California, Berkeley",
+    "destination_region": "US",
+    "role": "Postdoctoral Scholar",
+    "job_kind": "postdoc",
+    "jmp": "Bidding for Reputation",
+    "field_evidence": "Industrial Organization, Labor Economics",
+    "undergraduate": {
+      "institution": "Yale University",
+      "region": "US",
+      "year": 2020
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement year and sequence",
+        "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026"
+      },
+      {
+        "label": "current and announced future positions and jmp",
+        "url": "https://jingyi-cui.github.io/"
+      },
+      {
+        "label": "field and education",
+        "url": "https://jingyi-cui.github.io/resume.pdf"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Carnegie Mellon University Tepper School of Business",
+        "title": "Assistant Professor of Economics",
+        "category": "faculty",
+        "region": "United States",
+        "start_year": 2027,
+        "status": "announced_future"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Current personal website explicitly identifies Berkeley postdoc as 2026–27. This is employment period, not market cycle. Disambiguated from a different Jingyi Cui who attended Berkeley as an undergraduate.",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-kate-reinmuth",
+    "name": "Kate Reinmuth",
+    "school": "Stanford University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Labor Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "广告与品牌"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "The Leaky Pipeline: Retention, Performance, and Promotion Policies",
+    "field_evidence": "labor economics and industrial organization",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp",
+        "url": "https://www.kate-reinmuth.com/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-kelly-kaili-yang",
+    "name": "Kelly Kaili Yang",
+    "school": "Duke University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Health Economics",
+      "International Trade"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "医疗与健康"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "status": "placed",
+    "destination": "Indiana University Kelley School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": "Experience Effects and Technology Adoption: Evidence from Aortic Valve Replacement",
+    "field_evidence": "Industrial Organization, Health Economics, International Trade.",
+    "undergraduate": {
+      "institution": "Hong Kong University of Science and Technology",
+      "region": "HK",
+      "year": 2015
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement year and position",
+        "url": "https://econ.duke.edu/phd-program/prospective-students/placements"
+      },
+      {
+        "label": "field jmp education",
+        "url": "https://econ.duke.edu/sites/econ.duke.edu/files/2022-10/Yang%2CKelly_draftCV_10-14-22.pdf"
+      },
+      {
+        "label": "faculty profile",
+        "url": "https://beppblog.kelley.iu.edu/2024/09/06/new-faculty-kelly-yang/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Duke records this placement under 2023; IU's new-faculty story was published September 2024. Publication date does not establish appointment start, so start_year remains null.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "ubc-kisho-hoshi",
+    "name": "Kisho Hoshi",
+    "school": "University of British Columbia",
+    "program": "Economics",
+    "origin": "CA",
+    "fields": [
+      "Industrial Organization",
+      "Health Economics",
+      "Labour Economics",
+      "Public Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "医疗与健康",
+      "公共政策"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Physician Payment, Care Supply, and Modality Choice in Primary Care",
+    "field_evidence": "explicit",
+    "undergraduate": {
+      "institution": "Hitotsubashi University",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "official candidate profile",
+        "url": "https://economics.ubc.ca/profile/kisho-hoshi-2/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Official profile explicitly says on the 2026–2027 job market. Undergraduate institution is explicit; its country was not stated in the reviewed profile and is left null.",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "ntu-lingyu-lin",
+    "name": "Lingyu (Lynn) Lin",
+    "school": "Nanyang Technological University",
+    "program": "Marketing (Quant)",
+    "origin": "SG",
+    "fields": [
+      "Quantitative Marketing",
+      "Causal Inference",
+      "Product Placement",
+      "Branding"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "因果推断"
+    ],
+    "topics": [
+      "广告与品牌"
+    ],
+    "market_cycle": "2025-2026",
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "City University of Macau, Faculty of Business",
+    "destination_region": "MO",
+    "role": "Assistant Professor in Marketing",
+    "job_kind": "faculty",
+    "jmp": "Intra-Brand Spillover Effect of Product Placement on Automobile Sales",
+    "field_evidence": "explicit_program_and_roster",
+    "undergraduate": {
+      "institution": "Shenzhen University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "officially hosted faculty cv",
+        "url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf"
+      },
+      {
+        "label": "official program candidate roster",
+        "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/on-the-job-market-candidates"
+      },
+      {
+        "label": "official employer profile",
+        "url": "https://fob.cityu.edu.mo/en/full-time-academic-staff/1003"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Employer profile's release date is not used as appointment start; the CV independently states 2026–present. Macau is an observed destination outside the requested PhD-origin regions. The August 2026 CV uses a more specific JMP title than the historical NTU roster.",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "malika-korganbekova-2024",
+    "name": "Malika Korganbekova",
+    "school": "Northwestern University",
+    "program": "PhD in Quantitative Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Digital platforms",
+      "Privacy",
+      "Data regulation",
+      "Experimentation"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "因果推断",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "隐私与信息",
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "status": "placed",
+    "destination": "University of Chicago",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing and Fishman Faculty Fellow",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Stanford official profile and personal homepage explicitly identify her PhD as Quantitative Marketing.",
+    "undergraduate": {
+      "institution": "Lomonosov Moscow State University",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "initial role and employment dates",
+        "url": "https://www.gsb.stanford.edu/faculty-research/faculty/malika-korganbekova"
+      },
+      {
+        "label": "初始去向与年份",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "教育经历",
+        "url": "https://www.malikakorganbekova.com/"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Stanford University",
+        "title": "Assistant Professor of Marketing",
+        "start_year": 2026
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Stanford profile lists Chicago appointment 2024–2026 and Stanford from August 2026. Stanford is a later move, not the initial placement.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Causal inference",
+      "Machine learning",
+      "Empirical IO"
+    ]
+  },
+  {
+    "id": "us-io-max-pienkny",
+    "name": "Max Pienkny",
+    "school": "Northwestern University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Applied Microeconomics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "环境与能源",
+      "公共政策"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "The Safety Cost of Attribute-Based Environmental Regulation: Evidence from Fuel-Economy Standards",
+    "field_evidence": "applied microeconomics and industrial organization",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp",
+        "url": "https://maxpienkny.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "magie-cheng-2026",
+    "name": "Mengjie (Magie) Cheng",
+    "school": "Harvard University",
+    "program": "PhD in Business Administration (Marketing)",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Content marketing",
+      "Digital marketing",
+      "Generative AI",
+      "Social media"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "机器学习 / AI",
+      "因果推断"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "University of Texas at Austin",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Content-based classification: research uses machine learning, causal inference and difference-in-differences to estimate marketing effects; personal research page describes quantitative content modeling.",
+    "undergraduate": {
+      "institution": "Zhejiang University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "初始去向",
+        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+      },
+      {
+        "label": "placement year role education",
+        "url": "https://www.magiecheng.com/bio"
+      },
+      {
+        "label": "领域与方法",
+        "url": "https://www.magiecheng.com/research"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Personal biography dates appointment to June 2026. Earlier Meta employment and Wayfair internship are pre-PhD/during-PhD experience, not initial post-PhD placement.",
+    "source_file": "us-marketing-extra.json",
+    "methods_original": [
+      "Machine learning",
+      "Large language models",
+      "Causal inference"
+    ]
+  },
+  {
+    "id": "us-io-mingao-xie",
+    "name": "Mingao Xie",
+    "school": "Georgetown University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Online Marketplace",
+      "Applied Microeconomics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "平台与数字市场",
+      "定价与需求"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "The Dealer’s Problem: Two-Sided Pricing and Inventory Management in Second-Hand Markets",
+    "field_evidence": "Industrial Organization, Online Marketplace, Applied Microeconomics",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp",
+        "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-mitchell-watt",
+    "name": "Mitchell Watt",
+    "school": "Stanford University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Market Design",
+      "Theory"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "拍卖与市场设计"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Monash University",
+    "destination_region": "AU",
+    "role": "Lecturer in Economics",
+    "job_kind": "faculty",
+    "jmp": "Optimal Redistribution Through Subsidies",
+    "field_evidence": "Market Design; Theory; Industrial Organization",
+    "undergraduate": {
+      "institution": "University of Queensland",
+      "region": "AU",
+      "year": 2012
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement 年份",
+        "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1"
+      },
+      {
+        "label": "领域与论文",
+        "url": "https://economics.stanford.edu/people/mitchell-watt"
+      },
+      {
+        "label": "任职与教育经历",
+        "url": "https://www.mitchellwatt.com/files/MitchellWatt_CV.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "CV describes Lecturer as equivalent to Assistant Professor in the American system; retained original title and did not infer tenure status.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "toronto-mohaddeseh-heydari-nejad",
+    "name": "Mohaddeseh Heydari Nejad",
+    "school": "University of Toronto",
+    "program": "Economics",
+    "origin": "CA",
+    "fields": [
+      "Industrial Organization",
+      "Innovation",
+      "Entrepreneurship"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "平台与数字市场",
+      "创新与创业",
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Indiana University, Kelley School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor of Business Economics and Public Policy",
+    "job_kind": "faculty",
+    "jmp": "A Structural Model of Mentorship in Startup Accelerators: Matching, Learning, and Value Creation",
+    "field_evidence": "explicit",
+    "undergraduate": {
+      "institution": "Sharif University of Technology",
+      "region": "IR"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "personal academic page",
+        "url": "https://www.mohaddesehheydarinejad.com/"
+      },
+      {
+        "label": "personal cv",
+        "url": "https://www.mohaddesehheydarinejad.com/_files/ugd/f0173c_f497468897f948598fce411b0d0d9cde.pdf"
+      },
+      {
+        "label": "field researcher curated list",
+        "url": "https://shoshanavasserman.com/io-jmc/"
+      },
+      {
+        "label": "faculty supervision page",
+        "url": "https://sites.google.com/view/victoraguirregabiriaswebsite/phd-supervision"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Market-cycle evidence is a researcher-maintained field list; employment start is independently explicit in the candidate's CV. 求职季尚仅由领域汇总名单提供，未作为明确市场周期存储。",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-nathaniel-hickok",
+    "name": "Nathaniel Hickok",
+    "school": "Massachusetts Institute of Technology",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Environmental Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "环境与能源",
+      "公共政策"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Microsoft Research",
+    "destination_region": "UNKNOWN",
+    "role": "Senior Researcher",
+    "job_kind": "industry",
+    "jmp": "Environmental Regulation with Irreversible Investments: Evidence from High Plains Aquifer Depletion",
+    "field_evidence": "Industrial Organization, Environmental Economics",
+    "undergraduate": {
+      "institution": "Princeton University",
+      "region": "US",
+      "year": 2020
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "initial placement sequence",
+        "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf"
+      },
+      {
+        "label": "current title and announced future role",
+        "url": "https://www.nathanielhickok.com/"
+      },
+      {
+        "label": "领域与论文",
+        "url": "https://economics.mit.edu/people/phd-students/nathaniel-hickok"
+      },
+      {
+        "label": "undergraduate education",
+        "url": "https://economics.mit.edu/sites/default/files/2025-11/Hickok_CV.pdf"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "University of Pennsylvania, Wharton, Business Economics and Public Policy",
+        "title": "Assistant Professor",
+        "category": "faculty",
+        "region": "United States",
+        "start_year": 2027,
+        "status": "announced_future"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Postdoc category follows advisor's explicit description; current personal website gives formal title Senior Researcher. Preserve both rather than assuming corporate research equals permanent industry employment. 2026 placement is supported by advisor's 2026 entry with initial destination and current 2026 confirmation; exact start date and Microsoft office not established. 岗位类型按本人所列 Microsoft Senior Researcher 计为企业；导师所用 postdoc 称谓另保留在原始来源备注。",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-pearl-li",
+    "name": "Pearl Li",
+    "school": "Stanford University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Market Design",
+      "Urban Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "定价与需求",
+      "拍卖与市场设计"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "status": "placed",
+    "destination": "Federal Trade Commission",
+    "destination_region": "US",
+    "role": null,
+    "job_kind": "government",
+    "jmp": "Value Pricing or Lexus Lanes? The Distributional Effects of Dynamic Tolling",
+    "field_evidence": "Industrial Organization; Market Design; Urban Economics",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement 年份",
+        "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1"
+      },
+      {
+        "label": "placement field jmp",
+        "url": "https://economics.stanford.edu/people/pearl-li"
+      },
+      {
+        "label": "subsequent postdoc",
+        "url": "https://economics.yale.edu/people/pearl-li"
+      },
+      {
+        "label": "current position",
+        "url": "https://www.pearlzli.com/"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Yale University",
+        "title": "Postdoctoral Fellow",
+        "category": "postdoc",
+        "region": "United States",
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      },
+      {
+        "institution": "University of Illinois Urbana-Champaign",
+        "title": "Assistant Professor of Economics",
+        "category": "faculty",
+        "region": "United States",
+        "start_year": null
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Initial FTC title and employment start date were not specified in the consulted department source. Current UIUC appointment must not overwrite the 2024 FTC placement.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "ruru-hoong-2026",
+    "name": "Ruru Hoong",
+    "school": "Harvard University",
+    "program": "PhD in Business Economics",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Digital economics",
+      "AI-assisted decisions",
+      "Consumer welfare",
+      "Platform design"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "理论建模",
+      "实验方法"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Massachusetts Institute of Technology",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Cross-disciplinary inclusion based on MIT research description: economic theory, field experiments and quantitative methods applied to product/platform design, consumer decisions and welfare. Doctoral program is Business Economics, not Marketing.",
+    "undergraduate": {
+      "institution": "Stanford University",
+      "region": "US"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "doctoral program and initial placement",
+        "url": "https://www.hbs.edu/doctoral/placement/business-economics"
+      },
+      {
+        "label": "岗位与入职年份",
+        "url": "https://mitsloan.mit.edu/ideas-made-to-matter/meet-new-faculty-members-joining-mit-sloan-2026"
+      },
+      {
+        "label": "field methods and education",
+        "url": "https://mitsloan.mit.edu/faculty/directory/ruru-hoong"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "MIT official new-faculty announcement explicitly identifies 2026 entry. Scope includes quantitative economics-to-marketing hires; record should remain distinguishable from a Quant Marketing PhD.",
+    "source_file": "us-marketing-extra.json",
+    "methods_original": [
+      "Economic theory",
+      "Field experiments",
+      "Quantitative analysis"
+    ]
+  },
+  {
+    "id": "seung-yoon-lee-2025",
+    "name": "Seung Yoon Lee",
+    "school": "Yale University",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Virtual environments",
+      "Digital marketing",
+      "Multimodal interactions",
+      "Player monetization"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "结构建模 / 估计",
+      "机器学习 / AI",
+      "实验方法"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "环境与能源"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "The Chinese University of Hong Kong",
+    "destination_region": "HK",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Yale quantitative-program page lists candidate; CUHK CV describes structural modeling, machine learning and field experiments.",
+    "undergraduate": {
+      "institution": "Korea Advanced Institute of Science and Technology",
+      "region": "KR"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "研究领域",
+        "url": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students"
+      },
+      {
+        "label": "placement year role and education",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf"
+      },
+      {
+        "label": "初始去向",
+        "url": "https://spinup-000d1a-wp-offload-media.s3.amazonaws.com/faculty/wp-content/uploads/sites/32/2026/01/CV_Shin_2026-January-1.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "CUHK-hosted CV dates first listed appointment to July 2025. Jiwoong Shin's Yale-hosted CV separately records CUHK as 2025 initial placement. Yale program page still labels candidate as current; appointment evidence is newer.",
+    "source_file": "us-marketing-extra.json",
+    "methods_original": [
+      "Structural modeling",
+      "Machine learning",
+      "Field experiments"
+    ]
+  },
+  {
+    "id": "us-io-shoki-kusaka",
+    "name": "Shoki Kusaka",
+    "school": "Yale University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "International Trade",
+      "Macroeconomics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "公共政策"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Minimum Wage, Trade Policy, and Informality: Evidence from Colombia",
+    "field_evidence": "international trade, industrial organization, and macroeconomics",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp",
+        "url": "https://shokikusaka.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "ta-wei-huang-2025",
+    "name": "Ta-Wei (David) Huang",
+    "school": "Harvard University",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Targeting",
+      "Personalization",
+      "Customer management",
+      "Privacy"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "因果推断",
+      "机器学习 / AI",
+      "优化与算法"
+    ],
+    "topics": [
+      "隐私与信息"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "National University of Singapore",
+    "destination_region": "SG",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Harvard doctoral profile and NUS-hosted CV explicitly identify Quantitative Marketing.",
+    "undergraduate": {
+      "institution": "National Tsing Hua University",
+      "region": "TW"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "初始去向",
+        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+      },
+      {
+        "label": "field and education",
+        "url": "https://www.hbs.edu/doctoral/research-community/profiles/ta-wei-huang"
+      },
+      {
+        "label": "placement year role and methods",
+        "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "NUS CV explicitly dates employment to July 2025. Dissertation-award working paper is documented but inspected CV does not explicitly label it JMP.",
+    "source_file": "us-marketing-extra.json",
+    "methods_original": [
+      "Causal inference",
+      "Machine learning",
+      "Representation learning",
+      "Reinforcement learning"
+    ]
+  },
+  {
+    "id": "us-io-tess-snyder",
+    "name": "Tess Snyder",
+    "school": "Stanford University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Environmental Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "环境与能源",
+      "公共政策"
+    ],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Product Design Under Regulation: Evidence from the U.S. Automobile Market",
+    "field_evidence": "environmental economics and industrial organization",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp",
+        "url": "https://www.tess-snyder.com/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-thi-mai-anh-nguyen",
+    "name": "Thi Mai Anh Nguyen",
+    "school": "Massachusetts Institute of Technology",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Organizational Economics",
+      "Theory"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "status": "placed",
+    "destination": "Microsoft Research New England",
+    "destination_region": "US",
+    "role": "Postdoctoral Researcher, Economics and Computation",
+    "job_kind": "postdoc",
+    "jmp": "Long-Term Relationships and the Spot Market: Evidence from US Trucking",
+    "field_evidence": "Industrial Organization, Organizational Economics, Theory",
+    "undergraduate": {
+      "institution": "University of Queensland",
+      "region": "AU",
+      "year": 2016
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "field employment dates education",
+        "url": "https://nguyentmanh.github.io/files/Nguyen_CV.pdf"
+      },
+      {
+        "label": "Job Market Paper",
+        "url": "https://economics.mit.edu/sites/default/files/2022-10/NGUYEN_ThiMaiAnh_cv.pdf"
+      },
+      {
+        "label": "initial sequence",
+        "url": "https://economics.mit.edu/people/faculty/stephen-morris/phd-students"
+      },
+      {
+        "label": "current position",
+        "url": "https://www.anhnguyentm.com/"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "New York University, Department of Economics",
+        "title": "Assistant Professor",
+        "category": "faculty",
+        "region": "United States",
+        "start_date": "2024-09"
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Placement year is first actual post-PhD role in 2023; NYU appointment starts 2024.",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-tulio-sousa",
+    "name": "Túlio Sousa",
+    "school": "Duke University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Microeconometrics",
+      "Quantitative Marketing",
+      "Digital Ads"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "竞争与市场势力",
+      "拍卖与市场设计"
+    ],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Indiana University Kelley School of Business",
+    "destination_region": "US",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": "Competition and Targeting in Auctions for Online Ads",
+    "field_evidence": "Primary: Industrial Organization, Microeconometrics. Secondary: Quantitative Marketing, Digital Ads.",
+    "undergraduate": {
+      "institution": "University of São Paulo",
+      "region": "Brazil",
+      "year": 2015
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement year and position",
+        "url": "https://econ.duke.edu/phd-program/prospective-students/placements"
+      },
+      {
+        "label": "field jmp education",
+        "url": "https://econ.duke.edu/sites/econ.duke.edu/files/2024-10/Tulio%20Sousa%20CV%202024.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Department spells name Tulio Sousa. Market cycle and appointment start left null; placement year is explicit.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-tuyetanh-tran",
+    "name": "Tuyetanh L. Tran",
+    "school": "Yale University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Urban Economics",
+      "Innovation"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "定价与需求",
+      "创新与创业"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Compass Lexecon",
+    "destination_region": "US",
+    "role": "Senior Economist",
+    "job_kind": "industry",
+    "jmp": "The Trade-Offs of Curbside Parking: Evidence from Demand-Based Pricing",
+    "field_evidence": "Primary Field(s): Industrial Organization; Secondary Field(s): Urban Economics, Innovation",
+    "undergraduate": {
+      "institution": "Macalester College",
+      "region": "US",
+      "year": 2018
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement year and position",
+        "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026"
+      },
+      {
+        "label": "current position and office",
+        "url": "https://tuyetanhltran.github.io/"
+      },
+      {
+        "label": "field jmp education",
+        "url": "https://tuyetanhltran.github.io/downloads/Tran_Tuyetanh_CV.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "walter-zhang-2024",
+    "name": "Walter W. Zhang",
+    "school": "University of Chicago",
+    "program": "PhD in Quantitative Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Artificial intelligence",
+      "Personalization",
+      "Targeting",
+      "Platforms",
+      "Incentives"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "机器学习 / AI",
+      "因果推断",
+      "优化与算法"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "status": "placed",
+    "destination": "University of Pennsylvania",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Both Booth outcomes page and personal CV explicitly say quantitative marketing.",
+    "undergraduate": {
+      "institution": "University of Chicago",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "初始去向与年份",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "label": "role methods and education",
+        "url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "CV dates Wharton appointment to 2024. Optimal Comprehensible Targeting is documented as dissertation/working paper, but the inspected current CV does not explicitly label it JMP; JMP left null.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Machine learning",
+      "Causal inference",
+      "Optimal transport"
+    ]
+  },
+  {
+    "id": "nus-xinbo-wang",
+    "name": "Xinbo Wang",
+    "school": "National University of Singapore",
+    "program": "Economics",
+    "origin": "SG",
+    "fields": [
+      "Industrial Organization",
+      "Empirical Microeconomics",
+      "Contract Theory"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Shanghai University of Finance and Economics",
+    "destination_region": "CN",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "field_evidence": "explicit_official_profile",
+    "undergraduate": {
+      "institution": "University of International Business and Economics",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "official department profile",
+        "url": "https://fass.nus.edu.sg/ecs/people/wang-xinbo/"
+      },
+      {
+        "label": "official department placement table",
+        "url": "https://fass.nus.edu.sg/ecs/phd-placements/"
+      },
+      {
+        "label": "officially hosted candidate cv",
+        "url": "https://fass.nus.edu.sg/ecs/wp-content/uploads/sites/4/2025/08/CV-Xinbo-Wang.pdf"
+      },
+      {
+        "label": "official employer profile",
+        "url": "https://cob.sufe.edu.cn/en/Faculty/Resume/271"
+      },
+      {
+        "label": "personal academic page",
+        "url": "https://sites.google.com/view/xinbo-wang-econ"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Official NUS graduation year is 2026; July 2025 CV expected a November 2025 completion. Retain the later official observed year and preserve this discrepancy. No explicit JMP designation or market cycle was found in the reviewed sources. Undergraduate institution is explicit but region was not stated in the reviewed CV. SUFE official faculty biography explicitly dates the Marketing Department appointment from 2026. This independently establishes employment year; it is not converted from the graduation year.",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "xinyao-kong-2023",
+    "name": "Xinyao Kong",
+    "school": "University of Chicago",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Consumer dynamics",
+      "Consumer finance",
+      "Brand loyalty",
+      "Demand estimation"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "结构建模 / 估计",
+      "计量方法"
+    ],
+    "topics": [
+      "定价与需求",
+      "广告与品牌"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "status": "placed",
+    "destination": "University of Texas at Dallas",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Research classification based on official Indiana faculty research description: identification and estimation of dynamic discrete-choice demand models, stockpiling, and consumer response to price promotions.",
+    "undergraduate": {
+      "institution": "Peking University",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "博士项目",
+        "url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/b/3311/files/2022/10/CV_XinyaoKong.pdf"
+      },
+      {
+        "label": "教育经历",
+        "url": "https://ksb.kelley.iu.edu/faculty-research/faculty-directory/profile.html?id=XK2"
+      },
+      {
+        "label": "初始去向与年份",
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Indiana University",
+        "title": "Assistant Professor of Marketing",
+        "start_year": 2025
+      }
+    ],
+    "checked_at": "2026-10-08",
+    "notes": "Indiana official profile records UT Dallas 2023–2025, then Indiana 2025–present. Initial destination remains UT Dallas. Quant classification is research-content based, not a verbatim program-track label.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Dynamic discrete choice",
+      "Nonparametric methods"
+    ]
+  },
+  {
+    "id": "hkust-yi-zhang",
+    "name": "Yi Zhang",
+    "school": "Hong Kong University of Science and Technology",
+    "program": "Economics",
+    "origin": "HK",
+    "fields": [
+      "Empirical Industrial Organization",
+      "Quantitative Marketing"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "定价与需求",
+      "竞争与市场势力",
+      "拍卖与市场设计"
+    ],
+    "market_cycle": null,
+    "placement_year": 2024,
+    "status": "placed",
+    "destination": "Peking University, Guanghua School of Management",
+    "destination_region": "CN",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": "The Price of an Extra Winner: Split-Award Procurement Auctions with Endogenous Entry",
+    "field_evidence": "explicit",
+    "undergraduate": {
+      "institution": "University of International Business and Economics",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "personal academic page",
+        "url": "https://yizhangwebsite.weebly.com/"
+      },
+      {
+        "label": "personal cv",
+        "url": "https://yizhangwebsite.weebly.com/uploads/1/4/6/7/146754931/cv_latest.pdf"
+      },
+      {
+        "label": "field researcher curated list",
+        "url": "https://shoshanavasserman.com/io-jmc/"
+      },
+      {
+        "label": "personal research page",
+        "url": "https://yizhangwebsite.weebly.com/research.html"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "JMP has been retitled; preserve the historical and current titles as versions. CV lists the Peking appointment immediately after PhD completion, but does not literally label it first placement. 求职季尚仅由领域汇总名单提供，未作为明确市场周期存储。",
+    "source_file": "ca-hk-sg.json",
+    "methods_original": []
+  },
+  {
+    "id": "yi-wen-chen-2026-27",
+    "name": "Yi-Wen (Penny) Chen",
+    "school": "Columbia University",
+    "program": "PhD in Quantitative Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Targeting",
+      "Personalization",
+      "Creator economy",
+      "Influencer markets"
+    ],
+    "tracks": [
+      "qm"
+    ],
+    "methods": [
+      "机器学习 / AI",
+      "因果推断",
+      "优化与算法",
+      "理论建模"
+    ],
+    "topics": [],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": null,
+    "field_evidence": "Personal homepage explicitly identifies Quantitative Marketing candidacy.",
+    "undergraduate": {
+      "institution": "National Taiwan University",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "all recorded facts",
+        "url": "https://ywchen82.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Homepage explicitly says on the 2026–2027 job market. No placement reported. LL.B. in Law and M.A. in Economics at National Taiwan University are stated; no nationality/ancestry inference.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Machine learning",
+      "Causal inference",
+      "Optimization",
+      "Game theory"
+    ]
+  },
+  {
+    "id": "yihao-yuan-2025",
+    "name": "Yihao Yuan",
+    "school": "University of Pennsylvania",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Empirical IO",
+      "Vertical contracting",
+      "Digitization",
+      "Streaming markets"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [
+      "结构建模 / 估计",
+      "理论建模"
+    ],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "University of California, Los Angeles",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": "Exclusive Contracts in the Video Streaming Market",
+    "field_evidence": "UCLA official bio identifies empirical IO; university research abstract describes estimated bargaining, subscription-pricing, and consumer-demand models.",
+    "undergraduate": {
+      "institution": "Fudan University",
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "Job Market Paper",
+        "url": "https://www.anderson.ucla.edu/sites/default/files/2025-09/yuan_cv_Aug2025.pdf"
+      },
+      {
+        "label": "岗位与入职年份",
+        "url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/yuan"
+      },
+      {
+        "label": "methods",
+        "url": "https://www.anderson.ucla.edu/about/centers/morrison-center-for-marketing-and-data-analytics/research/morrison-working-paper-series"
+      },
+      {
+        "label": "初始去向",
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Wharton table Year means degree year. Placement year is independently supported by UCLA bio stating joined faculty in 2025 and CV employment beginning 2025. Quant classification is research-content based.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Structural modeling",
+      "Bargaining models",
+      "Demand estimation"
+    ]
+  },
+  {
+    "id": "yingkang-xie-2023",
+    "name": "Yingkang Xie",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Platforms",
+      "Pricing",
+      "Advertising",
+      "Channel management",
+      "Empirical IO"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [
+      "机器学习 / AI",
+      "计量方法",
+      "结构建模 / 估计"
+    ],
+    "topics": [
+      "平台与数字市场",
+      "定价与需求",
+      "广告与品牌"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "status": "placed",
+    "destination": "Washington University in St. Louis",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "WashU official faculty profile explicitly lists Quantitative Marketing and describes structural models.",
+    "undergraduate": {
+      "institution": null,
+      "region": "UNKNOWN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "role and location",
+        "url": "https://olin.washu.edu/faculty/yingkang-xie"
+      },
+      {
+        "label": "初始去向与年份",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Initial employer and placement year are supplied by Kellogg's 2023 placement list. Role is corroborated by the receiving school's profile; no tenure designation found.",
+    "source_file": "us-marketing.json",
+    "methods_original": [
+      "Machine learning",
+      "Econometrics",
+      "Structural modeling"
+    ]
+  },
+  {
+    "id": "youngeun-lee-2023",
+    "name": "Youngeun Lee",
+    "school": "Northwestern University",
+    "program": "PhD in Marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Empirical IO",
+      "Pricing",
+      "Consumer information",
+      "Behavioral economics"
+    ],
+    "tracks": [
+      "qm",
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "定价与需求",
+      "隐私与信息",
+      "消费者行为"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "status": "placed",
+    "destination": "Boston College",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": "Shrinkflation: Evidence on Product Downsizing and Consumer Response",
+    "field_evidence": "Boston College faculty profile explicitly lists Quantitative Marketing and Empirical Industrial Organization.",
+    "undergraduate": {
+      "institution": "Yonsei University",
+      "region": "KR"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "教育经历",
+        "url": "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf"
+      },
+      {
+        "label": "研究领域",
+        "url": "https://www.bc.edu/bc-web/schools/carroll-school/faculty-research/faculty-directory/youngeun-lee.html"
+      },
+      {
+        "label": "初始去向",
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+      },
+      {
+        "label": "Job Market Paper",
+        "url": "https://youngeun-lee.github.io/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Kellogg placement listing says 2023; CV independently dates Boston College employment to July 2023. CV identifies Yonsei as Seoul, Korea.",
+    "source_file": "us-marketing.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-yuki-ito",
+    "name": "Yuki Ito",
+    "school": "University of California, Berkeley",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Health Economics",
+      "Market Microstructure"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "竞争与市场势力",
+      "医疗与健康",
+      "拍卖与市场设计"
+    ],
+    "market_cycle": "2024-2025",
+    "placement_year": 2025,
+    "status": "placed",
+    "destination": "Indiana University Bloomington, Department of Economics",
+    "destination_region": "US",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": "Entry Deterrence in Procurement Auctions",
+    "field_evidence": "PRIMARY: Industrial Organization. SECONDARY: Health Economics; Market Microstructure.",
+    "undergraduate": {
+      "institution": "University of Tokyo",
+      "region": "JP",
+      "year": 2013,
+      "degree_note": "B.A. Medicine (M.D. equivalent)"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp education",
+        "url": "https://econ.berkeley.edu/sites/default/files/2024-11/FINAL%20Roster%2010.31.24.pdf"
+      },
+      {
+        "label": "appointment start",
+        "url": "https://yukiito.github.io/files/ItoYuki_CV_121825.pdf"
+      },
+      {
+        "label": "appointment and degree",
+        "url": "https://economics.indiana.edu/about/faculty/ito-yuki.html"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "2025 appointment year from dated CV, not inferred from graduation year.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-yunus-semih-coskun",
+    "name": "Yunus Semih Coskun",
+    "school": "Boston College",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Applied Microeconomics",
+      "Market Design"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [
+      "拍卖与市场设计"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Amazon",
+    "destination_region": "UNKNOWN",
+    "role": "Economist",
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "Applied Micro, Industrial Organization, Market Design",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "year field initial placement",
+        "url": "https://www.scottkom.com/teaching/students/"
+      },
+      {
+        "label": "current position and phd institution",
+        "url": "https://www.yunussemihcoskun.com/"
+      },
+      {
+        "label": "research fields",
+        "url": "https://www.yunussemihcoskun.com/research"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Initial office location and explicit JMP designation not established. Current research page lists affordable-housing paper as WP, so it was not automatically labeled JMP.",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-zhengrui-cheng",
+    "name": "Zhengrui Cheng",
+    "school": "Georgetown University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "International Trade",
+      "Industrial Organization"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": "2026-2027",
+    "placement_year": null,
+    "status": "on_market",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "on_market",
+    "jmp": "Going Overseas: FDI Decisions and Supply Chain Integration",
+    "field_evidence": "International Trade, Industrial Organization",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "market cycle field jmp",
+        "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
+    "source_file": "us-io.json",
+    "methods_original": []
+  },
+  {
+    "id": "us-io-zhichun-wang",
+    "name": "Zhichun Wang",
+    "school": "Yale University",
+    "program": "PhD Economics",
+    "origin": "US",
+    "fields": [
+      "Industrial Organization",
+      "Urban Economics"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": "2025-2026",
+    "placement_year": 2026,
+    "status": "placed",
+    "destination": "Harvard University",
+    "destination_region": "US",
+    "role": "Postdoctoral Fellow in Economics",
+    "job_kind": "postdoc",
+    "jmp": "The Expansion and Dynamic Equilibrium Effects of Institutional Landlords",
+    "field_evidence": "Industrial Organization, Urban Economics",
+    "undergraduate": {
+      "institution": "Peking University",
+      "region": "CN",
+      "year": 2020
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "placement year and position",
+        "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026"
+      },
+      {
+        "label": "field jmp market cycle employment and education",
+        "url": "https://zwangecon.github.io/draft/Wang_Zhichun_CV_final.pdf"
+      },
+      {
+        "label": "current position",
+        "url": "https://sites.google.com/view/zhichun-wang/home"
+      }
+    ],
+    "subsequent": [],
+    "checked_at": "2026-10-08",
+    "notes": "CV explicitly labels JMP AY2025–26. Undergraduate institution/region does not establish ethnicity or citizenship.",
+    "source_file": "us-io-extra.json",
+    "methods_original": []
+  }
+]

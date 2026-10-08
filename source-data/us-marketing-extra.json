@@ -1,0 +1,362 @@
+{
+  "dataset": "US Quantitative Marketing bounded evidence sample — batch 2",
+  "verified_at": "2026-10-08",
+  "coverage": "8 additional historical records: 5 placements in 2025 and 3 in 2026; Harvard, NYU, Yale and Boston University. Includes clearly identified Economics-to-Marketing crossovers.",
+  "methodology": [
+    "Same evidence standard as us-marketing.json; no duplicate persons from batch 1.",
+    "Initial placement requires official placement evidence or earliest dated academic appointment on CV, with ambiguous cases disclosed.",
+    "Explicit appointment dates corroborate years; degree year is not automatically converted.",
+    "Education region is the institution's geographic location only; no nationality, ethnicity or ancestry is inferred.",
+    "Historical exact market_cycle and tenure_status remain unverified where not explicitly documented."
+  ],
+  "records": [
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": null,
+      "undergraduate_region": "Taiwan",
+      "id": "ta-wei-huang-2025",
+      "name": "Ta-Wei (David) Huang",
+      "doctoral_institution": "Harvard University",
+      "doctoral_school": "Harvard Business School",
+      "doctoral_program": "PhD in Marketing",
+      "research_fields": [
+        "Targeting",
+        "Personalization",
+        "Customer management",
+        "Privacy"
+      ],
+      "methods": [
+        "Causal inference",
+        "Machine learning",
+        "Representation learning",
+        "Reinforcement learning"
+      ],
+      "quant_evidence": "Harvard doctoral profile and NUS-hosted CV explicitly identify Quantitative Marketing.",
+      "placement_year": 2025,
+      "initial_employer": "National University of Singapore",
+      "initial_unit": "NUS Business School",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "Singapore",
+      "destination_location": "Singapore",
+      "undergraduate_institution": "National Tsing Hua University",
+      "sources": {
+        "initial_placement": "https://www.hbs.edu/doctoral/placement/marketing",
+        "field_and_education": "https://www.hbs.edu/doctoral/research-community/profiles/ta-wei-huang",
+        "placement_year_role_and_methods": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf"
+      },
+      "notes": "NUS CV explicitly dates employment to July 2025. Dissertation-award working paper is documented but inspected CV does not explicitly label it JMP."
+    },
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": null,
+      "undergraduate_region": "Mainland China",
+      "id": "magie-cheng-2026",
+      "name": "Mengjie (Magie) Cheng",
+      "doctoral_institution": "Harvard University",
+      "doctoral_school": "Harvard Business School",
+      "doctoral_program": "PhD in Business Administration (Marketing)",
+      "research_fields": [
+        "Content marketing",
+        "Digital marketing",
+        "Generative AI",
+        "Social media"
+      ],
+      "methods": [
+        "Machine learning",
+        "Large language models",
+        "Causal inference"
+      ],
+      "quant_evidence": "Content-based classification: research uses machine learning, causal inference and difference-in-differences to estimate marketing effects; personal research page describes quantitative content modeling.",
+      "placement_year": 2026,
+      "initial_employer": "University of Texas at Austin",
+      "initial_unit": "McCombs School of Business",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "United States",
+      "destination_location": "Austin, Texas",
+      "undergraduate_institution": "Zhejiang University",
+      "sources": {
+        "initial_placement": "https://www.hbs.edu/doctoral/placement/marketing",
+        "placement_year_role_education": "https://www.magiecheng.com/bio",
+        "field_and_methods": "https://www.magiecheng.com/research"
+      },
+      "notes": "Personal biography dates appointment to June 2026. Earlier Meta employment and Wayfair internship are pre-PhD/during-PhD experience, not initial post-PhD placement."
+    },
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": null,
+      "undergraduate_region": "United States",
+      "id": "ruru-hoong-2026",
+      "name": "Ruru Hoong",
+      "doctoral_institution": "Harvard University",
+      "doctoral_school": "Harvard Business School",
+      "doctoral_program": "PhD in Business Economics",
+      "research_fields": [
+        "Digital economics",
+        "AI-assisted decisions",
+        "Consumer welfare",
+        "Platform design"
+      ],
+      "methods": [
+        "Economic theory",
+        "Field experiments",
+        "Quantitative analysis"
+      ],
+      "quant_evidence": "Cross-disciplinary inclusion based on MIT research description: economic theory, field experiments and quantitative methods applied to product/platform design, consumer decisions and welfare. Doctoral program is Business Economics, not Marketing.",
+      "placement_year": 2026,
+      "initial_employer": "Massachusetts Institute of Technology",
+      "initial_unit": "Sloan School of Management",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "United States",
+      "destination_location": "Cambridge, Massachusetts",
+      "undergraduate_institution": "Stanford University",
+      "sources": {
+        "doctoral_program_and_initial_placement": "https://www.hbs.edu/doctoral/placement/business-economics",
+        "placement_year_and_role": "https://mitsloan.mit.edu/ideas-made-to-matter/meet-new-faculty-members-joining-mit-sloan-2026",
+        "field_methods_and_education": "https://mitsloan.mit.edu/faculty/directory/ruru-hoong"
+      },
+      "notes": "MIT official new-faculty announcement explicitly identifies 2026 entry. Scope includes quantitative economics-to-marketing hires; record should remain distinguishable from a Quant Marketing PhD."
+    },
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": "An Explainable and Theory-Driven Deep Learning Architecture for Consumer Search and Consideration Sets",
+      "undergraduate_region": "Mainland China",
+      "id": "ella-xu-2025",
+      "name": "Ella J. Xu",
+      "doctoral_institution": "New York University",
+      "doctoral_school": "Stern School of Business",
+      "doctoral_program": "PhD in Marketing",
+      "research_fields": [
+        "Consumer search",
+        "Information acquisition",
+        "Algorithmic fairness",
+        "Retailing"
+      ],
+      "methods": [
+        "Deep learning",
+        "Machine learning",
+        "Field experiments",
+        "Econometrics"
+      ],
+      "quant_evidence": "CV linked by official Emory profile explicitly lists Quantitative Marketing.",
+      "placement_year": 2025,
+      "initial_employer": "Emory University",
+      "initial_unit": "Goizueta Business School",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "United States",
+      "destination_location": "Atlanta, Georgia",
+      "undergraduate_institution": "Tsinghua University",
+      "sources": {
+        "initial_placement": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements",
+        "placement_year_role_and_education": "https://goizueta.emory.edu/faculty/profiles/ella-xu",
+        "field_methods_jmp_and_employment_history": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf"
+      },
+      "notes": "Emory biography explicitly says joined in 2025 after NYU doctorate; official-profile-linked CV independently dates first academic appointment to 2025."
+    },
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": null,
+      "undergraduate_region": "United States",
+      "id": "fei-teng-2025",
+      "name": "Fei Teng",
+      "doctoral_institution": "Yale University",
+      "doctoral_school": "School of Management",
+      "doctoral_program": "PhD in Marketing",
+      "research_fields": [
+        "Platforms",
+        "Customer relationship management",
+        "Customer ratings",
+        "Public policy"
+      ],
+      "methods": [
+        "Structural modeling",
+        "Field experiments",
+        "Machine learning"
+      ],
+      "quant_evidence": "Listed in Yale's Quantitative Marketing Recent Graduates page; NUS CV supplies methodological fields.",
+      "placement_year": 2025,
+      "initial_employer": "National University of Singapore",
+      "initial_unit": "NUS Business School",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "Singapore",
+      "destination_location": "Singapore",
+      "undergraduate_institution": "Johns Hopkins University",
+      "sources": {
+        "field_and_initial_placement": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students",
+        "placement_year_role_methods_and_education": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf"
+      },
+      "notes": "CV explicitly dates Assistant Professor employment to July 2025. Papers not explicitly labeled JMP in inspected CV remain outside the JMP field."
+    },
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": null,
+      "undergraduate_region": "Taiwan",
+      "id": "chi-ying-wang-2025",
+      "name": "Chi-Ying Wang",
+      "doctoral_institution": "Yale University",
+      "doctoral_school": "School of Management",
+      "doctoral_program": "PhD in Management (Quantitative Marketing)",
+      "research_fields": [
+        "Recommender systems",
+        "AI",
+        "Platform design",
+        "Advertising",
+        "Communication"
+      ],
+      "methods": [
+        "Analytical modeling",
+        "Causal inference"
+      ],
+      "quant_evidence": "Fordham biography explicitly identifies Quantitative Marketing doctorate; Yale places candidate on quantitative graduates list.",
+      "placement_year": 2025,
+      "initial_employer": "Fordham University",
+      "initial_unit": "Gabelli School of Business",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "United States",
+      "destination_location": "New York, New York",
+      "undergraduate_institution": "National Taiwan University",
+      "sources": {
+        "field_and_initial_placement": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students",
+        "placement_year_role_methods_and_education": "https://www.fordham.edu/gabelli-school-of-business/faculty/full-time-faculty/chi-ying-wang/"
+      },
+      "notes": "Fordham explicitly says Joined Fordham: 2025; this confirms employment year independently of the degree year."
+    },
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": null,
+      "undergraduate_region": "South Korea",
+      "id": "seung-yoon-lee-2025",
+      "name": "Seung Yoon Lee",
+      "doctoral_institution": "Yale University",
+      "doctoral_school": "School of Management",
+      "doctoral_program": "PhD in Marketing",
+      "research_fields": [
+        "Virtual environments",
+        "Digital marketing",
+        "Multimodal interactions",
+        "Player monetization"
+      ],
+      "methods": [
+        "Structural modeling",
+        "Machine learning",
+        "Field experiments"
+      ],
+      "quant_evidence": "Yale quantitative-program page lists candidate; CUHK CV describes structural modeling, machine learning and field experiments.",
+      "placement_year": 2025,
+      "initial_employer": "The Chinese University of Hong Kong",
+      "initial_unit": "Business School, Department of Marketing",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "Hong Kong",
+      "destination_location": "Sha Tin, Hong Kong",
+      "undergraduate_institution": "Korea Advanced Institute of Science and Technology",
+      "sources": {
+        "field": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students",
+        "placement_year_role_and_education": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf",
+        "initial_placement": "https://spinup-000d1a-wp-offload-media.s3.amazonaws.com/faculty/wp-content/uploads/sites/32/2026/01/CV_Shin_2026-January-1.pdf"
+      },
+      "notes": "CUHK-hosted CV dates first listed appointment to July 2025. Jiwoong Shin's Yale-hosted CV separately records CUHK as 2025 initial placement. Yale program page still labels candidate as current; appointment evidence is newer."
+    },
+    {
+      "doctoral_region": "United States",
+      "field": "Quantitative Marketing",
+      "status": "placed",
+      "market_cycle": null,
+      "role_category": "faculty",
+      "tenure_status": "unverified",
+      "jmp": "The Impact of Banning Online Gambling Livestreams: Evidence from Twitch.tv",
+      "undergraduate_region": "Mainland China",
+      "id": "qifan-han-2026",
+      "name": "Qifan Han",
+      "doctoral_institution": "Boston University",
+      "doctoral_school": "Department of Economics",
+      "doctoral_program": "PhD in Economics",
+      "research_fields": [
+        "Digital marketing",
+        "Digital platforms",
+        "Applied econometrics",
+        "Generative AI"
+      ],
+      "methods": [
+        "Causal inference",
+        "Partial identification",
+        "Structural modeling",
+        "Analytical modeling"
+      ],
+      "quant_evidence": "BU-hosted job-market CV explicitly lists Quantitative Marketing; current personal CV describes marketing research with structural and causal methods.",
+      "placement_year": 2026,
+      "initial_employer": "The Chinese University of Hong Kong, Shenzhen",
+      "initial_unit": "School of Management and Economics",
+      "initial_role": "Assistant Professor of Marketing",
+      "destination_region": "Mainland China",
+      "destination_location": "Shenzhen, Guangdong",
+      "undergraduate_institution": "Fudan University",
+      "sources": {
+        "doctoral_program_appointment_year_role_methods_and_education": "https://qifan-han.github.io/files/CV_QifanHan.pdf",
+        "field_and_jmp": "https://www.bu.edu/econ/files/2024/10/CV_Han-1.pdf",
+        "current_affiliation": "https://qifan-han.github.io/"
+      },
+      "notes": "Current CV explicitly dates appointment July 2026 and PhD completion May 2026. Older BU CV expected May 2025, so 2025 must not be copied as actual placement year. Current CV lists teaching in fall 2025 but gives no earlier employment title; first listed academic appointment used, with this ambiguity disclosed. CUHK Shenzhen is in Mainland China, separate from CUHK Hong Kong."
+    }
+  ],
+  "review_queue": [
+    {
+      "name": "Siddharth Prusty",
+      "issue": "Conflicting initial destinations: Duke departmental table says Indiana University; personal homepage and advisor Hana Choi CV indicate Indian School of Business. Excluded pending reconciliation.",
+      "sources": [
+        "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+        "https://siddharthprusty.com/",
+        "https://hanachoi.github.io/assets/hana_choi_cv.pdf"
+      ]
+    },
+    {
+      "name": "Lan E. Luo",
+      "issue": "Columbia initial placement Yale confirmed; Columbia year is graduation year. Personal homepage confirms Yale Assistant Professor, but bounded search did not find explicit appointment start date. Do not force year from graduation.",
+      "sources": [
+        "https://business.columbia.edu/faculty/divisions/marketing/phd",
+        "https://www.laneluo.com/"
+      ]
+    },
+    {
+      "name": "Jasmine Y. Yang",
+      "issue": "Columbia lists 2025 degree with Meta then CUHK 2026; current personal homepage confirms sequence. CV on Google Drive not parsed, so exact initial employment dates not independently verified.",
+      "sources": [
+        "https://business.columbia.edu/faculty/divisions/marketing/phd",
+        "https://www.jasmineyang.marketing/"
+      ]
+    }
+  ]
+}

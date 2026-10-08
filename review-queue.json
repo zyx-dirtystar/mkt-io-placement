@@ -1,0 +1,44 @@
+[
+  {
+    "id": "qifan-han-2026",
+    "name": "Qifan Han",
+    "reason": "首职时间或当季声明尚需进一步原始来源核验",
+    "research_file": "us-marketing-extra.json"
+  },
+  {
+    "name": "Siddharth Prusty",
+    "reason": "待补证",
+    "research_file": "us-marketing-extra.json"
+  },
+  {
+    "name": "Lan E. Luo",
+    "reason": "待补证",
+    "research_file": "us-marketing-extra.json"
+  },
+  {
+    "name": "Jasmine Y. Yang",
+    "reason": "待补证",
+    "research_file": "us-marketing-extra.json"
+  },
+  {
+    "name": "Da He",
+    "reason": [
+      "Analytical game-theoretic work and a blog tile mentioning Quant Marketing are suggestive, but no sufficiently clear explicit classification was established. Keep outside a strict confirmed-Quant cohort until reviewed.",
+      "Marketing program membership alone is not enough to mark quantitative.",
+      "Original brochure confirms the initial employer; its year semantics are ambiguous. The independent personal-page October 2024 start supports placement_year=2024."
+    ],
+    "research_file": "ca-hk-sg.json"
+  },
+  {
+    "name": "Hu Xing",
+    "reason": [
+      "Historical candidate lead with no verified placement; not counted as a 2026–2027 candidate."
+    ],
+    "research_file": "ca-hk-sg.json"
+  },
+  {
+    "name": "Maximiliano Machado",
+    "reason": "2026-2027 cycle is present only in a researcher-curated third-party list; personal webpage confirms PhD status and IO but not market cycle.",
+    "research_file": "ca-hk-sg.json"
+  }
+]

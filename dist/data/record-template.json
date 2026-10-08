@@ -1,0 +1,35 @@
+{
+  "id": "stable-person-id",
+  "name": "",
+  "school": "",
+  "program": "",
+  "origin": "US",
+  "fields": [],
+  "tracks": [],
+  "methods": [],
+  "topics": [],
+  "market_cycle": null,
+  "placement_year": null,
+  "status": "on_market",
+  "destination": null,
+  "destination_region": "UNKNOWN",
+  "role": null,
+  "job_kind": "on_market",
+  "jmp": null,
+  "field_evidence": "",
+  "undergraduate": null,
+  "identity": {
+    "chinese_national": {
+      "value": "unknown",
+      "source": null
+    },
+    "chinese_heritage": {
+      "value": "unknown",
+      "source": null
+    }
+  },
+  "sources": [],
+  "subsequent": [],
+  "checked_at": null,
+  "notes": ""
+}

@@ -1,0 +1,1294 @@
+{
+  "schema_version": "0.2-research-seed",
+  "collected_at": "2026-10-08",
+  "collector_scope": {
+    "phd_origin_regions": [
+      "Canada",
+      "Hong Kong",
+      "Singapore"
+    ],
+    "destination_scope": "Global, including destinations outside the PhD-origin regions",
+    "placement_window_requested": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "current_market_requested": "2026–2027",
+    "priority_institutions": [
+      "NUS",
+      "NTU",
+      "SMU",
+      "HKUST",
+      "CUHK",
+      "HKU",
+      "University of Toronto",
+      "UBC"
+    ]
+  },
+  "usage_notes": [
+    "This is a bounded source-research seed, not an exhaustive placement census or a denominator for ranking.",
+    "Records contain null for unknown years and unsupported fields. PhD graduation, job-market cycle, placement announcement year, and employment start are separate concepts.",
+    "The sources object resolves every source ID used in field_sources. Sources were reviewed on collected_at; access limitations are recorded.",
+    "Current employment is separated from the initial placement when initial title or first-job status is unverified.",
+    "A 2025–2026 roster is historical evidence only, not proof of being on the 2026–2027 market.",
+    "No ethnicity, nationality, citizenship or Chinese-background classification is collected or inferred.",
+    "Institution names alone are not used to infer undergraduate region. Unstated undergraduate region remains null.",
+    "Marketing is not automatically Quantitative Marketing; Economics is not automatically Industrial Organization.",
+    "Do not publish rates from this sample. Maintain cohort roster coverage and unknown outcomes before defining any denominator.",
+    "Reported source-table year is preserved separately when the table does not define whether it is graduation/cohort year or actual placement/start year."
+  ],
+  "sources": {
+    "toronto_supervision": {
+      "url": "https://sites.google.com/view/victoraguirregabiriaswebsite/phd-supervision",
+      "type": "faculty_supervision_page",
+      "note": "Separately states PhD award year and first placement; award year is not used as placement year."
+    },
+    "toronto_market_2023_24": {
+      "url": "https://www.linkedin.com/posts/study-economics-university-of-toronto_ready-for-it-phd-candidates-on-the-job-market-activity-7137899171516203009-UCAa",
+      "type": "official_department_social_post",
+      "note": "Department's 2023–2024 candidate announcement includes Jie Fang and Francis Guiton."
+    },
+    "toronto_spotlight_fang": {
+      "url": "https://newsletter.economics.utoronto.ca/category/graduate-student-news/page/16/",
+      "type": "official_department_news",
+      "note": "20 November 2023 candidate spotlight; archive URL may shift as articles are added."
+    },
+    "fang_home": {
+      "url": "https://sites.google.com/view/fang-jie",
+      "type": "personal_academic_page"
+    },
+    "fang_adviser_cv": {
+      "url": "https://muratcelik.faculty.economics.utoronto.ca/wp-content/uploads/2024/09/Celik_CV_2024_09_05.pdf",
+      "type": "faculty_cv",
+      "note": "Calls McGill postdoc a first placement; parenthetical 2024 should not independently establish an employment start date."
+    },
+    "guiton_paper": {
+      "url": "https://congresscreator.org/system/files/papers/Guiton_JMP_draft_180823_0.pdf",
+      "type": "research_paper",
+      "note": "18 August 2023 draft; filename contains JMP, but no separately verified explicit JMP label."
+    },
+    "heydarinejad_home": {
+      "url": "https://www.mohaddesehheydarinejad.com/",
+      "type": "personal_academic_page"
+    },
+    "heydarinejad_cv": {
+      "url": "https://www.mohaddesehheydarinejad.com/_files/ugd/f0173c_f497468897f948598fce411b0d0d9cde.pdf",
+      "type": "personal_cv",
+      "note": "Explicit July 2025 appointment and education locations."
+    },
+    "io_jmc_curated": {
+      "url": "https://shoshanavasserman.com/io-jmc/",
+      "type": "field_researcher_curated_list",
+      "note": "Useful corroboration of historical/current market cycles; not an official department announcement or candidate self-report."
+    },
+    "machado_home": {
+      "url": "https://maximilianomachado.github.io/index.html",
+      "type": "personal_academic_page"
+    },
+    "hoshi_ubc": {
+      "url": "https://economics.ubc.ca/profile/kisho-hoshi-2/",
+      "type": "official_candidate_profile",
+      "note": "Explicit 2026–2027 job market statement, fields, JMP and education."
+    },
+    "yi_zhang_home": {
+      "url": "https://yizhangwebsite.weebly.com/",
+      "type": "personal_academic_page",
+      "note": "Explicit September 2024 start and empirical IO / quantitative marketing interests."
+    },
+    "yi_zhang_cv": {
+      "url": "https://yizhangwebsite.weebly.com/uploads/1/4/6/7/146754931/cv_latest.pdf",
+      "type": "personal_cv",
+      "note": "September 2026 version; employment and education with locations."
+    },
+    "yi_zhang_research": {
+      "url": "https://yizhangwebsite.weebly.com/research.html",
+      "type": "personal_research_page",
+      "note": "Current JMP title differs from historical market-list title."
+    },
+    "hkust_initial_placements": {
+      "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf",
+      "type": "official_program_brochure",
+      "access_note": "Original PDF successfully downloaded from the official URL and inspected locally on 2026-10-08. English page 2 visually reviewed; Chinese pages 5-6 text reviewed.",
+      "note": "English page 2 labels destinations initial placement; Chinese pages 5-6 label them destinations at graduation. The year column has no independent definition. Therefore the table establishes first destination and reported row year, not necessarily actual appointment year.",
+      "local_file": "C:/Users/Yixin/Documents/ChatGPT/website/research/evidence/HKUST_MARK_PhDSummerCamp2025.pdf",
+      "page2_image": "C:/Users/Yixin/Documents/ChatGPT/website/research/evidence/HKUST_MARK_PhDSummerCamp2025-page2.png",
+      "sha256": "E10584B8B6366971554CB50B072A8714C3D27FA71D8B32B1492A12A6BBF59A96"
+    },
+    "jingling_yu_cv": {
+      "url": "https://bmphd.hkust.edu.hk/sites/default/files/2024-06/CV%20Jingling%20Yu_1.pdf",
+      "type": "officially_hosted_candidate_cv",
+      "note": "Explicit PhD in Quantitative Marketing and labelled JMP; June 2024-hosted CV predates placement."
+    },
+    "jingling_yu_employer": {
+      "url": "https://aebs.ecnu.edu.cn/english/JinlinYU/list.htm",
+      "type": "official_employer_profile",
+      "note": "Current assistant professor title is explicit; profile does not date the appointment."
+    },
+    "cao_home": {
+      "url": "https://www.jingmancao.com/",
+      "type": "personal_academic_page"
+    },
+    "cao_research": {
+      "url": "https://www.jingmancao.com/research",
+      "type": "personal_research_page"
+    },
+    "cao_market_seminar": {
+      "url": "https://marketing.unibocconi.eu/events/when-ai-writes-alike-implications-efficiency-matching-platforms",
+      "type": "official_host_job_market_seminar",
+      "note": "Bocconi event dated 13 April 2026 and labelled Job Market; does not itself explicitly name a 2025–2026 cycle."
+    },
+    "nus_econ_placements": {
+      "url": "https://fass.nus.edu.sg/ecs/phd-placements/",
+      "type": "official_department_placement_table",
+      "access_note": "Table retrieved via search-index text; direct fetch timed out.",
+      "note": "Year column means Year of Graduation. Do not convert it to placement year."
+    },
+    "xinbo_nus": {
+      "url": "https://fass.nus.edu.sg/ecs/people/wang-xinbo/",
+      "type": "official_department_profile"
+    },
+    "xinbo_cv": {
+      "url": "https://fass.nus.edu.sg/ecs/wp-content/uploads/sites/4/2025/08/CV-Xinbo-Wang.pdf",
+      "type": "officially_hosted_candidate_cv",
+      "note": "July 2025 CV expected PhD completion in November 2025; later official placement table records graduation year 2026."
+    },
+    "xinbo_home": {
+      "url": "https://sites.google.com/view/xinbo-wang-econ",
+      "type": "personal_academic_page",
+      "note": "Root personal homepage directly readable. The old /about/ URL redirected to sign-in and was replaced."
+    },
+    "ntu_candidates": {
+      "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/on-the-job-market-candidates",
+      "type": "official_program_candidate_roster",
+      "note": "Displayed roster is 2025/2026, not 2026/2027."
+    },
+    "lingyu_employer": {
+      "url": "https://fob.cityu.edu.mo/en/full-time-academic-staff/1003",
+      "type": "official_employer_profile",
+      "note": "Profile release date 21 August 2026 is not treated as appointment start date."
+    },
+    "lingyu_cv": {
+      "url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf",
+      "type": "officially_hosted_faculty_cv",
+      "note": "August 2026 CV explicitly lists first academic position from 2026, PhD Marketing (Quant), labelled JMP and undergraduate location."
+    },
+    "da_he_home": {
+      "url": "https://da-he.weebly.com/",
+      "type": "personal_academic_page"
+    },
+    "da_he_cv": {
+      "url": "https://da-he.weebly.com/uploads/1/1/4/8/114842469/dahe_cv_aug2025.pdf",
+      "type": "personal_cv"
+    },
+    "nus_candidates": {
+      "url": "https://fass.nus.edu.sg/ecs/phd-job-market-candidates/",
+      "type": "official_department_candidate_roster",
+      "note": "Says candidates on the 2026/27 market will be listed shortly."
+    },
+    "nus_marketing_placements": {
+      "url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+      "type": "official_department_placement_table",
+      "note": "Lists initial placements, but Marketing alone does not establish quantitative classification."
+    },
+    "smu_placements": {
+      "url": "https://economics.smu.edu.sg/phd-economics/students/student-placements",
+      "type": "official_department_placement_table",
+      "note": "No cohort years; some people appear with more than one position."
+    },
+    "smu_candidates": {
+      "url": "https://economics.smu.edu.sg/phd-economics/students/job-market-candidates-ay2025-26",
+      "type": "official_department_candidate_roster",
+      "note": "2025–26 roster; reviewed candidates did not have explicit IO fields."
+    },
+    "cuhk_placements": {
+      "url": "https://admission.econ.cuhk.edu.hk/pg/phd-economics/",
+      "type": "official_program_placement_table",
+      "note": "Year of Graduation and First Placement are separate columns; individual fields require further verification."
+    },
+    "hku_placements": {
+      "url": "https://phd.hkubs.hku.hk/People/graduate-placement",
+      "type": "official_program_placement_table",
+      "note": "Academic placements grouped by field and graduation year, without person names."
+    },
+    "hku_candidates": {
+      "url": "https://fbeo.fbe.hku.hk/phd/People/job-market-candidates",
+      "type": "official_program_candidate_roster",
+      "note": "Displayed cycle is 2025–2026."
+    },
+    "ubc_placements": {
+      "url": "https://economics.ubc.ca/graduate/phd-program/phd-job-market-placement/",
+      "type": "official_department_placement_table",
+      "note": "Recent initial placements grouped as graduates by year, without person names."
+    },
+    "ubc_candidates": {
+      "url": "https://economics.ubc.ca/people/phd-job-market-candidates/",
+      "type": "official_department_candidate_roster"
+    },
+    "cao_cv_current": {
+      "url": "https://drive.google.com/file/d/17uG9JAnPihsT7xuI-nN7NergVtIbdX4p/view?usp=sharing",
+      "type": "personal_cv_linked_from_homepage",
+      "note": "Downloaded via public Google Drive download endpoint. Page 1 text and rendering checked: employment explicitly begins 2026.",
+      "local_file": "C:/Users/Yixin/Documents/ChatGPT/website/research/evidence/jingman-cao-cv.pdf"
+    },
+    "cao_employer": {
+      "url": "https://cob.sufe.edu.cn/Faculty/Resume/268",
+      "type": "official_employer_profile",
+      "access_note": "Search-index text retrieved; direct web fetch timed out. Employment year independently verified in downloaded personal CV.",
+      "note": "Explicit work experience lists assistant professor at SUFE from 2026."
+    },
+    "xinbo_employer": {
+      "url": "https://cob.sufe.edu.cn/en/Faculty/Resume/271",
+      "type": "official_employer_profile",
+      "note": "Direct page read: Assistant Professor; Marketing Department, College of Business, SUFE, 2026-now. NUS Economics PhD 2020-2026."
+    },
+    "toronto_placements_2024_announcement": {
+      "url": "https://newsletter.economics.utoronto.ca/tag/phd-placements-2024/",
+      "type": "official_department_news_archive",
+      "access_note": "Dated archive excerpt retrieved through search index; direct page shows a human-verification interstitial.",
+      "note": "12 September 2024 article announces the cohort has found first jobs; supports announcement year, not exact employment start."
+    },
+    "toronto_placements_2024_named_post": {
+      "url": "https://www.linkedin.com/posts/study-economics-university-of-toronto_congratulations-to-alexander-hempel-paul-activity-7240084699555975169-Ldgt",
+      "type": "official_department_social_post",
+      "note": "Names Jie Fang and Francis Guiton among the 2024 cohort with first jobs; links the official department placement article."
+    }
+  },
+  "records": [
+    {
+      "id": "toronto-jie-fang",
+      "name": "Jie Fang",
+      "phd": {
+        "institution": "University of Toronto",
+        "program": "Economics",
+        "region": "Canada",
+        "graduation_year": 2024
+      },
+      "fields": [
+        "Industrial Organization",
+        "Innovation Economics"
+      ],
+      "field_status": "explicit",
+      "job_market_cycle": "2023–2024",
+      "market_cycle_status": "official_department_announcement",
+      "placement_year": null,
+      "first_employment_start": null,
+      "initial_placement": {
+        "employer": "McGill University",
+        "title": "Postdoctoral Fellow",
+        "region": "Canada",
+        "first_status": "explicit_adviser_first_placement"
+      },
+      "current_position": {
+        "employer": "McGill University",
+        "title": "Postdoctoral Fellow",
+        "region": "Canada"
+      },
+      "jmp": {
+        "title": "When are Patents Traded and Why: A Dynamic Structural Model of Drug Development and Patent Trading",
+        "status": "explicit_candidate_spotlight"
+      },
+      "undergraduate": [
+        {
+          "institution": "Université Pierre-Mendès-France",
+          "degree": "Economics-Management",
+          "region": "France"
+        },
+        {
+          "institution": "Université Stendhal",
+          "degree": "Applied Foreign Languages",
+          "region": "France"
+        }
+      ],
+      "record_status": "historical_market_and_first_destination_verified_placement_year_unknown",
+      "field_sources": {
+        "name": [
+          "fang_home"
+        ],
+        "phd": [
+          "toronto_supervision",
+          "fang_home"
+        ],
+        "fields": [
+          "fang_home",
+          "toronto_spotlight_fang"
+        ],
+        "job_market_cycle": [
+          "toronto_market_2023_24"
+        ],
+        "initial_placement": [
+          "toronto_supervision",
+          "fang_adviser_cv"
+        ],
+        "current_position": [
+          "fang_home"
+        ],
+        "jmp": [
+          "toronto_spotlight_fang"
+        ],
+        "undergraduate": [
+          "fang_home"
+        ],
+        "placement_announcement_year": [
+          "toronto_placements_2024_announcement",
+          "toronto_placements_2024_named_post"
+        ]
+      },
+      "notes": [
+        "2024 is explicitly the PhD award year on the adviser supervision page; it is not automatically assigned as placement year.",
+        "Only initial postdoctoral placement is established here. A later tenure-track transition would require a separate employment event.",
+        "The September 2024 department announcement identifies the cohort as having found first jobs. Announcement year is stored separately; exact employment start remains unverified."
+      ],
+      "placement_announcement_year": 2024
+    },
+    {
+      "id": "toronto-francis-guiton",
+      "name": "Francis Guiton",
+      "phd": {
+        "institution": "University of Toronto",
+        "program": "Economics",
+        "region": "Canada",
+        "graduation_year": 2024
+      },
+      "fields": [
+        "Industrial Organization"
+      ],
+      "field_status": "explicit_in_doctoral_thesis_title",
+      "job_market_cycle": "2023–2024",
+      "market_cycle_status": "official_department_announcement",
+      "placement_year": null,
+      "first_employment_start": null,
+      "initial_placement": {
+        "employer": "Analysis Group",
+        "title": null,
+        "region": "Canada",
+        "city": "Montréal",
+        "first_status": "explicit_adviser_first_placement"
+      },
+      "current_position": null,
+      "jmp": null,
+      "undergraduate": [],
+      "research_paper": {
+        "title": "Within-Firm Competition, Managerial Incentives, and Cannibalization in Retail Chains",
+        "date": "2023-08-18",
+        "jmp_status": "unconfirmed_beyond_filename"
+      },
+      "record_status": "historical_market_and_first_destination_verified_placement_year_and_role_unknown",
+      "field_sources": {
+        "name": [
+          "toronto_supervision",
+          "guiton_paper"
+        ],
+        "phd": [
+          "toronto_supervision"
+        ],
+        "fields": [
+          "toronto_supervision"
+        ],
+        "job_market_cycle": [
+          "toronto_market_2023_24"
+        ],
+        "initial_placement": [
+          "toronto_supervision"
+        ],
+        "research_paper": [
+          "guiton_paper"
+        ],
+        "placement_announcement_year": [
+          "toronto_placements_2024_announcement",
+          "toronto_placements_2024_named_post"
+        ]
+      },
+      "notes": [
+        "The official adviser page calls the dissertation Essays in Industrial Organization and Inventory Management.",
+        "No employer job title or explicit appointment year was established. The PDF filename alone is not treated as conclusive JMP designation.",
+        "The September 2024 department announcement identifies the cohort as having found first jobs. Announcement year is stored separately; exact employment start remains unverified."
+      ],
+      "placement_announcement_year": 2024
+    },
+    {
+      "id": "toronto-mohaddeseh-heydari-nejad",
+      "name": "Mohaddeseh Heydari Nejad",
+      "phd": {
+        "institution": "University of Toronto",
+        "program": "Economics",
+        "region": "Canada",
+        "graduation_year": 2025
+      },
+      "fields": [
+        "Industrial Organization",
+        "Innovation",
+        "Entrepreneurship"
+      ],
+      "field_status": "explicit",
+      "job_market_cycle": "2024–2025",
+      "market_cycle_status": "curated_field_list_corrobated_by_2025_appointment",
+      "placement_year": 2025,
+      "placement_year_basis": "explicit_first_appointment_start",
+      "first_employment_start": "2025-07",
+      "initial_placement": {
+        "employer": "Indiana University, Kelley School of Business",
+        "title": "Assistant Professor of Business Economics and Public Policy",
+        "region": "United States",
+        "first_status": "explicit_adviser_first_placement_with_dated_cv"
+      },
+      "current_position": {
+        "employer": "Indiana University, Kelley School of Business",
+        "title": "Assistant Professor of Business Economics and Public Policy",
+        "region": "United States"
+      },
+      "jmp": {
+        "title": "A Structural Model of Mentorship in Startup Accelerators: Matching, Learning, and Value Creation",
+        "status": "explicit_cv_label"
+      },
+      "undergraduate": [
+        {
+          "institution": "Sharif University of Technology",
+          "degree": "B.Sc. Electrical Engineering",
+          "region": "Iran",
+          "city": "Tehran"
+        }
+      ],
+      "record_status": "first_placement_and_start_year_verified",
+      "field_sources": {
+        "name": [
+          "heydarinejad_home"
+        ],
+        "phd": [
+          "heydarinejad_cv"
+        ],
+        "fields": [
+          "heydarinejad_home",
+          "heydarinejad_cv"
+        ],
+        "job_market_cycle": [
+          "io_jmc_curated"
+        ],
+        "placement_year": [
+          "heydarinejad_cv",
+          "toronto_supervision"
+        ],
+        "first_employment_start": [
+          "heydarinejad_cv"
+        ],
+        "initial_placement": [
+          "toronto_supervision",
+          "heydarinejad_cv"
+        ],
+        "current_position": [
+          "heydarinejad_home"
+        ],
+        "jmp": [
+          "heydarinejad_cv"
+        ],
+        "undergraduate": [
+          "heydarinejad_cv"
+        ]
+      },
+      "notes": [
+        "Market-cycle evidence is a researcher-maintained field list; employment start is independently explicit in the candidate's CV."
+      ]
+    },
+    {
+      "id": "ubc-kisho-hoshi",
+      "name": "Kisho Hoshi",
+      "phd": {
+        "institution": "University of British Columbia",
+        "program": "Economics",
+        "region": "Canada",
+        "graduation_year": null,
+        "expected_graduation_year": 2027
+      },
+      "fields": [
+        "Industrial Organization",
+        "Health Economics",
+        "Labour Economics",
+        "Public Economics"
+      ],
+      "field_status": "explicit",
+      "job_market_cycle": "2026–2027",
+      "market_cycle_status": "explicit_official_candidate_profile",
+      "placement_year": null,
+      "first_employment_start": null,
+      "initial_placement": null,
+      "current_position": null,
+      "jmp": {
+        "title": "Physician Payment, Care Supply, and Modality Choice in Primary Care",
+        "status": "explicit_official_profile"
+      },
+      "undergraduate": [
+        {
+          "institution": "Hitotsubashi University",
+          "degree": "B.A. Economics",
+          "region": null
+        }
+      ],
+      "record_status": "current_market_cycle_verified",
+      "field_sources": {
+        "name": [
+          "hoshi_ubc"
+        ],
+        "phd": [
+          "hoshi_ubc"
+        ],
+        "fields": [
+          "hoshi_ubc"
+        ],
+        "job_market_cycle": [
+          "hoshi_ubc"
+        ],
+        "jmp": [
+          "hoshi_ubc"
+        ],
+        "undergraduate": [
+          "hoshi_ubc"
+        ]
+      },
+      "notes": [
+        "Official profile explicitly says on the 2026–2027 job market.",
+        "Undergraduate institution is explicit; its country was not stated in the reviewed profile and is left null."
+      ]
+    },
+    {
+      "id": "hkust-yi-zhang",
+      "name": "Yi Zhang",
+      "phd": {
+        "institution": "Hong Kong University of Science and Technology",
+        "program": "Economics",
+        "region": "Hong Kong",
+        "graduation_year": 2024
+      },
+      "fields": [
+        "Empirical Industrial Organization",
+        "Quantitative Marketing"
+      ],
+      "field_status": "explicit",
+      "job_market_cycle": "2023–2024",
+      "market_cycle_status": "curated_field_list",
+      "placement_year": 2024,
+      "placement_year_basis": "explicit_first_listed_post_phd_appointment_start",
+      "first_employment_start": "2024-09",
+      "initial_placement": {
+        "employer": "Peking University, Guanghua School of Management",
+        "title": "Assistant Professor of Marketing",
+        "region": "Mainland China",
+        "city": "Beijing",
+        "first_status": "supported_by_cv_employment_chronology_not_explicit_first_label"
+      },
+      "current_position": {
+        "employer": "Peking University, Guanghua School of Management",
+        "title": "Assistant Professor of Marketing",
+        "region": "Mainland China"
+      },
+      "jmp": {
+        "title": "The Price of an Extra Winner: Split-Award Procurement Auctions with Endogenous Entry",
+        "status": "current_personal_research_page_jmp_label",
+        "historical_market_title": "Splitting Award or Winner Takes All?: Evidence from China's National Drug Procurement Auction"
+      },
+      "undergraduate": [
+        {
+          "institution": "University of International Business and Economics",
+          "degree": "B.A. Economics",
+          "region": "Mainland China",
+          "city": "Beijing"
+        }
+      ],
+      "record_status": "dated_post_phd_appointment_verified_first_status_supported_by_cv",
+      "field_sources": {
+        "name": [
+          "yi_zhang_home"
+        ],
+        "phd": [
+          "yi_zhang_cv"
+        ],
+        "fields": [
+          "yi_zhang_home"
+        ],
+        "job_market_cycle": [
+          "io_jmc_curated"
+        ],
+        "placement_year": [
+          "yi_zhang_home",
+          "yi_zhang_cv"
+        ],
+        "first_employment_start": [
+          "yi_zhang_home"
+        ],
+        "initial_placement": [
+          "yi_zhang_cv"
+        ],
+        "current_position": [
+          "yi_zhang_home"
+        ],
+        "jmp": [
+          "yi_zhang_research"
+        ],
+        "historical_market_title": [
+          "io_jmc_curated"
+        ],
+        "undergraduate": [
+          "yi_zhang_cv"
+        ]
+      },
+      "notes": [
+        "JMP has been retitled; preserve the historical and current titles as versions.",
+        "CV lists the Peking appointment immediately after PhD completion, but does not literally label it first placement."
+      ]
+    },
+    {
+      "id": "hkust-jingling-yu",
+      "name": "Jingling Yu",
+      "phd": {
+        "institution": "Hong Kong University of Science and Technology",
+        "program": "Quantitative Marketing",
+        "region": "Hong Kong",
+        "graduation_year": null
+      },
+      "fields": [
+        "Quantitative Marketing"
+      ],
+      "field_status": "explicit_phd_program",
+      "job_market_cycle": null,
+      "market_cycle_status": "unknown",
+      "placement_year": null,
+      "placement_year_basis": null,
+      "first_employment_start": null,
+      "initial_placement": {
+        "employer": "East China Normal University",
+        "title": null,
+        "region": "Mainland China",
+        "first_status": "explicit_official_initial_placement_table"
+      },
+      "current_position": {
+        "employer": "East China Normal University, Shanghai International School of Chief Technology Officer",
+        "title": "Assistant Professor",
+        "region": "Mainland China"
+      },
+      "jmp": {
+        "title": "Using Deep Learning and Eye Tracking to Optimize Package Design",
+        "status": "explicit_candidate_cv_label"
+      },
+      "undergraduate": [
+        {
+          "institution": "Xiamen University",
+          "degree": "B.S. Chemical Engineering",
+          "region": "Mainland China",
+          "city": "Xiamen"
+        }
+      ],
+      "record_status": "initial_destination_verified_reported_table_year_2025_actual_start_year_unknown",
+      "field_sources": {
+        "name": [
+          "jingling_yu_cv"
+        ],
+        "phd": [
+          "jingling_yu_cv"
+        ],
+        "fields": [
+          "jingling_yu_cv"
+        ],
+        "initial_placement": [
+          "hkust_initial_placements"
+        ],
+        "current_position": [
+          "jingling_yu_employer"
+        ],
+        "jmp": [
+          "jingling_yu_cv"
+        ],
+        "undergraduate": [
+          "jingling_yu_cv"
+        ],
+        "reported_initial_placement_table_year": [
+          "hkust_initial_placements"
+        ]
+      },
+      "notes": [
+        "Current employer profile confirms assistant professor title but not the start date. Do not silently assign the current title to the initial placement.",
+        "June 2024 CV lists PhD study as in progress, so it does not establish the PhD award year.",
+        "Original PDF verified: English page 2 confirms initial destination; Chinese heading on page 5 says destination at graduation. No year-column definition distinguishes graduation/cohort year from appointment year, so actual placement_year remains null and reported table year is stored as 2025."
+      ],
+      "reported_initial_placement_table_year": 2025,
+      "reported_year_semantics": "official_initial_destination_table_row_year_not_separately_defined"
+    },
+    {
+      "id": "nus-jingman-cao",
+      "name": "Jingman Cao",
+      "phd": {
+        "institution": "National University of Singapore",
+        "program": "Economics",
+        "region": "Singapore",
+        "graduation_year": 2026
+      },
+      "fields": [
+        "Empirical Industrial Organization",
+        "Quantitative Marketing",
+        "Platform Economy",
+        "Applied Microeconomics",
+        "Artificial Intelligence"
+      ],
+      "field_status": "explicit",
+      "job_market_cycle": null,
+      "market_cycle_status": "job_market_seminar_on_2026_04_13_only",
+      "placement_year": 2026,
+      "first_employment_start": "2026",
+      "initial_placement": {
+        "employer": "Shanghai University of Finance and Economics",
+        "title": "Assistant Professor of Economics",
+        "region": "Mainland China",
+        "first_status": "official_phd_placement_table_supported_by_dated_employment_cv"
+      },
+      "current_position": {
+        "employer": "Shanghai University of Finance and Economics, Department of Industrial Economics",
+        "title": "Assistant Professor of Economics",
+        "region": "Mainland China"
+      },
+      "jmp": {
+        "title": "When AI Writes Alike: Implications for Efficiency on Matching Platforms",
+        "status": "official_job_market_seminar_paper"
+      },
+      "undergraduate": [
+        {
+          "institution": "Xiamen University",
+          "degree": "B.A. Economics and B.S. Biology",
+          "region": null
+        }
+      ],
+      "record_status": "post_phd_placement_and_start_year_verified",
+      "field_sources": {
+        "name": [
+          "cao_home"
+        ],
+        "phd": [
+          "nus_econ_placements",
+          "cao_home"
+        ],
+        "fields": [
+          "cao_home"
+        ],
+        "initial_placement": [
+          "nus_econ_placements",
+          "cao_cv_current",
+          "cao_employer"
+        ],
+        "current_position": [
+          "cao_home",
+          "cao_cv_current",
+          "cao_employer"
+        ],
+        "jmp": [
+          "cao_market_seminar",
+          "cao_research"
+        ],
+        "undergraduate": [
+          "cao_home"
+        ],
+        "placement_year": [
+          "cao_cv_current",
+          "cao_employer"
+        ],
+        "first_employment_start": [
+          "cao_cv_current",
+          "cao_employer"
+        ]
+      },
+      "notes": [
+        "Official NUS table labels 2026 as Year of Graduation; this is not used as placement year.",
+        "Bocconi identifies the 13 April 2026 seminar as Job Market; market cycle remains null without an explicit cycle statement.",
+        "A follow-up check independently verified 2026 employment start in the downloaded personal CV and SUFE faculty biography. This is not inferred from the NUS graduation year."
+      ],
+      "placement_year_basis": "explicit_post_phd_appointment_start_in_personal_cv_and_employer_profile"
+    },
+    {
+      "id": "nus-xinbo-wang",
+      "name": "Xinbo Wang",
+      "phd": {
+        "institution": "National University of Singapore",
+        "program": "Economics",
+        "region": "Singapore",
+        "graduation_year": 2026
+      },
+      "fields": [
+        "Industrial Organization",
+        "Empirical Microeconomics",
+        "Contract Theory"
+      ],
+      "field_status": "explicit_official_profile",
+      "job_market_cycle": null,
+      "market_cycle_status": "unknown",
+      "placement_year": 2026,
+      "first_employment_start": "2026",
+      "initial_placement": {
+        "employer": "Shanghai University of Finance and Economics",
+        "title": "Assistant Professor",
+        "region": "Mainland China",
+        "first_status": "official_phd_placement_table_supported_by_dated_employer_profile",
+        "department": "Marketing Department, College of Business"
+      },
+      "current_position": {
+        "employer": "Shanghai University of Finance and Economics, College of Business",
+        "title": "Assistant Professor",
+        "region": "Mainland China",
+        "department": "Marketing Department"
+      },
+      "jmp": null,
+      "undergraduate": [
+        {
+          "institution": "University of International Business and Economics",
+          "degree": "Bachelor of Finance",
+          "region": null
+        }
+      ],
+      "record_status": "post_phd_placement_and_start_year_verified",
+      "field_sources": {
+        "name": [
+          "xinbo_nus"
+        ],
+        "phd": [
+          "nus_econ_placements",
+          "xinbo_cv"
+        ],
+        "fields": [
+          "xinbo_nus"
+        ],
+        "initial_placement": [
+          "nus_econ_placements",
+          "xinbo_employer"
+        ],
+        "current_position": [
+          "xinbo_home",
+          "xinbo_employer"
+        ],
+        "undergraduate": [
+          "xinbo_cv"
+        ],
+        "placement_year": [
+          "xinbo_employer"
+        ],
+        "first_employment_start": [
+          "xinbo_employer"
+        ]
+      },
+      "notes": [
+        "Official NUS graduation year is 2026; July 2025 CV expected a November 2025 completion. Retain the later official observed year and preserve this discrepancy.",
+        "No explicit JMP designation or market cycle was found in the reviewed sources.",
+        "Undergraduate institution is explicit but region was not stated in the reviewed CV.",
+        "SUFE official faculty biography explicitly dates the Marketing Department appointment from 2026. This independently establishes employment year; it is not converted from the graduation year."
+      ],
+      "placement_year_basis": "explicit_post_phd_appointment_start_in_official_employer_profile"
+    },
+    {
+      "id": "ntu-lingyu-lin",
+      "name": "Lingyu (Lynn) Lin",
+      "phd": {
+        "institution": "Nanyang Technological University",
+        "program": "Marketing (Quant)",
+        "region": "Singapore",
+        "graduation_year": 2026
+      },
+      "fields": [
+        "Quantitative Marketing",
+        "Causal Inference",
+        "Product Placement",
+        "Branding"
+      ],
+      "field_status": "explicit_program_and_roster",
+      "job_market_cycle": "2025–2026",
+      "market_cycle_status": "explicit_official_program_roster",
+      "placement_year": 2026,
+      "placement_year_basis": "explicit_first_listed_academic_appointment_start",
+      "first_employment_start": "2026",
+      "initial_placement": {
+        "employer": "City University of Macau, Faculty of Business",
+        "title": "Assistant Professor in Marketing",
+        "region": "Macau",
+        "first_status": "supported_by_cv_employment_chronology_not_explicit_first_label"
+      },
+      "current_position": {
+        "employer": "City University of Macau, Faculty of Business",
+        "title": "Assistant Professor in Marketing",
+        "region": "Macau"
+      },
+      "jmp": {
+        "title": "Intra-Brand Spillover Effect of Product Placement on Automobile Sales",
+        "status": "explicit_august_2026_cv_label",
+        "historical_roster_title": "Impact of Product Placement on Automobile Sales"
+      },
+      "undergraduate": [
+        {
+          "institution": "Shenzhen University",
+          "degree": "B.A. Marketing",
+          "region": "Mainland China",
+          "city": "Shenzhen"
+        }
+      ],
+      "record_status": "dated_post_phd_appointment_and_market_cycle_verified",
+      "field_sources": {
+        "name": [
+          "lingyu_cv"
+        ],
+        "phd": [
+          "lingyu_cv"
+        ],
+        "fields": [
+          "lingyu_cv",
+          "ntu_candidates"
+        ],
+        "job_market_cycle": [
+          "ntu_candidates"
+        ],
+        "placement_year": [
+          "lingyu_cv"
+        ],
+        "first_employment_start": [
+          "lingyu_cv"
+        ],
+        "initial_placement": [
+          "lingyu_cv"
+        ],
+        "current_position": [
+          "lingyu_employer",
+          "lingyu_cv"
+        ],
+        "jmp": [
+          "lingyu_cv"
+        ],
+        "historical_roster_title": [
+          "ntu_candidates"
+        ],
+        "undergraduate": [
+          "lingyu_cv"
+        ]
+      },
+      "notes": [
+        "Employer profile's release date is not used as appointment start; the CV independently states 2026–present.",
+        "Macau is an observed destination outside the requested PhD-origin regions.",
+        "The August 2026 CV uses a more specific JMP title than the historical NTU roster."
+      ]
+    }
+  ],
+  "review_queue": [
+    {
+      "id": "hkust-da-he",
+      "name": "Da He",
+      "phd": {
+        "institution": "Hong Kong University of Science and Technology",
+        "program": "Marketing",
+        "region": "Hong Kong",
+        "graduation_year": 2024
+      },
+      "fields_reported": [
+        "Economics of AI",
+        "Digital Economy",
+        "Platform Design",
+        "Policy Regulation",
+        "Content Moderation",
+        "Competition Strategy"
+      ],
+      "proposed_field": "Analytical/Quantitative Marketing",
+      "field_status": "requires_explicit_classification_review",
+      "job_market_cycle": null,
+      "placement_year": 2024,
+      "placement_year_basis": "explicit_october_2024_employment_start_on_personal_homepage",
+      "first_employment_start": "2024-10",
+      "initial_placement": {
+        "employer": "Xiamen University",
+        "title": "Assistant Professor of Marketing",
+        "region": "Mainland China",
+        "first_status": "explicit_official_initial_placement_table"
+      },
+      "jmp": null,
+      "undergraduate": [
+        {
+          "institution": "Hong Kong Baptist University",
+          "degree": "B.B.A. Applied Economics",
+          "region": null
+        }
+      ],
+      "field_sources": {
+        "name": [
+          "da_he_home"
+        ],
+        "phd": [
+          "da_he_cv"
+        ],
+        "fields_reported": [
+          "da_he_cv"
+        ],
+        "placement_year": [
+          "da_he_home"
+        ],
+        "first_employment_start": [
+          "da_he_home"
+        ],
+        "initial_placement": [
+          "hkust_initial_placements",
+          "da_he_cv"
+        ],
+        "undergraduate": [
+          "da_he_cv"
+        ],
+        "reported_initial_placement_table_year": [
+          "hkust_initial_placements"
+        ]
+      },
+      "notes": [
+        "Analytical game-theoretic work and a blog tile mentioning Quant Marketing are suggestive, but no sufficiently clear explicit classification was established. Keep outside a strict confirmed-Quant cohort until reviewed.",
+        "Marketing program membership alone is not enough to mark quantitative.",
+        "Original brochure confirms the initial employer; its year semantics are ambiguous. The independent personal-page October 2024 start supports placement_year=2024."
+      ],
+      "reported_initial_placement_table_year": 2024
+    },
+    {
+      "id": "hku-hu-xing",
+      "name": "Hu Xing",
+      "phd": {
+        "institution": "University of Hong Kong",
+        "program": "Economics",
+        "region": "Hong Kong",
+        "graduation_year": null
+      },
+      "fields": [
+        "Empirical Industrial Organization",
+        "International Trade",
+        "Spatial Economics"
+      ],
+      "job_market_cycle": "2025–2026",
+      "placement_year": null,
+      "first_employment_start": null,
+      "initial_placement": null,
+      "jmp": {
+        "title": "Service Inputs and Firm Performance: Evidence from Chinese Manufacturing Industries",
+        "status": "explicit_official_candidate_roster"
+      },
+      "field_sources": {
+        "name": [
+          "hku_candidates"
+        ],
+        "phd": [
+          "hku_candidates"
+        ],
+        "fields": [
+          "hku_candidates"
+        ],
+        "job_market_cycle": [
+          "hku_candidates"
+        ],
+        "jmp": [
+          "hku_candidates"
+        ]
+      },
+      "notes": [
+        "Historical candidate lead with no verified placement; not counted as a 2026–2027 candidate."
+      ]
+    },
+    {
+      "id": "toronto-maximiliano-machado",
+      "name": "Maximiliano Machado",
+      "phd": {
+        "institution": "University of Toronto",
+        "program": "Economics, Rotman School of Management",
+        "region": "Canada",
+        "graduation_year": null
+      },
+      "fields": [
+        "Industrial Organization",
+        "Applied Microeconomics",
+        "Competition Policy"
+      ],
+      "field_status": "explicit",
+      "job_market_cycle": "2026–2027",
+      "market_cycle_status": "curated_field_list_only_pending_primary_cycle_confirmation",
+      "placement_year": null,
+      "first_employment_start": null,
+      "initial_placement": null,
+      "current_position": null,
+      "jmp": {
+        "title": "Fewer Buyers, Higher Pay? Monopsony and Product Market Power in the U.S. Publishing Industry",
+        "status": "curated_field_list_title_personal_page_confirms_topic"
+      },
+      "undergraduate": [
+        {
+          "institution": "Universidad de la República",
+          "degree": "Economics",
+          "region": "Uruguay"
+        }
+      ],
+      "record_status": "excluded_from_current_cycle_statistics_pending_primary_cycle_confirmation",
+      "field_sources": {
+        "name": [
+          "machado_home"
+        ],
+        "phd": [
+          "machado_home"
+        ],
+        "fields": [
+          "machado_home"
+        ],
+        "job_market_cycle": [
+          "io_jmc_curated"
+        ],
+        "jmp": [
+          "io_jmc_curated",
+          "machado_home"
+        ],
+        "undergraduate": [
+          "machado_home"
+        ]
+      },
+      "notes": [
+        "Do not present the 2026–2027 cycle as department-verified until a primary candidate or department source explicitly confirms it.",
+        "Expected doctorate year on an adviser page is not used to infer a market cycle."
+      ],
+      "included_in_current_cycle_statistics": false,
+      "review_reason": "2026-2027 cycle is present only in a researcher-curated third-party list; personal webpage confirms PhD status and IO but not market cycle."
+    }
+  ],
+  "coverage": [
+    {
+      "institution": "University of Toronto",
+      "region": "Canada",
+      "sources": [
+        "toronto_supervision",
+        "toronto_market_2023_24",
+        "io_jmc_curated"
+      ],
+      "core_records": 3,
+      "status": "partial_person_level_coverage",
+      "notes": [
+        "No complete IO/Quant cohort denominator established.",
+        "Maximiliano Machado moved to review_queue and excluded from 2026-2027 statistics until a primary source confirms the cycle."
+      ]
+    },
+    {
+      "institution": "University of British Columbia",
+      "region": "Canada",
+      "sources": [
+        "ubc_placements",
+        "ubc_candidates",
+        "hoshi_ubc"
+      ],
+      "core_records": 1,
+      "status": "current_candidate_verified_historical_person_mapping_incomplete",
+      "notes": [
+        "Recent placement table lacks names and is grouped by graduation year; cannot reliably map employers to people."
+      ]
+    },
+    {
+      "institution": "Hong Kong University of Science and Technology",
+      "region": "Hong Kong",
+      "sources": [
+        "hkust_initial_placements",
+        "jingling_yu_cv",
+        "yi_zhang_cv"
+      ],
+      "core_records": 2,
+      "status": "partial_person_level_coverage",
+      "notes": [
+        "One additional Da He record awaits strict quantitative-field confirmation.",
+        "No verified 2026–2027 candidate in this bounded search.",
+        "Original placement brochure downloaded and page 2 visually checked. It establishes initial destinations; year-column semantics remain ambiguous. Jingling Yu reported row year 2025 is separate from unknown appointment year."
+      ]
+    },
+    {
+      "institution": "Chinese University of Hong Kong",
+      "region": "Hong Kong",
+      "sources": [
+        "cuhk_placements"
+      ],
+      "core_records": 0,
+      "status": "institutional_first_placement_source_found_fields_unresolved",
+      "notes": [
+        "Table provides first placements and graduation years, not placement years.",
+        "Ziwei Mei was excluded after an econometrics/statistics field check; other Economics names cannot be automatically classified IO."
+      ]
+    },
+    {
+      "institution": "University of Hong Kong",
+      "region": "Hong Kong",
+      "sources": [
+        "hku_placements",
+        "hku_candidates"
+      ],
+      "core_records": 0,
+      "status": "historical_candidate_lead_and_aggregate_placement_source",
+      "notes": [
+        "Placement page has no names and lists academic placements only.",
+        "Hu Xing's explicit IO evidence is in the 2025–2026 roster; no verified placement or 2026–2027 cycle."
+      ]
+    },
+    {
+      "institution": "National University of Singapore",
+      "region": "Singapore",
+      "sources": [
+        "nus_econ_placements",
+        "nus_candidates",
+        "nus_marketing_placements",
+        "cao_cv_current",
+        "cao_employer",
+        "xinbo_employer"
+      ],
+      "core_records": 2,
+      "status": "two_post_phd_destinations_and_employment_years_verified",
+      "notes": [
+        "2026–2027 candidate page says the list will appear shortly.",
+        "Marketing placement names were not included without explicit quantitative evidence.",
+        "Cao and Wang 2026 appointment years independently confirmed by current CV/employer profiles; graduation and employment years remain separate fields."
+      ]
+    },
+    {
+      "institution": "Nanyang Technological University",
+      "region": "Singapore",
+      "sources": [
+        "ntu_candidates",
+        "lingyu_cv"
+      ],
+      "core_records": 1,
+      "status": "dated_quant_placement_verified_current_roster_still_historical",
+      "notes": [
+        "Displayed candidate roster is 2025–2026. Lingyu Lin's 2026 appointment is independently documented.",
+        "No verified 2026–2027 candidate in this bounded search."
+      ]
+    },
+    {
+      "institution": "Singapore Management University",
+      "region": "Singapore",
+      "sources": [
+        "smu_placements",
+        "smu_candidates"
+      ],
+      "core_records": 0,
+      "status": "placement_years_and_field_identification_unresolved",
+      "notes": [
+        "Placement list omits years and includes repeat names with different jobs; cannot safely infer initial outcomes.",
+        "Candidate roster reviewed is 2025–2026; reviewed named candidates did not explicitly identify IO fields.",
+        "Zero collected records is a coverage gap, not zero placements."
+      ]
+    }
+  ],
+  "maintenance_recommendations": [
+    "Use stable person IDs and separate education, market-participation, employment-event and evidence tables. Retain historical evidence and corrections.",
+    "Define the primary population by doctoral-origin institution; record destinations globally so out-of-region jobs do not disappear from outcome denominators.",
+    "Store market cycle as a string and placement/announcement/start/graduation dates in distinct fields.",
+    "Allow Quantitative Marketing and IO labels simultaneously. Deduplicate by person for combined counts, and show label overlap.",
+    "Record postdocs and their later tenure-track outcomes as sequential events rather than overwriting the first destination.",
+    "Track each institution-cycle roster count, explicit outcome count, unknown outcome count and last verification date. Do not treat missing data as unemployment or zero placement.",
+    "Freeze annual snapshots, keep the current year marked provisional, and review historical postdoc transitions separately from first-placement totals."
+  ],
+  "last_verification_pass": "2026-10-08",
+  "verification_pass_summary": {
+    "main_records": 9,
+    "review_queue_records": 3,
+    "verified_current_cycle_records": 1,
+    "current_cycle_excluded_pending_primary_source": [
+      "toronto-maximiliano-machado"
+    ],
+    "newly_verified_employment_years": [
+      "nus-jingman-cao",
+      "nus-xinbo-wang"
+    ],
+    "year_semantics_downgraded": [
+      "hkust-jingling-yu"
+    ]
+  }
+}
