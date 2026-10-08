@@ -25,6 +25,7 @@ jobs:
         run: |
           node scripts/sync-data.mjs
           node scripts/check.mjs
+          node scripts/check-placement.mjs
           node --check dist/app.js
           node --check dist/core.js
       - uses: actions/upload-pages-artifact@v4

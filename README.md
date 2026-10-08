@@ -8,11 +8,11 @@ Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial 
 
 这是持续扩充、带有来源的样本，**不是完整市场普查**。所有图表明确展示样本分母。未核验的记录和信息不能作为不存在或否定值。
 
-当前版本 **0.4.0：296 人，本轮新增 182 人**。Marketing 标签 270 人，CB 标签 37 人，明确的 2026–27 当季记录 14 人。当前默认近四年名录显示 280 人；严格按 2023–2026 首职年筛选为 132 人。149 条首职或年份仍待核验，保留在名录中，不能直接进入首职年度图。
+当前版本 **0.5.0：295 人**（合并 Ella Xu / Ella J. Xu 重复记录）。本轮复核 23 人资料或任职路径，补上 11 个首职年份。Marketing 269 人、CB 44 人；默认近四年名录 279 人，严格首职年筛选 142 人。仍有 138 条首职或年份待核验，168 人尚待 Marketing 细分分类。已有 47 个个人主页、57 个 CV 链接和 39 个 JMP 标题。
 
-目标范围固定为 **北美 Marketing 研究前 50、港五、新加坡三所**。依据 UTD 四本 Marketing 期刊的 2021–2025 北美研究产出结果，含美国 46 所、加拿大 4 所、香港 5 所、新加坡 3 所。58 所中 53 所找到对应博士项目资料，47 所已有实名记录（264 人）；其余记录保留在扩展档案。研究排名不代表就业质量或一定开设博士项目。107 个来源年份 / 求职季单元与所查表对齐，**所有整届完整性标记仍为未确认**。
+目标范围固定为 **北美 Marketing 研究前 50、港五、新加坡三所**。依据 UTD 四本 Marketing 期刊的 2021–2025 北美研究产出结果，含美国 46 所、加拿大 4 所、香港 5 所、新加坡 3 所。58 所中 53 所找到对应博士项目资料，47 所已有实名记录（263 人）；其余记录保留在扩展档案。研究排名不代表就业质量或一定开设博士项目。107 个来源年份 / 求职季单元与所查表对齐，**所有整届完整性标记仍为未确认**。
 
-选校依据、全部 58 校进度与缺口见 [本轮修订记录](docs/SCOPE-58-2026-10-08.md)。[第二批](docs/BATCH-2-2026-10-08.md)和[第一批](docs/BATCH-2026-10-08.md)记录继续保留。网站覆盖页默认显示全部目标学校，缺资料的学校不会被隐藏。
+本轮 CV、JMP、岗位分类与排名功能详见 [0.5.0 修订记录](docs/CV-AND-OUTCOMES-2026-10-08.md)。选校依据、全部 58 校进度与缺口见 [本轮修订记录](docs/SCOPE-58-2026-10-08.md)。[第二批](docs/BATCH-2-2026-10-08.md)和[第一批](docs/BATCH-2026-10-08.md)记录继续保留。网站覆盖页默认显示全部目标学校，缺资料的学校不会被隐藏。
 
 ## 使用与预览
 
@@ -25,7 +25,7 @@ Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial 
 1. 编辑 `data/records.json`。人员使用稳定 id，一人一条记录，领域允许多标签。`dist/data/record-template.json` 提供新增条目模板。
 2. 在 `config.json` 更新 `current_cycle`（例如 `2027-2028`）、默认最近四年 `history_years`（例如 `[2024,2025,2026,2027]`）、版本、发布日期和更新说明。旧记录保留；旧年份自动留在时间筛选里。
 3. 当前选校清单在 `data/scope.json`；跨年可沿用，不要随排名刷新静默改变历史范围。需改范围时先保留旧清单快照，再创建新版本。新增项目写入 `data/programs.json`，逐项目年度核验记录写入 `data/coverage.json`，当季官方发布进度写入 `data/release-notes.json`。日期应来自来源，不因刷新自动更改个人 `checked_at`。
-4. 执行 `node scripts/sync-data.mjs`，再执行 `node scripts/check.mjs` 和 `node --check dist/app.js`。
+4. 执行 `node scripts/sync-data.mjs`，再执行 `node scripts/check.mjs`、`node scripts/check-placement.mjs` 和 `node --check dist/app.js`。
 5. 在本地查看筛选和个人详情后发布。完成 GitHub Pages 设置后，将更新提交到 `main` 会自动检查并发布。`dist` 是部署资产。历史源文件和发布版本可追溯。
 
 ## GitHub 部署与分阶段改进
@@ -34,15 +34,15 @@ Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial 
 
 `.github/workflows/pages.yml` 自动生成数据、检查和部署。工作流在 `main` 更新时运行，也支持手动运行。Pages 只发布 `dist`，网站无需数据库或安装第三方依赖。最新发布结果见仓库 Actions。
 
-已找到 placement 的当季候选人改为 `status: "placed"` 并补充首职资料，保留原来的 `market_cycle`，因此不会从当季名录消失。先博后后教职时，`destination/role/placement_year` 保留首职，后续岗位写入 `subsequent`。历史求职季不明则留空，毕业年不能自动当 placement 年。
+已找到 placement 的当季候选人改为 `status: "placed"` 并补充首职资料，保留原来的 `market_cycle`，因此不会从当季名录消失。先博后后教职时，`destination/role/placement_year` 保留首职，后续岗位写入 `subsequent`；有明确证据属于该次求职最终安排时另填 `final_placement`。默认统计最终安排，也可切换首次岗位。历史求职季不明则留空，毕业年不能自动当 placement 年。
 
 `identity.chinese_national` 与 `identity.chinese_heritage` 的肯定值必须有独立来源。华裔字段须本人公开自述。未知值写 `unknown`，不能按姓名推断，也不能算作非中国人或非华裔。本科院校地区单独记录。
 
 ## 数据结构
 
-`fields` 保留公开研究领域；`tracks` 为 `marketing`、`qm`、`cb`、`io`（可同时包含）；Marketing 细分方向未确认时只标 `marketing`。`program_id` 独立标记培养项目；`source_cohort_year`、`graduation_year` 与 `placement_year` 分开；`topics` 是公开领域/论文的整理标签；`methods` 仅采用明确证据。`sources` 包含 URL 与用途。Assistant Professor 没有明确 tenure 证据时使用 `job_kind: "faculty"`。
+`fields` 保留公开研究领域；`tracks` 为 `marketing`、`qm`、`cb`、`strategy`、`io`（可同时包含）；Marketing 细分方向未确认时只标 `marketing`。`program_id` 独立标记培养项目；`source_cohort_year`、`graduation_year` 与 `placement_year` 分开；`topics` 是公开领域/论文的整理标签；`methods` 仅采用明确证据。`sources` 包含 URL 与用途。`job_kind` 保留原始资料类别；展示与教职率按 `dist/placement.js` 的职位文字规则计算：一般 Assistant Professor 纳入终身轨统计口径，但教学、Visiting、Clinical、Adjunct 等例外优先识别。这不等于逐份核实雇佣合同。
 
-`status` 可为 `placed`、`on_market` 或 `outcome_unknown`（历史名册中首职仍未知或职业顺序未厘清者）；项目 / 年份归属仍需补证的线索放到 `review-queue.json`，不进入默认统计。已确认名册归属的人不会因为去向未知而被排除。年份未知但首职可核验者保留为 placed；可在“去向 / 首职年待核验”或“全部记录”中查看，不进入年度图。`source_reported_placement` 保留来源表所报的机构，供首职冲突审阅，不进入首职统计；其他已知任职和相关说明保留在 `subsequent` 与 `notes`。
+`status` 可为 `placed`、`on_market` 、`deferred`（明确次年重上市场）或 `outcome_unknown`（历史名册中首职仍未知或职业顺序未厘清者）；项目 / 年份归属仍需补证的线索放到 `review-queue.json`，不进入默认统计。已确认名册归属的人不会因为去向未知而被排除。年份未知但首职可核验者保留为 placed；可在“去向 / 首职年待核验”或“全部记录”中查看，不进入年度图。`source_reported_placement` 保留来源表所报的机构，供首职冲突审阅，不进入首职统计；其他已知任职和相关说明保留在 `subsequent` 与 `notes`。
 
 `source-data/` 保存首版研究证据。`scripts/prepare-data.mjs` 是首版来源格式转换器；日常维护以 `data/records.json` 为准，**不要重新运行此转换器覆盖后续手动修订**。
 

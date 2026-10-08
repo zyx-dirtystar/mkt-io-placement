@@ -91,7 +91,7 @@
     "destination_region": "US",
     "role": "Postdoctoral Fellow",
     "job_kind": "postdoc",
-    "jmp": "Human Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking",
+    "jmp": null,
     "field_evidence": "Industrial organization; Transportation economics; Economics of artificial intelligence",
     "undergraduate": {
       "institution": "Yale University",
@@ -136,10 +136,34 @@
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "Year conflict retained: mentor labels 2024, but personal CV explicitly dates NBER July 2023–July 2024 and PhD June 2023. Count 2023 only under first actual employment convention; market_cycle unknown. The current page identifies a work-in-progress as extension of his JMP; title is current corresponding working-paper title.",
+    "notes": "Year conflict retained: mentor labels 2024, but personal CV explicitly dates NBER July 2023–July 2024 and PhD June 2023. Count 2023 only under first actual employment convention; market_cycle unknown. The current page identifies a work-in-progress as extension of his JMP; title is current corresponding working-paper title. 2026-10-08 修正：当前工作论文题目与历史 JMP 的直接对应仍不足，JMP 标题撤回为待核验。",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "massachusetts-institute-of-technology-economics"
+    "program_id": "massachusetts-institute-of-technology-economics",
+    "final_placement": {
+      "destination": "Cornell University, Department of Economics",
+      "role": "Assistant Professor",
+      "destination_region": "US",
+      "year": 2024,
+      "job_kind": "faculty",
+      "status": "placed",
+      "evidence": "导师 initial placement 一栏明确 NBER 博后后赴 Cornell；年份采用本人 CV（2023–24 博后、2024-07 Cornell），保留导师所列毕业年份冲突。",
+      "sources": [
+        "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf",
+        "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf"
+      ]
+    },
+    "homepage": "https://adamharris.phd/",
+    "cv_url": "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf",
+    "jmp_url": null,
+    "research_papers": [
+      {
+        "title": "Human Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking",
+        "url": "https://adamharris.phd/",
+        "note": "当前相关工作论文；主页只间接提及 JMP 的扩展，不足以确定当年 JMP 的确切题目。"
+      }
+    ],
+    "jmp_evidence": "当前 CV 未明确标注 JMP；主页间接提及其扩展，原先推定题目已移至研究线索，待历史求职资料确认。"
   },
   {
     "id": "us-io-adam-rosenberg",
@@ -198,6 +222,10 @@
       {
         "label": "Job Market Paper",
         "url": "https://arosenbe.github.io/"
+      },
+      {
+        "label": "任职路径交叉核验",
+        "url": "https://arosenbe.github.io/assets/amr/cv.pdf"
       }
     ],
     "subsequent": [
@@ -213,7 +241,24 @@
     "notes": "Department's 2025 destination is the deferred Stanford GSB appointment. First actual post-PhD job was Yale postdoc. Both stages retained.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "stanford-university-economics"
+    "program_id": "stanford-university-economics",
+    "final_placement": {
+      "destination": "Stanford Graduate School of Business",
+      "role": "Assistant Professor of Economics",
+      "destination_region": "US",
+      "year": 2026,
+      "job_kind": "faculty",
+      "status": "placed",
+      "evidence": "博士院系 2025 placement 表列 Stanford GSB；本人 CV 分别列 Yale 博后 2025-07 至 2026-06 和 Stanford 教职 2026-07 起。",
+      "sources": [
+        "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1",
+        "https://arosenbe.github.io/assets/amr/cv.pdf"
+      ]
+    },
+    "homepage": "https://arosenbe.github.io/",
+    "cv_url": "https://arosenbe.github.io/assets/amr/cv.pdf",
+    "jmp_url": "https://arosenbe.github.io/",
+    "jmp_evidence": "本人 2026-06 CV 与主页均明确标注 Job Market Paper。"
   },
   {
     "id": "chicago-akshina-banerjee",
@@ -326,7 +371,9 @@
     "notes": "Country of initial office not established; employer's global headquarters must not be used as a substitute. Education location is a factual education variable and does not establish citizenship or ethnicity.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "duke-university-economics"
+    "program_id": "duke-university-economics",
+    "cv_url": "https://alisonpei.github.io/files/Alison_Pei_CV.pdf",
+    "jmp_url": "https://alisonpei.github.io/files/Alison_Pei_CV.pdf"
   },
   {
     "id": "penn-andrew-morningstar",
@@ -440,7 +487,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "本求职季依据 Kellogg 官方页；JMP 根据本人明确标注。"
+    "notes": "本求职季依据 Kellogg 官方页；JMP 根据本人明确标注。",
+    "homepage": "https://sites.google.com/view/andrewwooders"
   },
   {
     "id": "anmol-madan-2026-27",
@@ -507,7 +555,8 @@
       "Game theory",
       "Quasi-experiments"
     ],
-    "program_id": "university-of-texas-at-dallas-marketing"
+    "program_id": "university-of-texas-at-dallas-marketing",
+    "homepage": "https://anmolmadan.me/"
   },
   {
     "id": "penn-anna-gao",
@@ -745,7 +794,8 @@
     "aliases": [
       "Junyu Wang",
       "Caroline Junyu Wang"
-    ]
+    ],
+    "homepage": "https://carolinejunyuwang.github.io/"
   },
   {
     "id": "us-io-chanwool-kim",
@@ -798,7 +848,9 @@
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "university-of-chicago-economics"
+    "program_id": "university-of-chicago-economics",
+    "homepage": "https://chanwoolkim.github.io/",
+    "jmp_url": "https://chanwoolkim.github.io/"
   },
   {
     "id": "chi-ying-wang-2025",
@@ -1081,7 +1133,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "UBC 表列于 2023；Queen’s 官方 CV 明确 2022 年 7 月开始首职，博士于 2023 年毕业。首职按 2022 计，不进入默认 2023–2026 图；仍在来源 2023 名单及全部记录中保留。"
+    "notes": "UBC 表列于 2023；Queen’s 官方 CV 明确 2022 年 7 月开始首职，博士于 2023 年毕业。首职按 2022 计，不进入默认 2023–2026 图；仍在来源 2023 名单及全部记录中保留。",
+    "cv_url": "https://smith.queensu.ca/faculty_and_research/faculty_list/CVs/Ekin-Ok-CV.pdf"
   },
   {
     "id": "ella-xu-2025",
@@ -1149,7 +1202,7 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "Emory biography explicitly says joined in 2025 after NYU doctorate; official-profile-linked CV independently dates first academic appointment to 2025.",
+    "notes": "Emory biography explicitly says joined in 2025 after NYU doctorate; official-profile-linked CV independently dates first academic appointment to 2025. 2026-10-08：Emory 教师页与所链接 CV 确认 Ella Xu / Ella J. Xu 为同一人，合并重复记录并保留别名、来源名单年份和原始证据。",
     "source_file": "us-marketing-extra.json",
     "methods_original": [
       "Deep learning",
@@ -1157,7 +1210,13 @@
       "Field experiments",
       "Econometrics"
     ],
-    "program_id": "new-york-university-marketing"
+    "program_id": "new-york-university-marketing",
+    "jmp_url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf",
+    "aliases": [
+      "Ella Xu"
+    ],
+    "source_cohort_year": 2025,
+    "cv_url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf"
   },
   {
     "id": "harvard-emily-prinsloo",
@@ -1283,7 +1342,8 @@
       "Machine learning"
     ],
     "program_id": "yale-university-marketing",
-    "source_cohort_year": 2025
+    "source_cohort_year": 2025,
+    "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf"
   },
   {
     "id": "toronto-francis-guiton",
@@ -1421,7 +1481,9 @@
       "Game theory",
       "Structural estimation"
     ],
-    "program_id": "washington-university-in-st-louis-marketing"
+    "program_id": "washington-university-in-st-louis-marketing",
+    "homepage": "https://guohaihao.github.io/",
+    "jmp_url": "https://guohaihao.github.io/research/"
   },
   {
     "id": "hangcheng-zhao-2025",
@@ -1499,7 +1561,9 @@
     ],
     "program_id": "university-of-pennsylvania-marketing",
     "source_cohort_year": 2025,
-    "graduation_year": 2025
+    "graduation_year": 2025,
+    "cv_url": "https://www.business.rutgers.edu/sites/default/files/documents/faculty/cv-hangcheng-zhao.pdf",
+    "jmp_url": "https://www.business.rutgers.edu/sites/default/files/documents/faculty/cv-hangcheng-zhao.pdf"
   },
   {
     "id": "penn-henrique-laurino",
@@ -1564,7 +1628,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源年份与首职年份分开；任职年需独立证据。 Oxford 公告确认 2025 年加入，初始头衔为 Associate Professor，不改写为 Assistant Professor。"
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 Oxford 公告确认 2025 年加入，初始头衔为 Associate Professor，不改写为 Assistant Professor。",
+    "homepage": "https://www.henriquelaurino.com/"
   },
   {
     "id": "hung-ho-2026",
@@ -1706,7 +1771,8 @@
     "notes": "Placement year explicitly reported by the department; market cycle left null because it was not explicitly established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "stanford-university-economics"
+    "program_id": "stanford-university-economics",
+    "cv_url": "https://jacob-conway.com/pdfs/Conway_Jacob_CV.pdf"
   },
   {
     "id": "northwestern-jason-zhao",
@@ -1819,6 +1885,10 @@
       {
         "label": "initial sequence",
         "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf"
+      },
+      {
+        "label": "任职路径交叉核验",
+        "url": "https://jvivesb.github.io/"
       }
     ],
     "subsequent": [
@@ -1834,7 +1904,23 @@
     "notes": "IO is explicitly a secondary field. Preserve primary/secondary distinction when filtering core IO versus broader IO-adjacent candidates.",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "massachusetts-institute-of-technology-economics"
+    "program_id": "massachusetts-institute-of-technology-economics",
+    "final_placement": {
+      "destination": "New York University",
+      "role": "Assistant Professor of Economics and Data Science",
+      "destination_region": "US",
+      "year": 2026,
+      "job_kind": "faculty",
+      "status": "placed",
+      "evidence": "导师 initial placement 一栏明确 Stanford 博后后赴 NYU；本人 CV 与主页确认 2026 年转任 NYU。",
+      "sources": [
+        "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf",
+        "https://jvivesb.github.io/misc/academic_cv_vives_i_bastida_26.pdf",
+        "https://jvivesb.github.io/"
+      ]
+    },
+    "homepage": "https://jvivesb.github.io/",
+    "cv_url": "https://jvivesb.github.io/misc/academic_cv_vives_i_bastida_26.pdf"
   },
   {
     "id": "northwestern-jesse-dagostino",
@@ -1898,7 +1984,8 @@
     "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。 官方表注明 Bonsai, Chicago；职位名称未确认，避免同名人员混淆。",
     "aliases": [
       "Jesse D’Agostino"
-    ]
+    ],
+    "homepage": "https://kelloggphds.northwestern.edu/jesse-dagostino/"
   },
   {
     "id": "us-io-jesse-silbert",
@@ -1967,7 +2054,10 @@
     "notes": "The Princeton department table is anonymized. This match uses unique destination MIT FutureTech plus IO field and named host profile; retain this linkage provenance for review.",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "princeton-university-economics"
+    "program_id": "princeton-university-economics",
+    "homepage": "https://jesse-silbert.github.io/",
+    "cv_url": "https://jesse-silbert.github.io/website/Silbert_CV.pdf",
+    "jmp_url": "https://jesse-silbert.github.io/website/Silbert_CV.pdf"
   },
   {
     "id": "northwestern-jessie-jia",
@@ -2203,7 +2293,9 @@
     "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。",
     "aliases": [
       "Jane Jiaqian Wang"
-    ]
+    ],
+    "homepage": "https://www.janejiaqianwang.com/",
+    "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2024/07/CV-Website-Jane-July2024.pdf"
   },
   {
     "id": "toronto-jie-fang",
@@ -2281,7 +2373,8 @@
     "notes": "2024 is explicitly the PhD award year on the adviser supervision page; it is not automatically assigned as placement year. Only initial postdoctoral placement is established here. A later tenure-track transition would require a separate employment event. The September 2024 department announcement identifies the cohort as having found first jobs. Announcement year is stored separately; exact employment start remains unverified.",
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
-    "program_id": "university-of-toronto-economics"
+    "program_id": "university-of-toronto-economics",
+    "homepage": "https://sites.google.com/view/fang-jie"
   },
   {
     "id": "harvard-jimin-nam",
@@ -2414,7 +2507,8 @@
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
     "program_id": "hong-kong-university-of-science-and-technology-marketing",
-    "source_cohort_year": 2025
+    "source_cohort_year": 2025,
+    "cv_url": "https://bmphd.hkust.edu.hk/sites/default/files/2024-06/CV%20Jingling%20Yu_1.pdf"
   },
   {
     "id": "nus-jingman-cao",
@@ -2493,7 +2587,9 @@
     "notes": "Official NUS table labels 2026 as Year of Graduation; this is not used as placement year. Bocconi identifies the 13 April 2026 seminar as Job Market; market cycle remains null without an explicit cycle statement. A follow-up check independently verified 2026 employment start in the downloaded personal CV and SUFE faculty biography. This is not inferred from the NUS graduation year.",
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
-    "program_id": "national-university-of-singapore-economics"
+    "program_id": "national-university-of-singapore-economics",
+    "cv_url": "https://drive.google.com/file/d/17uG9JAnPihsT7xuI-nN7NergVtIbdX4p/view?usp=sharing",
+    "homepage": "https://www.jingmancao.com/"
   },
   {
     "id": "us-io-jingyi-cui",
@@ -2546,6 +2642,10 @@
       {
         "label": "field and education",
         "url": "https://jingyi-cui.github.io/resume.pdf"
+      },
+      {
+        "label": "JMP 原文",
+        "url": "https://jingyi-cui.github.io/Cui_JMP.pdf"
       }
     ],
     "subsequent": [
@@ -2562,7 +2662,23 @@
     "notes": "Current personal website explicitly identifies Berkeley postdoc as 2026–27. This is employment period, not market cycle. Disambiguated from a different Jingyi Cui who attended Berkeley as an undergraduate.",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "yale-university-economics"
+    "program_id": "yale-university-economics",
+    "final_placement": {
+      "destination": "Carnegie Mellon University Tepper School of Business",
+      "role": "Assistant Professor of Economics",
+      "destination_region": "US",
+      "year": 2027,
+      "job_kind": "faculty",
+      "status": "announced_future",
+      "evidence": "本人主页已宣布 Berkeley 博后 2026–27 后于 2027 年加入 CMU。最终安排口径计教职；2027 岗位仍为已宣布、尚未开始。",
+      "sources": [
+        "https://jingyi-cui.github.io/"
+      ]
+    },
+    "homepage": "https://jingyi-cui.github.io/",
+    "cv_url": "https://jingyi-cui.github.io/resume.pdf",
+    "jmp_url": "https://jingyi-cui.github.io/Cui_JMP.pdf",
+    "jmp_evidence": "个人主页明确标注 Job Market Paper，已链接对应论文。"
   },
   {
     "id": "northwestern-jocelyn-grabke",
@@ -2775,7 +2891,9 @@
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "stanford-university-economics"
+    "program_id": "stanford-university-economics",
+    "homepage": "https://www.kate-reinmuth.com/",
+    "jmp_url": "https://www.kate-reinmuth.com/"
   },
   {
     "id": "us-io-kelly-kaili-yang",
@@ -2838,7 +2956,9 @@
     "notes": "Duke records this placement under 2023; IU's new-faculty story was published September 2024. Publication date does not establish appointment start, so start_year remains null.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "duke-university-economics"
+    "program_id": "duke-university-economics",
+    "cv_url": "https://econ.duke.edu/sites/econ.duke.edu/files/2022-10/Yang%2CKelly_draftCV_10-14-22.pdf",
+    "jmp_url": "https://econ.duke.edu/sites/econ.duke.edu/files/2022-10/Yang%2CKelly_draftCV_10-14-22.pdf"
   },
   {
     "id": "ubc-kisho-hoshi",
@@ -3007,7 +3127,8 @@
     "notes": "Employer profile's release date is not used as appointment start; the CV independently states 2026–present. Macau is an observed destination outside the requested PhD-origin regions. The August 2026 CV uses a more specific JMP title than the historical NTU roster.",
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
-    "program_id": "nanyang-technological-university-marketing"
+    "program_id": "nanyang-technological-university-marketing",
+    "cv_url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf"
   },
   {
     "id": "toronto-lorenzo-cecutti",
@@ -3350,7 +3471,9 @@
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "northwestern-university-economics"
+    "program_id": "northwestern-university-economics",
+    "homepage": "https://maxpienkny.github.io/",
+    "jmp_url": "https://maxpienkny.github.io/"
   },
   {
     "id": "magie-cheng-2026",
@@ -3480,7 +3603,8 @@
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "georgetown-university-economics"
+    "program_id": "georgetown-university-economics",
+    "jmp_url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
   },
   {
     "id": "penn-mingyung-kim",
@@ -3544,7 +3668,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源年份与首职年份分开；任职年需独立证据。 Ohio State 2024 新教员公告独立确认加入年份。"
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 Ohio State 2024 新教员公告独立确认加入年份。",
+    "homepage": "https://www.mingyung-kim.com/"
   },
   {
     "id": "chicago-minkwang-jang",
@@ -3654,7 +3779,8 @@
     "notes": "CV describes Lecturer as equivalent to Assistant Professor in the American system; retained original title and did not infer tenure status.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "stanford-university-economics"
+    "program_id": "stanford-university-economics",
+    "cv_url": "https://www.mitchellwatt.com/files/MitchellWatt_CV.pdf"
   },
   {
     "id": "toronto-moein-javadian",
@@ -3786,7 +3912,9 @@
     "notes": "Market-cycle evidence is a researcher-maintained field list; employment start is independently explicit in the candidate's CV. 求职季尚仅由领域汇总名单提供，未作为明确市场周期存储。",
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
-    "program_id": "university-of-toronto-economics"
+    "program_id": "university-of-toronto-economics",
+    "cv_url": "https://www.mohaddesehheydarinejad.com/_files/ugd/f0173c_f497468897f948598fce411b0d0d9cde.pdf",
+    "homepage": "https://www.mohaddesehheydarinejad.com/"
   },
   {
     "id": "toronto-mohsen-foroughifar",
@@ -3873,7 +4001,9 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "Rotman 选录列 2023 博士毕业、现职 CMU；2026 年 8 月本人 CV 却将 CMU 起始年列为 2025，还列 Toronto 2018–2024、2024 临时教学与 Analysis Group 2025 经历。不能把 2023 毕业年或当前教职直接当作首职。最早毕业转衔岗位及开始年待核验，已知经历完整保留。",
-    "source_reported_placement": "Carnegie Mellon University"
+    "source_reported_placement": "Carnegie Mellon University",
+    "homepage": "https://mforoughifar.github.io/",
+    "cv_url": "https://mforoughifar.github.io/CV_MF_Aug2026.pdf"
   },
   {
     "id": "us-io-nathaniel-hickok",
@@ -3949,7 +4079,22 @@
     "notes": "Postdoc category follows advisor's explicit description; current personal website gives formal title Senior Researcher. Preserve both rather than assuming corporate research equals permanent industry employment. 2026 placement is supported by advisor's 2026 entry with initial destination and current 2026 confirmation; exact start date and Microsoft office not established. 岗位类型按本人所列 Microsoft Senior Researcher 计为企业；导师所用 postdoc 称谓另保留在原始来源备注。",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "massachusetts-institute-of-technology-economics"
+    "program_id": "massachusetts-institute-of-technology-economics",
+    "final_placement": {
+      "destination": "University of Pennsylvania, Wharton, Business Economics and Public Policy",
+      "role": "Assistant Professor",
+      "destination_region": "US",
+      "year": 2027,
+      "job_kind": "faculty",
+      "status": "announced_future",
+      "evidence": "本人主页明确现为 Microsoft Senior Researcher，2027 将加入 Wharton。导师 initial placement 也写 Microsoft 后赴 Wharton；2027 岗位尚未开始。",
+      "sources": [
+        "https://www.nathanielhickok.com/",
+        "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf"
+      ]
+    },
+    "homepage": "https://www.nathanielhickok.com/",
+    "cv_url": "https://economics.mit.edu/sites/default/files/2025-11/Hickok_CV.pdf"
   },
   {
     "id": "chicago-nicholas-herzog",
@@ -4131,7 +4276,9 @@
     "notes": "Initial FTC title and employment start date were not specified in the consulted department source. Current UIUC appointment must not overwrite the 2024 FTC placement.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "stanford-university-economics"
+    "program_id": "stanford-university-economics",
+    "homepage": "https://www.pearlzli.com/",
+    "jmp_url": "https://economics.stanford.edu/people/pearl-li"
   },
   {
     "id": "ntu-qing-tang",
@@ -4203,7 +4350,8 @@
     "notes": "NTU 毕业表、HKBU 院系教育经历与 2023 ACR 会议中的 HKBU 任职相互印证。HKBU CV 的搜索索引旧版本写 2023-04，当前自动生成版本写 2026-09；保留该来源差异，不把当前部门日期当作首次就业。2023 首职依据历史任职与旧版本日期交叉核验。",
     "aliases": [
       "TANG Qing"
-    ]
+    ],
+    "cv_url": "https://scholars.hkbu.edu.hk/ws/portalfiles/portal/cv/e273e810-a085-4657-804f-4e23b5e78e8b?locale=en_GB"
   },
   {
     "id": "penn-rachele-ciulli",
@@ -4268,7 +4416,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源年份与首职年份分开；任职年需独立证据。 本人公开宣布 2026 年 9 月加入 LUISS，官方 2026–27 第一学期课程也列出其任教；具体职级未核实。"
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 本人公开宣布 2026 年 9 月加入 LUISS，官方 2026–27 第一学期课程也列出其任教；具体职级未核实。",
+    "homepage": "https://www.racheleciulli.com/"
   },
   {
     "id": "ntu-ruoding-wang",
@@ -4504,7 +4653,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "官网为滚动发布，已对齐核验当日列出的人员，不代表最终完整求职届。"
+    "notes": "官网为滚动发布，已对齐核验当日列出的人员，不代表最终完整求职届。",
+    "homepage": "https://samuelsukellogg.github.io/"
   },
   {
     "id": "northwestern-sarena-su",
@@ -4705,7 +4855,8 @@
       "Field experiments"
     ],
     "program_id": "yale-university-marketing",
-    "source_cohort_year": 2025
+    "source_cohort_year": 2025,
+    "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf"
   },
   {
     "id": "ubc-shangwen-yi",
@@ -4771,7 +4922,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "cv_url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/yi_shangwen/cv_sy.pdf?hash=30C700D7274A76F700A86E9F84491816&rev=4da49e684cf942389693654a6d5fc663"
   },
   {
     "id": "penn-shannon-duncan",
@@ -4929,7 +5081,9 @@
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "yale-university-economics"
+    "program_id": "yale-university-economics",
+    "homepage": "https://shokikusaka.github.io/",
+    "jmp_url": "https://shokikusaka.github.io/"
   },
   {
     "id": "chicago-shweta-desiraju",
@@ -5149,7 +5303,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源年份与首职年份分开；任职年需独立证据。 官方 CV 将任职起始年列为 2025。"
+    "notes": "来源年份与首职年份分开；任职年需独立证据。 官方 CV 将任职起始年列为 2025。",
+    "cv_url": "https://www.stonybrook.edu/commcms/business/_cv/faculty/siyyin.pdf"
   },
   {
     "id": "chicago-soaham-bharti",
@@ -5275,7 +5430,8 @@
       "Reinforcement learning"
     ],
     "program_id": "harvard-university-marketing",
-    "source_cohort_year": 2025
+    "source_cohort_year": 2025,
+    "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf"
   },
   {
     "id": "us-io-tess-snyder",
@@ -5326,7 +5482,9 @@
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "stanford-university-economics"
+    "program_id": "stanford-university-economics",
+    "homepage": "https://www.tess-snyder.com/",
+    "jmp_url": "https://www.tess-snyder.com/"
   },
   {
     "id": "us-io-thi-mai-anh-nguyen",
@@ -5384,6 +5542,10 @@
       {
         "label": "current position",
         "url": "https://www.anhnguyentm.com/"
+      },
+      {
+        "label": "最终求职安排核验",
+        "url": "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf"
       }
     ],
     "subsequent": [
@@ -5399,7 +5561,23 @@
     "notes": "Placement year is first actual post-PhD role in 2023; NYU appointment starts 2024.",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "massachusetts-institute-of-technology-economics"
+    "program_id": "massachusetts-institute-of-technology-economics",
+    "final_placement": {
+      "destination": "New York University, Department of Economics",
+      "role": "Assistant Professor",
+      "destination_region": "US",
+      "year": 2024,
+      "job_kind": "faculty",
+      "status": "placed",
+      "evidence": "导师 initial placement 一栏明确 Microsoft 博后后赴 NYU；本人 CV 列 NYU 教职 2024-09 起。",
+      "sources": [
+        "https://economics.mit.edu/sites/default/files/2026-04/Curriculum_Vitae.pdf",
+        "https://nguyentmanh.github.io/files/Nguyen_CV.pdf"
+      ]
+    },
+    "homepage": "https://www.anhnguyentm.com/",
+    "cv_url": "https://nguyentmanh.github.io/files/Nguyen_CV.pdf",
+    "jmp_url": "https://economics.mit.edu/sites/default/files/2022-10/NGUYEN_ThiMaiAnh_cv.pdf"
   },
   {
     "id": "us-io-tulio-sousa",
@@ -5462,7 +5640,9 @@
     "notes": "Department spells name Tulio Sousa. Market cycle and appointment start left null; placement year is explicit.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "duke-university-economics"
+    "program_id": "duke-university-economics",
+    "cv_url": "https://econ.duke.edu/sites/econ.duke.edu/files/2024-10/Tulio%20Sousa%20CV%202024.pdf",
+    "jmp_url": "https://econ.duke.edu/sites/econ.duke.edu/files/2024-10/Tulio%20Sousa%20CV%202024.pdf"
   },
   {
     "id": "us-io-tuyetanh-tran",
@@ -5526,7 +5706,10 @@
     "notes": "",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "yale-university-economics"
+    "program_id": "yale-university-economics",
+    "homepage": "https://tuyetanhltran.github.io/",
+    "cv_url": "https://tuyetanhltran.github.io/downloads/Tran_Tuyetanh_CV.pdf",
+    "jmp_url": "https://tuyetanhltran.github.io/downloads/Tran_Tuyetanh_CV.pdf"
   },
   {
     "id": "toronto-verina-que",
@@ -5604,7 +5787,9 @@
     "notes": "来源年份与首职年份分开；任职年需独立证据。 本人明确 tenure-track；Vita 列 NTU 2025 起任课，接收系 2025 迎新公告相互印证。",
     "aliases": [
       "Verina Que"
-    ]
+    ],
+    "homepage": "https://verinaque.com/",
+    "cv_url": "https://verinaque.com/vita.html"
   },
   {
     "id": "toronto-vivek-nandur",
@@ -5680,7 +5865,9 @@
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "此人不在 Rotman 的三人 2023 校友选录中，经导师与本人 CV 补录。CV 显示校内研究工作于 2023-06 结束，Edge 的 Senior Data Scientist 岗位为 2023-06 至 2023-10，博士授予为 2023-11；按毕业转衔的首份已列职业岗位记录 Edge，不把 2024 博士后改为首职。Edge 工作地点未明确。"
+    "notes": "此人不在 Rotman 的三人 2023 校友选录中，经导师与本人 CV 补录。CV 显示校内研究工作于 2023-06 结束，Edge 的 Senior Data Scientist 岗位为 2023-06 至 2023-10，博士授予为 2023-11；按毕业转衔的首份已列职业岗位记录 Edge，不把 2024 博士后改为首职。Edge 工作地点未明确。",
+    "homepage": "https://www.viveknandurphd.com/",
+    "cv_url": "https://www.viveknandurphd.com/_files/ugd/a1671a_18935c6aefc8477e8001f3e56cbc1816.pdf"
   },
   {
     "id": "walter-zhang-2024",
@@ -5756,7 +5943,8 @@
       "Optimal transport"
     ],
     "program_id": "university-of-chicago-marketing",
-    "source_cohort_year": 2024
+    "source_cohort_year": 2024,
+    "cv_url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf"
   },
   {
     "id": "nus-wanjiang-deng",
@@ -5875,7 +6063,8 @@
     "aliases": [
       "鄭婉怡",
       "郑婉怡"
-    ]
+    ],
+    "cv_url": "https://scholars.hkbu.edu.hk/ws/portalfiles/portal/cv/040a0278-ce05-4c2d-be0e-5f97250fb5a3?locale=en_GB"
   },
   {
     "id": "toronto-wei-lu",
@@ -5945,7 +6134,8 @@
     "notes": "来源年份与首职年份分开；任职年需独立证据。 CV 明确 2023 起任职，并由 Baruch 2023 年 9 月新教员报道交叉确认；双校本科不强制归为单一地区。",
     "aliases": [
       "Arthur Wei Lu"
-    ]
+    ],
+    "cv_url": "https://arthurweilu.com/assets/pdf/CV_20250704.pdf"
   },
   {
     "id": "nus-xinbo-wang",
@@ -6012,7 +6202,9 @@
     "notes": "Official NUS graduation year is 2026; July 2025 CV expected a November 2025 completion. Retain the later official observed year and preserve this discrepancy. No explicit JMP designation or market cycle was found in the reviewed sources. Undergraduate institution is explicit but region was not stated in the reviewed CV. SUFE official faculty biography explicitly dates the Marketing Department appointment from 2026. This independently establishes employment year; it is not converted from the graduation year.",
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
-    "program_id": "national-university-of-singapore-economics"
+    "program_id": "national-university-of-singapore-economics",
+    "cv_url": "https://fass.nus.edu.sg/ecs/wp-content/uploads/sites/4/2025/08/CV-Xinbo-Wang.pdf",
+    "homepage": "https://sites.google.com/view/xinbo-wang-econ"
   },
   {
     "id": "xinyao-kong-2023",
@@ -6095,7 +6287,8 @@
       "Nonparametric methods"
     ],
     "program_id": "university-of-chicago-marketing",
-    "source_cohort_year": 2023
+    "source_cohort_year": 2023,
+    "cv_url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/b/3311/files/2022/10/CV_XinyaoKong.pdf"
   },
   {
     "id": "northwestern-xuekang-wu",
@@ -6162,7 +6355,8 @@
     "notes": "首职年采用 Kellogg placement 年度表；不据此推定毕业年。",
     "aliases": [
       "吴学康"
-    ]
+    ],
+    "homepage": "https://www.xuekangwu.com/"
   },
   {
     "id": "hkust-xuewen-wang",
@@ -6281,7 +6475,9 @@
     "notes": "JMP has been retitled; preserve the historical and current titles as versions. CV lists the Peking appointment immediately after PhD completion, but does not literally label it first placement. 求职季尚仅由领域汇总名单提供，未作为明确市场周期存储。",
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
-    "program_id": "hong-kong-university-of-science-and-technology-economics"
+    "program_id": "hong-kong-university-of-science-and-technology-economics",
+    "cv_url": "https://yizhangwebsite.weebly.com/uploads/1/4/6/7/146754931/cv_latest.pdf",
+    "homepage": "https://yizhangwebsite.weebly.com/"
   },
   {
     "id": "yi-wen-chen-2026-27",
@@ -6423,7 +6619,9 @@
     ],
     "program_id": "university-of-pennsylvania-marketing",
     "source_cohort_year": 2025,
-    "graduation_year": 2025
+    "graduation_year": 2025,
+    "cv_url": "https://www.anderson.ucla.edu/sites/default/files/2025-09/yuan_cv_Aug2025.pdf",
+    "jmp_url": "https://www.anderson.ucla.edu/sites/default/files/2025-09/yuan_cv_Aug2025.pdf"
   },
   {
     "id": "toronto-ying-zeng",
@@ -6630,7 +6828,10 @@
     "source_file": "us-marketing.json",
     "methods_original": [],
     "program_id": "northwestern-university-marketing",
-    "source_cohort_year": 2023
+    "source_cohort_year": 2023,
+    "homepage": "https://youngeun-lee.github.io/",
+    "cv_url": "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf",
+    "jmp_url": "https://youngeun-lee.github.io/"
   },
   {
     "id": "penn-yu-zhao",
@@ -6772,7 +6973,9 @@
     "notes": "2025 appointment year from dated CV, not inferred from graduation year.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "university-of-california-berkeley-economics"
+    "program_id": "university-of-california-berkeley-economics",
+    "cv_url": "https://yukiito.github.io/files/ItoYuki_CV_121825.pdf",
+    "jmp_url": "https://econ.berkeley.edu/sites/default/files/2024-11/FINAL%20Roster%2010.31.24.pdf"
   },
   {
     "id": "us-io-yunus-semih-coskun",
@@ -6973,7 +7176,8 @@
     "notes": "Explicitly on the 2026–27 market in the source as checked; no placement outcome established.",
     "source_file": "us-io.json",
     "methods_original": [],
-    "program_id": "georgetown-university-economics"
+    "program_id": "georgetown-university-economics",
+    "jmp_url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
   },
   {
     "id": "hku-zhengyu-shi",
@@ -7105,7 +7309,10 @@
     "notes": "CV explicitly labels JMP AY2025–26. Undergraduate institution/region does not establish ethnicity or citizenship.",
     "source_file": "us-io-extra.json",
     "methods_original": [],
-    "program_id": "yale-university-economics"
+    "program_id": "yale-university-economics",
+    "homepage": "https://sites.google.com/view/zhichun-wang/home",
+    "cv_url": "https://zwangecon.github.io/draft/Wang_Zhichun_CV_final.pdf",
+    "jmp_url": "https://zwangecon.github.io/draft/Wang_Zhichun_CV_final.pdf"
   },
   {
     "id": "ubc-zining-wang",
@@ -7169,7 +7376,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "UBC 表列于 2023；BC 官方 CV 明确首职从 2024 年 7 月开始、博士 2024 年毕业。年度就业图采用 2024，覆盖矩阵按来源表 2023 核对。"
+    "notes": "UBC 表列于 2023；BC 官方 CV 明确首职从 2024 年 7 月开始、博士 2024 年毕业。年度就业图采用 2024，覆盖矩阵按来源表 2023 核对。",
+    "cv_url": "https://www.bc.edu/content/dam/bc1/schools/carroll/faculty/PDFs/Zining%20Wang%20CV.pdf"
   },
   {
     "id": "columbia-university-lan-luo",
@@ -11945,53 +12153,6 @@
     "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。 以 Marketing 系表为准；学校总表未列 Zekun Liu，已记录差异。 "
   },
   {
-    "id": "new-york-university-ella-xu",
-    "name": "Ella Xu",
-    "school": "New York University",
-    "program": "博士项目 · Marketing",
-    "program_id": "new-york-university-marketing",
-    "origin": "US",
-    "fields": [
-      "Marketing"
-    ],
-    "tracks": [
-      "marketing"
-    ],
-    "methods": [],
-    "topics": [],
-    "market_cycle": null,
-    "placement_year": 2025,
-    "source_cohort_year": 2025,
-    "graduation_year": null,
-    "status": "placed",
-    "destination": "Emory University",
-    "destination_region": "US",
-    "role": "Assistant Professor",
-    "job_kind": "faculty",
-    "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
-    "identity": {
-      "chinese_national": {
-        "value": "unknown",
-        "source": null
-      },
-      "chinese_heritage": {
-        "value": "unknown",
-        "source": null
-      }
-    },
-    "sources": [
-      {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements"
-      }
-    ],
-    "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。 以 Marketing 系表为准；学校总表未列 Zekun Liu，已记录差异。 "
-  },
-  {
     "id": "new-york-university-eunkyung-an",
     "name": "Eunkyung An",
     "school": "New York University",
@@ -12281,15 +12442,22 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Behavioral Marketing",
+      "Consumer Judgment and Decision Making",
+      "Moral Judgment"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
     "methods": [],
-    "topics": [],
+    "topics": [
+      "数值信息",
+      "消费者判断",
+      "道德判断"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2026,
     "source_cohort_year": 2026,
     "graduation_year": 2026,
     "status": "placed",
@@ -12298,8 +12466,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "本人 CV 明确 Behavioral Marketing；研究消费者判断、数值信息与社会道德判断。",
+    "undergraduate": {
+      "institution": "University of Pennsylvania",
+      "region": "US"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12318,11 +12489,34 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "个人主页",
+        "url": "https://www.amandageiser.com/"
+      },
+      {
+        "label": "本人 CV：Behavioral Marketing",
+        "url": "https://www.amandageiser.com/_files/ugd/d33459_bad1fdfb174b49e8a64a239373d51940.pdf"
+      },
+      {
+        "label": "Minnesota 2026 终身轨新教师公告",
+        "url": "https://carlsonschool.umn.edu/news/new-minnesota-carlson-tenure-track-faculty-2026"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "2026-03 CV 仍写预计毕业；Minnesota 2026-09-30 新教师公告确认 2026 入职助理教授。任职日期依据接收院校公告。未发现明确 JMP 标注。",
+    "homepage": "https://www.amandageiser.com/",
+    "cv_url": "https://www.amandageiser.com/_files/ugd/d33459_bad1fdfb174b49e8a64a239373d51940.pdf",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.amandageiser.com/",
+        "https://www.amandageiser.com/_files/ugd/d33459_bad1fdfb174b49e8a64a239373d51940.pdf",
+        "https://carlsonschool.umn.edu/news/new-minnesota-carlson-tenure-track-faculty-2026"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-vincent-chen",
@@ -12332,13 +12526,25 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Behavioral Marketing",
+      "Consumer Cognition",
+      "Branding",
+      "Mental Accounting"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "自然语言处理",
+      "机器学习",
+      "行为实验"
+    ],
+    "topics": [
+      "品牌认知",
+      "心理账户",
+      "消费者认知"
+    ],
     "market_cycle": null,
     "placement_year": null,
     "source_cohort_year": 2026,
@@ -12348,9 +12554,12 @@
     "destination_region": "UNKNOWN",
     "role": "Research Scientist",
     "job_kind": "industry",
-    "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "jmp": "How brand perception (really) changes over time: Decomposing real from nominal changes using time-aware natural language processing",
+    "field_evidence": "本人 CV 明确 Behavioral Marketing；NLP / 机器学习是其方法，不因此自动改标为 Quant。",
+    "undergraduate": {
+      "institution": "National Taiwan University",
+      "region": "TW"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12369,11 +12578,34 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "个人主页",
+        "url": "https://vpchen.org/"
+      },
+      {
+        "label": "本人 CV：方向、JMP 与教育",
+        "url": "https://vpchen.org/assets/pdf/cv.pdf"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "Haas placement 名录列 Vals AI Research Scientist。求职 CV 仍为预计 2026 毕业，不能据此确认公司入职日期；保留已知去向与首职年份未知。",
+    "homepage": "https://vpchen.org/",
+    "cv_url": "https://vpchen.org/assets/pdf/cv.pdf",
+    "aliases": [
+      "Vincent Pei-Ming Chen"
+    ],
+    "jmp_url": "https://vpchen.org/assets/pdf/cv.pdf",
+    "jmp_evidence": "个人 CV 明确标注 Job Market Paper；链接指向该 CV。",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://vpchen.org/",
+        "https://vpchen.org/assets/pdf/cv.pdf"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-yixiang-xu",
@@ -12383,13 +12615,23 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Digital Technologies",
+      "Artificial Intelligence",
+      "Consumer Decision Making"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "机器学习",
+      "贝叶斯推断"
+    ],
+    "topics": [
+      "人工智能",
+      "数字营销",
+      "弱势消费者"
+    ],
     "market_cycle": null,
     "placement_year": null,
     "source_cohort_year": 2026,
@@ -12400,8 +12642,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "个人主页列 AI 系统、数字技术与贝叶斯方法研究；Berkeley D-Lab 介绍明确计算方法、非结构化数据、计量与机器学习。据此整理为 Quant。",
+    "undergraduate": {
+      "institution": "Fudan University",
+      "region": "CN"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12420,11 +12665,28 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "个人主页：研究与现职",
+        "url": "https://www.yixiangxu.com/"
+      },
+      {
+        "label": "Berkeley D-Lab：研究方法",
+        "url": "https://live-dlab.pantheon.berkeley.edu/people/yixiang-xu"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "Haas 名录列 Cambridge，个人主页确认 Assistant Professor。尚未找到任职开始日期及明确 JMP 标注；2026 来源名单年不替代首职年。",
+    "homepage": "https://www.yixiangxu.com/",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.yixiangxu.com/",
+        "https://live-dlab.pantheon.berkeley.edu/people/yixiang-xu"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-yunhao-huang",
@@ -12434,13 +12696,22 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Economics of Digitization",
+      "Information Economics",
+      "Artificial Intelligence"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "经济理论"
+    ],
+    "topics": [
+      "数字化经济",
+      "隐私",
+      "在线广告"
+    ],
     "market_cycle": null,
     "placement_year": null,
     "source_cohort_year": 2025,
@@ -12451,8 +12722,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "USC 官方页研究数字化经济、信息与企业战略；公开论文 A Theory of the Effects of Privacy 为理论研究，据此整理为 Quant。",
+    "undergraduate": {
+      "institution": "Tsinghua University",
+      "region": "CN"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12471,11 +12745,27 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "USC 官方研究与教育资料",
+        "url": "https://www.marshall.usc.edu/personnel/yunhao-huang"
+      },
+      {
+        "label": "USC 2025 研究公告：理论论文",
+        "url": "https://www.marshall.usc.edu/news/marshall-faculty-publications-awards-and-honors-junejuly-2025"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "Haas 名录与 USC 页确认助理教授去向；首职任职日期尚待 CV。2024 招聘报告题目未明确标注 JMP，未直接填作 JMP。",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.marshall.usc.edu/personnel/yunhao-huang",
+        "https://www.marshall.usc.edu/news/marshall-faculty-publications-awards-and-honors-junejuly-2025"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-william-ryan",
@@ -12485,15 +12775,25 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Consumer Behavior",
+      "Judgment and Decision Making",
+      "Cognitive Biases"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "实验",
+      "自然语言处理"
+    ],
+    "topics": [
+      "消费者判断",
+      "认知偏差",
+      "收藏行为"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2025,
     "source_cohort_year": 2025,
     "graduation_year": 2025,
     "status": "placed",
@@ -12502,8 +12802,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "NYU 官方教师页明确 Consumer Psychology/Behavior、JDM；方法包括实验与 NLP。",
+    "undergraduate": {
+      "institution": "Harvard University",
+      "region": "US"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12522,11 +12825,27 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "NYU 教师页：研究方法与入职月份",
+        "url": "https://www.stern.nyu.edu/faculty/bio/william-ryan"
+      },
+      {
+        "label": "NYU 2025–26 新教师公告",
+        "url": "https://www.stern.nyu.edu/experience-stern/news/nyu-stern-welcomes-new-faculty-2025-2026-academic-year"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "NYU 教师页明确 2025 年 9 月加入；据此确认首职年。尚未找到明确标注的 JMP。",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.stern.nyu.edu/faculty/bio/william-ryan",
+        "https://www.stern.nyu.edu/experience-stern/news/nyu-stern-welcomes-new-faculty-2025-2026-academic-year"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-tianyu-han",
@@ -12536,15 +12855,27 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Behavioral Economics",
+      "Household Finance",
+      "Digital Marketing"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "实验",
+      "因果推断",
+      "结构模型",
+      "机器学习"
+    ],
+    "topics": [
+      "家庭金融",
+      "信用卡",
+      "数字营销"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2024,
     "source_cohort_year": 2024,
     "graduation_year": 2024,
     "status": "placed",
@@ -12553,8 +12884,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "HKUST 托管本人 CV 列 behavioral economics、household finance、digital marketing，方法含因果推断与结构估计，据此整理为 Quant。",
+    "undergraduate": {
+      "institution": "University of Southampton",
+      "region": "UK"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12573,11 +12907,29 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "个人主页",
+        "url": "https://tianyu-han.com/"
+      },
+      {
+        "label": "HKUST 托管本人 CV：方法与任职",
+        "url": "https://mark.hkust.edu.hk/files/staff/HAN_Tianyu.pdf"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "本人 CV 明确 HKUST 助理教授自 2024 年 7 月起、博士 2024 年 5 月。博士论文不自动作为 JMP。",
+    "homepage": "https://tianyu-han.com/",
+    "cv_url": "https://mark.hkust.edu.hk/files/staff/HAN_Tianyu.pdf",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://tianyu-han.com/",
+        "https://mark.hkust.edu.hk/files/staff/HAN_Tianyu.pdf"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-stephen-baum",
@@ -12587,15 +12939,21 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Consumer Behavior",
+      "Judgment and Decision Making"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
     "methods": [],
-    "topics": [],
+    "topics": [
+      "消费者判断",
+      "风险偏好",
+      "公平"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2023,
     "source_cohort_year": 2023,
     "graduation_year": 2023,
     "status": "placed",
@@ -12604,8 +12962,11 @@
     "role": "Postdoctoral Fellow",
     "job_kind": "postdoc",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "本人 CV 明确 PhD Marketing – Consumer Behavior；主页研究消费者判断决策。",
+    "undergraduate": {
+      "institution": "University of Puget Sound",
+      "region": "US"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12624,11 +12985,29 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "个人主页：研究与后续工作",
+        "url": "https://www.stephenmbaum.com/"
+      },
+      {
+        "label": "本人 CV：2023 博后及 CB 博士",
+        "url": "https://static1.squarespace.com/static/5f317d6dde0de627f0a87948/t/65413e313e1f807c182f9f7d/1698774578074/StephenBaum_CV.pdf"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "2023 CV 明确 WashU Marketing 博后自 2023 年起。当前主页提及 Google Pixel UXR 项目，但未证实是原次求职已确定的最终安排，不据此改写博后去向。CV 工作论文未明确标为 JMP。",
+    "homepage": "https://www.stephenmbaum.com/",
+    "cv_url": "https://static1.squarespace.com/static/5f317d6dde0de627f0a87948/t/65413e313e1f807c182f9f7d/1698774578074/StephenBaum_CV.pdf",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.stephenmbaum.com/",
+        "https://static1.squarespace.com/static/5f317d6dde0de627f0a87948/t/65413e313e1f807c182f9f7d/1698774578074/StephenBaum_CV.pdf"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-jesse-yunfei-yao",
@@ -12638,15 +13017,25 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Competitive Strategy",
+      "Information Economics",
+      "Consumer Search"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm",
+      "io"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "经济理论"
+    ],
+    "topics": [
+      "市场竞争",
+      "隐私",
+      "消费者搜索"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2023,
     "source_cohort_year": 2023,
     "graduation_year": 2023,
     "status": "placed",
@@ -12655,8 +13044,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "本人 CV 与 CUHK 页研究竞争策略、信息经济学和消费者搜索；据理论研究内容归入 Quant / IO（整理分类）。",
+    "undergraduate": {
+      "institution": "University of Michigan",
+      "region": "US"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12675,11 +13067,34 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "个人主页",
+        "url": "https://www.jesseyao.com"
+      },
+      {
+        "label": "本人 CV：初始岗位、日期与教育",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Yao_web_Nov20024.pdf"
+      },
+      {
+        "label": "CUHK 教师页",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/yao-jesse/"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "2024-11 CV 明确 CUHK 助理教授自 2023 年 7 月起。现教师页为 Associate Professor，不能回填为初始岗位。Peking University 为此前就读经历，本科完成院校记录 Michigan。",
+    "homepage": "https://www.jesseyao.com",
+    "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Yao_web_Nov20024.pdf",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.jesseyao.com",
+        "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Yao_web_Nov20024.pdf",
+        "https://www.bschool.cuhk.edu.hk/staff/yao-jesse/"
+      ]
+    }
   },
   {
     "id": "university-of-california-berkeley-fan-zhang",
@@ -12689,15 +13104,27 @@
     "program_id": "university-of-california-berkeley-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing",
+      "Industrial Organization",
+      "Digital Platforms",
+      "Information Design"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm",
+      "io"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "结构估计",
+      "博弈论"
+    ],
+    "topics": [
+      "数字平台",
+      "信息设计",
+      "消费者搜索"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2023,
     "source_cohort_year": 2023,
     "graduation_year": 2023,
     "status": "placed",
@@ -12706,8 +13133,11 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "本人主页明确 Quantitative Marketing 和 Industrial Organization；研究采用结构估计与动态博弈。",
+    "undergraduate": {
+      "institution": "Peking University",
+      "region": "CN"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12726,11 +13156,38 @@
       {
         "label": "Haas 校级表：岗位名称",
         "url": "https://haas.berkeley.edu/phd/careers/job-placements/"
+      },
+      {
+        "label": "个人主页：明确 Quant / IO",
+        "url": "https://sites.google.com/view/fan-zhang-site"
+      },
+      {
+        "label": "Nova 官方教师页",
+        "url": "https://www.novasbe.unl.pt/en/faculty-research/faculty/faculty-detail/id/1306/fan-zhang"
+      },
+      {
+        "label": "Nova 官方课程资料：2023-09 任职",
+        "url": "https://netpa.novasbe.pt/netpa/doc?_event=publicacaoFUC&anoLectivo=202425&codInstituic=1&codeCurso=null&codeDiscip=2430&codePeriodo=S1&codePlano=null&codeRamo=null&docIsAttachment=false&popup_mode=true&stage=FichaUnidadeCurricular"
+      },
+      {
+        "label": "个人主页所链接 CV（本次仅确认链接）",
+        "url": "https://drive.google.com/file/d/1InDf_FQLFwySzo1lfeuvGbLWBpJh08HC/view?usp=sharing"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 "
+    "notes": "Nova 官方课程资料明确 2023 年 9 月加入、2023 年 5 月博士毕业。主页普通论文未自动作为 JMP。",
+    "homepage": "https://sites.google.com/view/fan-zhang-site",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://sites.google.com/view/fan-zhang-site",
+        "https://www.novasbe.unl.pt/en/faculty-research/faculty/faculty-detail/id/1306/fan-zhang",
+        "https://netpa.novasbe.pt/netpa/doc?_event=publicacaoFUC&anoLectivo=202425&codInstituic=1&codeCurso=null&codeDiscip=2430&codePeriodo=S1&codePlano=null&codeRamo=null&docIsAttachment=false&popup_mode=true&stage=FichaUnidadeCurricular"
+      ]
+    },
+    "cv_url": "https://drive.google.com/file/d/1InDf_FQLFwySzo1lfeuvGbLWBpJh08HC/view?usp=sharing"
   },
   {
     "id": "massachusetts-institute-of-technology-marat-ibragimov",
@@ -12740,25 +13197,39 @@
     "program_id": "massachusetts-institute-of-technology-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing",
+      "Consumer Search",
+      "Product Returns"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "计量经济学",
+      "机器学习",
+      "数学建模"
+    ],
+    "topics": [
+      "消费者搜索",
+      "产品退货",
+      "定向促销"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2023,
     "source_cohort_year": 2023,
     "graduation_year": 2023,
-    "status": "outcome_unknown",
-    "destination": null,
-    "destination_region": null,
-    "role": null,
-    "job_kind": "unknown",
+    "status": "placed",
+    "destination": "Emory University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "Emory 教师页描述机器学习、计量与数学建模；据公开方法归入 Quant（整理分类）。",
+    "undergraduate": {
+      "institution": "Moscow Institute of Physics and Technology",
+      "region": "RU"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12773,18 +13244,28 @@
       {
         "label": "官方 Marketing 毕业生现职表",
         "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
-      }
-    ],
-    "subsequent": [
+      },
       {
-        "institution": "Emory University",
-        "title": null,
-        "observed_at": "2026-10-08"
+        "label": "本人 CV：任职与教育",
+        "url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/65ac1752caf0ca5e3701b77078065d5d1713212851.pdf"
+      },
+      {
+        "label": "接收院校：研究方法",
+        "url": "https://goizueta.emory.edu/faculty/profiles/marat-ibragimov"
       }
     ],
+    "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。  来源仅列现职，不能确认首职。",
-    "source_reported_placement": "Emory University"
+    "notes": "2024-01 CV 明确 Emory 助理教授自 2023 年起、MIT 博士 2023 年。首职年份依据任职条目，未用毕业年份替代。尚未找到明确标注的 JMP。",
+    "cv_url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/65ac1752caf0ca5e3701b77078065d5d1713212851.pdf",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://media-speakerfile-pre.s3.amazonaws.com/documents/65ac1752caf0ca5e3701b77078065d5d1713212851.pdf",
+        "https://goizueta.emory.edu/faculty/profiles/marat-ibragimov"
+      ]
+    }
   },
   {
     "id": "massachusetts-institute-of-technology-reed-orchinik",
@@ -12794,25 +13275,38 @@
     "program_id": "massachusetts-institute-of-technology-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Judgment and Decision Making",
+      "Beliefs and Persuasion",
+      "Cognition"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "实验",
+      "计算模型"
+    ],
+    "topics": [
+      "信息环境",
+      "信念与说服",
+      "认知"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2026,
     "source_cohort_year": 2026,
     "graduation_year": 2026,
-    "status": "outcome_unknown",
-    "destination": null,
-    "destination_region": null,
-    "role": null,
-    "job_kind": "unknown",
+    "status": "placed",
+    "destination": "Carnegie Mellon University",
+    "destination_region": "US",
+    "role": "Assistant Professor, Social and Decision Sciences",
+    "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "个人主页研究认知、信念、说服与消费，使用实验与计算模型；据研究内容归入 CB（整理分类）。",
+    "undergraduate": {
+      "institution": "Swarthmore College",
+      "region": "US"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12827,18 +13321,34 @@
       {
         "label": "官方 Marketing 毕业生现职表",
         "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
-      }
-    ],
-    "subsequent": [
+      },
       {
-        "institution": "Carnegie Mellon University",
-        "title": null,
-        "observed_at": "2026-10-08"
+        "label": "个人主页与研究",
+        "url": "https://reedorchinik.com/"
+      },
+      {
+        "label": "个人 CV：任职年份",
+        "url": "https://reedorchinik.com/cv/"
+      },
+      {
+        "label": "CMU 2026 新教师公告",
+        "url": "https://www.cmu.edu/dietrich/news/news-stories/2026/dietrich-college-welcomes-25-new-faculty-2026"
       }
     ],
+    "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。  来源仅列现职，不能确认首职。",
-    "source_reported_placement": "Carnegie Mellon University"
+    "notes": "个人 CV 明确 CMU 助理教授任职自 2026 年起；CMU 2026 新教师公告交叉确认。主页 featured paper 未明确标为 JMP，暂留空。",
+    "homepage": "https://reedorchinik.com/",
+    "cv_url": "https://reedorchinik.com/cv/",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://reedorchinik.com/",
+        "https://reedorchinik.com/cv/",
+        "https://www.cmu.edu/dietrich/news/news-stories/2026/dietrich-college-welcomes-25-new-faculty-2026"
+      ]
+    }
   },
   {
     "id": "massachusetts-institute-of-technology-cameron-martel",
@@ -12848,25 +13358,38 @@
     "program_id": "massachusetts-institute-of-technology-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Misinformation",
+      "Consumer Trust",
+      "Content Moderation"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "实验",
+      "计算分析"
+    ],
+    "topics": [
+      "错误信息",
+      "平台内容治理",
+      "消费者信任"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2025,
     "source_cohort_year": 2025,
     "graduation_year": 2025,
-    "status": "outcome_unknown",
-    "destination": null,
-    "destination_region": null,
-    "role": null,
-    "job_kind": "unknown",
+    "status": "placed",
+    "destination": "Johns Hopkins University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "主页与 CV 研究错误信息的相信和分享、消费者信任及内容治理；据行为研究内容归入 CB（整理分类）。",
+    "undergraduate": {
+      "institution": "Yale University",
+      "region": "US"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12881,18 +13404,29 @@
       {
         "label": "官方 Marketing 毕业生现职表",
         "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
-      }
-    ],
-    "subsequent": [
+      },
       {
-        "institution": "Johns Hopkins University",
-        "title": null,
-        "observed_at": "2026-10-08"
+        "label": "个人主页",
+        "url": "https://www.martelcameron.com/"
+      },
+      {
+        "label": "本人 CV：任职与研究",
+        "url": "https://carey.jhu.edu/sites/default/files/2025-08/cameron-martel-cv-7-25.pdf"
       }
     ],
+    "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。  来源仅列现职，不能确认首职。",
-    "source_reported_placement": "Johns Hopkins University"
+    "notes": "2025-07-18 CV 列 Johns Hopkins 助理教授 2025 年起。博士论文未标为 JMP，未混用。",
+    "homepage": "https://www.martelcameron.com/",
+    "cv_url": "https://carey.jhu.edu/sites/default/files/2025-08/cameron-martel-cv-7-25.pdf",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.martelcameron.com/",
+        "https://carey.jhu.edu/sites/default/files/2025-08/cameron-martel-cv-7-25.pdf"
+      ]
+    }
   },
   {
     "id": "massachusetts-institute-of-technology-jennifer-allen",
@@ -12902,25 +13436,38 @@
     "program_id": "massachusetts-institute-of-technology-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Computational Social Science",
+      "Digital Persuasion",
+      "Misinformation"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "cb"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "计算分析",
+      "实验"
+    ],
+    "topics": [
+      "错误信息",
+      "数字说服",
+      "众包"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2024,
     "source_cohort_year": 2024,
     "graduation_year": 2024,
-    "status": "outcome_unknown",
-    "destination": null,
-    "destination_region": null,
-    "role": null,
-    "job_kind": "unknown",
-    "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "status": "placed",
+    "destination": "University of Pennsylvania",
+    "destination_region": "US",
+    "role": "Postdoctoral Researcher",
+    "job_kind": "postdoc",
+    "jmp": "Quantifying the Impact of Misinformation and Vaccine-Skeptical Content on Facebook",
+    "field_evidence": "主页与 CV 研究信息环境对信念和行为的影响，采用计算与实验方法；归入 CB 为基于研究内容的整理分类。",
+    "undergraduate": {
+      "institution": "Yale University",
+      "region": "US"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12935,18 +13482,60 @@
       {
         "label": "官方 Marketing 毕业生现职表",
         "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+      },
+      {
+        "label": "个人主页",
+        "url": "https://jenny-allen.com/"
+      },
+      {
+        "label": "本人 CV：完整任职路径与 JMP",
+        "url": "https://jenny-allen.com/uploads/ja_cv_20250701.pdf"
+      },
+      {
+        "label": "NYU CSMaP：博后转教职的预告",
+        "url": "https://csmapnyu.org/people/jennifer-allen"
+      },
+      {
+        "label": "NYU 2025–26 新教师与终身轨公告",
+        "url": "https://www.stern.nyu.edu/experience-stern/news/nyu-stern-welcomes-new-faculty-2025-2026-academic-year"
       }
     ],
     "subsequent": [
       {
         "institution": "New York University",
-        "title": null,
-        "observed_at": "2026-10-08"
+        "title": "Assistant Professor, Technology, Operations, and Statistics",
+        "start_year": 2025
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。  来源仅列现职，不能确认首职。",
-    "source_reported_placement": "New York University"
+    "notes": "首职为 2024 年宾大博后，2025 年转 NYU 教职。默认最终安排口径计教职，切换首次岗位口径计博后；年份仍分别保留。",
+    "homepage": "https://jenny-allen.com/",
+    "cv_url": "https://jenny-allen.com/uploads/ja_cv_20250701.pdf",
+    "jmp_url": "https://jenny-allen.com/uploads/ja_cv_20250701.pdf",
+    "jmp_evidence": "本人 2025-07 CV 将该文明确标注为 Job Market Paper；链接指向含该标注的 CV。",
+    "final_placement": {
+      "destination": "New York University",
+      "destination_region": "US",
+      "role": "Assistant Professor, Technology, Operations, and Statistics",
+      "job_kind": "tt",
+      "year": 2025,
+      "evidence": "2024–25 博后期间 NYU CSMaP 已预告随后加入 Stern；2025-07 CV 与 Stern 新教师公告确认 2025 教职，属于已确定的博后转教职安排。",
+      "sources": [
+        "https://jenny-allen.com/uploads/ja_cv_20250701.pdf",
+        "https://csmapnyu.org/people/jennifer-allen",
+        "https://www.stern.nyu.edu/experience-stern/news/nyu-stern-welcomes-new-faculty-2025-2026-academic-year"
+      ]
+    },
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://jenny-allen.com/",
+        "https://jenny-allen.com/uploads/ja_cv_20250701.pdf",
+        "https://csmapnyu.org/people/jennifer-allen",
+        "https://www.stern.nyu.edu/experience-stern/news/nyu-stern-welcomes-new-faculty-2025-2026-academic-year"
+      ]
+    }
   },
   {
     "id": "massachusetts-institute-of-technology-jason-du",
@@ -12956,25 +13545,34 @@
     "program_id": "massachusetts-institute-of-technology-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Entertainment Products",
+      "Creative Industries",
+      "Content Economy"
     ],
     "tracks": [
       "marketing"
     ],
     "methods": [],
-    "topics": [],
+    "topics": [
+      "娱乐产品",
+      "创意产业",
+      "内容经济"
+    ],
     "market_cycle": null,
     "placement_year": null,
     "source_cohort_year": 2025,
     "graduation_year": 2025,
-    "status": "outcome_unknown",
-    "destination": null,
-    "destination_region": null,
-    "role": null,
-    "job_kind": "unknown",
+    "status": "placed",
+    "destination": "Rensselaer Polytechnic Institute",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "RPI 官方教师页明确娱乐产品、创意产业与内容经济；暂不凭授课名称推定 Quant / CB。",
+    "undergraduate": {
+      "institution": "Wuhan University",
+      "region": "CN"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -12989,18 +13587,32 @@
       {
         "label": "官方 Marketing 毕业生现职表",
         "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
-      }
-    ],
-    "subsequent": [
+      },
       {
-        "institution": "Rensselaer Polytechnic Institute",
-        "title": null,
-        "observed_at": "2026-10-08"
+        "label": "RPI 官方教师页：研究与岗位",
+        "url": "https://faculty.rpi.edu/jason-du"
+      },
+      {
+        "label": "导师 CV：明确 first position",
+        "url": "https://mitsloan.mit.edu/shared/ods/documents?DocID=11313&PersonID=41381"
+      },
+      {
+        "label": "MIT 博士论文：教育信息",
+        "url": "https://dspace.mit.edu/server/api/core/bitstreams/00b6486e-9db9-4507-888c-cf7561412769/content"
       }
     ],
+    "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。  来源仅列现职，不能确认首职。",
-    "source_reported_placement": "Rensselaer Polytechnic Institute"
+    "notes": "导师 CV 明确 first position 为 RPI，RPI 教师页确认助理教授和 2025 博士毕业。未查到明确的任职开始日期，首职年仍留空；博士论文未自动作为 JMP。",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://faculty.rpi.edu/jason-du",
+        "https://mitsloan.mit.edu/shared/ods/documents?DocID=11313&PersonID=41381",
+        "https://dspace.mit.edu/server/api/core/bitstreams/00b6486e-9db9-4507-888c-cf7561412769/content"
+      ]
+    }
   },
   {
     "id": "massachusetts-institute-of-technology-keyan-li",
@@ -13010,13 +13622,24 @@
     "program_id": "massachusetts-institute-of-technology-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing",
+      "Algorithms and Organization",
+      "Information Economics"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
-    "methods": [],
-    "topics": [],
+    "methods": [
+      "机器学习",
+      "实验设计",
+      "经济理论"
+    ],
+    "topics": [
+      "定向营销",
+      "人工智能",
+      "销售激励"
+    ],
     "market_cycle": null,
     "placement_year": null,
     "source_cohort_year": 2024,
@@ -13027,8 +13650,11 @@
     "role": null,
     "job_kind": "unknown",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
-    "undergraduate": null,
+    "field_evidence": "个人主页与 Notre Dame 教师页描述算法、最优实验、机器学习和信息经济学；据方法归入 Quant（整理分类）。",
+    "undergraduate": {
+      "institution": "Fudan University",
+      "region": "CN"
+    },
     "identity": {
       "chinese_national": {
         "value": "unknown",
@@ -13043,6 +13669,22 @@
       {
         "label": "官方 Marketing 毕业生现职表",
         "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+      },
+      {
+        "label": "个人主页：研究与教育",
+        "url": "https://keyanl1.github.io/"
+      },
+      {
+        "label": "接收院校教师页",
+        "url": "https://mendoza.nd.edu/mendoza-directory/profile/keyan-li/"
+      },
+      {
+        "label": "导师 CV：first position",
+        "url": "https://mitsloan.mit.edu/shared/ods/documents?DocID=11313&PersonID=41381"
+      },
+      {
+        "label": "Notre Dame 2024–25 名录：Instructor 条目",
+        "url": "https://registrar.nd.edu/assets/579606/boi2425ug_final_amended_8_21_24.pdf"
       }
     ],
     "subsequent": [
@@ -13053,8 +13695,19 @@
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。  来源仅列现职，不能确认首职。",
-    "source_reported_placement": "University of Notre Dame"
+    "notes": "导师 CV 列 first position 为 Notre Dame。2024–25 学校名录记为 Instructor，现主页记 Assistant Professor；开始任职时的岗位性质及转换日期待确认，保留现职线索，不以当前职称回填首职。",
+    "source_reported_placement": "University of Notre Dame",
+    "homepage": "https://keyanl1.github.io/",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://keyanl1.github.io/",
+        "https://mendoza.nd.edu/mendoza-directory/profile/keyan-li/",
+        "https://mitsloan.mit.edu/shared/ods/documents?DocID=11313&PersonID=41381",
+        "https://registrar.nd.edu/assets/579606/boi2425ug_final_amended_8_21_24.pdf"
+      ]
+    }
   },
   {
     "id": "massachusetts-institute-of-technology-yifei-wang",
@@ -13064,24 +13717,31 @@
     "program_id": "massachusetts-institute-of-technology-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing",
+      "Digital Markets",
+      "Consumer Protection"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
     "methods": [],
-    "topics": [],
+    "topics": [
+      "隐私",
+      "市场竞争",
+      "消费者保护"
+    ],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2024,
     "source_cohort_year": 2024,
     "graduation_year": 2024,
-    "status": "outcome_unknown",
-    "destination": null,
-    "destination_region": null,
-    "role": null,
-    "job_kind": "unknown",
+    "status": "placed",
+    "destination": "University of Pittsburgh",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing and Business Economics",
+    "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+    "field_evidence": "Pitt 官方教师页明确博士专业为 Quantitative Marketing；个人研究页补充数字市场、消费者保护、隐私与公平。",
     "undergraduate": null,
     "identity": {
       "chinese_national": {
@@ -13097,18 +13757,38 @@
       {
         "label": "官方 Marketing 毕业生现职表",
         "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
-      }
-    ],
-    "subsequent": [
+      },
       {
-        "institution": "University of Pittsburgh",
-        "title": null,
-        "observed_at": "2026-10-08"
+        "label": "Pitt 官方教师页：Quantitative Marketing",
+        "url": "https://www.business.pitt.edu/professors/yifei-wang/"
+      },
+      {
+        "label": "个人研究主页",
+        "url": "https://sites.google.com/view/yifei-wang-site/research"
+      },
+      {
+        "label": "Pitt 2024 秋季新教师公告",
+        "url": "https://business.pitt.edu/wp-content/uploads/2024/10/pitt-business-magazine-2024-final-web-4.pdf"
+      },
+      {
+        "label": "导师 CV：first position",
+        "url": "https://mitsloan.mit.edu/shared/ods/documents?DocID=11313&PersonID=41381"
       }
     ],
+    "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。  来源仅列现职，不能确认首职。",
-    "source_reported_placement": "University of Pittsburgh"
+    "notes": "Pitt 2024 秋季院刊列为新聘教师，导师 CV 明确 first position；据此确认 2024 首职。与同名计算机科学和信息系统研究者作区分。博士论文题目未自动作为 JMP。",
+    "homepage": "https://sites.google.com/view/yifei-wang-site/research",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.business.pitt.edu/professors/yifei-wang/",
+        "https://sites.google.com/view/yifei-wang-site/research",
+        "https://business.pitt.edu/wp-content/uploads/2024/10/pitt-business-magazine-2024-final-web-4.pdf",
+        "https://mitsloan.mit.edu/shared/ods/documents?DocID=11313&PersonID=41381"
+      ]
+    }
   },
   {
     "id": "western-university-ethan-milne",
@@ -13266,7 +13946,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "接收单位本人 CV 明确 PhD 2024、Assistant Professor 2024；与 Western 毕业名册及 AMA DocSIG 2024 招聘结果对应。"
+    "notes": "接收单位本人 CV 明确 PhD 2024、Assistant Professor 2024；与 Western 毕业名册及 AMA DocSIG 2024 招聘结果对应。",
+    "cv_url": "https://haslam.utk.edu/wp-content/uploads/2024/09/hoorsana-damavandi-cv-2024.pdf"
   },
   {
     "id": "western-university-meng-qi-annie-ding",
@@ -15379,7 +16060,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "ESSEC 本人 CV 同时记 SMU PhD 2024、ESSEC Assistant Professor 2024 至今。SMU 网页出现 2021 / 2023 两种标年，采用 CV 的毕业与就业年；仍保留冲突说明。"
+    "notes": "ESSEC 本人 CV 同时记 SMU PhD 2024、ESSEC Assistant Professor 2024 至今。SMU 网页出现 2021 / 2023 两种标年，采用 CV 的毕业与就业年；仍保留冲突说明。",
+    "cv_url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/"
   },
   {
     "id": "texas-a-m-university-chi-zhang",
@@ -15453,17 +16135,24 @@
     "program_id": "texas-a-m-university-marketing",
     "origin": "US",
     "fields": [
-      "Marketing Strategy"
+      "Marketing Strategy",
+      "Innovation",
+      "New Product Portfolio"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "strategy"
     ],
     "methods": [
-      "计量方法",
-      "因果推断",
+      "面板数据计量",
+      "双重差分",
       "非结构化数据分析"
     ],
-    "topics": [],
+    "topics": [
+      "营销战略",
+      "创新",
+      "新产品组合"
+    ],
     "market_cycle": null,
     "placement_year": null,
     "source_cohort_year": 2025,
@@ -15474,7 +16163,7 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "本人 CV 明确 Marketing Strategy；未自动归为 Quant。",
+    "field_evidence": "本人 CV 明确 Marketing Strategy、Innovation、New Product Portfolio；单列 Strategy，不以使用计量方法直接等同 Quant。",
     "undergraduate": {
       "institution": "Sogang University",
       "region": "KR"
@@ -15510,7 +16199,15 @@
       "Panel Data Econometrics",
       "Differences-in-Differences",
       "Unstructured Data Analysis"
-    ]
+    ],
+    "cv_url": "https://www.binghamton.edu/som/docs/cv/spark93.cv.pdf",
+    "research_review": {
+      "checked_at": "2026-10-08",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.binghamton.edu/som/docs/cv/spark93.cv.pdf"
+      ]
+    }
   },
   {
     "id": "texas-a-m-university-taotao-ye",
@@ -15894,7 +16591,8 @@
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 个人 CV 确认 2024 毕业及该年任教，结合 AMA DocSIG 2024 人名表；并非完整院系名册。 "
+    "notes": "来源列为毕业年，未自动当作首职年。 个人 CV 确认 2024 毕业及该年任教，结合 AMA DocSIG 2024 人名表；并非完整院系名册。 ",
+    "cv_url": "https://www.binghamton.edu/som/docs/cv/manand3.cv.pdf"
   },
   {
     "id": "university-of-north-carolina-at-chapel-hill-rahul-suhag",
@@ -15955,7 +16653,8 @@
       "Bayesian Statistics",
       "Machine Learning",
       "Empirical Industrial Organization"
-    ]
+    ],
+    "cv_url": "https://mays.tamu.edu/wp-content/uploads/2024/07/CV-Rahul-Suhag-202502.pdf"
   },
   {
     "id": "university-of-north-carolina-at-chapel-hill-fahmi-emerson-grey",
@@ -16111,6 +16810,7 @@
     "topics_raw": [
       "Advertising",
       "Digital Marketing"
-    ]
+    ],
+    "cv_url": "https://tyhsieh4.github.io/cv/TYH_cv.pdf"
   }
 ]

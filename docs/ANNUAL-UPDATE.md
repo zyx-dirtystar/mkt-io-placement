@@ -46,7 +46,7 @@ node server.mjs
 ## 容易混淆的字段
 
 - `program_id`：培养项目；即使同校，也要分开 Marketing 与 Economics。研究方向标签不决定培养项目。
-- `tracks`：`marketing` 为 Marketing 大类，`qm` 为 Quant，`cb` 为 Consumer Behavior，`io` 为 IO，可交叉。Marketing 子方向未确定时只填 `marketing`，不排除该人员。方向必须有公开依据。
+- `tracks`：`marketing` 为 Marketing 大类，`qm` 为 Quant，`cb` 为 Consumer Behavior，`strategy` 为 Marketing Strategy，`io` 为 IO，可交叉。Marketing 子方向未确定时只填 `marketing`，不排除该人员。方向必须有公开依据。
 - `source_cohort_year`：来源表列出的年份，不自动等同毕业年、入职年或求职季。
 - `source_cohort_label`（可选）：保留原始学年标签，例如 `2022–2023`；矩阵按末年展示，但不推断精确毕业年。
 - `graduation_year`：只有明确毕业资料时填写。
@@ -55,7 +55,7 @@ node server.mjs
 - `status`：已知首职用 `placed`；有明确求职季的求职者用 `on_market`；历史名册中首职仍未知或职业顺序未厘清者用 `outcome_unknown`，雇主与首职年留空。已有工作但无法确认哪段算首职，也可以用这个待核验状态；不代表未就业。
 - `source_reported_placement`（可选）：来源表列出的机构，但尚不能确认为真正初始岗位时保留在这里。它会在个人详情与导出中展示，不进入首职统计。
 - `subsequent`：后续工作。先博士后、后教职，不能把后来的教职改写为首职。
-- `job_kind`：普通 Assistant Professor 用 `faculty`，只有明确终身轨依据才用 `tt`；visiting/adjunct 用 `non_tt`，博士后用 `postdoc`，企业岗位用 `industry`。
+- `job_kind`：保留原始资料类别（如 `faculty` / `postdoc` / `industry`）；前端另按职位文字计算统计分类。普通 Assistant Professor 计终身轨口径，教学/Visiting/Clinical/Adjunct 优先归非终身轨；Lecturer 按国家处理。详细规则见下方。
 - `identity`：未知继续 `unknown`，不能根据姓名或本科院校猜国籍、华裔身份。本科地区单独记。
 
 ## 如何写核验矩阵
@@ -82,3 +82,20 @@ UBC 本批是一个例子：官方来源表把 Zining Wang 列在 2023，但 BC 
 “院校范围 → 目标 58 校 · Marketing”按博士培养项目筛选；在这 58 所学校任教、但在其他地方读博的人不因此进入目标样本。范围外和 Economics IO 记录留在“全部档案 / 扩展档案”。
 
 多份来源核对同一院校年度时，要合并人员 ID，不能用最后查到的一人覆盖先前名册。若来源只是选录，或两表不一致，仍保留 `cohort_complete: false`。本轮全部学校进度与待补项见 [58 校记录](SCOPE-58-2026-10-08.md)。
+
+
+## 0.5.0：CV、研究资料与最终求职安排
+
+先核对学校、博士年份和研究方向以排除同名者，再读取本人 CV 的 Education 与 Appointments。毕业年、求职季、首职年分别填；当前主页的职称不能直接当作毕业时职称。导师 CV 可支持 placement，但不能放入候选人的 `cv_url`。
+
+- `homepage`：已经查看并确认属于本人的个人学术主页。
+- `cv_url`：本人 CV / Vita；记录链接不保证文件未来永远可访问。
+- `jmp`、`jmp_url`、`jmp_evidence`：明确标为 Job Market Paper 的题目、资料链接、依据。不要把第一篇工作论文、招聘报告或博士论文自动当作 JMP。
+- `final_placement`：该次求职已确认的最终安排。含 `destination`、`role`、`destination_region`、`year`、`job_kind`、`status`、`evidence`、`sources`（URL 数组）。所有 URL 也应在记录的 `sources` 中。未来已宣布岗位填 `status: "announced_future"`；已任职填 `placed`。
+- `subsequent`：普通后续任职，不自动转成最终 placement。原字段 `destination/role/placement_year` 始终保存首职。
+- `deferred`：仅明确下一季重上求职市场者使用；职位次年开始不是延期。
+- `origin_rank`：同步脚本根据固定选校快照生成，不手填。北美 Marketing 排名不套用到 Economics 项目、香港或新加坡学校。
+
+教职率分母仅含教职、非终身轨、博后、业界及其他；延期、未知和仍在求职者排除。美国/加拿大 Lecturer 归非终身轨，英国/澳大利亚/新西兰 Lecturer 归教职；其他地区需补依据。岗位性质未知的大学去向仍显示机构，但不强行计入教职率分母。校区按实际所在地归类，四个指定大陆分校均归中国大陆。
+
+发布前执行 `node scripts/sync-data.mjs`、`node scripts/check.mjs`、`node scripts/check-placement.mjs`、`node --check dist/app.js`。实际打开网站检查首次/最终切换、排名、个人资料和 CSV。姓名不同写法通过 `aliases` 合并；同步修正 coverage 的 record_ids，不能重复计人。

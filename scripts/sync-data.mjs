@@ -4,7 +4,7 @@ const read=name=>JSON.parse(fs.readFileSync('data/'+name+'.json','utf8'));
 const records=read('records'),schools=read('schools'),release_notes=read('release-notes');
 const programs=read('programs'),coverage=read('coverage'),scope=read('scope');
 const targetIds=new Set([...scope.ranking.rows,...scope.asia].map(p=>p.program_id));
-for(const r of records)r.target_scope=targetIds.has(r.program_id)?scope.id:null;
+for(const r of records){r.target_scope=targetIds.has(r.program_id)?scope.id:null;r.origin_rank=programs.find(p=>p.id===r.program_id)?.kind==='marketing'?scope.ranking.rows.find(p=>p.school===r.school)?.rank||null:null;}
 for(const p of programs)p.record_count=records.filter(r=>r.program_id===p.id).length;
 const catalog={...config,exhaustive:false,scope,programs,coverage,archive_years:[...new Set([...config.history_years,...records.map(r=>r.placement_year).filter(Boolean)])].sort(),schools,release_notes};
 fs.mkdirSync('dist/data',{recursive:true});

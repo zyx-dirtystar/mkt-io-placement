@@ -13,7 +13,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "concordia-university-marketing",
@@ -29,7 +30,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "hec-montreal-marketing",
@@ -45,7 +47,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "laval-university-marketing",
@@ -61,7 +64,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "mcgill-university-marketing",
@@ -77,7 +81,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "mcmaster-university-marketing",
@@ -93,7 +98,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "queen-s-university-marketing",
@@ -109,7 +115,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "simon-fraser-university-marketing",
@@ -125,7 +132,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-alberta-marketing",
@@ -141,7 +149,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-british-columbia-economics",
@@ -157,7 +166,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "university-of-british-columbia-marketing",
@@ -181,7 +191,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 4
   },
   {
     "id": "university-of-calgary-marketing",
@@ -197,7 +208,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-guelph-marketing",
@@ -213,7 +225,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-manitoba-marketing",
@@ -229,7 +242,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-toronto-economics",
@@ -245,7 +259,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 3
   },
   {
     "id": "university-of-toronto-marketing",
@@ -269,7 +284,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "已确认 Marketing 博士项目；校友就业页明确为选录且可能显示现职，来源名单完整不代表整届完整。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 7
   },
   {
     "id": "western-university-marketing",
@@ -293,7 +309,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。官方毕业生名单明确 Discipline: Marketing；该页面仅给论文，没有个人去向，保留去向待核验。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 6
   },
   {
     "id": "wilfrid-laurier-university-marketing",
@@ -309,7 +326,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "york-university-marketing",
@@ -333,7 +351,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。官网列 2023 博士论文题目，去向未给出；2024–26 名册尚未公布在此页。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 1
   },
   {
     "id": "chinese-university-of-hong-kong-marketing",
@@ -353,7 +372,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing MPhil-PhD 项目含 QM 与 CB；可找到的旧 placement PDF 只到 2020，2023–26 实名全名册仍缺。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "city-university-of-hong-kong-marketing",
@@ -373,7 +393,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方确认 Marketing 研究博士；学院 career 页面仅列匿名去向机构，不能形成个人或逐年分母。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "hong-kong-baptist-university-marketing",
@@ -389,7 +410,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "hong-kong-polytechnic-university-marketing",
@@ -409,7 +431,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。Management and Marketing 合并院系表；根据所列消费、品牌、口碑、赠礼、B2B 营销博士论文筛出相关研究者（整理判断），未将管理或信息系统毕业生全部算入 Marketing。表头明确为 Current Placement，首职待核验。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 9
   },
   {
     "id": "hong-kong-university-of-science-and-technology-economics",
@@ -425,7 +448,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "hong-kong-university-of-science-and-technology-marketing",
@@ -445,7 +469,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 4
   },
   {
     "id": "lingnan-university-marketing",
@@ -461,7 +486,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-hong-kong-marketing",
@@ -481,7 +507,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "已确认 Marketing 博士项目；官方学术去向只列机构、未列姓名，不能据此确定整届人数。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 2
   },
   {
     "id": "nanyang-technological-university-marketing",
@@ -501,7 +528,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 3
   },
   {
     "id": "national-university-of-singapore-economics",
@@ -517,7 +545,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 2
   },
   {
     "id": "national-university-of-singapore-marketing",
@@ -537,7 +566,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 4
   },
   {
     "id": "singapore-management-university-marketing",
@@ -557,7 +587,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。接收单位 CV 记 PhD 2024、首职 2024；SMU 两处网页分别为 2021 和 2023，年份冲突保留，以本人 CV 核验的就业日期归档。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 1
   },
   {
     "id": "arizona-state-university-marketing",
@@ -581,7 +612,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 4
   },
   {
     "id": "bentley-university-marketing",
@@ -597,7 +629,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "boston-college-economics",
@@ -613,7 +646,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "boston-university-marketing",
@@ -637,7 +671,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 7
   },
   {
     "id": "carnegie-mellon-university-marketing",
@@ -661,7 +696,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 3
   },
   {
     "id": "city-university-of-new-york-baruch-college-marketing",
@@ -677,7 +713,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "cleveland-state-university-marketing",
@@ -693,7 +730,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "columbia-university-marketing",
@@ -717,7 +755,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 13
   },
   {
     "id": "cornell-university-marketing",
@@ -741,7 +780,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 5
   },
   {
     "id": "drexel-university-marketing",
@@ -757,7 +797,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "duke-university-economics",
@@ -773,7 +814,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 3
   },
   {
     "id": "duke-university-marketing",
@@ -797,7 +839,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 7
   },
   {
     "id": "emory-university-marketing",
@@ -821,7 +864,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 2
   },
   {
     "id": "florida-atlantic-university-marketing",
@@ -837,7 +881,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "florida-international-university-marketing",
@@ -853,7 +898,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "florida-state-university-marketing",
@@ -869,7 +915,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "fordham-university-marketing",
@@ -885,7 +932,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "george-washington-university-marketing",
@@ -901,7 +949,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "georgetown-university-economics",
@@ -917,7 +966,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 2
   },
   {
     "id": "georgia-institute-of-technology-marketing",
@@ -933,7 +983,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "georgia-state-university-marketing",
@@ -949,7 +1000,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "grand-canyon-university-marketing",
@@ -965,7 +1017,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "harvard-university-economics",
@@ -981,7 +1034,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "harvard-university-marketing",
@@ -1005,7 +1059,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 4
   },
   {
     "id": "indiana-university-marketing",
@@ -1029,7 +1084,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 7
   },
   {
     "id": "iowa-state-university-marketing",
@@ -1045,7 +1101,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "kennesaw-state-university-marketing",
@@ -1061,7 +1118,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "kent-state-university-marketing",
@@ -1077,7 +1135,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "louisiana-state-university-marketing",
@@ -1093,7 +1152,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "louisiana-tech-university-marketing",
@@ -1109,7 +1169,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "massachusetts-institute-of-technology-economics",
@@ -1125,7 +1186,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 4
   },
   {
     "id": "massachusetts-institute-of-technology-marketing",
@@ -1149,7 +1211,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 7
   },
   {
     "id": "michigan-state-university-marketing",
@@ -1165,7 +1228,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "mississippi-state-university-marketing",
@@ -1181,7 +1245,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "morgan-state-university-marketing",
@@ -1197,7 +1262,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "new-mexico-state-university-marketing",
@@ -1213,7 +1279,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "new-york-university-marketing",
@@ -1237,7 +1304,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。以 Marketing 系表为准；学校总表未列 Zekun Liu，已记录差异。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 8
   },
   {
     "id": "northwestern-university-economics",
@@ -1253,7 +1321,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "northwestern-university-marketing",
@@ -1277,7 +1346,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 18
   },
   {
     "id": "oklahoma-state-university-marketing",
@@ -1293,7 +1363,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "old-dominion-university-marketing",
@@ -1309,7 +1380,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "pace-university-marketing",
@@ -1325,7 +1397,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "pennsylvania-state-university-marketing",
@@ -1349,7 +1422,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 6
   },
   {
     "id": "princeton-university-economics",
@@ -1365,7 +1439,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "purdue-university-marketing",
@@ -1381,7 +1456,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "rutgers-university-marketing",
@@ -1397,7 +1473,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "saint-louis-university-marketing",
@@ -1413,7 +1490,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "southern-illinois-university-marketing",
@@ -1429,7 +1507,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "stanford-university-economics",
@@ -1445,7 +1524,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 6
   },
   {
     "id": "stanford-university-marketing",
@@ -1469,7 +1549,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。该来源只列 academic placements；企业去向仍需毕业全名册。INSEAD 校区待核实。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 5
   },
   {
     "id": "state-university-of-new-york-binghamton-marketing",
@@ -1485,7 +1566,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "syracuse-university-marketing",
@@ -1501,7 +1583,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "temple-university-marketing",
@@ -1517,7 +1600,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "texas-a-m-university-marketing",
@@ -1541,7 +1625,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。项目页不列就业年份；按接收单位个人资料逐人补证毕业年，未声称全届完整。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 3
   },
   {
     "id": "texas-tech-university-marketing",
@@ -1557,7 +1642,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "the-ohio-state-university-marketing",
@@ -1581,7 +1667,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 5
   },
   {
     "id": "university-at-buffalo-marketing",
@@ -1597,7 +1684,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-alabama-marketing",
@@ -1613,7 +1701,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-arizona-marketing",
@@ -1637,7 +1726,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。项目 placement 表未分年，毕业年由接收单位或导师 CV 交叉确认；其他条目尚需筛查年份。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 4
   },
   {
     "id": "university-of-arkansas-marketing",
@@ -1653,7 +1743,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-california-berkeley-economics",
@@ -1669,7 +1760,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "university-of-california-berkeley-marketing",
@@ -1693,7 +1785,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 9
   },
   {
     "id": "university-of-california-irvine-marketing",
@@ -1709,7 +1802,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-california-los-angeles-marketing",
@@ -1733,7 +1827,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。原表为 First academic placement，保存为校方报告的初始学术去向；若另有更早的博士后或行业经历须修订。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 5
   },
   {
     "id": "university-of-california-riverside-marketing",
@@ -1749,7 +1844,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-california-san-diego-marketing",
@@ -1773,7 +1869,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "Rady PhD in Management 的 Marketing 方向；已录入所查 2022–23 至 2025–26 学年明确归类为 Marketing 的毕业生。来源学年与首职年独立记录，整届完整性未确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 10
   },
   {
     "id": "university-of-central-florida-marketing",
@@ -1789,7 +1886,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-chicago-economics",
@@ -1805,7 +1903,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 1
   },
   {
     "id": "university-of-chicago-marketing",
@@ -1829,7 +1928,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 15
   },
   {
     "id": "university-of-cincinnati-marketing",
@@ -1845,7 +1945,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-colorado-boulder-marketing",
@@ -1869,7 +1970,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 2
   },
   {
     "id": "university-of-connecticut-marketing",
@@ -1885,7 +1987,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-florida-marketing",
@@ -1909,7 +2012,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 3
   },
   {
     "id": "university-of-georgia-marketing",
@@ -1933,7 +2037,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 4
   },
   {
     "id": "university-of-hawaii-at-manoa-marketing",
@@ -1949,7 +2054,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-houston-marketing",
@@ -1977,7 +2083,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。CV 显示 2023–25 Northeastern 博后、2025 起 Oklahoma State 教职；另列 2023–24 企业 Data Scientist，先后或并行关系未厘清，首职保留未知。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 3
   },
   {
     "id": "university-of-illinois-chicago-marketing",
@@ -1993,7 +2100,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-illinois-urbana-champaign-marketing",
@@ -2009,7 +2117,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-iowa-marketing",
@@ -2025,7 +2134,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-kansas-marketing",
@@ -2041,7 +2151,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-kentucky-marketing",
@@ -2057,7 +2168,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-maryland-marketing",
@@ -2081,7 +2193,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方确认 Marketing 博士；该页十年校友现职不分年，校级公开毕业名单停在 2022。不能据此认定 2023–26 没有毕业生。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "university-of-massachusetts-amherst-marketing",
@@ -2097,7 +2210,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-massachusetts-lowell-marketing",
@@ -2113,7 +2227,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-memphis-marketing",
@@ -2129,7 +2244,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-miami-marketing",
@@ -2145,7 +2261,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-michigan-marketing",
@@ -2169,7 +2286,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 6
   },
   {
     "id": "university-of-minnesota-marketing",
@@ -2197,7 +2315,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。个人 CV 确认 2024 毕业及该年任教，结合 AMA DocSIG 2024 人名表；并非完整院系名册。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 2
   },
   {
     "id": "university-of-mississippi-marketing",
@@ -2213,7 +2332,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-missouri-marketing",
@@ -2229,7 +2349,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-nebraska-lincoln-marketing",
@@ -2245,7 +2366,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-north-carolina-at-chapel-hill-marketing",
@@ -2277,7 +2399,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "Marketing 博士已确认；校级 placement 页主要为匿名去向，已通过个人 CV 和自报调查补少量实名，仍缺全名册。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 2
   },
   {
     "id": "university-of-north-texas-marketing",
@@ -2293,7 +2416,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-oklahoma-marketing",
@@ -2309,7 +2433,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-oregon-marketing",
@@ -2325,7 +2450,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-pennsylvania-marketing",
@@ -2349,7 +2475,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士资料确认项目归属；逐年度名单及整届完整性分别核验。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 14
   },
   {
     "id": "university-of-pittsburgh-marketing",
@@ -2373,7 +2500,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。官网明确这些人接受 tenure-track Assistant Professor 岗位。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 3
   },
   {
     "id": "university-of-rhode-island-marketing",
@@ -2389,7 +2517,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-rochester-marketing",
@@ -2413,7 +2542,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士及就业去向已确认；所查近期就业页缺实名和逐年对应，完整分母未知。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "university-of-south-carolina-marketing",
@@ -2437,7 +2567,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing PhD 分 CB / QM；placement 栏列匿名历史任职机构，缺近四年逐人名单。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "university-of-south-florida-marketing",
@@ -2453,7 +2584,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-southern-california-marketing",
@@ -2477,7 +2609,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。导师 CV 的毕业年和首职表，只覆盖该导师学生，不是全系名册。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 2
   },
   {
     "id": "university-of-tennessee-marketing",
@@ -2493,7 +2626,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-texas-at-arlington-marketing",
@@ -2509,7 +2643,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-texas-at-austin-marketing",
@@ -2533,7 +2668,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。网页近期名单停在 2023；随后年份待补。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 3
   },
   {
     "id": "university-of-texas-at-dallas-marketing",
@@ -2557,7 +2693,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 7
   },
   {
     "id": "university-of-texas-at-el-paso-marketing",
@@ -2573,7 +2710,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-texas-at-san-antonio-marketing",
@@ -2589,7 +2727,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-texas-rio-grande-valley-marketing",
@@ -2605,7 +2744,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-utah-marketing",
@@ -2621,7 +2761,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-virginia-marketing",
@@ -2637,7 +2778,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-washington-marketing",
@@ -2661,7 +2803,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 5
   },
   {
     "id": "university-of-wisconsin-madison-marketing",
@@ -2685,7 +2828,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 5
   },
   {
     "id": "university-of-wisconsin-milwaukee-marketing",
@@ -2701,7 +2845,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "university-of-wyoming-marketing",
@@ -2717,7 +2862,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "vanderbilt-university-marketing",
@@ -2733,7 +2879,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "virginia-polytechnic-institute-and-state-university-marketing",
@@ -2749,7 +2896,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "washington-state-university-marketing",
@@ -2765,7 +2913,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "washington-university-in-st-louis-marketing",
@@ -2789,7 +2938,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。从学校 PhD/DBA 页面中抽取 Marketing 研究毕业生，学位细节仍需个人履历交叉验证。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 9
   },
   {
     "id": "wayne-state-university-marketing",
@@ -2805,7 +2955,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "west-virginia-university-marketing",
@@ -2821,7 +2972,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "发现清单，不等于已确认在招 PhD 项目；学位类型、校区及近四年招生状态待核实。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 0
   },
   {
     "id": "yale-university-economics",
@@ -2837,7 +2989,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "项目存在与年度名单完整性分别核验。",
-    "target_scope": false
+    "target_scope": false,
+    "record_count": 4
   },
   {
     "id": "yale-university-marketing",
@@ -2861,7 +3014,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。此轮核对 Quantitative Marketing 子表；Behavioral 名单缺年份，不能声称全项目已对齐。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 5
   },
   {
     "id": "johns-hopkins-university-marketing",
@@ -2881,7 +3035,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "当前 Carey 学位目录未识别到独立 Marketing 博士；联合 PhD/MBA 不能当作 Marketing PhD。保留研究排名学校身份，不纳入已确认培养项目分母。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "university-of-notre-dame-marketing",
@@ -2901,7 +3056,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "当前 Mendoza 目录列 Analytics 与 Management 博士，未识别到 Marketing 博士。研究产出前 50 不代表有该博士项目。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "dartmouth-college-marketing",
@@ -2921,7 +3077,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "当前 Tuck 学位页面未识别到 Marketing 博士；与 Dartmouth 博士联合的 MBA 不等同于 Marketing PhD。保留排名位置。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "georgetown-university-marketing",
@@ -2941,7 +3098,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "检索当前官方学位目录和 McDonough Marketing 页面，未识别到 Marketing 博士。保留排名学校，资格不足不能写成 0 毕业生。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "boston-college-marketing",
@@ -2961,7 +3119,8 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "当前 Carroll PhD 项目列 Accounting、Finance、Organization Studies，未识别到 Marketing 博士。保留排名位置，不用第 51 名替换。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   },
   {
     "id": "rice-university-marketing",
@@ -2981,6 +3140,7 @@
     ],
     "checked_at": "2026-10-08",
     "notes": "2026–27 官方目录列 Marketing PhD concentration；当前招生页未列此方向，不能推断近四年没有毕业生。近年实名全名册待补。",
-    "target_scope": true
+    "target_scope": true,
+    "record_count": 0
   }
 ]

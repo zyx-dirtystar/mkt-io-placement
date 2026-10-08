@@ -7,8 +7,8 @@ const catalog=JSON.parse(fs.readFileSync('dist/data/catalog.json','utf8'));
 configure({currentCycle:catalog.current_cycle,historyYears:catalog.history_years});
 assert.equal(new Set(records.map(r=>r.id)).size,records.length,'Duplicate record IDs');
 assert.equal(new Set(records.map(r=>r.name.toLowerCase()+'|'+r.school)).size,records.length,'Duplicate people');
-for(const r of records){assert.ok(r.name&&r.school&&['US','CA','HK','SG'].includes(r.origin),r.id);assert.ok(r.sources.length>0,'Missing source: '+r.id);for(const s of r.sources)assert.match(s.url,/^https?:\/\//);assert.ok(r.tracks.length&&r.tracks.every(t=>['marketing','qm','cb','io'].includes(t)),r.id);assert.ok(JOBS[r.job_kind],r.id);assert.ok(r.placement_year===null||Number.isInteger(r.placement_year),r.id);assert.ok(r.checked_at&&/^\d{4}-\d{2}-\d{2}$/.test(r.checked_at),r.id);for(const v of Object.values(r.identity))if(v.value!=='unknown')assert.ok(v.source,'Identity without evidence: '+r.id);if(r.status==='on_market'){assert.match(r.market_cycle,/^20\d{2}-20\d{2}$/);assert.equal(r.destination,null);assert.equal(r.placement_year,null)}}
-const base={id:'test',name:'Test',school:'Test University',program:'Economics',origin:'US',fields:['IO'],tracks:['qm','io'],topics:[],methods:[],undergraduate:null,identity:{chinese_national:{value:'unknown'},chinese_heritage:{value:'unknown'}},status:'placed',placement_year:2026,market_cycle:catalog.current_cycle,destination:'University A',job_kind:'faculty'};
+for(const r of records){assert.ok(r.name&&r.school&&['US','CA','HK','SG'].includes(r.origin),r.id);assert.ok(r.sources.length>0,'Missing source: '+r.id);for(const s of r.sources)assert.match(s.url,/^https?:\/\//);assert.ok(r.tracks.length&&r.tracks.every(t=>['marketing','qm','cb','strategy','io'].includes(t)),r.id);assert.ok(JOBS[r.job_kind],r.id);assert.ok(r.placement_year===null||Number.isInteger(r.placement_year),r.id);assert.ok(r.checked_at&&/^\d{4}-\d{2}-\d{2}$/.test(r.checked_at),r.id);for(const v of Object.values(r.identity))if(v.value!=='unknown')assert.ok(v.source,'Identity without evidence: '+r.id);if(r.status==='on_market'){assert.match(r.market_cycle,/^20\d{2}-20\d{2}$/);assert.equal(r.destination,null);assert.equal(r.placement_year,null)}}
+const base={id:'test',name:'Test',school:'Test University',program:'Economics',origin:'US',fields:['IO'],tracks:['qm','io'],topics:[],methods:[],undergraduate:null,identity:{chinese_national:{value:'unknown'},chinese_heritage:{value:'unknown'}},status:'placed',placement_year:2026,market_cycle:catalog.current_cycle,destination:'University A',destination_region:'US',role:'Assistant Professor',job_kind:'faculty'};
 assert.equal(filterRecords([base],{period:'current'}).length,1,'Confirmed placement must remain in its current cohort');
 assert.equal(filterRecords([base],{period:'history'}).length,0,'Current cohort must not enter historical comparison');
 assert.equal(filterRecords([base],{track:'all'}).length,1,'Cross-fields must not double count');
@@ -28,7 +28,7 @@ for(const p of programs){assert.ok(['marketing','economics'].includes(p.kind));a
 for(const r of records){
   const p=programs.find(p=>p.id===r.program_id);
   assert.ok(p&&p.school===r.school&&p.region===r.origin,'Wrong program membership: '+r.id);
-  assert.ok(['placed','on_market','outcome_unknown'].includes(r.status),'Unsupported status');
+  assert.ok(['placed','on_market','outcome_unknown','deferred'].includes(r.status),'Unsupported status');
   assert.ok(REGIONS[r.destination_region||'UNKNOWN'],'Unknown destination region');
   if(r.status==='outcome_unknown'){assert.equal(r.destination,null);assert.equal(r.placement_year,null);}
   if(p.kind==='marketing')assert.ok(r.tracks.includes('marketing'),'Marketing cohort excluded from all-Marketing');

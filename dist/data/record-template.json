@@ -36,5 +36,11 @@
   "notes": "",
   "program_id": "",
   "source_cohort_year": null,
-  "graduation_year": null
+  "graduation_year": null,
+  "homepage": null,
+  "cv_url": null,
+  "jmp_url": null,
+  "jmp_evidence": null,
+  "final_placement": null,
+  "research_review": null
 }
