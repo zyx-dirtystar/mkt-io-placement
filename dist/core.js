@@ -1,5 +1,5 @@
-import {effectiveTracks,qualityMatches} from './evidence.js?v=0.7.0';
-import {placementOf,placementSummary,rankMatches} from './placement.js?v=0.7.0';
+import {effectiveTracks,qualityMatches} from './evidence.js?v=0.8.0';
+import {placementOf,placementSummary,rankMatches} from './placement.js?v=0.8.0';
 export let CONFIG={currentCycle:'2026-2027',historyYears:[2023,2024,2025,2026]};
 export function configure(config){if(!/^20\d{2}-20\d{2}$/.test(config.currentCycle)||!Array.isArray(config.historyYears)||!config.historyYears.every(Number.isInteger))throw new Error('Invalid archive configuration');CONFIG=config}
 export const REGIONS={US:'美国',CA:'加拿大',HK:'香港',SG:'新加坡',CN:'中国大陆',TW:'台湾',MO:'澳门',JP:'日本',FR:'法国',DE:'德国',ES:'西班牙',IT:'意大利',VN:'越南',UY:'乌拉圭',IR:'伊朗',TR:'土耳其',UK:'英国',EU:'欧洲',AU:'澳大利亚',KR:'韩国',IL:'以色列',IN:'印度',KW:'科威特',PT:'葡萄牙',NZ:'新西兰',RU:'俄罗斯',OTHER:'其他地区',UNKNOWN:'未核验'};

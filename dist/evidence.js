@@ -1,4 +1,4 @@
-import {placementOf,placementSummary} from './placement.js?v=0.7.0';
+import {placementOf,placementSummary} from './placement.js?v=0.8.0';
 
 export const TRACK_LABELS={qm:'Quant Mkt',cb:'Consumer Behavior',strategy:'Marketing Strategy',io:'IO'};
 export const SIGNAL_LABELS={explicit_interest:'本人公开求职意向',recruiting_event:'明确标注的招聘活动',academic_exchange:'一般学术交流 · 非求职证据'};

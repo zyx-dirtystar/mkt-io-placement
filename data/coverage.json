@@ -5448,16 +5448,30 @@
   {
     "program_id": "university-of-michigan-marketing",
     "period": "2026",
-    "status": "insufficient",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "michigan-yu-song"
+    ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-10-16",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://michiganross.umich.edu/phd/areas-of-study/marketing"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/song-yu/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://yu-song.org/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://yu-song.org/pdf/CV_Yu_Song.pdf"
       }
     ],
     "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 "
@@ -7829,15 +7843,28 @@
     "listed_count": null,
     "record_ids": [
       "yale-university-ankit-sisodia",
-      "yale-university-ian-weaver"
+      "yale-university-ian-weaver",
+      "yale-jin-kim"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-10-16",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/kim-jin/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/jin-kim-cv_202610.pdf"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://jinkim.science/"
       }
     ],
     "notes": "Quantitative Marketing 子表已补；Behavioral 名单缺日期，仍需交叉核对，未声称 Marketing 全方向全届对齐。"
@@ -7883,16 +7910,38 @@
   {
     "program_id": "yale-university-marketing",
     "period": "2026",
-    "status": "insufficient",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "yale-zikun-liu"
+    ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-10-16",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/liu-zikun/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.zikunliu.com/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.dropbox.com/scl/fi/5vp532zcc8pdjw1u2s7mx/Zikun_CV_CUHK.pdf?dl=0&rlkey=sa4k8a58vdh2yjuqftytz15pj&st=7lo9lx1c"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://gsas.yale.edu/documents/gsas-commencement-bulletin-2026"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/school-news/cuhk-business-school-welcomes-new-faculty-members-for-the-2026-2027-academic-year/"
       }
     ],
     "notes": "Quantitative Marketing 子表已补；Behavioral 名单缺日期，仍需交叉核对，未声称 Marketing 全方向全届对齐。"
@@ -11318,5 +11367,32 @@
     "checked_at": null,
     "sources": [],
     "notes": "尚未逐人核对该项目该年完整名册。"
+  },
+  {
+    "program_id": "northwestern-university-managerial-economics-and-strategy",
+    "period": "2026",
+    "status": "partial",
+    "listed_count": null,
+    "record_ids": [
+      "northwestern-gaoyang-cai"
+    ],
+    "year_basis": "source_table_year",
+    "cohort_complete": false,
+    "checked_at": "2026-10-16",
+    "sources": [
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/cai-gaoyang/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Gaoyang-Cai.pdf"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://sites.google.com/view/gaoyangcai/home"
+      }
+    ],
+    "notes": "逐人证据补充，尚未确认整届分母。"
   }
 ]

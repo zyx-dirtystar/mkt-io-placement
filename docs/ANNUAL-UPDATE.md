@@ -13,6 +13,7 @@
 | `data/programs.json` | 目标博士项目发现清单；Marketing 与 Economics 分开 |
 | `data/coverage.json` | 每个项目、每个来源名单年份的核验状态 |
 | `data/records.json` | 每位研究者的首职、研究方向、背景、来源与后续任职 |
+| `data/faculty.json` | 独立教师现职档案、接收院校反查进度与内地九校关注清单 |
 
 `dist/data` 是生成的网页数据，不要只改这里。旧 `data/schools.json` 保留兼容，覆盖矩阵以 `programs.json` 为准。
 
@@ -111,3 +112,15 @@ UBC 本批是一个例子：官方来源表把 Zining Wang 列在 2023，但 BC 
 - regional_signals 是数组，每条含 kind（explicit_interest / recruiting_event / academic_exchange）、region（CN / HK）、institution、observed_date（实际来源可支持的年 / 月 / 日）、event_status（announced / reported）、source_url、evidence、checked_at。需要具体证据，所有 source_url 也加入 sources。公告不证明出席，一般讲座不证明应聘。
 - 每年保留过去活动日期，不把历史表述自动改成新季意愿。姓名、语言、合作网络、教育地区都不参与意向或身份推断。
 - 发布前额外运行 node scripts/check-evidence.mjs，验证情景和暂定字段不改写事实。
+
+## 0.8.0：优先海外教师反查
+
+最新范围与示例见 [教师反查修订记录](FACULTY-LOOKUP-2026-10-16.md)。优先美国、加拿大、香港、新加坡；内地限清华、北大、上交、复旦、上财、浙大、中山、厦门、南京九校，不再推进内地 42 校方案。
+
+`data/faculty.json` 中的 `people` 保存当前职位与实际博士学位，`placement_id` 关联已存在的就业名录。毕业年份未知用 `null`，不拿入职、晋升或访问日期代替。较早毕业和来源范围外的教师可以保留，但不自动进入 placement 统计。
+
+`receiving_checks` 是接收院校局部核验进度；缺失条目表示未开始，不表示没有相关教师。`data/coverage.json` 仍专门核验博士培养项目与名单年份，不能互相替代。
+
+每年更改 `config.json` 的最近四年后，教师的近期 / 历史标签自动重算；旧 `checked_at` 不自动刷新。毕业年份和当前职位需要新证据才能修改。新增 / 更正 placement 时同步检查 `placement_id` 与姓名别名，避免重复计人。
+
+发布前运行 `node scripts/check-faculty.mjs` 和 `node --check dist/faculty-view.js`，以及原有三组检查。教师 CSV 与 placement CSV 分开，不能混用分母。当前没有定时爬取或自动监测。

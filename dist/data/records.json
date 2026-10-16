@@ -5786,8 +5786,8 @@
       }
     ],
     "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "NUS CV explicitly dates employment to July 2025. Dissertation-award working paper is documented but inspected CV does not explicitly label it JMP.",
+    "checked_at": "2026-10-16",
+    "notes": "NUS CV explicitly dates employment to July 2025. Dissertation-award working paper is documented but inspected CV does not explicitly label it JMP. 2026-10-16：反查教师 CV 补充明确博士毕业年 2025；不新增重复人员。",
     "source_file": "us-marketing-extra.json",
     "methods_original": [
       "Causal inference",
@@ -5798,6 +5798,14 @@
     "program_id": "harvard-university-marketing",
     "source_cohort_year": 2025,
     "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf",
+    "graduation_year": 2025,
+    "research_review": {
+      "checked_at": "2026-10-16",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf"
+      ]
+    },
     "target_scope": "marketing-na50-hk5-sg3-2021-2025",
     "origin_rank": 22
   },
@@ -12224,7 +12232,7 @@
     "methods": [],
     "topics": [],
     "market_cycle": null,
-    "placement_year": null,
+    "placement_year": 2025,
     "source_cohort_year": 2025,
     "graduation_year": null,
     "status": "placed",
@@ -12233,7 +12241,7 @@
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方来源明确细分方向；详见名单。",
+    "field_evidence": "本人 CV 与 CUHK 官方资料明确消费者判断与决策；CV 的 Academic Appointment 明列 2025 年起任 CUHK Marketing 助理教授。",
     "undergraduate": null,
     "identity": {
       "chinese_national": {
@@ -12249,12 +12257,40 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html"
+      },
+      {
+        "label": "CUHK 本人资料：现职、学位及研究",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/kim-michelle-yoosun/"
+      },
+      {
+        "label": "本人 CV：2025 年起任助理教授",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf"
+      },
+      {
+        "label": "本人主页",
+        "url": "https://sites.google.com/view/michelle-in-marketing"
       }
     ],
     "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "来源为学年范围；来源名单年份按学年末年存储，非精确毕业年或首职年。 仅录入官网明确写 Marketing 的毕业生；已合并该表 2022–23 学年两人；表头学年不自动作为首职年。 ",
+    "checked_at": "2026-10-16",
+    "notes": "来源为学年范围；来源名单年份按学年末年存储，非精确毕业年或首职年。 仅录入官网明确写 Marketing 的毕业生；已合并该表 2022–23 学年两人；表头学年不自动作为首职年。  2026-10-16：教师页反查补齐首职年与资料链接。CV 的 Education 未列博士授位年份，Graduate Fellowship 2019–2025 不等于授位日期，博士毕业年仍保留未知。",
     "source_cohort_label": "2024–2025",
+    "aliases": [
+      "Michelle Yoosun Kim",
+      "Yoosun Kim",
+      "金攸宣"
+    ],
+    "homepage": "https://sites.google.com/view/michelle-in-marketing",
+    "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+    "research_review": {
+      "checked_at": "2026-10-16",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.bschool.cuhk.edu.hk/staff/kim-michelle-yoosun/",
+        "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+        "https://sites.google.com/view/michelle-in-marketing"
+      ]
+    },
     "target_scope": "marketing-na50-hk5-sg3-2021-2025",
     "origin_rank": 44
   },
@@ -19639,5 +19675,383 @@
     },
     "target_scope": "marketing-na50-hk5-sg3-2021-2025",
     "origin_rank": null
+  },
+  {
+    "id": "northwestern-gaoyang-cai",
+    "name": "Gaoyang Cai",
+    "school": "Northwestern University",
+    "program": "博士项目 · Managerial Economics & Strategy",
+    "program_id": "northwestern-university-managerial-economics-and-strategy",
+    "origin": "US",
+    "fields": [
+      "Industrial Organisation",
+      "Information Design",
+      "Mechanism Design",
+      "Data and Privacy Regulations"
+    ],
+    "tracks": [
+      "io"
+    ],
+    "methods": [
+      "理论建模",
+      "田野实验",
+      "结构估计",
+      "机器学习 / AI"
+    ],
+    "topics": [
+      "数字平台",
+      "隐私与信息",
+      "竞争与定价"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": 2026,
+    "status": "placed",
+    "destination": "Chinese University of Hong Kong",
+    "destination_region": "HK",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "CUHK 官方研究领域明确 Industrial Organisation；本人 CV 明确 Northwestern MES 博士 2026 与 CUHK AP 2026，个人主页明确所用方法。",
+    "undergraduate": {
+      "institution": "Nankai University",
+      "region": "CN",
+      "year": 2017
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "CUHK 官方本人资料：IO、现职与学位",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/cai-gaoyang/"
+      },
+      {
+        "label": "本人 CV：MES 博士及首职均为 2026",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Gaoyang-Cai.pdf"
+      },
+      {
+        "label": "本人主页：方法与教育",
+        "url": "https://sites.google.com/view/gaoyangcai/home"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-10-16：海外教师页反查新增。学位为 Managerial Economics & Strategy，单独设项目并纳入 IO 扩展档案；Marketing 教职不改写成 Marketing 博士，不赋予北美 Marketing 项目名次。",
+    "aliases": [
+      "蔡高陽"
+    ],
+    "source_cohort_label": "本人 CV 明列 2026 博士学位与首职",
+    "homepage": "https://sites.google.com/view/gaoyangcai/home",
+    "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Gaoyang-Cai.pdf",
+    "checked_at": "2026-10-16",
+    "research_review": {
+      "checked_at": "2026-10-16",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.bschool.cuhk.edu.hk/staff/cai-gaoyang/",
+        "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Gaoyang-Cai.pdf",
+        "https://sites.google.com/view/gaoyangcai/home"
+      ]
+    },
+    "target_scope": null,
+    "origin_rank": null
+  },
+  {
+    "id": "yale-zikun-liu",
+    "name": "Zikun Liu",
+    "school": "Yale University",
+    "program": "博士项目 · Management (Quantitative Marketing)",
+    "program_id": "yale-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing",
+      "Structural Empirical Industrial Organization",
+      "Microeconomic Theory"
+    ],
+    "tracks": [
+      "marketing",
+      "qm",
+      "io"
+    ],
+    "methods": [
+      "结构估计",
+      "理论建模"
+    ],
+    "topics": [
+      "创新与政策",
+      "竞争与定价"
+    ],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": "Estimating High-Dimensional Dynamic Games: Innovation Policy in the EV Industry",
+    "field_evidence": "本人主页明确 quantitative marketing、structural empirical industrial organization 与 microeconomic theory；Yale 2026 学位公告（涵盖 2025-12 与 2026-05）列 Management PhD、论文 Essays in Quantitative Marketing，个人精确授位年份仍待 CV 核验。",
+    "undergraduate": {
+      "institution": "Fudan University",
+      "region": "CN"
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "CUHK 官方本人资料",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/liu-zikun/"
+      },
+      {
+        "label": "本人主页：方向及明确标注 JMP",
+        "url": "https://www.zikunliu.com/"
+      },
+      {
+        "label": "本人主页链接的 CV（本轮 PDF 内容未读到）",
+        "url": "https://www.dropbox.com/scl/fi/5vp532zcc8pdjw1u2s7mx/Zikun_CV_CUHK.pdf?dl=0&rlkey=sa4k8a58vdh2yjuqftytz15pj&st=7lo9lx1c"
+      },
+      {
+        "label": "Yale GSAS 2026 学位名单",
+        "url": "https://gsas.yale.edu/documents/gsas-commencement-bulletin-2026"
+      },
+      {
+        "label": "CUHK 2026–27 新聘教师公告",
+        "url": "https://www.bschool.cuhk.edu.hk/school-news/cuhk-business-school-welcomes-new-faculty-members-for-the-2026-2027-academic-year/"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Chinese University of Hong Kong",
+        "role": "Assistant Professor of Marketing",
+        "start_year": 2026,
+        "status": "observed_current"
+      }
+    ],
+    "notes": "2026-10-16：博士学位、当前 CUHK AP 与 2026 新聘公告可核验。Yale 学位公告涵盖 2025-12 与 2026-05，不能仅凭文件名定个人授位年；source_cohort_year=2026 表示公告年份。CV 链接已找到但 PDF 内容未读到，博士精确年与首职完整顺序留空，现职另存。排除同名的新闻传播学者。",
+    "aliases": [
+      "劉子堃"
+    ],
+    "source_cohort_label": "Yale 2026 学位公告（2025-12 / 2026-05 合刊，个人授位年份待分）",
+    "source_reported_placement": "Chinese University of Hong Kong · Assistant Professor of Marketing (2026)",
+    "homepage": "https://www.zikunliu.com/",
+    "cv_url": "https://www.dropbox.com/scl/fi/5vp532zcc8pdjw1u2s7mx/Zikun_CV_CUHK.pdf?dl=0&rlkey=sa4k8a58vdh2yjuqftytz15pj&st=7lo9lx1c",
+    "jmp_url": "https://www.zikunliu.com/",
+    "jmp_evidence": "本人主页 Selected Working Papers 第 2 项明确标注 job market paper。",
+    "checked_at": "2026-10-16",
+    "research_review": {
+      "checked_at": "2026-10-16",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.bschool.cuhk.edu.hk/staff/liu-zikun/",
+        "https://www.zikunliu.com/",
+        "https://www.dropbox.com/scl/fi/5vp532zcc8pdjw1u2s7mx/Zikun_CV_CUHK.pdf?dl=0&rlkey=sa4k8a58vdh2yjuqftytz15pj&st=7lo9lx1c",
+        "https://gsas.yale.edu/documents/gsas-commencement-bulletin-2026",
+        "https://www.bschool.cuhk.edu.hk/school-news/cuhk-business-school-welcomes-new-faculty-members-for-the-2026-2027-academic-year/"
+      ]
+    },
+    "target_scope": "marketing-na50-hk5-sg3-2021-2025",
+    "origin_rank": 12
+  },
+  {
+    "id": "michigan-yu-song",
+    "name": "Yu Song",
+    "school": "University of Michigan",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-michigan-marketing",
+    "origin": "US",
+    "fields": [
+      "Platform Economy",
+      "Social Media",
+      "Information Economics",
+      "Public Policy"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [
+      "田野实验",
+      "结构估计",
+      "机器学习 / AI",
+      "因果推断"
+    ],
+    "topics": [
+      "数字平台",
+      "社交媒体",
+      "个性化"
+    ],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": 2026,
+    "status": "placed",
+    "destination": "Chinese University of Hong Kong",
+    "destination_region": "HK",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "本人 CV 明确 Marketing 博士 2026、CUHK AP 2026，以及田野实验、结构建模、AI 与因果推断方法；尚未见本人明确写 Quantitative Marketing 子方向。",
+    "undergraduate": {
+      "institution": "University of Michigan",
+      "region": "US",
+      "year": 2020
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "CUHK 官方本人资料",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/song-yu/"
+      },
+      {
+        "label": "本人主页",
+        "url": "https://yu-song.org/"
+      },
+      {
+        "label": "本人 CV：2026 博士、首职与研究方法",
+        "url": "https://yu-song.org/pdf/CV_Yu_Song.pdf"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-10-16：反查接收院校后找到个人新版 CV，分别核实毕业年与任职年。工作论文未明确标为 JMP，保持 JMP 空白；QM 为可选择纳入的暂定方向。",
+    "aliases": [
+      "宋鈺"
+    ],
+    "source_cohort_label": "本人 CV 明列 2026 Marketing 博士与首职",
+    "homepage": "https://yu-song.org/",
+    "cv_url": "https://yu-song.org/pdf/CV_Yu_Song.pdf",
+    "research_inference": {
+      "status": "provisional",
+      "tracks": [
+        "qm"
+      ],
+      "reason": "研究平台经济及个性化，并明确使用结构建模、田野实验与因果推断，支持暂归 Quant；保留为独立暂定标签。",
+      "source_urls": [
+        "https://yu-song.org/pdf/CV_Yu_Song.pdf"
+      ],
+      "checked_at": "2026-10-16"
+    },
+    "checked_at": "2026-10-16",
+    "research_review": {
+      "checked_at": "2026-10-16",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.bschool.cuhk.edu.hk/staff/song-yu/",
+        "https://yu-song.org/",
+        "https://yu-song.org/pdf/CV_Yu_Song.pdf"
+      ]
+    },
+    "target_scope": "marketing-na50-hk5-sg3-2021-2025",
+    "origin_rank": 15
+  },
+  {
+    "id": "yale-jin-kim",
+    "name": "Jin Kim",
+    "school": "Yale University",
+    "program": "博士项目 · Behavioral Marketing",
+    "program_id": "yale-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior",
+      "Artificial Intelligence",
+      "Judgment and Decision Making",
+      "Research Methods"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [
+      "消费者行为",
+      "AI 与算法"
+    ],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "Northeastern University",
+    "destination_region": "US",
+    "role": "Postdoctoral Research Associate",
+    "job_kind": "postdoc",
+    "jmp": null,
+    "field_evidence": "CUHK 本人 CV 明确 Yale Behavioral Marketing PhD 2023、Northeastern 博后 2023–2025；官方本人资料明确 Consumer Behaviour。",
+    "undergraduate": {
+      "institution": "University of California, Berkeley",
+      "region": "US",
+      "year": 2010
+    },
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "label": "CUHK 官方 Jin Kim 本人资料",
+        "url": "https://www.bschool.cuhk.edu.hk/staff/kim-jin/"
+      },
+      {
+        "label": "本人 CV：2023 博士与初始博后路径",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/jin-kim-cv_202610.pdf"
+      },
+      {
+        "label": "本人主页",
+        "url": "https://jinkim.science/"
+      }
+    ],
+    "subsequent": [
+      {
+        "institution": "Chinese University of Hong Kong",
+        "role": "Assistant Professor of Marketing",
+        "status": "observed_current"
+      }
+    ],
+    "notes": "2026-10-16：当前 CUHK AP 只列 Current、未给起始年，且未找到最初求职已安排后续教职的证据；首职统计保留 2023 Northeastern 博后，CUHK 放后续现职。未将公告中 Jinmyoung Kim 自动合并为别名。",
+    "source_cohort_label": "本人 CV 的 2023 Behavioral Marketing 博士",
+    "homepage": "https://jinkim.science/",
+    "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/jin-kim-cv_202610.pdf",
+    "checked_at": "2026-10-16",
+    "research_review": {
+      "checked_at": "2026-10-16",
+      "status": "reviewed",
+      "evidence_urls": [
+        "https://www.bschool.cuhk.edu.hk/staff/kim-jin/",
+        "https://www.bschool.cuhk.edu.hk/wp-content/uploads/jin-kim-cv_202610.pdf",
+        "https://jinkim.science/"
+      ]
+    },
+    "target_scope": "marketing-na50-hk5-sg3-2021-2025",
+    "origin_rank": 12
   }
 ]

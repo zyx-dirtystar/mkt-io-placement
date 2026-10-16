@@ -2287,7 +2287,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
     "target_scope": true,
-    "record_count": 6
+    "record_count": 7
   },
   {
     "id": "university-of-minnesota-marketing",
@@ -3015,7 +3015,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。此轮核对 Quantitative Marketing 子表；Behavioral 名单缺年份，不能声称全项目已对齐。",
     "target_scope": true,
-    "record_count": 5
+    "record_count": 7
   },
   {
     "id": "johns-hopkins-university-marketing",
@@ -3142,5 +3142,22 @@
     "notes": "2026–27 官方目录列 Marketing PhD concentration；当前招生页未列此方向，不能推断近四年没有毕业生。近年实名全名册待补。",
     "target_scope": true,
     "record_count": 0
+  },
+  {
+    "id": "northwestern-university-managerial-economics-and-strategy",
+    "school": "Northwestern University",
+    "region": "US",
+    "kind": "economics",
+    "eligibility": "verified",
+    "sources": [
+      {
+        "label": "本人 CV：Kellogg MES 博士 2026",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Gaoyang-Cai.pdf"
+      }
+    ],
+    "checked_at": "2026-10-16",
+    "notes": "MES 与 Economics、Marketing 分开；IO 扩展项目，不进入 Marketing 目标 58 项目。",
+    "target_scope": false,
+    "record_count": 1
   }
 ]
