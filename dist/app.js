@@ -1,9 +1,9 @@
-import {effectiveTracks,provisionalTracks,QUALITY_OPTIONS,TRACK_LABELS,regionalMatches,outcomeScenario} from './evidence.js?v=0.6.0';
-import {uncertaintyPanel,chinaPanel,regionalDetail,inferenceDetail} from './evidence-view.js?v=0.6.0';
-import {buildCsv} from './export.js?v=0.6.0';
-import {OUTCOMES,OUTCOME_COLORS,placementOf,sortRecords} from './placement.js?v=0.6.0';
-import {coverageMarkup,bindCoverage} from './coverage-view.js?v=0.6.0';
-import {REGIONS,JOBS,BG,JOB_COLORS,filterRecords,summarize,tally,csvCell,configure,CONFIG} from './core.js?v=0.6.0';
+import {effectiveTracks,provisionalTracks,QUALITY_OPTIONS,TRACK_LABELS,regionalMatches,outcomeScenario} from './evidence.js?v=0.7.0';
+import {uncertaintyPanel,chinaPanel,regionalDetail,inferenceDetail} from './evidence-view.js?v=0.7.0';
+import {buildCsv} from './export.js?v=0.7.0';
+import {OUTCOMES,OUTCOME_COLORS,placementOf,sortRecords} from './placement.js?v=0.7.0';
+import {coverageMarkup,bindCoverage} from './coverage-view.js?v=0.7.0';
+import {REGIONS,JOBS,BG,JOB_COLORS,filterRecords,summarize,tally,csvCell,configure,CONFIG} from './core.js?v=0.7.0';
 const $=s=>document.querySelector(s),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let records=[],catalog={},view='overview',filters={period:'cohorts',scope:'all',basis:'final',rank:'all',sort:'year',material:'all',researchMode:'standard',quality:'all',china_region:'CN',china_kind:'placement',track:'all',origin:'all',school:'all',job:'all',destination:'all',topic:'all',method:'all',background:'all',q:''},comparison='ug_cn',scenarioAssumption=0.5;
 const evidenceUI=()=>({panel,table,esc,external,region,percent,option});

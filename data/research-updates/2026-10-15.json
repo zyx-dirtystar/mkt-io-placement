@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-10-15",
+  "description": "Marketing 名单与个人证据补充；保留毕业年、首职年及内容暂定分类的区别。",
+  "updates": [
+    {
+      "id": "columbia-university-lan-luo",
+      "set": {"aliases": ["Lan E. Luo"], "tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Data-Driven Design", "Unstructured Data"], "methods": ["因果推断", "机器学习 / AI", "计量经济学"], "topics": ["AI 与算法", "广告与品牌"], "homepage": "https://www.laneluo.com/", "cv_url": "https://www.laneluo.com/assets/cv.pdf?v=2", "placement_year": 2026, "graduation_year": 2026, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "undergraduate": {"institution": "Yale University", "region": "US", "year": 2020}, "jmp": "How Visual Designs Drive Success: Interpretable Generative AI for Scalable Hypothesis Discovery", "jmp_url": "https://business.columbia.edu/sites/default/files-efs/pgprofiles/cv/Lan%20Luo%20-%20Columbia%20CV_1.pdf", "jmp_evidence": "本人历史求职 CV 明确标为 Job Market Paper；当前 CV 的工作论文题目已作调整，保留当时 JMP 题名。", "field_evidence": "本人主页明确 Columbia Quantitative Marketing；2026-07-27 CV 明确 Yale 助理教授 2026-07 起。已排除 USC 同名资深教授。"},
+      "sources": [{"label": "本人主页：Quantitative Marketing 与研究方法", "url": "https://www.laneluo.com/"}, {"label": "本人 2026-07-27 CV：Yale 2026-07 入职", "url": "https://www.laneluo.com/assets/cv.pdf?v=2"}, {"label": "Columbia 保存的本人历史求职 CV：明确 JMP", "url": "https://business.columbia.edu/sites/default/files-efs/pgprofiles/cv/Lan%20Luo%20-%20Columbia%20CV_1.pdf"}],
+      "note": "本人任职 CV 补齐首职日期，未以毕业年代替入职年。"
+    },
+    {
+      "id": "columbia-university-eli-sugerman",
+      "set": {"aliases": ["Eli Rosen Sugerman"], "homepage": "https://www.elisugerman.com/", "cv_url": "https://www.elisugerman.com/s/Sugerman_CV-jezj.pdf", "fields": ["Behavioral Science", "Judgment and Decision Making", "Climate and Sustainability"], "methods": [], "topics": ["消费者行为", "公共政策"], "placement_year": 2026, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "undergraduate": {"institution": "University of Michigan", "region": "US", "year": 2016}, "field_evidence": "本人主页明确 behavioral scientist、judgment and decision-making，预告 2026-07 Utah 助理教授；CB 子方向作为内容暂定分类，未冒充本人明确的项目标签。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "本人将研究定位为行为科学、判断与决策及气候可持续消费，支持暂归 CB；所查主页没有明确写 Consumer Behavior 子方向。", "source_urls": ["https://www.elisugerman.com/"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "本人主页：2026-07 Utah 任职安排与研究", "url": "https://www.elisugerman.com/"}, {"label": "本人 2026-01 CV", "url": "https://www.elisugerman.com/s/Sugerman_CV-jezj.pdf"}],
+      "note": "按本人明确的岗位开始年月补齐 2026，不从博士预计毕业年份推定。"
+    },
+    {
+      "id": "columbia-university-maren-hoff",
+      "set": {"tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Identity Expression", "Fashion and Lifestyle Branding"], "methods": ["实验方法", "文本分析", "机器学习 / AI"], "topics": ["消费者行为", "广告与品牌"], "homepage": "https://www.marenhoff.me/", "role": "Assistant Professor of Business Administration, Marketing", "job_kind": "faculty", "placement_year": 2025, "undergraduate": {"institution": "University of Muenster", "region": "DE"}, "field_evidence": "HBS 新教员介绍明确研究消费者行为及身份表达；Harvard 2025–26 新 ladder faculty 名单确认入职届别。深度学习为研究方法，不据此另加 Quant。"},
+      "sources": [{"label": "本人主页：研究与教育", "url": "https://www.marenhoff.me/"}, {"label": "HBS 2025 新教员介绍：消费者行为", "url": "https://www.hbs.edu/news/stories/maren-hoff-profile-2025"}, {"label": "Harvard 2025–26 新 ladder faculty 名单", "url": "https://faculty.harvard.edu/2025-2026-new-ladder-faculty"}],
+      "note": "Columbia 个人页旧 Class Year 2024 与院系毕业表 2025 不同；首职年采用 Harvard 独立新教员届别。"
+    },
+    {
+      "id": "columbia-university-eric-park",
+      "set": {"aliases": ["Eric S. Park", "Sanghyeok Park", "Sanghyeok Eric Park"], "tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Emerging Digital Technologies", "Social Psychology"], "topics": ["消费者行为", "AI 与算法"], "homepage": "https://ericpark.marketing/", "role": "Assistant Professor of Marketing", "job_kind": "faculty", "placement_year": 2025, "graduation_year": 2025, "field_evidence": "Vanderbilt 2025-07-25 新教员公告明确 2025 秋加入、刚完成 Columbia PhD，并明确研究数字技术如何影响 consumer behavior。"},
+      "sources": [{"label": "本人主页：研究定位", "url": "https://ericpark.marketing/"}, {"label": "Vanderbilt 2025 秋新教员公告：任职日期、学位和方向", "url": "https://business.vanderbilt.edu/news/2025/07/25/vanderbilt-business-welcomes-new-faculty-members-fall-2025/"}],
+      "note": "已排除同名软件工程师及其他非学术人员。"
+    },
+    {
+      "id": "columbia-university-maayan-shira-malter",
+      "set": {"aliases": ["Maayan Malter", "Maayan S. Malter"], "tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Judgment and Decision Making", "Disability and Inclusive Design"], "topics": ["消费者行为", "公共政策"], "cv_url": "https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/9/70827/files/2023/08/MaayanMalterCVJuly2023.pdf", "role": "Senior Lecturer in Marketing", "job_kind": "faculty", "graduation_year": 2024, "undergraduate": {"institution": "University of Chicago", "region": "US", "year": 2015}, "jmp": "Perceptions of Disability: Effects on New Product Design and Marketing", "jmp_url": "https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/9/70827/files/2023/08/MaayanMalterCVJuly2023.pdf", "jmp_evidence": "本人 2023-07 CV 在 Job Market Paper 栏明确列此题。", "field_evidence": "本人 CV 明确 Marketing (Consumer Behavior)，接收院校介绍亦明确 CB。以色列 Senior Lecturer 的合同性质未另核实，按既定规则保留类别未知。"},
+      "sources": [{"label": "本人求职 CV（Ohio State 保存）：CB、JMP 和教育", "url": "https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/9/70827/files/2023/08/MaayanMalterCVJuly2023.pdf"}, {"label": "接收单位教员资料：Senior Lecturer 与 Consumer Behavior", "url": "https://bschool-en.huji.ac.il/people/maayan-malter/"}, {"label": "Columbia 2025 newsletter：毕业后任职与研究", "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf"}],
+      "note": "任职文字确认为 Senior Lecturer；保留首职开始年待证，不把以色列 Lecturer 自动套用英国口径。"
+    },
+    {
+      "id": "columbia-university-shin-oblander",
+      "set": {"aliases": ["Elliot Shin Oblander"], "tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Probabilistic Machine Learning", "Subscription Business Models"], "methods": ["计量经济学", "机器学习 / AI", "因果推断"], "topics": ["定价与需求", "AI 与算法"], "homepage": "https://sites.google.com/view/oblander", "role": "Assistant Professor", "job_kind": "faculty", "placement_year": 2024, "graduation_year": 2024, "field_evidence": "UBC 官方 researcher profile 明确 quantitative marketing；Columbia 2025 newsletter 本人表述毕业并迁居 Vancouver 已一年，交叉确认 UBC 2024 起任职。"},
+      "sources": [{"label": "本人主页：研究与资料入口", "url": "https://sites.google.com/view/oblander"}, {"label": "UBC 官方研究者页：明确 Quantitative Marketing", "url": "https://www.grad.ubc.ca/researcher/24395-oblander"}, {"label": "Columbia 2025 newsletter：本人说明任职已一年", "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf"}],
+      "note": "首职年份由任职回顾交叉确认，待最新 CV 可再补具体月份。"
+    },
+    {
+      "id": "columbia-university-yinghao-wu",
+      "set": {"aliases": ["Alisa Wu", "Alisa Yinghao Wu", "Yinghao (Alisa) Wu"], "tracks": ["marketing", "cb"], "fields": ["Consumer Psychology", "Emotion and Cognition", "User-Generated Content"], "methods": ["文本分析"], "topics": ["消费者行为", "平台与数字市场"], "homepage": "https://www.alisawu.org/", "placement_year": 2024, "graduation_year": 2024, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "field_evidence": "Columbia 本人研究介绍明确 consumer psychology；Utah 官方任职档案明确 2024-07-01 开始。Yinghao Wu 与 Alisa Wu 由院系 newsletter 对齐，保持一人一条。"},
+      "sources": [{"label": "Utah 官方任职档案：2024-07-01 起任助理教授", "url": "https://profiles.faculty.utah.edu/u6057912"}, {"label": "Columbia 2022 newsletter：Yinghao (Alisa) Wu 与研究自述", "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/Marketing_Annual_Magazine_November2022.pdf"}, {"label": "Columbia 2025 newsletter：Alisa Wu 任职", "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf"}, {"label": "本人主页", "url": "https://www.alisawu.org/"}],
+      "note": "日期与岗位采用接收单位任职区间；不采用同名医学研究者资料。"
+    },
+    {
+      "id": "columbia-university-sibel-sozuer-zorlu",
+      "set": {"aliases": ["Sibel Sozuer"], "tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Innovation", "Consumer Wellbeing"], "methods": ["机器学习 / AI", "文本分析", "优化方法"], "topics": ["AI 与算法", "产品与创新"], "homepage": "https://www.sibelsozuer.com/home", "cv_url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2023/09/updated_Sozuer_CV_20231210.pdf", "placement_year": 2023, "graduation_year": 2023, "role": "Assistant Professor", "job_kind": "faculty", "undergraduate": {"institution": "Bilkent University", "region": "TR", "year": 2010}, "field_evidence": "本人 CV 研究兴趣明确 Quantitative Marketing Research，任职栏明确 UNC 助理教授自 2023-07 起。"},
+      "sources": [{"label": "本人主页：研究与方法", "url": "https://www.sibelsozuer.com/home"}, {"label": "UNC 保存的本人 CV：明确方向与 2023-07 任职", "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2023/09/updated_Sozuer_CV_20231210.pdf"}],
+      "note": "以本人 CV 补齐真实首职开始年；保留原姓名并增加本人当前使用的姓名。"
+    },
+    {
+      "id": "columbia-university-byung-cheol-lee",
+      "set": {"tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Word-of-Mouth", "Consumer-Brand Relationships"], "topics": ["消费者行为", "广告与品牌"], "homepage": "https://www.byunglee.com/", "role": "Assistant Professor", "job_kind": "faculty", "undergraduate": {"institution": "Duke University", "region": "US"}, "field_evidence": "University of Houston 官方教员页明确 consumer behavior aspect of marketing；官网确认 Marketing 助理教授。"},
+      "sources": [{"label": "本人主页", "url": "https://www.byunglee.com/"}, {"label": "Houston 官方教员页：岗位、方向与教育", "url": "https://bauer.uh.edu/search/directory/profile.asp?firstname=Byung+Cheol&lastname=Lee"}],
+      "note": "官方毕业表和当前岗位已对齐，具体首职开始年仍待本人任职 CV 确认。"
+    }
+  ],
+  "additions": []
+}

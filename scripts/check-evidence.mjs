@@ -48,4 +48,11 @@ for(const r of records){
 assert.equal(records.find(r=>r.id==='indiana-university-der-wei-huang').placement_year,2023);
 assert.equal(records.find(r=>r.id==='nus-shiwen-gao').tracks.includes('qm'),true);
 assert.equal(regionalSummary(records.filter(r=>['nus-jingman-cao','hkust-da-he','indiana-university-der-wei-huang'].includes(r.id))).interest,0,'Ordinary exchanges in this batch must not become stated preferences');
-console.log(JSON.stringify({evidence:'passed',checks:'provisional opt-in, source provenance, geographic evidence, no name/education proxy, no lecture-to-recruitment inference, no event-to-preference inference, scenario denominator and bounds, CSV separation'}));
+for(const id of ['rochester-kang-huang','stanford-abigail-bergman','stanford-samuel-pertl']){
+ const r=records.find(r=>r.id===id);assert.equal(r.market_cycle,'2026-2027');
+ assert.equal(r.status,'on_market');assert.equal(r.destination,null);assert.equal(r.placement_year,null);
+}
+assert.equal(records.filter(r=>r.school==='Columbia University'&&(r.name==='Yinghao Wu'||(r.aliases||[]).includes('Alisa Wu'))).length,1,'Aliases must not create duplicate placements');
+assert.equal(records.find(r=>r.id==='stanford-abigail-bergman').jmp,null,'A dissertation title alone is not a JMP');
+assert.ok(records.find(r=>r.id==='stanford-samuel-pertl').jmp_evidence.includes('Job Market Paper'));
+console.log(JSON.stringify({evidence:'passed',checks:'provisional opt-in, source provenance, geographic evidence, no name/education proxy, no lecture-to-recruitment inference, no event-to-preference inference, scenario denominator and bounds, CSV separation, current market newcomers, aliases, explicit JMP labels'}));

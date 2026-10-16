@@ -46,4 +46,16 @@ assert.equal(records.filter(r=>r.school==='New York University'&&/^Ella(?: J\.)?
 assert.ok(records.find(r=>r.id==='ella-xu-2025').aliases.includes('Ella Xu'));
 assert.ok(!catalog.coverage.some(c=>c.record_ids.includes('new-york-university-ella-xu')),'Coverage references must follow the merged ID');
 assert.equal(filterRecords(records,{track:'strategy'}).some(r=>r.name==='Soo Hyung (Ralph) Park'),true);
-console.log(JSON.stringify({placement:'passed',checks:'title precedence, Lecturer countries, first/final paths, denominator exclusions, announced future jobs, mainland campuses, ranks, CSV consistency/escaping, material provenance'}));
+const jasmine=records.find(r=>r.id==='columbia-university-jasmine-yang');
+assert.equal(placementOf(jasmine,'first').category,'postdoc','A company-hosted postdoctoral appointment must not become generic industry');
+assert.equal(jasmine.placement_year,2025);assert.equal(jasmine.final_placement.year,2026);
+assert.equal(placementOf(jasmine).destination_region,'HK');
+const gui=records.find(r=>r.id==='stanford-university-george-zhida-gui');
+assert.equal(gui.placement_year,2023);assert.equal(placementOf(gui,'first').category,'non_tt');
+assert.equal(gui.final_placement.year,2024);assert.equal(placementOf(gui).category,'tt');
+assert.equal(placementOf(records.find(r=>r.id==='new-york-university-nofar-duani'),'first').category,'non_tt');
+const yan=records.find(r=>r.id==='cityu-chenfeng-yan');
+assert.equal(yan.graduation_year,2024);assert.equal(yan.placement_year,null);
+assert.equal(placementOf(yan).category,'unknown','A current employer and degree date do not resolve the first appointment');
+assert.equal(placementOf(records.find(r=>r.id==='cuhk-nan-iris-xue')).destination_region,'UK');
+console.log(JSON.stringify({placement:'passed',checks:'title precedence, Lecturer countries, first/final paths, denominator exclusions, announced future jobs, mainland campuses, ranks, CSV consistency/escaping, material provenance, company postdoc, Instructor transition, disputed first jobs'}));

@@ -67,6 +67,20 @@
     "checked_at": "2026-10-08"
   },
   {
+    "name": "Jinsoul Seo",
+    "school": "University of Rochester",
+    "reason": "旧 platform 版 JMC 页面列名，但主站新页未列；2025-09 CV 只确认在读。尚无明确 2026–27 求职声明，不据此计入当季。",
+    "sources": [{"label": "旧版官方 Marketing JMC 页", "url": "https://platform.simon.rochester.edu/programs/phd/academics/marketing/job-market-candidates"}, {"label": "本人 2025-09 CV", "url": "https://simon.rochester.edu/sites/default/files/2025-09/Seo%2C%20Jinsoul%20CV%202025.09.05.pdf"}],
+    "checked_at": "2026-10-15"
+  },
+  {
+    "name": "Hanyu Chen / 陈含郁",
+    "school": "City University of Hong Kong",
+    "reason": "中南大学官方资料确认 CityU 与浙江大学博士、2024 起任教及 CB 研究，但尚未明确 CityU 所属博士项目；先补证学位项目归属，不凭当前任教系别强配 Marketing 培养项目。",
+    "sources": [{"label": "中南大学官方个人资料", "url": "https://bs.csu.edu.cn/info/1771/24066.htm"}],
+    "checked_at": "2026-10-15"
+  },
+  {
     "name": "Matt Healey",
     "school": "Washington University in St. Louis",
     "reason": "AMA DocSIG 2024 招聘表有 Ivey；博士年份与首职顺序尚待核验。",

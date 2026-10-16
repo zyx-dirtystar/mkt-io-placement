@@ -278,16 +278,56 @@
   {
     "program_id": "carnegie-mellon-university-marketing",
     "period": "2025",
-    "status": "insufficient",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "carnegie-mellon-angela-ziyan-xiao",
+      "carnegie-mellon-xiaohang-flora-feng",
+      "carnegie-mellon-behnam-mohammadi"
+    ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-10-15",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://www.cmu.edu/tepper/programs/phd/job-market"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://business.vanderbilt.edu/news/2025/07/25/vanderbilt-business-welcomes-new-faculty-members-fall-2025/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://business.vanderbilt.edu/bio/angela-ziyanxiao/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.cmu.edu/tepper/programs/phd/program/assets/dissertations/2025-marketing-xiao-dissertation.pdf"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.cb.cityu.edu.hk/staff/xifeng/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.cmu.edu/tepper/programs/phd/program/student-profiles/phd-student-feng-xiaohang-flora.html"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://aplaceofmind.com/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://aplaceofmind.com/cv/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2025.focusonaus.v44.3"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://jsom.utdallas.edu/faculty/api.php?area=marketing"
       }
     ],
     "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 "
@@ -3025,13 +3065,29 @@
   {
     "program_id": "stanford-university-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "stanford-abigail-bergman",
+      "stanford-samuel-pertl"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
+    "checked_at": "2026-10-15",
+    "sources": [
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.gsb.stanford.edu/programs/phd/placement/job-market-candidates"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.abbybergman.com/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.gsb.stanford.edu/programs/phd/academic-experience/students/samuel-pertl"
+      }
+    ],
     "notes": "尚未逐人核对该项目该年完整名册。"
   },
   {
@@ -6284,28 +6340,57 @@
   {
     "program_id": "university-of-rochester-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "rochester-kang-huang"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
+    "checked_at": "2026-10-15",
+    "sources": [
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://sites.google.com/view/kanghuang"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://simon.rochester.edu/programs/phd/academics/marketing/job-market-candidates"
+      }
+    ],
     "notes": "尚未逐人核对该项目该年完整名册。"
   },
   {
     "program_id": "university-of-south-carolina-marketing",
     "period": "2023",
-    "status": "insufficient",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "south-carolina-zhenyu-jin"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-10-15",
     "sources": [
       {
         "label": "官方项目资格 / 名册核验",
         "url": "https://www.mooreschool.sc.edu/study/colleges_schools/moore/study/marketing/degree_programs/phd/index.php"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://sc.edu/study/colleges_schools/moore/documents/curriculum_vitae/l_yang_cv_1124.pdf"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://catalog.towson.edu/graduate/graduate-faculty/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.towson.edu/news/articles/2025/black-friday-towson-university-marketing.html"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0148296325005351"
       }
     ],
     "notes": "官方 Marketing PhD 分 CB / QM；placement 栏列匿名历史任职机构，缺近四年逐人名单。"
@@ -9035,16 +9120,26 @@
   {
     "program_id": "chinese-university-of-hong-kong-marketing",
     "period": "2024",
-    "status": "insufficient",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "cuhk-nan-iris-xue"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-10-15",
     "sources": [
       {
         "label": "官方项目资格 / 名册核验",
         "url": "https://grad.bschool.cuhk.edu.hk/programmes/marketing/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.birmingham.ac.uk/staff/profiles/business/xue-nan"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/Lisa-Wan_Curriculum_Vitae_BA_2025_0814.pdf"
       }
     ],
     "notes": "官方 Marketing MPhil-PhD 项目含 QM 与 CB；可找到的旧 placement PDF 只到 2020，2023–26 实名全名册仍缺。"
@@ -9115,16 +9210,30 @@
   {
     "program_id": "city-university-of-hong-kong-marketing",
     "period": "2024",
-    "status": "insufficient",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "cityu-chenfeng-yan"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-10-15",
     "sources": [
       {
         "label": "官方项目资格 / 名册核验",
         "url": "https://www.cb.cityu.edu.hk/mkt/programmes/ResearchDegree/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://scholars.cityu.edu.hk/en/studentTheses/the-impact-of-the-adoption-of-algorithmic-organizational-decision/"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://www.glxy.sdu.edu.cn/info/1131/7542.htm"
+      },
+      {
+        "label": "本轮逐人核验来源",
+        "url": "https://english.glxy.sdu.edu.cn/info/1024/1912.htm"
       }
     ],
     "notes": "官方确认 Marketing 研究博士；学院 career 页面仅列匿名去向机构，不能形成个人或逐年分母。"

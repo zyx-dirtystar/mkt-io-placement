@@ -371,9 +371,9 @@
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "官方 Marketing MPhil-PhD 项目含 QM 与 CB；可找到的旧 placement PDF 只到 2020，2023–26 实名全名册仍缺。",
+    "notes": "官方 Marketing MPhil-PhD 项目含 QM 与 CB。2026-10-15 补入学位明确为 Marketing and Tourism 的 Nan (Iris) Xue，保留跨方向学位原名；纯 Tourism 学位不会自动纳入。最新 placement PDF 跳转 SharePoint 登录，2023–26 全名册仍待核验。",
     "target_scope": true,
-    "record_count": 0
+    "record_count": 1
   },
   {
     "id": "city-university-of-hong-kong-marketing",
@@ -392,9 +392,9 @@
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "官方确认 Marketing 研究博士；学院 career 页面仅列匿名去向机构，不能形成个人或逐年分母。",
+    "notes": "官方确认 Marketing 研究博士；学院 career 页面仅列匿名去向机构。2026-10-15 根据官方博士论文库补入 2024 毕业生 Chenfeng Yan，保留联合培养背景；其首职顺序待核验。已有个案不代表年度名册完整。",
     "target_scope": true,
-    "record_count": 0
+    "record_count": 1
   },
   {
     "id": "hong-kong-baptist-university-marketing",
@@ -697,7 +697,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
     "target_scope": true,
-    "record_count": 3
+    "record_count": 6
   },
   {
     "id": "city-university-of-new-york-baruch-college-marketing",
@@ -1550,7 +1550,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。该来源只列 academic placements；企业去向仍需毕业全名册。INSEAD 校区待核实。",
     "target_scope": true,
-    "record_count": 5
+    "record_count": 7
   },
   {
     "id": "state-university-of-new-york-binghamton-marketing",
@@ -2543,7 +2543,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士及就业去向已确认；所查近期就业页缺实名和逐年对应，完整分母未知。",
     "target_scope": true,
-    "record_count": 0
+    "record_count": 1
   },
   {
     "id": "university-of-south-carolina-marketing",
@@ -2568,7 +2568,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing PhD 分 CB / QM；placement 栏列匿名历史任职机构，缺近四年逐人名单。",
     "target_scope": true,
-    "record_count": 0
+    "record_count": 1
   },
   {
     "id": "university-of-south-florida-marketing",

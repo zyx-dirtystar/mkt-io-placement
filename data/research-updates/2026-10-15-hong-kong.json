@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-15",
+  "description": "香港来源博士补录及首职日期交叉核验；保留跨方向学位原名、联合培养背景及未知首职顺序。",
+  "updates": [
+    {
+      "id": "carnegie-mellon-university-samuel-levy",
+      "set": {"placement_year": 2024, "graduation_year": 2024, "cv_url": "https://www.darden.virginia.edu/sites/default/files/inline-files/CV_Sam_Levy_Jan_2026-2.pdf", "undergraduate": {"institution": "Ecole Normale Superieure Paris-Saclay / Universite Paris 1 Pantheon-Sorbonne", "region": "FR", "year": 2014}, "field_evidence": "本人 2026-01 CV 搜索索引明确 Darden 任职自 2024-07-01 起，Darden 2024-08 新任教员报道交叉确认；Ohio State 求职报告明确 Quant 分类。"},
+      "sources": [{"label": "本人 2026-01 CV：2024-07-01 任职（搜索索引可读）", "url": "https://www.darden.virginia.edu/sites/default/files/inline-files/CV_Sam_Levy_Jan_2026-2.pdf"}, {"label": "Darden 2024-08-14 新任教员报道", "url": "https://news.darden.virginia.edu/2024/08/14/from-admen-to-algorithms-the-transformation-of-marketing/?trk=article-ssr-frontend-pulse_little-text-block"}],
+      "note": "进一步找到本人新版 CV 搜索索引及接收院校独立公告，首职年补为 2024；旧 CV 直连失败不再妨碍日期交叉核实。"
+    },
+    {
+      "id": "university-of-texas-at-austin-max-alberhasky",
+      "set": {"aliases": ["Maxwell Alberhasky"], "placement_year": 2023, "field_evidence": "CSULB 官方资料明确 Consumer Behavior；2023–24 新教员欢迎公告以 Maxwell Alberhasky 列入 Marketing，交叉确认 2023 入职届别。"},
+      "sources": [{"label": "CSULB 2023–24 新教员公告：Maxwell Alberhasky", "url": "https://www.csulb.edu/office-of-the-provost/article/csulb-announces-55-new-faculty-for-the-2023-24-academic-year"}],
+      "note": "进一步找到接收院校 2023–24 新教员公告补齐首职年；Max 与 Maxwell 作为同人别名保留。"
+    }
+  ],
+  "additions": [
+    {
+      "id": "cuhk-nan-iris-xue",
+      "set": {"name": "Nan (Iris) Xue", "aliases": ["Nan Xue", "Iris Xue"], "school": "Chinese University of Hong Kong", "program_id": "chinese-university-of-hong-kong-marketing", "program": "博士项目 · Business Administration (Marketing and Tourism)", "origin": "HK", "tracks": ["marketing", "cb"], "fields": ["Consumer Psychology and Behaviour", "Sustainability", "Tourism Marketing"], "methods": ["实验方法", "田野实验", "二手数据分析"], "topics": ["消费者行为", "可持续消费", "旅游营销"], "source_cohort_year": 2024, "source_cohort_label": "接收院校个人资料和导师 CV 的 2024 届", "graduation_year": 2024, "placement_year": 2024, "status": "placed", "destination": "University of Birmingham", "destination_region": "UK", "role": "Assistant Professor in Marketing", "job_kind": "faculty", "undergraduate": {"institution": "Soochow University", "region": "CN", "year": 2017}, "field_evidence": "Birmingham 官方本人资料明确 PhD in Business Administration (Marketing and Tourism)、Consumer Psychology and Behaviour，且明确 2024-09 起任 Marketing 助理教授。"},
+      "sources": [{"label": "Birmingham 官方本人资料：学位方向、CB 与 2024-09 任职", "url": "https://www.birmingham.ac.uk/staff/profiles/business/xue-nan"}, {"label": "导师 Lisa Wan CV：博士生初始 placement 交叉确认", "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/Lisa-Wan_Curriculum_Vitae_BA_2025_0814.pdf"}],
+      "note": "学位公开明确含 Marketing，按全方向 Marketing 范围纳入并保留 Marketing and Tourism 原名称；不据此将纯 Tourism 学位全部纳入。导师 CV 不作为本人 CV 链接。"
+    },
+    {
+      "id": "cityu-chenfeng-yan",
+      "set": {"name": "Chenfeng Yan", "aliases": ["严晨峰"], "school": "City University of Hong Kong", "program_id": "city-university-of-hong-kong-marketing", "program": "博士项目 · Marketing（另有 HUST 博士学位）", "origin": "HK", "fields": ["Consumer Ethicality Inferences", "Algorithmic Decision Making", "Consumer Privacy"], "methods": ["实验方法"], "topics": ["消费者行为", "AI 与算法"], "source_cohort_year": 2024, "source_cohort_label": "CityU 官方论文库的 2024-02-15 授位记录", "graduation_year": 2024, "status": "outcome_unknown", "source_reported_placement": "Shandong University", "subsequent": [{"institution": "Shandong University", "role": "Assistant Professor, Marketing", "status": "observed_current"}], "undergraduate": {"institution": "Huazhong University of Science and Technology", "region": "CN", "year": 2015}, "field_evidence": "CityU 官方 Marketing 博士论文及接收单位中文履历对齐；所查资料确认当前任职，但未厘清第一份工作的职称和开始时间。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "博士论文以实验研究消费者对算法组织决策的道德推断；支持暂归 CB，但未找到本人明确子方向标签。", "source_urls": ["https://scholars.cityu.edu.hk/en/studentTheses/the-impact-of-the-adoption-of-algorithmic-organizational-decision/"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "CityU 官方 Marketing 博士论文：2024-02-15 授位", "url": "https://scholars.cityu.edu.hk/en/studentTheses/the-impact-of-the-adoption-of-algorithmic-organizational-decision/"}, {"label": "山东大学中文本人资料：双博士、当前助理教授", "url": "https://www.glxy.sdu.edu.cn/info/1131/7542.htm"}, {"label": "山东大学早期英文报道：职称为 Assistant Researcher，顺序待核验", "url": "https://english.glxy.sdu.edu.cn/info/1024/1912.htm"}],
+      "note": "保留 CityU Marketing 与 HUST 两个博士学位背景，一人一条记录。中文现职为助理教授，早期英文报道为 Assistant Researcher；尚无完整任职 CV，首职及其年份保持待核验，不从 2024 授位年推定。博士论文未标为 JMP，未填入 JMP。"
+    }
+  ]
+}

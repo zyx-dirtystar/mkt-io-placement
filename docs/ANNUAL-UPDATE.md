@@ -36,12 +36,16 @@ JSON 的文字使用英文双引号；项目之间保留逗号，最后一项后
 ```sh
 node scripts/sync-data.mjs
 node scripts/check.mjs
+node scripts/check-placement.mjs
+node scripts/check-evidence.mjs
 node --check dist/app.js
 node --check dist/coverage-view.js
 node server.mjs
 ```
 
 最后一条开启本地预览：http://127.0.0.1:4173 。核对名录、覆盖矩阵和个人详情后，用 Ctrl+C 结束预览。
+
+分批核验时可参考 `data/research-updates/` 的日期批次，使用 `node scripts/apply-research-update.mjs data/research-updates/新批次.json` 合入，再同步并运行上列检查。保留旧批次作为审计，不在较新修改之后重跑旧批次。该脚本只维护数据结构，不会自动抓取或核实来源。首职、学位项目归属或当季求职声明仍不清楚的线索先放到根目录 `review-queue.json`。
 
 ## 容易混淆的字段
 

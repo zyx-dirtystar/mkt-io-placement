@@ -1,0 +1,181 @@
+{
+  "checked_at": "2026-10-15",
+  "description": "补充 Marketing 个人任职、CV、方向及新求职者；不从学位年推算首职年。",
+  "updates": [
+    {
+      "id": "columbia-university-eli-sugerman",
+      "set": {"jmp": "From Inference to Illusion: Do Product Tags Distort Consumers’ Emissions Judgments?", "jmp_url": "https://www.elisugerman.com/s/Sugerman_CV-jezj.pdf", "jmp_evidence": "本人 2026-01 CV 第 2 页明确标为 Job Market Paper。"},
+      "sources": [{"label": "本人 CV：明确 Job Market Paper", "url": "https://www.elisugerman.com/s/Sugerman_CV-jezj.pdf"}]
+    },
+    {
+      "id": "columbia-university-jasmine-yang",
+      "set": {"aliases": ["Jasmine Y. Yang"], "tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Creative Design", "Digital Markets"], "methods": ["机器学习 / AI", "因果推断", "结构模型", "实验方法"], "topics": ["AI 与算法", "平台与数字市场"], "homepage": "https://www.jasmineyang.marketing/home", "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Jasmine-Yang_202609.pdf", "placement_year": 2025, "role": "Postdoctoral Researcher, Central Applied Science", "job_kind": "postdoc", "destination_region": "US", "undergraduate": {"institution": "University of British Columbia", "region": "CA", "year": 2018}, "final_placement": {"destination": "Chinese University of Hong Kong", "role": "Assistant Professor of Marketing", "destination_region": "HK", "year": 2026, "job_kind": "faculty", "status": "placed", "evidence": "本人任职 CV 明确 Meta 博后 2025-06 至 2026-05、CUHK 助理教授自 2026-08 起；当前接收院校个人页交叉确认。", "sources": ["https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Jasmine-Yang_202609.pdf", "https://www.bschool.cuhk.edu.hk/staff/yang-jasmine/"]}, "field_evidence": "本人任职 CV 明确 PhD Quantitative Track；接收院校介绍明确 Quantitative Marketing。"},
+      "sources": [{"label": "本人任职 CV：Meta 博后 2025-06 与 CUHK 2026-08", "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Jasmine-Yang_202609.pdf"}, {"label": "CUHK 官方教员页：明确 Quantitative Marketing", "url": "https://www.bschool.cuhk.edu.hk/staff/yang-jasmine/"}, {"label": "本人主页", "url": "https://www.jasmineyang.marketing/home"}],
+      "note": "将简略 Meta Industry 修正为 CV 明确的 Postdoctoral Researcher，分别记录首职博后与 2026 年教职。当前论文列表没有明确 JMP 标注，未以获奖论文代填。"
+    },
+    {
+      "id": "columbia-university-sonia-kim",
+      "set": {"aliases": ["Seungeon (Sonia) Kim", "Seung Eun Kim"], "tracks": ["marketing", "cb"], "fields": ["Consumer Psychology", "Digital Consumer Experiences"], "topics": ["消费者行为", "平台与数字市场"], "field_evidence": "本人 Columbia 研究介绍明确研究 consumer psychology；2025 院系 newsletter 确认 Yale 博后。"},
+      "sources": [{"label": "Columbia 本人研究介绍：消费者心理学", "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/Marketing_Annual_Magazine_November2022.pdf"}, {"label": "Columbia 2025 newsletter：Yale 博后与研究", "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf"}],
+      "note": "毕业年与博后首职开始年分开；尚无可靠开始日期，未将 2024 毕业年直接填作首职年。"
+    },
+    {
+      "id": "columbia-university-jennifer-sun",
+      "set": {"aliases": ["Jennifer Jung Ah Sun"], "role": "Assistant Professor of Marketing", "job_kind": "faculty", "undergraduate": {"institution": "University of Pennsylvania, Wharton", "region": "US"}, "field_evidence": "Yonsei 官方教员资料确认 Marketing 助理教授、Columbia PhD 和 Wharton 本科；尚未找到明确的细分项目标签及首职开始日期。"},
+      "sources": [{"label": "Yonsei 官方教员页：岗位与教育", "url": "https://ysb2.yonsei.ac.kr/faculty.asp?mid=n02&sOpt=&uid=298"}]
+    },
+    {
+      "id": "stanford-university-samina-lutfeali",
+      "set": {"tracks": ["marketing", "cb"], "fields": ["Behavioral Marketing", "Sustainability"], "methods": ["田野实验"], "topics": ["消费者行为", "公共政策"], "placement_year": 2025, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "cv_url": "https://www.stonybrook.edu/commcms/business/_cv/faculty/SLUTFEALI.pdf", "undergraduate": {"institution": "University of Chicago", "region": "US", "year": 2011}, "field_evidence": "本人任职 CV 明确 Stanford Behavioral Marketing PhD、Stony Brook 助理教授自 2025 起，以及可持续消费与田野实验。"},
+      "sources": [{"label": "本人任职 CV：Behavioral Marketing 与 2025 任职", "url": "https://www.stonybrook.edu/commcms/business/_cv/faculty/SLUTFEALI.pdf"}, {"label": "Stony Brook 官方教员页", "url": "https://www.stonybrook.edu/business/faculty-research/faculty-directory/samina-lutfeali.html"}]
+    },
+    {
+      "id": "stanford-university-ivan-li",
+      "set": {"tracks": ["marketing", "qm", "io"], "fields": ["Quantitative Marketing", "Empirical Industrial Organization", "Influencer Marketing"], "methods": ["结构模型", "计量经济学"], "topics": ["平台与数字市场", "产业组织"], "placement_year": 2024, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "homepage": "https://www.ivan-li.com/", "cv_url": "https://www.ivan-li.com/files/IvanLi_CV_Jun2025.pdf", "undergraduate": {"institution": "University of Pennsylvania", "region": "US", "year": 2019}, "field_evidence": "本人 CV 明确 Stanford Marketing (Quantitative) PhD、Empirical IO 兴趣和 UT Dallas 助理教授自 2024 起。"},
+      "sources": [{"label": "本人主页", "url": "https://www.ivan-li.com/"}, {"label": "本人 2025-06 CV：明确方向与任职年", "url": "https://www.ivan-li.com/files/IvanLi_CV_Jun2025.pdf"}]
+    },
+    {
+      "id": "stanford-university-george-zhida-gui",
+      "set": {"aliases": ["George Gui", "Zhida Gui"], "tracks": ["marketing", "qm", "io"], "fields": ["Quantitative Marketing", "Industrial Organization", "Generative AI"], "methods": ["因果推断", "机器学习 / AI"], "topics": ["产业组织", "AI 与算法"], "placement_year": 2023, "role": "Instructor, Marketing Division", "job_kind": "non_tt", "homepage": "https://www.georgegui.com/", "cv_url": "https://www.georgegui.com/files/CV_GeorgeGui.pdf", "undergraduate": {"institution": "University of Chicago", "region": "US", "year": 2016}, "final_placement": {"destination": "Columbia University", "role": "Assistant Professor, Marketing Division", "destination_region": "US", "year": 2024, "job_kind": "faculty", "status": "placed", "evidence": "2026-09 更新的本人 CV 明确列 Instructor 2023、Assistant Professor 2024–present。", "sources": ["https://www.georgegui.com/files/CV_GeorgeGui.pdf"]}, "field_evidence": "本人任职 CV 明确 Quantitative Marketing PhD 及 IO 研究兴趣；首职 Instructor 与后续 Assistant Professor 分开。"},
+      "sources": [{"label": "本人主页", "url": "https://www.georgegui.com/"}, {"label": "本人 2026-09 CV：2023 Instructor、2024 Assistant Professor", "url": "https://www.georgegui.com/files/CV_GeorgeGui.pdf"}],
+      "note": "按履历恢复首职为 2023 Instructor，最终岗位单列为 2024 助理教授；未把后续职称倒算至首职。"
+    },
+    {
+      "id": "stanford-university-mohamed-a-hussein",
+      "set": {"aliases": ["Mohamed Hussein"], "tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Political Marketing", "Persuasion"], "methods": ["联合分析", "自然语言处理", "档案数据分析"], "topics": ["消费者行为", "广告与品牌", "公共政策"], "homepage": "https://mohamedahussein.com/", "cv_url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/faculty-cvs/Mohamed_Hussein_CV.pdf", "placement_year": 2024, "undergraduate": {"institution": "Middlebury College", "region": "US"}, "final_placement": {"destination": "Columbia University", "role": "Assistant Professor of Marketing", "destination_region": "US", "year": 2025, "job_kind": "faculty", "status": "placed", "evidence": "Columbia 官方页列 Joined CBS 2024；本人 2026-07 CV 将 Assistant Professor 起始年列为 2025。保留差异，2024 具体岗位不推定。", "sources": ["https://business.columbia.edu/faculty/people/mohamed-hussein", "https://business.columbia.edu/sites/default/files-efs/imce-uploads/faculty-cvs/Mohamed_Hussein_CV.pdf"]}, "field_evidence": "Columbia 官方资料明确 Consumer Behavior；Joined CBS 2024 与 CV 的 Assistant Professor 2025 有岗位时间差，首职职称继续待核验。"},
+      "sources": [{"label": "Columbia 官方教员页：Consumer Behavior、Joined CBS 2024", "url": "https://business.columbia.edu/faculty/people/mohamed-hussein"}, {"label": "本人 2026-07 CV：Assistant Professor 2025 起", "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/faculty-cvs/Mohamed_Hussein_CV.pdf"}, {"label": "本人研究网站（由 Columbia 官方页链接）", "url": "https://mohamedahussein.com/"}],
+      "note": "首职任职年采用接收单位 Joined CBS 2024；该年具体职称未确认，未将 CV 的 2025 助理教授职位自动倒填为 2024 首职。"
+    },
+    {
+      "id": "stanford-university-rupali-kaul",
+      "set": {"tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Marketing Analytics", "Technology Adoption"], "methods": ["田野实验", "机器学习 / AI", "计量经济学"], "topics": ["平台与数字市场", "产品与创新"], "placement_year": 2023, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "destination_region": "SG", "field_evidence": "INSEAD 2022–23 年报明确本批新教员均 2023-09-01 入职，并明确本人 Quantitative Marketing PhD 与 Asia Campus。"},
+      "sources": [{"label": "INSEAD 年报：2023-09-01 任职、Quantitative Marketing 与校区", "url": "https://annual-report.insead.edu/sites/annual-report/files/2024-03/INSEAD%20Annual%20Report%202023_0.pdf"}, {"label": "INSEAD 本人官方研究介绍", "url": "https://knowledge.insead.edu/author/rupali-kaul"}]
+    },
+    {
+      "id": "chicago-minkwang-jang",
+      "set": {"aliases": ["MK Jang", "Minkwang (MK) Jang"], "tracks": ["marketing", "cb"], "fields": ["Consumer Behaviour", "Judgment and Decision Making", "Intertemporal Choice"], "topics": ["消费者行为"], "graduation_year": 2024, "cv_url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/CV_JANG_Sep2025.pdf", "undergraduate": {"institution": "University of Pennsylvania", "region": "US", "year": 2017}, "field_evidence": "SMU 官方 faculty profile 明确 Consumer Behaviour；本人 CV 确认 2024 起任职。"},
+      "sources": [{"label": "SMU 官方资料：明确 Consumer Behaviour", "url": "https://faculty.smu.edu.sg/profile/jang-minkwang-7816"}, {"label": "本人任职 CV", "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/CV_JANG_Sep2025.pdf"}]
+    },
+    {
+      "id": "chicago-soaham-bharti",
+      "set": {"homepage": "https://www.soaham-bharti.com/home", "fields": ["Consumer Inference", "Judgment and Decision Making", "Information Framing"], "topics": ["消费者行为"], "field_evidence": "本人主页说明研究信息框架如何影响消费者推断与选择；所查材料未明确本人 CB 子方向标签，保留内容暂定分类。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "本人明确研究消费者推断、信息框架与选择，支持暂归 CB；不以发文期刊或导师身份代替明确分类。", "source_urls": ["https://www.soaham-bharti.com/home"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "本人主页：岗位与研究自述", "url": "https://www.soaham-bharti.com/home"}]
+    },
+    {
+      "id": "chicago-lin-fei",
+      "set": {"graduation_year": 2023, "fields": ["Mental Representation", "Mental Accounting", "Algorithm Preferences"], "topics": ["消费者行为", "AI 与算法"], "field_evidence": "Chicago 官方学位论文库确认 2023 Marketing 博士论文与研究内容；论文题名未冒充 Job Market Paper。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "学位论文研究心理表征、心理预算和预测算法偏好，支持暂归 CB；论文库未明确细分项目标签。", "source_urls": ["https://knowledge.uchicago.edu/records/e2v7h-8pe97"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "Chicago 官方学位论文库：2023 Marketing 博士论文", "url": "https://knowledge.uchicago.edu/records/e2v7h-8pe97"}]
+    },
+    {
+      "id": "new-york-university-shoshana-segal",
+      "set": {"tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Social Influence", "Persuasion", "Uncertainty"], "methods": ["实验方法", "田野实验", "情感分析"], "topics": ["消费者行为", "平台与数字市场"], "homepage": "https://www.shoshanasegal.com/home", "cv_url": "https://mays.tamu.edu/wp-content/uploads/2025/06/CV-Shoshana-Segal-202508.pdf", "graduation_year": 2025, "undergraduate": {"institution": "University of Pennsylvania", "region": "US", "year": 2018}, "field_evidence": "本人任职 CV 明确 Marketing–Consumer Behavior 与 Texas A&M 2025-07 起任职；本科结束年依 CV 2018-12，院校简历另写 2019，保留差异。"},
+      "sources": [{"label": "本人主页", "url": "https://www.shoshanasegal.com/home"}, {"label": "本人任职 CV：Consumer Behavior 与 2025-07 任职", "url": "https://mays.tamu.edu/wp-content/uploads/2025/06/CV-Shoshana-Segal-202508.pdf"}, {"label": "Texas A&M 官方教员页", "url": "https://mays.tamu.edu/directory/shoshana-segal/"}]
+    },
+    {
+      "id": "new-york-university-eunkyung-an",
+      "set": {"tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Online Consumer Search", "Digital Health"], "methods": ["结构模型", "机器学习 / AI", "田野实验"], "topics": ["平台与数字市场", "健康与医疗"], "homepage": "https://sites.google.com/stern.nyu.edu/eunkyungan", "graduation_year": 2024, "undergraduate": {"institution": "Ulsan National Institute of Science and Technology", "region": "KR", "year": 2015}, "jmp": "Habit Formation and Financial Rewards Through Digital Fitness", "jmp_url": "https://sites.google.com/stern.nyu.edu/eunkyungan", "jmp_evidence": "本人主页在该工作论文下明确标为 Job Market Paper。", "field_evidence": "本人主页及 Stevens 官方教员页均明确 Quantitative Marketing；不采用同名肿瘤学研究者的资料。"},
+      "sources": [{"label": "本人主页：明确方向与 JMP", "url": "https://sites.google.com/stern.nyu.edu/eunkyungan"}, {"label": "Stevens 官方教员页：方向与教育", "url": "https://www.stevens.edu/profile/ean2"}]
+    },
+    {
+      "id": "new-york-university-zekun-liu",
+      "set": {"tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Digital Platforms"], "methods": ["结构模型", "因果推断", "田野实验", "机器学习 / AI"], "topics": ["平台与数字市场"], "homepage": "https://zekunliu-mkt.github.io/", "field_evidence": "Ohio State 官方 Marketing brownbag 将本人的 NYU 求职报告明确列为 Quant；本人主页交叉确认平台研究与方法。"},
+      "sources": [{"label": "本人主页：平台研究与方法", "url": "https://zekunliu-mkt.github.io/"}, {"label": "Ohio State 官方求职报告目录：Quant 分类", "url": "https://u.osu.edu/marketingbrownbags/"}, {"label": "Indiana 官方教员页：接收单位与岗位", "url": "https://kelley.iu.edu/faculty-research/faculty-directory/profile.html?id=ZL73"}]
+    },
+    {
+      "id": "new-york-university-weiqing-zhang",
+      "set": {"tracks": ["marketing", "qm", "io"], "fields": ["Quantitative Marketing", "Empirical Industrial Organization", "Digital Platforms"], "methods": ["结构模型", "因果推断", "自然语言处理", "田野实验", "机器学习 / AI"], "topics": ["平台与数字市场", "产业组织"], "cv_url": "https://business.rice.edu/sites/default/files/2025-04/weiqing-zhang-cv.pdf", "graduation_year": 2024, "undergraduate": {"institution": "DePauw University", "region": "US", "year": 2014}, "field_evidence": "本人 CV 明确 Empirical IO 与结构模型等研究方向，Rice 任职自 2024-07 起；Ohio State 官方求职报告明确列为 Quant。"},
+      "sources": [{"label": "Rice 保存的本人任职 CV", "url": "https://business.rice.edu/sites/default/files/2025-04/weiqing-zhang-cv.pdf"}, {"label": "Ohio State 官方求职报告目录：Quant 分类", "url": "https://u.osu.edu/marketingbrownbags/"}]
+    },
+    {
+      "id": "new-york-university-jong-yeob-kim",
+      "set": {"tracks": ["marketing", "qm", "io"], "fields": ["Quantitative Marketing", "Empirical Industrial Organization", "Public Health"], "methods": ["结构模型", "因果推断", "机器学习 / AI"], "topics": ["产业组织", "健康与医疗", "公共政策"], "homepage": "https://sites.google.com/stern.nyu.edu/jongyeobkim", "jmp": "Health Insurance and the Dynamics of Patient Decision Making", "jmp_url": "https://sites.google.com/stern.nyu.edu/jongyeobkim/research", "jmp_evidence": "本人 Research 页面明确将该文标为 Job Market Paper。", "field_evidence": "本人研究页明确 Quantitative Marketing、Empirical Industrial Organization 及结构模型等方法。"},
+      "sources": [{"label": "本人主页", "url": "https://sites.google.com/stern.nyu.edu/jongyeobkim"}, {"label": "本人研究页：明确方向与 JMP", "url": "https://sites.google.com/stern.nyu.edu/jongyeobkim/research"}]
+    },
+    {
+      "id": "new-york-university-nofar-duani",
+      "set": {"tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Consumers and New Technologies", "Fairness and Morality"], "topics": ["消费者行为", "AI 与算法"], "homepage": "https://www.nofarduani.com/", "cv_url": "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/nofar_duani.nofar_duani_cv_6.17.25_i2jxwusdac.pdf", "role": "Instructor of Marketing", "job_kind": "non_tt", "graduation_year": 2023, "undergraduate": {"institution": "Ben Gurion University", "region": "IL", "year": 2014}, "field_evidence": "本人主页明确 Consumer Behavior；2025-06 任职 CV 明确 USC Instructor 自 2023-06 起。"},
+      "sources": [{"label": "本人主页：明确 Consumer Behavior", "url": "https://www.nofarduani.com/"}, {"label": "USC 保存的本人任职 CV：Instructor 2023-06 起", "url": "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/nofar_duani.nofar_duani_cv_6.17.25_i2jxwusdac.pdf"}],
+      "note": "将简略院校去向补为 CV 明确的 Instructor，按非终身轨教职归类。"
+    },
+    {
+      "id": "new-york-university-randy-gao",
+      "set": {"aliases": ["Randy Yang Gao", "Yang Gao"], "fields": ["Judgment and Decision Making", "Behavioral Pricing", "Risk and Uncertainty"], "topics": ["消费者行为", "定价与需求"], "homepage": "https://www.randygao.com/", "cv_url": "https://www.randygao.com/cv/Randy_Gao_CV_Aug_2025.pdf", "graduation_year": 2024, "role": "Postdoctoral Researcher", "job_kind": "postdoc", "undergraduate": {"institution": "Fudan University", "region": "CN", "year": 2016}, "subsequent": [{"institution": "Bocconi University", "role": "Assistant Professor", "start_year": 2025, "status": "placed"}], "field_evidence": "本人 CV 明确 Yale 博后 2024–25 后于 2025 到 Bocconi 任助理教授；方向按判断决策等内容暂定 CB。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "本人 CV 列判断决策、行为定价和风险研究；没有明确本人 CB 项目标签，作为内容暂定分类。", "source_urls": ["https://www.randygao.com/cv/Randy_Gao_CV_Aug_2025.pdf"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "本人 2025-08 CV：Yale 博后后任 Bocconi 助理教授", "url": "https://www.randygao.com/cv/Randy_Gao_CV_Aug_2025.pdf"}, {"label": "本人网站（由 CV 提供）", "url": "https://www.randygao.com/"}],
+      "note": "保留 Yale 2024 博后为首职；Bocconi 2025 作为后续履历，不将未确认属于当次 placement 安排的转职改成最终去向。"
+    },
+    {
+      "id": "university-of-texas-at-austin-andreas-kraft",
+      "set": {"tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Consumer and Firm Frictions"], "methods": ["经济理论", "实验方法", "大规模数据分析"], "topics": ["定价与需求", "产业组织"], "homepage": "https://krandreas.github.io/index.html", "cv_url": "https://krandreas.github.io/cv.pdf", "placement_year": 2023, "graduation_year": 2023, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "undergraduate": {"institution": "University of Texas at Arlington", "region": "US", "year": 2015}, "field_evidence": "本人 CV 明确 Quantitative Marketing PhD 与 Chicago Booth 助理教授自 2023 起；官网说明理论、数据与实验结合。"},
+      "sources": [{"label": "本人主页：明确 Quantitative Marketing", "url": "https://krandreas.github.io/index.html"}, {"label": "本人任职 CV：Chicago Booth 2023 起", "url": "https://krandreas.github.io/cv.pdf"}]
+    },
+    {
+      "id": "university-of-texas-at-austin-max-alberhasky",
+      "set": {"tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Financial Decision Making"], "topics": ["消费者行为", "金融决策"], "role": "Assistant Professor of Marketing", "job_kind": "faculty", "undergraduate": {"institution": "University of Arizona", "region": "US"}, "field_evidence": "CSULB 官方教员介绍明确 consumer behavior 和助理教授岗位；尚无本人任职日期，未用毕业年填首职年。"},
+      "sources": [{"label": "CSULB 官方资料：明确方向、岗位与教育", "url": "https://www.csulb.edu/media/page/max-alberhasky-0"}]
+    },
+    {
+      "id": "university-of-texas-at-austin-tushmit-hasan",
+      "set": {"aliases": ["Tushmit M. Hasan"], "tracks": ["marketing", "strategy"], "fields": ["Marketing Strategy", "Marketing-Finance Interface", "Corporate Social Responsibility"], "topics": ["营销战略", "公共政策"], "homepage": "https://tushmithasan.wordpress.com/", "cv_url": "https://tushmithasan.wordpress.com/wp-content/uploads/2026/02/cv-tushmit-m-hasan-2026-02-b.docx", "undergraduate": {"institution": "University of Pennsylvania", "region": "US", "year": 2013}, "field_evidence": "本人主页明确 Marketing Strategy；当前 St. Edward’s 助理教授，与原始 IU placement 区分。链接 CV 为本人公开 DOCX，本轮网页读取器不支持该格式，未据此推定首职职称。"},
+      "sources": [{"label": "本人主页：明确 Marketing Strategy 与任职履历", "url": "https://tushmithasan.wordpress.com/"}, {"label": "本人当前 CV 链接（DOCX，网页读取器未解析）", "url": "https://tushmithasan.wordpress.com/wp-content/uploads/2026/02/cv-tushmit-m-hasan-2026-02-b.docx"}, {"label": "本人 UT Austin 历史 CV：本科教育", "url": "https://utdirect.utexas.edu/apps/student/coursedocs/nlogon/download/10267936/"}],
+      "note": "当前教职不等同于 Indiana 首职的合同性质；保留首职年和岗位待任职 CV 核实。"
+    },
+    {
+      "id": "carnegie-mellon-university-jinwoo-kim",
+      "set": {"role": "Assistant Professor of Marketing", "job_kind": "faculty", "placement_year": 2023, "graduation_year": 2023, "fields": ["Consumption Utility", "Judgment and Decision Making"], "topics": ["消费者行为", "金融决策"], "undergraduate": {"institution": "Seoul National University", "region": "KR", "year": 2015}, "field_evidence": "Stevens 2023 新教员公告及个人资料确认任职、学位与消费效用/JDM 研究；CB 按内容暂定。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "官方研究描述聚焦消费效用、心理账户、享乐适应和消费者金融决策；未明确子方向标签。", "source_urls": ["https://www.stevens.edu/profile/jkim11"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "Stevens 官方教员页：岗位、研究与教育", "url": "https://www.stevens.edu/profile/jkim11"}, {"label": "Stevens 2023 新教员公告：Marketing 助理教授", "url": "https://www.stevens.edu/news/school-of-business-welcomes-exceptional-new-faculty-members"}]
+    },
+    {
+      "id": "carnegie-mellon-university-serim-hwang",
+      "set": {"aliases": ["Se Rim Hwang"], "tracks": ["marketing", "io"], "fields": ["Empirical Industrial Organization", "Influencer Business", "Unstructured Data"], "methods": ["因果推断", "深度学习", "结构模型", "贝叶斯选择模型"], "topics": ["平台与数字市场", "AI 与算法", "产业组织"], "placement_year": 2023, "graduation_year": 2023, "role": "Assistant Professor of Marketing", "job_kind": "faculty", "cv_url": "https://biz.skku.edu/gsb/Faculty_Research/GSB_Faculty.do?mode=download&sqProfessor=&sqProfessorAttach=3212", "undergraduate": {"institution": "University of Seoul", "region": "KR", "year": 2015}, "field_evidence": "本人任职 CV 明确 Empirical IO 研究方法和 SKK GSB 助理教授自 2023 起；Quant 子方向按方法暂定，而非自述项目标签。", "research_inference": {"status": "provisional", "tracks": ["qm"], "reason": "本人明确 Empirical IO、结构模型、计量和 Bayesian choice modeling，支持暂归 Quant；所查 CV 未明确 Quantitative track。", "source_urls": ["https://biz.skku.edu/gsb/Faculty_Research/GSB_Faculty.do?mode=download&sqProfessor=&sqProfessorAttach=3212"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "本人 SKK GSB 任职 CV：2023 起与研究方法", "url": "https://biz.skku.edu/gsb/Faculty_Research/GSB_Faculty.do?mode=download&sqProfessor=&sqProfessorAttach=3212"}, {"label": "SKK GSB 官方教员页", "url": "https://gsb.skku.edu/faculty/3629"}]
+    },
+    {
+      "id": "carnegie-mellon-university-samuel-levy",
+      "set": {"aliases": ["Sam Levy"], "tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Customer Analytics", "Data Fusion", "Privacy"], "methods": ["机器学习 / AI", "贝叶斯计量模型"], "topics": ["AI 与算法", "平台与数字市场"], "homepage": "https://www.levysamuel.com/", "cv_url": "https://www.darden.virginia.edu/sites/default/files/inline-files/CV_Sam_Levy_Jan_2025.pdf", "role": "Assistant Professor of Business Administration, Marketing", "job_kind": "faculty", "field_evidence": "Ohio State 官方求职报告明确列为 Quant；本人主页说明数据融合、隐私及 Bayesian 计量方法。Darden CV 的网页直连暂失败，未用毕业年填首职年。"},
+      "sources": [{"label": "本人主页：研究与任职", "url": "https://www.levysamuel.com/"}, {"label": "Ohio State 官方求职报告目录：Quant 分类", "url": "https://u.osu.edu/marketingbrownbags/"}, {"label": "Darden 保存的本人 CV（搜索可见，直连暂失败）", "url": "https://www.darden.virginia.edu/sites/default/files/inline-files/CV_Sam_Levy_Jan_2025.pdf"}]
+    }
+  ],
+  "additions": [
+    {
+      "id": "rochester-kang-huang",
+      "set": {"name": "Kang Huang", "school": "University of Rochester", "program_id": "university-of-rochester-marketing", "origin": "US", "tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Choice Frictions", "Advertising"], "methods": ["因果推断", "机器学习 / AI", "结构模型", "实验方法"], "topics": ["广告与品牌", "AI 与算法"], "market_cycle": "2026-2027", "status": "on_market", "job_kind": "on_market", "homepage": "https://sites.google.com/view/kanghuang", "undergraduate": {"institution": "University of Wisconsin-Madison", "region": "US"}, "jmp": "Can Advertising Correct Risk Beliefs? Evidence from U.S. Flood Insurance", "jmp_url": "https://sites.google.com/view/kanghuang", "jmp_evidence": "本人主页明确将该文标为 JMP。", "field_evidence": "本人主页明确 Quantitative Marketing、2026–2027 求职季、研究方法及 JMP；未把 JMC 身份当成已获得教职。"},
+      "sources": [{"label": "本人主页：明确 2026–27 求职季、方向与 JMP", "url": "https://sites.google.com/view/kanghuang"}, {"label": "Rochester 官方 Marketing JMC 名单", "url": "https://simon.rochester.edu/programs/phd/academics/marketing/job-market-candidates"}],
+      "note": "新增该校实名候选人；尚未公布去向，不计已确认就业率。旧平台另有 Jinsoul Seo 条目，因未确认具体求职季暂未据此新增。"
+    },
+    {
+      "id": "stanford-abigail-bergman",
+      "set": {"name": "Abigail Bergman", "aliases": ["Abby Bergman"], "school": "Stanford University", "program_id": "stanford-university-marketing", "origin": "US", "fields": ["Consumer Communication", "Goal Pursuit", "Narratives"], "methods": ["自然语言分析", "实验方法"], "topics": ["消费者行为", "广告与品牌"], "market_cycle": "2026-2027", "status": "on_market", "job_kind": "on_market", "homepage": "https://www.abbybergman.com/", "undergraduate": {"institution": "Smith College", "region": "US"}, "field_evidence": "Stanford 官方 2026–27 JMC 名单确认求职季；本人主页确认研究内容，CB 暂按研究内容分类。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "本人研究消费者交流、目标追求叙事、说服与心理推断，并使用实验；尚未找到明确的 Behavioral Marketing 项目标签。", "source_urls": ["https://www.abbybergman.com/"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "Stanford 官方 2026–27 JMC 名单（搜索索引可读）", "url": "https://www.gsb.stanford.edu/programs/phd/placement/job-market-candidates"}, {"label": "本人主页：研究方法与教育", "url": "https://www.abbybergman.com/"}],
+      "note": "官方 roster 中的 Dissertation Title 未标为 JMP，因此 JMP 保持待补。"
+    },
+    {
+      "id": "stanford-samuel-pertl",
+      "set": {"name": "Samuel Pertl", "aliases": ["Samuel M. Pertl"], "school": "Stanford University", "program_id": "stanford-university-marketing", "origin": "US", "fields": ["Motivation", "Judgment and Decision Making", "Benchmarking"], "methods": ["田野实验", "实验方法", "纵向研究", "元分析"], "topics": ["消费者行为", "销售管理"], "market_cycle": "2026-2027", "status": "on_market", "job_kind": "on_market", "jmp": "Motivating Goal Strugglers: Bouncing Back After Failure Through Comparative Benchmarks", "jmp_url": "https://www.gsb.stanford.edu/programs/phd/academic-experience/students/samuel-pertl", "jmp_evidence": "Stanford 本人官方 profile 的 Job Market Paper 栏明确列此题；与 roster 的 Dissertation Title 区分。", "field_evidence": "Stanford 官方 2026–27 名单及本人研究自述确认；CB 暂按心理机制、动机和 JDM 研究内容分类。", "research_inference": {"status": "provisional", "tracks": ["cb"], "reason": "本人研究动机、判断决策和比较基准的心理机制，以田野和实验室实验检验；未找到明确细分项目标签。", "source_urls": ["https://www.gsb.stanford.edu/programs/phd/academic-experience/students/samuel-pertl"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "Stanford 官方 2026–27 JMC 名单（搜索索引可读）", "url": "https://www.gsb.stanford.edu/programs/phd/placement/job-market-candidates"}, {"label": "Stanford 本人研究自述：明确 JMP（搜索索引可读）", "url": "https://www.gsb.stanford.edu/programs/phd/academic-experience/students/samuel-pertl"}]
+    },
+    {
+      "id": "south-carolina-zhenyu-jin",
+      "set": {"name": "Zhenyu Jin", "school": "University of South Carolina", "program_id": "university-of-south-carolina-marketing", "origin": "US", "fields": ["Consumer Psychology", "Product Aesthetics", "Sensory Marketing"], "tracks": ["marketing", "cb"], "methods": ["实验方法", "文本分析", "二手数据分析"], "topics": ["消费者行为", "广告与品牌"], "source_cohort_year": 2023, "source_cohort_label": "导师 CV 的 2023 博士生 placement", "graduation_year": 2023, "placement_year": 2023, "status": "placed", "destination": "Towson University", "destination_region": "US", "role": "Assistant Professor of Marketing", "job_kind": "faculty", "field_evidence": "导师 CV 明确 2023 博士生去 Towson；接收校 graduate faculty 名录列 2023 任职年，官方人物报道明确研究 consumer psychology。"},
+      "sources": [{"label": "博士委员会成员 Linyun Yang CV：2023 去向 Towson", "url": "https://sc.edu/study/colleges_schools/moore/documents/curriculum_vitae/l_yang_cv_1124.pdf"}, {"label": "Towson 官方 faculty 名录：2023 任职与 South Carolina PhD", "url": "https://catalog.towson.edu/graduate/graduate-faculty/"}, {"label": "Towson 官方人物报道：消费者心理学", "url": "https://www.towson.edu/news/articles/2025/black-friday-towson-university-marketing.html"}, {"label": "本人论文的作者简介：研究方法", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0148296325005351"}],
+      "note": "补上 South Carolina 实名记录；导师 CV 仅为去向证据，不作为此人的 cv_url。"
+    },
+    {
+      "id": "carnegie-mellon-angela-ziyan-xiao",
+      "set": {"name": "Angela Ziyan Xiao", "aliases": ["Angela Xiao", "Ziyan (Angela) Xiao"], "school": "Carnegie Mellon University", "program_id": "carnegie-mellon-university-marketing", "origin": "US", "tracks": ["marketing", "cb"], "fields": ["Consumer Behavior", "Consumer Goals", "Motivation", "Self-Control"], "methods": ["实验方法", "田野实验", "网络抓取", "机器学习 / AI"], "topics": ["消费者行为", "AI 与算法"], "source_cohort_year": 2025, "source_cohort_label": "接收院校 2025 秋新任职公告", "placement_year": 2025, "graduation_year": 2025, "status": "placed", "destination": "Vanderbilt University", "destination_region": "US", "role": "Postdoctoral Research Scholar in Marketing", "job_kind": "postdoc", "undergraduate": {"institution": "Tsinghua University", "region": "CN", "year": 2020}, "field_evidence": "Vanderbilt 2025 秋公告明确 CMU Marketing PhD、Marketing 博后及开始届别；官方本人简介明确 consumer behavior。"},
+      "sources": [{"label": "Vanderbilt 2025 秋公告：Marketing 博后、学位与本科", "url": "https://business.vanderbilt.edu/news/2025/07/25/vanderbilt-business-welcomes-new-faculty-members-fall-2025/"}, {"label": "Vanderbilt 本人官方资料：研究方向与方法", "url": "https://business.vanderbilt.edu/bio/angela-ziyanxiao/"}, {"label": "CMU 官方 2025 博士论文：姓名与学位", "url": "https://www.cmu.edu/tepper/programs/phd/program/assets/dissertations/2025-marketing-xiao-dissertation.pdf"}],
+      "note": "官方 CMU 初始 placement 表未列该人，以接收单位和学位记录交叉补入；博后与教职分别统计。博士论文题名不自动充作 JMP。"
+    },
+    {
+      "id": "carnegie-mellon-xiaohang-flora-feng",
+      "set": {"name": "Xiaohang (Flora) Feng", "aliases": ["Xiaohang Feng", "Flora Feng"], "school": "Carnegie Mellon University", "program_id": "carnegie-mellon-university-marketing", "origin": "US", "fields": ["Visual Data", "AI in Marketing", "Digital Marketplaces"], "methods": ["机器学习 / AI", "图像分析"], "topics": ["AI 与算法", "平台与数字市场"], "source_cohort_year": 2025, "source_cohort_label": "CMU 官方表的 Graduation Year", "graduation_year": 2025, "status": "placed", "destination": "City University of Hong Kong", "destination_region": "HK", "role": "Assistant Professor", "job_kind": "faculty", "undergraduate": {"institution": "Peking University", "region": "CN", "year": 2020}, "field_evidence": "CMU 官方毕业去向表确认 2025 毕业与 CityU 去向；接收院校确认助理教授，视觉数据与 AI 论文支持内容暂归 Quant，尚无明确子方向标签。", "research_inference": {"status": "provisional", "tracks": ["qm"], "reason": "本人研究以视觉数据和机器学习建模数字市场，但所查官方资料未明确 Quantitative track；不把使用 AI 直接视为已核验 Quant 标签。", "source_urls": ["https://www.cb.cityu.edu.hk/staff/xifeng/"], "checked_at": "2026-10-15"}},
+      "sources": [{"label": "CMU 官方 Marketing 初始去向表：2025 毕业", "url": "https://www.cmu.edu/tepper/programs/phd/job-market"}, {"label": "CityU 官方本人资料：助理教授与研究", "url": "https://www.cb.cityu.edu.hk/staff/xifeng/"}, {"label": "CMU 官方本人资料：博士项目与本科", "url": "https://www.cmu.edu/tepper/programs/phd/program/student-profiles/phd-student-feng-xiaohang-flora.html"}],
+      "note": "2025 是原表毕业年，具体首职开始年尚待任职 CV；未将接收院校 CityU 误记为博士来源校。"
+    },
+    {
+      "id": "carnegie-mellon-behnam-mohammadi",
+      "set": {"name": "Behnam Mohammadi", "aliases": ["Behnam Mo"], "school": "Carnegie Mellon University", "program_id": "carnegie-mellon-university-marketing", "origin": "US", "tracks": ["marketing", "qm"], "fields": ["Quantitative Marketing", "Human-AI Interaction", "AI Economics and Regulation"], "methods": ["博弈论", "机器学习 / AI", "Shapley Values"], "topics": ["AI 与算法", "公共政策"], "source_cohort_year": 2025, "source_cohort_label": "CMU 官方表的 Graduation Year", "graduation_year": 2025, "placement_year": 2025, "status": "placed", "destination": "University of Texas at Dallas", "destination_region": "US", "role": "Assistant Professor of Marketing", "job_kind": "faculty", "homepage": "https://aplaceofmind.com/", "cv_url": "https://aplaceofmind.com/cv/", "undergraduate": {"institution": "Iran University of Science and Technology", "region": "IR"}, "field_evidence": "本人网页 CV 明确 Quantitative Marketing PhD 与 UT Dallas 助理教授 2025 起；Marketing Science 官方作者介绍独立确认 Quantitative Marketing。"},
+      "sources": [{"label": "CMU 官方 Marketing 初始去向表", "url": "https://www.cmu.edu/tepper/programs/phd/job-market"}, {"label": "本人主页", "url": "https://aplaceofmind.com/"}, {"label": "本人网页 CV：方向与 2025 任职", "url": "https://aplaceofmind.com/cv/"}, {"label": "Marketing Science 官方作者介绍：Quantitative Marketing", "url": "https://pubsonline.informs.org/doi/10.1287/mksc.2025.focusonaus.v44.3"}, {"label": "UT Dallas 官方 Marketing faculty 名录", "url": "https://jsom.utdallas.edu/faculty/api.php?area=marketing"}],
+      "note": "以博士项目、接收单位和论文作者资料对齐，排除同名电气工程学者。"
+    }
+  ]
+}
