@@ -1,4 +1,5 @@
 import crypto from 'node:crypto';
+import {classifyPlacement} from '../dist/placement.js';
 
 export const digest = value => crypto.createHash('sha256').update(typeof value === 'string' ? value : JSON.stringify(value)).digest('hex');
 const unique = xs => [...new Set(xs.filter(x => x !== null && x !== undefined && x !== ''))];
@@ -133,7 +134,7 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
   for(const id of unique([...targetIds,...ioIds]))if(!audit.some(a=>a.program_id===id&&a.period===config.current_cycle)){
     const p=programs.find(x=>x.id===id);audit.push({id:id+':'+config.current_cycle,program_id:id,period:config.current_cycle,status:'not_started',roster_status:'not_started',eligibility:p?.eligibility||'pending',listed_count:null,record_ids:[],cohort_complete:false,outcome_known:0,outcome_unknown:0,outcome_complete:false,checked_at:null,sources:[],notes:'本季尚未核对；生成空核验单元不代表访问过来源。'});
   }
-  const gaps={research_missing:records.filter(r=>r.tracks.includes('marketing')&&!r.tracks.some(t=>['qm','cb','strategy'].includes(t))).map(r=>r.id),outcome_missing:records.filter(r=>r.status==='outcome_unknown').map(r=>r.id),year_missing:records.filter(r=>r.status==='placed'&&!r.placement_year).map(r=>r.id),role_missing:records.filter(r=>r.destination&&!r.role).map(r=>r.id),cv_missing:records.filter(r=>!r.cv_url).map(r=>r.id),jmp_missing:records.filter(r=>!r.jmp).map(r=>r.id)};
+  const gaps={research_missing:records.filter(r=>r.tracks.includes('marketing')&&!r.tracks.some(t=>['qm','cb','strategy'].includes(t))).map(r=>r.id),outcome_missing:records.filter(r=>r.status==='outcome_unknown').map(r=>r.id),year_missing:records.filter(r=>r.status==='placed'&&!r.placement_year).map(r=>r.id),role_missing:records.filter(r=>r.destination&&classifyPlacement(r)==='unknown').map(r=>r.id),title_missing:records.filter(r=>r.destination&&!r.role).map(r=>r.id),cv_missing:records.filter(r=>!r.cv_url).map(r=>r.id),jmp_missing:records.filter(r=>!r.jmp).map(r=>r.id)};
   const conflictClaims=claims.filter(c=>c.status==='conflict'||c.conflict);
   const notesConflicts=records.filter(r=>/conflict|冲突|差异|顺序.*待|顺序.*未知/i.test(r.notes||'')).map(r=>({id:r.id+':legacy_conflict',person_id:r.id,field:'notes',value:r.notes,status:'review_required',source_urls:urls(r.sources),quote:null,checked_at:r.checked_at,conflict:'历史备注含差异或冲突，尚未统一字段级裁决。'}));
   const freshness=records.map(r=>({person_id:r.id,checked_at:r.checked_at||null,age_days:r.checked_at?Math.floor((today-Date.parse(r.checked_at+'T00:00:00Z'))/86400000):null}));
