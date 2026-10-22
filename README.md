@@ -2,11 +2,12 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-版本 1.0.4，观察截至 2026-10-22。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
+界面版本 1.1.0（2026-10-23 英文信息架构改版）；数据版本 1.0.4，观察截至 2026-10-22。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
 
 ## 网站功能
 
-- 概览、人员名录、当季求职、中国地区观察、独立教师档案、项目年度覆盖矩阵与统计说明。
+- 英文任务首页：PhD placements / Faculty directory / Open positions 三类独立数据入口；导航分为 Explore / Analyze / Understand the data。
+- 人员名录、当季求职、地区观察、项目年度覆盖矩阵与英文统计说明；常用四项筛选与高级口径分离。
 - 来源名单年、毕业年、求职季、首职年独立筛选；支持完整名册及 tenure 证据状态筛选。
 - 2—5 项目比较：同一时间和方向口径，报告样本、未知、最终安排及首职回退。
 - 培养项目 → 研究方向 → 接收机构 / 院系流向图及可核对的人员明细表。
@@ -14,7 +15,9 @@
 - 公开招聘公告筛选及去重，招聘人数未公布时为未知，过期与当前岗位分开。
 - 数据质量、历史基线变化、来源新鲜度、冲突与待核验队列。
 - URL 保存筛选、个人固定链接、CSV / JSON 导出，导出保留口径和证据引用。
-- 教师反查默认展示院校进度：五地区范围、逐校状态、核验详情、最近核验和资料缺口；可切换教师档案，分享当前筛选并导出院校进度。
+- 教师反查默认进入 People：四项主筛选、高级筛选与20人分页；School coverage 单独呈现五地区逐校状态、核验详情和具体缺口。既有进度 URL、人员固定链接及导出保持兼容。
+
+英文界面使用说明及改版验证见 [UI guide](docs/UI_GUIDE.md)。原始来源标题、引文、研究者自述与核验备注保留原文，不改变证据日期。
 
 ## 本地运行与验证
 

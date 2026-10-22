@@ -1,8 +1,8 @@
-import {placementOf,placementSummary} from './placement.js?v=1.0.0';
+import {placementOf,placementSummary} from './placement.js?v=1.1.0';
 
 export const TRACK_LABELS={qm:'Quant Mkt',cb:'Consumer Behavior',strategy:'Marketing Strategy',io:'IO',empirical_io:'Empirical IO',theory_io:'Theory IO'};
-export const SIGNAL_LABELS={explicit_interest:'本人公开求职意向',recruiting_event:'明确标注的招聘活动',academic_exchange:'一般学术交流 · 非求职证据'};
-export const QUALITY_OPTIONS={all:'全部核验状态',research_missing:'Marketing 方向待细分',provisional:'有暂定研究方向',outcome_missing:'首职 / 任职路径待核验',year_missing:'已有首职，年份待核验',role_missing:'已有机构，岗位类别待核验'};
+export const SIGNAL_LABELS={explicit_interest:'Self-reported job-search interest',recruiting_event:'Explicitly identified recruiting event',academic_exchange:'Academic exchange · not job-search evidence'};
+export const QUALITY_OPTIONS={all:'All verification statuses',research_missing:'Marketing area unclassified',provisional:'Provisional research classification',outcome_missing:'First job / career path unverified',year_missing:'First job recorded · year unverified',role_missing:'Employer recorded · job type unverified'};
 export function provisionalTracks(r){return r.research_inference?.status==='provisional'?r.research_inference.tracks||[]:[]}
 export function effectiveTracks(r,mode='standard'){const archived=[...new Set([...r.tracks,...(r.research?.tracks||[])])];return mode==='include_provisional'?[...new Set([...archived,...provisionalTracks(r)])]:archived}
 export function researchMissing(r){return r.tracks.includes('marketing')&&!r.tracks.some(t=>['qm','cb','strategy'].includes(t))}

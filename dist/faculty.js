@@ -1,7 +1,10 @@
-import {csvCell} from './core.js?v=1.0.0';
+import {csvCell} from './core.js?v=1.1.0';
 
-export const GRAD_GROUPS={recent:'近四年博士',historical:'较早毕业博士',newer:'较新博士年份',unknown:'博士年份待核验'};
-export const ORIGIN_GROUPS={target:'目标 58 项目',extension:'四地区扩展项目',outside:'博士来源范围外',unknown:'博士来源待核验'};
+export const GRAD_GROUPS={recent:'PhD awarded in the archive window',historical:'PhD awarded before the archive window',newer:'PhD awarded after the archive window',unknown:'PhD award year unknown'};
+export const ORIGIN_GROUPS={target:'Within the 58-program Marketing scope',extension:'Other programs in the US, Canada, Hong Kong or Singapore',outside:'Outside the doctoral-program scope',unknown:'Doctoral origin unknown'};
+export const FACULTY_TYPES={research:'Research faculty',teaching:'Teaching faculty',practice:'Practice faculty',adjunct:'Adjunct',emeritus:'Emeritus',honorary:'Honorary',visiting:'Visiting faculty',research_appointment:'Research appointment · separate track',research_membership_pending:'Research membership under review',joint_research:'Joint research appointment',affiliated_research:'Affiliated research faculty'};
+export const FACULTY_REGIONS={US:'United States',CA:'Canada',HK:'Hong Kong',SG:'Singapore',CN:'Mainland China',UK:'United Kingdom',GB:'United Kingdom',AU:'Australia',TW:'Taiwan',DE:'Germany',FR:'France',NL:'Netherlands',BE:'Belgium',CH:'Switzerland',IT:'Italy',ES:'Spain',IN:'India',IL:'Israel',KR:'South Korea',JP:'Japan'};
+export const facultyRegion=value=>FACULTY_REGIONS[value]||value||'Unknown';
 export function graduationGroup(person,years){
  const y=person.phd?.year;
  if(!Number.isInteger(y))return 'unknown';
@@ -18,8 +21,8 @@ export function originGroup(person,catalog){
 export function receivingSchools(catalog){
  return [...catalog.scope.ranking.rows,...catalog.scope.asia].map(r=>({id:r.program_id,school:r.school,region:r.region})).concat(catalog.faculty.receiving_scope.mainland);
 }
-export const CHECK_STATES={not_started:'尚未开始',partial:'名单 / 履历部分核验',complete:'官方目录已对齐',blocked:'资料受限',needs_review:'完整性待复核'};
-export const hasDatedCareer=p=>(p.career_events||[]).some(e=>e.institution&&(e.role||e.title)&&(e.start_date||e.end_date||Number.isInteger(e.start_year)||Number.isInteger(e.end_year)));
+export const CHECK_STATES={not_started:'Not started',partial:'Partially checked',complete:'Directory reconciled',blocked:'Source access limited',needs_review:'Completeness under review'};
+export const hasDatedCareer=p=>(p.career_events||[]).some(e=>e.institution&&(e.role||e.title)&&(e.start_date||e.end_date||e.start||e.end||Number.isInteger(e.start_year)||Number.isInteger(e.end_year)));
 export const facultyHasConflict=p=>(p.unknowns||[]).some(g=>/冲突|conflict|不一致|不同/.test(typeof g==='string'?g:g.reason||''))||(p.phd?.reported_years?.length||0)>1||(p.conflicts||[]).some(c=>c.status!=='resolved'&&!p.resolved_conflicts?.some(r=>r.field===c.field));
 // An individual profile never establishes the size or completeness of a department.
 export function receivingProgress(catalog){
@@ -42,25 +45,28 @@ export function filterReceivingSchools(schools,filters){
   if(filters.region&&!['all','overseas'].includes(filters.region)&&h.region!==filters.region)return false;
   if(filters.state==='started'&&!h.started)return false;
   if(filters.state&&!['all','started'].includes(filters.state)&&h.state!==filters.state)return false;
-  return words.every(w=>[h.school,h.label,h.region,...h.people.flatMap(p=>[p.name,...p.aliases])].join(' ').toLowerCase().includes(w));
+  return words.every(w=>[h.school,h.label,h.region,facultyRegion(h.region),...h.people.flatMap(p=>[p.name,...(p.aliases||[])])].join(' ').toLowerCase().includes(w));
  });
  return rows.sort((a,b)=>filters.sort==='name'?a.school.localeCompare(b.school):Number(b.started)-Number(a.started)||(b.checked_at||'').localeCompare(a.checked_at||'')||a.school.localeCompare(b.school));
 }
 export function receivingCsv(schools){
- const rows=[['院校 ID','院校','地区','核验状态','已收录教师（未启动为未知）','已关联 placement（未启动为未知）','整系名单人数（未经确认则未知）','最近个案或院校核验日期','核验说明','院校核验来源']];
- for(const h of schools)rows.push([h.id,h.label||h.school,h.region,CHECK_STATES[h.state],h.started?h.people.length:'未知',h.started?h.linked:'未知',h.roster_total??'未知',h.checked_at||'未核验',h.check?.notes||'尚无院校核验记录',(h.check?.sources||[]).map(s=>s.url).join('; ')]);
+ const rows=[['School ID','School','Region','Verification status','Faculty records (unknown if not started)','Linked placement records (unknown if not started)','Roster size (unknown unless confirmed)','Latest individual or school check','Original source notes','School evidence URLs','Roster scope (source wording)','Roster checked at','Roster evidence (JSON)']];
+ for(const h of schools)rows.push([h.id,h.school||h.label,h.region,CHECK_STATES[h.state],h.started?h.people.length:'Unknown',h.started?h.linked:'Unknown',h.roster_total??'Unknown',h.checked_at||'Not checked',h.check?.notes||'No school-level check recorded',(h.check?.sources||[]).map(s=>s.url).join('; '),h.check?.roster?.scope||'',h.check?.roster?.checked_at||'',JSON.stringify(h.check?.roster?.evidence||[])]);
  return '\uFEFF'+rows.map(r=>r.map(csvCell).join(',')).join('\r\n');
 }
 export function filterFaculty(people,filters,catalog){
  const words=(filters.q||'').toLowerCase().trim().split(/\s+/).filter(Boolean);
- return people.filter(p=>{
+ const rows=people.filter(p=>{
   if(filters.id&&p.id!==filters.id)return false;
   if(filters.region==='overseas'&&!['US','CA','HK','SG'].includes(p.current.region))return false;
   if(filters.region&&!['all','overseas'].includes(filters.region)&&p.current.region!==filters.region)return false;
   if(filters.host&&filters.host!=='all'&&p.host_id!==filters.host)return false;
   if(filters.grad&&filters.grad!=='all'&&graduationGroup(p,catalog.history_years)!==filters.grad)return false;
   if(filters.origin&&filters.origin!=='all'&&originGroup(p,catalog)!==filters.origin)return false;
-  if(filters.track&&filters.track!=='all'&&!p.tracks.includes(filters.track))return false;
+  if(filters.track&&filters.track!=='all'&&!(p.tracks||[]).includes(filters.track))return false;
+  if(filters.degreeYear&&filters.degreeYear!=='all'&&String(p.phd?.year)!==String(filters.degreeYear))return false;
+  if(filters.career==='dated'&&!hasDatedCareer(p))return false;
+  if(filters.career==='missing'&&hasDatedCareer(p))return false;
   if(filters.type&&filters.type!=='all'&&(p.faculty_type||'research')!==filters.type)return false;
   if(filters.gap==='degree_school'&&p.phd?.school)return false;
   if(filters.gap==='career'&&hasDatedCareer(p))return false;
@@ -70,14 +76,17 @@ export function filterFaculty(people,filters,catalog){
   if(filters.gap==='unlinked'&&p.placement_id)return false;
   if(filters.gap==='linked'&&!p.placement_id)return false;
   if(filters.gap==='conflict'&&!facultyHasConflict(p))return false;
-  if(filters.gap==='degree_added'&&!catalog.faculty_followup_update?.existing.degree_year_ids.includes(p.id))return false;
-  if(filters.gap==='career_added'&&!catalog.faculty_followup_update?.existing.dated_career_ids.includes(p.id))return false;
-  const text=[p.name,...p.aliases,p.current.institution,p.current.role,p.phd?.school,p.phd?.program,...p.fields].join(' ').toLowerCase();
+  if(filters.gap==='degree_added'&&!catalog.faculty_followup_update?.existing.degree_year_ids?.includes(p.id))return false;
+  if(filters.gap==='career_added'&&!catalog.faculty_followup_update?.existing.dated_career_ids?.includes(p.id))return false;
+  const text=[p.name,...(p.aliases||[]),p.current.institution,p.current.role,facultyRegion(p.current.region),p.phd?.school,p.phd?.program,...(p.fields||[])].join(' ').toLowerCase();
   return words.every(w=>text.includes(w));
  });
+ if(filters.sort==='name')rows.sort((a,b)=>a.name.localeCompare(b.name)||a.id.localeCompare(b.id));
+ if(filters.sort==='checked')rows.sort((a,b)=>(b.checked_at||'').localeCompare(a.checked_at||'')||a.name.localeCompare(b.name));
+ return rows;
 }
 export function facultyCsv(people,catalog){
- const rows=[['姓名','公开别名','当前任职机构','当前任职地区','当前职位','当前职级开始年（非首职年）','博士院校','博士项目','博士毕业年','毕业年份分类','博士来源分类','研究方向','已关联 placement ID','个人主页','本人 CV','核验日期','备注','来源','教师类型','学位核验状态','到岗状态','履历片段（JSON）','具体缺口（JSON）','字段证据（JSON）','批次 ID','博士日期精度','其他学位（JSON）','本轮补查（JSON）','博士年线索（未核定）']];
- for(const p of people)rows.push([p.name,p.aliases.join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],p.fields.join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,p.sources.map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||p.phd?.status||'见证据',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources),p.import_batch_id,p.phd?.date_precision||'year_or_unknown',JSON.stringify(p.additional_degrees||[]),JSON.stringify({followup:p.followup_review||null,previous:p.backfill_review||null}),p.phd?.reported_year]);
+ const rows=[['Name','Public aliases','Current institution','Current region','Official title (source wording)','Current rank start year (not first-job year)','PhD institution','PhD program','PhD award year','Degree-year group','Doctoral origin group','Research (source wording)','Linked placement ID','Homepage','CV','Checked at','Original source notes','Source URLs','Faculty type','Degree evidence status','Appointment status','Career segments (JSON)','Gaps and conflicts (JSON)','Field evidence (JSON)','Import batch ID','PhD date precision','Other degrees (JSON)','Followup review (JSON)','Reported PhD year (unverified)']];
+ for(const p of people)rows.push([p.name,(p.aliases||[]).join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],(p.fields||[]).join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,(p.sources||[]).map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||p.phd?.status||'See field evidence',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources||[]),p.import_batch_id,p.phd?.date_precision||'year_or_unknown',JSON.stringify(p.additional_degrees||p.other_degrees||[]),JSON.stringify({followup:p.followup_review||null,previous:p.backfill_review||null}),p.phd?.reported_year]);
  return '\uFEFF'+rows.map(r=>r.map(csvCell).join(',')).join('\r\n');
 }

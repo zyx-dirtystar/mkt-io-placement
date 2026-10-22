@@ -39,7 +39,7 @@ test('final arrangements expose fallback and preserve first employment',()=>{
 test('CSV preserves evidence and export scope, and neutralizes formulas',()=>{
  const row=csvRows([person],'first','standard',{yearBasis:'source',year:'2023'})[0];
  assert.equal(row.length,CSV_HEADERS.length);
- assert.equal(row[CSV_HEADERS.indexOf('Tenure状态')],'unknown');
+ assert.equal(row[CSV_HEADERS.indexOf('Tenure status')],'unknown');
  assert.match(row.at(-1),/2023/);
  for(const value of ['=HYPERLINK("x")','+1','@x','-1','\t=1'])assert.ok(buildCsv([{...person,name:value}]).includes('"\''+value.replaceAll('"','""')+'"'));
 });

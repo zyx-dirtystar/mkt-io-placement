@@ -16,7 +16,7 @@ test('unstarted schools have unknown denominators; individual records only start
  assert.equal(rows[0].state,'partial');assert.equal(rows[0].checked_at,'2026-10-22');assert.equal(rows[0].missing_year,1);
  assert.equal(rows[1].state,'not_started');assert.equal(rows[1].roster_total,null);assert.equal(rows[1].checked_at,null);
  c.faculty.people.push({...c.faculty.people[0]});assert.equal(receivingProgress(c)[0].people.length,1);
- const csv=receivingCsv(rows);assert.match(csv,/未知/);assert.ok(csv.split('\r\n')[1].includes('"1","0","未知"'));assert.ok(csv.split('\r\n')[2].includes('"未知","未知","未知"'));
+ const csv=receivingCsv(rows);assert.match(csv,/Unknown/);assert.ok(csv.split('\r\n')[1].includes('"1","0","Unknown"'));assert.ok(csv.split('\r\n')[2].includes('"Unknown","Unknown","Unknown"'));
 });
 test('complete status alone never confirms a department roster, nor does a foreign person ID',()=>{
  const c=fixture();c.faculty.receiving_checks=[{host_id:'a',status:'complete',checked_at:'2026-10-20',sources:[]}];

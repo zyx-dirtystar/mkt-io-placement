@@ -1,11 +1,11 @@
-import {effectiveTracks,qualityMatches} from './evidence.js?v=1.0.0';
-import {placementOf,placementSummary,rankMatches} from './placement.js?v=1.0.0';
+import {effectiveTracks,qualityMatches} from './evidence.js?v=1.1.0';
+import {placementOf,placementSummary,rankMatches} from './placement.js?v=1.1.0';
 let COVERAGE=[];
 export let CONFIG={currentCycle:'2026-2027',historyYears:[2023,2024,2025,2026]};
 export function configure(config){if(!/^20\d{2}-20\d{2}$/.test(config.currentCycle)||!Array.isArray(config.historyYears)||!config.historyYears.every(Number.isInteger))throw new Error('Invalid archive configuration');CONFIG=config;COVERAGE=config.coverage||[]}
-export const REGIONS={US:'美国',CA:'加拿大',HK:'香港',SG:'新加坡',CN:'中国大陆',TW:'台湾',MO:'澳门',JP:'日本',FR:'法国',DE:'德国',ES:'西班牙',IT:'意大利',VN:'越南',UY:'乌拉圭',IR:'伊朗',TR:'土耳其',UK:'英国',EU:'欧洲',AU:'澳大利亚',KR:'韩国',IL:'以色列',IN:'印度',KW:'科威特',PT:'葡萄牙',NZ:'新西兰',RU:'俄罗斯',OTHER:'其他地区',UNKNOWN:'未核验'};
-export const JOBS={faculty:'教职 · 轨道未核验',tt:'终身轨教职',non_tt:'非终身轨教职',postdoc:'博士后',industry:'企业',government:'政府 / 公共机构',research:'研究机构',other:'业界及其他',deferred:'延期',unknown:'岗位类别未核验',on_market:'当季求职中'};
-export const BG={all:'全部背景',cn_national:'中国公民 · 公开确认',cn_heritage:'华裔 · 本人公开自述',ug_cn:'本科在中国大陆',ug_hk:'本科在香港',ug_tw:'本科在台湾',ug_other:'本科在其他地区',ug_unknown:'本科地区未核验'};
+export const REGIONS={US:'United States',CA:'Canada',HK:'Hong Kong',SG:'Singapore',CN:'Mainland China',TW:'Taiwan',MO:'Macao',JP:'Japan',FR:'France',DE:'Germany',ES:'Spain',IT:'Italy',VN:'Vietnam',UY:'Uruguay',IR:'Iran',TR:'Türkiye',UK:'United Kingdom',EU:'Europe',AU:'Australia',KR:'South Korea',IL:'Israel',IN:'India',KW:'Kuwait',PT:'Portugal',NZ:'New Zealand',RU:'Russia',OTHER:'Other regions',UNKNOWN:'Unverified'};
+export const JOBS={faculty:'Faculty · tenure status unverified',tt:'Academic faculty · includes inferred cases',non_tt:'Non-tenure-track faculty',postdoc:'Postdoc',industry:'Industry',government:'Government / public agency',research:'Research institution',other:'Industry / other',deferred:'Deferred',unknown:'Job type unverified',on_market:'On the current job market'};
+export const BG={all:'All backgrounds',cn_national:'Chinese citizen · publicly confirmed',cn_heritage:'Chinese heritage · self-reported',ug_cn:'Undergraduate degree in Mainland China',ug_hk:'Undergraduate degree in Hong Kong',ug_tw:'Undergraduate degree in Taiwan',ug_other:'Undergraduate degree in another region',ug_unknown:'Undergraduate region unverified'};
 export const JOB_COLORS={faculty:'#208b78',tt:'#165c4f',non_tt:'#8eb9ac',postdoc:'#8a94ce',industry:'#d49d56',government:'#617c94',research:'#afbcc4',unknown:'#dfe4e8',on_market:'#829ea0'};
 export function backgroundMatches(r,bg){const u=r.undergraduate?.region;if(bg==='all')return true;if(bg==='cn_national')return r.identity?.chinese_national?.value==='yes';if(bg==='cn_heritage')return r.identity?.chinese_heritage?.value==='yes';if(bg==='ug_unknown')return !u||u==='UNKNOWN';if(bg==='ug_other')return !!u&&!['CN','HK','TW','UNKNOWN'].includes(u);return u===({ug_cn:'CN',ug_hk:'HK',ug_tw:'TW'}[bg]);}
 export function needsOutcomeReview(r){return r.status==='outcome_unknown'||r.status==='placed'&&!r.placement_year}
