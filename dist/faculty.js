@@ -19,6 +19,7 @@ export function receivingSchools(catalog){
  return [...catalog.scope.ranking.rows,...catalog.scope.asia].map(r=>({id:r.program_id,school:r.school,region:r.region})).concat(catalog.faculty.receiving_scope.mainland);
 }
 export const CHECK_STATES={not_started:'尚未开始',partial:'名单 / 履历部分核验',complete:'官方目录已对齐',blocked:'资料受限',needs_review:'完整性待复核'};
+export const hasDatedCareer=p=>(p.career_events||[]).some(e=>e.institution&&(e.role||e.title)&&(e.start_date||e.end_date||Number.isInteger(e.start_year)||Number.isInteger(e.end_year)));
 // An individual profile never establishes the size or completeness of a department.
 export function receivingProgress(catalog){
  const people=[...new Map(catalog.faculty.people.map(p=>[p.id,p])).values()];
@@ -61,7 +62,7 @@ export function filterFaculty(people,filters,catalog){
   if(filters.track&&filters.track!=='all'&&!p.tracks.includes(filters.track))return false;
   if(filters.type&&filters.type!=='all'&&(p.faculty_type||'research')!==filters.type)return false;
   if(filters.gap==='degree_school'&&p.phd?.school)return false;
-  if(filters.gap==='career'&&p.career_events?.length)return false;
+  if(filters.gap==='career'&&hasDatedCareer(p))return false;
   if(filters.gap==='degree_year'&&Number.isInteger(p.phd?.year))return false;
   if(filters.gap==='cv'&&p.cv_url)return false;
   if(filters.gap==='role_year'&&Number.isInteger(p.current.start_year))return false;
@@ -72,7 +73,7 @@ export function filterFaculty(people,filters,catalog){
  });
 }
 export function facultyCsv(people,catalog){
- const rows=[['姓名','公开别名','当前任职机构','当前任职地区','当前职位','当前职级开始年（非首职年）','博士院校','博士项目','博士毕业年','毕业年份分类','博士来源分类','研究方向','已关联 placement ID','个人主页','本人 CV','核验日期','备注','来源','教师类型','学位核验状态','到岗状态','履历片段（JSON）','具体缺口（JSON）','字段证据（JSON）','批次 ID']];
- for(const p of people)rows.push([p.name,p.aliases.join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],p.fields.join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,p.sources.map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||'见证据',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources),p.import_batch_id]);
+ const rows=[['姓名','公开别名','当前任职机构','当前任职地区','当前职位','当前职级开始年（非首职年）','博士院校','博士项目','博士毕业年','毕业年份分类','博士来源分类','研究方向','已关联 placement ID','个人主页','本人 CV','核验日期','备注','来源','教师类型','学位核验状态','到岗状态','履历片段（JSON）','具体缺口（JSON）','字段证据（JSON）','批次 ID','博士日期精度','其他学位（JSON）','本轮补查（JSON）']];
+ for(const p of people)rows.push([p.name,p.aliases.join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],p.fields.join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,p.sources.map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||'见证据',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources),p.import_batch_id,p.phd?.date_precision||'year_or_unknown',JSON.stringify(p.additional_degrees||[]),JSON.stringify(p.backfill_review||null)]);
  return '\uFEFF'+rows.map(r=>r.map(csvCell).join(',')).join('\r\n');
 }

@@ -22,6 +22,15 @@ test('Assistant Professor is an academic title with unknown tenure; current tenu
   assert.deepEqual(appointment('Assistant Professor','faculty'),{job_family:'academic',tenure_status:'unknown',tenure_evidence_status:'inferred'});
   assert.equal(appointment('Assistant Professor (non-tenure-track)','faculty').tenure_status,'non_tt');
   const input=template();input.records[0].current_tenure={status:'tt'};assert.equal(buildObservatory(input).events.find(e=>e.type==='first_job').tenure_status,'unknown');
+  assert.equal(appointment('Associate Professor (untenured)').tenure_status,'unknown');
+  assert.equal(appointment('Associate Professor (without Tenure)').tenure_status,'unknown');
+});
+
+test('faculty backfill preserves month precision, earlier event checks, and distinct earned doctorates',()=>{
+ const input=template();input.records=[];input.faculty={people:[{id:'f',name:'Faculty',aliases:[],tracks:[],sources:[{url:'https://official.example/cv',supports:['phd.year'],quote:'PhD 2012-06'}],checked_at:'2026-10-22',phd:{school:'A University',year:2012,date:'2012-06'},career_events:[{institution:'B University',role:'Assistant Professor',start_year:2013,checked_at:'2025-04-01',source_urls:['https://official.example/old-cv']}],additional_degrees:[{degree:'PhD',school:'C University',program:'History',year:2005,date:'2005-12',source_urls:['https://official.example/second-degree']}]}]};
+ const d=buildObservatory(input),g=d.events.find(e=>e.type==='graduation');assert.equal(g.start,'2012-06');assert.equal(g.date_precision,'month');
+ assert.equal(d.events.find(e=>e.type==='appointment').checked_at,'2025-04-01');
+ assert.equal(d.events.filter(e=>e.type==='graduation').length,1);assert.equal(d.events.find(e=>e.type==='additional_degree').start,'2005-12');assert.deepEqual(validateObservatory(d),[]);
 });
 test('missing role categories differ from missing title strings and use the same chart classification',()=>{
   const input=template();input.records[0].destination='Company';input.records[0].role=null;input.records[0].job_kind='industry';

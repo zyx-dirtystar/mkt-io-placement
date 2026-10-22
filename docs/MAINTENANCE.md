@@ -122,3 +122,13 @@ HTML 提取可读文本并忽略脚本、样式和标签变化。PDF 保留原�
 `receiving_checks.status` 支持 `partial`、`blocked`、`needs_review` 和 `complete`。整系对齐须明确提供 `roster`：`status: confirmed_complete`、`scope`（院系、在职类型及排除规则）、`checked_at`（名单观察日）、`member_ids`（已入库人员 ID，去重且属于该院校）及 `evidence`（含 URL 和支持完整性判断的原文 `quote`）。单独写 `complete` 不会升级展示；校验会拒绝缺少这些依据的发布。明确核实的空名单可用空成员数组和完整性证据表达，未知人数则保持 null。个人现职变动不自动更新完整名单的观察日。
 
 资料缺口的分母仅为已收录教师；未关联 placement 的历史教师继续独立保留。网页变化监测不产生新的事实、院校核验或人数，仍需核验后提交 `data/faculty.json`，运行生成与校验并发布。可运行 `node --test tests/faculty-progress.test.mjs` 检查范围、未知值、完整性门槛、状态筛选与导出。
+
+## 北美46校批次与授位年补查（2026-10-22）
+
+本轮可复现基线为 `data/faculty-baseline-na-2026-10-22.json`，固定保存原406人ID、博士年、职业片段数量与308条placement的时间和去向事实。三个北美研究批次及两个既有档案补查批次位于 `data/research-updates/`，已在 `faculty.json.import_batches` 登记；再次导入相同内容无变化，不能修改已应用批次后重跑。
+
+`node scripts/faculty-na-report.mjs` 从当前权威数据重新生成北美逐校审计与既有档案变化。`sync-data.mjs` 自动执行该报告，并将汇总送到网站；不要运行旧 `faculty-report.mjs` 覆盖上一轮日期审计。测试 `scripts/tests/faculty-expansion.test.mjs` 检查46校、原有稳定ID及首职/最终安排没有被接收端教师数据改写。
+
+已发布人员的主页更换时可用 `existing_faculty_id`，必须提供同一接收机构及 `identity_evidence.basis/source_urls`。仅姓名相似不能合并。博士 `date` 保留月/日精度，`defense_year` 和 `reported_dissertation_year` 不生成授位事件；确有第二个博士学位用 `additional_degrees`，不可把访问或联合培养作为第二学位。
+
+职业片段的旧 `checked_at` 不随新批次刷新。只有现职目录且没有起止日期的片段不计入“有日期履历”，博士年、入职年和职级开始年不能互相替代。部分目录只证明某类在职研究教师，教学、荣休、访问、跨系身份的纳入/排除及目录陈旧问题须逐校记录。
