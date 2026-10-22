@@ -1,0 +1,25 @@
+[
+  {
+    "id": "public-evidence-2026-10-22",
+    "sha256": "6c6f0edb5c9ecdb624dcb574ade7583ab0476118a5e0639fdb46287a9165b5b6",
+    "checked_at": "2026-10-22",
+    "applied_at": "2026-10-22T07:30:01.486Z",
+    "status": "verified_existing_manual_merge",
+    "updates": [
+      "chicago-daniel-katz",
+      "university-of-california-san-diego-gal-smitizsky",
+      "university-of-california-san-diego-kohei-hayashida",
+      "university-of-texas-at-dallas-reza-roshangarzadeh",
+      "university-of-texas-at-austin-tushmit-hasan",
+      "washington-university-in-st-louis-chengyao-sun",
+      "university-of-texas-at-dallas-ehsan-saremi",
+      "chicago-shweta-desiraju",
+      "chicago-yuxiao-li",
+      "penn-anna-gao",
+      "texas-a-m-university-soo-hyung-ralph-park",
+      "cuhk-nan-iris-xue",
+      "nus-sijin-chen"
+    ],
+    "additions": []
+  }
+]

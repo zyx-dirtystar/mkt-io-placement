@@ -1,0 +1,10 @@
+{
+  "as_of": "2026-10-22T07:16:26.236Z",
+  "checked": 8,
+  "changed": 0,
+  "unavailable": 2,
+  "success": 6,
+  "state_path": "data/maintenance-sources.json",
+  "snapshot_directory": "data/source-snapshots",
+  "pending_review": 2
+}

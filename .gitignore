@@ -7,3 +7,10 @@ Thumbs.db
 *.log
 *.tar.gz
 *.zip
+.batch-import.lock
+.batch-transaction-*/
+data/source-snapshots/
+
+dist/data/observatory.json
+dist/data/quality-report.json
+dist/data/release-report.json

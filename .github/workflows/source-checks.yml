@@ -1,0 +1,58 @@
+name: Monitor public evidence sources
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum URLs to check in this run
+        required: false
+        default: '40'
+  schedule:
+    - cron: '20 1 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-source-monitor
+  cancel-in-progress: false
+
+jobs:
+  evidence-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Restore prior hashes and historical snapshots
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/maintenance-sources.json
+            data/maintenance-queue.json
+            data/source-snapshots
+          key: evidence-snapshots-${{ github.run_id }}
+          restore-keys: evidence-snapshots-
+      - name: Check a bounded rotating sample of public sources
+        env:
+          SOURCE_LIMIT: ${{ inputs.limit || '40' }}
+        run: node scripts/check-sources.mjs --limit="$SOURCE_LIMIT" --concurrency=3
+      - name: Generate review-only report
+        if: always()
+        run: |
+          node scripts/sync-data.mjs
+          node scripts/release-report.mjs
+      - name: Preserve evidence monitor report and source snapshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-evidence-review-${{ github.run_id }}
+          retention-days: 90
+          path: |
+            data/maintenance-*.json
+            data/source-snapshots
+            dist/data/release-report.json
+            dist/data/observatory.json
+            reports/UPDATE.md

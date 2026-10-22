@@ -159,5 +159,23 @@
       }
     ],
     "checked_at": "2026-10-16"
+  },
+  {
+    "id": "nus-sijin-chen-current-conflict",
+    "person_id": "nus-sijin-chen",
+    "name": "Sijin Chen",
+    "kind": "conflict",
+    "reason": "NUS初始placement表为2025 Postdoc，本人2025-09 CV在教育栏列2024起Principal Researcher并同时列2024访问学生；需辨明研究员/访问/博后身份及具体日期，暂不覆写首职。",
+    "sources": [
+      {
+        "label": "NUS官方初始placement表",
+        "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+      },
+      {
+        "label": "本人CV",
+        "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf"
+      }
+    ],
+    "checked_at": "2026-10-22"
   }
 ]

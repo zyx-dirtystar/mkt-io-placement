@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {classifyPlacement,placementOf,placementSummary,institutionRegion,sortRecords,rankMatches} from '../dist/placement.js';
+import {classifyPlacement,placementOf,placementSummary,institutionRegion,sortRecords,rankMatches,OUTCOMES} from '../dist/placement.js';
 import {filterRecords} from '../dist/core.js';
 import {buildCsv,csvRows,CSV_HEADERS} from '../dist/export.js';
 const job=(role,destination_region='US',extra={})=>({destination:'Example University',role,destination_region,...extra});
@@ -31,7 +31,7 @@ assert.equal(placementSummary([]).facultyShare,null);assert.equal(placementSumma
 assert.equal(placementOf({...example,final_placement:{...example.final_placement,year:2027,status:'announced_future'}}).category,'tt','Announced future faculty is not a deferred job-market return');
 const ranked=[{...example,name:'Unranked',origin_rank:null},{...example,name:'Rank 25',origin_rank:25},{...example,name:'Rank 2',origin_rank:2}];
 assert.deepEqual(sortRecords(ranked,'rank').map(r=>r.origin_rank),[2,25,null]);assert.equal(rankMatches(ranked[0],'10'),false);assert.equal(rankMatches(ranked[1],'25'),true);assert.equal(rankMatches(ranked[0],'unranked'),true);
-const row=csvRows([example])[0];assert.equal(row.length,CSV_HEADERS.length);assert.equal(row[CSV_HEADERS.indexOf('统计分类')],'教职（终身轨口径）');assert.equal(csvRows([example],'first')[0][CSV_HEADERS.indexOf('统计分类')],'博后');
+const row=csvRows([example])[0];assert.equal(row.length,CSV_HEADERS.length);assert.equal(row[CSV_HEADERS.indexOf('统计分类')],OUTCOMES.tt);assert.equal(csvRows([example],'first')[0][CSV_HEADERS.indexOf('统计分类')],OUTCOMES.postdoc);
 assert.ok(buildCsv([{...example,name:'=SUM(1,2)'}]).includes('"\'=SUM(1,2)"'),'CSV formula protection');assert.ok(buildCsv([{...example,name:'A "B", C'}]).includes('"A ""B"", C"'),'CSV escaping');
 const records=JSON.parse(fs.readFileSync('dist/data/records.json','utf8')),catalog=JSON.parse(fs.readFileSync('dist/data/catalog.json','utf8'));
 for(const r of records){

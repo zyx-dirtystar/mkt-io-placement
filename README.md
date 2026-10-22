@@ -1,70 +1,60 @@
-# mkt-io-placement · Market Observatory
+# Market Observatory · Marketing / Economics IO
 
-Placement about mkt and IO PhD
+[在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-[网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [源代码与数据](https://github.com/zyx-dirtystar/mkt-io-placement) · [发布状态](https://github.com/zyx-dirtystar/mkt-io-placement/actions)
+版本 1.0.0，观察截至 2026-10-22。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
 
-Marketing 全方向（含 Quant、Consumer Behavior）× Economics / Industrial Organization 的个人就业市场观察网站。博士培养院校范围为美国、加拿大、香港、新加坡；去向覆盖全球。
+## 网站功能
 
-这是持续扩充、带有来源的样本，**不是完整市场普查**。所有图表明确展示样本分母。未核验的记录和信息不能作为不存在或否定值。
+- 概览、人员名录、当季求职、中国地区观察、独立教师档案、项目年度覆盖矩阵与统计说明。
+- 来源名单年、毕业年、求职季、首职年独立筛选；支持完整名册及 tenure 证据状态筛选。
+- 2—5 项目比较：同一时间和方向口径，报告样本、未知、最终安排及首职回退。
+- 培养项目 → 研究方向 → 接收机构 / 院系流向图及可核对的人员明细表。
+- 职业事件时间线、字段级来源、证据状态、原文与冲突；普通工作论文不自动标作 JMP。
+- 公开招聘公告筛选及去重，招聘人数未公布时为未知，过期与当前岗位分开。
+- 数据质量、历史基线变化、来源新鲜度、冲突与待核验队列。
+- URL 保存筛选、个人固定链接、CSV / JSON 导出，导出保留口径和证据引用。
 
-当前版本 **0.8.0：308 人**，其中 Marketing 281、Quant 74、CB 62。本轮从海外教师页反查新增 4 人、补充 2 人。默认近四年名录 289 人，严格首职年份样本 170 人；仍有 142 人方向待细分（其中 13 人有独立暂定标签）、120 条首职或年份待核验。共有 81 个个人主页、84 个 CV 链接、48 个明确 JMP。
+## 本地运行与验证
 
-新增[教师反查档案](https://zyx-dirtystar.github.io/mkt-io-placement/#faculty)：首批 10 份、涉及 3 所海外接收院校，7 份关联现有 placement，3 份历史教师单独保留。**优先海外院校**；内地只关注清华、北大、上交、复旦、上财、浙大、中山、厦门、南京九校，不再推进内地 42 校方案。尚未完成任何一所接收院校的整系教师普查。详见 [2026-10-16 修订记录](docs/FACULTY-LOOKUP-2026-10-16.md)。
+需要 Node.js 22 或更新版本。网站与数据构建无需第三方依赖。
 
-目标范围固定为 **北美 Marketing 研究前 50、港五、新加坡三所**。依据 UTD 四本 Marketing 期刊的 2021–2025 北美研究产出结果，含美国 46 所、加拿大 4 所、香港 5 所、新加坡 3 所。58 所中 53 所找到对应博士项目资料，51 所已有实名记录（275 人）；其余记录保留在扩展档案。学位明确含 Marketing 的跨方向培养保留原名称，不能将纯旅游或其他学科自动归入。研究排名不代表就业质量或一定开设博士项目。107 个来源年份 / 求职季单元与所查表对齐，**所有整届完整性标记仍为未确认**。
+```sh
+node scripts/sync-data.mjs
+node scripts/check.mjs
+node scripts/check-placement.mjs
+node scripts/check-evidence.mjs
+node scripts/check-faculty.mjs
+node --test
+node server.mjs
+```
 
-中国地区观察、暂定分类和情景分析详见 [0.6.0 修订记录](docs/REGIONAL-EVIDENCE-2026-10-08.md)。上一轮 CV、JMP、岗位分类与排名功能详见 [0.5.0 修订记录](docs/CV-AND-OUTCOMES-2026-10-08.md)。选校依据、全部 58 校进度与缺口见 [本轮修订记录](docs/SCOPE-58-2026-10-08.md)。[第二批](docs/BATCH-2-2026-10-08.md)和[第一批](docs/BATCH-2026-10-08.md)记录继续保留。网站覆盖页默认显示全部目标学校，缺资料的学校不会被隐藏。
+打开 http://127.0.0.1:4173 。`dist/` 是发布目录，`data/` 是权威维护输入。新增的统一观察库、质量报告和发布报告 JSON 在本地及 CI 构建时生成，不重复提交生成文件。不要直接修改生成的 `dist/data/`；不要重跑首版 `prepare-data.mjs` 覆盖后续研究。
 
-## 使用与预览
+新增模型与维护命令、批次格式见 [维护指南](docs/MAINTENANCE.md)；本轮实际研究及限制见 [研究记录](docs/RESEARCH-2026-10-22.md)。早期研究批次和年度指南保留供追溯；其中日期标注的统计属于历史快照。
 
-在此目录执行 `node server.mjs`，打开 http://127.0.0.1:4173 。无需安装依赖。页面包括概览、可筛选名录、当前求职季、中国地区观察、教师反查档案、院校覆盖和统计口径。身份筛选只接受公开明确依据；不根据姓名、照片、语言或教育推断国籍或族裔。
+## 数据与证据
 
-详细操作见 [年度更新指南](docs/ANNUAL-UPDATE.md)，包含 GitHub 网页修改、数据字段和年份冲突处理。
+`data/records.json` 保留稳定人员 ID 与旧字段；`programs.json`、`coverage.json`、`faculty.json` 分别维护培养项目、名单年度和接收院校档案。`taxonomy.json` 提供标准标签和同义词；`io-scope.json` 独立定义 Economics IO 范围；`jobs.json` 保存真实招聘公告。研究复核、原始批次和排名清单都保留版本。
 
-## 每年更新
+`sync-data.mjs` 同时生成兼容旧版的 records/catalog 与统一的 `observatory.json`：people、institutions、events、claims、taxonomy、jobs、audit、quality、release、queue。旧来源关联标作 `legacy_reference`，不自动升级成带原文的已核验证据。原始研究标签仍在 raw 中，标准化不等于新增事实核验。
 
-1. 编辑 `data/records.json`。人员使用稳定 id，一人一条记录，领域允许多标签。`dist/data/record-template.json` 提供新增条目模板。
-2. 在 `config.json` 更新 `current_cycle`（例如 `2027-2028`）、默认最近四年 `history_years`（例如 `[2024,2025,2026,2027]`）、版本、发布日期和更新说明。旧记录保留；旧年份自动留在时间筛选里。
-3. 当前选校清单在 `data/scope.json`；跨年可沿用，不要随排名刷新静默改变历史范围。需改范围时先保留旧清单快照，再创建新版本。新增项目写入 `data/programs.json`，逐项目年度核验记录写入 `data/coverage.json`，当季官方发布进度写入 `data/release-notes.json`。日期应来自来源，不因刷新自动更改个人 `checked_at`。
-4. 执行 `node scripts/sync-data.mjs`，再执行 `node scripts/check.mjs`、`node scripts/check-placement.mjs`、`node scripts/check-evidence.mjs` 、`node scripts/check-faculty.mjs` 和 `node --check dist/app.js`。
-5. 在本地查看筛选和个人详情后发布。完成 GitHub Pages 设置后，将更新提交到 `main` 会自动检查并发布。`dist` 是部署资产。历史源文件和发布版本可追溯。
+Marketing 选校沿用固定的 UTD 四刊 2021—2025 北美 50、香港 5、新加坡 3。研究排名不代表就业质量或一定设有博士项目。Economics IO 使用独立发现范围；两个范围都有尚未完成核验的项目。
 
-## GitHub 部署与分阶段改进
+## 统计解释
 
-[从零开始的 GitHub 操作说明](docs/GITHUB-START-HERE.md) 解释账号、仓库、公开范围、Pages 设置和更新方法。[改进计划](docs/ROADMAP.md) 将后续工作分为部署、覆盖清单、分批补数据和年度维护。
+“来源表已对齐”仅表示该表列出的人已录入。整届名单完整须有明确覆盖证据；录完成功 placement 案例不能证明整届完整。去向未知者保留在名册中，未查到不能自动填 0。
 
-`.github/workflows/pages.yml` 自动生成数据、检查和部署。工作流在 `main` 更新时运行，也支持手动运行。Pages 只发布 `dist`，网站无需数据库或安装第三方依赖。最新发布结果见仓库 Actions。
+来源名单年、毕业年、求职季、首职年、最终安排开始年、后续转职分别保存。近四年档案可包含多种年份线索，项目对比须选择统一时间轴。已确认同次求职最终安排与首职回退分别计数，普通后续跳槽不改写原 placement。
 
-已找到 placement 的当季候选人改为 `status: "placed"` 并补充首职资料，保留原来的 `market_cycle`，因此不会从当季名录消失。先博后后教职时，`destination/role/placement_year` 保留首职，后续岗位写入 `subsequent`；有明确证据属于该次求职最终安排时另填 `final_placement`。默认统计最终安排，也可切换首次岗位。历史求职季不明则留空，毕业年不能自动当 placement 年。
+学术岗位类型、原始职称、tenure 状态和证据等级独立。常规 Assistant Professor 只能支持职称规则下的学术教职类别，tenure 未经明确核实保持未知。旧分类键 tt 为兼容保留，界面标明含规则推定。已知样本中的岗位占比不代表全市场就业率、个人成功概率或因果效果。
 
-`identity.chinese_national` 与 `identity.chinese_heritage` 的肯定值必须有独立来源。华裔字段须本人公开自述。未知值写 `unknown`，不能按姓名推断，也不能算作非中国人或非华裔。本科院校地区单独记录。
+一年 / 三年观察窗口必须满足观察时间、日期精度及任职连续性的证据要求，无法确定则单列。历史首职没有结束日期不等于一直在职。情景滑块只改变已收录未知样本的假设，不给个人填写猜测结果。
 
-## 数据结构
+国籍、族裔与本科教育地区相互独立，姓名、照片、语言不用于推断身份或地区求职意向。
 
-`fields` 保留公开研究领域；`tracks` 为 `marketing`、`qm`、`cb`、`strategy`、`io`（可同时包含）；Marketing 细分方向未确认时只标 `marketing`。`program_id` 独立标记培养项目；`source_cohort_year`、`graduation_year` 与 `placement_year` 分开；`topics` 是公开领域/论文的整理标签；`methods` 仅采用明确证据。`sources` 包含 URL 与用途。`job_kind` 保留原始资料类别；展示与教职率按 `dist/placement.js` 的职位文字规则计算：一般 Assistant Professor 纳入终身轨统计口径，但教学、Visiting、Clinical、Adjunct 等例外优先识别。这不等于逐份核实雇佣合同。
+## 更新与发布
 
-`status` 可为 `placed`、`on_market` 、`deferred`（明确次年重上市场）或 `outcome_unknown`（历史名册中首职仍未知或职业顺序未厘清者）；项目 / 年份归属仍需补证的线索放到 `review-queue.json`，不进入默认统计。已确认名册归属的人不会因为去向未知而被排除。年份未知但首职可核验者保留为 placed；可在“去向 / 首职年待核验”或“全部记录”中查看，不进入年度图。`source_reported_placement` 保留来源表所报的机构，供首职冲突审阅，不进入首职统计；其他已知任职和相关说明保留在 `subsequent` 与 `notes`。
+核对公开来源后修改 `data/`，运行生成与校验，再提交。定时来源检查只输出变化、失败和待核验资料，不自动修改人员事实。批次导入具备重复、过期和前置值冲突保护；确需修正旧事实时使用新批次并注明证据。
 
-`source-data/` 保存首版研究证据。`scripts/prepare-data.mjs` 是首版来源格式转换器；日常维护以 `data/records.json` 为准，**不要重新运行此转换器覆盖后续手动修订**。
-
-## 本版限制
-
-- 四地区均有记录，但收集程度不均，尚未逐校核验完整名单；不能估算全市场就业率。
-- 身份肯定标签目前没有足够公开依据，均保留未知；本科教育对照已可使用。
-- 一些首职岗位名称、任职地区或年份仍待补证；原始材料中的时间差异保留在个人备注。
-- 没有设置自动抓取或定时更新；年度新增通过上述数据流程完成。
-
-## 校验
-
-`scripts/check.mjs` 校验唯一人员、来源、领域、日期和资产，并检查当前季已获岗位者仍保留、历史分母排除未知、身份未知不误分类、跨领域人数去重，以及跨年配置生效。
-
-站点使用静态 HTML/CSS/JavaScript，无数据库、账户管理或分析追踪。GitHub 仓库与 Pages 网站公开。
-
-## 地区观察与估计
-
-中国地区观察按去向机构所在地筛选，分别查看大陆、香港或合计。现有样本含大陆去向 15 人（其中终身轨口径教职 12 人）、香港去向 18 人（其中教职 14 人）。它们是已收录的历史结果，不是当前候选人或申请者总数。普通讲座 / 会议以独立记录显示，不转换为招聘意向。
-
-`research_inference` 保存暂定方向、理由、来源与日期；默认不加入该子方向，可通过“研究方向口径”开关纳入。`regional_signals` 保存明确意向、招聘活动或一般交流，含时间、学校、地区、原始来源与证据说明。两者详情都可追溯，导出 CSV 也区分归档分类和暂定分类。
-
-概览的情景滑块改变“未知去向中有多少比例是教职”的假设，不替任何人填写岗位、年份或地域意向。极端情景范围不是置信区间，不能代表未收录人群。数据仍需继续核验；估计不会把未完成的普查变成完整资料。
+GitHub Actions 在推送 main 时检查并发布 GitHub Pages；PR 执行检查；独立来源检查工作流定时与手动运行并保存报告。来源短暂不可达不删除旧证据。历史证据、固定范围与 Git 版本可复现，新的定时结果在人工核验合入后才进入正式数据。

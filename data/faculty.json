@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-22",
   "receiving_scope": {
     "priority": [
       "US",
@@ -102,6 +102,42 @@
         }
       ],
       "notes": "本轮仅核实 1 份个人 CV，不代表整系覆盖。"
+    },
+    {
+      "host_id": "university-of-pennsylvania-marketing",
+      "status": "partial",
+      "checked_at": "2026-10-22",
+      "sources": [
+        {
+          "label": "本人2026-02 CV：2025博士、Wharton OID任职",
+          "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf"
+        },
+        {
+          "label": "Penn董事会2025-06-13任命决议第78页：首职日期与正式终身轨",
+          "url": "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+        }
+      ],
+      "notes": "本轮仅交叉核实Gal Smitizsky一份履历和官方任命资料；未穷尽该机构教师。院校host_id与实际任教院系分开保存。"
+    },
+    {
+      "host_id": "northwestern-university-marketing",
+      "status": "partial",
+      "checked_at": "2026-10-22",
+      "sources": [
+        {
+          "label": "Kellogg官方本人资料：Yale博后在前及行为决策研究",
+          "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/"
+        },
+        {
+          "label": "本人2026-05 CV：2024–26博后，2026起Kellogg任职",
+          "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031"
+        },
+        {
+          "label": "Kellogg 2026-09-29新教师公告：2026秋到岗",
+          "url": "https://www.kellogg.northwestern.edu/news/blog/2026/09/29/new-faculty"
+        }
+      ],
+      "notes": "本轮仅交叉核实Chengyao Sun一份履历和官方任命资料；未穷尽该机构教师。院校host_id与实际任教院系分开保存。"
     }
   ],
   "people": [
@@ -624,6 +660,98 @@
         {
           "label": "MIT 官方托管本人 CV：教育、任职、研究领域",
           "url": "https://mitsloan.mit.edu/shared/ods/documents?DocumentID=13942&doc=1"
+        }
+      ]
+    },
+    {
+      "id": "university-of-california-san-diego-gal-smitizsky",
+      "placement_id": "university-of-california-san-diego-gal-smitizsky",
+      "name": "Gal Smitizsky",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania, Wharton School",
+        "region": "US",
+        "department": "Operations, Information and Decisions",
+        "role": "Assistant Professor of Operations, Information and Decisions",
+        "start_year": 2025
+      },
+      "phd": {
+        "school": "University of California, San Diego",
+        "program": "PhD in Management · Marketing",
+        "program_id": "university-of-california-san-diego-marketing",
+        "region": "US",
+        "year": 2025
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Consumer Behavior"
+      ],
+      "homepage": null,
+      "cv_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf",
+      "research_inference": null,
+      "checked_at": "2026-10-22",
+      "notes": "接收院校官方托管CV与任命/新教师公告核验；只覆盖该人，非全系普查。此教师档案关联既有人，不额外增加placement计数。培养Marketing、任教OID，保留跨院系路径。",
+      "sources": [
+        {
+          "label": "本人2026-02 CV：2025博士、Wharton OID任职",
+          "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf"
+        },
+        {
+          "label": "Penn董事会2025-06-13任命决议第78页：首职日期与正式终身轨",
+          "url": "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+        }
+      ]
+    },
+    {
+      "id": "washington-university-in-st-louis-chengyao-sun",
+      "placement_id": "washington-university-in-st-louis-chengyao-sun",
+      "name": "Chengyao Sun",
+      "aliases": [],
+      "host_id": "northwestern-university-marketing",
+      "current": {
+        "institution": "Northwestern University, Kellogg School of Management",
+        "region": "US",
+        "department": "Marketing",
+        "role": "Assistant Professor of Marketing",
+        "start_year": 2026
+      },
+      "phd": {
+        "school": "Washington University in St. Louis",
+        "program": "博士项目 · Marketing",
+        "program_id": "washington-university-in-st-louis-marketing",
+        "region": "US",
+        "year": 2024
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Marketing",
+        "Consumer Behavior",
+        "Judgment and Decision Making"
+      ],
+      "homepage": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/",
+      "cv_url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031",
+      "research_inference": null,
+      "checked_at": "2026-10-22",
+      "notes": "接收院校官方托管CV与任命/新教师公告核验；只覆盖该人，非全系普查。此教师档案关联既有人，不额外增加placement计数。Yale 2024–26博后为首职，Kellogg2026为后续任职。",
+      "sources": [
+        {
+          "label": "Kellogg官方本人资料：Yale博后在前及行为决策研究",
+          "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/"
+        },
+        {
+          "label": "本人2026-05 CV：2024–26博后，2026起Kellogg任职",
+          "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031"
+        },
+        {
+          "label": "Kellogg 2026-09-29新教师公告：2026秋到岗",
+          "url": "https://www.kellogg.northwestern.edu/news/blog/2026/09/29/new-faculty"
         }
       ]
     }
