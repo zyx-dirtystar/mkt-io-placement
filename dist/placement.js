@@ -1,8 +1,8 @@
 // Public job-title categories, not a verification of an employment contract.
-export const OUTCOMES={tt:'学术教职 · 含规则推定',non_tt:'教学 / 非终身轨教职',postdoc:'博后 / 研究访问',other:'业界及其他',deferred:'延期',unknown:'未知',on_market:'当季求职中'};
+export const OUTCOMES={tt:'Academic faculty · includes inferred cases',non_tt:'Teaching / non-tenure-track faculty',postdoc:'Postdoc / research visit',other:'Industry / other',deferred:'Deferred',unknown:'Unknown',on_market:'On the current job market'};
 export const OUTCOME_COLORS={tt:'#165c4f',non_tt:'#8eb9ac',postdoc:'#8a94ce',other:'#d49d56',deferred:'#617c94',unknown:'#dfe4e8',on_market:'#829ea0'};
-export const TENURE_LABELS={tenure_track:'终身轨',tenured:'已获终身职位',non_tenure_track:'非终身轨',tt:'终身轨',non_tt:'非终身轨',unknown:'尚未核验',not_applicable:'不适用'};
-export const TENURE_EVIDENCE_LABELS={confirmed:'有独立明确依据',title_explicit:'职位原文明确',inferred:'一般职称规则推定',unknown:'尚未核验'};
+export const TENURE_LABELS={tenure_track:'Tenure-track',tenured:'Tenured',non_tenure_track:'Non-tenure-track',tt:'Tenure-track',non_tt:'Non-tenure-track',unknown:'Unverified',not_applicable:'Not applicable'};
+export const TENURE_EVIDENCE_LABELS={confirmed:'Confirmed by explicit evidence',title_explicit:'Explicit in the source title',inferred:'Inferred from title rules',unknown:'Unverified'};
 export function institutionRegion(institution,region){
   const s=String(institution||'');
   if(/(?:HKUST|Hong Kong University of Science and Technology|港科大|香港科技大学).*(?:Guangzhou|广州)|(?:CUHK|Chinese University of Hong Kong|港中文|香港中文大学).*(?:Shenzhen|深圳)|NYU\s*Shanghai|Shanghai\s*(?:NYU|New York University)|上海纽约大学|Duke\s*Kunshan|Kunshan\s*Duke|昆山杜克大学/i.test(s))return 'CN';

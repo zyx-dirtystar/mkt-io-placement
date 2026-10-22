@@ -51,6 +51,6 @@ const outside={...cai,phd:{school:'Peking University',region:'CN',year:2024,prog
 assert.equal(originGroup(outside,catalog),'outside','Visiting training in an overseas school must not change awarding institution');
 assert.equal(graduationGroup({...cai,phd:{...cai.phd,year:2028}},catalog.history_years),'newer');
 assert.equal(facultyCsv([{...cai,name:'=FORMULA'}],catalog).split('\r\n')[1].startsWith('"\'=FORMULA"'),true,'CSV formula injection protection');
-assert.match(facultyCsv(people,catalog),/非首职年/);
+assert.match(facultyCsv(people,catalog),/not first-job year/);
 assert.ok(filterRecords(records,{period:'cohorts'}).some(r=>r.id==='yale-zikun-liu'));
 console.log(JSON.stringify({faculty:'passed',people:people.length,linked:linked.length,checks:'scope restriction, current vs first job, graduation vs employment, historical transfers, program distinctions, source links, aliases, annual rollover, CSV protection, separate denominators'}));

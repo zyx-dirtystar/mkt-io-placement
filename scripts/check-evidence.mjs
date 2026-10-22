@@ -36,7 +36,7 @@ assert.throws(()=>outcomeScenario(sample,'final',NaN));assert.throws(()=>outcome
 const yearUnknown={...base,placement_year:null};
 const g=gapSummary([unknown,yearUnknown]);assert.equal(g.outcome_missing,1);assert.equal(g.year_missing,1);
 assert.equal(filterRecords([yearUnknown],{period:'2024'}).length,0,'Scenarios must not add dates');
-const row=csvRows([provisional],'final','include_provisional')[0];assert.equal(row.length,CSV_HEADERS.length);assert.equal(row[CSV_HEADERS.indexOf('暂定研究方向')],'qm');assert.equal(row[CSV_HEADERS.indexOf('用于筛选的方向')],'marketing; qm');
+const row=csvRows([provisional],'final','include_provisional')[0];assert.equal(row.length,CSV_HEADERS.length);assert.equal(row[CSV_HEADERS.indexOf('Provisional research tracks')],'qm');assert.equal(row[CSV_HEADERS.indexOf('Research tracks used for filtering')],'marketing; qm');
 const records=JSON.parse(fs.readFileSync('dist/data/records.json','utf8'));
 for(const r of records){
  for(const x of [r.research_inference,r.research_classification].filter(Boolean)){

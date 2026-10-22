@@ -1,21 +1,26 @@
-import * as placements from './placement.js?v=1.0.0';
+import * as placements from './placement.js?v=1.1.0';
+import {TERM_LABELS} from './interface-terms.js?v=1.1.0';
 
-export const YEAR_BASES={source:'来源名单年',graduation:'博士毕业年',market:'求职季起始年',placement:'首次入职年'};
-export const TRACK_NAMES={marketing:'Marketing',qm:'Quant Marketing',cb:'Consumer Behavior',strategy:'Marketing Strategy',io:'Economics / IO',empirical_io:'Empirical IO',theory_io:'Theory IO'};
-export const AUDIT_NAMES={not_started:'尚未开始',roster_found:'已找到名单',list_found:'已找到名单',partial:'部分核验',source_reconciled:'来源表已对齐',cohort_verified:'整届名单已确认',cohort_complete:'整届名单已确认',complete:'整届名单已确认',not_published:'官方尚未发布',unpublished:'官方尚未发布',insufficient:'已查但资料不足',eligibility_pending:'项目资格待确认'};
-export const TENURE_NAMES={tenure_track:'终身轨',tenured:'已获终身职位',non_tenure_track:'非终身轨',non_tt:'非终身轨',unknown:'Tenure 状态未知',tt:'终身轨',inferred:'规则推定',not_applicable:'不适用'};
-export const EVIDENCE_NAMES={confirmed:'明确确认',explicit:'明确确认',title_explicit:'职称明确含轨道表述',inferred:'规则推定',provisional:'暂定',legacy_reference:'历史来源关联',unknown:'尚未确认',conflict:'来源冲突',unclassified:'尚未分类'};
-export const REGION_NAMES={US:'美国',CA:'加拿大',HK:'香港',SG:'新加坡',CN:'中国大陆',UK:'英国',AU:'澳大利亚',NZ:'新西兰',EU:'欧洲',FR:'法国',DE:'德国',IT:'意大利',ES:'西班牙',BE:'比利时',UNKNOWN:'地区待核验'};
+export const YEAR_BASES={source:'Source roster year',graduation:'PhD graduation year',market:'Job market season start year',placement:'First job start year'};
+export const TRACK_NAMES={marketing:'Marketing',qm:'Quantitative Marketing',cb:'Consumer Behavior',strategy:'Marketing Strategy',io:'Economics / IO',empirical_io:'Empirical IO',theory_io:'Theory IO'};
+export const AUDIT_NAMES={not_started:'Not started',roster_found:'Roster found',list_found:'Roster found',partial:'Partially verified',source_reconciled:'Source roster reconciled',cohort_verified:'Complete cohort confirmed',cohort_complete:'Complete cohort confirmed',complete:'Complete cohort confirmed',not_published:'Not yet published',unpublished:'Not yet published',insufficient:'Checked · insufficient evidence',eligibility_pending:'Program eligibility unconfirmed'};
+export const TENURE_NAMES={tenure_track:'Tenure track',tenured:'Tenured',non_tenure_track:'Non-tenure track',non_tt:'Non-tenure track',unknown:'Tenure status unknown',tt:'Tenure track',inferred:'Rule inferred',not_applicable:'Not applicable'};
+export const EVIDENCE_NAMES={confirmed:'Confirmed',explicit:'Confirmed',title_explicit:'Explicit in job title',inferred:'Rule inferred',provisional:'Provisional',legacy_reference:'Legacy source link',source_quoted:'Source excerpt recorded',unknown:'Unconfirmed',conflict:'Conflicting sources',unclassified:'Unclassified'};
+export const REGION_NAMES={US:'United States',CA:'Canada',HK:'Hong Kong',SG:'Singapore',CN:'Mainland China',UK:'United Kingdom',AU:'Australia',NZ:'New Zealand',EU:'Europe',FR:'France',DE:'Germany',IT:'Italy',ES:'Spain',BE:'Belgium',UNKNOWN:'Region unknown'};
+const TAXONOMY_NAMES={
+ topics:{platforms:'Platforms & digital markets',pricing_demand:'Pricing & demand',advertising_brand:'Advertising & branding',privacy_information:'Privacy & information',health:'Health',consumer_behavior:'Consumer behavior',consumer_search:'Consumer search',consumer_judgment:'Consumer judgment',ai_algorithms:'AI & algorithms',public_policy:'Public policy',competition:'Competition & market power',market_design:'Auctions & market design',innovation:'Innovation & entrepreneurship',environment_energy:'Environment & energy',marketing_strategy:'Marketing strategy',industrial_organization:'Industrial organization'},
+ methods:{structural:'Structural modeling & estimation',causal:'Causal inference',experiment:'Experiments',field_experiment:'Field experiments',theory:'Theoretical modeling',game_theory:'Game theory',ml:'Machine learning / AI',econometrics:'Econometrics',text:'Text analysis',nlp:'Natural language processing',optimization:'Optimization & algorithms',image:'Image analysis',computation:'Computational analysis',secondary_data:'Secondary data analysis'}
+};
 export const arr=v=>Array.isArray(v)?v:[];
 export const unique=xs=>[...new Set(xs.filter(v=>v!==null&&v!==undefined&&v!==''))];
-export function labelRegion(v){return REGION_NAMES[v]||v||'地区待核验'}
+export function labelRegion(v){return REGION_NAMES[v]||v||'Region unknown'}
 export function recordYear(r,basis='source'){
  const value=basis==='graduation'?r.graduation_year:basis==='market'?r.market_cycle:basis==='placement'?r.placement_year:r.source_cohort_year;
  const match=String(value??'').match(/^(\d{4})(?:$|[-–])/);
  return match?Number(match[1]):null;
 }
 export function effectiveRecordTracks(r,includeProvisional=false){return unique([...arr(r.tracks),...arr(r.research?.tracks),...(includeProvisional&&r.research_inference?.status==='provisional'?arr(r.research_inference.tracks):[])]);}
-export function canonicalLabel(observatory,kind,id){const item=arr(observatory?.taxonomy?.[kind]).find(t=>t.id===id);return item?.label||TRACK_NAMES[id]||id;}
+export function canonicalLabel(observatory,kind,id){const item=arr(observatory?.taxonomy?.[kind]).find(t=>t.id===id||t.label===id||arr(t.aliases).includes(id));const canonicalId=item?.id||id;return (kind==='tracks'?TRACK_NAMES[canonicalId]:TAXONOMY_NAMES[kind]?.[canonicalId])||item?.label_en||TERM_LABELS[item?.label||id]||(canonicalId==='unclassified'?'Unclassified':item?.label||id);}
 export function outcomeOf(r,basis='final',observatory={}){
  const p=placements.placementOf(r,basis);
  const type=basis==='final'&&r.final_placement?'final_arrangement':'first_job';
@@ -66,7 +71,7 @@ export function comparisonRows(records,catalog,observatory,f){
 }
 export function flowRows(records,observatory={},f={}){
  const groups=new Map();
- for(const r of records){const p=outcomeOf(r,f.basis,observatory);const destination=p.destination||'去向尚未核验';const department=p.department||'接收院系待核验';const tracks=effectiveRecordTracks(r,f.provisional===true||f.provisional==='include');const used=f.track&&f.track!=='all'?[f.track]:tracks.filter(t=>t!=='marketing');
+ for(const r of records){const p=outcomeOf(r,f.basis,observatory);const destination=p.destination||'Destination unknown';const department=p.department||'Receiving department unknown';const tracks=effectiveRecordTracks(r,f.provisional===true||f.provisional==='include');const used=f.track&&f.track!=='all'?[f.track]:tracks.filter(t=>t!=='marketing');
   for(const track of used.length?used:tracks.length?tracks:['unclassified']){const key=JSON.stringify([r.program_id,track,p.institution_id||destination,department]);if(!groups.has(key))groups.set(key,{key,program_id:r.program_id,school:r.school,track,destination,department,region:p.destination_region,ids:[],names:[],source_urls:[]});const g=groups.get(key);if(!g.ids.includes(r.id)){g.ids.push(r.id);g.names.push(r.name);g.source_urls=unique([...g.source_urls,...arr(r.sources).map(s=>typeof s==='string'?s:s.url)])}}
  }
  return [...groups.values()].map(g=>({...g,n:g.ids.length})).sort((a,b)=>b.n-a.n||a.school.localeCompare(b.school));
@@ -96,7 +101,7 @@ export function fixedWindowObservation(person,events=[],years=1,asOf=''){
  return {status:signatures.length>1?'multiple_appointments':possible.length?'date_or_continuity_unknown':'path_unknown',person_id:person.id,year:observationYear};
 }
 export function observationSummary(records,observatory={},years=1){const rows=records.map(r=>fixedWindowObservation(r,arr(observatory.events),years,observatory.as_of));const counts={};for(const r of rows)counts[r.status]=(counts[r.status]||0)+1;return {rows,counts,total:rows.length,known:counts.observed||0};}
-export function normalizedJobs(observatory={},catalog={}){const input=observatory.jobs||catalog.jobs||[];return arr(Array.isArray(input)?input:input.jobs||input.postings).map(j=>({...j,institution:j.institution||j.school||j.employer||'机构待核验',tracks:arr(j.tracks),sources:arr(j.sources),positions:Number.isInteger(j.positions)&&j.positions>=0?j.positions:null}));}
+export function normalizedJobs(observatory={},catalog={}){const input=observatory.jobs||catalog.jobs||[];return arr(Array.isArray(input)?input:input.jobs||input.postings).map(j=>({...j,institution:j.institution||j.school||j.employer||'Institution unknown',tracks:arr(j.tracks),sources:arr(j.sources),positions:Number.isInteger(j.positions)&&j.positions>=0?j.positions:null}));}
 export function jobState(job,asOf){const date=String(asOf||'').slice(0,10);if(job.deadline&&date&&String(job.deadline)<date)return 'historical';if(['closed','expired','historical','filled','withdrawn'].includes(job.status))return 'historical';if(['active','open','current','in_progress'].includes(job.status))return 'active';return 'unknown';}
 export function filterJobs(jobs,f={},asOf=''){return jobs.filter(j=>(!f.q||[j.institution,j.department,j.title,...j.tracks].filter(Boolean).join(' ').toLowerCase().includes(f.q.toLowerCase()))&&(!f.cycle||f.cycle==='all'||j.cycle===f.cycle)&&(!f.region||f.region==='all'||j.region===f.region)&&(!f.track||f.track==='all'||j.tracks.includes(f.track))&&(!f.status||f.status==='all'||jobState(j,asOf)===f.status)&&(!f.family||f.family==='all'||j.job_family===f.family)&&(!f.institution||f.institution==='all'||j.institution===f.institution)&&(!f.title||f.title==='all'||j.title===f.title));}
 export function csvCell(value){let s=typeof value==='object'&&value!==null?JSON.stringify(value):String(value??'');if(/^[=+@\-\t\r]/.test(s))s="'"+s;return '"'+s.replaceAll('"','""')+'"';}
