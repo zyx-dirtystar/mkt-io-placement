@@ -1408,6 +1408,41 @@
       {
         "label": "field methods jmp and employment history",
         "url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf"
+      },
+      {
+        "url": "https://goizueta.emory.edu/faculty/marketing",
+        "label": "官方院系教师目录",
+        "quote": "Assistant Professor of Marketing",
+        "supports": [
+          "current.role",
+          "membership_type",
+          "eligibility"
+        ],
+        "checked_at": "2026-10-22",
+        "locator": "Ella Xu"
+      },
+      {
+        "url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf",
+        "label": "Doctoral education: official profile or linked CV",
+        "quote": "ness School, Emory University Assistant Professor of Marketing 2025 - Education New York University Ph.D., Marketing 2019 - 2025 Dissertation Committee: T ¨ulin Erdem (co-chair), Raluca Ursu (co-chair), Runshan Fu (co-chair), Bryan Bollinger Columbia University M.S., Marketing Science 2018 - 2019 T singhua University B.E., Industrial Engineering 2014 - 2018 Research Interests Quantitative Marketing, Consumer Search, Information Acquisition and Processing, Algorithmic Fair- ness, Online and In-store Retailing Deep Learning, Machine Learning, Unstructured Data, Field Experiments, Econometrics Working Papers “An Explainable and Theory-Driven Deep Learning Architecture for Consumer Search and Consider- ation Sets” with Runshan Fu, T ¨ulin Erdem, Bryan Bollinger, and Raluca Ursu Job Market Paper “The Impact of Product Location Changes on Habits, Search, and Purchase Decis",
+        "locator": "CV pp. 1–2, Education",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.degree",
+          "phd.year"
+        ],
+        "checked_at": "2026-10-22"
+      },
+      {
+        "url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf",
+        "label": "Career evidence index; exact passage is also on each career event",
+        "quote": "ELLA J. XU Goizueta Business School Email: ella.xu@emory.edu Emory University Phone: + 1 (917)769-2891 1300 Clifton Road NE Atlanta, GA 30322 Academic Positions Goizueta Business School, Emory University Assistant Professor of Marketing 2025 - Education New York University Ph.D., Marketing 2019 - 2025 Dissertation Committee: T ¨ulin Erdem (co-chair), Raluca Ursu (co-chair), Runshan Fu (co-chair), Bryan Bollinger Columbia University M.S., Marketing Science 2018 - 2019 T singhua University B.E., Industrial Engineering 2014 - 2018 Research Interests Quantitative Marketing, Consumer Search, Information Acquisition and Processing, Algorithmic Fair- ness, Online and In-store Retailing Deep Learning, Machine Learning, Unstructured Data, Field Experiments, Econometrics Working Papers “An Explainable and Theory-Driven Deep Learning Architecture for Consumer Search and Consider- ation",
+        "locator": "CV pp. 1–2 / official biography, appointments",
+        "supports": [
+          "career_events"
+        ],
+        "checked_at": "2026-10-22"
       }
     ],
     "subsequent": [],
@@ -1427,6 +1462,21 @@
     ],
     "source_cohort_year": 2025,
     "cv_url": "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf",
+    "graduation_year": 2025,
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2025,
+        "status": "confirmed",
+        "source_urls": [
+          "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf"
+        ],
+        "quote": "ness School, Emory University Assistant Professor of Marketing 2025 - Education New York University Ph.D., Marketing 2019 - 2025 Dissertation Committee: T ¨ulin Erdem (co-chair), Raluca Ursu (co-chair), Runshan Fu (co-chair), Bryan Bollinger Columbia University M.S., Marketing Science 2018 - 2019 T singhua University B.E., Industrial Engineering 2014 - 2018 Research Interests Quantitative Marketing, Consumer Search, Information Acquisition and Processing, Algorithmic Fair- ness, Online and In-store Retailing Deep Learning, Machine Learning, Unstructured Data, Field Experiments, Econometrics Working Papers “An Explainable and Theory-Driven Deep Learning Architecture for Consumer Search and Consider- ation Sets” with Runshan Fu, T ¨ulin Erdem, Bryan Bollinger, and Raluca Ursu Job Market Paper “The Impact of Product Location Changes on Habits, Search, and Purchase Decis",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-na-b-2026-10-22"
+      }
+    ],
     "target_scope": "marketing-na50-hk5-sg3-2021-2025",
     "origin_rank": 14
   },
@@ -1452,7 +1502,7 @@
     "market_cycle": null,
     "placement_year": 2023,
     "source_cohort_year": 2023,
-    "graduation_year": null,
+    "graduation_year": 2023,
     "status": "placed",
     "destination": "Rice University, Jones Graduate School of Business",
     "destination_region": "US",
@@ -1479,11 +1529,59 @@
       {
         "label": "接收院校或个人资料：方向与履历",
         "url": "https://business.rice.edu/person/emily-prinsloo"
+      },
+      {
+        "url": "https://business.rice.edu/faculty-research/research/marketing",
+        "label": "官方Marketing目录",
+        "quote": "Assistant Professor of Marketing",
+        "supports": [
+          "current.role",
+          "current.institution"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "confirmed_factual_reference"
+      },
+      {
+        "url": "https://business.rice.edu/person/emily-prinsloo",
+        "label": "官方教师个人页",
+        "quote": "Assistant Professor of Marketing",
+        "supports": [
+          "current.role",
+          "identity"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "confirmed_factual_reference"
+      },
+      {
+        "url": "https://business.rice.edu/sites/default/files/2023-06/Emily-Prinsloo-CV.pdf",
+        "label": "已逐项核对的学位资料",
+        "quote": "Harvard Business School, Harvard University (Boston, USA) 2018 – 2023 Ph.D. in Business Administration (Marketing)",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "confirmed_from_explicit_degree_section"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
     "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2023,
+        "status": "confirmed",
+        "source_urls": [
+          "https://business.rice.edu/sites/default/files/2023-06/Emily-Prinsloo-CV.pdf"
+        ],
+        "quote": "Harvard Business School, Harvard University (Boston, USA) 2018 – 2023 Ph.D. in Business Administration (Marketing)",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "2026-10-22-faculty-na-c"
+      }
+    ],
     "target_scope": "marketing-na50-hk5-sg3-2021-2025",
     "origin_rank": 22
   },
@@ -7774,6 +7872,40 @@
       {
         "label": "Job Market Paper",
         "url": "https://youngeun-lee.github.io/"
+      },
+      {
+        "url": "https://www.bc.edu/content/bc-web/schools/carroll-school/academic-departments/marketing.html",
+        "label": "官方Marketing目录",
+        "quote": "Assistant Professor",
+        "supports": [
+          "current.role",
+          "current.institution"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "confirmed_factual_reference"
+      },
+      {
+        "url": "https://www.bc.edu/content/bc-web/schools/carroll-school/faculty-research/faculty-directory/youngeun-lee.html",
+        "label": "官方教师个人页",
+        "quote": "Assistant Professor",
+        "supports": [
+          "current.role",
+          "identity"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "confirmed_factual_reference"
+      },
+      {
+        "url": "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf",
+        "label": "已逐项核对的学位资料",
+        "quote": "Ph.D. in Marketing 2023 Yonsei University Seoul, Korea Department of Statistics and Data Science, M.A. in Statistics 2016 Department of Statistics, B.A.",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "confirmed_factual_reference"
       }
     ],
     "subsequent": [],
@@ -7786,6 +7918,21 @@
     "homepage": "https://youngeun-lee.github.io/",
     "cv_url": "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf",
     "jmp_url": "https://youngeun-lee.github.io/",
+    "graduation_year": 2023,
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2023,
+        "status": "confirmed",
+        "source_urls": [
+          "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf"
+        ],
+        "quote": "Ph.D. in Marketing 2023 Yonsei University Seoul, Korea Department of Statistics and Data Science, M.A. in Statistics 2016 Department of Statistics, B.A.",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "2026-10-22-faculty-na-c"
+      }
+    ],
     "target_scope": "marketing-na50-hk5-sg3-2021-2025",
     "origin_rank": 6
   },
@@ -20745,7 +20892,7 @@
     "market_cycle": null,
     "placement_year": null,
     "source_cohort_year": 2026,
-    "graduation_year": null,
+    "graduation_year": 2026,
     "status": "outcome_unknown",
     "destination": null,
     "destination_region": "UNKNOWN",
@@ -20787,6 +20934,19 @@
       {
         "label": "CUHK 2026–27 新聘教师公告",
         "url": "https://www.bschool.cuhk.edu.hk/school-news/cuhk-business-school-welcomes-new-faculty-members-for-the-2026-2027-academic-year/"
+      },
+      {
+        "url": "https://www.dropbox.com/scl/fi/5vp532zcc8pdjw1u2s7mx/Zikun_CV_CUHK.pdf?dl=1&rlkey=sa4k8a58vdh2yjuqftytz15pj&st=7lo9lx1c",
+        "label": "本轮实际读取的本人CV/官方教育及任职资料",
+        "quote": "Ph.D., Marketing, Yale School of Management 2026",
+        "supports": [
+          "phd.year",
+          "phd.program"
+        ],
+        "source_date": null,
+        "checked_at": "2026-10-22",
+        "fetched_at": "2026-10-22",
+        "access_status": "content_read"
       }
     ],
     "subsequent": [
@@ -20819,6 +20979,20 @@
         "https://www.bschool.cuhk.edu.hk/school-news/cuhk-business-school-welcomes-new-faculty-members-for-the-2026-2027-academic-year/"
       ]
     },
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2026,
+        "status": "confirmed",
+        "source_urls": [
+          "https://www.dropbox.com/scl/fi/5vp532zcc8pdjw1u2s7mx/Zikun_CV_CUHK.pdf?dl=1&rlkey=sa4k8a58vdh2yjuqftytz15pj&st=7lo9lx1c"
+        ],
+        "quote": "Ph.D., Marketing, Yale School of Management 2026",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-existing-backfill-2026-10-22"
+      }
+    ],
     "target_scope": "marketing-na50-hk5-sg3-2021-2025",
     "origin_rank": 12
   },

@@ -1,0 +1,817 @@
+{
+  "id": "2026-10-22-faculty-existing-supplement",
+  "checked_at": "2026-10-22",
+  "schools": [],
+  "people": [
+    {
+      "name": "Lisa Cavanaugh",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Associate Professor",
+        "start_year": null,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        },
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Duke University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2009,
+        "program_id": "duke-university-marketing",
+        "date": "2009-05",
+        "date_precision": "month"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Emotions",
+        "Relationships",
+        "Self and Identity"
+      ],
+      "homepage": "https://lacavanaugh.com/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/lisa-cavanaugh",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Duke University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf:",
+          "label": "官方CV链接；本轮无法读取",
+          "quote": null,
+          "status": "unavailable",
+          "supports": [
+            "cv_url"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://lacavanaugh.com/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://lacavanaugh.com/wp-content/uploads/2015/01/Lisa-Cavanaugh-Vita-Jan-2015.pdf",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "Ph.D. Marketing, May 2009",
+          "supports": [
+            "phd.year",
+            "phd.program"
+          ],
+          "source_date": "2015-01",
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf",
+          "label": "官方个人页真实CV链接（修复旧提取的末尾冒号）",
+          "access_status": "http_403",
+          "checked_at": "2026-10-22",
+          "supports": [
+            "cv_url"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Southern California",
+          "region": "US",
+          "role": "Faculty member",
+          "start_year": null,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/people/lisa-cavanaugh"
+          ],
+          "evidence": "Prior to UBC, she was on faculty at USC’s Marshall School of Business.",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Southern California",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2009,
+          "end_year": null,
+          "source_urls": [
+            "https://lacavanaugh.com/wp-content/uploads/2015/01/Lisa-Cavanaugh-Vita-Jan-2015.pdf"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22",
+          "start_date": "2009-07",
+          "status": "historical_snapshot_2015_end_unknown"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "本轮资料未确认当前职级开始年；不使用行政任期或早期加入学校日期代替。"
+        }
+      ],
+      "id": "faculty-university-of-british-columbia-lisacavanaugh",
+      "placement_id": null,
+      "checked_at": "2026-10-22",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-ubc-2026-10-22",
+      "existing_faculty_id": "faculty-university-of-british-columbia-lisacavanaugh",
+      "identity_evidence": {
+        "basis": "explicit_stable_archive_and_named_source",
+        "source_urls": [
+          "https://www.sauder.ubc.ca/people/lisa-cavanaugh",
+          "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf:",
+          "https://lacavanaugh.com/",
+          "https://lacavanaugh.com/wp-content/uploads/2015/01/Lisa-Cavanaugh-Vita-Jan-2015.pdf",
+          "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf"
+        ],
+        "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+      },
+      "resolved_gaps": [
+        {
+          "field": "phd.year",
+          "reason": "官方个人页未列博士年份；CV链接本轮返回Cache miss，未据此填年份。",
+          "resolved_at": "2026-10-22",
+          "source_urls": [
+            "https://lacavanaugh.com/wp-content/uploads/2015/01/Lisa-Cavanaugh-Vita-Jan-2015.pdf",
+            "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf"
+          ]
+        }
+      ],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://lacavanaugh.com/wp-content/uploads/2015/01/Lisa-Cavanaugh-Vita-Jan-2015.pdf",
+          "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf"
+        ],
+        "notes": "2026官方CV直连403、网页读取Cache miss；继续检索并实际读到本人网站2015 CV，确认Duke Marketing博士2009-05和USC助理教授2009-07起。该CV是2015快照，结束日期未知，不把USC当现职。新UBC CV链接修复，但不宣称内容已读。"
+      }
+    },
+    {
+      "name": "Karl Aquino",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Full Professor",
+        "start_year": null,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        },
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Northwestern University",
+        "program": "PhD in Organizational Behavior",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Moral Cognition and Behaviour",
+        "Organizational Justice"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/karl-aquino",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/karl-aquino",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Northwestern University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf:",
+          "label": "官方CV链接；本轮无法读取",
+          "quote": null,
+          "status": "unavailable",
+          "supports": [
+            "cv_url"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf",
+          "label": "官方个人页真实CV链接（修复旧提取的末尾冒号）",
+          "access_status": "http_403",
+          "checked_at": "2026-10-22",
+          "supports": [
+            "cv_url"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "官方个人页未列博士年份；CV链接本轮返回Cache miss，未据此填年份。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "本轮资料未确认当前职级开始年；不使用行政任期或早期加入学校日期代替。"
+        }
+      ],
+      "id": "faculty-university-of-british-columbia-karlaquino",
+      "placement_id": null,
+      "checked_at": "2026-10-22",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-ubc-2026-10-22",
+      "existing_faculty_id": "faculty-university-of-british-columbia-karlaquino",
+      "identity_evidence": {
+        "basis": "explicit_stable_archive_and_named_source",
+        "source_urls": [
+          "https://www.sauder.ubc.ca/people/karl-aquino",
+          "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf:",
+          "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf"
+        ],
+        "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+      },
+      "resolved_gaps": [],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf"
+        ],
+        "notes": "重读官方个人页并跟随真实CV下载链接，修复旧URL末尾冒号。正确PDF地址直连仍403、网页读取Cache miss；官方介绍确认Northwestern博士但没有年份。Delaware历史欢迎公告只有曾任GeorgiaState，不能据1999公告倒推博士或完整职业日期。"
+      }
+    },
+    {
+      "name": "Shiri Melumad",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing",
+        "start_year": null,
+        "department": "Marketing",
+        "status": "official_directory"
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Columbia University",
+        "program": "Marketing",
+        "region": "US",
+        "year": null,
+        "program_id": "columbia-university-marketing",
+        "defense_year": 2017
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/melumad",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Shiri Melumad — Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/melumad",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/melumad",
+          "label": "官方个人页博士教育",
+          "quote": "Ph.D. and M.Phil. in Marketing from Columbia University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://www.shirimelumad.com/",
+          "label": "本轮复查官方所链本人网站",
+          "supports": [
+            "phd.year",
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "access_status": "timeout",
+          "locator": "官方个人页仍确认Columbia Marketing博士；本人网站获取超时"
+        },
+        {
+          "url": "https://business.columbia.edu/sites/default/files-efs/person/cv/Michel%20Tuan%20Pham%20CV%20-%20October%202024.pdf",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "Shiri Melumad (Wharton, U.Penn.), PhD defended at Columbia University (2017), Chair",
+          "supports": [
+            "phd.defense_year"
+          ],
+          "source_date": "2024-10",
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/melumad"
+          ],
+          "quote": "Shiri Melumad — Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "官方个人页未给完整职业起止，现职不当作首职。"
+        },
+        {
+          "field": "biography",
+          "reason": "官方个人页未给博士取得年份。"
+        },
+        {
+          "field": "phd.year",
+          "reason": "已重新读取Wharton个人页并检索本人CV/培养端资料；官方页无博士年，所链个人网站超时。其他论文中的作者身份不能确定授位或入职年，继续保留未知。",
+          "source_urls": [
+            "https://www.shirimelumad.com/"
+          ]
+        }
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22",
+      "id": "faculty-university-of-pennsylvania-shirimelumad",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-existing-backfill-2026-10-22",
+      "existing_faculty_id": "faculty-university-of-pennsylvania-shirimelumad",
+      "identity_evidence": {
+        "basis": "explicit_stable_archive_and_named_source",
+        "source_urls": [
+          "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "https://marketing.wharton.upenn.edu/profile/melumad",
+          "https://www.shirimelumad.com/",
+          "https://business.columbia.edu/sites/default/files-efs/person/cv/Michel%20Tuan%20Pham%20CV%20-%20October%202024.pdf"
+        ],
+        "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+      },
+      "resolved_gaps": [],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://business.columbia.edu/sites/default/files-efs/person/cv/Michel%20Tuan%20Pham%20CV%20-%20October%202024.pdf"
+        ],
+        "notes": "本人网站仍超时，继续查到博士导师官方CV明确2017答辩。另有Columbia placement表2017，但同表Ryan Dew列2018而其本人CV授位2019，说明表年不能直接当授位年；因此只补defense_year2017、授位年仍未知。"
+      }
+    },
+    {
+      "name": "Chethana Achar",
+      "aliases": [],
+      "host_id": "northwestern-university-marketing",
+      "faculty_type": "research",
+      "membership_type": "research",
+      "checked_at": "2026-10-22",
+      "current": {
+        "institution": "Northwestern University, Kellogg School of Management",
+        "region": "US",
+        "department": "Marketing",
+        "role": "Associate Professor of Marketing",
+        "start_year": null,
+        "tenure_status": "unknown",
+        "tenure_line": true,
+        "start_year_basis": "unknown",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of Washington",
+        "program": "Marketing",
+        "region": "US",
+        "year": null,
+        "degree": null,
+        "verification_status": "doctoral_program_placement_only",
+        "program_id": "university-of-washington-marketing",
+        "reported_dissertation_year": 2019
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Social Stigma",
+        "Morality",
+        "Health Decision-making",
+        "Emotions"
+      ],
+      "homepage": "https://www.kellogg.northwestern.edu/academics-research/faculty/achar_chethana/",
+      "cv_url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=12820",
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/api/facultylisting?listingId=e9eb7e22-b0ce-4907-be8b-9e73c3347c55&pageId=ec51f47e-4843-4eb7-a5d5-15ec09593247&academicDepartments=Marketing&facultyType=Tenure-line&page=1&perPage=60",
+          "label": "官方Marketing+Tenure-line筛选目录",
+          "quote": "Tenure-line",
+          "supports": [
+            "current.institution",
+            "current.department",
+            "membership_type",
+            "current.tenure_line"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/achar_chethana/",
+          "label": "官方本人档案",
+          "quote": "Professor of Marketing",
+          "supports": [
+            "current.role"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+          "label": "官方教育或博士项目资料",
+          "quote": "Chethana Achar – Northwestern University",
+          "supports": [
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "locator": "Education / 教育栏目"
+        },
+        {
+          "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=12820",
+          "label": "官方个人页所链资料；链接登记不代表内容可读",
+          "checked_at": "2026-10-22",
+          "access_status": "link_recorded"
+        },
+        {
+          "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/achar_chethana/",
+          "label": "本轮重读官方当前个人页",
+          "checked_at": "2026-10-22",
+          "access_status": "content_read",
+          "supports": [
+            "current.role"
+          ],
+          "quote": "Associate Professor of Marketing"
+        },
+        {
+          "url": "https://foster.uw.edu/wp-content/uploads/2020/04/Agrawal-Nidhi_CV-March-2020.pdf",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "Chethana Achar (Dissertation committee chair, 2019, UW, placement- Kellogg School of Management)",
+          "supports": [
+            "phd.reported_dissertation_year"
+          ],
+          "source_date": "2020-03",
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "career_sequence",
+          "reason": "仅记录实际读取的任职条目，未断言完整首职或所有转职。"
+        },
+        {
+          "field": "phd.year",
+          "reason": "UW博士项目就业页仅给2019来源年度，不能当作独立核实毕业年。"
+        },
+        {
+          "field": "phd.degree",
+          "reason": "官方博士项目名册证实培养关系，未独立读取授予学位证明。"
+        },
+        {
+          "field": "career_events",
+          "reason": "profile无逐年任职表；官方CV受限，未从现职倒推首职。"
+        }
+      ],
+      "profile_read": {
+        "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/achar_chethana/",
+        "status": 200,
+        "sha256": "cc144170172276fa8af0681c93dab104c89732f47cc4f6dd450c1c19d44d57ac",
+        "checked_at": "2026-10-22"
+      },
+      "cv_read": {
+        "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=12820",
+        "status": "access_restricted",
+        "redirect_url": "https://files.kellogg.northwestern.edu/kis/vpn-required.html",
+        "reason": "官方下载接口返回Network Access Required HTML，非PDF。未绕过访问限制。",
+        "checked_at": "2026-10-22"
+      },
+      "personal_site": null,
+      "eligibility": {
+        "research_roster": true,
+        "basis": "官方Marketing+Tenure-line筛选目录",
+        "source_url": "https://www.kellogg.northwestern.edu/api/facultylisting?listingId=e9eb7e22-b0ce-4907-be8b-9e73c3347c55&pageId=ec51f47e-4843-4eb7-a5d5-15ec09593247&academicDepartments=Marketing&facultyType=Tenure-line&page=1&perPage=60"
+      },
+      "career_sequence_complete": false,
+      "first_job": {
+        "institution": null,
+        "role": null,
+        "start_year": null,
+        "status": "not_independently_confirmed"
+      },
+      "access_attempts": [
+        {
+          "url": "https://hdl.handle.net/1773/44083",
+          "status": "not_accessible_in_web_tool",
+          "checked_at": "2026-10-22",
+          "reason": "已找到博士论文公开handle，经web读取失败；二手馆藏摘要列2019但未用来填确认值。"
+        }
+      ],
+      "date_precision": "year_or_unknown",
+      "id": "faculty-northwestern-university-chethanaachar",
+      "placement_id": null,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-existing-backfill-2026-10-22",
+      "existing_faculty_id": "faculty-northwestern-university-chethanaachar",
+      "identity_evidence": {
+        "basis": "explicit_stable_archive_and_named_source",
+        "source_urls": [
+          "https://www.kellogg.northwestern.edu/api/facultylisting?listingId=e9eb7e22-b0ce-4907-be8b-9e73c3347c55&pageId=ec51f47e-4843-4eb7-a5d5-15ec09593247&academicDepartments=Marketing&facultyType=Tenure-line&page=1&perPage=60",
+          "https://www.kellogg.northwestern.edu/academics-research/faculty/achar_chethana/",
+          "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+          "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=12820",
+          "https://foster.uw.edu/wp-content/uploads/2020/04/Agrawal-Nidhi_CV-March-2020.pdf"
+        ],
+        "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+      },
+      "resolved_gaps": [],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://foster.uw.edu/wp-content/uploads/2020/04/Agrawal-Nidhi_CV-March-2020.pdf"
+        ],
+        "notes": "进一步查到UW博士导师官方CV列2019论文指导与Kellogg去向。仅填reported_dissertation_year2019；正式授位时间仍待本人教育或授位名册，不能将指导年直接代替授位年。"
+      }
+    },
+    {
+      "name": "Chiu Chun-Hung",
+      "aliases": [],
+      "host_id": "sun-yat-sen",
+      "current": {
+        "institution": "Sun Yat-sen University",
+        "region": "CN",
+        "role": "Professor",
+        "start_year": 2022,
+        "status": "official_directory",
+        "start_date": "2022-05"
+      },
+      "phd": {
+        "school": "Chinese University of Hong Kong",
+        "program": "PhD in Systems Engineering and Engineering Management (Financial Engineering)",
+        "region": "HK",
+        "year": null,
+        "reported_years": [
+          2003,
+          2004
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Operations risk management, marketing–operations interface, supply chain finance, sustainable supply chain, mathematical finance."
+      ],
+      "homepage": "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://bus.sysu.edu.cn/en/bus-faculty",
+          "label": "官方全院Faculty目录",
+          "quote": "Chiu Chun-Hung — Professor",
+          "supports": [
+            "name",
+            "current.role"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong",
+          "label": "官方目录研究方向",
+          "quote": "Operations risk management, marketing–operations interface, supply chain finance, sustainable supply chain, mathema",
+          "supports": [
+            "fields",
+            "tracks"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "directory_text_checked"
+        },
+        {
+          "url": "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "received the Ph.D. degree from the Chinese University of Hong Kong, Shatin, Hong Kong, in 2004",
+          "supports": [
+            "phd.year",
+            "career_events"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "08/2007 - 12/2003, Ph.D. in in Systems Engineering and Engineering Management",
+          "supports": [
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Sun Yat-sen University",
+          "role": "Professor",
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "observed_current",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://bus.sysu.edu.cn/en/bus-faculty"
+          ],
+          "quote": "Chiu Chun-Hung — Professor"
+        },
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Instructor",
+          "start_year": 2004,
+          "end_year": 2005,
+          "source_urls": [
+            "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22",
+          "start_date": "2004-01",
+          "end_date": "2005-07"
+        },
+        {
+          "type": "appointment",
+          "institution": "Sun Yat-sen University",
+          "role": "Associate Professor",
+          "start_year": 2012,
+          "end_year": 2022,
+          "source_urls": [
+            "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22",
+          "start_date": "2012-07",
+          "end_date": "2022-05"
+        },
+        {
+          "type": "appointment",
+          "institution": "Sun Yat-sen University",
+          "role": "Professor",
+          "start_year": 2022,
+          "end_year": null,
+          "source_urls": [
+            "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22",
+          "start_date": "2022-05"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+        },
+        {
+          "field": "phd.year",
+          "reason": "同页简介明确PhD2004，教育段写08/2007-12/2003，区间倒置且终年2003，与简介2004不一致，暂不裁决。",
+          "values": [
+            2003,
+            2004
+          ],
+          "source_urls": [
+            "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong"
+          ]
+        }
+      ],
+      "verification_status": "directory_only",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sun-yat-sen-chiuchunhung",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sun-yat-sen-chiuchunhung",
+      "identity_evidence": {
+        "basis": "explicit_stable_archive_and_named_source",
+        "source_urls": [
+          "https://bus.sysu.edu.cn/en/bus-faculty",
+          "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong"
+        ],
+        "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+      },
+      "resolved_gaps": [],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong",
+          "https://bus.sysu.edu.cn/en/teacher/ZhaoJunxiong"
+        ],
+        "notes": "补博士培养院校、明确专业与2004/2003冲突；保存官方教育区间倒置笔误而不擅自修复。补Instructor与SYSU副教授/教授的明确年月。"
+      }
+    }
+  ]
+}

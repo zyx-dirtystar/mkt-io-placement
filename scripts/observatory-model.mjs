@@ -36,7 +36,7 @@ export function appointment(role, jobKind, tenure = null) {
   else if(jobKind === 'other') family = 'other';
   const explicit = tenure?.evidence_status==='confirmed'&&tenure?.quote&&tenure?.source_urls?.some(u=>/^https?:\/\//.test(u)) ? tenure.status : null;
   const excluded = /non[- ]?tenure|teaching|instruction|visiting.*professor|clinical|adjunct|professor.*practice|in[- ]residence/.test(s);
-  const titledTT = !excluded && /tenure[- ]?track|tenured/.test(s);
+  const titledTT = !excluded && /\btenure[- ]?track\b|\btenured\b/.test(s)&&! /without tenure|untenured/.test(s);
   return {job_family:family,tenure_status:explicit || (excluded ? 'non_tt' : titledTT ? 'tt' : 'unknown'),tenure_evidence_status:explicit ? 'confirmed' : excluded || titledTT ? 'title_explicit' : family === 'academic' ? 'inferred' : 'unknown',...(explicit?{tenure_quote:tenure.quote,tenure_source_urls:tenure.source_urls}:{})};
 }
 
@@ -116,15 +116,27 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
   }
   for(const f of faculty.people||[]){
     let p=f.placement_id&&people.find(p=>p.id===f.placement_id);
-    if(!p){p={id:f.id,name:f.name,aliases:f.aliases||[],school:f.phd?.school||null,program_id:f.phd?.program_id||null,origin:f.phd?.region||'UNKNOWN',graduation_year:f.phd?.year||null,status:'faculty_only',tracks:f.tracks||[],topics:[],methods:[],sources:f.sources||[],checked_at:f.checked_at,homepage:f.homepage,cv_url:f.cv_url,institution_id:institution(f.phd?.school,f.phd?.region),event_ids:[],claim_ids:[],faculty_ids:[],research:{tracks:canonicalize(f.tracks||[],terms.tracks,'track'),topics:[],methods:[],raw:{tracks:f.tracks||[],topics:[],methods:[]},classification_status:'legacy_reference',provisional_tracks:[]}};people.push(p);if(f.phd?.year)p.event_ids.push(event(p,'graduation',{institution:f.phd.school,region:f.phd.region,title:f.phd.program,start_year:f.phd.year,status:'recorded_degree'}));}
+    if(!p){p={id:f.id,name:f.name,aliases:f.aliases||[],school:f.phd?.school||null,program_id:f.phd?.program_id||null,origin:f.phd?.region||'UNKNOWN',graduation_year:f.phd?.year||null,status:'faculty_only',tracks:f.tracks||[],topics:[],methods:[],sources:f.sources||[],checked_at:f.checked_at,homepage:f.homepage,cv_url:f.cv_url,institution_id:institution(f.phd?.school,f.phd?.region),event_ids:[],claim_ids:[],faculty_ids:[],research:{tracks:canonicalize(f.tracks||[],terms.tracks,'track'),topics:[],methods:[],raw:{tracks:f.tracks||[],topics:[],methods:[]},classification_status:'legacy_reference',provisional_tracks:[]}};people.push(p);if(f.phd?.year)p.event_ids.push(event(p,'graduation',{institution:f.phd.school,region:f.phd.region,title:f.phd.program,start_date:f.phd.date,start_year:f.phd.year,status:'recorded_degree',source_urls:urls((f.sources||[]).filter(s=>s.supports?.some(k=>['phd','phd.year','phd.date'].includes(k))))}));}
     p.faculty_ids.push(f.id);
+    if(f.phd?.date&&f.phd.year===p.graduation_year){
+      const g=events.find(e=>e.person_id===p.id&&e.type==='graduation');
+      if(g&&g.date_precision==='year'&&String(f.phd.date).startsWith(g.start)){
+        g.start=date(f.phd.date);g.date_precision=precision(g.start);
+        const evidence=urls((f.sources||[]).filter(s=>s.supports?.some(k=>['phd','phd.year','phd.date'].includes(k))));
+        if(evidence.length)g.source_urls=evidence;
+      }
+    }
+    if(f.additional_degrees?.length){
+      p.additional_degrees=structuredClone(f.additional_degrees);
+      for(const [i,d]of f.additional_degrees.entries())p.event_ids.push(event(p,'additional_degree',{institution:d.school,region:d.region,title:[d.degree,d.program].filter(Boolean).join(' · '),start_date:d.date,start_year:d.year,source_urls:d.source_urls,status:d.status||'source_reported',checked_at:d.checked_at},i));
+    }
     if(f.current)p.event_ids.push(event(p,'current_appointment',{...f.current,status:f.current.status||'current_at_check',checked_at:f.checked_at,sources:f.sources},p.faculty_ids.length-1));
     // Reverse lookup adds observed career segments; it never rewrites the placement first/final job.
     for(const [i,e] of (f.career_events||[]).entries()){
       if(e.type==='current_appointment'&&e.institution===f.current?.institution&&e.start_year===f.current?.start_year)continue;
-      p.event_ids.push(event(p,e.type||'appointment',{...e,status:e.status||'source_reported',checked_at:f.checked_at},100+i));
+      p.event_ids.push(event(p,e.type||'appointment',{...e,status:e.status||'source_reported',checked_at:e.checked_at||f.checked_at},100+i));
     }
-    for(const [field,value]of [['phd.school',f.phd?.school],['phd.program',f.phd?.program],['phd.year',f.phd?.year],['current.role',f.current?.role],['current.start_year',f.current?.start_year]]){
+    for(const [field,value]of [['phd.school',f.phd?.school],['phd.program',f.phd?.program],['phd.year',f.phd?.year],['phd.defense_year',f.phd?.defense_year],['phd.reported_dissertation_year',f.phd?.reported_dissertation_year],['current.role',f.current?.role],['current.start_year',f.current?.start_year]]){
       if(value===null||value===undefined)continue;
       const sources=(f.sources||[]).filter(s=>s.supports?.some(k=>k===field||k===field.split('.')[0]));
       const exact=sources.find(s=>s.quote?.toLowerCase().includes(String(value).toLowerCase()));

@@ -13,6 +13,8 @@ const individual=u=>u&&!/\/alumni\/|phd-placements|people-partners|\/faculty\/?$
 const unionSources=(a=[],b=[])=>[...new Map([...a,...b].map(s=>[s.url+'|'+(s.quote||'')+'|'+(s.label||''),s])).values()];
 const hostAliases={penn:'university-of-pennsylvania-marketing',kellogg:'northwestern-university-marketing'};
 const normalizeHost=h=>hostAliases[h]||h;
+const regionAliases={'United States':'US','United States of America':'US',Canada:'CA','Hong Kong':'HK',Singapore:'SG',China:'CN','United Kingdom':'UK',GB:'UK',France:'FR',Germany:'DE',Netherlands:'NL',Australia:'AU',Italy:'IT',Spain:'ES',Belgium:'BE',Switzerland:'CH',Ireland:'IE',India:'IN',Israel:'IL',Turkey:'TR',Taiwan:'TW','South Korea':'KR'};
+const normalizeRegion=r=>regionAliases[r]||r||null;
 export function applyFacultyBatch(original,originalRecords,batch,programs=[],identities=[]){
  batch={...batch,id:batch.id||batch.batch_id};
  const archive=structuredClone(original),records=structuredClone(originalRecords),checksum=hash(batch);
@@ -28,6 +30,8 @@ export function applyFacultyBatch(original,originalRecords,batch,programs=[],ide
   const incoming=structuredClone(raw);incoming.host_id=normalizeHost(incoming.host_id);
   const explicit=identities.find(x=>x.host_id===incoming.host_id&&x.name===incoming.name);
   const identity=explicit||incoming;
+  const referenced=incoming.existing_faculty_id?archive.people.find(p=>p.id===incoming.existing_faculty_id):null;
+  if(incoming.existing_faculty_id&&(!referenced||referenced.host_id!==incoming.host_id||!incoming.identity_evidence?.basis||!incoming.identity_evidence.source_urls?.some(u=>/^https?:\/\//.test(u))))throw Error('Existing faculty ID requires matching host and reviewed identity evidence');
   let placement_id=identity.placement_id||null;
   if(placement_id&&!identity.identity_evidence)throw Error('Explicit identity requires evidence: '+incoming.name);
   const exactUrls=[incoming.homepage,incoming.cv_url].filter(individual);
@@ -37,7 +41,7 @@ export function applyFacultyBatch(original,originalRecords,batch,programs=[],ide
   const linked=placement_id?records.find(r=>r.id===placement_id):null;
   if(placement_id&&!linked)throw Error('Unknown placement '+placement_id);
   if(linked&&incoming.phd.school&&canonical(incoming.phd.school)!==canonical(linked.school))throw Error('Identity degree school differs: '+incoming.name+' / '+incoming.phd.school+' / '+linked.school);
-  const oldCandidates=archive.people.filter(p=>p.host_id===incoming.host_id&&(placement_id&&p.placement_id===placement_id||[p.homepage,p.cv_url].filter(individual).some(u=>exactUrls.includes(u))));
+  const oldCandidates=archive.people.filter(p=>p.host_id===incoming.host_id&&(p===referenced||placement_id&&p.placement_id===placement_id||[p.homepage,p.cv_url].filter(individual).some(u=>exactUrls.includes(u))));
   if(oldCandidates.length>1)throw Error('Ambiguous archived identity '+incoming.name);
   const old=oldCandidates[0];
   if(old?.checked_at>batch.checked_at)throw Error('Stale batch would replace a newer person: '+incoming.name);
@@ -45,7 +49,7 @@ export function applyFacultyBatch(original,originalRecords,batch,programs=[],ide
   if(archive.people.some(p=>p.id===id&&p!==old))throw Error('ID collision requires reviewed identity '+id);
   incoming.id=id;incoming.placement_id=placement_id||old?.placement_id||null;
   incoming.checked_at=batch.checked_at;incoming.aliases=uniq([...(old?.aliases||[]),...(incoming.aliases||[])]);
-  incoming.tracks||=[];incoming.fields||=[];incoming.faculty_type||=/Research Assistant Professor/i.test(incoming.current.role||'')?'research_appointment':'research';incoming.career_sequence_complete=false;
+  incoming.tracks||=[];incoming.fields||=[];incoming.faculty_type||=incoming.faculty_scope==='research_eligibility_unconfirmed'?'research_membership_pending':/Research Assistant Professor/i.test(incoming.current.role||'')?'research_appointment':'research';incoming.career_sequence_complete=false;
   if(incoming.department&&!incoming.current.department)incoming.current.department=incoming.department;
   if(!incoming.current.status)incoming.current.status=incoming.current.directory_membership?.includes('unreconciled')?'directory_membership_unreconciled':incoming.verification_status?.includes('indexed')?'indexed_reference':'official_directory';
   incoming.unknowns=(incoming.unknowns||[]).map(x=>typeof x==='string'?{field:'biography',reason:x}:x);
@@ -56,6 +60,8 @@ export function applyFacultyBatch(original,originalRecords,batch,programs=[],ide
   if(incoming.tracks.every(t=>t==='marketing')&&old?.tracks?.some(t=>t!=='marketing')){incoming.tracks=uniq([...incoming.tracks,...old.tracks]);carry('tracks');}
   if(!individual(incoming.homepage)&&incoming.homepage){incoming.unknowns.push({field:'homepage',reason:'已查来源为集体目录，尚无经核验个人主页。'});incoming.homepage=null;}
   incoming.phd={school:null,program:null,region:null,year:null,...old?.phd,...incoming.phd};
+  if(incoming.phd.region&&normalizeRegion(incoming.phd.region)!==incoming.phd.region)incoming.phd.reported_region=incoming.phd.region;
+  incoming.phd.region=normalizeRegion(incoming.phd.region);incoming.current.region=normalizeRegion(incoming.current.region);
   for(const k of ['school','program','region','year','program_id'])if(incoming.phd[k]===null&&old?.phd?.[k]!=null&&incoming.phd.verification_status!=='training_only'&&!incoming.unknowns.some(g=>g.field==='phd.'+k&&/冲突|conflict/.test(g.reason||''))){incoming.phd[k]=old.phd[k];carry('phd.'+k);}
   if(incoming.phd.year&&(incoming.phd.verification_status==='training_only'||incoming.phd.degree_status==='award_not_verified'))throw Error('Training-only evidence cannot supply an awarded degree year');
   if(linked){
@@ -78,7 +84,8 @@ export function applyFacultyBatch(original,originalRecords,batch,programs=[],ide
   else if(!incoming.phd.program_id&&/marketing/i.test(incoming.phd.program||'')&&!/DBA|doctoral studies/i.test(incoming.phd.program))incoming.phd.program_id=programs.find(p=>p.kind==='marketing'&&canonical(p.school)===canonical(incoming.phd.school))?.id||null;
   incoming.sources=unionSources((old?.sources||[]).map(s=>({...s,checked_at:s.checked_at||old.checked_at})),incoming.sources).map(s=>({...s,checked_at:s.checked_at||batch.checked_at}));
   for(const u of [incoming.homepage,incoming.cv_url].filter(Boolean))if(!incoming.sources.some(s=>s.url===u))incoming.sources.push({url:u,label:'官方个人页所链资料；链接登记不代表内容可读',checked_at:batch.checked_at,access_status:'link_recorded'});
-  incoming.notes=[incoming.notes,'仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。'].filter(Boolean).join(' ');
+  const archiveNote='仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。';
+  incoming.notes=incoming.notes?.includes(archiveNote)?incoming.notes:[incoming.notes,archiveNote].filter(Boolean).join(' ');
   incoming.import_batch_id=batch.id;
   if(old){incoming.previous_versions=[...(old.previous_versions||[]),{...old,previous_versions:undefined}];archive.people[archive.people.indexOf(old)]={...old,...incoming};report.revised++;}
   else {archive.people.push(incoming);report.added++;}
@@ -95,7 +102,7 @@ export function applyFacultyBatch(original,originalRecords,batch,programs=[],ide
   });
   if(new Set(ids).size!==ids.length)throw Error('Duplicate roster member '+s.host_id);
   const cachedOnly=(s.notes||[]).toString().includes('最近缓存')&&(s.access_limitations||[]).some(a=>/404/.test(a.result||''));
-  const complete=!!s.complete_evidence&&s.directory_complete!==false&&!cachedOnly;
+  const complete=!!s.complete_evidence&&s.directory_complete!==false&&!cachedOnly&&!s.roster_status?.includes('identity_conflicts');
   const old=archive.receiving_checks.filter(c=>c.host_id===s.host_id);
   archive.receiving_check_history||=[];archive.receiving_check_history.push(...old);
   archive.receiving_checks=archive.receiving_checks.filter(c=>c.host_id!==s.host_id);

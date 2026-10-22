@@ -27,6 +27,21 @@ test('doctoral training does not imply degree award or Marketing program members
  const b=batch();b.people[0].phd.verification_status='training_only';assert.throws(()=>applyFacultyBatch(archive(),[],b),/Training-only/);
  b.people[0].phd.year=null;const r=applyFacultyBatch(archive(),[],b,[{id:'origin-marketing',kind:'marketing',school:'Origin'}]);assert.equal(r.archive.people[0].phd.program_id,null);
 });
+
+test('country names normalize without changing explicitly reported doctoral fields',()=>{
+ const b=batch();b.people[0].phd.region='United States';b.people[0].phd.program='Psychology';
+ const p=applyFacultyBatch(archive(),[],b,[{id:'origin-marketing',school:'Origin',kind:'marketing'}]).archive.people[0];
+ assert.equal(p.phd.region,'US');assert.equal(p.phd.reported_region,'United States');assert.equal(p.phd.program_id,undefined);
+});
+
+test('reviewed stable archive IDs survive changed personal URLs and reject wrong-host or empty evidence',()=>{
+ const a=applyFacultyBatch(archive(),[],batch()).archive,p=a.people[0],b=batch();b.id='reviewed-backfill';b.schools=[];
+ b.people[0].existing_faculty_id=p.id;b.people[0].homepage='https://personal.example/new';
+ assert.throws(()=>applyFacultyBatch(a,[],b),/reviewed identity evidence/);
+ b.people[0].identity_evidence={basis:'manual_cv',source_urls:[p.homepage,b.people[0].homepage]};
+ const next=applyFacultyBatch(a,[],b);assert.equal(next.archive.people.length,1);assert.equal(next.archive.people[0].id,p.id);assert.equal(next.archive.people[0].previous_versions.length,1);
+ b.people[0].host_id='another-host';assert.throws(()=>applyFacultyBatch(a,[],b),/matching host/);
+});
 test('directory-only updates retain earlier CV links and specific research evidence with their real dates',()=>{
  const a=applyFacultyBatch(archive(),[],batch()).archive,p=a.people[0];p.cv_url='https://host.edu/alex-cv.pdf';p.fields=['Structural demand'];p.tracks=['marketing','qm'];p.checked_at='2026-10-01';p.sources.push({url:p.cv_url,label:'Earlier verified CV'});
  const b=batch();b.id='later-directory';b.people[0].fields=[];b.people[0].tracks=['marketing'];b.people[0].cv_url=null;
@@ -47,4 +62,14 @@ test('the release preserves every prior stable ID and routes career sources to t
  const e=d.events.find(e=>e.person_id===raw.id&&e.type==='appointment'&&e.institution==='Massachusetts Institute of Technology');assert.equal(e.start,'2025');assert.ok(e.source_urls.some(u=>u.includes('13887')));assert.ok(!e.source_urls.some(u=>u.includes('career-outcomes')));
  assert.ok(!d.events.some(e=>e.person_id===a.people.find(p=>p.name==='Guanzhong Du').id&&e.type==='graduation'));
  assert.equal(d.quality.metrics.complete_cohorts,0);
+});
+
+test('directory identity conflicts and uncertain research eligibility cannot become complete research membership',()=>{
+ const b=batch();b.schools[0].roster_status='directory_snapshot_reconciled_with_identity_conflicts';b.people[0].faculty_scope='research_eligibility_unconfirmed';
+ const result=applyFacultyBatch(archive(),[],b).archive;
+ assert.equal(result.receiving_checks[0].status,'partial');assert.equal(result.people[0].faculty_type,'research_membership_pending');
+ const a=JSON.parse(fs.readFileSync('data/faculty.json','utf8'));
+ assert.equal(a.receiving_checks.find(c=>c.host_id==='university-of-notre-dame-marketing').status,'partial');
+ for(const name of ['James Roger Otteson','John C. Powell'])assert.equal(a.people.find(p=>p.name===name).faculty_type,'research_membership_pending');
+ assert.equal(a.people.filter(p=>p.name==='Jessica Fong').length,1);
 });
