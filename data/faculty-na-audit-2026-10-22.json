@@ -9,11 +9,11 @@
     "remaining_na": 46
   },
   "counts": {
-    "people": 1111,
-    "doctoral_origin_known": 1022,
-    "degree_year_known": 771,
-    "degree_year_unknown": 340,
-    "dated_career_people": 534,
+    "people": 1114,
+    "doctoral_origin_known": 1052,
+    "degree_year_known": 926,
+    "degree_year_unknown": 188,
+    "dated_career_people": 851,
     "faculty_types": {
       "research": 1067,
       "research_appointment": 2,
@@ -23,23 +23,25 @@
       "honorary": 1,
       "practice": 5,
       "emeritus": 3,
-      "research_membership_pending": 3
+      "research_membership_pending": 2,
+      "affiliated_research": 2,
+      "joint_research": 2
     },
-    "career_segments": 1928,
-    "new_people": 705,
+    "career_segments": 3045,
+    "new_people": 708,
     "started_schools": 67,
-    "directory_aligned": 54,
+    "directory_aligned": 59,
     "na_started": 50,
-    "na_aligned": 44,
+    "na_aligned": 49,
     "target_started": 46,
-    "target_aligned": 40
+    "target_aligned": 45
   },
   "existing": {
     "people": 406,
-    "doctoral_origin_known": 332,
-    "degree_year_known": 253,
-    "degree_year_unknown": 153,
-    "dated_career_people": 212,
+    "doctoral_origin_known": 355,
+    "degree_year_known": 290,
+    "degree_year_unknown": 116,
+    "dated_career_people": 268,
     "faculty_types": {
       "research": 365,
       "research_appointment": 2,
@@ -51,10 +53,30 @@
       "emeritus": 3,
       "research_membership_pending": 1
     },
-    "career_segments": 708,
-    "degree_years_added": 48,
+    "career_segments": 873,
+    "degree_years_added": 85,
     "degree_year_ids": [
       "yale-zikun-liu",
+      "faculty-chinese-university-of-hong-kong-sungjinjung",
+      "faculty-chinese-university-of-hong-kong-mengzhang",
+      "faculty-hong-kong-polytechnic-university-xubingzhang",
+      "northwestern-jessie-jia",
+      "faculty-hong-kong-university-of-science-and-technology-jiewenhong",
+      "faculty-hong-kong-university-of-science-and-technology-jialiu",
+      "faculty-hong-kong-university-of-science-and-technology-qihuichen",
+      "faculty-hong-kong-university-of-science-and-technology-sangkyupark",
+      "faculty-city-university-of-hong-kong-liangguo",
+      "faculty-city-university-of-hong-kong-stylianosdespotakis",
+      "faculty-city-university-of-hong-kong-yiminyu",
+      "faculty-city-university-of-hong-kong-chivincentwong",
+      "faculty-city-university-of-hong-kong-xuzheng",
+      "faculty-city-university-of-hong-kong-jiajiacong",
+      "carnegie-mellon-xiaohang-flora-feng",
+      "faculty-city-university-of-hong-kong-esterinanervino",
+      "faculty-university-of-hong-kong-shanhuang",
+      "faculty-university-of-hong-kong-sarakim",
+      "faculty-university-of-hong-kong-xili",
+      "faculty-university-of-british-columbia-karlaquino",
       "faculty-university-of-british-columbia-lisacavanaugh",
       "faculty-university-of-british-columbia-davidhardisty",
       "faculty-massachusetts-institute-of-technology-sinanaral",
@@ -62,6 +84,22 @@
       "faculty-massachusetts-institute-of-technology-drazenprelec",
       "penn-anya-shchetkina",
       "faculty-massachusetts-institute-of-technology-duncansimester",
+      "faculty-national-university-of-singapore-jochenwirtz",
+      "faculty-nanyang-technological-university-kuangjiezhang",
+      "faculty-nanyang-technological-university-xinlongli",
+      "faculty-tsinghua-chenyubo",
+      "faculty-tsinghua-huangliang",
+      "faculty-tsinghua-liumaggiewenjing",
+      "faculty-peking-xingli",
+      "faculty-peking-jingxu",
+      "faculty-peking-yingjiezhang",
+      "faculty-sjtu-才凤艳",
+      "faculty-sjtu-顾锋",
+      "faculty-sjtu-井淼",
+      "faculty-sjtu-刘益",
+      "faculty-sjtu-吕巍",
+      "faculty-sjtu-余明阳",
+      "faculty-sjtu-张铄",
       "faculty-sufe-高维和",
       "faculty-sufe-江晓东",
       "faculty-sufe-楼尊",
@@ -85,6 +123,7 @@
       "faculty-xiamen-江玮",
       "faculty-xiamen-李冰州",
       "faculty-xiamen-周晨希",
+      "faculty-nanjing-jiangzhengrui",
       "faculty-university-of-pennsylvania-ronberman",
       "faculty-university-of-pennsylvania-erictbradlow",
       "faculty-university-of-pennsylvania-wendydelarosa",
@@ -103,15 +142,64 @@
       "faculty-university-of-pennsylvania-pinaryildirim",
       "faculty-university-of-pennsylvania-zjohnzhang"
     ],
-    "dated_career_added": 49,
+    "dated_career_added": 105,
     "dated_career_ids": [
+      "northwestern-gaoyang-cai",
+      "michigan-yu-song",
+      "yale-jin-kim",
+      "columbia-university-jasmine-yang",
       "university-of-california-san-diego-michelle-kim",
       "faculty-xinyu-cao",
+      "faculty-chenxi-liao",
+      "faculty-juanjuan-zhang",
+      "university-of-california-san-diego-gal-smitizsky",
+      "faculty-chinese-university-of-hong-kong-sungjinjung",
+      "northwestern-jessie-jia",
+      "faculty-hong-kong-university-of-science-and-technology-jialiu",
+      "faculty-hong-kong-university-of-science-and-technology-sangkyupark",
+      "faculty-city-university-of-hong-kong-liangguo",
+      "faculty-city-university-of-hong-kong-chivincentwong",
+      "faculty-city-university-of-hong-kong-xuzheng",
+      "faculty-city-university-of-hong-kong-esterinanervino",
+      "faculty-university-of-hong-kong-shanhuang",
+      "faculty-university-of-hong-kong-sarakim",
+      "faculty-university-of-british-columbia-karlaquino",
       "faculty-university-of-british-columbia-lisacavanaugh",
       "faculty-university-of-british-columbia-davidhardisty",
+      "faculty-massachusetts-institute-of-technology-sinanaral",
       "faculty-massachusetts-institute-of-technology-deaneckles",
+      "ruru-hoong-2026",
       "faculty-massachusetts-institute-of-technology-drazenprelec",
+      "penn-anya-shchetkina",
       "faculty-massachusetts-institute-of-technology-duncansimester",
+      "faculty-national-university-of-singapore-jochenwirtz",
+      "faculty-tsinghua-chenyubo",
+      "faculty-peking-xingli",
+      "faculty-peking-jingxu",
+      "faculty-peking-yizhang",
+      "faculty-sjtu-才凤艳",
+      "faculty-sjtu-陈洁",
+      "faculty-sjtu-井淼",
+      "faculty-sjtu-刘益",
+      "faculty-sjtu-吕巍",
+      "faculty-sjtu-伍青生",
+      "faculty-sjtu-余明阳",
+      "faculty-sjtu-张铄",
+      "faculty-sjtu-庄晖",
+      "faculty-fudan-褚荣伟",
+      "faculty-fudan-范秀成",
+      "faculty-fudan-何雁群",
+      "faculty-fudan-蒋青云",
+      "faculty-fudan-陆雄文",
+      "faculty-fudan-裘理瑾",
+      "faculty-fudan-孙一民",
+      "faculty-fudan-肖莉",
+      "faculty-fudan-谢晓燕",
+      "faculty-fudan-徐倩",
+      "faculty-fudan-余伊琦",
+      "faculty-fudan-张杏",
+      "faculty-fudan-张喆",
+      "faculty-fudan-赵伟韬",
       "faculty-sufe-高维和",
       "faculty-sufe-江晓东",
       "faculty-sufe-楼尊",
@@ -136,13 +224,18 @@
       "faculty-xiamen-李冰州",
       "faculty-xiamen-谭群",
       "faculty-xiamen-周晨希",
+      "faculty-nanjing-chenxi",
+      "faculty-nanjing-daiwanwen",
       "faculty-university-of-pennsylvania-ronberman",
       "faculty-university-of-pennsylvania-erictbradlow",
       "faculty-university-of-pennsylvania-wendydelarosa",
       "faculty-university-of-pennsylvania-ryandew",
       "faculty-university-of-pennsylvania-raghuramraghuiyengar",
       "faculty-university-of-pennsylvania-zhenlingjiang",
+      "faculty-university-of-pennsylvania-barbaraekahn",
       "faculty-university-of-pennsylvania-caitlamberton",
+      "faculty-university-of-pennsylvania-johnmccoy",
+      "faculty-university-of-pennsylvania-barbaramellers",
       "faculty-university-of-pennsylvania-gideonnave",
       "faculty-university-of-pennsylvania-michaelplatt",
       "faculty-university-of-pennsylvania-stefanopuntoni",
@@ -152,19 +245,71 @@
       "faculty-university-of-pennsylvania-thomassrobertson",
       "faculty-university-of-pennsylvania-marissaasharif",
       "faculty-university-of-pennsylvania-christophevandenbulte",
+      "faculty-university-of-pennsylvania-pattiwilliams",
       "faculty-university-of-pennsylvania-pinaryildirim",
-      "faculty-university-of-pennsylvania-zjohnzhang"
+      "faculty-university-of-pennsylvania-zjohnzhang",
+      "faculty-northwestern-university-ashleehumphreys"
     ],
-    "expanded_career_people": 52,
+    "expanded_career_people": 109,
     "expanded_career_ids": [
+      "northwestern-gaoyang-cai",
+      "michigan-yu-song",
+      "yale-jin-kim",
+      "columbia-university-jasmine-yang",
       "university-of-california-san-diego-michelle-kim",
       "faculty-xinyu-cao",
+      "faculty-chenxi-liao",
+      "faculty-juanjuan-zhang",
+      "university-of-california-san-diego-gal-smitizsky",
+      "faculty-chinese-university-of-hong-kong-sungjinjung",
+      "northwestern-jessie-jia",
+      "faculty-hong-kong-university-of-science-and-technology-jialiu",
+      "faculty-hong-kong-university-of-science-and-technology-sangkyupark",
+      "faculty-city-university-of-hong-kong-liangguo",
+      "faculty-city-university-of-hong-kong-chivincentwong",
+      "faculty-city-university-of-hong-kong-xuzheng",
+      "faculty-city-university-of-hong-kong-jiajiacong",
+      "faculty-city-university-of-hong-kong-esterinanervino",
+      "faculty-university-of-hong-kong-shanhuang",
+      "faculty-university-of-hong-kong-sarakim",
+      "faculty-university-of-british-columbia-karlaquino",
       "faculty-university-of-british-columbia-lisacavanaugh",
       "faculty-university-of-british-columbia-davidhardisty",
+      "faculty-massachusetts-institute-of-technology-sinanaral",
       "faculty-massachusetts-institute-of-technology-deaneckles",
+      "ruru-hoong-2026",
       "faculty-massachusetts-institute-of-technology-drazenprelec",
+      "penn-anya-shchetkina",
       "faculty-massachusetts-institute-of-technology-duncansimester",
+      "faculty-national-university-of-singapore-jochenwirtz",
       "faculty-nanyang-technological-university-sharonng",
+      "faculty-tsinghua-chenyubo",
+      "faculty-peking-xingli",
+      "faculty-peking-jingxu",
+      "faculty-peking-yizhang",
+      "faculty-sjtu-才凤艳",
+      "faculty-sjtu-陈洁",
+      "faculty-sjtu-井淼",
+      "faculty-sjtu-刘益",
+      "faculty-sjtu-吕巍",
+      "faculty-sjtu-伍青生",
+      "faculty-sjtu-余明阳",
+      "faculty-sjtu-张铄",
+      "faculty-sjtu-庄晖",
+      "faculty-fudan-褚荣伟",
+      "faculty-fudan-范秀成",
+      "faculty-fudan-何雁群",
+      "faculty-fudan-蒋青云",
+      "faculty-fudan-陆雄文",
+      "faculty-fudan-裘理瑾",
+      "faculty-fudan-孙一民",
+      "faculty-fudan-肖莉",
+      "faculty-fudan-谢晓燕",
+      "faculty-fudan-徐倩",
+      "faculty-fudan-余伊琦",
+      "faculty-fudan-张杏",
+      "faculty-fudan-张喆",
+      "faculty-fudan-赵伟韬",
       "faculty-sufe-陈豪隽",
       "faculty-sufe-刁文",
       "faculty-sufe-高维和",
@@ -191,13 +336,18 @@
       "faculty-xiamen-李冰州",
       "faculty-xiamen-谭群",
       "faculty-xiamen-周晨希",
+      "faculty-nanjing-chenxi",
+      "faculty-nanjing-daiwanwen",
       "faculty-university-of-pennsylvania-ronberman",
       "faculty-university-of-pennsylvania-erictbradlow",
       "faculty-university-of-pennsylvania-wendydelarosa",
       "faculty-university-of-pennsylvania-ryandew",
       "faculty-university-of-pennsylvania-raghuramraghuiyengar",
       "faculty-university-of-pennsylvania-zhenlingjiang",
+      "faculty-university-of-pennsylvania-barbaraekahn",
       "faculty-university-of-pennsylvania-caitlamberton",
+      "faculty-university-of-pennsylvania-johnmccoy",
+      "faculty-university-of-pennsylvania-barbaramellers",
       "faculty-university-of-pennsylvania-gideonnave",
       "faculty-university-of-pennsylvania-michaelplatt",
       "faculty-university-of-pennsylvania-stefanopuntoni",
@@ -207,10 +357,12 @@
       "faculty-university-of-pennsylvania-thomassrobertson",
       "faculty-university-of-pennsylvania-marissaasharif",
       "faculty-university-of-pennsylvania-christophevandenbulte",
+      "faculty-university-of-pennsylvania-pattiwilliams",
       "faculty-university-of-pennsylvania-pinaryildirim",
-      "faculty-university-of-pennsylvania-zjohnzhang"
+      "faculty-university-of-pennsylvania-zjohnzhang",
+      "faculty-northwestern-university-ashleehumphreys"
     ],
-    "career_segments_added": 164,
+    "career_segments_added": 329,
     "rechecked_ids": [
       "yale-zikun-liu",
       "university-of-california-san-diego-michelle-kim",
@@ -283,17 +435,19 @@
     "missing_ids": []
   },
   "new_people": {
-    "people": 705,
-    "doctoral_origin_known": 690,
-    "degree_year_known": 518,
-    "degree_year_unknown": 187,
-    "dated_career_people": 322,
+    "people": 708,
+    "doctoral_origin_known": 697,
+    "degree_year_known": 636,
+    "degree_year_unknown": 72,
+    "dated_career_people": 583,
     "faculty_types": {
       "research": 702,
       "visiting": 1,
-      "research_membership_pending": 2
+      "affiliated_research": 2,
+      "research_membership_pending": 1,
+      "joint_research": 2
     },
-    "career_segments": 1220
+    "career_segments": 2172
   },
   "schools": [
     {
@@ -304,13 +458,13 @@
       "roster_count": 21,
       "people": 21,
       "doctoral_origin_known": 21,
-      "degree_year_known": 18,
-      "degree_year_unknown": 3,
-      "dated_career_people": 15,
+      "degree_year_known": 21,
+      "degree_year_unknown": 0,
+      "dated_career_people": 21,
       "faculty_types": {
         "research": 21
       },
-      "career_segments": 69,
+      "career_segments": 100,
       "scope": "Marketing Division当前官方目录，21名研究教授；目录同时列出的教学、兼职、访问、荣休、工作人员独立排除。",
       "notes": "已完整读取官方目录全部姓名段落（73–654），没有依赖图片标题推断姓名。",
       "access_limitations": [],
@@ -326,23 +480,30 @@
       "host_id": "university-of-chicago-marketing",
       "school": "University of Chicago",
       "region": "US",
-      "state": "partial",
-      "roster_count": null,
+      "state": "complete",
+      "roster_count": 19,
       "people": 19,
-      "doctoral_origin_known": 18,
-      "degree_year_known": 16,
-      "degree_year_unknown": 3,
-      "dated_career_people": 5,
+      "doctoral_origin_known": 19,
+      "degree_year_known": 19,
+      "degree_year_unknown": 0,
+      "dated_career_people": 17,
       "faculty_types": {
         "research": 19
       },
-      "career_segments": 34,
-      "scope": "官方PhD Marketing领域19名研究教师的完整所列范围。",
-      "notes": "主Academic Areas页面使用动态Coveo组件，改读官方PhD领域页；该名单可对齐，但不能据此确认整个Marketing系当日在职名册完整，也未虚构教学/荣休排除名单。",
+      "career_segments": 72,
+      "scope": "官方Academic Areas Marketing动态目录的全部公开web版本：24条去重人员卡片，其中19名Tenured/Tenure-Track研究教师、5名明确Adjunct单列。",
+      "notes": [
+        "PhD导师页19名与当前Marketing公开动态研究教师19名逐项吻合；此完整性只针对明确目录范围，不推断HR名册。"
+      ],
       "access_limitations": [],
       "sources": [
         {
           "url": "https://www.chicagobooth.edu/phd/dissertation-areas/marketing",
+          "label": "官方院系目录；范围与访问状态见核验说明",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.chicagobooth.edu/faculty/academic-areas/marketing",
           "label": "官方院系目录；范围与访问状态见核验说明",
           "checked_at": "2026-10-22"
         }
@@ -356,13 +517,13 @@
       "roster_count": 17,
       "people": 17,
       "doctoral_origin_known": 17,
-      "degree_year_known": 16,
-      "degree_year_unknown": 1,
-      "dated_career_people": 12,
+      "degree_year_known": 17,
+      "degree_year_unknown": 0,
+      "dated_career_people": 16,
       "faculty_types": {
         "research": 17
       },
-      "career_segments": 50,
+      "career_segments": 62,
       "scope": "Marketing and International Business官方筛选目录：46条原始卡片，17名研究教授，其余教学/荣休等排除。",
       "notes": "官方department筛选结果完整读取；博士与职业信息独立核验。",
       "access_limitations": [],
@@ -384,11 +545,11 @@
       "doctoral_origin_known": 25,
       "degree_year_known": 25,
       "degree_year_unknown": 0,
-      "dated_career_people": 13,
+      "dated_career_people": 25,
       "faculty_types": {
         "research": 25
       },
-      "career_segments": 53,
+      "career_segments": 108,
       "scope": "Marketing and Management Communications官方跨学院研究领域目录：52条原始卡片，研究教授25，教学/荣休等27。",
       "notes": "包括Dyson、Johnson及Nolan Hotel学院；不会将Food Marketing和管理沟通岗位强行统一成Marketing PhD。",
       "access_limitations": [],
@@ -408,16 +569,48 @@
       "roster_count": null,
       "people": 15,
       "doctoral_origin_known": 15,
-      "degree_year_known": 12,
-      "degree_year_unknown": 3,
-      "dated_career_people": 0,
+      "degree_year_known": 15,
+      "degree_year_unknown": 0,
+      "dated_career_people": 9,
       "faculty_types": {
         "research": 15
       },
-      "career_segments": 15,
+      "career_segments": 37,
       "scope": "官方Marketing目录/PhD领域教师列表和2026年大学官方faculty roster对照，研究教授15名。",
-      "notes": "动态详情接口https://jsom.utdallas.edu/staff-list.php对15人分别请求均fetch failed；部分旧个人页仅通用模板或404。2026官方catalog补学历，2024/2025官方新聘新闻补Ivan Li/Behnam Mohammadi；不能确认目录完整，不能用新聘新闻年份当授位年。",
-      "access_limitations": [],
+      "notes": [
+        "本轮重试Marketing系页、PhD教师及JSOM接口仍fetch failed；2026官方catalog可读、官方新聘与个人CV补足个体，但不能证明当前完整HR范围。",
+        "Shervin的2012/2018为不同学科的两个博士学位，并非一个博士年冲突。Simon Kim是2026–27求职季博士候选人，不将seminar机构标签误当UTD教师任职。"
+      ],
+      "access_limitations": [
+        {
+          "url": "https://marketing.utdallas.edu/program-resources/faculty-research/",
+          "result": "fetch failed",
+          "cause": null,
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://jindal.utdallas.edu/phd-programs/management-science/marketing/",
+          "result": "fetch failed",
+          "cause": null,
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://jindal.utdallas.edu/faculty/",
+          "result": "fetch failed",
+          "cause": null,
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://jsom.utdallas.edu/faculty/api.php?area=marketing",
+          "result": "502 Bad Gateway",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://personal.utdallas.edu/~nkumar",
+          "result": "HTTP200 redirects to Personal Webpage Responsibility Acknowledgement generic IT page; no readable biography",
+          "checked_at": "2026-10-22"
+        }
+      ],
       "sources": [
         {
           "url": "https://marketing.utdallas.edu/program-resources/faculty-research/",
@@ -434,13 +627,13 @@
       "roster_count": 21,
       "people": 21,
       "doctoral_origin_known": 21,
-      "degree_year_known": 15,
-      "degree_year_unknown": 6,
-      "dated_career_people": 10,
+      "degree_year_known": 17,
+      "degree_year_unknown": 4,
+      "dated_career_people": 18,
       "faculty_types": {
         "research": 21
       },
-      "career_segments": 50,
+      "career_segments": 76,
       "scope": "官方Marketing Full-Time Faculty完整CMS名单27人，研究教授19；Courtesy/Joint另2，教学/附属/兼职/荣休24独立排除。",
       "notes": "读取公开页面随HTML提供的people-list CMS数据，nextPage为0；区分19本系研究教师与Robert Kozinets/Norbert Schwarz两名joint。",
       "access_limitations": [],
@@ -460,13 +653,13 @@
       "roster_count": 24,
       "people": 24,
       "doctoral_origin_known": 20,
-      "degree_year_known": 16,
-      "degree_year_unknown": 8,
-      "dated_career_people": 9,
+      "degree_year_known": 17,
+      "degree_year_unknown": 7,
+      "dated_career_people": 17,
       "faculty_types": {
         "research": 24
       },
-      "career_segments": 45,
+      "career_segments": 70,
       "scope": "官方Marketing五页结果48条，按原始职称纳入24名研究教授，排除24名教学/临床等。",
       "notes": "使用页面脚本实际调用的faculty-chunk.php公开分页2–5，department=57；不是只读第一页。",
       "access_limitations": [],
@@ -488,11 +681,11 @@
       "doctoral_origin_known": 16,
       "degree_year_known": 13,
       "degree_year_unknown": 4,
-      "dated_career_people": 9,
+      "dated_career_people": 13,
       "faculty_types": {
         "research": 17
       },
-      "career_segments": 37,
+      "career_segments": 48,
       "scope": "官方Marketing完整31条目录，17名研究教授，14条教学/行政等排除。",
       "notes": "Verda Blythe和Alan Stoffer个人页证实教学/行政，不作为研究教授；兼任行政职务的研究教授不因Dean头衔被排除。",
       "access_limitations": [],
@@ -514,11 +707,11 @@
       "doctoral_origin_known": 18,
       "degree_year_known": 16,
       "degree_year_unknown": 2,
-      "dated_career_people": 1,
+      "dated_career_people": 17,
       "faculty_types": {
         "research": 18
       },
-      "career_segments": 20,
+      "career_segments": 88,
       "scope": "官方Marketing完整三页28条，18名研究教授，10名临床/荣休排除。",
       "notes": "完整读取page=0、1、2；Jessica Fong使用2026新版官方链接CV归入Maryland，保留Michigan2020–2026职业事件。",
       "access_limitations": [],
@@ -534,19 +727,22 @@
       "host_id": "yale-university-marketing",
       "school": "Yale University",
       "region": "US",
-      "state": "partial",
-      "roster_count": null,
+      "state": "complete",
+      "roster_count": 14,
       "people": 14,
       "doctoral_origin_known": 13,
-      "degree_year_known": 12,
-      "degree_year_unknown": 2,
-      "dated_career_people": 0,
+      "degree_year_known": 14,
+      "degree_year_unknown": 0,
+      "dated_career_people": 8,
       "faculty_types": {
         "research": 14
       },
-      "career_segments": 14,
-      "scope": "官方Marketing faculty directory共17条，纳入14名研究教授，排除2名senior lecturer和1名emeritus。",
-      "notes": "官方招聘页另称13名full-time，与目录14名不一致；保留未确认完整状态，未根据较小人数删人。",
+      "career_segments": 40,
+      "scope": "2026–27官方Management Faculty清册与当前Marketing目录逐名对照14名研究教师；2名Senior Lecturer及1名Emeritus单列。招聘广告中的13人介绍不作排除Alex Burnap的证据。",
+      "notes": [
+        "旧招聘介绍13人没有列Alex Burnap；当前目录及2026–27学校清册均列他。没有离职证据，故保留Alex，不将招聘文案人数当HR排除名单。",
+        "招聘信息为岗位/领域介绍；具名目录范围已对齐，仍保留来源范围差异及原历史核验记录。"
+      ],
       "access_limitations": [],
       "sources": [
         {
@@ -564,13 +760,13 @@
       "roster_count": 21,
       "people": 21,
       "doctoral_origin_known": 20,
-      "degree_year_known": 16,
-      "degree_year_unknown": 5,
-      "dated_career_people": 0,
+      "degree_year_known": 19,
+      "degree_year_unknown": 2,
+      "dated_career_people": 18,
       "faculty_types": {
         "research": 21
       },
-      "career_segments": 21,
+      "career_segments": 98,
       "scope": "官方Arch H. Aplin III Department of Marketing完整60条团队目录，21名研究教授，其余39条单独排除。",
       "notes": "团队页混有学生、教学与工作人员；Dean Emeritus同时仍为现任Professor的Eli Jones保留，未错误当Professor Emeritus。",
       "access_limitations": [],
@@ -586,19 +782,24 @@
       "host_id": "new-york-university-marketing",
       "school": "New York University",
       "region": "US",
-      "state": "partial",
-      "roster_count": null,
-      "people": 22,
-      "doctoral_origin_known": 21,
-      "degree_year_known": 12,
-      "degree_year_unknown": 10,
-      "dated_career_people": 0,
+      "state": "complete",
+      "roster_count": 25,
+      "people": 25,
+      "doctoral_origin_known": 25,
+      "degree_year_known": 25,
+      "degree_year_unknown": 0,
+      "dated_career_people": 11,
       "faculty_types": {
-        "research": 22
+        "research": 22,
+        "joint_research": 2,
+        "affiliated_research": 1
       },
-      "career_segments": 44,
-      "scope": "官方Tenured/Tenure-Track表26条：22名本系研究教授，4名affiliated独立排除。",
-      "notes": "学校页面另一口径称25名TT，与该表不一致；只确认已读取表格的对齐，不宣布整个系现职完整。Maria Trupia由官方个人页核定完整姓名Maria Giulia Trupia。",
+      "career_segments": 66,
+      "scope": "官方Tenured/Tenure-Track及Affiliated完整表26条逐项核定：22主系、2个NYC跨院系联合任职、1个NYC心理学附属任职，共25个NYC目录成员；NYU Shanghai Yuxin Chen实际在中国，单列境外附属名单。附属成员与主系TT保持分类，不能据此说25人均已逐人证实TT。",
+      "notes": [
+        "旧22人数据把4名附属人员全部排除，造成范围差异。现在保留3名NYC研究关联成员，各自标注joint/affiliated；NYU Shanghai教授独立保留实际所在地。",
+        "当前目录范围已穷尽，名单完整与个人学历/职业材料完整仍独立。"
+      ],
       "access_limitations": [],
       "sources": [
         {
@@ -612,23 +813,31 @@
       "host_id": "university-of-michigan-marketing",
       "school": "University of Michigan",
       "region": "US",
-      "state": "partial",
-      "roster_count": null,
+      "state": "complete",
+      "roster_count": 14,
       "people": 14,
       "doctoral_origin_known": 14,
-      "degree_year_known": 13,
-      "degree_year_unknown": 1,
-      "dated_career_people": 0,
+      "degree_year_known": 14,
+      "degree_year_unknown": 0,
+      "dated_career_people": 13,
       "faculty_types": {
         "research": 14
       },
-      "career_segments": 14,
-      "scope": "官方department=31、status=Active目录24条，原15名研究教授；Jessica Fong转校后保留14名主在职观察，10条排除/历史。",
-      "notes": "Michigan目录及March2026旧CV仍列Jessica；Maryland新版CV明确2026转校，因此旧目录观察转排除并保留来源。受目录时效冲突，保持partial。",
+      "career_segments": 54,
+      "scope": "当前Marketing目录24张具名卡片：14名现任常规研究教师、9名教学/临床/兼职及1张Jessica Fong滞后任职卡片。March2026报道15研究教师与October14研究教师的变化，另以两次人员变动和1名新聘解释。S. Sriram已故仅保留历史档案。",
+      "notes": [
+        "直接程序请求Ross域名返回403；搜索/网页阅读器实际成功读取完整24项目录及学校新闻，保存为可定位文字证据。",
+        "Sriram March CV present是讣告之前的历史观察，不能视为October在职。Jessica旧目录作为滞后观察排除；稳定档案仍归Maryland，不重复建人。"
+      ],
       "access_limitations": [],
       "sources": [
         {
           "url": "https://michiganross.umich.edu/faculty-research/areas-of-study/marketing",
+          "label": "官方院系目录；范围与访问状态见核验说明",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://michiganross.umich.edu/faculty-research/directory?department=31",
           "label": "官方院系目录；范围与访问状态见核验说明",
           "checked_at": "2026-10-22"
         }
@@ -644,11 +853,11 @@
       "doctoral_origin_known": 13,
       "degree_year_known": 6,
       "degree_year_unknown": 7,
-      "dated_career_people": 3,
+      "dated_career_people": 6,
       "faculty_types": {
         "research": 13
       },
-      "career_segments": 20,
+      "career_segments": 34,
       "scope": "官方academic-areas=marketing筛选目录21条，研究教授13，教学/临床/荣休等8。",
       "notes": "使用官方筛选表单真实参数，无分页；旧academic-areas/marketing/地址404后从官方Faculty目录找到筛选入口。",
       "access_limitations": [],
@@ -667,14 +876,14 @@
       "state": "complete",
       "roster_count": 17,
       "people": 17,
-      "doctoral_origin_known": 15,
-      "degree_year_known": 11,
-      "degree_year_unknown": 6,
-      "dated_career_people": 0,
+      "doctoral_origin_known": 16,
+      "degree_year_known": 16,
+      "degree_year_unknown": 1,
+      "dated_career_people": 16,
       "faculty_types": {
         "research": 17
       },
-      "career_segments": 17,
+      "career_segments": 82,
       "scope": "官方全体Faculty Directory152条中Marketing标签26条；逐人读后研究教授17，荣休8及practice-only1独立排除。",
       "notes": "保留Scott Huettel和Gregory Samanez-Larkin两名明确Secondary Appointment，单独membership_kind；John Quelch实践岗不算Marketing研究教授。",
       "access_limitations": [],
@@ -696,11 +905,11 @@
       "doctoral_origin_known": 12,
       "degree_year_known": 8,
       "degree_year_unknown": 4,
-      "dated_career_people": 5,
+      "dated_career_people": 9,
       "faculty_types": {
         "research": 12
       },
-      "career_segments": 28,
+      "career_segments": 45,
       "scope": "官方Marketing Ladder Faculty12名；另以全体Marketing目录27条核对并排除15名专业/访问/荣休等。",
       "notes": "官方Ladder页部分职级滞后，个人页2026年晋升更新单独保存；Przemyslaw Jeziorski位于In Memoriam，未作为现任教师。",
       "access_limitations": [],
@@ -722,11 +931,11 @@
       "doctoral_origin_known": 18,
       "degree_year_known": 18,
       "degree_year_unknown": 0,
-      "dated_career_people": 16,
+      "dated_career_people": 17,
       "faculty_types": {
         "research": 18
       },
-      "career_segments": 58,
+      "career_segments": 63,
       "scope": "官方Marketing目录内research faculty标签成员17人，加官方个人页明确Marketing研究教授且兼任Dean的Susan Fournier。仅对此公开来源并集声明对齐，教学/兼职等另列。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。",
@@ -777,13 +986,13 @@
       "roster_count": 12,
       "people": 12,
       "doctoral_origin_known": 12,
-      "degree_year_known": 5,
-      "degree_year_unknown": 7,
-      "dated_career_people": 5,
+      "degree_year_known": 7,
+      "degree_year_unknown": 5,
+      "dated_career_people": 6,
       "faculty_types": {
         "research": 12
       },
-      "career_segments": 7,
+      "career_segments": 11,
       "scope": "官方Marketing院系名单的常设研究教授序列；教学/临床/兼职/荣休/访问排除；跨院系以官方明确列入为准。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。",
@@ -806,13 +1015,13 @@
       "roster_count": 14,
       "people": 14,
       "doctoral_origin_known": 14,
-      "degree_year_known": 2,
-      "degree_year_unknown": 12,
-      "dated_career_people": 1,
+      "degree_year_known": 10,
+      "degree_year_unknown": 4,
+      "dated_career_people": 11,
       "faculty_types": {
         "research": 14
       },
-      "career_segments": 3,
+      "career_segments": 42,
       "scope": "官方Marketing院系名单的常设研究教授序列；教学/临床/兼职/荣休/访问排除；跨院系以官方明确列入为准。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。"
@@ -833,14 +1042,14 @@
       "state": "complete",
       "roster_count": 17,
       "people": 17,
-      "doctoral_origin_known": 15,
-      "degree_year_known": 15,
-      "degree_year_unknown": 2,
-      "dated_career_people": 6,
+      "doctoral_origin_known": 16,
+      "degree_year_known": 16,
+      "degree_year_unknown": 1,
+      "dated_career_people": 10,
       "faculty_types": {
         "research": 17
       },
-      "career_segments": 21,
+      "career_segments": 36,
       "scope": "官方Marketing常设研究教授序列；跨院系如官方列入则保留，教学/兼职/荣休/访问/博后/职员分别排除。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。",
@@ -863,13 +1072,13 @@
       "roster_count": 25,
       "people": 25,
       "doctoral_origin_known": 25,
-      "degree_year_known": 3,
-      "degree_year_unknown": 22,
-      "dated_career_people": 2,
+      "degree_year_known": 17,
+      "degree_year_unknown": 8,
+      "dated_career_people": 18,
       "faculty_types": {
         "research": 25
       },
-      "career_segments": 3,
+      "career_segments": 56,
       "scope": "官方Marketing页明确的Graduate Department of Management (tenure stream) faculty 25人；包括UTSC/UTM的跨任Marketing成员，不代表仅Rotman downtown雇员人数。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。"
@@ -891,13 +1100,13 @@
       "roster_count": 21,
       "people": 21,
       "doctoral_origin_known": 21,
-      "degree_year_known": 19,
-      "degree_year_unknown": 2,
-      "dated_career_people": 2,
+      "degree_year_known": 21,
+      "degree_year_unknown": 0,
+      "dated_career_people": 19,
       "faculty_types": {
         "research": 21
       },
-      "career_segments": 3,
+      "career_segments": 75,
       "scope": "官方Marketing Faculty and Research页面Research Faculty明确列出的21人；教学序列不在该专门列表内，未假定其不存在。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。",
@@ -949,13 +1158,13 @@
       "roster_count": 13,
       "people": 13,
       "doctoral_origin_known": 13,
-      "degree_year_known": 0,
-      "degree_year_unknown": 13,
-      "dated_career_people": 5,
+      "degree_year_known": 12,
+      "degree_year_unknown": 1,
+      "dated_career_people": 12,
       "faculty_types": {
         "research": 13
       },
-      "career_segments": 5,
+      "career_segments": 46,
       "scope": "Carey完整教师目录111人、10页中明确标注Marketing的研究序列13人；包括与Economics、OMBA和Health跨列成员，practice另列6人。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。",
@@ -978,13 +1187,13 @@
       "roster_count": 17,
       "people": 17,
       "doctoral_origin_known": 17,
-      "degree_year_known": 8,
-      "degree_year_unknown": 9,
-      "dated_career_people": 5,
+      "degree_year_known": 17,
+      "degree_year_unknown": 0,
+      "dated_career_people": 15,
       "faculty_types": {
         "research": 17
       },
-      "career_segments": 7,
+      "career_segments": 48,
       "scope": "官方Marketing常设研究教授序列；跨院系如官方列入则保留，教学/兼职/荣休/访问/博后/职员分别排除。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。",
@@ -1007,13 +1216,13 @@
       "roster_count": 17,
       "people": 17,
       "doctoral_origin_known": 16,
-      "degree_year_known": 13,
-      "degree_year_unknown": 4,
+      "degree_year_known": 14,
+      "degree_year_unknown": 3,
       "dated_career_people": 8,
       "faculty_types": {
         "research": 17
       },
-      "career_segments": 17,
+      "career_segments": 19,
       "scope": "官方Marketing常设研究教授序列；跨院系如官方列入则保留，教学/兼职/荣休/访问/博后/职员分别排除。",
       "notes": [
         "目录姓名对齐与博士年份/完整职业履历核验分开；本批不产生培养项目cohort_complete声明。",
@@ -1064,8 +1273,8 @@
       "roster_count": 11,
       "people": 11,
       "doctoral_origin_known": 11,
-      "degree_year_known": 5,
-      "degree_year_unknown": 6,
+      "degree_year_known": 9,
+      "degree_year_unknown": 2,
       "dated_career_people": 11,
       "faculty_types": {
         "research": 11
@@ -1092,8 +1301,8 @@
       "roster_count": 14,
       "people": 15,
       "doctoral_origin_known": 15,
-      "degree_year_known": 13,
-      "degree_year_unknown": 2,
+      "degree_year_known": 15,
+      "degree_year_unknown": 0,
       "dated_career_people": 13,
       "faculty_types": {
         "research": 14,
@@ -1175,8 +1384,8 @@
       "host_id": "university-of-notre-dame-marketing",
       "school": "University of Notre Dame",
       "region": "US",
-      "state": "partial",
-      "roster_count": null,
+      "state": "complete",
+      "roster_count": 14,
       "people": 15,
       "doctoral_origin_known": 15,
       "degree_year_known": 15,
@@ -1184,14 +1393,13 @@
       "dated_career_people": 15,
       "faculty_types": {
         "research": 14,
-        "research_membership_pending": 1
+        "affiliated_research": 1
       },
-      "career_segments": 15,
-      "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
+      "career_segments": 29,
+      "scope": "官方全院Faculty目录中Marketing的完整17项：14常规研究教师、3Teaching职务；学年清册另外列James Roger Otteson，当前个人页和September2026CV归Business Ethics and Society，单列跨院系历史清册观察，不强行混入14人当前主系列表。",
       "notes": [
-        "新院系站403、Leadership仅4人不能冒充全名单。改读独立官方2026–27 Academic Catalog Faculty Roster（as of June30,2026），Marketing18位全部逐段核对，3位教学职位排除。完整仅针对该学年清册，10月实际任职另依逐人profile。",
-        "新站目录初始403后已通过官方旧站全院教师清单独立核对全部17条Marketing成员；正式清册额外Otteson不混入14名当前Marketing目录研究职务分母。",
-        "整合复核：姓名写法和跨院系身份冲突未消除，整体状态保留部分核验，不以两份不同日期目录的并集声明当前完整。"
+        "2026–27清册June30快照为18个Marketing标签（15研究、3教学）；当前具名主系列表为17项（14研究、3教学）。Otteson个人页及September2026CV为Business Ethics/Political Science，作为清册跨院系观察单列，不作姓名冲突。",
+        "完整性只针对17项的当前指定院系目录范围；Otteson跨院系Marketing资格沿用可查清册，当前主系为BES，不能据此虚称其Marketing任职已终止。"
       ],
       "access_limitations": [],
       "sources": [
@@ -1210,13 +1418,13 @@
       "roster_count": 16,
       "people": 16,
       "doctoral_origin_known": 16,
-      "degree_year_known": 13,
-      "degree_year_unknown": 3,
-      "dated_career_people": 12,
+      "degree_year_known": 16,
+      "degree_year_unknown": 0,
+      "dated_career_people": 16,
       "faculty_types": {
         "research": 16
       },
-      "career_segments": 41,
+      "career_segments": 46,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "页面显示API错误，但实际公开PeopleListProvider脚本+页面配置指定department673/job_type674；按脚本构造原公开JSONAPI一次返回33条、links.next=null，全部读取。16研究教授序列，教学/讲师/空重复节点另列；Nithya Shankar两个不同节点保留目录差异。未绕过权限。"
@@ -1240,11 +1448,11 @@
       "doctoral_origin_known": 9,
       "degree_year_known": 8,
       "degree_year_unknown": 1,
-      "dated_career_people": 8,
+      "dated_career_people": 9,
       "faculty_types": {
         "research": 9
       },
-      "career_segments": 28,
+      "career_segments": 35,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "官方全校Faculty Directory一次渲染全部卡片，按实际Marketing研究组ID51逐项对齐9名常规研究教授与1名Clinical。其他访问/荣休位于独立类别或页面；本批次完整性只针对上述研究组快照，不冒充全部历史、访问及荣休清册。"
@@ -1268,12 +1476,12 @@
       "doctoral_origin_known": 16,
       "degree_year_known": 15,
       "degree_year_unknown": 2,
-      "dated_career_people": 0,
+      "dated_career_people": 8,
       "faculty_types": {
         "research": 16,
         "research_membership_pending": 1
       },
-      "career_segments": 0,
+      "career_segments": 27,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "新Next.js目录初始HTML视觉为空，但实际公开RSC响应内people完整数组含全校全部人员。读取实际脚本确认前端以departmentCodesLower mktg过滤、每页12人；对RSC全数组逐一过滤全部Marketing成员，非仅第一页；emeritus布尔与roleSlug/title分别核对。"
@@ -1295,13 +1503,13 @@
       "roster_count": 11,
       "people": 11,
       "doctoral_origin_known": 11,
-      "degree_year_known": 6,
-      "degree_year_unknown": 5,
-      "dated_career_people": 7,
+      "degree_year_known": 8,
+      "degree_year_unknown": 3,
+      "dated_career_people": 9,
       "faculty_types": {
         "research": 11
       },
-      "career_segments": 20,
+      "career_segments": 24,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "官方全校目录一次渲染全员，按HTML data-areagroup=10 Marketing逐一对齐，未凭研究关键词选人。Zuzanna Jurewicz卡片当前仅指向学校首页，保留本人和目录证据。"
@@ -1323,13 +1531,13 @@
       "roster_count": 14,
       "people": 14,
       "doctoral_origin_known": 14,
-      "degree_year_known": 11,
-      "degree_year_unknown": 3,
-      "dated_career_people": 8,
+      "degree_year_known": 13,
+      "degree_year_unknown": 1,
+      "dated_career_people": 13,
       "faculty_types": {
         "research": 14
       },
-      "career_segments": 27,
+      "career_segments": 42,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "主机www.mooreschool.sc.edu证书域名不匹配；改用目录页面实际同路径官方sc.edu主机，读取全校完整服务器表格，按Department of Marketing标签筛26人；14常规研究教师，教学/临床另列。"
@@ -1351,13 +1559,13 @@
       "roster_count": 14,
       "people": 14,
       "doctoral_origin_known": 14,
-      "degree_year_known": 12,
-      "degree_year_unknown": 2,
-      "dated_career_people": 6,
+      "degree_year_known": 14,
+      "degree_year_unknown": 0,
+      "dated_career_people": 12,
       "faculty_types": {
         "research": 14
       },
-      "career_segments": 20,
+      "career_segments": 37,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "官方Marketing Department Faculty当前整页39人：明确Tenured and Tenure-Track组14；7全职教学、7荣休、11兼职教学逐名排除。直接HTTP403，公开网页检索缓存可完整读取；另读PhD faculty页，其旧名单仍把Deborah Roedder John放TT、Alison Jing Xu列Adjunct，按更明确当前院系页优先并保留差异。全校TT分页曾读到第6页，后续受限；未拿该不完整分页作为完整性依据。"
@@ -1381,11 +1589,11 @@
       "doctoral_origin_known": 10,
       "degree_year_known": 10,
       "degree_year_unknown": 0,
-      "dated_career_people": 9,
+      "dated_career_people": 10,
       "faculty_types": {
         "research": 10
       },
-      "career_segments": 33,
+      "career_segments": 38,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "官方全校目录完整读取，按实际Marketing CSS分类和research-faculty类别逐一对齐；10名研究教师与10名教学/讲师分开，跨ITO任职保留。"
@@ -1407,13 +1615,13 @@
       "roster_count": 12,
       "people": 12,
       "doctoral_origin_known": 12,
-      "degree_year_known": 4,
-      "degree_year_unknown": 8,
-      "dated_career_people": 3,
+      "degree_year_known": 11,
+      "degree_year_unknown": 1,
+      "dated_career_people": 8,
       "faculty_types": {
         "research": 12
       },
-      "career_segments": 5,
+      "career_segments": 11,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "Marketing院系整页25名卡片按原文职务逐名纳入/排除，无分页。"
@@ -1435,13 +1643,13 @@
       "roster_count": 14,
       "people": 14,
       "doctoral_origin_known": 14,
-      "degree_year_known": 11,
-      "degree_year_unknown": 3,
-      "dated_career_people": 12,
+      "degree_year_known": 14,
+      "degree_year_unknown": 0,
+      "dated_career_people": 14,
       "faculty_types": {
         "research": 14
       },
-      "career_segments": 46,
+      "career_segments": 59,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "Marketing官方页面Faculty名单全部14名。其他部门/授课讲者不凭课程名称混入；另与dept=mktg官方目录交叉。",
@@ -1464,13 +1672,13 @@
       "roster_count": 11,
       "people": 11,
       "doctoral_origin_known": 11,
-      "degree_year_known": 8,
-      "degree_year_unknown": 3,
-      "dated_career_people": 8,
+      "degree_year_known": 9,
+      "degree_year_unknown": 2,
+      "dated_career_people": 10,
       "faculty_types": {
         "research": 11
       },
-      "career_segments": 16,
+      "career_segments": 18,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "官方Marketing页面Full-Time Faculty组件实际公开引用faculty-section.json，读取完整15条（View More不是额外后台分页）。仅按API当前返回成员对齐；源码旧profilesList含Katherine Lemon而API未返回，保留该源配置差异。Part-time另页待核。"
@@ -1521,13 +1729,13 @@
       "roster_count": 11,
       "people": 11,
       "doctoral_origin_known": 11,
-      "degree_year_known": 5,
-      "degree_year_unknown": 6,
-      "dated_career_people": 4,
+      "degree_year_known": 9,
+      "degree_year_unknown": 2,
+      "dated_career_people": 9,
       "faculty_types": {
         "research": 11
       },
-      "career_segments": 11,
+      "career_segments": 25,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "Marketing & Business Economics官方整页20名卡片全部读取；经济学交叉研究教师保留，不凭Marketing博士资格排除。"
@@ -1549,13 +1757,13 @@
       "roster_count": 8,
       "people": 8,
       "doctoral_origin_known": 8,
-      "degree_year_known": 5,
-      "degree_year_unknown": 3,
-      "dated_career_people": 5,
+      "degree_year_known": 7,
+      "degree_year_unknown": 1,
+      "dated_career_people": 7,
       "faculty_types": {
         "research": 8
       },
-      "career_segments": 19,
+      "career_segments": 21,
       "scope": "Marketing当前常规研究教授序列与明确联聘；教学、临床、实践、访问、兼职、荣休单列。目录成员不因博士资料缺失被排除。",
       "notes": [
         "完整Marketing院系页面所有教师卡片逐名对齐；教学/临床/实践/兼职/荣休职位按原文排除。"

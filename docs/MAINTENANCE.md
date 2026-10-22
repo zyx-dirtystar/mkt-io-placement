@@ -132,3 +132,9 @@ HTML 提取可读文本并忽略脚本、样式和标签变化。PDF 保留原�
 已发布人员的主页更换时可用 `existing_faculty_id`，必须提供同一接收机构及 `identity_evidence.basis/source_urls`。仅姓名相似不能合并。博士 `date` 保留月/日精度，`defense_year` 和 `reported_dissertation_year` 不生成授位事件；确有第二个博士学位用 `additional_degrees`，不可把访问或联合培养作为第二学位。
 
 职业片段的旧 `checked_at` 不随新批次刷新。只有现职目录且没有起止日期的片段不计入“有日期履历”，博士年、入职年和职级开始年不能互相替代。部分目录只证明某类在职研究教师，教学、荣休、访问、跨系身份的纳入/排除及目录陈旧问题须逐校记录。
+
+## 本轮教师补查与可复现汇总
+
+`node scripts/faculty-followup-report.mjs` 以 `faculty-baseline-followup-2026-10-22.json` 的1111位固定人员计算新增博士年、撤回冲突年份、有日期职业片段及六校名单变化；新教师缺失单列。`sync-data.mjs` 和Pages构建同时计算该报表。审计批次不可改写，修正须新批。
+
+错误个人主页/CV链接可以使用 `reviewed_link_corrections` 明确撤下：须包含field、previous_value、reason和source_urls，并在sources提供同URL、字段supports和实际检查摘录。普通空链接仍保留旧值；撤下不会删除原来源及previous_versions。学位year为null且有reported_years或多值冲突时，不能被旧值保护机制填回。

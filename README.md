@@ -2,7 +2,7 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-版本 1.0.3，观察截至 2026-10-22。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
+版本 1.0.4，观察截至 2026-10-22。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
 
 ## 网站功能
 
@@ -38,7 +38,7 @@ node server.mjs
 
 `data/records.json` 保留稳定人员 ID 与旧字段；`programs.json`、`coverage.json`、`faculty.json` 分别维护培养项目、名单年度和接收院校档案。`taxonomy.json` 提供标准标签和同义词；`io-scope.json` 独立定义 Economics IO 范围；`jobs.json` 保存真实招聘公告。研究复核、原始批次和排名清单都保留版本。
 
-教师反查最新数据和逐校限制见 [北美46校与既有档案补查审计](docs/FACULTY-NA-UPDATE-2026-10-22.md)，上一轮 [港新及九校审计](docs/FACULTY-UPDATE-2026-10-22.md) 保留为历史快照。官方目录快照、研究/教学/兼职身份、博士授位年、当前职级开始和已知职业片段独立保存。目录对齐不表示履历完整，也不增加 placement 或完整 cohort 分母。
+本轮六校名单复核、原有1111人的缺失变化与逐人证据见 [本轮补查审计](docs/FACULTY-FOLLOWUP-2026-10-22.md)。北美扩展累计数据和逐校限制见 [北美46校与既有档案补查审计](docs/FACULTY-NA-UPDATE-2026-10-22.md)，上一轮 [港新及九校审计](docs/FACULTY-UPDATE-2026-10-22.md) 保留为历史快照。官方目录快照、研究/教学/兼职身份、博士授位年、当前职级开始和已知职业片段独立保存。目录对齐不表示履历完整，也不增加 placement 或完整 cohort 分母。
 
 教师研究批次导入默认只预览：
 

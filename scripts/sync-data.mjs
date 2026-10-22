@@ -1,15 +1,17 @@
 import fs from 'node:fs';
 import {buildObservatory, validateObservatory} from './observatory-model.mjs';
 import {writeFacultyExpansionReport} from './faculty-na-report.mjs';
+import {writeFacultyFollowupReport} from './faculty-followup-report.mjs';
 const config=JSON.parse(fs.readFileSync('config.json','utf8'));
 const read=(name,fallback)=>fs.existsSync('data/'+name+'.json')?JSON.parse(fs.readFileSync('data/'+name+'.json','utf8')):fallback;
 const raw=read('records'),records=structuredClone(raw),schools=read('schools'),release_notes=read('release-notes');
 const faculty_update=writeFacultyExpansionReport();
+const faculty_followup_update=writeFacultyFollowupReport();
 const programs=read('programs'),coverage=read('coverage'),scope=read('scope'),faculty=read('faculty');
 const targetIds=new Set([...scope.ranking.rows,...scope.asia].map(p=>p.program_id));
 for(const r of records){r.target_scope=targetIds.has(r.program_id)?scope.id:null;r.origin_rank=programs.find(p=>p.id===r.program_id)?.kind==='marketing'?scope.ranking.rows.find(p=>p.school===r.school)?.rank||null:null;}
 for(const p of programs)p.record_count=records.filter(r=>r.program_id===p.id).length;
-const catalog={...config,exhaustive:false,scope,programs,coverage,faculty,faculty_update,archive_years:[...new Set([...config.history_years,...records.map(r=>r.placement_year).filter(Boolean)])].sort(),schools,release_notes};
+const catalog={...config,exhaustive:false,scope,programs,coverage,faculty,faculty_update,faculty_followup_update,archive_years:[...new Set([...config.history_years,...records.map(r=>r.placement_year).filter(Boolean)])].sort(),schools,release_notes};
 const observatory=buildObservatory({records:raw,programs,coverage,scope,faculty,config,taxonomy:read('taxonomy'),ioScope:read('io-scope',null),jobs:read('jobs',[]),researchAudit:read('research-audit-2026-10-22',null),reviewQueue:fs.existsSync('review-queue.json')?JSON.parse(fs.readFileSync('review-queue.json','utf8')):[],maintenanceQueue:read('maintenance-queue',[]),sourceChecks:read('maintenance-sources',{}),baseline:read('maintenance-baseline',null)});
 const errors=validateObservatory(observatory);
 if(errors.length)throw new Error('Observatory generation failed:\n'+errors.join('\n'));

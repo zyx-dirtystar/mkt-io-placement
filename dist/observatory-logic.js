@@ -85,7 +85,7 @@ export function fixedWindowObservation(person,events=[],years=1,asOf=''){
  for(const e of events.filter(e=>e.person_id===person.id&&['first_job','final_arrangement','subsequent_job','current_appointment'].includes(e.type)&&!['announced_future','announced','on_market','provisional'].includes(e.status))){
   const s=dateRange(e.start);if(!s)continue;let until=dateRange(e.end);
   // An open end on a historic first job does not establish that the person still held it later.
-  if(!until&&['current','active','ongoing','current_at_check','observed_current'].includes(e.status))until=dateRange(e.checked_at);
+  if(!until&&!e.source_snapshot_only&&['current','active','ongoing','current_at_check','observed_current'].includes(e.status))until=dateRange(e.checked_at);
   if(!until){if(s.min<=end)possible.push(e);continue;}
   if(s.min<=end&&until.max>=start)possible.push(e);
   if(s.max<start&&until.min>end)certain.push(e);

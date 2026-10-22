@@ -5,64 +5,64 @@
 | 指标 | 本轮实际结果 |
 |---|---:|
 | 新增目标46校：已实际核验 | 46 / 46 |
-| 新增目标46校：目录范围已对齐 | 40 / 46 |
-| 北美合计：启动 / 目录对齐 | 50 / 44（目标50） |
-| 教师总档案 / 新增档案 | 1111 / 705 |
-| 原有406人：博士年未知 | 201 → 153 |
-| 原有档案新增博士年 | 48 |
-| 原有档案首次增加有日期职业片段 | 49 |
-| 原有档案履历扩充人数 / 增加片段 | 52 / 164 |
+| 新增目标46校：目录范围已对齐 | 45 / 46 |
+| 北美合计：启动 / 目录对齐 | 50 / 49（目标50） |
+| 教师总档案 / 新增档案 | 1114 / 708 |
+| 原有406人：博士年未知 | 201 → 116 |
+| 原有档案新增博士年 | 85 |
+| 原有档案首次增加有日期职业片段 | 105 |
+| 原有档案履历扩充人数 / 增加片段 | 109 / 329 |
 
 ## 逐校实际结果
 
 | 学校 | 档案 | 目录状态 | 博士年已知 / 未知 | 有日期履历 |
 |---|---:|---|---:|---:|
-| Columbia University | 21 | complete | 18 / 3 | 15 |
-| University of Chicago | 19 | partial | 16 / 3 | 5 |
-| University of Washington | 17 | complete | 16 / 1 | 12 |
-| Cornell University | 25 | complete | 25 / 0 | 13 |
-| University of Texas at Dallas | 15 | partial | 12 / 3 | 0 |
-| University of Southern California | 21 | complete | 15 / 6 | 10 |
-| Indiana University | 24 | complete | 16 / 8 | 9 |
-| University of Wisconsin-Madison | 17 | complete | 13 / 4 | 9 |
-| University of Maryland | 18 | complete | 16 / 2 | 1 |
-| Yale University | 14 | partial | 12 / 2 | 0 |
-| Texas A&M University | 21 | complete | 16 / 5 | 0 |
-| New York University | 22 | partial | 12 / 10 | 0 |
-| University of Michigan | 14 | partial | 13 / 1 | 0 |
-| University of North Carolina at Chapel Hill | 13 | complete | 6 / 7 | 3 |
-| Duke University | 17 | complete | 11 / 6 | 0 |
-| University of California, Berkeley | 12 | complete | 8 / 4 | 5 |
-| Boston University | 18 | complete | 18 / 0 | 16 |
+| Columbia University | 21 | complete | 21 / 0 | 21 |
+| University of Chicago | 19 | complete | 19 / 0 | 17 |
+| University of Washington | 17 | complete | 17 / 0 | 16 |
+| Cornell University | 25 | complete | 25 / 0 | 25 |
+| University of Texas at Dallas | 15 | partial | 15 / 0 | 9 |
+| University of Southern California | 21 | complete | 17 / 4 | 18 |
+| Indiana University | 24 | complete | 17 / 7 | 17 |
+| University of Wisconsin-Madison | 17 | complete | 13 / 4 | 13 |
+| University of Maryland | 18 | complete | 16 / 2 | 17 |
+| Yale University | 14 | complete | 14 / 0 | 8 |
+| Texas A&M University | 21 | complete | 19 / 2 | 18 |
+| New York University | 25 | complete | 25 / 0 | 11 |
+| University of Michigan | 14 | complete | 14 / 0 | 13 |
+| University of North Carolina at Chapel Hill | 13 | complete | 6 / 7 | 6 |
+| Duke University | 17 | complete | 16 / 1 | 16 |
+| University of California, Berkeley | 12 | complete | 8 / 4 | 9 |
+| Boston University | 18 | complete | 18 / 0 | 17 |
 | Emory University | 9 | complete | 9 / 0 | 9 |
-| Harvard University | 12 | complete | 5 / 7 | 5 |
-| University of Houston | 14 | complete | 2 / 12 | 1 |
-| Washington University in St. Louis | 17 | complete | 15 / 2 | 6 |
-| University of Toronto | 25 | complete | 3 / 22 | 2 |
-| University of Texas at Austin | 21 | complete | 19 / 2 | 2 |
+| Harvard University | 12 | complete | 7 / 5 | 6 |
+| University of Houston | 14 | complete | 10 / 4 | 11 |
+| Washington University in St. Louis | 17 | complete | 16 / 1 | 10 |
+| University of Toronto | 25 | complete | 17 / 8 | 18 |
+| University of Texas at Austin | 21 | complete | 21 / 0 | 19 |
 | University of California, Los Angeles | 14 | complete | 12 / 2 | 11 |
-| Johns Hopkins University | 13 | complete | 0 / 13 | 5 |
-| Arizona State University | 17 | complete | 8 / 9 | 5 |
-| University of Georgia | 17 | complete | 13 / 4 | 8 |
+| Johns Hopkins University | 13 | complete | 12 / 1 | 12 |
+| Arizona State University | 17 | complete | 17 / 0 | 15 |
+| University of Georgia | 17 | complete | 14 / 3 | 8 |
 | Stanford University | 17 | complete | 16 / 1 | 16 |
-| University of Rochester | 11 | complete | 5 / 6 | 11 |
-| The Ohio State University | 15 | complete | 13 / 2 | 13 |
+| University of Rochester | 11 | complete | 9 / 2 | 11 |
+| The Ohio State University | 15 | complete | 15 / 0 | 13 |
 | Carnegie Mellon University | 9 | complete | 8 / 1 | 9 |
 | University of Florida | 13 | complete | 13 / 0 | 13 |
-| University of Notre Dame | 15 | partial | 15 / 0 | 15 |
-| University of Colorado Boulder | 16 | complete | 13 / 3 | 12 |
-| Dartmouth College | 9 | complete | 8 / 1 | 8 |
-| Pennsylvania State University | 17 | complete | 15 / 2 | 0 |
-| Western University | 11 | complete | 6 / 5 | 7 |
-| University of South Carolina | 14 | complete | 11 / 3 | 8 |
-| University of Minnesota | 14 | complete | 12 / 2 | 6 |
-| University of California, San Diego | 10 | complete | 10 / 0 | 9 |
-| Georgetown University | 12 | complete | 4 / 8 | 3 |
-| York University | 14 | complete | 11 / 3 | 12 |
-| Boston College | 11 | complete | 8 / 3 | 8 |
+| University of Notre Dame | 15 | complete | 15 / 0 | 15 |
+| University of Colorado Boulder | 16 | complete | 16 / 0 | 16 |
+| Dartmouth College | 9 | complete | 8 / 1 | 9 |
+| Pennsylvania State University | 17 | complete | 15 / 2 | 8 |
+| Western University | 11 | complete | 8 / 3 | 9 |
+| University of South Carolina | 14 | complete | 13 / 1 | 13 |
+| University of Minnesota | 14 | complete | 14 / 0 | 12 |
+| University of California, San Diego | 10 | complete | 10 / 0 | 10 |
+| Georgetown University | 12 | complete | 11 / 1 | 8 |
+| York University | 14 | complete | 14 / 0 | 14 |
+| Boston College | 11 | complete | 9 / 2 | 10 |
 | University of Arizona | 11 | complete | 11 / 0 | 11 |
-| University of Pittsburgh | 11 | complete | 5 / 6 | 4 |
-| Rice University | 8 | complete | 5 / 3 | 5 |
+| University of Pittsburgh | 11 | complete | 9 / 2 | 9 |
+| Rice University | 8 | complete | 7 / 1 | 7 |
 
 ## 原有档案补查
 
@@ -71,19 +71,19 @@
 | Zikun Liu | 2026 | 0 → 0 | 本人主页所链公开PDF实际读取，Education明确PhD 2026，无expected限定；不从CUHK入职年或奖学金期限推断。 |
 | Michelle Kim | 未知 / 见冲突 | 0 → 1 | 重读官方CV的Education仍未列学位年；2019–2025 graduate fellowship不等于2025授位，保留未知。 |
 | Xinyu Cao | 2018 | 0 → 2 | 实际读取教育及任职段落，补博士授位年与可核实职业片段；不改首职统计。 |
-| Meng Zhang | 未知 / 见冲突 | 2 → 2 | 官方页面明确2006加入和2018晋升；助理教授终止年及中间职级未知，不填连续完整履历；博士年未公开。 |
+| Meng Zhang | 2006 | 2 → 2 | 官方页面明确2006加入和2018晋升；助理教授终止年及中间职级未知，不填连续完整履历；博士年未公开。 |
 | Feifei Huang | 未知 / 见冲突 | 2 → 2 | 已读2025-07 CV。教育段未给PhD年份；2018论文奖及入职均不等于授位证明，博士年继续未知，补已核任职与晋升。 |
-| Xubing Zhang | 未知 / 见冲突 | 2 → 2 | 已读官方CV。教育段仅列Toronto PhD、不列年份；1999-2004奖学金与2005入职不用于推断博士授位年。 |
-| Karl Aquino | 未知 / 见冲突 | 0 → 0 | 重读官方个人页并跟随真实CV下载链接，修复旧URL末尾冒号。正确PDF地址直连仍403、网页读取Cache miss；官方介绍确认Northwestern博士但没有年份。Delaware历史欢迎公告只有曾任GeorgiaState，不能据1999公告倒推博士或完整职业日期。 |
+| Xubing Zhang | 2005 | 2 → 2 | 已读官方CV。教育段仅列Toronto PhD、不列年份；1999-2004奖学金与2005入职不用于推断博士授位年。 |
+| Karl Aquino | 1992 | 0 → 6 | 重读官方个人页并跟随真实CV下载链接，修复旧URL末尾冒号。正确PDF地址直连仍403、网页读取Cache miss；官方介绍确认Northwestern博士但没有年份。Delaware历史欢迎公告只有曾任GeorgiaState，不能据1999公告倒推博士或完整职业日期。 |
 | Lisa Cavanaugh | 2009 | 1 → 2 | 2026官方CV直连403、网页读取Cache miss；继续检索并实际读到本人网站2015 CV，确认Duke Marketing博士2009-05和USC助理教授2009-07起。该CV是2015快照，结束日期未知，不把USC当现职。新UBC CV链接修复，但不宣称内容已读。 |
 | David Hardisty | 2011 | 0 → 3 | 实际读取教育及任职段落，补博士授位年与可核实职业片段；不改首职统计。 |
-| Sinan Aral | 2007 | 0 → 0 | 官方MIT News校友报道明确PhD ’07，按MIT校友学位年份记法规范化为2007；不使用同年论文奖作推断。现职冠名教授开始年仍待完整CV或任命资料。 |
+| Sinan Aral | 2007 | 0 → 3 | 官方MIT News校友报道明确PhD ’07，按MIT校友学位年份记法规范化为2007；不使用同年论文奖作推断。现职冠名教授开始年仍待完整CV或任命资料。 |
 | Dean Eckles | 2012 | 2 → 8 | 按实际CV内容而非2022上传路径判断版本；明确保留2019无tenure与2022有tenure两个阶段。 |
 | Drazen Prelec | 1983 | 0 → 6 | CV将LSE访问写为2013-1014，疑似笔误，未擅自更正或新增该日期片段；其他明确任职阶段照录。荣誉博士另列，不替代Harvard博士。 |
-| Anya Shchetkina | 2026 | 0 → 0 | 本人旧CV仍为2026(expected)，新官方Recent PhD Placements明确表头为已获学位年份；保留旧CV而以培养端新毕业名单核实2026。 |
+| Anya Shchetkina | 2026 | 0 → 1 | 本人旧CV仍为2026(expected)，新官方Recent PhD Placements明确表头为已获学位年份；保留旧CV而以培养端新毕业名单核实2026。 |
 | Duncan Simester | 1993 | 1 → 4 | 官方2001晋升公告确认博士1993、Chicago1993-97、MIT1997加入与2001tenure。2001职位为历史晋升且终止时间未知，不覆盖现职NTU冠名教授。 |
 | Yih Hwai Lee | 未知 / 见冲突 | 1 → 1 | 重读实际CV页眉August2020，上传路径2024不是资料日期。CV教育段Marketing1998与Discovery1997冲突仍未裁决，博士年继续null，保留reported_years和两份来源；不任选一个年份。 |
-| Sharon Ng | 未知 / 见冲突 | 3 → 4 | 实际PDF含2025活动，不能由文件名2021判定版本。教育段仅列Minnesota PhD未列年份；补1997至今四段任职，博士年仍未知。 |
+| Sharon Ng | 未知 / 见冲突 | 3 → 5 | 实际PDF含2025活动，不能由文件名2021判定版本。教育段仅列Minnesota PhD未列年份；补1997至今四段任职，博士年仍未知。 |
 | 陈豪隽 | 未知 / 见冲突 | 1 → 2 | 官方页明确2026任职，教育只写香港大学市场营销博士、无年，继续保留博士年未知。 |
 | 刁文 | 未知 / 见冲突 | 1 → 2 | 教育明确复旦管理学博士而未列年份，补已核2022入职，不倒填博士年。 |
 | 高维和 | 2007 | 1 → 3 | 官方页明列博士2007与2023-02讲席教授。Minnesota访问写2024/12-2015/1，时序矛盾，不擅自改成年份正确的访问事件。 |
@@ -131,7 +131,7 @@
 | Thomas S. Robertson | 未知 / 见冲突 | 1 → 10 | 2026-03完整CV教育段未列博士授位年。1966助理教授/论文奖不能用于推断授位年，博士年继续未知；已补实际可读任职阶段。 |
 | Marissa A. Sharif | 2017 | 1 → 3 | 实际读取教育及任职段落，补博士授位年与可核实职业片段；不改首职统计。 |
 | Christophe Van den Bulte | 1998 | 1 → 6 | 实际读取教育及任职段落，补博士授位年与可核实职业片段；不改首职统计。 |
-| Patti Williams | 1999 | 1 → 1 | 本人/现任校页面缺少年份，改查其博士委员Gavan Fitzsimons在Duke托管CV的博士委员会完成名单，明确UCLA Marketing completed1999；原来的院校身份来源一起保留，未从首次任职推断。 |
+| Patti Williams | 1999 | 1 → 2 | 本人/现任校页面缺少年份，改查其博士委员Gavan Fitzsimons在Duke托管CV的博士委员会完成名单，明确UCLA Marketing completed1999；原来的院校身份来源一起保留，未从首次任职推断。 |
 | Pinar Yildirim | 2012 | 1 → 7 | 新CV所链Dropbox已删除，继续检索到官方托管Resume_2并实际读取。两项博士分别为Pittsburgh营销/商业经济2012与工业工程2010；CMU是课程/论文合作，不是授位机构。现任校官网交叉确认2022起副教授任职。 |
 | Z. John Zhang | 1994 | 1 → 6 | 本人有两项博士学位：Penn 1989-12与Michigan经济学1994-05，保留主档经济学博士和另一学位，不能将两者误标为年份冲突。 |
 | Chethana Achar | 未知 / 见冲突 | 0 → 0 | 进一步查到UW博士导师官方CV列2019论文指导与Kellogg去向。仅填reported_dissertation_year2019；正式授位时间仍待本人教育或授位名册，不能将指导年直接代替授位年。 |
@@ -143,35 +143,15 @@
 - 博士年未知、明确来源冲突与博士培养但授位未证实继续区分；入职年、访问年和奖学金截止年不用于补博士年。
 - 新增教师独立于placement样本；原有首职、最终安排及来源年保留，后续职业片段另列。
 
-### University of Chicago
-
-主Academic Areas页面使用动态Coveo组件，改读官方PhD领域页；该名单可对齐，但不能据此确认整个Marketing系当日在职名册完整，也未虚构教学/荣休排除名单。
-
-
 ### University of Texas at Dallas
 
-动态详情接口https://jsom.utdallas.edu/staff-list.php对15人分别请求均fetch failed；部分旧个人页仅通用模板或404。2026官方catalog补学历，2024/2025官方新聘新闻补Ivan Li/Behnam Mohammadi；不能确认目录完整，不能用新聘新闻年份当授位年。
+["本轮重试Marketing系页、PhD教师及JSOM接口仍fetch failed；2026官方catalog可读、官方新聘与个人CV补足个体，但不能证明当前完整HR范围。","Shervin的2012/2018为不同学科的两个博士学位，并非一个博士年冲突。Simon Kim是2026–27求职季博士候选人，不将seminar机构标签误当UTD教师任职。"]
 
-
-### Yale University
-
-官方招聘页另称13名full-time，与目录14名不一致；保留未确认完整状态，未根据较小人数删人。
-
-
-### New York University
-
-学校页面另一口径称25名TT，与该表不一致；只确认已读取表格的对齐，不宣布整个系现职完整。Maria Trupia由官方个人页核定完整姓名Maria Giulia Trupia。
-
-
-### University of Michigan
-
-Michigan目录及March2026旧CV仍列Jessica；Maryland新版CV明确2026转校，因此旧目录观察转排除并保留来源。受目录时效冲突，保持partial。
-
-
-### University of Notre Dame
-
-["新院系站403、Leadership仅4人不能冒充全名单。改读独立官方2026–27 Academic Catalog Faculty Roster（as of June30,2026），Marketing18位全部逐段核对，3位教学职位排除。完整仅针对该学年清册，10月实际任职另依逐人profile。","新站目录初始403后已通过官方旧站全院教师清单独立核对全部17条Marketing成员；正式清册额外Otteson不混入14名当前Marketing目录研究职务分母。","整合复核：姓名写法和跨院系身份冲突未消除，整体状态保留部分核验，不以两份不同日期目录的并集声明当前完整。"]
-
+- {"url":"https://marketing.utdallas.edu/program-resources/faculty-research/","result":"fetch failed","cause":null,"checked_at":"2026-10-22"}
+- {"url":"https://jindal.utdallas.edu/phd-programs/management-science/marketing/","result":"fetch failed","cause":null,"checked_at":"2026-10-22"}
+- {"url":"https://jindal.utdallas.edu/faculty/","result":"fetch failed","cause":null,"checked_at":"2026-10-22"}
+- {"url":"https://jsom.utdallas.edu/faculty/api.php?area=marketing","result":"502 Bad Gateway","checked_at":"2026-10-22"}
+- {"url":"https://personal.utdallas.edu/~nkumar","result":"HTTP200 redirects to Personal Webpage Responsibility Acknowledgement generic IT page; no readable biography","checked_at":"2026-10-22"}
 
 
 逐人字段证据、名单纳入/排除和访问结果保存在本轮 `data/research-updates/2026-10-22-faculty-na-{a,b,c}.json` 与 `2026-10-22-faculty-existing-backfill.json`、`2026-10-22-faculty-existing-supplement.json` 与范围/定位修正批次 `2026-10-22-faculty-na-reconciliation.json`。目录证据保存在每个学校的 receiving check 中；未公开值保留 null。

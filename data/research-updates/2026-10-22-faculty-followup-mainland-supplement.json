@@ -1,0 +1,388 @@
+{
+  "id": "faculty-followup-mainland-supplement-2026-10-22",
+  "checked_at": "2026-10-22",
+  "selection_rule": "补查南京大学既有职业区间缺失者；官方中英文本人简介交叉，未知授位年不以奖励年填充。",
+  "people": [
+    {
+      "name": "Chen, Xi",
+      "aliases": [
+        "陈曦",
+        "陈曦"
+      ],
+      "host_id": "nanjing",
+      "current": {
+        "institution": "Nanjing University",
+        "region": "CN",
+        "role": "Professor",
+        "start_year": 2012,
+        "directory_membership": "listed_in_current_chinese_directory",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": null,
+        "program": null,
+        "region": null,
+        "year": null
+      },
+      "tracks": [],
+      "fields": [],
+      "homepage": "https://nubs.nju.edu.cn/nubs_en/90/04/c17371a299012/page.htm",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://nubs.nju.edu.cn/nubs_en/17371/list.htm",
+          "label": "官方教师目录",
+          "quote": "Chen, Xi — Full-time Faculty (rank unverified)",
+          "supports": [
+            "name",
+            "current.institution",
+            "current.role"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/nubs_en/90/04/c17371a299012/page.htm",
+          "label": "已实际读取的官方个人页",
+          "quote": "Chen, Xi",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/cx/list.htm",
+          "label": "已实际读取的官方中文教师页",
+          "quote": "陈曦；营销与电子商务系",
+          "supports": [
+            "name",
+            "current.institution",
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/cx/list.htm",
+          "label": "本轮独立官方资料交叉核验",
+          "quote": "博士，南京大学商学院教授（2012），博士生导师，管理学博士后；美国华盛顿大学（UW）FOSTER商学院博士后/访问学者。",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "confirmed_factual_reference",
+          "reviewed_excerpt_sha256": "a7c00fc4b86118191a213c4483f9c4e71a5059b1abd786566acc4d65752a14a6",
+          "read_status": "primary_source_excerpt_actually_read"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Nanjing University",
+          "role": "Professor",
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "observed_current",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/17371/list.htm",
+            "https://nubs.nju.edu.cn/cx/list.htm"
+          ],
+          "quote": "Chen, Xi — Professor",
+          "job_kind": "academic"
+        },
+        {
+          "type": "appointment",
+          "institution": "Nanjing University",
+          "role": "Professor",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/cx/list.htm"
+          ],
+          "quote": "博士，南京大学商学院教授（2012），博士生导师，管理学博士后；美国华盛顿大学（UW）FOSTER商学院博士后/访问学者。",
+          "checked_at": "2026-10-22",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "start_year": 2012,
+          "end_year": null,
+          "date_precision": "year",
+          "job_kind": "academic"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "已实际读取官方个人页；博士授予校或学位日期未明确的字段保留未知。当前任职不能自动作首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "任职与访问片段已补；全部工作区间、首次任职和学位授予年份仍未获得足够公开证据。"
+        }
+      ],
+      "verification_status": "profile_verified",
+      "homepage_cn": "https://nubs.nju.edu.cn/cx/list.htm",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "unclassified",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-nanjing-chenxi",
+      "identity_evidence": {
+        "basis": "existing_official_profile_and_independent_primary_education_or_career_source",
+        "source_urls": [
+          "https://nubs.nju.edu.cn/nubs_en/90/04/c17371a299012/page.htm",
+          "https://nubs.nju.edu.cn/cx/list.htm"
+        ]
+      },
+      "followup_review": {
+        "baseline_commit": "71504a30e328cd91189921c56308f332a0155612",
+        "checked_at": "2026-10-22",
+        "notes": "中英文官方本人简介同一公开学术邮箱、院系及UW访问身份交叉对齐；中文正文教授（2012）明确当前职级年份。教育栏为空，博士授位校/年仍未知，未用2011人才奖倒推。",
+        "profile_read": {
+          "url": "https://nubs.nju.edu.cn/cx/list.htm",
+          "sha256": "f2ece0a0d17569010a67b12a7263291e003d1520e9302e442571a76c9820efc3",
+          "checked_at": "2026-10-22",
+          "read_status": "official_chinese_profile_read_with_english_identity_crosscheck"
+        }
+      }
+    },
+    {
+      "name": "Dai, Wanwen",
+      "aliases": [
+        "戴万稳",
+        "戴万稳"
+      ],
+      "host_id": "nanjing",
+      "current": {
+        "institution": "Nanjing University",
+        "region": "CN",
+        "role": "Associate Professor",
+        "start_year": null,
+        "directory_membership": "listed_in_current_chinese_directory",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": null,
+        "program": null,
+        "region": null,
+        "year": null
+      },
+      "tracks": [],
+      "fields": [],
+      "homepage": "https://nubs.nju.edu.cn/nubs_en/90/03/c17371a299011/page.htm",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://nubs.nju.edu.cn/nubs_en/17371/list.htm",
+          "label": "官方教师目录",
+          "quote": "Dai, Wanwen — Full-time Faculty (rank unverified)",
+          "supports": [
+            "name",
+            "current.institution",
+            "current.role"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/nubs_en/90/03/c17371a299011/page.htm",
+          "label": "已实际读取的官方个人页",
+          "quote": "Dai, Wanwen",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/dww/list.htm",
+          "label": "已实际读取的官方中文教师页",
+          "quote": "戴万稳；营销与电子商务系",
+          "supports": [
+            "name",
+            "current.institution",
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/dww/list.htm",
+          "label": "中文官方个人页当前职称",
+          "quote": "戴万稳；副教授",
+          "supports": [
+            "current.role"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/dww/list.htm",
+          "label": "本轮独立官方资料交叉核验",
+          "quote": "南京大学商学院副教授，曾赴台湾中山大学（1999）、德国波恩大学（2007）、美国康奈尔大学（2008）、韩国首尔国立大学（2009）、挪威奥斯陆大学（2012–2013）等高校研修讲学。",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "confirmed_factual_reference",
+          "reviewed_excerpt_sha256": "d21c18dcc6c12d437fbb994c92d120046629d3945001f90225643418e252bc2b",
+          "read_status": "primary_source_excerpt_actually_read"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Nanjing University",
+          "role": "Associate Professor",
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "observed_current",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/17371/list.htm",
+            "https://nubs.nju.edu.cn/dww/list.htm",
+            "https://nubs.nju.edu.cn/dww/list.htm"
+          ],
+          "quote": "Dai, Wanwen — Associate Professor",
+          "job_kind": "academic"
+        },
+        {
+          "type": "visiting",
+          "institution": "National Sun Yat-sen University, Taiwan",
+          "role": "研修/讲学（访问身份，具体职称未明确）",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/dww/list.htm"
+          ],
+          "quote": "南京大学商学院副教授，曾赴台湾中山大学（1999）、德国波恩大学（2007）、美国康奈尔大学（2008）、韩国首尔国立大学（2009）、挪威奥斯陆大学（2012–2013）等高校研修讲学。",
+          "checked_at": "2026-10-22",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "start_year": 1999,
+          "end_year": null,
+          "date_precision": "year",
+          "job_kind": "unknown"
+        },
+        {
+          "type": "visiting",
+          "institution": "University of Bonn",
+          "role": "研修/讲学（访问身份，具体职称未明确）",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/dww/list.htm"
+          ],
+          "quote": "南京大学商学院副教授，曾赴台湾中山大学（1999）、德国波恩大学（2007）、美国康奈尔大学（2008）、韩国首尔国立大学（2009）、挪威奥斯陆大学（2012–2013）等高校研修讲学。",
+          "checked_at": "2026-10-22",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "start_year": 2007,
+          "end_year": null,
+          "date_precision": "year",
+          "job_kind": "unknown"
+        },
+        {
+          "type": "visiting",
+          "institution": "Cornell University",
+          "role": "研修/讲学（访问身份，具体职称未明确）",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/dww/list.htm"
+          ],
+          "quote": "南京大学商学院副教授，曾赴台湾中山大学（1999）、德国波恩大学（2007）、美国康奈尔大学（2008）、韩国首尔国立大学（2009）、挪威奥斯陆大学（2012–2013）等高校研修讲学。",
+          "checked_at": "2026-10-22",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "start_year": 2008,
+          "end_year": null,
+          "date_precision": "year",
+          "job_kind": "unknown"
+        },
+        {
+          "type": "visiting",
+          "institution": "Seoul National University",
+          "role": "研修/讲学（访问身份，具体职称未明确）",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/dww/list.htm"
+          ],
+          "quote": "南京大学商学院副教授，曾赴台湾中山大学（1999）、德国波恩大学（2007）、美国康奈尔大学（2008）、韩国首尔国立大学（2009）、挪威奥斯陆大学（2012–2013）等高校研修讲学。",
+          "checked_at": "2026-10-22",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "start_year": 2009,
+          "end_year": null,
+          "date_precision": "year",
+          "job_kind": "unknown"
+        },
+        {
+          "type": "visiting",
+          "institution": "University of Oslo",
+          "role": "研修/讲学（访问身份，具体职称未明确）",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/dww/list.htm"
+          ],
+          "quote": "南京大学商学院副教授，曾赴台湾中山大学（1999）、德国波恩大学（2007）、美国康奈尔大学（2008）、韩国首尔国立大学（2009）、挪威奥斯陆大学（2012–2013）等高校研修讲学。",
+          "checked_at": "2026-10-22",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "start_year": 2012,
+          "end_year": 2013,
+          "date_precision": "year",
+          "job_kind": "unknown"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "已实际读取官方个人页；博士授予校或学位日期未明确的字段保留未知。当前任职不能自动作首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "任职与访问片段已补；全部工作区间、首次任职和学位授予年份仍未获得足够公开证据。"
+        }
+      ],
+      "verification_status": "profile_verified",
+      "homepage_cn": "https://nubs.nju.edu.cn/dww/list.htm",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "unclassified",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-nanjing-daiwanwen",
+      "identity_evidence": {
+        "basis": "existing_official_profile_and_independent_primary_education_or_career_source",
+        "source_urls": [
+          "https://nubs.nju.edu.cn/nubs_en/90/03/c17371a299011/page.htm",
+          "https://nubs.nju.edu.cn/dww/list.htm"
+        ]
+      },
+      "followup_review": {
+        "baseline_commit": "71504a30e328cd91189921c56308f332a0155612",
+        "checked_at": "2026-10-22",
+        "notes": "官方中文与英文本人简介的邮箱、院系及五处机构和年份一致，中文未定具体职称，按研修/讲学访问保存；不把英文泛称lecturer升格为常规正式教职。2000优秀硕士论文奖不等于博士学位。",
+        "profile_read": {
+          "url": "https://nubs.nju.edu.cn/dww/list.htm",
+          "sha256": "bcb4c171bc007a17819bfaaaa6087e9ae68bc4f90cc58e6faca490a6ce65cc4a",
+          "checked_at": "2026-10-22",
+          "read_status": "official_chinese_profile_read_with_english_identity_crosscheck"
+        }
+      }
+    }
+  ],
+  "schools": []
+}

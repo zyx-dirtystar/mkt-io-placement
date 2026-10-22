@@ -31,7 +31,8 @@ test('expired recruitment announcements are historical and IO filters do not abs
 test('current appointment observation ends at the real source check, not the site refresh date',()=>{
   const current={person_id:'p',type:'current_appointment',start:'2020-01',end:null,institution:'B',title:'Assistant Professor',status:'current_at_check',checked_at:'2024-10-22'};
   assert.equal(fixedWindowObservation(person,[current],3,'2026-10-22').status,'observed');
-  current.checked_at='2022-10-22';assert.equal(fixedWindowObservation(person,[current],3,'2026-10-22').status,'path_unknown');
+  current.source_snapshot_only=true;assert.equal(fixedWindowObservation(person,[current],3,'2026-10-22').status,'date_or_continuity_unknown');
+  current.source_snapshot_only=false;current.checked_at='2022-10-22';assert.equal(fixedWindowObservation(person,[current],3,'2026-10-22').status,'path_unknown');
 });
 test('comparison datasets retain explicit export metadata and neutralize spreadsheet formulas',()=>{
   const csv=datasetCsv([{name:'=SUM(1,2)',n:0}],['name','n'],{as_of:'2026-10-22',year_basis:'source'});assert.ok(csv.includes('_year_basis'));assert.ok(csv.includes('"\'=SUM(1,2)"'));assert.ok(csv.includes('"0"'));

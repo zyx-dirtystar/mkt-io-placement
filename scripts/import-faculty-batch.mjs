@@ -16,7 +16,7 @@ const normalizeHost=h=>hostAliases[h]||h;
 const regionAliases={'United States':'US','United States of America':'US',Canada:'CA','Hong Kong':'HK',Singapore:'SG',China:'CN','United Kingdom':'UK',GB:'UK',France:'FR',Germany:'DE',Netherlands:'NL',Australia:'AU',Italy:'IT',Spain:'ES',Belgium:'BE',Switzerland:'CH',Ireland:'IE',India:'IN',Israel:'IL',Turkey:'TR',Taiwan:'TW','South Korea':'KR'};
 const normalizeRegion=r=>regionAliases[r]||r||null;
 export function applyFacultyBatch(original,originalRecords,batch,programs=[],identities=[]){
- batch={...batch,id:batch.id||batch.batch_id};
+ batch={...batch,id:batch.id||batch.batch_id,schools:batch.schools??[]};
  const archive=structuredClone(original),records=structuredClone(originalRecords),checksum=hash(batch);
  archive.import_batches||=[];
  const prior=archive.import_batches.find(b=>b.id===batch.id);
@@ -55,15 +55,22 @@ export function applyFacultyBatch(original,originalRecords,batch,programs=[],ide
   incoming.unknowns=(incoming.unknowns||[]).map(x=>typeof x==='string'?{field:'biography',reason:x}:x);
   incoming.carried_forward=[...(incoming.carried_forward||[])];
   const carry=(field)=>incoming.carried_forward.push({field,checked_at:old?.checked_at||null,reason:'本批未提供取代该值的新证据；保留既有公开资料，核验日期不前移。'});
-  for(const k of ['cv_url','homepage'])if(!incoming[k]&&old?.[k]){incoming[k]=old[k];carry(k);}
+  for(const k of ['cv_url','homepage'])if(!incoming[k]&&old?.[k]){
+   const correction=incoming.reviewed_link_corrections?.find(c=>c.field===k);
+   if(correction){
+    if(correction.previous_value!==old[k]||!correction.reason||!correction.source_urls?.includes(old[k])||!incoming.sources?.some(s=>s.url===old[k]&&s.quote&&s.supports?.includes(k)))throw Error('Link correction requires the previous URL and reviewed field evidence: '+k);
+    incoming[k]=null;
+   }else{incoming[k]=old[k];carry(k);}
+  }
   if(!incoming.fields.length&&old?.fields?.length){incoming.fields=old.fields;carry('fields');}
   if(incoming.tracks.every(t=>t==='marketing')&&old?.tracks?.some(t=>t!=='marketing')){incoming.tracks=uniq([...incoming.tracks,...old.tracks]);carry('tracks');}
   if(!individual(incoming.homepage)&&incoming.homepage){incoming.unknowns.push({field:'homepage',reason:'已查来源为集体目录，尚无经核验个人主页。'});incoming.homepage=null;}
   incoming.phd={school:null,program:null,region:null,year:null,...old?.phd,...incoming.phd};
   if(incoming.phd.region&&normalizeRegion(incoming.phd.region)!==incoming.phd.region)incoming.phd.reported_region=incoming.phd.region;
   incoming.phd.region=normalizeRegion(incoming.phd.region);incoming.current.region=normalizeRegion(incoming.current.region);
-  for(const k of ['school','program','region','year','program_id'])if(incoming.phd[k]===null&&old?.phd?.[k]!=null&&incoming.phd.verification_status!=='training_only'&&!incoming.unknowns.some(g=>g.field==='phd.'+k&&/冲突|conflict/.test(g.reason||''))){incoming.phd[k]=old.phd[k];carry('phd.'+k);}
+  for(const k of ['school','program','region','year','program_id'])if(incoming.phd[k]===null&&old?.phd?.[k]!=null&&incoming.phd.verification_status!=='training_only'&&!incoming.unknowns.some(g=>g.field==='phd.'+k&&(/冲突|conflict/.test(g.reason||'')||(g.values?.length||0)>1||k==='year'&&(incoming.phd.reported_years?.length||0)>1))){incoming.phd[k]=old.phd[k];carry('phd.'+k);}
   if(incoming.phd.year&&(incoming.phd.verification_status==='training_only'||incoming.phd.degree_status==='award_not_verified'))throw Error('Training-only evidence cannot supply an awarded degree year');
+  if(incoming.phd.year&&incoming.phd.evidence_status==='official_indexed_text')throw Error('Indexed-only award year must remain provisional in phd.reported_year');
   if(linked){
    if(linked.name!==incoming.name)incoming.aliases=uniq([...incoming.aliases,linked.name]);
    incoming.phd.school=linked.school;
