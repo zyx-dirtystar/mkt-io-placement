@@ -23,6 +23,11 @@ test('Assistant Professor is an academic title with unknown tenure; current tenu
   assert.equal(appointment('Assistant Professor (non-tenure-track)','faculty').tenure_status,'non_tt');
   const input=template();input.records[0].current_tenure={status:'tt'};assert.equal(buildObservatory(input).events.find(e=>e.type==='first_job').tenure_status,'unknown');
 });
+test('missing role categories differ from missing title strings and use the same chart classification',()=>{
+  const input=template();input.records[0].destination='Company';input.records[0].role=null;input.records[0].job_kind='industry';
+  let d=buildObservatory(input);assert.equal(d.quality.gaps.role_missing.length,0);assert.equal(d.quality.gaps.title_missing.length,1);
+  input.records[0].job_kind='faculty';d=buildObservatory(input);assert.equal(d.quality.gaps.role_missing.length,1);
+});
 test('unknown outcome counts and zero roster membership remain distinct',()=>{
   const input=template();input.records[0].status='outcome_unknown';input.records[0].destination=null;input.coverage.push({program_id:'a-mkt',period:'2024',status:'not_started',record_ids:[],listed_count:null,cohort_complete:false});
   const d=buildObservatory(input);assert.equal(d.audit[0].outcome_unknown,1);assert.equal(d.audit[1].listed_count,null);assert.equal(d.audit[1].record_ids.length,0);
