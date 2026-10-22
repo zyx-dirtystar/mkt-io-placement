@@ -98,14 +98,14 @@ export function mountFaculty(root,catalog,openPerson,ui){
    renderPeople();return;
   }
   const form=content.querySelector('#faculty-school-filters');form.onsubmit=e=>e.preventDefault();
-  function updateSchoolFilter(e){if(e.isComposing)return;const name=e.target.name,value=e.target.value,start=e.target.selectionStart,end=e.target.selectionEnd;state[name]=value;state.page='1';state.school='';render();if(name==='schoolQ'){const input=content.querySelector('[name="schoolQ"]');input.focus();if(start!==null)input.setSelectionRange(start,end)}}
+  function updateSchoolFilter(e){if(e.isComposing)return;const name=e.target.name,value=e.target.value,start=e.target.selectionStart,end=e.target.selectionEnd;state[name]=value;state.page='1';state.school='';render();const control=content.querySelector(`[name="${name}"]`);control.focus();if(name==='schoolQ'&&start!==null)control.setSelectionRange(start,end)}
   form.onchange=e=>{if(e.target.name!=='schoolQ')updateSchoolFilter(e)};form.elements.schoolQ.oninput=updateSchoolFilter;
-  content.querySelectorAll('[data-school-region]').forEach(b=>b.onclick=()=>{state.schoolRegion=b.dataset.schoolRegion;state.school='';state.page='1';render()});
+  content.querySelectorAll('[data-school-region]').forEach(b=>b.onclick=()=>{state.schoolRegion=b.dataset.schoolRegion;state.school='';state.page='1';render();content.querySelector(`[data-school-region="${state.schoolRegion}"]`).focus()});
   content.querySelector('[data-reset-schools]').onclick=()=>{Object.assign(state,{schoolRegion:'all',schoolState:'all',schoolQ:'',schoolSort:'checked',school:'',page:'1'});render()};
   content.querySelectorAll('[data-school-page]').forEach(b=>b.onclick=()=>{state.page=b.dataset.schoolPage;state.school='';render();content.querySelector('#faculty-school-filters').scrollIntoView({block:'start'})});
   content.querySelector('#faculty-school-export').onclick=()=>download(receivingCsv(filterReceivingSchools(schools,{region:state.schoolRegion,state:state.schoolState,q:state.schoolQ,sort:state.schoolSort})),'faculty-school-progress-'+archive.updated_at+'.csv');
   content.querySelectorAll('[data-gap]').forEach(b=>b.onclick=()=>showPeople({gap:b.dataset.gap}));
-  content.querySelector('[data-close-school]')?.addEventListener('click',()=>{state.school='';render()});
+  content.querySelector('[data-close-school]')?.addEventListener('click',()=>{const id=state.school;state.school='';render();(content.querySelector(`[data-open-school="${id}"]`)||content.querySelector('[name="schoolQ"]')).focus()});
   content.querySelectorAll('[data-school-people]').forEach(b=>b.onclick=()=>showPeople({host:b.dataset.schoolPeople}));
   content.querySelectorAll('[data-school-gap]').forEach(b=>b.onclick=()=>showPeople({host:b.dataset.schoolGap,gap:'degree_year'}));
   content.querySelectorAll('[data-show-person]').forEach(b=>b.onclick=()=>{const p=people.find(p=>p.id===b.dataset.showPerson);showPeople({host:p.host_id,q:p.name});root.querySelector('[id="faculty-person-'+p.id+'"]')?.focus()});
