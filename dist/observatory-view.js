@@ -33,7 +33,7 @@ function sourceCheckMarkup(observatory){
  return panel('来源可用性与变化检测','MONITOR SOURCES, REVIEW THE FACTS',`<div class="obs-body"><p>最近一次运行：<strong>${esc(last||'尚未运行 / 尚未建立在线基线')}</strong>。累计缓存 ${rows.length} 个来源；本轮选择 ${checks.selected??recent.length} 个，发现 ${recent.filter(s=>s.changed).length} 个变化、${recent.filter(s=>s.error).length} 个读取失败。</p><p>首次成功抓取建立基线；后续变化或读取失败进入待核验队列。缓存保留原哈希、ETag、最后修改时间和历史记录，不直接改写人员事实。</p>${checks.policy?`<p>${esc(checks.policy)}</p>`:''}</div>${rows.length?actions('sources','全部来源检测记录')+`<details class="obs-body"><summary>查看抓取记录 · 前 ${Math.min(50,rows.length)} / ${rows.length} 个来源</summary><div class="table-scroll"><table class="obs-table"><thead><tr><th scope="col">来源</th><th scope="col">最近抓取</th><th scope="col">HTTP / 提取</th><th scope="col">变化 / 异常</th></tr></thead><tbody>${rows.slice(0,50).map(s=>`<tr><td>${sourceLink(s)}<span class="cell-note">${esc(s.last_success_at?'最近成功 '+s.last_success_at:'尚无成功抓取')}</span></td><td>${esc(s.fetched_at||'未抓取')}</td><td>${esc(s.http_status??'未知')}<span class="cell-note">${esc(s.extraction||s.content_type||'内容类型未知')}</span></td><td>${s.error?esc(s.error):s.changed?'检测到变化，等待核验':'未检测到变化 / 首次基线'}</td></tr>`).join('')}</tbody></table></div></details>`:'<p class="obs-body muted">当前发布尚无来源抓取缓存。可运行维护命令建立基线，定时检查的报告会作为 GitHub Actions 产物保留。</p>'}`);
 }
 const EVENT_STATUS_NAMES={recorded_degree:'学位资料记录',placed:'任职资料记录',legacy_record:'历史任职记录',on_market:'公开求职中',announced_future:'已宣布，尚未开始',announced:'已宣布安排',observed_current:'核验时现职',current_at_check:'核验时现职',current:'资料所示现职',active:'仍在任职',ongoing:'仍在任职',deferred:'明确延期重新求职',unknown:'状态待核验'};
-const EVENT_NAMES={graduation:'博士毕业',market:'公开求职季',first_job:'首次岗位',final_arrangement:'该次求职最终安排',subsequent_job:'后续任职',current_appointment:'已观察到的现职'};
+const EVENT_NAMES={graduation:'博士毕业',market:'公开求职季',first_job:'首次岗位',final_arrangement:'该次求职最终安排',subsequent_job:'后续任职',current_appointment:'来源所示任职',appointment:'任职经历片段',promotion:'晋升',postdoc:'博士后',visiting:'访问任职'};
 function displayEventGroups(personId,observatory){
  const events=arr(observatory.events).filter(e=>e.person_id===personId).sort((a,b)=>String(a.start||'9999').localeCompare(String(b.start||'9999')));
  const grouped=[];
@@ -47,6 +47,8 @@ function displayEventGroups(personId,observatory){
  return grouped;
 }
 function fieldName(field){
+ const facultyNames={'faculty.phd.school':'接收端博士培养学校','faculty.phd.program':'接收端博士项目原文','faculty.phd.year':'接收端博士授位年','faculty.current.role':'接收端目录所示职称','faculty.current.start_year':'接收端当前职级开始年（非首职年）'};
+ if(facultyNames[field])return facultyNames[field];
  const names={school:'博士培养院校',program_id:'博士培养项目',program:'学位项目名称',origin:'培养地区',graduation_year:'博士毕业年份',placement_year:'首次入职年份',source_cohort_year:'来源名单年份',market_cycle:'公开求职季',destination:'首次岗位机构',role:'首次岗位职称',tracks:'研究方向',topics:'研究主题',methods:'研究方法',homepage:'个人主页',cv_url:'本人 CV',jmp:'Job Market Paper',jmp_url:'JMP 来源',institution:'机构',institution_id:'规范机构',title:'官方职位 / 学位名称',start:'开始时间',end:'结束时间',department:'院系',region:'地区',tenure_status:'Tenure 状态',tenure_evidence_status:'岗位证据状态',status:'状态',undergraduate:'本科教育',identity:'公开身份资料',research_classification:'研究分类依据',field_evidence:'研究分类依据',final_placement:'最终求职安排',subsequent:'后续任职'};
  const parts=String(field||'').split('.');
  if(parts[0]==='events')return '职业事件 · '+(EVENT_NAMES[parts[1]]||'已记录事件')+' · '+(names[parts.at(-1)]||'相关资料');

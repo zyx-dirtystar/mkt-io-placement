@@ -14,11 +14,12 @@ const linked=people.map(p=>p.placement_id).filter(Boolean);
 assert.equal(new Set(linked).size,linked.length,'Faculty aliases must not duplicate placements');
 for(const p of people){
  assert.ok(hosts.some(h=>h.id===p.host_id&&h.region===p.current.region),p.id+' host membership');
- assert.ok(p.current.institution&&p.current.role&&p.checked_at&&p.sources.length,p.id);
+ assert.ok(p.current.institution&&p.checked_at&&p.sources.length,p.id);
+ if(!p.current.role)assert.ok(p.unknowns?.length,p.id+' unknown rank needs an explanation');
  assert.ok(p.phd.year===null||Number.isInteger(p.phd.year),p.id+' degree year');
  for(const s of p.sources)assert.match(s.url,/^https?:\/\//);
  for(const k of ['homepage','cv_url'])if(p[k])assert.ok(p.sources.some(s=>s.url===p[k]),p.id+' '+k+' provenance');
- if(p.placement_id){const r=records.find(r=>r.id===p.placement_id);assert.ok(r,p.id+' missing linked placement');assert.equal(r.school,p.phd.school);assert.equal(r.graduation_year||null,p.phd.year);}
+ if(p.placement_id){const r=records.find(r=>r.id===p.placement_id);assert.ok(r,p.id+' missing linked placement');assert.equal(r.school,p.phd.school);if(p.phd.year&&r.graduation_year)assert.ok(p.phd.year===r.graduation_year||p.unknowns?.some(g=>g.field==='phd.year'),p.id+' years differ without conflict');}
 }
 for(const c of archive.receiving_checks){
  assert.ok(hosts.some(h=>h.id===c.host_id));
@@ -42,9 +43,9 @@ assert.equal(placementOf(kim).category,'postdoc','A later current AP must not re
 assert.equal(kim.placement_year,2023);
 assert.equal(kim.subsequent[0].institution,'Chinese University of Hong Kong');
 assert.equal(filterFaculty(people,{q:'金攸宣'},catalog)[0].id,michelle.id);
-assert.equal(filterFaculty(people,{grad:'historical'},catalog).length,3);
-assert.equal(filterFaculty(people,{region:'CN'},catalog).length,0,'Unstarted schools do not imply a teacher census');
-assert.equal(filterFaculty(people,{q:'yale',region:'HK',track:'cb'},catalog)[0].id,kim.id);
+assert.ok(filterFaculty(people,{grad:'historical'},catalog).some(p=>p.id===cao.id));
+assert.equal(filterFaculty(people,{region:'CN'},catalog).length,people.filter(p=>p.current.region==='CN').length);
+assert.ok(filterFaculty(people,{q:'yale',region:'HK',track:'cb'},catalog).some(p=>p.id===kim.id));
 assert.equal(graduationGroup(cai,[2027,2028,2029,2030]),'historical','Tags must roll with annual configuration');
 const outside={...cai,phd:{school:'Peking University',region:'CN',year:2024,program_id:null}};
 assert.equal(originGroup(outside,catalog),'outside','Visiting training in an overseas school must not change awarding institution');

@@ -1,0 +1,291 @@
+{
+  "id": "faculty-reconciliation-2026-10-22",
+  "checked_at": "2026-10-22",
+  "schools": [],
+  "people": [
+    {
+      "name": "Han Young Jung",
+      "aliases": [],
+      "host_id": "hong-kong-university-of-science-and-technology-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "Hong Kong University of Science and Technology",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "University of Minnesota",
+        "program": "Business Administration",
+        "region": "US",
+        "year": 2025
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Consumer psychology",
+        "Financial decisions",
+        "Payment",
+        "Interpersonal decisions",
+        "Customer satisfaction"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://sites.google.com/view/hanjung-ust",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/hanyoungjung",
+          "label": "官方 Marketing 教师资料",
+          "quote": "Assistant Professor",
+          "supports": [
+            "current",
+            "phd.school",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=han-young-jung-hanyoungjung",
+          "label": "HKUST Faculty Profiles",
+          "quote": "PhD in Business Administration University of Minnesota, 2025",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        "当前职级起始年份未明确；加入机构年份与当前职级年份分开。",
+        "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+      ],
+      "first_job_verified": false,
+      "placement_id": "university-of-minnesota-han-young-jung",
+      "identity_evidence": {
+        "basis": "manual_cross_source_reconciliation",
+        "reason": "同一官方个人档案或培养项目官方去向表已在既有placement来源中；教育院校、完整姓名、接收院校同时吻合。",
+        "source_urls": [
+          "https://mark.hkust.edu.hk/faculty-and-staff/directory/hanyoungjung",
+          "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=han-young-jung-hanyoungjung"
+        ],
+        "checked_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Ce Liang",
+      "aliases": [],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Hong Kong Polytechnic University",
+        "program": null,
+        "region": "HK",
+        "year": 2024
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Tipping behavior",
+        "Brand alliances",
+        "Consumer decisions"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/cliang82/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/cliang82/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "Assistant Professor",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "PolyU 官方博士毕业生去向表",
+          "quote": "Dr Ce LIANG | 2024 | Assistant Professor, City University of Hong Kong",
+          "supports": [
+            "phd.school",
+            "phd.year",
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "recorded_placement",
+          "institution": "City University of Hong Kong",
+          "role": "Assistant Professor",
+          "start_year": null,
+          "end_year": null,
+          "source_urls": [
+            "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/"
+          ],
+          "quote": "Dr Ce LIANG",
+          "status": "placement_table_year_only",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        "2024是培养院校毕业年份列，不当作已证实到岗年；官方个人页未列博士学位专业及首职开始日。",
+        "博士学位专业未在本次可读官方资料中明确披露。",
+        "当前职级起始年份未明确；加入机构年份与当前职级年份分开。",
+        "任职事件为来源明确记录的履历；最早列出的经历不无条件认定完整首职链。"
+      ],
+      "first_job_verified": false,
+      "placement_id": "hong-kong-polytechnic-university-ce-liang",
+      "identity_evidence": {
+        "basis": "manual_cross_source_reconciliation",
+        "reason": "同一官方个人档案或培养项目官方去向表已在既有placement来源中；教育院校、完整姓名、接收院校同时吻合。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/cliang82/",
+          "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/"
+        ],
+        "checked_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Walter W. Zhang",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Assistant Professor of Marketing",
+        "start_year": 2024
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Chicago",
+        "program": "PhD in Quantitative Marketing",
+        "region": "US",
+        "year": 2024
+      },
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/wwz",
+      "cv_url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf",
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Walter W. Zhang — Assistant Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/wwz",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/wwz",
+          "label": "官方个人页博士教育",
+          "quote": "PhD and an MBA from the University of Chicago Booth School of Business",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf",
+          "label": "本人2026-10-04 CV，实际读取第1页和第6页",
+          "quote": "2024 The University of Chicago, Booth School of Business; PhD in Quantitative Marketing, MBA",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ],
+          "source_date": "2026-10-04",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Pennsylvania",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2024,
+          "end_year": null,
+          "source_urls": [
+            "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf"
+          ],
+          "evidence": "CV Academic Appointments, page 1: 2024— The University of Pennsylvania, The Wharton School; Assistant Professor of Marketing",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "career_sequence_complete",
+          "reason": "明确核验2024博士与Wharton任职；另有2026微软/Meta少量小时研究兼职，未与主职互相覆盖，未宣称全部职业序列已核完。"
+        }
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22",
+      "placement_id": "walter-zhang-2024",
+      "identity_evidence": {
+        "basis": "manual_cross_source_reconciliation",
+        "reason": "同一官方个人档案或培养项目官方去向表已在既有placement来源中；教育院校、完整姓名、接收院校同时吻合。",
+        "source_urls": [
+          "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "https://marketing.wharton.upenn.edu/profile/wwz",
+          "https://marketing.wharton.upenn.edu/profile/wwz"
+        ],
+        "checked_at": "2026-10-22"
+      }
+    }
+  ]
+}
