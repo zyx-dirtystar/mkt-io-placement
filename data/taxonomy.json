@@ -1,0 +1,47 @@
+{
+  "version": "2026-10-22",
+  "policy": "同义词标准化保留原文；标准化本身不增加研究方向的证据强度。未列出的原文以稳定扩展 ID 保留。",
+  "tracks": [
+    {"id":"marketing","label":"Marketing","aliases":["Marketing"],"definition":"Marketing 培养或公开研究大类；不自动推定子方向。"},
+    {"id":"qm","label":"Quantitative Marketing","aliases":["Quant","Quantitative Marketing","Quantitative marketing"],"definition":"明确量化营销分类，或单独标明的暂定内容分类。"},
+    {"id":"cb","label":"Consumer Behavior","aliases":["CB","Consumer Behavior","Consumer Behaviour"],"definition":"消费者行为研究。"},
+    {"id":"strategy","label":"Marketing Strategy","aliases":["Marketing Strategy","Strategy"],"definition":"营销战略研究。"},
+    {"id":"io","label":"Industrial Organization","aliases":["IO","Industrial Organization","Industrial Organisation"],"definition":"产业组织大类，不自动判断经验或理论子方向。"},
+    {"id":"empirical_io","label":"Empirical IO","aliases":["Empirical Industrial Organization","Empirical IO"],"definition":"有明确资料支持的经验产业组织。"},
+    {"id":"theory_io","label":"Theory IO","aliases":["Theoretical Industrial Organization","Theory IO"],"definition":"有明确资料支持的理论产业组织。"}
+  ],
+  "topics": [
+    {"id":"platforms","label":"平台与数字市场","aliases":["平台与数字市场","数字平台","Digital Platforms","Platforms","Platform Design"],"definition":"数字平台及其市场组织。"},
+    {"id":"pricing_demand","label":"定价与需求","aliases":["定价与需求","Pricing","Demand","Pricing and Demand"],"definition":"价格制定、需求与消费者响应。"},
+    {"id":"advertising_brand","label":"广告与品牌","aliases":["广告与品牌","Advertising","Branding"],"definition":"广告、传播和品牌研究。"},
+    {"id":"privacy_information","label":"隐私与信息","aliases":["隐私与信息","隐私","Privacy","Information Economics"],"definition":"隐私、信息与信息披露。"},
+    {"id":"health","label":"医疗与健康","aliases":["医疗与健康","健康与医疗","Health Economics","Health"],"definition":"医疗、健康行为及健康市场。"},
+    {"id":"consumer_behavior","label":"消费者行为","aliases":["消费者行为","Consumer Behavior"],"definition":"消费者心理、判断与行为。"},
+    {"id":"consumer_search","label":"消费者搜索","aliases":["消费者搜索","Consumer Search"],"definition":"消费者信息获取与搜索。"},
+    {"id":"consumer_judgment","label":"消费者判断","aliases":["消费者判断","Judgment and Decision Making"],"definition":"判断与决策研究。"},
+    {"id":"ai_algorithms","label":"AI 与算法","aliases":["AI 与算法","Artificial Intelligence","Algorithms"],"definition":"人工智能与算法相关市场问题；不据此推定 QM。"},
+    {"id":"public_policy","label":"公共政策","aliases":["公共政策","Public Policy","Regulation"],"definition":"公共政策与规制。"},
+    {"id":"competition","label":"竞争与市场势力","aliases":["竞争与市场势力","Competition","Market Power"],"definition":"市场竞争与市场势力。"},
+    {"id":"market_design","label":"拍卖与市场设计","aliases":["拍卖与市场设计","Auctions","Market Design"],"definition":"拍卖和市场机制设计。"},
+    {"id":"innovation","label":"创新与创业","aliases":["创新与创业","产品与创新","Innovation","Entrepreneurship"],"definition":"创新、产品开发与创业。"},
+    {"id":"environment_energy","label":"环境与能源","aliases":["环境与能源","Environment","Energy"],"definition":"环境与能源市场。"},
+    {"id":"marketing_strategy","label":"营销战略","aliases":["营销战略","Marketing Strategy"],"definition":"营销战略主题。"},
+    {"id":"industrial_organization","label":"产业组织","aliases":["产业组织","Industrial Organization"],"definition":"原始资料仅标明产业组织大类。"}
+  ],
+  "methods": [
+    {"id":"structural","label":"结构建模与估计","aliases":["结构模型","结构建模 / 估计","结构估计","结构建模","Structural Estimation","Structural Modeling"],"definition":"结构模型的建构与估计。"},
+    {"id":"causal","label":"因果推断","aliases":["因果推断","Causal Inference"],"definition":"因果识别及处理效果估计。"},
+    {"id":"experiment","label":"实验方法","aliases":["实验方法","实验","Experiments","Experimental Methods"],"definition":"实验设计与实验分析。"},
+    {"id":"field_experiment","label":"田野实验","aliases":["田野实验","Field Experiments"],"definition":"在真实场景中的实验。"},
+    {"id":"theory","label":"理论建模","aliases":["理论建模","经济理论","Economic Theory","Theoretical Modeling"],"definition":"经济理论与形式化理论模型。"},
+    {"id":"game_theory","label":"博弈论","aliases":["博弈论","Game Theory"],"definition":"博弈与机制分析。"},
+    {"id":"ml","label":"机器学习 / AI","aliases":["机器学习 / AI","机器学习","Machine Learning","Artificial Intelligence"],"definition":"机器学习与人工智能方法。"},
+    {"id":"econometrics","label":"计量方法","aliases":["计量方法","计量经济学","Econometrics"],"definition":"一般计量经济学方法；不自动推定因果识别。"},
+    {"id":"text","label":"文本分析","aliases":["文本分析","Text Analysis"],"definition":"文本数据分析。"},
+    {"id":"nlp","label":"自然语言处理","aliases":["自然语言处理","Natural Language Processing"],"definition":"自然语言处理方法。"},
+    {"id":"optimization","label":"优化与算法","aliases":["优化与算法","Optimization"],"definition":"优化与算法设计。"},
+    {"id":"image","label":"图像分析","aliases":["图像分析","Image Analysis"],"definition":"图像与视觉数据分析。"},
+    {"id":"computation","label":"计算分析","aliases":["计算分析","Computational Methods"],"definition":"计算与数值分析。"},
+    {"id":"secondary_data","label":"二手数据分析","aliases":["二手数据分析","Secondary Data"],"definition":"公开或已有观测数据分析；不推定具体识别方法。"}
+  ]
+}

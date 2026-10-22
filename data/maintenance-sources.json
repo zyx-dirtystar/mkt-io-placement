@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "last_run": "2026-10-22T07:16:26.236Z",
+  "discovered": 474,
+  "selected": 8,
+  "policy": "变化与不可用仅进入待核验；不修改人员、岗位或覆盖事实。新来源首次成功抓取建立基线，不算已发现变化。",
+  "sources": [
+    {
+      "url": "https://1d5474c9-fe5b-4caa-addf-c7b85ab87f70.filesusr.com/ugd/f97f5b_9a62d63dca8145e3bebcf9e02ca018ca.pdf",
+      "contexts": [
+        "faculty-chenxi-liao"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "last_success_at": "2026-10-22T07:16:26.236Z",
+      "http_status": 200,
+      "final_url": "https://1d5474c9-fe5b-4caa-addf-c7b85ab87f70.filesusr.com/ugd/f97f5b_9a62d63dca8145e3bebcf9e02ca018ca.pdf",
+      "content_type": "application/pdf",
+      "bytes": 39259,
+      "etag": "\"8528c5fee5ef1496efe3d75336827392\"",
+      "last_modified": "Sun, 20 Sep 2026 02:39:53 GMT",
+      "sha256": "704c23fa8693a7e1ca21069ee4a92fa9be16a5f9f83a6f0852fbc919c0cfb214",
+      "normalized_hash": "31c26a8d12cc18d9f2b64edc08465e84c8e5c99fb9ad662a37f0b6d98a0badd8",
+      "snapshot_path": "data/source-snapshots/69f9ec06c5dd3be2/704c23fa8693a7e1ca21069ee4a92fa9be16a5f9f83a6f0852fbc919c0cfb214.pdf",
+      "text_excerpt": "Chenxi Liao Address Room 1114, 11/F Email chenxiliao@cuhk.edu.hk Cheng Yu Tung Building Website www.bschool.cuhk.edu.hk/staﬀ/liao-chenxi 12 Chak Cheung Street (Version: September 2026) Shatin, N.T., Hong Kong Academic Appointment 2025-present Associate Professor of Marketing 2019-2025 Assistant Professor of Marketing The Chinese University of Hong Kong, CUHK Business School Education 2014-2019 Ph.D. in Management Science, Marketing Concentration The University of Texas at Dallas, Naveen Jindal School of Management 2010-2014 B.S. in Mathematics and Applied Mathematics University of Science and Technology of China, School of Mathematical Sciences Research Interests Pricing, Retailing, Competitive Strategy, Channel Coordination, Digital Marketing Publications “Restricting Speculative Reselling: When ‘How Much’ Is the Question,” with Dmitri Kuksov (2023), Mar- keting Science, 42(2), pp. 377-400. • Media Coverage: China Business Knowledge @ CUHK “Digital Piracy, Creative Productivity, and Customer Care Eﬀort: Evidence from Digital Publishing In- dustry,” with Xiaolin Li and Ying Xie (2021), Marketing Science, 40(4), pp. 685-707. • Media Coverage: China Business Knowledge @ CUHK “Opinion Leaders and Product Variety,” with Dmitri Kuksov (2019), Marketing Science, 38(5), pp. 812- 834. • Media Coverage: INFORMS, Phys.org, China Business Knowledge @ CUHK “When Showrooming Increases Retailer Proﬁt,” with Dmitri Kuksov (2018), Journal of Marketing Re- search, 55(4), pp. 459-473. 1 of 5 Working Papers “The Double-Edged Oﬄine Touchpoint: How Self-Pickup Stations Reshape Pure-Play E-Commerce Transactions” (with Jingcun Cao, Zhiqi Li, and Ying Xie, conditional accept at Journal of Marketing ) “Dynamic Social Product Design and Fashion Classic” (with Tony Ke, Fei Long, and Michelle Lu, revise and resubmit at Journal of Marketing Research) “Online Retailing with Instant Return Credit” (with Rong Li and Duo Shi, under review at Marketing Science) “Synthetic Corpus and Consideration Manipulation in Generative Engine Optimization” (with Tony Ke and Xiaoyan Xu) “Do Platform-Engineered Followers Motivate Creators?” (with Jingbo Wang, Ying Xie, and Tianqi Xue) Selected Work in Progress “The Recall Option in Customer Search on Two-Sided Platforms” (with Chongyan Sun, Xinyu Cao, and Jiding Zhang) “Content Platform Competition” (with Dmitri Kuksov) Invited Talks Shenzhen University, C",
+      "extraction": "pdftotext",
+      "changed": false,
+      "error": null,
+      "history": [
+        {
+          "fetched_at": "2026-10-22T07:16:26.236Z",
+          "sha256": "704c23fa8693a7e1ca21069ee4a92fa9be16a5f9f83a6f0852fbc919c0cfb214",
+          "normalized_hash": "31c26a8d12cc18d9f2b64edc08465e84c8e5c99fb9ad662a37f0b6d98a0badd8",
+          "snapshot_path": "data/source-snapshots/69f9ec06c5dd3be2/704c23fa8693a7e1ca21069ee4a92fa9be16a5f9f83a6f0852fbc919c0cfb214.pdf",
+          "content_type": "application/pdf",
+          "bytes": 39259
+        }
+      ],
+      "change": null
+    },
+    {
+      "url": "https://acr.memberclicks.net/assets/Proceedings/Volume%2051%20-%20complete%20book.pdf",
+      "contexts": [
+        "ntu-qing-tang"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "http_status": null,
+      "error": "Content exceeds 8388608 bytes",
+      "changed": false,
+      "history": []
+    },
+    {
+      "url": "https://adamharris.phd/",
+      "contexts": [
+        "us-io-adam-harris"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "last_success_at": "2026-10-22T07:16:26.236Z",
+      "http_status": 200,
+      "final_url": "https://adamharris.phd/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 87460,
+      "etag": null,
+      "last_modified": null,
+      "sha256": "63d937c42e8c0e9c10684bc7769d2a172c50fa6f36e23218abc773c094cbd5c9",
+      "normalized_hash": "e8be07ace32339a65a9e55a90526bd2c599498f9ac0d0bc6187439394b41d503",
+      "snapshot_path": "data/source-snapshots/e960a052b289a01a/63d937c42e8c0e9c10684bc7769d2a172c50fa6f36e23218abc773c094cbd5c9.txt",
+      "text_excerpt": "Adam Harris Skip to content Adam Harris I am an Assistant Professor of Economics at Cornell. I apply industrial organization tools to questions at the intersection of technology and transportation. My current research studies artificial intelligence and the US trucking industry. Office hours: By appointment using Calendly . CV (Updated June 2025) Published papers Long-Term Relationships in the US Truckload Freight Industry (with Thi Mai Anh Nguyen) AEJ: Microeconomics , Feb 2025 This paper provides evidence on relational contracting in the US truckload freight industry. In this setting, shippers and carriers engage in repeated interactions under contracts that fix prices but leave scope for inefficient opportunism. We describe empirically the strategies of shippers and the responses of carriers. We show that shippers use the threat of relationship termination to deter carriers from short-term opportunism. Carriers respond to the resultant dynamic incentives, behaving more cooperatively when their potential future rents are higher. While shippers and carriers often interact on multiple lanes, we show that separate relational contracts appear to govern transactions on each lane. Working papers Human Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking (with Maggie Yellen) Best Paper by a Junior Researcher—International Transportation Economics Association 2025 Annual Conference In this paper, we study the role of predictive artificial intelligence (AI) in human decision-making. Using a rich decision-level data set from the maintenance of heavy-duty trucks, we document how the repair decision-making of expert technicians changes with the introduction of an AI tool designed to predict the risk of truck breakdowns. We develop and estimate a dynamic discrete choice model of technician decision-making. The resulting estimates show that technicians with the AI tool exhibit a substantially better ability to predict breakdown risk than those without the tool. This improvement in predictive ability translates into better outcomes: The AI tool reduces the total costs that technicians incur by $240-$480 per truck per year. This brings the technician close to the efficient frontier; only 15% more cost savings could be achieved by further improvements in the quality of decision-making. The AI tool enables these cost savings by helping t",
+      "extraction": "html_text",
+      "changed": false,
+      "error": null,
+      "history": [
+        {
+          "fetched_at": "2026-10-22T07:16:26.236Z",
+          "sha256": "63d937c42e8c0e9c10684bc7769d2a172c50fa6f36e23218abc773c094cbd5c9",
+          "normalized_hash": "e8be07ace32339a65a9e55a90526bd2c599498f9ac0d0bc6187439394b41d503",
+          "snapshot_path": "data/source-snapshots/e960a052b289a01a/63d937c42e8c0e9c10684bc7769d2a172c50fa6f36e23218abc773c094cbd5c9.txt",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 87460
+        }
+      ],
+      "change": null
+    },
+    {
+      "url": "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf",
+      "contexts": [
+        "us-io-adam-harris",
+        "massachusetts-institute-of-technology-economics"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "last_success_at": "2026-10-22T07:16:26.236Z",
+      "http_status": 200,
+      "final_url": "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf",
+      "content_type": "application/pdf",
+      "bytes": 156749,
+      "etag": "\"6aa8413f-2644d\"",
+      "last_modified": "Mon, 14 Sep 2026 18:47:27 GMT",
+      "sha256": "f85c7e472b65a16f781400a622184ae6acad32a0553aa689ca052a6c1f77ec43",
+      "normalized_hash": "e6e3f56c69cbbef8e3aaa9a8a6f3897a590c2ce4d950880d924bae756544135b",
+      "snapshot_path": "data/source-snapshots/b304567f16b720f2/f85c7e472b65a16f781400a622184ae6acad32a0553aa689ca052a6c1f77ec43.pdf",
+      "text_excerpt": "Adam Harris (July 2025) Contact Information Email: adamharris@cornell.edu Website: www.adamharris.phd Academic Positions Assistant Professor, Cornell University (Economics) July 2024 – Postdoctoral Fellow, National Bureau of Economic Research July 2023 – July 2024 Funded by NSF and US Department of Transportation Education PhD in Economics, Massachusetts Institute of Technology August 2017 – June 2023 Thesis: “Essays in Industrial Organization” B.S. in Economics & Applied Mathematics, Yale University August 2013 – May 2017 Research Interests Economics of artificial intelligence, transportation, long-term relationships Publications 1. Long-Term Relationships in the US Truckload Freight Industry (with Thi Mai Anh Nguyen) (American Economic Journal: Microeconomics, February 2025) Working Papers 1. Human Decision-Making with Machine Prediction: Evidence from Predictive Maintenance in Trucking (with Maggie Yellen) 2. Long-term Relationships and the Spot Market: Evidence from US Trucking (with Thi Mai Anh Nguyen) Work in Progress 1. Debiased machine learning for structural models 2. Which Workers Benefit from AI? Estimating Heterogenous Effects on Productivity 3. Long-term Relationships and Supply Chain Resilience (with Thi Mai Anh Nguyen) Adam Harris (July 2025) Awards Best Paper by a Junior Researcher at the International Transportation Economics Association’s 2025 Annual Conference Professional Activities Referee Activities: American Economic Journal: Applied Economics Presentations and Discussions: 2025: ASSA Annual Meeting (session hosted by Industrial Organization Society), Antitrust@Cornell25, International Transportation Economics Association Annual Meeting 2024: Kelley School of Business (BEPP), Yale School of Management, Cornell University (Department of Economics), Federal Trade Commission, Federal Reserve Bank of Philadelphia, University of Southern California (Department of Economics), NBER Economics of Transportation in the 21st Century Spring 2024 Meeting, International Industrial Organization Conference (IIOC): Rising Stars Session, NBER Summer Institute (joint session of Industrial Organization and Digital Economics & Artificial Intelligence), Econometric Society Interdisciplinary Frontiers (ESIF): Economics and AI+ML Meeting, FutureTech Workshop on the Economics of AI and Automation (MIT) Prior to 2024: International Industrial Organization Confe",
+      "extraction": "pdftotext",
+      "changed": false,
+      "error": null,
+      "history": [
+        {
+          "fetched_at": "2026-10-22T07:16:26.236Z",
+          "sha256": "f85c7e472b65a16f781400a622184ae6acad32a0553aa689ca052a6c1f77ec43",
+          "normalized_hash": "e6e3f56c69cbbef8e3aaa9a8a6f3897a590c2ce4d950880d924bae756544135b",
+          "snapshot_path": "data/source-snapshots/b304567f16b720f2/f85c7e472b65a16f781400a622184ae6acad32a0553aa689ca052a6c1f77ec43.pdf",
+          "content_type": "application/pdf",
+          "bytes": 156749
+        }
+      ],
+      "change": null
+    },
+    {
+      "url": "https://aebs.ecnu.edu.cn/english/JinlinYU/list.htm",
+      "contexts": [
+        "hkust-jingling-yu"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "last_success_at": "2026-10-22T07:16:26.236Z",
+      "http_status": 200,
+      "final_url": "https://aebs.ecnu.edu.cn/english/JinlinYU/list.htm",
+      "content_type": "text/html",
+      "bytes": 43193,
+      "etag": null,
+      "last_modified": null,
+      "sha256": "52683d42c0e1f121441df621e3f5caa2967536341a17b21f1a526894c75dc0da",
+      "normalized_hash": "39590f9a67465976c3a1126cf04a11ccc5dc0a1b481f98bba590f98694558134",
+      "snapshot_path": "data/source-snapshots/28ded0700699e451/52683d42c0e1f121441df621e3f5caa2967536341a17b21f1a526894c75dc0da.txt",
+      "text_excerpt": "Jingling YU Login | 中文 | Tel:（+86-21）61911350 导航 Home About AEBS AEBS Overview Vision, Mission, Val... Committees Joint Administration... Joint Academic Commi... Governance Structure Founding Institution... East China Normal Un... emlyon business scho... AEBS Memorabilia AEBS News AEBS NEWS AEBS EVENTS AEBS BULLETIN Photos Videos Academics Our Faculty AEBS Faculty Teaching Faculty Adjunct/Visiting Pro... Guest Mentor By Research Field Centers and Institut... Library Admissions Bachelor Program Program Overview Students Testimonial... How to Apply Master Program (Glob... Program Overview Students Testimonial... How to Apply Master Program (Tech... Doctor&apos;s Degree Prog... The &quot;Future Al Leade... Scholarships Student Life Enterprise Mentor Pr... Enterprise Mentor Pr... Enterprise Mentors Career Development C... Student Handbook Security and Safety Contact Us 中文 Our Faculty Hong CHAO Hung-hsin CHEN Liwen CHEN Zhong CHEN Wenxuan DING Gang DU Binglin GONG Jiaxun HE Klaus HEINE Shijun HOU Jinxing HU Yanling LIAN Peng LIU Jun LU Xuejing MA Bertrand MAILLET Guangce RUAN Chaohai SHEN CHIA-JUNG TSAY Yanbin TU Chenglu (Charlie) WANG Hua WANG Jianrong WANG Xuehua WANG Zhenyuan WANG Shujin WU Yi WU Weineng XU Haibo XUE Feifei YANG HONG YUAN Luyao ZHANG Min ZHANG Mingyue ZHANG Haoyu ZHOU Nikola ZIVLAK Kailing DENG Chongyan SUN Jingling YU Jingling YU homepage Our Faculty Jingling YU Jingling YU Assistant Professor jlyu@cto.ecnu.edu.cn Jingling is an Assistant Professor at the Shanghai International school of Chief Technology Officer and a Ming Yuan Chen Hui Scholar. She received her PhD and MPhil in Marketing from the Hong Kong University of Science and Technology and her bachelor’s degree in Chemical Engineering (with Honors) from Xiamen University. Her research focuses on visual marketing design, employing eye-tracking techniques to examine how consumers allocate visual attention in contexts such as package design and website interfaces, and developing deep learning frameworks to optimize visual design. She also studies social media influencer marketing and aging consumers. Methodologically, she integrates experimental design, Bayesian statistics, econometrics, and deep learning. Her work has been published in the European Conference on Computer Vision (ECCV) and presented at international conferences including the ISMS Marketing Science Conference and the Mark",
+      "extraction": "html_text",
+      "changed": false,
+      "error": null,
+      "history": [
+        {
+          "fetched_at": "2026-10-22T07:16:26.236Z",
+          "sha256": "52683d42c0e1f121441df621e3f5caa2967536341a17b21f1a526894c75dc0da",
+          "normalized_hash": "39590f9a67465976c3a1126cf04a11ccc5dc0a1b481f98bba590f98694558134",
+          "snapshot_path": "data/source-snapshots/28ded0700699e451/52683d42c0e1f121441df621e3f5caa2967536341a17b21f1a526894c75dc0da.txt",
+          "content_type": "text/html",
+          "bytes": 43193
+        }
+      ],
+      "change": null
+    },
+    {
+      "url": "https://alisonpei.github.io/files/Alison_Pei_CV.pdf",
+      "contexts": [
+        "us-io-alison-pei"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "last_success_at": "2026-10-22T07:16:26.236Z",
+      "http_status": 200,
+      "final_url": "https://alisonpei.github.io/files/Alison_Pei_CV.pdf",
+      "content_type": "application/pdf",
+      "bytes": 120186,
+      "etag": "\"6a9f6c13-1d57a\"",
+      "last_modified": "Tue, 08 Sep 2026 01:59:47 GMT",
+      "sha256": "f47d2195ac3bca2592c77228e4e037af126037b499744c9b16fa2d2673a4f765",
+      "normalized_hash": "23b4a2d2afab794cbd220670754a55e0e66d84ad8dba526a9635d6395880e3db",
+      "snapshot_path": "data/source-snapshots/4e712c7868f5a43a/f47d2195ac3bca2592c77228e4e037af126037b499744c9b16fa2d2673a4f765.pdf",
+      "text_excerpt": "ALISON PEI 201 Science Drive Email: xinyue.pei@duke.edu Box 90315 Personal Website Durham NC 27708 LinkedIn Education Duke University 2019 – 2024 Ph.D. in Economics & Public Policy Cornell University 2017 - 2019 M.S. in Applied Economics and Management Nankai University 2013 - 2017 B.A. in Economics Fields Labor Economics; Industrial Organization References Professor Matthew S. Johnson Professor Daniel Yi Xu matthew.johnson@duke.edu daniel.xu@duke.edu (919) 613-9371 (919) 660-1824 Professor M. Kate Bundorf Professor Ashish Arora kate.bundorf@duke.edu ashish.arora@duke.edu (919) 613-9368 (919) 660-7746 Job Market Monopsony in the High-Skilled Migrant Labor Market: Evidence from H-1B Paper Petition Data (with Seohee Kim) Abstract: This paper assesses the extent of monopsony power in the labor market for highly skilled immigrants, focusing on employment concentration and its impact on wages. We obtained the universe of petitions to the H-1B visa program, the largest high- skilled immigration program in the U.S., through a FOIA request. We first discover that the H-1B labor market is 30% more concentrated than the broader U.S. labor market, with a steadily increasing trend over the past decade. We then examine the causal impact of high employment concentration on H-1B workers’ wages by leveraging the lottery system for over-the-cap H-1B applications. The random lottery win rates in each labor market alter employment concentration, as different-sized firms vary in demand for first-time H- 1B applicants, the only group subject to the lottery. Our results indicate that transitioning from the 25th to the 75th percentile of employment concentration results in a 12.2% wage decline, equivalent to a median salary loss of $10.5k. The wage effects of concentration are primarily borne by first-time H-1B applicants, whose visa status is tied to a single employer. As a suggestive mechanism to these wage effects, we also find evidence that higher concentration leads to less job mobility between H-1B employers. These findings collectively suggest that H-1B policy reform should consider lifting the employer tie for first-time applicants. Working Paper Innovation and the Enforceability of Noncompete Agreements (with Matthew S. Johnson and Michael Lipsitz) [NBER Working Paper #31487] Abstract: Worker mobility across firms can enhance innovation by spreading knowledge, but such mo",
+      "extraction": "pdftotext",
+      "changed": false,
+      "error": null,
+      "history": [
+        {
+          "fetched_at": "2026-10-22T07:16:26.236Z",
+          "sha256": "f47d2195ac3bca2592c77228e4e037af126037b499744c9b16fa2d2673a4f765",
+          "normalized_hash": "23b4a2d2afab794cbd220670754a55e0e66d84ad8dba526a9635d6395880e3db",
+          "snapshot_path": "data/source-snapshots/4e712c7868f5a43a/f47d2195ac3bca2592c77228e4e037af126037b499744c9b16fa2d2673a4f765.pdf",
+          "content_type": "application/pdf",
+          "bytes": 120186
+        }
+      ],
+      "change": null
+    },
+    {
+      "url": "https://anmolmadan.me/",
+      "contexts": [
+        "anmol-madan-2026-27"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "last_success_at": "2026-10-22T07:16:26.236Z",
+      "http_status": 200,
+      "final_url": "https://anmolmadan.me/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 34755,
+      "etag": "W/\"57cf2e6901230c0ca62779d9293cbe6c\"",
+      "last_modified": "Thu, 15 Oct 2026 20:32:40 GMT",
+      "sha256": "d61d153ddf7b51ef1bda210ed02512996ddc3b2dcf35770ea2dce1668264721d",
+      "normalized_hash": "9d4dd1401215aee7f476d80bcf733c57e438954daa4b42ef88bf0a72a3536659",
+      "snapshot_path": "data/source-snapshots/e36a5500f62668e7/d61d153ddf7b51ef1bda210ed02512996ddc3b2dcf35770ea2dce1668264721d.txt",
+      "text_excerpt": "Anmol Madan | Ph.D. Candidate in Quantitative Marketing, UT Dallas Anmol Madan About Research Teaching CV Anmol Madan Ph.D. Candidate in Marketing The University of Texas at Dallas anmol@utdallas.edu CV LinkedIn About I am a Ph.D. candidate in Marketing at the Naveen Jindal School of Management, The University of Texas at Dallas. My research in quantitative marketing focuses on loyalty programs, pricing, and platform markets. I am on the 2026–27 academic job market. Research Job Market Paper Transitioning to a Status-Based Loyalty Program: Evidence from a Quasi-Experimental Study with Arun Gopalakrishnan and Upender Subramanian Abstract Retailers increasingly move from a non-tiered loyalty program (LP), which offers the same benefits to all members, to a tiered LP, which offers differential benefits by status. Yet little is known about how such a transition affects existing customers, who are sorted into tiers based on their past behavior. Working with an online food and beverage retailer in South Asia, we designed a quasi-experiment in which a three-tier LP (Bronze, Silver, and Gold) was launched in one pilot market while other markets kept the old LP, and we combine matching with difference-in-differences and regression discontinuity designs. Orders fell in every tier, but contribution did not fall by much in any. Gold customers placed fewer but larger orders, raising contribution by 4.9%, while Bronze customers ordered 7.5% less with little change in contribution, as they now paid delivery fees. Silver did little for the tier as a whole. Customers who just qualified for Gold outperformed those who narrowly missed it, with no sign that they stretched their orders to unlock perks, pointing to the psychological effect of status. Gold customers with the largest balances, however, responded negatively, revealing a tradeoff between removing costly universal benefits and alienating the most engaged customers. Presented at the ISMS Marketing Science Conference (2025, 2026), Marketing Dynamics Conference (2026), Yale China India Insights Conference (2026), and University of Houston Marketing Doctoral Symposium (2025). Working Papers Strategic Competition in Two Currencies: Dollars and Points with Nanda S. Kumar and Chakravarthi Narasimhan Under review at Management Science Abstract Many loyalty programs award consumers a proprietary points currency that accumulate",
+      "extraction": "html_text",
+      "changed": false,
+      "error": null,
+      "history": [
+        {
+          "fetched_at": "2026-10-22T07:16:26.236Z",
+          "sha256": "d61d153ddf7b51ef1bda210ed02512996ddc3b2dcf35770ea2dce1668264721d",
+          "normalized_hash": "9d4dd1401215aee7f476d80bcf733c57e438954daa4b42ef88bf0a72a3536659",
+          "snapshot_path": "data/source-snapshots/e36a5500f62668e7/d61d153ddf7b51ef1bda210ed02512996ddc3b2dcf35770ea2dce1668264721d.txt",
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 34755
+        }
+      ],
+      "change": null
+    },
+    {
+      "url": "https://annual-report.insead.edu/sites/annual-report/files/2024-03/INSEAD%20Annual%20Report%202023_0.pdf",
+      "contexts": [
+        "stanford-university-rupali-kaul"
+      ],
+      "fetched_at": "2026-10-22T07:16:26.236Z",
+      "http_status": null,
+      "error": "HTTP 403",
+      "changed": false,
+      "history": []
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+{
+  "id": "public-evidence-2026-10-22",
+  "checked_at": "2026-10-22",
+  "notes": "人工逐项核对公开原始资料；仅该批次涉及的人更新核验日期。以下保留字段级证据，未证实完整名单或精确入职日期者不猜测。",
+  "updates": [
+    {
+      "id": "chicago-daniel-katz",
+      "set": {
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing",
+          "Consumer Behavior",
+          "Financial Decision Making"
+        ],
+        "methods": [
+          "实验方法",
+          "文本分析",
+          "计量方法"
+        ],
+        "topics": [
+          "消费者行为",
+          "消费者金融",
+          "在线评论"
+        ],
+        "graduation_year": 2024,
+        "placement_start_date": "2024-08",
+        "homepage": "https://damore-mckim.northeastern.edu/people/daniel-katz/",
+        "cv_url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf",
+        "undergraduate": {
+          "institution": "Northeastern University",
+          "region": "US"
+        },
+        "field_evidence": "接收单位官方资料与本人CV明确研究consumer behavior、financial decision-making、consumer reviews，以及实验、文本与统计方法。",
+        "research_classification": {
+          "status": "explicit",
+          "source_urls": [
+            "https://damore-mckim.northeastern.edu/people/daniel-katz/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "quote": "PhD in Marketing 2024",
+            "source_urls": [
+              "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "placement_start_date",
+            "value": "2024-08",
+            "quote": "Visiting Assistant Professor of Marketing Aug 2024 – Present",
+            "source_urls": [
+              "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "quote": "study consumer behavior, financial decision-making, and product reviews",
+            "source_urls": [
+              "https://damore-mckim.northeastern.edu/people/daniel-katz/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Northeastern官方本人资料：研究领域、方法及教育",
+          "url": "https://damore-mckim.northeastern.edu/people/daniel-katz/"
+        },
+        {
+          "label": "Northeastern托管本人CV：2024学位、2024-08起VAP",
+          "url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf"
+        }
+      ],
+      "note": "补充明确CB与本人CV；2024-08开始Visiting Assistant Professor。当前网页标题Assistant Teaching Professor与正文Visiting AP不同，后续职称生效日未明确，不倒改初始职位。CV中的2021起Data Scientist与博士在读重叠，不将该在读经历自动替代毕业时首职。"
+    },
+    {
+      "id": "university-of-california-san-diego-gal-smitizsky",
+      "set": {
+        "placement_year": 2025,
+        "placement_start_date": "2025-07-01",
+        "graduation_year": 2025,
+        "role": "Assistant Professor of Operations, Information and Decisions",
+        "destination_department": "Operations, Information and Decisions",
+        "cv_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf",
+        "methods": [
+          "田野实验",
+          "实验方法"
+        ],
+        "tenure": {
+          "status": "tt",
+          "evidence_status": "confirmed",
+          "source_urls": [
+            "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+          ],
+          "quote": "Assistant Professor in the Standing Faculty - Tenure Track",
+          "checked_at": "2026-10-22"
+        },
+        "claims": [
+          {
+            "field": "placement_start_date",
+            "value": "2025-07-01",
+            "quote": "Appointment Dates: 07/01/2025 to 06/30/2028",
+            "source_urls": [
+              "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+            ],
+            "source_date": "2025-06-13",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "quote": "Ph.D., Marketing 2025",
+            "source_urls": [
+              "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf"
+            ],
+            "source_date": "2026-02",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "tenure.status",
+            "value": "tt",
+            "quote": "Tenure Track",
+            "source_urls": [
+              "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+            ],
+            "source_date": "2025-06-13",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "本人2026-02 CV：2025博士、Wharton OID任职",
+          "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf"
+        },
+        {
+          "label": "Penn董事会2025-06-13任命决议第78页：首职日期与正式终身轨",
+          "url": "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+        }
+      ],
+      "note": "正式任命文件明确2025-07-01至2028-06-30的初始任期与Tenure Track；确认首职开始年，保留Marketing博士进入OID院系的跨学科路径。"
+    },
+    {
+      "id": "university-of-california-san-diego-kohei-hayashida",
+      "set": {
+        "placement_year": 2026,
+        "placement_start_date": "2026-08",
+        "graduation_year": 2026,
+        "role": "Lecturer (Assistant Professor) in Marketing and Analytics",
+        "destination_department": "School of Management / Marketing and Analytics",
+        "homepage": "https://www.kohei-hayashida.com/",
+        "cv_url": "https://www.kohei-hayashida.com/files/CV_Kohei_Hayashida.pdf",
+        "methods": [
+          "田野实验",
+          "结构建模 / 估计"
+        ],
+        "topics": [
+          "定价与需求",
+          "公共政策",
+          "环境与能源"
+        ],
+        "claims": [
+          {
+            "field": "placement_start_date",
+            "value": "2026-08",
+            "quote": "EMPLOYMENT University College London, School of Management Aug 2026",
+            "source_urls": [
+              "https://www.kohei-hayashida.com/files/CV_Kohei_Hayashida.pdf"
+            ],
+            "source_date": "2026-09-11",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "quote": "Rady School of Management 2020 – 2026",
+            "source_urls": [
+              "https://www.kohei-hayashida.com/files/CV_Kohei_Hayashida.pdf"
+            ],
+            "source_date": "2026-09-11",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "本人2026-09-11 CV：UCL 2026-08任职与Quant Marketing博士",
+          "url": "https://www.kohei-hayashida.com/files/CV_Kohei_Hayashida.pdf"
+        },
+        {
+          "label": "本人主页：Marketing and Analytics与UCL任职",
+          "url": "https://www.kohei-hayashida.com/"
+        }
+      ],
+      "note": "本人CV明确2026-08开始UCL任职；保留Lecturer原始职称，未因英国职位称谓自动声称核实过tenure合同。"
+    },
+    {
+      "id": "university-of-texas-at-dallas-reza-roshangarzadeh",
+      "set": {
+        "placement_year": 2024,
+        "graduation_year": 2024,
+        "role": "Assistant Professor of Marketing",
+        "destination_department": "Marketing & International Business",
+        "homepage": "https://foster.uw.edu/faculty-research/directory/reza-roshangarzadeh/",
+        "topics": [
+          "平台与数字市场",
+          "医疗与健康",
+          "公共政策"
+        ],
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2024,
+            "quote": "Assistant Professor of Marketing, University of Washington, since 2024",
+            "source_urls": [
+              "https://foster.uw.edu/faculty-research/directory/reza-roshangarzadeh/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "quote": "PhD University of Texas at Dallas (2024)",
+            "source_urls": [
+              "https://foster.uw.edu/faculty-research/directory/reza-roshangarzadeh/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "UW Foster官方Positions Held：2024起任职与教育年份",
+          "url": "https://foster.uw.edu/faculty-research/directory/reza-roshangarzadeh/"
+        }
+      ],
+      "note": "接收单位Positions Held独立确认2024开始任职。数字营销、健康营销主题明确；未仅凭主题将研究方向自动升级为Quant。"
+    },
+    {
+      "id": "university-of-texas-at-austin-tushmit-hasan",
+      "set": {
+        "placement_year": 2023,
+        "placement_start_date": "2023",
+        "graduation_year": 2023,
+        "destination_department": "Marketing",
+        "homepage": "https://tushmithasan.wordpress.com/",
+        "subsequent": [
+          {
+            "institution": "St. Edward's University",
+            "role": "Assistant Professor of Marketing",
+            "start_year": 2025,
+            "destination_region": "US",
+            "sources": [
+              "https://tushmithasan.wordpress.com/"
+            ]
+          }
+        ],
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2023,
+            "quote": "Kelley School of Business, Indiana University Bloomington, 2023-2025",
+            "source_urls": [
+              "https://tushmithasan.wordpress.com/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "subsequent",
+            "value": "St. Edward's University, 2025–",
+            "quote": "St. Edward’s University, 2025-present",
+            "source_urls": [
+              "https://tushmithasan.wordpress.com/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "本人主页：Indiana 2023–25、St.Edward's 2025起与研究方向",
+          "url": "https://tushmithasan.wordpress.com/"
+        },
+        {
+          "label": "Indiana官方2023–24教师活动名录交叉确认",
+          "url": "https://vpfaa.indiana.edu/programs-initiatives/initiative-advancement-of-women-faculty/common-ground-collective/cgc-participants.html"
+        }
+      ],
+      "note": "本人主页的教学任职区间独立确认Indiana 2023起；2025 St.Edward's是后续任职，不将该普通转职改写为原次求职最终安排。DOCX CV本次仍不可直接解析，未将链接存在描述成读到其内容。"
+    },
+    {
+      "id": "washington-university-in-st-louis-chengyao-sun",
+      "set": {
+        "placement_year": 2024,
+        "destination": "Yale University, School of Management",
+        "destination_region": "US",
+        "destination_department": "School of Management",
+        "role": "Postdoctoral Associate",
+        "job_kind": "postdoc",
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing",
+          "Consumer Behavior",
+          "Judgment and Decision Making"
+        ],
+        "topics": [
+          "消费者行为",
+          "消费者金融"
+        ],
+        "homepage": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/",
+        "cv_url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031",
+        "source_reported_placement": "Northwestern University",
+        "subsequent": [
+          {
+            "institution": "Northwestern University, Kellogg School of Management",
+            "role": "Assistant Professor of Marketing",
+            "start_year": 2026,
+            "destination_region": "US",
+            "sources": [
+              "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031",
+              "https://www.kellogg.northwestern.edu/news/blog/2026/09/29/new-faculty"
+            ]
+          }
+        ],
+        "field_evidence": "Kellogg官方本人资料明确consumer finance与behavioral decision making；本人CV核实2024–26 Yale博后、2026起Kellogg AP。",
+        "research_classification": {
+          "status": "explicit",
+          "source_urls": [
+            "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2024,
+            "quote": "Yale University, School of Management Postdoctoral Associate, 2024 – 2026",
+            "source_urls": [
+              "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031"
+            ],
+            "source_date": "2026-05",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "subsequent",
+            "value": "Northwestern University, 2026–",
+            "quote": "Assistant Professor of Marketing, 2026",
+            "source_urls": [
+              "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031"
+            ],
+            "source_date": "2026-05",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "quote": "behavioral decision making in consumer finance",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Kellogg官方本人资料：Yale博后在前及行为决策研究",
+          "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/"
+        },
+        {
+          "label": "本人2026-05 CV：2024–26博后，2026起Kellogg任职",
+          "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031"
+        },
+        {
+          "label": "Kellogg 2026-09-29新教师公告：2026秋到岗",
+          "url": "https://www.kellogg.northwestern.edu/news/blog/2026/09/29/new-faculty"
+        }
+      ],
+      "note": "重要更正：原学校去向表列Northwestern，但本人CV明确先2024–26在Yale博后、2026才到Kellogg。首职改为Yale博后2024；Kellogg另存后续任职。未确认两个职位同属2024求职的预定安排，不设置final_placement。"
+    },
+    {
+      "id": "university-of-texas-at-dallas-ehsan-saremi",
+      "set": {
+        "placement_year": 2025,
+        "graduation_year": 2025,
+        "role": "Assistant Professor of Business Analytics",
+        "destination_department": "Business Analytics / School of Business and Leadership",
+        "homepage": "https://www.depauw.edu/academics/majors-and-minors/business-analytics/faculty-and-staff/",
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "quote": "Saremi, Ehsan, Assistant Professor of Business Analytics. 2025.",
+            "source_urls": [
+              "https://www.depauw.edu/academics/catalog/university-personnel/faculty/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "quote": "Ph.D., The University of Texas at Dallas, 2025",
+            "source_urls": [
+              "https://www.depauw.edu/academics/catalog/university-personnel/faculty/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "DePauw官方学术目录：聘任年与博士年",
+          "url": "https://www.depauw.edu/academics/catalog/university-personnel/faculty/"
+        },
+        {
+          "label": "DePauw Business Analytics官方教师目录",
+          "url": "https://www.depauw.edu/academics/majors-and-minors/business-analytics/faculty-and-staff/"
+        }
+      ],
+      "note": "接收单位学术目录独立确认2025聘任与2025博士；岗位为Business Analytics，不因Marketing博士项目将其接收院系写成Marketing。"
+    },
+    {
+      "id": "chicago-shweta-desiraju",
+      "set": {
+        "homepage": "https://voices.uchicago.edu/shwetadesiraju/research/",
+        "topics": [
+          "消费者行为",
+          "产品与创新"
+        ],
+        "research_inference": {
+          "status": "provisional",
+          "tracks": [
+            "cb"
+          ],
+          "reason": "本人研究页与博士论文研究消费者产品选择、defaults及choice architecture，支持CB内容分类；公开旧资料另称Behavioral Science，不把该标签直接等同项目正式子方向。",
+          "source_urls": [
+            "https://voices.uchicago.edu/shwetadesiraju/research/",
+            "https://knowledge.uchicago.edu/records/7cqg4-nnh43"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "claims": [
+          {
+            "field": "research_inference",
+            "value": "cb",
+            "quote": "in four studies",
+            "source_urls": [
+              "https://voices.uchicago.edu/shwetadesiraju/research/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "provisional",
+            "conflict": null
+          },
+          {
+            "field": "dissertation_date",
+            "value": "2023-08",
+            "quote": "Published August 2023",
+            "source_urls": [
+              "https://knowledge.uchicago.edu/records/7cqg4-nnh43"
+            ],
+            "source_date": "2023-08",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": "论文2023-08，来源去向表2024；论文提交日期不自动等于授位或首职年份。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "本人研究页：消费者选择与choice architecture",
+          "url": "https://voices.uchicago.edu/shwetadesiraju/research/"
+        },
+        {
+          "label": "UChicago官方博士论文库：2023-08论文及领域元数据",
+          "url": "https://knowledge.uchicago.edu/records/7cqg4-nnh43"
+        }
+      ],
+      "note": "补入独立博士论文库核验。论文公开于2023年8月，不能据此把官方去向表2024改成2023首职；毕业年份仍未知。CB保留暂定，默认不计入已明确CB。"
+    },
+    {
+      "id": "chicago-yuxiao-li",
+      "set": {
+        "topics": [
+          "消费者行为",
+          "家庭决策"
+        ],
+        "research_papers": [
+          {
+            "title": "Who Brings Home the Bacon? How Individuals Living in the Same Household Shop",
+            "url": "https://knowledge.uchicago.edu/records/gn2kn-13550",
+            "note": "官方博士论文，未明确标注JMP；不能代替JMP。"
+          }
+        ],
+        "claims": [
+          {
+            "field": "dissertation_date",
+            "value": "2024-08",
+            "quote": "Published August 2024",
+            "source_urls": [
+              "https://knowledge.uchicago.edu/records/gn2kn-13550"
+            ],
+            "source_date": "2024-08",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "UChicago官方博士论文库：个人论文与2024-08日期",
+          "url": "https://knowledge.uchicago.edu/records/gn2kn-13550"
+        }
+      ],
+      "note": "从官方论文库交叉确认该人研究资料，不与同名机器人研究者合并。论文库发布日期不当作精确授位年，也未将博士论文擅自标成JMP。"
+    },
+    {
+      "id": "penn-anna-gao",
+      "set": {
+        "aliases": [
+          "Anna (Ran) Gao"
+        ],
+        "topics": [
+          "平台与数字市场",
+          "在线评论"
+        ],
+        "claims": [
+          {
+            "field": "aliases",
+            "value": [
+              "Anna (Ran) Gao"
+            ],
+            "quote": "Anna (Ran) Gao",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "topics",
+            "value": [
+              "平台与数字市场",
+              "在线评论"
+            ],
+            "quote": "comment toxicity in social media discussions",
+            "source_urls": [
+              "https://mackinstitute.wharton.upenn.edu/2024/exploring-the-dynamics-of-hashtag-use-and-comment-toxicity-on-social-media/"
+            ],
+            "source_date": "2024-10-09",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "Wharton官方2022–23学生手册：Anna (Ran) Gao别名",
+          "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf"
+        },
+        {
+          "label": "Wharton Mack Institute研究项目：社交媒体与评论内容",
+          "url": "https://mackinstitute.wharton.upenn.edu/2024/exploring-the-dynamics-of-hashtag-use-and-comment-toxicity-on-social-media/"
+        }
+      ],
+      "note": "补原始学生手册和研究项目交叉依据；Netflix Data Science去向仍不能证明博士Quant子方向，方向继续未知。"
+    },
+    {
+      "id": "texas-a-m-university-soo-hyung-ralph-park",
+      "set": {
+        "graduation_year": 2025,
+        "methods": [
+          "面板数据计量",
+          "双重差分",
+          "非结构化数据分析",
+          "计量方法",
+          "因果推断",
+          "文本分析"
+        ],
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "quote": "Ph.D., Marketing Aug 2025",
+            "source_urls": [
+              "https://www.binghamton.edu/som/docs/cv/spark93.cv.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "本人官方CV：2025-08博士、营销战略与DID等方法",
+          "url": "https://www.binghamton.edu/som/docs/cv/spark93.cv.pdf"
+        }
+      ],
+      "note": "已读官方CV；明确的是2025-08博士学位，不是任职开始日期。CV无Appointments年份，首职年继续保留未知，未将毕业日期自动充作首职日期。"
+    },
+    {
+      "id": "cuhk-nan-iris-xue",
+      "set": {
+        "placement_start_date": "2024-09",
+        "destination_department": "Marketing",
+        "claims": [
+          {
+            "field": "placement_start_date",
+            "value": "2024-09",
+            "quote": "in September 2024",
+            "source_urls": [
+              "https://www.birmingham.ac.uk/staff/profiles/business/xue-nan"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "sources": [],
+      "note": "复查Birmingham官方资料，补存首职开始月份2024-09；保留2024学位与CB本人明确分类。"
+    },
+    {
+      "id": "nus-sijin-chen",
+      "set": {
+        "cv_url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+        "methods": [
+          "实验方法",
+          "自然语言处理",
+          "二手数据分析"
+        ],
+        "topics": [
+          "消费者行为",
+          "在线评论",
+          "人工智能与消费者"
+        ],
+        "claims": [
+          {
+            "field": "methods",
+            "value": [
+              "实验方法",
+              "自然语言处理",
+              "二手数据分析"
+            ],
+            "quote": "Experimental methods; Natural language processing, Secondary data analysis",
+            "source_urls": [
+              "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "current.role",
+            "value": "Principal Researcher, 2024–Present",
+            "quote": "Principal Researcher, Booth School of Business, 2024—Present",
+            "source_urls": [
+              "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "conflict",
+            "conflict": "2025-09本人CV将2024起Principal Researcher放在EDUCATION项下，同时列2024访问学生；NUS初始placement表2025列Postdoc。身份、职位性质与生效日期不能仅凭这份CV完全消除歧义，保留原首职字段待复核。"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "本人2025-09 CV：方法与不同职称时间表，保留冲突",
+          "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf"
+        }
+      ],
+      "note": "CV中的2024起Principal Researcher和2024访问经历，与NUS2025初始placement的Postdoc称谓存在时间/职称语义差异；不将其自动覆写为2024首职，也不将PhD Candidate 2021–2025自动改成授予学位年。"
+    }
+  ],
+  "additions": []
+}

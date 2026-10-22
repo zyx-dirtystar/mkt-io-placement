@@ -1,0 +1,158 @@
+{
+  "id": "economics-io-four-regions-2026-10-22",
+  "label": "Economics IO 独立覆盖清单 · 四地区19项目",
+  "frozen_at": "2026-10-22",
+  "selection": "以既有16个Economics/MES培养项目为先验种子；逐项核实官方博士项目资格；补充官方目录中发现的CUHK Economics、HKU Economics、SMU Economics三项目。选择与Marketing研究排名无关。此清单不是四地区Economics项目全集，也不是IO质量排名。",
+  "program_ids": [
+    "university-of-british-columbia-economics",
+    "university-of-toronto-economics",
+    "hong-kong-university-of-science-and-technology-economics",
+    "national-university-of-singapore-economics",
+    "boston-college-economics",
+    "duke-university-economics",
+    "georgetown-university-economics",
+    "harvard-university-economics",
+    "massachusetts-institute-of-technology-economics",
+    "northwestern-university-economics",
+    "princeton-university-economics",
+    "stanford-university-economics",
+    "university-of-california-berkeley-economics",
+    "university-of-chicago-economics",
+    "yale-university-economics",
+    "northwestern-university-managerial-economics-and-strategy",
+    "chinese-university-of-hong-kong-economics",
+    "singapore-management-university-economics",
+    "university-of-hong-kong-economics"
+  ],
+  "regions": [
+    "US",
+    "CA",
+    "HK",
+    "SG"
+  ],
+  "periods": [
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2026-2027"
+  ],
+  "person_inclusion": "先核对项目完整候选人/毕业生名册，再依据本人或官方公开研究领域确定IO子集；理论IO和实证IO分开保留；未确定领域者留待核验，不按论文工具推断。",
+  "sources": [
+    {
+      "program_id": "university-of-british-columbia-economics",
+      "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-economics",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "university-of-toronto-economics",
+      "url": "https://sgs.calendar.utoronto.ca/economics-economics-phd",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "hong-kong-university-of-science-and-technology-economics",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/mphil-phd-econ",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "national-university-of-singapore-economics",
+      "url": "https://fass.nus.edu.sg/ecs/doctor-of-philosophy-economics/",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "boston-college-economics",
+      "url": "https://www.bc.edu/content/bc-web/schools/morrissey/departments/economics/graduate.html",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "duke-university-economics",
+      "url": "https://econ.duke.edu/phd-program",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "georgetown-university-economics",
+      "url": "https://econ.georgetown.edu/academics/phd/",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "harvard-university-economics",
+      "url": "https://www.hbs.edu/doctoral/phd-programs/business-economics",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "massachusetts-institute-of-technology-economics",
+      "url": "https://economics.mit.edu/academic-programs/phd-program",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "northwestern-university-economics",
+      "url": "https://economics.northwestern.edu/graduate/",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "princeton-university-economics",
+      "url": "https://economics.princeton.edu/graduate-program/",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "stanford-university-economics",
+      "url": "https://economics.stanford.edu/graduate/graduate-degree-programs/doctoral-program",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "university-of-california-berkeley-economics",
+      "url": "https://econ.berkeley.edu/graduate/program",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "university-of-chicago-economics",
+      "url": "https://economics.uchicago.edu/phd-program",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "yale-university-economics",
+      "url": "https://economics.yale.edu/phd-program",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "northwestern-university-managerial-economics-and-strategy",
+      "url": "https://www.kellogg.northwestern.edu/doctoral/programs/managerialeconomicsstrategy/",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "chinese-university-of-hong-kong-economics",
+      "url": "https://admission.econ.cuhk.edu.hk/pg/phd-economics/",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "singapore-management-university-economics",
+      "url": "https://economics.smu.edu.sg/phd-economics",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "program_id": "university-of-hong-kong-economics",
+      "url": "https://www.econ.hku.hk/phd/admissions/admission-application-and-tuition-fee",
+      "label": "官方博士项目页面",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "notes": "19个项目的当前资格已经官方资料核对，年度名册及IO子集完整性仍需逐格确认。Harvard现有稳定ID保留，但其现有人员来源为HBS Business Economics；MECS独立于Northwestern Economics和Marketing。后续扩范围创建新版本，不能静默覆盖此快照。"
+}

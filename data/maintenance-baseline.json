@@ -1,0 +1,1558 @@
+{
+  "commit": "836340a031b64ebe4190f8a7bdf12acf10f18d97",
+  "as_of": "2026-10-16",
+  "counts": {
+    "people": 308,
+    "marketing": 281,
+    "io": 48,
+    "complete_cohorts": 0,
+    "source_reconciled": 107,
+    "research_missing": 142,
+    "outcome_missing": 23,
+    "year_missing": 97,
+    "cv": 84,
+    "jmp": 48
+  },
+  "people": [
+    {
+      "id": "penn-ada-aka",
+      "checked_at": "2026-10-08",
+      "hash": "21ccc4e909720f33b1fa72e4687df70e208059297da435d396a63da199e5393f"
+    },
+    {
+      "id": "us-io-adam-harris",
+      "checked_at": "2026-10-08",
+      "hash": "4e278f4fd97531cc48c02c4b3617ca1f186a1a5c174dbcab6aed22b041140ddd"
+    },
+    {
+      "id": "us-io-adam-rosenberg",
+      "checked_at": "2026-10-08",
+      "hash": "c008cac36ce08bbd1787795aac52d1b2129d7ece0f8a5dc23fde2a7f9eb6f0f2"
+    },
+    {
+      "id": "chicago-akshina-banerjee",
+      "checked_at": "2026-10-08",
+      "hash": "10028021e5b4be799239f93361b2e8279ea6e3ef69bb99760cf9a778a9dc77f5"
+    },
+    {
+      "id": "us-io-alison-pei",
+      "checked_at": "2026-10-08",
+      "hash": "27f96edb739cbb573775a0a2c6f2491f008aa997b8b82f10aee70b9773938424"
+    },
+    {
+      "id": "penn-andrew-morningstar",
+      "checked_at": "2026-10-08",
+      "hash": "db22970d77f8170df204ac686806bb0c9aec70237e0a6dfb3e9bc9a39bdffdb2"
+    },
+    {
+      "id": "northwestern-andrew-wooders",
+      "checked_at": "2026-10-08",
+      "hash": "c2b14158d21441e416c155820deb8242c0eb18dc94fbc3341d8e8a4c960cc34b"
+    },
+    {
+      "id": "anmol-madan-2026-27",
+      "checked_at": "2026-10-08",
+      "hash": "2c391450b3bc4f96f58bcb9dab372bf9ddb0b626c7b62a95de688d45ab7ab723"
+    },
+    {
+      "id": "penn-anna-gao",
+      "checked_at": "2026-10-08",
+      "hash": "a970db24036932e1be6e3c0503c2b7edbd8c368bbedfb5a7b7dfb3b04d92d1de"
+    },
+    {
+      "id": "penn-anya-shchetkina",
+      "checked_at": "2026-10-08",
+      "hash": "4586b7260a3e21d64b1944099fbddd1ab4022bd7f2aeae99a5ceed39c4ce5a96"
+    },
+    {
+      "id": "northwestern-bindan-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "97f3a98ad3bf08a07534f57ee1791c772e5a6d8e136d38669789fd3676e4154d"
+    },
+    {
+      "id": "northwestern-caroline-wang",
+      "checked_at": "2026-10-08",
+      "hash": "5bef8d36bf2c8a579fdc841df2cee8f29fb3d1dbc980fd4e9ed044e945700691"
+    },
+    {
+      "id": "us-io-chanwool-kim",
+      "checked_at": "2026-10-08",
+      "hash": "023521247253d2dcc828614b3e53b437ffa1c302bdafb758dda02432172a5168"
+    },
+    {
+      "id": "chi-ying-wang-2025",
+      "checked_at": "2026-10-08",
+      "hash": "c053d668dd367e40c3d6d8988030171d53d18c152c33da4f19ed77009b694584"
+    },
+    {
+      "id": "hkust-da-he",
+      "checked_at": "2026-10-08",
+      "hash": "6b4035cbb4e10f8b7b7cca69c3dce076eb7a91768d2f86ad9e71701d4c432dd7"
+    },
+    {
+      "id": "chicago-daniel-katz",
+      "checked_at": "2026-10-08",
+      "hash": "b2d473ae02d3652b99d040315a5e3ec4327e6f063a277cef793639208d21e145"
+    },
+    {
+      "id": "penn-ekaterina-goncharova",
+      "checked_at": "2026-10-08",
+      "hash": "24cf22aa982f1934d368c4c58a37a4150a8f9278a51db1462eca19ed1a20b2f5"
+    },
+    {
+      "id": "ubc-ekin-ok",
+      "checked_at": "2026-10-08",
+      "hash": "1677f48984fdf3c2cd79b54e3be805bece16b365708d4643c7bfa3519aea2abf"
+    },
+    {
+      "id": "ella-xu-2025",
+      "checked_at": "2026-10-08",
+      "hash": "ad7eb3f000256e57325a4a427f5a03af4280dff273393a95d32a59411c140fdb"
+    },
+    {
+      "id": "harvard-emily-prinsloo",
+      "checked_at": "2026-10-08",
+      "hash": "a8aa3b764a8b08fc5649ed51ffa8e092bb1c1c931db0c7dfa63852b49eab15a8"
+    },
+    {
+      "id": "fei-teng-2025",
+      "checked_at": "2026-10-08",
+      "hash": "5c55d9b54805107e8426a75c0c0777d15cb52c5f809c7dd376d4da2706cbc768"
+    },
+    {
+      "id": "toronto-francis-guiton",
+      "checked_at": "2026-10-08",
+      "hash": "dcefd4a09730dea7da1e77a2aee309bec51334aa51cbe42c61a7efc0995e4ee6"
+    },
+    {
+      "id": "haihao-guo-2026-27",
+      "checked_at": "2026-10-08",
+      "hash": "1695627b0541a8309d99b6338aa80479b26dd3470b3cb478f74c7595829ee6c0"
+    },
+    {
+      "id": "hangcheng-zhao-2025",
+      "checked_at": "2026-10-08",
+      "hash": "783765b7ffb710651d2fbef5946a894a5e0f384625d9ce48bc0e4d087da49706"
+    },
+    {
+      "id": "penn-henrique-laurino",
+      "checked_at": "2026-10-08",
+      "hash": "e97c0df6fa4be4587225ec29101f5e488eac9640e7c0570970e6284bc69a02c4"
+    },
+    {
+      "id": "hung-ho-2026",
+      "checked_at": "2026-10-08",
+      "hash": "13e181eeb7205a4be3da8d23f5f18f145df813469ed834e900c6ee853f3913aa"
+    },
+    {
+      "id": "us-io-jacob-conway",
+      "checked_at": "2026-10-08",
+      "hash": "b6ebd41c87fb4ed2993f188a662799bdbf932664e7ef4ebc5cea5a9bb23eb9f5"
+    },
+    {
+      "id": "northwestern-jason-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "95712e2b493fc6e4f6774382e4eb314998f5540990ab05f40c63efd25c13a602"
+    },
+    {
+      "id": "us-io-jaume-vives-i-bastida",
+      "checked_at": "2026-10-08",
+      "hash": "3271a544c73e9163c8450e56ecedd1401d916de5387bfea1c6dcd4074666f614"
+    },
+    {
+      "id": "northwestern-jesse-dagostino",
+      "checked_at": "2026-10-08",
+      "hash": "df4e12004eddf52335375f53e44da37653c7328e2143cd098ba65a0d0bdfde86"
+    },
+    {
+      "id": "us-io-jesse-silbert",
+      "checked_at": "2026-10-08",
+      "hash": "ed412f348f43037a8cd20dc85926cfd39cc89d7d5a1f0598beea5d611ac0397f"
+    },
+    {
+      "id": "northwestern-jessie-jia",
+      "checked_at": "2026-10-08",
+      "hash": "449eaa35e28124a74f0128e8f2f1f02a62a88d6429ffeee406b529db05e6caca"
+    },
+    {
+      "id": "penn-jiani-xue",
+      "checked_at": "2026-10-08",
+      "hash": "dcabbc07ad5ad9d4e3cfdb6b3714708c7914c3985e42a5366612b7053bb7843d"
+    },
+    {
+      "id": "chicago-jiaqi-yu",
+      "checked_at": "2026-10-08",
+      "hash": "1a680cacd9c985b29c653b7337eb8a04b7c42f4445a8cc9b6131f609e12fb5c1"
+    },
+    {
+      "id": "northwestern-jane-jiaqian-wang",
+      "checked_at": "2026-10-08",
+      "hash": "5e34e2716d832629aebf140c4398dabff3ad731322ea2cf0d8ee435ab1ebdc97"
+    },
+    {
+      "id": "toronto-jie-fang",
+      "checked_at": "2026-10-08",
+      "hash": "a75a45bfdf7173a3a7f220ff39cc70339be710e0f845cf201ba8d000987e7382"
+    },
+    {
+      "id": "harvard-jimin-nam",
+      "checked_at": "2026-10-08",
+      "hash": "08d164b93c307d908f24f9d5b16b5ed26617bee124fe7de67174a9447cabfeda"
+    },
+    {
+      "id": "hkust-jingling-yu",
+      "checked_at": "2026-10-08",
+      "hash": "db711ea89bc2dac1adc5608c34f71796c712cdbe31545396a3bbdfe402b8e7a5"
+    },
+    {
+      "id": "nus-jingman-cao",
+      "checked_at": "2026-10-08",
+      "hash": "ba2a47deb3a716099180f373829e1040ed6728d45e7250156b24478c58a903a8"
+    },
+    {
+      "id": "us-io-jingyi-cui",
+      "checked_at": "2026-10-08",
+      "hash": "d7c3f12efa5e9720b804f88960b552781d42bc27597cbd6c55ef976993ba8ec0"
+    },
+    {
+      "id": "northwestern-jocelyn-grabke",
+      "checked_at": "2026-10-08",
+      "hash": "5c611caa89b3a66793f31b7fec2c607e9d9d6fb5e20a0ac2c5d69ea874b35499"
+    },
+    {
+      "id": "northwestern-joseph-abruzzo",
+      "checked_at": "2026-10-08",
+      "hash": "807a79757f55239a8100de8c5b51b415343f4faba9567dcafadb198b5be0e027"
+    },
+    {
+      "id": "northwestern-julia-jeong",
+      "checked_at": "2026-10-08",
+      "hash": "f57066f88e068784e984aa4509ca7446c15a90d620f411303eb2342fe3b53d16"
+    },
+    {
+      "id": "us-io-kate-reinmuth",
+      "checked_at": "2026-10-08",
+      "hash": "9ead5ceee9e8c67cfe7014d6b2f98529057b62f6ddea7e5bb161e5babe6866d0"
+    },
+    {
+      "id": "us-io-kelly-kaili-yang",
+      "checked_at": "2026-10-08",
+      "hash": "e8f7cd884694f5ebcab5fbf474e56c13eee352f45b2ca2d9a362be07c8357ac3"
+    },
+    {
+      "id": "ubc-kisho-hoshi",
+      "checked_at": "2026-10-08",
+      "hash": "6b4dc12e757b45c9546c7ec2826ef20f2995b86a44fdf12f54902c7f85452e2c"
+    },
+    {
+      "id": "chicago-lin-fei",
+      "checked_at": "2026-10-15",
+      "hash": "ca214e599ad9596c3b764e9d818afa0d15ac367c46c9e56759a62944e093d156"
+    },
+    {
+      "id": "ntu-lingyu-lin",
+      "checked_at": "2026-10-08",
+      "hash": "e8803b008cb897132a4aed22da75f1821fe25d97c02becf19dcf89eb88d246bf"
+    },
+    {
+      "id": "toronto-lorenzo-cecutti",
+      "checked_at": "2026-10-08",
+      "hash": "aac27544f6176b16d2eea3f8a51239be0eae7142df6da0437356f686f0808c9a"
+    },
+    {
+      "id": "hkust-lulu-shi",
+      "checked_at": "2026-10-08",
+      "hash": "d509ae772b64041c04926474ad215b6f157d96aa4adddf8c204a7fe85cba18c5"
+    },
+    {
+      "id": "chicago-lydia-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "5a69650d2f83b40f6540b927f57da47a6a5103c71a80fe85eda895feb1951fdf"
+    },
+    {
+      "id": "malika-korganbekova-2024",
+      "checked_at": "2026-10-08",
+      "hash": "32d2971bb83aafa0bc180f33ebc9842ee3230bee725fd6b1701c08df1e2af67d"
+    },
+    {
+      "id": "northwestern-matejas-mackin",
+      "checked_at": "2026-10-08",
+      "hash": "fe56dbc172af6b753ee0db16fb5f96551ea245b4ddb74fb929fb5d18eef9ae9a"
+    },
+    {
+      "id": "us-io-max-pienkny",
+      "checked_at": "2026-10-08",
+      "hash": "28c21f7b75822888de6c11142fd6a6bb90070d929f6be798208d33d6afa76fca"
+    },
+    {
+      "id": "magie-cheng-2026",
+      "checked_at": "2026-10-08",
+      "hash": "c662ba3b9dd77473ea2e2f882243f45a979de62c33f4232e5bfdbef069690849"
+    },
+    {
+      "id": "us-io-mingao-xie",
+      "checked_at": "2026-10-08",
+      "hash": "4d630b94218864eb9f72db2ff04f5be8ed2b4a3cf323d952cc42d214825323ca"
+    },
+    {
+      "id": "penn-mingyung-kim",
+      "checked_at": "2026-10-08",
+      "hash": "2030f29372403910284b580717946ff21d37bec967bd11e2dafa9843a22f7556"
+    },
+    {
+      "id": "chicago-minkwang-jang",
+      "checked_at": "2026-10-15",
+      "hash": "ce48f0c6e452bb9fe09df6b1737c362542bb00f63cac40cdecfd71eb76d2cdaf"
+    },
+    {
+      "id": "us-io-mitchell-watt",
+      "checked_at": "2026-10-08",
+      "hash": "185b18220fe3942c8e88133e8cf1ed76e11e2c71a88d85fc6343cc59790d2067"
+    },
+    {
+      "id": "toronto-moein-javadian",
+      "checked_at": "2026-10-08",
+      "hash": "f336b2d71494e0445b021a2e7886acdad9528b71b982222c7ce5c5807ed4635a"
+    },
+    {
+      "id": "toronto-mohaddeseh-heydari-nejad",
+      "checked_at": "2026-10-08",
+      "hash": "51beebb8fe7785bcd209829f6accff03eb27d3617371367ac0b8a1200449d738"
+    },
+    {
+      "id": "toronto-mohsen-foroughifar",
+      "checked_at": "2026-10-08",
+      "hash": "08d12ecc2cd7c96f3a64e1e16f62cf42a811753131b38dd1b7ff0ccf06d37f2a"
+    },
+    {
+      "id": "us-io-nathaniel-hickok",
+      "checked_at": "2026-10-08",
+      "hash": "3f4179e2622af838819e324f90be2db31095659a4aaf279ffae50ded1206c780"
+    },
+    {
+      "id": "chicago-nicholas-herzog",
+      "checked_at": "2026-10-08",
+      "hash": "83392e9f2f6445cc758817590f1822b12bf2cde9bd66dd063eccbae2a71530d1"
+    },
+    {
+      "id": "chicago-ningyin-ariel-xu",
+      "checked_at": "2026-10-08",
+      "hash": "3c13a6a9b5a2e1c5963b6030439536681754e3e45ade07e069487f1d1acfa7d9"
+    },
+    {
+      "id": "us-io-pearl-li",
+      "checked_at": "2026-10-08",
+      "hash": "2c674548a9a381c2cc7c7daa5722dc5a8bfda8832cc3392d6b799883a9c9f2f3"
+    },
+    {
+      "id": "ntu-qing-tang",
+      "checked_at": "2026-10-08",
+      "hash": "b4b7ac6348978a9f9b91f0b9de6b6c08bdde50cfe2bac07ea8719e452e0221f2"
+    },
+    {
+      "id": "penn-rachele-ciulli",
+      "checked_at": "2026-10-08",
+      "hash": "a74711c5dc04d0e39149f30be1c7e3c853fa45711f9bd61241d38002052eb8f8"
+    },
+    {
+      "id": "ntu-ruoding-wang",
+      "checked_at": "2026-10-08",
+      "hash": "b5730e17e49fe202323967d0c5a00c61c459dfc7b65328e408498e912eaca516"
+    },
+    {
+      "id": "ruru-hoong-2026",
+      "checked_at": "2026-10-08",
+      "hash": "1a5ff8987bf5d803926a456fd1dd6f1d288a34f63813da03439cbc67128e0c02"
+    },
+    {
+      "id": "nus-samantha-sim",
+      "checked_at": "2026-10-08",
+      "hash": "f6f070671366c20a0c3d76978979524317040a302957901a19f12ad30fa8717f"
+    },
+    {
+      "id": "northwestern-samuel-su",
+      "checked_at": "2026-10-08",
+      "hash": "0751a09710f02f71afaea8947edbd6d84ef7cde0d9bd9eb0b21549dddb19b722"
+    },
+    {
+      "id": "northwestern-sarena-su",
+      "checked_at": "2026-10-08",
+      "hash": "be117e82c99707d56dd2107502dac384a7c358edb1356582dc3ebacb49665d82"
+    },
+    {
+      "id": "northwestern-seo-young-myaeng",
+      "checked_at": "2026-10-08",
+      "hash": "a4122fe2c6356be0f4f39a28e2135068047e2b72a2e1b5ccebe1186eadaeb507"
+    },
+    {
+      "id": "seung-yoon-lee-2025",
+      "checked_at": "2026-10-08",
+      "hash": "3c5e59d9b667c83a557422a25a91e022d1542bd5ae91875d427c34e0a3f1963d"
+    },
+    {
+      "id": "ubc-shangwen-yi",
+      "checked_at": "2026-10-08",
+      "hash": "1a29fdbdc06dd4f0f5ea0a97299056a7f1715e7838a9ec7d6d9b161c656cbab5"
+    },
+    {
+      "id": "penn-shannon-duncan",
+      "checked_at": "2026-10-08",
+      "hash": "3d3514ee0e864f68debbe9ffec74d7f5edac44894c6d4bee79105c523c1274b6"
+    },
+    {
+      "id": "nus-shiwen-gao",
+      "checked_at": "2026-10-08",
+      "hash": "d2b516ccfe1b10d682ad74abe3503cece19d64605f12f88102793a8033ee43f5"
+    },
+    {
+      "id": "us-io-shoki-kusaka",
+      "checked_at": "2026-10-08",
+      "hash": "6393d95663e81a5542189eda4884cdee6d9a7cb056fd0a9aca0fae2c316d002d"
+    },
+    {
+      "id": "chicago-shweta-desiraju",
+      "checked_at": "2026-10-08",
+      "hash": "b0af0ecdaa879419adc0d5a302c8e83fd79ee576d409bfa9ec7b0eb69239da70"
+    },
+    {
+      "id": "ubc-siddhanth-mookerjee",
+      "checked_at": "2026-10-08",
+      "hash": "82c8037ddc2e0ce645fe9d1468cf942b6c3537c5779faa7e9c1999496016942a"
+    },
+    {
+      "id": "nus-sijin-chen",
+      "checked_at": "2026-10-08",
+      "hash": "c7cf05bd6638965bb4c7e55cc599719e597c97b2de557d5d38664e68636e8b09"
+    },
+    {
+      "id": "penn-siyuan-yin",
+      "checked_at": "2026-10-08",
+      "hash": "f8543462a98cd1d8582f74abc6fa316119a6a06b85a2d84325c45bd1c8e0a109"
+    },
+    {
+      "id": "chicago-soaham-bharti",
+      "checked_at": "2026-10-15",
+      "hash": "68d9b887c9c3d02a22acf0aa0ce84d89daa093e7d2963efb75b26d89a337643b"
+    },
+    {
+      "id": "ta-wei-huang-2025",
+      "checked_at": "2026-10-16",
+      "hash": "08dc78f148fff54fc23a1be0a0eda449ed47500cb9930be7525af690b88ce289"
+    },
+    {
+      "id": "us-io-tess-snyder",
+      "checked_at": "2026-10-08",
+      "hash": "c4e3b0646291cb9f5dcb805c092d82f3a0b12a62a41f4a5583b5b9a74cac5bd1"
+    },
+    {
+      "id": "us-io-thi-mai-anh-nguyen",
+      "checked_at": "2026-10-08",
+      "hash": "edef2deb9cb1f0f247dd085dc952549ef7604a79f1bbf8fad3618a5213356b3e"
+    },
+    {
+      "id": "us-io-tulio-sousa",
+      "checked_at": "2026-10-08",
+      "hash": "5a5d6a685914697058e3800eb51c4fa746ead2fa1ea4010d1f24b6a6256a1059"
+    },
+    {
+      "id": "us-io-tuyetanh-tran",
+      "checked_at": "2026-10-08",
+      "hash": "a4010198d7214b508d9d1fd34cc37f41a9a81af27865b8186a1e13b6513f0287"
+    },
+    {
+      "id": "toronto-verina-que",
+      "checked_at": "2026-10-08",
+      "hash": "cceb00eeb2168bc6c8520b43df0f162e2c07f8d2f849c05a2013ff7b3b385904"
+    },
+    {
+      "id": "toronto-vivek-nandur",
+      "checked_at": "2026-10-08",
+      "hash": "f28edc781a208a0a4354340a32edcf44ff851006b3294063800e26d715df0bb7"
+    },
+    {
+      "id": "walter-zhang-2024",
+      "checked_at": "2026-10-08",
+      "hash": "c0699bdd5f7e6264e724f576ed357deee7e2bed8ae3e5b9d2dfd1186f810703c"
+    },
+    {
+      "id": "nus-wanjiang-deng",
+      "checked_at": "2026-10-08",
+      "hash": "3ff282b7e23a27f34df99a4a044fdc5ca6152cf50246c931d4e55697ebd85630"
+    },
+    {
+      "id": "hku-wanyi-zheng",
+      "checked_at": "2026-10-08",
+      "hash": "f44ee5dddf30dbaddda873c60fed95bf1c34f3f9bd5034da33184e77c89481fa"
+    },
+    {
+      "id": "toronto-wei-lu",
+      "checked_at": "2026-10-08",
+      "hash": "46312c5c8c2e621ee5ecf21c4acab85e3018dd2ae4fc1413327f5795a77b33ae"
+    },
+    {
+      "id": "nus-xinbo-wang",
+      "checked_at": "2026-10-08",
+      "hash": "608596de0b8b0c8f2715215c7a9a3bc9708c5e64c7a7b080638889132480ef19"
+    },
+    {
+      "id": "xinyao-kong-2023",
+      "checked_at": "2026-10-08",
+      "hash": "5edf703817cba413dbc17ab36597f5acb184764b083aec58070f8fb75360b308"
+    },
+    {
+      "id": "northwestern-xuekang-wu",
+      "checked_at": "2026-10-08",
+      "hash": "dedfbadd3c4c906c342c3923f2464de83d77de13d943c7acbfdbf98886df2132"
+    },
+    {
+      "id": "hkust-xuewen-wang",
+      "checked_at": "2026-10-08",
+      "hash": "515063d622a1c119f5fa8bf8da0131b0e4aa5d8265fefb24dfcf2f83b5f8b88f"
+    },
+    {
+      "id": "hkust-yi-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "8a207125df7bd244c7caba91c8a6c0d11fcef4cda1e8cd2b7e653a94c821c14a"
+    },
+    {
+      "id": "yi-wen-chen-2026-27",
+      "checked_at": "2026-10-08",
+      "hash": "889078bae6459b528b4856f96b94386ac8b7cc1d93190f600046e8b745b4173f"
+    },
+    {
+      "id": "yihao-yuan-2025",
+      "checked_at": "2026-10-08",
+      "hash": "03d155f19d94a0faee9dfd6769f1e750574d1bb2f3e1dccf66d2435acc110591"
+    },
+    {
+      "id": "toronto-ying-zeng",
+      "checked_at": "2026-10-08",
+      "hash": "b2767b6be5c4961d32913ca42aad07a17e788058a3579f70aa558096e3b424c3"
+    },
+    {
+      "id": "yingkang-xie-2023",
+      "checked_at": "2026-10-08",
+      "hash": "d46c657fb763f4fd2c777d199468317d85be8c26e6dec61b5069c679658bb2c8"
+    },
+    {
+      "id": "youngeun-lee-2023",
+      "checked_at": "2026-10-08",
+      "hash": "003b3e6615729be0c9a1cbeebf5ec103233d9bf86fa65e45a2c2de2943ac2ec3"
+    },
+    {
+      "id": "penn-yu-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "9b13fbe8122e212d78d2a6f0b0c5d8a40cf0a492a27a0eb2e563807354c6fefc"
+    },
+    {
+      "id": "us-io-yuki-ito",
+      "checked_at": "2026-10-08",
+      "hash": "44dbb5b7cbdae32cec20847e211ae9d3e7673f2b95aafefc4e04dd031ec81f8f"
+    },
+    {
+      "id": "us-io-yunus-semih-coskun",
+      "checked_at": "2026-10-08",
+      "hash": "7d8d008b34950add32b5e5c36280edaf41e14b864f99b9cb9e2456eeb0e369c1"
+    },
+    {
+      "id": "chicago-yusu-wang",
+      "checked_at": "2026-10-08",
+      "hash": "2dbdc4e3fae8b5128f097ffb804510e9a1d6cefcc56be9e2e01ce0d3b73614d3"
+    },
+    {
+      "id": "chicago-yuxiao-li",
+      "checked_at": "2026-10-08",
+      "hash": "863e82f2d4c66ee07e834d7bd05fc27a862b2c69ef2f80f4003dc8b9f795e65b"
+    },
+    {
+      "id": "us-io-zhengrui-cheng",
+      "checked_at": "2026-10-08",
+      "hash": "508fe3234b03c71ddc85bb89e7511aa4d4f580ef179151a89f853037f6aa05fe"
+    },
+    {
+      "id": "hku-zhengyu-shi",
+      "checked_at": "2026-10-08",
+      "hash": "c1f5a610ed0be5ca66e9fcad0446dd3d31bb5d43bfec41b1189d37bc499f94b2"
+    },
+    {
+      "id": "us-io-zhichun-wang",
+      "checked_at": "2026-10-08",
+      "hash": "6663d80b243bd96bd94718695b6d9b87649aa46de8f86893b7bbfd677b327032"
+    },
+    {
+      "id": "ubc-zining-wang",
+      "checked_at": "2026-10-08",
+      "hash": "de2487c6fdacdd053b9b8f05adee4b29dbf2ef203c103732cf1bbccf4b86ba21"
+    },
+    {
+      "id": "columbia-university-lan-luo",
+      "checked_at": "2026-10-15",
+      "hash": "5779053bf84e8ec50d433dd27dec0c0f9807d8267a8c1732fbdee81e0c2d07b3"
+    },
+    {
+      "id": "columbia-university-eli-sugerman",
+      "checked_at": "2026-10-15",
+      "hash": "9b0f70fe41861161ef274b331c27a97e85a442228fa4c0b92926d0eac10cd535"
+    },
+    {
+      "id": "columbia-university-maren-hoff",
+      "checked_at": "2026-10-15",
+      "hash": "a94a87c67f926a9d9037c7121875c1bd15d65e59314bdbb62d9a8facb93cf2df"
+    },
+    {
+      "id": "columbia-university-eric-park",
+      "checked_at": "2026-10-15",
+      "hash": "afdc3125323255eaefd5e0db82d0e3e0f0b902cd7f700c7df3fc131c4d847b3e"
+    },
+    {
+      "id": "columbia-university-jasmine-yang",
+      "checked_at": "2026-10-15",
+      "hash": "559eb1f788a90c689469c31f0a9fe010ffcfd84c8714a0863c72d1d4561747b1"
+    },
+    {
+      "id": "columbia-university-maayan-shira-malter",
+      "checked_at": "2026-10-15",
+      "hash": "1370df96574c20093fc87a030e10ce50c6f4d1b3048cbdd66734c301517e6c2c"
+    },
+    {
+      "id": "columbia-university-jennifer-sun",
+      "checked_at": "2026-10-15",
+      "hash": "e91aeefbabd4c78b0189497ca38dcc94504f5a103654aec684611e8583a95cd8"
+    },
+    {
+      "id": "columbia-university-yinghao-wu",
+      "checked_at": "2026-10-15",
+      "hash": "1da967c52f39696325cec91066b0508cfeebc60dde9916f9003b8d80899b9da2"
+    },
+    {
+      "id": "columbia-university-shin-oblander",
+      "checked_at": "2026-10-15",
+      "hash": "49d5eece38a48ae457d41ddc18ee48fc7978a4bc3782a6ef7a6cd999a0059854"
+    },
+    {
+      "id": "columbia-university-sonia-kim",
+      "checked_at": "2026-10-15",
+      "hash": "781c8600b7ccd77d05f154421128c4af24411befe17c2823eabfc53ec0dd4d40"
+    },
+    {
+      "id": "columbia-university-sibel-sozuer-zorlu",
+      "checked_at": "2026-10-15",
+      "hash": "895079383245562de4f983de5dcc6cc9825016a04c4fce25b99034b2ee504de9"
+    },
+    {
+      "id": "columbia-university-byung-cheol-lee",
+      "checked_at": "2026-10-15",
+      "hash": "35e6ca96234b81fdf5c6685b9a2565a6683f69952a4f073ec9c58f4d1d7dd206"
+    },
+    {
+      "id": "university-of-washington-haonan-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "24772e41034df961a04072d9cd23547dad07601d14717bb29f21433bea1e9ef0"
+    },
+    {
+      "id": "university-of-washington-sylvia-chang",
+      "checked_at": "2026-10-08",
+      "hash": "e133d081b27fdabe29b2b3bde45c3efc92454520ba9b97b5d18408018c78ba99"
+    },
+    {
+      "id": "university-of-washington-evy-smith",
+      "checked_at": "2026-10-08",
+      "hash": "913b0a351cde8bd0770b2e586e1f0d306f08772c32e02b0eaf6764d93ada06ef"
+    },
+    {
+      "id": "university-of-washington-bita-hajihashemi",
+      "checked_at": "2026-10-08",
+      "hash": "1d44867d9e616f07d324dd5135ae55603c91eba8ce6bf4752bf43014603f0064"
+    },
+    {
+      "id": "university-of-washington-natalie-chisam",
+      "checked_at": "2026-10-08",
+      "hash": "504c465c1914c0ca4e3c53d786a44fae46458b3e02e230ccad9e72e4124bc5c0"
+    },
+    {
+      "id": "cornell-university-archer-pan",
+      "checked_at": "2026-10-08",
+      "hash": "e69319513d38b808a9879f9a10155293b84579fb0810a84deda53377d58fcd3c"
+    },
+    {
+      "id": "cornell-university-y-rin-yoon",
+      "checked_at": "2026-10-08",
+      "hash": "b8c57456ee0158d93fdf4cfa551b4ba2e7dbddef884db02ad88895f457d243e4"
+    },
+    {
+      "id": "cornell-university-sai-chand-chintala",
+      "checked_at": "2026-10-08",
+      "hash": "050d374b199bc5be20ca7add7bac40836ad933a640f7e63da7cf68bb3cfa1136"
+    },
+    {
+      "id": "cornell-university-deepak-sirwani",
+      "checked_at": "2026-10-08",
+      "hash": "288dcc7aea8ef917eb9b6f57844c8e865866d5bdb4864706d5c9098fad1d6e58"
+    },
+    {
+      "id": "cornell-university-elina-hur",
+      "checked_at": "2026-10-08",
+      "hash": "c877f2164e727333df4d70dc430882ae09a35e5802b44604220df6edac0669bb"
+    },
+    {
+      "id": "indiana-university-dong-wook-peter-chae",
+      "checked_at": "2026-10-08",
+      "hash": "fe949bed6c95251ab0257ce5713ed676cf56cb549f32f6fa75254cd1dcc7449b"
+    },
+    {
+      "id": "indiana-university-meng-ji",
+      "checked_at": "2026-10-08",
+      "hash": "374c7e318379553d742b0c9dbfc00fa75f8b56b910966ab446f6d38cafdaf024"
+    },
+    {
+      "id": "indiana-university-philip-kim",
+      "checked_at": "2026-10-08",
+      "hash": "052206678c7a23b0b116c809c48efda6bf707c405c6825e223f1d3bc601c1a44"
+    },
+    {
+      "id": "indiana-university-kyu-ree-kim",
+      "checked_at": "2026-10-08",
+      "hash": "84e0715941c6c4acf81419019af7f1bbf88e45d36a5cf9544c84411a5c774990"
+    },
+    {
+      "id": "indiana-university-pooja-somasundaram",
+      "checked_at": "2026-10-08",
+      "hash": "24a075cfc2f46838c7e11d81f28ebf3914a237049ea38966daedc50476d79e66"
+    },
+    {
+      "id": "indiana-university-der-wei-huang",
+      "checked_at": "2026-10-08",
+      "hash": "0d779fd1ea11c5910369df9f2703bf1a6aed73a0e513bf37de42ca16c6ee1066"
+    },
+    {
+      "id": "indiana-university-luciano-lapa",
+      "checked_at": "2026-10-08",
+      "hash": "23cf3d5c493135c1765ef9281ec98e387d4b99989ff14aaccae77542e154e257"
+    },
+    {
+      "id": "university-of-wisconsin-madison-suyeon-jung",
+      "checked_at": "2026-10-08",
+      "hash": "7a032dc5f49b7229074e5cf74c5007eea1c10f4019dfd5ac36b17d4e91c2d64e"
+    },
+    {
+      "id": "university-of-wisconsin-madison-yutian-carol-liu",
+      "checked_at": "2026-10-08",
+      "hash": "e78ddedee6ecae7312a0d2e4f12a53d011d7b2ee9e6a18bc8a744b96e141c95e"
+    },
+    {
+      "id": "university-of-wisconsin-madison-wonsuk-jung",
+      "checked_at": "2026-10-08",
+      "hash": "e6047a9cf94195124584041b1e4c9b20c2a3e647f16d76f118aac7e1c29dd54d"
+    },
+    {
+      "id": "university-of-wisconsin-madison-sriniketh-vijayaraghavan",
+      "checked_at": "2026-10-08",
+      "hash": "b7685b6ccf7e14485f91d89be249a162a5e3eb31135ebef7f96245d2f995458e"
+    },
+    {
+      "id": "university-of-wisconsin-madison-nitisha-tomar",
+      "checked_at": "2026-10-08",
+      "hash": "c0fbdf3b56f98da4d21fd0fbb3b78173cc0fcc5b989baabb6b4d118aa3f0dfe4"
+    },
+    {
+      "id": "duke-university-siddharth-prusty",
+      "checked_at": "2026-10-08",
+      "hash": "974ef1ab82d1b771267d3bce48650903b3241956fef33799ef4002b431ffbba7"
+    },
+    {
+      "id": "duke-university-denny-huynh",
+      "checked_at": "2026-10-08",
+      "hash": "51000886668c4736d6cce468dcb358dcc0b4bd75525f1cf69fa650c2b9b11255"
+    },
+    {
+      "id": "duke-university-demi-oba",
+      "checked_at": "2026-10-08",
+      "hash": "59b64109a02fa603436293c81b53843307a2e5fb96351a2efd6668d963069917"
+    },
+    {
+      "id": "duke-university-luis-abreu",
+      "checked_at": "2026-10-08",
+      "hash": "ce33c221fe4795a9f63684c58071c9a52f8a2bad1b074ad812790e0ccb71ca09"
+    },
+    {
+      "id": "duke-university-rodrigo-dias",
+      "checked_at": "2026-10-08",
+      "hash": "558c7b6bf0530eec3f21a311bb0a85f9bab940ef0e6c2040be360606a3bc2b34"
+    },
+    {
+      "id": "duke-university-levin-zhu",
+      "checked_at": "2026-10-08",
+      "hash": "c7b6a79312f210d71d261c40cdb6e102d5dd0da9023cb543f60e2d4eeb4c9d50"
+    },
+    {
+      "id": "duke-university-lingrui-zhou",
+      "checked_at": "2026-10-08",
+      "hash": "1c0df2bc5c4f9080ae0dacc935a7baa96a53d29da693b52253ee44d03ac1063d"
+    },
+    {
+      "id": "university-of-texas-at-dallas-salar-nozari",
+      "checked_at": "2026-10-08",
+      "hash": "ffc094b6ad351e41a584059c3fdbb4f2fca31186048c56ea09ee9c9e4d1f8782"
+    },
+    {
+      "id": "university-of-texas-at-dallas-ehsan-saremi",
+      "checked_at": "2026-10-08",
+      "hash": "f2a85a8bd8039a6e2de5d0f4fbb1dac3115d36e7867883dac41974f50bbf5767"
+    },
+    {
+      "id": "university-of-texas-at-dallas-soogand-alavi",
+      "checked_at": "2026-10-08",
+      "hash": "f7ca23125d940e77ddc0ce7d53f4610a619b11045fa1fbae10f662f2c09e9371"
+    },
+    {
+      "id": "university-of-texas-at-dallas-ata-jameei-osgouei",
+      "checked_at": "2026-10-08",
+      "hash": "3b2b2cdf4bcae333ee662ed66e21795ba18148c5e67a7085656a260a8c64246b"
+    },
+    {
+      "id": "university-of-texas-at-dallas-reza-roshangarzadeh",
+      "checked_at": "2026-10-08",
+      "hash": "21d8bdefc931599ea8876fa3723c22d1a05079d791203b777223ef4e6ff30537"
+    },
+    {
+      "id": "university-of-texas-at-dallas-thyagarajan-subramanian",
+      "checked_at": "2026-10-08",
+      "hash": "9b1f2a4c983b3176bc3a1468443f9b4039e0320c6b7a544e5b35058ed14fb63e"
+    },
+    {
+      "id": "boston-university-zhengrong-gu",
+      "checked_at": "2026-10-08",
+      "hash": "bce99d76a76e3edbf743d3db5690cac51d69c0d7625157572c33f51c8e985d18"
+    },
+    {
+      "id": "boston-university-mengchen-zheng",
+      "checked_at": "2026-10-08",
+      "hash": "0e5b6ee1b3c678f531cbbbf3d42c4e376534ef60211c283cd99365d7af802709"
+    },
+    {
+      "id": "boston-university-chen-jing",
+      "checked_at": "2026-10-08",
+      "hash": "48c72059f738b759b29cba160f5d0c5ff598af7b418dd7c7469c513843023dde"
+    },
+    {
+      "id": "boston-university-aaron-nichols",
+      "checked_at": "2026-10-08",
+      "hash": "22927a02912c57d726ad5f76e70f366e3bba2bceda2b0e2a2251c393eb159652"
+    },
+    {
+      "id": "boston-university-jaewoo-lee",
+      "checked_at": "2026-10-08",
+      "hash": "c6b7a2fa4d82a8311145421ab45a3e18f6fa1730cac72c789a980f88f4ecfde2"
+    },
+    {
+      "id": "boston-university-pu-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "1ffb454a7eb697d37c871fefd0da78d47b0db83a86052423e7a740932eaa6aa4"
+    },
+    {
+      "id": "boston-university-anna-tari-sanchez",
+      "checked_at": "2026-10-08",
+      "hash": "b85b17bc817532a0932b4aebeaf7686456e51142dcb64ca3339bab9ea624b7f9"
+    },
+    {
+      "id": "emory-university-kyeongbin-kb-kim",
+      "checked_at": "2026-10-08",
+      "hash": "2e4767a6e86a95649248ec48334cc93a3224c6a8a203085993b901c04d65fb45"
+    },
+    {
+      "id": "emory-university-jihyeon-ha",
+      "checked_at": "2026-10-08",
+      "hash": "dd1234e657e34fe42a49af85a105d6d156cf232d7763b1df442fbf00f040c602"
+    },
+    {
+      "id": "arizona-state-university-xin-zhou",
+      "checked_at": "2026-10-08",
+      "hash": "e5e1e7c92d26ab0621d3b65f53e6cca3c1a663aa2de0ae8531c3bee01bfe8359"
+    },
+    {
+      "id": "arizona-state-university-ziwei-wei",
+      "checked_at": "2026-10-08",
+      "hash": "8aa30b2b92a2c944c4a06a92cfaec47c19fd24eabd5619bfa3ca61a23711d8c5"
+    },
+    {
+      "id": "arizona-state-university-pradeep-jacob",
+      "checked_at": "2026-10-08",
+      "hash": "96b552732bdcbfc4bc279375dbef8f58c77b63e5cfd3ee99eaacc12f6467be10"
+    },
+    {
+      "id": "arizona-state-university-dahae-jeong",
+      "checked_at": "2026-10-08",
+      "hash": "c7bac202fe06186282423bb173d923778a09509f59b32c7b6a58d7774ed9c1ae"
+    },
+    {
+      "id": "university-of-colorado-boulder-brandon-christensen",
+      "checked_at": "2026-10-08",
+      "hash": "5b92a601e718a5133118f4d62298a736501c5519d44dadd48cde3dac84bc9be9"
+    },
+    {
+      "id": "university-of-colorado-boulder-matthew-meister",
+      "checked_at": "2026-10-08",
+      "hash": "c465faa83e0130226d5a7d3334133ec9c8af6f91d79b9c24c0ea032aa5f26d6a"
+    },
+    {
+      "id": "yale-university-ankit-sisodia",
+      "checked_at": "2026-10-08",
+      "hash": "70f652147dfc3d4bd25fbcf4cae00612726f5e06cd5d488d191567843dcf799e"
+    },
+    {
+      "id": "yale-university-ian-weaver",
+      "checked_at": "2026-10-08",
+      "hash": "a1d00b26502b66f432277c4cfb24ecb3c08d8cb848a211aa0c23123fabc84d23"
+    },
+    {
+      "id": "university-of-michigan-varad-vivek-deolankar",
+      "checked_at": "2026-10-08",
+      "hash": "0491c1b3c6af1ef208ec387a805f33bf8256ae6e6a38768c9af90106fecebe3b"
+    },
+    {
+      "id": "university-of-michigan-yeonjin-sung",
+      "checked_at": "2026-10-08",
+      "hash": "248cdf91bbe4954cc0c16d79485c42952aeaebbe6899d73267628c91c39b8399"
+    },
+    {
+      "id": "university-of-michigan-bruno-castelo-branco",
+      "checked_at": "2026-10-08",
+      "hash": "9380c60b06233dd636c07a12243c6a11815a7629e5e7cf014f0064e8f878c3c7"
+    },
+    {
+      "id": "university-of-michigan-hayoung-cheon",
+      "checked_at": "2026-10-08",
+      "hash": "293f8058b929974cb07f1c4b08c93e6312dfec0876076003a982fb927c983d8e"
+    },
+    {
+      "id": "university-of-michigan-gwen-geunhae-ahn",
+      "checked_at": "2026-10-08",
+      "hash": "c427f5044a3ce508c1e7288062da892c1619b1da4a51859abb906db0adb11dd6"
+    },
+    {
+      "id": "university-of-michigan-jangwon-choi",
+      "checked_at": "2026-10-08",
+      "hash": "93242119beba8915359042c4d34cf25dc69a60b254e68856109fc28214bf43fd"
+    },
+    {
+      "id": "university-of-georgia-lan-anh-ton",
+      "checked_at": "2026-10-08",
+      "hash": "8db19b3a5388a3894a354986def04f158b77d9d8aeca5efede15ecb6346b3975"
+    },
+    {
+      "id": "university-of-georgia-rachel-ramey",
+      "checked_at": "2026-10-08",
+      "hash": "f0c2dba12d60ad72c0c0c13c99397957a52b5b7205b94375291c1563e3d542b5"
+    },
+    {
+      "id": "university-of-georgia-molly-ahearne",
+      "checked_at": "2026-10-08",
+      "hash": "d9e66f2c5f411fd6f6d21b0bb5b613e4b84acb0c0672da467ca3690dc34f8276"
+    },
+    {
+      "id": "university-of-georgia-nicole-davis",
+      "checked_at": "2026-10-08",
+      "hash": "246f29e7d3d326214f16e85df0b1ae44d648c46162c84a3c2b69679625973fba"
+    },
+    {
+      "id": "university-of-california-san-diego-kohei-hayashida",
+      "checked_at": "2026-10-08",
+      "hash": "4edbb6572de33ca64e37f50d134ee15f5a995b4366cd46dc2524d5d39ebdef58"
+    },
+    {
+      "id": "university-of-california-san-diego-paul-wynns",
+      "checked_at": "2026-10-08",
+      "hash": "918315662c78e51a582e67856ef729f918bf7ac4f955fbda8540497bc93ebd9f"
+    },
+    {
+      "id": "university-of-california-san-diego-meenakshi-balakrishna",
+      "checked_at": "2026-10-08",
+      "hash": "35c39d6e36cde8f57cbf78adf8f0cde927dfd74609f90b1c6684a9b1bb9c023c"
+    },
+    {
+      "id": "university-of-california-san-diego-katie-hillegass",
+      "checked_at": "2026-10-08",
+      "hash": "d7fd005a700ce00cc541a662efe7ed361f1b87bcd2a9768d442c868e5e861523"
+    },
+    {
+      "id": "university-of-california-san-diego-michelle-kim",
+      "checked_at": "2026-10-16",
+      "hash": "f666e95e520363d33880031f5c76a927a3e4af9a38e499968bf04047e7989b60"
+    },
+    {
+      "id": "university-of-california-san-diego-gal-smitizsky",
+      "checked_at": "2026-10-08",
+      "hash": "e8db5f4cea5eea488912db00d7f8d53b2e1abc78cdd6ce47ced4a005773f1dc5"
+    },
+    {
+      "id": "university-of-california-san-diego-seung-hyun-kim",
+      "checked_at": "2026-10-08",
+      "hash": "be909baba739b837e115041382d1a7dbba20e34da344c3a8facf8fb5669c83f1"
+    },
+    {
+      "id": "university-of-california-san-diego-jean-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "61766c07ae0edae76ecf6383b5a105a02cf83b517e02d9d6a8450007821e783e"
+    },
+    {
+      "id": "university-of-california-san-diego-ariel-fridman",
+      "checked_at": "2026-10-08",
+      "hash": "57b22e1cd7a050d9383668d8c25f2ad7381a533efb864e2aa77ecb8d1989b161"
+    },
+    {
+      "id": "the-ohio-state-university-steph-flout",
+      "checked_at": "2026-10-08",
+      "hash": "a5c8a7d3b2a801765efd9a61da07b36dfd9d4f1c5802bc205683ce9348c08ea8"
+    },
+    {
+      "id": "the-ohio-state-university-cory-haltman",
+      "checked_at": "2026-10-08",
+      "hash": "3f5c3916e9d666d1283694e49e5092a0c40326269f481fef1fc67f1de86895c6"
+    },
+    {
+      "id": "the-ohio-state-university-jianna-jin",
+      "checked_at": "2026-10-08",
+      "hash": "f4f61c4be055f297c90d4b138a3c2cc74c8702f2a446f47198acd6715828c039"
+    },
+    {
+      "id": "the-ohio-state-university-zijing-judy-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "4690c810b7284e8aae16b998ef4c1975f4da92ca6b6a2cde611f0a172a080291"
+    },
+    {
+      "id": "the-ohio-state-university-junha-kim",
+      "checked_at": "2026-10-08",
+      "hash": "a414e80bc4292c5e1f1b3b5944a1912773a9030f2b8d81e615aec7198a49347e"
+    },
+    {
+      "id": "university-of-florida-soo-yon-ryu",
+      "checked_at": "2026-10-08",
+      "hash": "65aae8c147066bb483b62b487771e2dab38ea722f24010d0cac494d7f1ea4156"
+    },
+    {
+      "id": "university-of-florida-xiang-wang",
+      "checked_at": "2026-10-08",
+      "hash": "d642dd996cba5dd98aebba268525fc2bc665fd6dbbfd0c90ad3f9170d504b82a"
+    },
+    {
+      "id": "university-of-florida-felipe-affonso",
+      "checked_at": "2026-10-08",
+      "hash": "89a6601a41c18d1e34d6948910c2cc66a158484c24835e5b17f93132c0292b6b"
+    },
+    {
+      "id": "university-of-pittsburgh-theresa-tess-kwon",
+      "checked_at": "2026-10-08",
+      "hash": "77b97f8201a5cd48fffdc5eb1923803a1f38342337ccc9fac33b8683d9d9902d"
+    },
+    {
+      "id": "university-of-pittsburgh-sayan-gupta",
+      "checked_at": "2026-10-08",
+      "hash": "9016fb37c36cf7863e0d5fb45ae49d272f32ca2953a5e30c6be6864a2e41d844"
+    },
+    {
+      "id": "university-of-pittsburgh-pallavi-jha",
+      "checked_at": "2026-10-08",
+      "hash": "397486267ab8156c39eda0b4bcdd692ecebe3da2bc56ef56e402007b48c796dc"
+    },
+    {
+      "id": "pennsylvania-state-university-wenlan-yu",
+      "checked_at": "2026-10-08",
+      "hash": "fbdf45bac3a66c6814ed0cd446b44c89064bd7338f2d49e6cdf657805219d8d2"
+    },
+    {
+      "id": "pennsylvania-state-university-dalal-alqadeeri",
+      "checked_at": "2026-10-08",
+      "hash": "d6a04e2be06d67294ed60725c088d9ff0f3f0cfc81f48a9bb6c35600fb8741d6"
+    },
+    {
+      "id": "pennsylvania-state-university-tongyao-shen",
+      "checked_at": "2026-10-08",
+      "hash": "f483a10c53a11cc6d8dbef96c8e0cc1ea109bed0c752d993cd80908ab55f5f83"
+    },
+    {
+      "id": "pennsylvania-state-university-qi-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "c1ca191913632d40483090da52e39d1d36b406cda060e66e5310a0019aeb5a8c"
+    },
+    {
+      "id": "pennsylvania-state-university-nate-allred",
+      "checked_at": "2026-10-08",
+      "hash": "399d812bcb285743cb931babde736d99e5b0ec5d43f603efee80dc06084226fc"
+    },
+    {
+      "id": "pennsylvania-state-university-benjamin-beck",
+      "checked_at": "2026-10-08",
+      "hash": "51824dab19f410ff1b92efd236c3ae4e300f6f8b9164d78089c1fd9f2e5620c8"
+    },
+    {
+      "id": "new-york-university-shoshana-segal",
+      "checked_at": "2026-10-15",
+      "hash": "a024a007dc773cf397251418d96df84ec1847f9f26fdb532666363a1bcc949a1"
+    },
+    {
+      "id": "new-york-university-eunkyung-an",
+      "checked_at": "2026-10-15",
+      "hash": "7eb5fe188494537c4e1fc8e29fac63fe45c88a131d0f0644ae1b44b954b92b01"
+    },
+    {
+      "id": "new-york-university-zekun-liu",
+      "checked_at": "2026-10-15",
+      "hash": "ead855e572a93ef3761460a79e1a385ef7d5e53c98ce17f1b7d8b815a299c02c"
+    },
+    {
+      "id": "new-york-university-weiqing-zhang",
+      "checked_at": "2026-10-15",
+      "hash": "9ed5e4cc1bb39c359a6bf88497b0dfe6573e0544776a2e1beaa5aa59cc0e0a1e"
+    },
+    {
+      "id": "new-york-university-randy-gao",
+      "checked_at": "2026-10-15",
+      "hash": "213b503d8f8aae2cd20c79ae47ee46fae080e6513eeb301e286a9ab7f4c51419"
+    },
+    {
+      "id": "new-york-university-nofar-duani",
+      "checked_at": "2026-10-15",
+      "hash": "67881a08013476402baaed6b0cc0fbafcbbeaf0b29a7eb9e89156084a3e7150b"
+    },
+    {
+      "id": "new-york-university-jong-yeob-kim",
+      "checked_at": "2026-10-15",
+      "hash": "04602961aabc6040c6f39c70f2af5b4049712a0f69221e308dfb15196d999289"
+    },
+    {
+      "id": "university-of-california-berkeley-amanda-geiser",
+      "checked_at": "2026-10-08",
+      "hash": "3b0f4728356056b872393e9533e1efd271b420451c5741fdae455e3043fca6d8"
+    },
+    {
+      "id": "university-of-california-berkeley-vincent-chen",
+      "checked_at": "2026-10-08",
+      "hash": "7c29e8289782369ff7cfb3f26753a0d8252840e446a90fe9e9e9561422fbfe65"
+    },
+    {
+      "id": "university-of-california-berkeley-yixiang-xu",
+      "checked_at": "2026-10-08",
+      "hash": "a9ff55494bae0e2336d6b4eeb20666fe79af8f23787de65ad2b0da03d11ef5e4"
+    },
+    {
+      "id": "university-of-california-berkeley-yunhao-huang",
+      "checked_at": "2026-10-08",
+      "hash": "a9c50c826b8ace1a793f8ce32c2cceaeb6704a882ed80d108fd091a371df4d85"
+    },
+    {
+      "id": "university-of-california-berkeley-william-ryan",
+      "checked_at": "2026-10-08",
+      "hash": "a9613409dba137e7882841b547a040b4a391a66ecc58eb5302918d287f9e6182"
+    },
+    {
+      "id": "university-of-california-berkeley-tianyu-han",
+      "checked_at": "2026-10-08",
+      "hash": "6f8acbb55cba1c38eac66c876e1341c12b589ec12f3e8a05f1ddcb860ce9de39"
+    },
+    {
+      "id": "university-of-california-berkeley-stephen-baum",
+      "checked_at": "2026-10-08",
+      "hash": "523726fc252f3bf888c492d6cbfa7edc3f11283d72b08ede8f36f8219af1fc39"
+    },
+    {
+      "id": "university-of-california-berkeley-jesse-yunfei-yao",
+      "checked_at": "2026-10-08",
+      "hash": "d372e5d8b30db0a9851d3b7472ab67e6e1ab4770c6f0bff44aae547d066d4801"
+    },
+    {
+      "id": "university-of-california-berkeley-fan-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "022140722aadf244b2b79b64c3b32e6851027749fdf05c79928f8a11656147e9"
+    },
+    {
+      "id": "massachusetts-institute-of-technology-marat-ibragimov",
+      "checked_at": "2026-10-08",
+      "hash": "e4711f3cfef11e9db6e865dd8db0972a8963282510b8d60af469e4e5e3f3bf6c"
+    },
+    {
+      "id": "massachusetts-institute-of-technology-reed-orchinik",
+      "checked_at": "2026-10-08",
+      "hash": "e717b4e9dfb008cde512572b66f2dcadac917f8c7a3874fdbf184dbd79783494"
+    },
+    {
+      "id": "massachusetts-institute-of-technology-cameron-martel",
+      "checked_at": "2026-10-08",
+      "hash": "37b77ac26578cec950a3ec783878a3ba8aa51c00e4249c2108a1ad83b418f541"
+    },
+    {
+      "id": "massachusetts-institute-of-technology-jennifer-allen",
+      "checked_at": "2026-10-08",
+      "hash": "42cd4e390d41d7909ce8e15b724a0a179d9e46588ac77eaca2d108762bf20f11"
+    },
+    {
+      "id": "massachusetts-institute-of-technology-jason-du",
+      "checked_at": "2026-10-08",
+      "hash": "acc0769b7c2adf21002efe2c9fd4b5f48a7703f3e21f07c5380abb285a69affb"
+    },
+    {
+      "id": "massachusetts-institute-of-technology-keyan-li",
+      "checked_at": "2026-10-08",
+      "hash": "a99c2dc4d19ad70e172b628e760530db028b9ea09e1d9747db2a10cb64f9218d"
+    },
+    {
+      "id": "massachusetts-institute-of-technology-yifei-wang",
+      "checked_at": "2026-10-08",
+      "hash": "c0e72aaaeb5d21afdd5c700b89d53298e59baaefd688d9ef516980ca05a6a25a"
+    },
+    {
+      "id": "western-university-ethan-milne",
+      "checked_at": "2026-10-08",
+      "hash": "49919f9b3357f9e0f0894883df830e1feb70890c5b1c05da38f8952fb740f61a"
+    },
+    {
+      "id": "western-university-philippe-wodnicki",
+      "checked_at": "2026-10-08",
+      "hash": "4c7a2ff20a3c64eadc596fcf92ee7730256b58973e41868f3ca1c745e22fb6df"
+    },
+    {
+      "id": "western-university-hoorsana-damavandi",
+      "checked_at": "2026-10-08",
+      "hash": "f13f65cf23c1d3d88d5859118f7a3a29a9c9f7a6a13b8907045e3241bc8c2ba0"
+    },
+    {
+      "id": "western-university-meng-qi-annie-ding",
+      "checked_at": "2026-10-08",
+      "hash": "08e13c522fd84719019c034b956602b16582eedc99a70564e40b674db160c691"
+    },
+    {
+      "id": "western-university-zuzanna-jurewicz",
+      "checked_at": "2026-10-08",
+      "hash": "0a701e2e2e93471d319afd05f0179e6609ab6c97ae175520bd8b105dd306cfa3"
+    },
+    {
+      "id": "western-university-amrita-mitra",
+      "checked_at": "2026-10-08",
+      "hash": "52eb0f1bee8797392755d4ca7f94375d7cc8dc5b8ed45d2f96ebd7deb77e7927"
+    },
+    {
+      "id": "university-of-houston-praveen-punia",
+      "checked_at": "2026-10-08",
+      "hash": "259ec3b87374506770ebb33782e3be4722dac1b1e8126447812c7ed8f32b7865"
+    },
+    {
+      "id": "university-of-houston-arpit-agrawal",
+      "checked_at": "2026-10-08",
+      "hash": "5209b40cb0d0a4e3233cc711d27472747d3544eb07a435994bdb104c224fcf56"
+    },
+    {
+      "id": "university-of-california-san-diego-giulia-maimone",
+      "checked_at": "2026-10-08",
+      "hash": "5770960fee85bc6eec556456404d7dc33d52109b2a84852a442f991f57866496"
+    },
+    {
+      "id": "carnegie-mellon-university-jinwoo-kim",
+      "checked_at": "2026-10-15",
+      "hash": "71dbf915ab407452d5512fef01192807a129e9ededf39b3f961f314aab72f82f"
+    },
+    {
+      "id": "carnegie-mellon-university-serim-hwang",
+      "checked_at": "2026-10-15",
+      "hash": "126f7a225e6f898690184696a6b91373b479677add1585d9b39977f74e9252d3"
+    },
+    {
+      "id": "carnegie-mellon-university-samuel-levy",
+      "checked_at": "2026-10-15",
+      "hash": "82c660e5735b897fde7225024dc0bee3d13b0b4e0562f5205e281b5be05310b7"
+    },
+    {
+      "id": "stanford-university-samina-lutfeali",
+      "checked_at": "2026-10-15",
+      "hash": "0c2b366a390924783b95f9fa76ef70de14524964c4b1574d143a31ee538ced86"
+    },
+    {
+      "id": "stanford-university-mohamed-a-hussein",
+      "checked_at": "2026-10-15",
+      "hash": "1c503c577910b9b401aa741d80d40dbd00a0414ecb5081ad11a8609fd5675e35"
+    },
+    {
+      "id": "stanford-university-ivan-li",
+      "checked_at": "2026-10-15",
+      "hash": "dc6eb6f61d0cc61c3666c865918e85f4bd8125d37c2f4bb68e4ef800f10414d2"
+    },
+    {
+      "id": "stanford-university-george-zhida-gui",
+      "checked_at": "2026-10-15",
+      "hash": "44d7a9f849e9a9a900040ac23648ad6a9a0f9a6ab9b83497640678961104d15c"
+    },
+    {
+      "id": "stanford-university-rupali-kaul",
+      "checked_at": "2026-10-15",
+      "hash": "a9411a70898ff3a98a2637795168ab50bb1c2a819c449d457edb358b7b90b30a"
+    },
+    {
+      "id": "university-of-southern-california-yanyan-li",
+      "checked_at": "2026-10-08",
+      "hash": "8336442f7ef742bdb8e755d97543a989e87d42562a6b19ec4df5a2fbabddba0d"
+    },
+    {
+      "id": "university-of-southern-california-wensi-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "72ae8c305addcaa8d9a2a329f4426cf451d20da5873b1df35f15ae9443b9b5b4"
+    },
+    {
+      "id": "university-of-texas-at-austin-andreas-kraft",
+      "checked_at": "2026-10-15",
+      "hash": "12aa58beef498c579dc9c8d2003c2e606fecf9aa99dacbac26aefc59e2647f21"
+    },
+    {
+      "id": "university-of-texas-at-austin-max-alberhasky",
+      "checked_at": "2026-10-15",
+      "hash": "d9c9cf09adf8b4f4f2ed27cee047dfd62513ff49ef3fd0ece2ff786a5279a97b"
+    },
+    {
+      "id": "university-of-texas-at-austin-tushmit-hasan",
+      "checked_at": "2026-10-15",
+      "hash": "3bb612b3bf1295c274ca16c998fa3b001f469c2fcda9c0ea87ad9f880a347c64"
+    },
+    {
+      "id": "university-of-california-los-angeles-mahsa-paridar",
+      "checked_at": "2026-10-08",
+      "hash": "6d5f66b20ad2814fa12d898ba08ea65ace88f03c731b6083b83aae4805aea463"
+    },
+    {
+      "id": "university-of-california-los-angeles-david-dolifka",
+      "checked_at": "2026-10-08",
+      "hash": "aeddfcc14c963b302d3aa8d4d440e43355f8372040272fe3dfcf133d27723d3c"
+    },
+    {
+      "id": "university-of-california-los-angeles-xiuyi-sherry-he",
+      "checked_at": "2026-10-08",
+      "hash": "a9d6fa19c5a4ba05c7fd5e4f1b91bf8729cbd8860f55f665f1a6891516aa2a33"
+    },
+    {
+      "id": "university-of-california-los-angeles-julia-levine",
+      "checked_at": "2026-10-08",
+      "hash": "64a3a67694b984976dc160ee9b77aacbf52a5604b73c89208546552cf072b356"
+    },
+    {
+      "id": "university-of-california-los-angeles-daniel-j-mirny",
+      "checked_at": "2026-10-08",
+      "hash": "8ef737e0da547fe73015d315d601873ffba499ea5d7d3eae41df0b42a236535d"
+    },
+    {
+      "id": "washington-university-in-st-louis-yanyi-leng",
+      "checked_at": "2026-10-08",
+      "hash": "5f81377dc4542c3d1391c524618a5fd2abeae8a411cf649fa2d33118466c033e"
+    },
+    {
+      "id": "washington-university-in-st-louis-guangying-chen",
+      "checked_at": "2026-10-08",
+      "hash": "26101c5dce18d372cb3defad9c6ddf696bca160e7771331f1a96bd9d6831d4d1"
+    },
+    {
+      "id": "washington-university-in-st-louis-chong-bo-zack-wang",
+      "checked_at": "2026-10-08",
+      "hash": "e16e7f0f712a85b1c168145e06e3b639f1cc6ed7dd29b787b15ab7e2c1637504"
+    },
+    {
+      "id": "washington-university-in-st-louis-luoyexin-annie-shi",
+      "checked_at": "2026-10-08",
+      "hash": "cf0aeee792c2203ac9b72e1fc3c8b165220e74affca27d14e75020faca17046d"
+    },
+    {
+      "id": "washington-university-in-st-louis-chengyao-sun",
+      "checked_at": "2026-10-08",
+      "hash": "12e0f2e2cef7e24f08613c29af449ff864c56185ccd849f651173abd0bf348fa"
+    },
+    {
+      "id": "washington-university-in-st-louis-donggwan-kim",
+      "checked_at": "2026-10-08",
+      "hash": "669006b67ccc00fde7d5480a22d3be663a489264faf6d93aee30fad558cfd3a6"
+    },
+    {
+      "id": "washington-university-in-st-louis-alexander-park",
+      "checked_at": "2026-10-08",
+      "hash": "f1857c6cbce472051f2b208546e15c282eceda1baad6f711b48774413192562c"
+    },
+    {
+      "id": "washington-university-in-st-louis-nan-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "4c431b2c0b701db7646a5c01dd1ed1457f864f424f1db22e9e7d039ee1b02c80"
+    },
+    {
+      "id": "york-university-rowan-el-bialy",
+      "checked_at": "2026-10-08",
+      "hash": "73124b71d9402f9329e7ed9e8e09f5e710ea9c7810a5a296c894a062738738b6"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-yuting-pang",
+      "checked_at": "2026-10-08",
+      "hash": "81a20317aee03b9eaabf1f8ad63ea82082216c9d151786d99fddeb0a4f50310b"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-menglu-dong",
+      "checked_at": "2026-10-08",
+      "hash": "3429c3916850091c81dc2a1ddb64d317178168bf10c2f49d48e817157e03349e"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-jie-wang",
+      "checked_at": "2026-10-08",
+      "hash": "ac3b59c14744ba308cb16f9ab21602b1b9add0f1d2be07e1ec5c6ffd2ab52f84"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-yi-gao",
+      "checked_at": "2026-10-08",
+      "hash": "8a6d4976ce605b869bfb0b9fbddf6d0ccaaa94727b1993ae43c492ff5de56d71"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-qianqian-liu",
+      "checked_at": "2026-10-08",
+      "hash": "3e1073aa323f561da42d6077ff6b2aa27696f5c00f30597e7af66580047cde7e"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-ce-liang",
+      "checked_at": "2026-10-08",
+      "hash": "15191eeb96a403c2fbba37ea84e39e55db657c74280710ae60177426cb1f6649"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-fei-xu",
+      "checked_at": "2026-10-08",
+      "hash": "16f5db6262d37819055d1dfdccddccab7ec8382baf97ceb4ede8c287033d0f12"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-danyang-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "1edad28c7c2fcbe208365b78eeeb55a0a50ed8ee0a02c671f4bb4b2321a360ab"
+    },
+    {
+      "id": "hong-kong-polytechnic-university-xueying-zhao",
+      "checked_at": "2026-10-08",
+      "hash": "19a3bb33c9ad6195856a353d9c32ca71299d74fbe3299ef8919cbd4dc39dbaae"
+    },
+    {
+      "id": "singapore-management-university-junqiu-jiang",
+      "checked_at": "2026-10-08",
+      "hash": "0535777f30d7d3266a70b79b53423f1cdf5a029f21c7ea880734aa4bd181ecf1"
+    },
+    {
+      "id": "texas-a-m-university-chi-zhang",
+      "checked_at": "2026-10-08",
+      "hash": "a42ade71f4abd82339ccbb5c0c706432018bf08ab615e4e70fb815f0146bb304"
+    },
+    {
+      "id": "texas-a-m-university-soo-hyung-ralph-park",
+      "checked_at": "2026-10-08",
+      "hash": "8475212765cf69d62c1ff866c19bb50d7e87f2a097f99fa94ac1d1e57f45a65e"
+    },
+    {
+      "id": "texas-a-m-university-taotao-ye",
+      "checked_at": "2026-10-08",
+      "hash": "db80b143a11b88eea14ab66d90f9e9331d88e85de5e6f60befe24809e8b6d3d2"
+    },
+    {
+      "id": "university-of-arizona-christoph-hueller",
+      "checked_at": "2026-10-08",
+      "hash": "66513c82f7d434327b7df665ed8c8e866d9ab22e20f1ae6a5e2ac63bb195e358"
+    },
+    {
+      "id": "university-of-arizona-arash-roghani",
+      "checked_at": "2026-10-08",
+      "hash": "da211dc959f935c54503cc5c1bcfb2f61ddff8ead00f8af8fe08593d6ed16379"
+    },
+    {
+      "id": "university-of-arizona-pureum-kim",
+      "checked_at": "2026-10-08",
+      "hash": "f3ffdb77f2c4949fdceb42a1a1ae0c633529ea030036c258824ee40d7eeef07a"
+    },
+    {
+      "id": "university-of-arizona-ashok-kaliyamurthy",
+      "checked_at": "2026-10-08",
+      "hash": "4c2aac9b4b33eb8cef679127eb3495b82aea0996374dee58c37e142ae1857e52"
+    },
+    {
+      "id": "university-of-minnesota-han-young-jung",
+      "checked_at": "2026-10-08",
+      "hash": "63e4193e84db6e91b6639f14971c48df45109a499f19a430c4c85850f5be785a"
+    },
+    {
+      "id": "university-of-minnesota-mayank-anand",
+      "checked_at": "2026-10-08",
+      "hash": "9cb1424fd1084d9a15b1df46319d87cd894f57edb10f2b2f6f6da2f8dd6b1b28"
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-rahul-suhag",
+      "checked_at": "2026-10-08",
+      "hash": "c59208893d49a94f27b5ad623ead8caed5a3dc2fcf3d687195fc2bc0ee14059c"
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-fahmi-emerson-grey",
+      "checked_at": "2026-10-08",
+      "hash": "8dc5b8dd42c238cd7224f99baafa317b36edf89ef91f68a28e831d3909f83746"
+    },
+    {
+      "id": "university-of-houston-tsung-yiou-hsieh",
+      "checked_at": "2026-10-08",
+      "hash": "67981d2d02623b230575a879e3238a899276b8776195d10536f5c2a17357887a"
+    },
+    {
+      "id": "rochester-kang-huang",
+      "checked_at": "2026-10-15",
+      "hash": "cbc05db242584b90dc9a20daaad78de3682481672bbb81211a199002238d7ea2"
+    },
+    {
+      "id": "stanford-abigail-bergman",
+      "checked_at": "2026-10-15",
+      "hash": "8d1990954cc63050b22560c2d97c6cab8bc90f33c8a04565d87d10aac6846edd"
+    },
+    {
+      "id": "stanford-samuel-pertl",
+      "checked_at": "2026-10-15",
+      "hash": "753b2a72a6898ef07247a6a0f1c0c1e1939e9748d453f58750118a4864bcc5f5"
+    },
+    {
+      "id": "south-carolina-zhenyu-jin",
+      "checked_at": "2026-10-15",
+      "hash": "8df32d560389851c510fdf4facfe52c45e44bc1b983c042e1a30ceb865a03dcc"
+    },
+    {
+      "id": "carnegie-mellon-angela-ziyan-xiao",
+      "checked_at": "2026-10-15",
+      "hash": "ff17e6d50b0ad8517311f791c7a237aecba69fed0f4f9a80cf484d73b7a1be10"
+    },
+    {
+      "id": "carnegie-mellon-xiaohang-flora-feng",
+      "checked_at": "2026-10-15",
+      "hash": "28767d2fb4a2e040c3099553f7139a4553723ab23af0b07d462853e4b9587c54"
+    },
+    {
+      "id": "carnegie-mellon-behnam-mohammadi",
+      "checked_at": "2026-10-15",
+      "hash": "50791c34a7274b60f8ce2871ea9620d4b1f4ae5122a27f8a0b4fe77e263a4fd6"
+    },
+    {
+      "id": "cuhk-nan-iris-xue",
+      "checked_at": "2026-10-15",
+      "hash": "2b60ff94d0509a5e82ad7331ac51d579e5ffe78829051f0674bb1051e42e0d06"
+    },
+    {
+      "id": "cityu-chenfeng-yan",
+      "checked_at": "2026-10-15",
+      "hash": "3fc1c87fd323a479e59a958fb043206dd81622dcb18e0057139aff6134a87d30"
+    },
+    {
+      "id": "northwestern-gaoyang-cai",
+      "checked_at": "2026-10-16",
+      "hash": "fc7b2c8e08c3319cc4b6da81cb3654568d7564b6bd921b2c5d69ba7b9bab7bb2"
+    },
+    {
+      "id": "yale-zikun-liu",
+      "checked_at": "2026-10-16",
+      "hash": "01ca83180df3b8d0790ff3a39281e0f67c67dbb1be03c8100136abe87928c15c"
+    },
+    {
+      "id": "michigan-yu-song",
+      "checked_at": "2026-10-16",
+      "hash": "114617155fac24d8560224c3ff3c28a5f737e9b87758fdf325efed9c6426b565"
+    },
+    {
+      "id": "yale-jin-kim",
+      "checked_at": "2026-10-16",
+      "hash": "b051f334753402cc00440927d10d2d9f118eb482986718a7406e3a1c4774f5f5"
+    }
+  ]
+}

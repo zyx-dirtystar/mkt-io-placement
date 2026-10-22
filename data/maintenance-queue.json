@@ -1,0 +1,20 @@
+[
+  {
+    "id": "source-df3e04c879df",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://acr.memberclicks.net/assets/Proceedings/Volume%2051%20-%20complete%20book.pdf",
+    "checked_at": "2026-10-22T07:16:26.236Z",
+    "reason": "Content exceeds 8388608 bytes",
+    "change": null
+  },
+  {
+    "id": "source-f7f514bf5672",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://annual-report.insead.edu/sites/annual-report/files/2024-03/INSEAD%20Annual%20Report%202023_0.pdf",
+    "checked_at": "2026-10-22T07:16:26.236Z",
+    "reason": "HTTP 403",
+    "change": null
+  }
+]

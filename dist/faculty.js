@@ -1,4 +1,4 @@
-import {csvCell} from './core.js?v=0.8.0';
+import {csvCell} from './core.js?v=1.0.0';
 
 export const GRAD_GROUPS={recent:'近四年博士',historical:'历史教师',newer:'较新博士年份',unknown:'博士年份待核验'};
 export const ORIGIN_GROUPS={target:'目标 58 项目',extension:'四地区扩展项目',outside:'博士来源范围外',unknown:'博士来源待核验'};

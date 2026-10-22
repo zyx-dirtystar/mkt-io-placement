@@ -1,6 +1,7 @@
 {
-  "version": "0.8.0 · 海外教师反查",
-  "updated_at": "2026-10-16",
+  "version": "1.0.0 · 可追溯市场观察平台",
+  "updated_at": "2026-10-22",
+  "observation_as_of": "2026-10-22",
   "current_cycle": "2026-2027",
   "history_years": [
     2023,
@@ -8,7 +9,7 @@
     2025,
     2026
   ],
-  "change_note": "优先海外教师名录反查：新增 4 人、补充 2 人，共 308 人。新增独立教师档案 10 份，关联 7 位 placement 人员；较早毕业者保留历史标签，现职不自动改写首职。内地反查范围缩为点名的 9 校，海外沿用北美 50、港五、新加坡三所为首轮清单。已启动 3 校局部核验，尚非整系完整名单。",
+  "change_note": "新增项目对比、人才流向、招聘市场与数据质量页面；统一研究词表、职业事件与字段级证据；独立 IO 覆盖范围和 15 个历史名单单元复核；新增来源变化队列、批次保护与自动质量报告。具体新增、修订、完整性和缺失变化由数据质量页动态计算；资料不足保留未知。",
   "exhaustive": false,
   "scope": {
     "id": "marketing-na50-hk5-sg3-2021-2025",
@@ -634,17 +635,31 @@
       "school": "University of British Columbia",
       "region": "CA",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://economics.ubc.ca/profile/kisho-hoshi-2/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-economics"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-economics"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "university-of-british-columbia-marketing",
@@ -727,17 +742,31 @@
       "school": "University of Toronto",
       "region": "CA",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://sites.google.com/view/victoraguirregabiriaswebsite/phd-supervision"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://sgs.calendar.utoronto.ca/economics-economics-phd"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 3
+      "record_count": 3,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://sgs.calendar.utoronto.ca/economics-economics-phd"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "university-of-toronto-marketing",
@@ -916,17 +945,31 @@
       "school": "Hong Kong University of Science and Technology",
       "region": "HK",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://yizhangwebsite.weebly.com/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://prog-crs.hkust.edu.hk/pgprog/2026-27/mphil-phd-econ"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://prog-crs.hkust.edu.hk/pgprog/2026-27/mphil-phd-econ"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "hong-kong-university-of-science-and-technology-marketing",
@@ -1013,17 +1056,31 @@
       "school": "National University of Singapore",
       "region": "SG",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://www.jingmancao.com/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://fass.nus.edu.sg/ecs/doctor-of-philosophy-economics/"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 2
+      "record_count": 2,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://fass.nus.edu.sg/ecs/doctor-of-philosophy-economics/"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "national-university-of-singapore-marketing",
@@ -1114,17 +1171,31 @@
       "school": "Boston College",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://www.scottkom.com/teaching/students/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://www.bc.edu/content/bc-web/schools/morrissey/departments/economics/graduate.html"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://www.bc.edu/content/bc-web/schools/morrissey/departments/economics/graduate.html"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "boston-university-marketing",
@@ -1282,17 +1353,31 @@
       "school": "Duke University",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://econ.duke.edu/phd-program/prospective-students/placements"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://econ.duke.edu/phd-program"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 3
+      "record_count": 3,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://econ.duke.edu/phd-program"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "duke-university-marketing",
@@ -1434,17 +1519,31 @@
       "school": "Georgetown University",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://econ.georgetown.edu/academics/phd/phd-students/current-job-market-candidates/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://econ.georgetown.edu/academics/phd/"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 2
+      "record_count": 2,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://econ.georgetown.edu/academics/phd/"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "georgia-institute-of-technology-marketing",
@@ -1502,17 +1601,31 @@
       "school": "Harvard University",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://www.hbs.edu/doctoral/placement/business-economics"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://www.hbs.edu/doctoral/phd-programs/business-economics"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Business Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://www.hbs.edu/doctoral/phd-programs/business-economics"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "harvard-university-marketing",
@@ -1654,17 +1767,31 @@
       "school": "Massachusetts Institute of Technology",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://adamharris380.github.io/files/CV-Adam-Harris-Jun2025.pdf"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://economics.mit.edu/academic-programs/phd-program"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 4
+      "record_count": 4,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://economics.mit.edu/academic-programs/phd-program"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "massachusetts-institute-of-technology-marketing",
@@ -1789,17 +1916,31 @@
       "school": "Northwestern University",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://maxpienkny.github.io/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://economics.northwestern.edu/graduate/"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://economics.northwestern.edu/graduate/"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "northwestern-university-marketing",
@@ -1907,17 +2048,31 @@
       "school": "Princeton University",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://economics.princeton.edu/graduate-program/job-market-and-placements/statistics-on-past-placements/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://economics.princeton.edu/graduate-program/"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://economics.princeton.edu/graduate-program/"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "purdue-university-marketing",
@@ -1992,17 +2147,31 @@
       "school": "Stanford University",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://economics.stanford.edu/graduate/student-placement?page=%2C%2C1"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://economics.stanford.edu/graduate/graduate-degree-programs/doctoral-program"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 6
+      "record_count": 6,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://economics.stanford.edu/graduate/graduate-degree-programs/doctoral-program"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "stanford-university-marketing",
@@ -2228,17 +2397,31 @@
       "school": "University of California, Berkeley",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://econ.berkeley.edu/sites/default/files/2024-11/FINAL%20Roster%2010.31.24.pdf"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://econ.berkeley.edu/graduate/program"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://econ.berkeley.edu/graduate/program"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "university-of-california-berkeley-marketing",
@@ -2371,17 +2554,31 @@
       "school": "University of Chicago",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://chanwoolkim.github.io/"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://economics.uchicago.edu/phd-program"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://economics.uchicago.edu/phd-program"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "university-of-chicago-marketing",
@@ -2666,12 +2863,21 @@
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://www.rhsmith.umd.edu/programs/phd/academics/areas-specialization/marketing-mkt"
+        },
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "label": "官方项目资格核验"
         }
       ],
-      "checked_at": "2026-10-08",
-      "notes": "官方确认 Marketing 博士；该页十年校友现职不分年，校级公开毕业名单停在 2022。不能据此认定 2023–26 没有毕业生。",
+      "checked_at": "2026-10-22",
+      "notes": "已复查Marketing博士项目及校级career页：公开逐年placement仍止于2022，Marketing校友页未给近年逐届实名表；不能把2023–26设为零。",
       "target_scope": true,
-      "record_count": 0
+      "record_count": 0,
+      "qualification_review": {
+        "checked_at": "2026-10-22",
+        "status": "public_catalog_reviewed",
+        "notes": "已复查Marketing博士项目及校级career页：公开逐年placement仍止于2022，Marketing校友页未给近年逐届实名表；不能把2023–26设为零。"
+      }
     },
     {
       "id": "university-of-massachusetts-amherst-marketing",
@@ -3457,17 +3663,31 @@
       "school": "Yale University",
       "region": "US",
       "kind": "economics",
-      "eligibility": "pending",
+      "eligibility": "verified",
       "sources": [
         {
           "label": "官方项目或既有人员来源",
           "url": "https://economics.yale.edu/news/260519/yale-economics-celebrates-phd-class-2026"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://economics.yale.edu/phd-program"
         }
       ],
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "notes": "项目存在与年度名单完整性分别核验。",
       "target_scope": false,
-      "record_count": 4
+      "record_count": 4,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://economics.yale.edu/phd-program"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     },
     {
       "id": "yale-university-marketing",
@@ -3508,12 +3728,25 @@
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/"
+        },
+        {
+          "url": "https://carey.jhu.edu/programs/dual-degrees/phd-mba",
+          "label": "官方项目资格核验"
+        },
+        {
+          "url": "https://carey.jhu.edu/admissions",
+          "label": "官方项目资格核验"
         }
       ],
-      "checked_at": "2026-10-08",
-      "notes": "当前 Carey 学位目录未识别到独立 Marketing 博士；联合 PhD/MBA 不能当作 Marketing PhD。保留研究排名学校身份，不纳入已确认培养项目分母。",
+      "checked_at": "2026-10-22",
+      "notes": "Carey当前学位目录未识别独立Marketing PhD；PhD/MBA联合项目的博士部分来自公共卫生，不能据此确认Marketing PhD。",
       "target_scope": true,
-      "record_count": 0
+      "record_count": 0,
+      "qualification_review": {
+        "checked_at": "2026-10-22",
+        "status": "public_catalog_reviewed",
+        "notes": "Carey当前学位目录未识别独立Marketing PhD；PhD/MBA联合项目的博士部分来自公共卫生，不能据此确认Marketing PhD。"
+      }
     },
     {
       "id": "university-of-notre-dame-marketing",
@@ -3529,12 +3762,21 @@
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://mendoza.nd.edu/graduate-programs/"
+        },
+        {
+          "url": "https://mendoza.nd.edu/research-faculty/academic-departments/phd-management-organization/",
+          "label": "官方项目资格核验"
         }
       ],
-      "checked_at": "2026-10-08",
-      "notes": "当前 Mendoza 目录列 Analytics 与 Management 博士，未识别到 Marketing 博士。研究产出前 50 不代表有该博士项目。",
+      "checked_at": "2026-10-22",
+      "notes": "复查Mendoza官方Management & Organization博士页；该项目不能自动等同Marketing PhD，当前未识别到Marketing培养项目。",
       "target_scope": true,
-      "record_count": 0
+      "record_count": 0,
+      "qualification_review": {
+        "checked_at": "2026-10-22",
+        "status": "public_catalog_reviewed",
+        "notes": "复查Mendoza官方Management & Organization博士页；该项目不能自动等同Marketing PhD，当前未识别到Marketing培养项目。"
+      }
     },
     {
       "id": "dartmouth-college-marketing",
@@ -3550,12 +3792,21 @@
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://tuck.dartmouth.edu/mba/academic-experience/joint-and-dual-degrees"
+        },
+        {
+          "url": "https://tuck.dartmouth.edu/mba/academic-experience/academic-faqs",
+          "label": "官方项目资格核验"
         }
       ],
-      "checked_at": "2026-10-08",
-      "notes": "当前 Tuck 学位页面未识别到 Marketing 博士；与 Dartmouth 博士联合的 MBA 不等同于 Marketing PhD。保留排名位置。",
+      "checked_at": "2026-10-22",
+      "notes": "Tuck官方MBA academic FAQ明确Tuck不提供PhD、仅提供MBA；这是Tuck项目范围的明确否定，不扩展成Dartmouth全校没有博士。Marketing培养项目仍不纳入已验证分母。",
       "target_scope": true,
-      "record_count": 0
+      "record_count": 0,
+      "qualification_review": {
+        "checked_at": "2026-10-22",
+        "status": "no_tuck_phd",
+        "notes": "Tuck官方MBA academic FAQ明确Tuck不提供PhD、仅提供MBA；这是Tuck项目范围的明确否定，不扩展成Dartmouth全校没有博士。Marketing培养项目仍不纳入已验证分母。"
+      }
     },
     {
       "id": "georgetown-university-marketing",
@@ -3571,12 +3822,25 @@
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://bulletin.georgetown.edu/programs/"
+        },
+        {
+          "url": "https://msb.georgetown.edu/graduate/",
+          "label": "官方项目资格核验"
+        },
+        {
+          "url": "https://internationalservices.georgetown.edu/fall-start-graduate-programs/",
+          "label": "官方项目资格核验"
         }
       ],
-      "checked_at": "2026-10-08",
-      "notes": "检索当前官方学位目录和 McDonough Marketing 页面，未识别到 Marketing 博士。保留排名学校，资格不足不能写成 0 毕业生。",
+      "checked_at": "2026-10-22",
+      "notes": "检索McDonough官方研究生目录和全校国际服务研究生项目表，未识别Marketing PhD；McDonough目录直接访问受限，维持资格待确认。",
       "target_scope": true,
-      "record_count": 0
+      "record_count": 0,
+      "qualification_review": {
+        "checked_at": "2026-10-22",
+        "status": "public_catalog_reviewed",
+        "notes": "检索McDonough官方研究生目录和全校国际服务研究生项目表，未识别Marketing PhD；McDonough目录直接访问受限，维持资格待确认。"
+      }
     },
     {
       "id": "boston-college-marketing",
@@ -3594,10 +3858,15 @@
           "url": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs.html"
         }
       ],
-      "checked_at": "2026-10-08",
-      "notes": "当前 Carroll PhD 项目列 Accounting、Finance、Organization Studies，未识别到 Marketing 博士。保留排名位置，不用第 51 名替换。",
+      "checked_at": "2026-10-22",
+      "notes": "Carroll官方PhD目录列Accounting、Finance、Organization Studies，未识别到Marketing博士；不把项目未确认转为零毕业生。",
       "target_scope": true,
-      "record_count": 0
+      "record_count": 0,
+      "qualification_review": {
+        "checked_at": "2026-10-22",
+        "status": "public_catalog_reviewed",
+        "notes": "Carroll官方PhD目录列Accounting、Finance、Organization Studies，未识别到Marketing博士；不把项目未确认转为零毕业生。"
+      }
     },
     {
       "id": "rice-university-marketing",
@@ -3615,10 +3884,15 @@
           "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/"
         }
       ],
-      "checked_at": "2026-10-08",
-      "notes": "2026–27 官方目录列 Marketing PhD concentration；当前招生页未列此方向，不能推断近四年没有毕业生。近年实名全名册待补。",
+      "checked_at": "2026-10-22",
+      "notes": "2026–27官方目录明确Business PhD的Marketing concentration；检索官方博士页面和近年毕业线索仍未获得2023–25 Marketing实名全名册。Rice新聘教师的培养机构不能误记为Rice。",
       "target_scope": true,
-      "record_count": 0
+      "record_count": 0,
+      "qualification_review": {
+        "checked_at": "2026-10-22",
+        "status": "public_catalog_reviewed",
+        "notes": "2026–27官方目录明确Business PhD的Marketing concentration；检索官方博士页面和近年毕业线索仍未获得2023–25 Marketing实名全名册。Rice新聘教师的培养机构不能误记为Rice。"
+      }
     },
     {
       "id": "northwestern-university-managerial-economics-and-strategy",
@@ -3630,12 +3904,107 @@
         {
           "label": "本人 CV：Kellogg MES 博士 2026",
           "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Gaoyang-Cai.pdf"
+        },
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://www.kellogg.northwestern.edu/doctoral/programs/managerialeconomicsstrategy/"
         }
       ],
-      "checked_at": "2026-10-16",
+      "checked_at": "2026-10-22",
       "notes": "MES 与 Economics、Marketing 分开；IO 扩展项目，不进入 Marketing 目标 58 项目。",
       "target_scope": false,
-      "record_count": 1
+      "record_count": 1,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Managerial Economics & Strategy",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://www.kellogg.northwestern.edu/doctoral/programs/managerialeconomicsstrategy/"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
+    },
+    {
+      "id": "chinese-university-of-hong-kong-economics",
+      "school": "Chinese University of Hong Kong",
+      "region": "HK",
+      "kind": "economics",
+      "eligibility": "verified",
+      "sources": [
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://admission.econ.cuhk.edu.hk/pg/phd-economics/"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "notes": "本轮官方项目目录发现的Economics博士项目；尚未逐年收齐IO子集名单。",
+      "target_scope": false,
+      "record_count": 0,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://admission.econ.cuhk.edu.hk/pg/phd-economics/"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
+    },
+    {
+      "id": "singapore-management-university-economics",
+      "school": "Singapore Management University",
+      "region": "SG",
+      "kind": "economics",
+      "eligibility": "verified",
+      "sources": [
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://economics.smu.edu.sg/phd-economics"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "notes": "本轮官方项目目录发现的Economics博士项目；尚未逐年收齐IO子集名单。",
+      "target_scope": false,
+      "record_count": 0,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://economics.smu.edu.sg/phd-economics"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
+    },
+    {
+      "id": "university-of-hong-kong-economics",
+      "school": "University of Hong Kong",
+      "region": "HK",
+      "kind": "economics",
+      "eligibility": "verified",
+      "sources": [
+        {
+          "label": "2026-10-22官方博士项目资格复核",
+          "url": "https://www.econ.hku.hk/phd/admissions/admission-application-and-tuition-fee"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "notes": "本轮官方项目目录发现的Economics博士项目；尚未逐年收齐IO子集名单。",
+      "target_scope": false,
+      "record_count": 0,
+      "io_scope": "economics-io-four-regions-2026-10-22",
+      "degree_name": "PhD in Economics",
+      "eligibility_evidence": {
+        "source_urls": [
+          "https://www.econ.hku.hk/phd/admissions/admission-application-and-tuition-fee"
+        ],
+        "checked_at": "2026-10-22",
+        "status": "verified_current_program",
+        "notes": "只确认当前官方博士项目存在；不证明各历史年度完整，也不将所有Economics学生自动标为IO。"
+      }
     }
   ],
   "coverage": [
@@ -7789,14 +8158,34 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+        },
+        {
+          "url": "https://knowledge.uchicago.edu/records/7cqg4-nnh43",
+          "label": "Shweta Desiraju博士论文（2023-08，和2024去向表年份不同）"
+        },
+        {
+          "url": "https://knowledge.uchicago.edu/records/gn2kn-13550",
+          "label": "Yuxiao Li博士论文（2024-08）"
+        },
+        {
+          "url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf",
+          "label": "Daniel Katz本人CV：2024博士与任职"
         }
       ],
-      "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+      "notes": "2026-10-22复核：官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。"
+      }
     },
     {
       "program_id": "university-of-chicago-marketing",
@@ -7812,14 +8201,34 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+        },
+        {
+          "url": "https://knowledge.uchicago.edu/records/7cqg4-nnh43",
+          "label": "Shweta Desiraju博士论文（2023-08，和2024去向表年份不同）"
+        },
+        {
+          "url": "https://knowledge.uchicago.edu/records/gn2kn-13550",
+          "label": "Yuxiao Li博士论文（2024-08）"
+        },
+        {
+          "url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf",
+          "label": "Daniel Katz本人CV：2024博士与任职"
         }
       ],
-      "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+      "notes": "2026-10-22复核：官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。"
+      }
     },
     {
       "program_id": "university-of-chicago-marketing",
@@ -7832,14 +8241,34 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+        },
+        {
+          "url": "https://knowledge.uchicago.edu/records/7cqg4-nnh43",
+          "label": "Shweta Desiraju博士论文（2023-08，和2024去向表年份不同）"
+        },
+        {
+          "url": "https://knowledge.uchicago.edu/records/gn2kn-13550",
+          "label": "Yuxiao Li博士论文（2024-08）"
+        },
+        {
+          "url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf",
+          "label": "Daniel Katz本人CV：2024博士与任职"
         }
       ],
-      "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+      "notes": "2026-10-22复核：官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。"
+      }
     },
     {
       "program_id": "university-of-chicago-marketing",
@@ -8713,14 +9142,18 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://www.rhsmith.umd.edu/programs/phd/academics/areas-specialization/marketing-mkt"
+        },
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "label": "官方项目资格核验"
         }
       ],
-      "notes": "官方确认 Marketing 博士；该页十年校友现职不分年，校级公开毕业名单停在 2022。不能据此认定 2023–26 没有毕业生。"
+      "notes": "已复查Marketing博士项目及校级career页：公开逐年placement仍止于2022，Marketing校友页未给近年逐届实名表；不能把2023–26设为零。"
     },
     {
       "program_id": "university-of-maryland-marketing",
@@ -8730,14 +9163,18 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://www.rhsmith.umd.edu/programs/phd/academics/areas-specialization/marketing-mkt"
+        },
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "label": "官方项目资格核验"
         }
       ],
-      "notes": "官方确认 Marketing 博士；该页十年校友现职不分年，校级公开毕业名单停在 2022。不能据此认定 2023–26 没有毕业生。"
+      "notes": "已复查Marketing博士项目及校级career页：公开逐年placement仍止于2022，Marketing校友页未给近年逐届实名表；不能把2023–26设为零。"
     },
     {
       "program_id": "university-of-maryland-marketing",
@@ -8747,14 +9184,18 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://www.rhsmith.umd.edu/programs/phd/academics/areas-specialization/marketing-mkt"
+        },
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "label": "官方项目资格核验"
         }
       ],
-      "notes": "官方确认 Marketing 博士；该页十年校友现职不分年，校级公开毕业名单停在 2022。不能据此认定 2023–26 没有毕业生。"
+      "notes": "已复查Marketing博士项目及校级career页：公开逐年placement仍止于2022，Marketing校友页未给近年逐届实名表；不能把2023–26设为零。"
     },
     {
       "program_id": "university-of-maryland-marketing",
@@ -8764,26 +9205,35 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://www.rhsmith.umd.edu/programs/phd/academics/areas-specialization/marketing-mkt"
+        },
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "label": "官方项目资格核验"
         }
       ],
-      "notes": "官方确认 Marketing 博士；该页十年校友现职不分年，校级公开毕业名单停在 2022。不能据此认定 2023–26 没有毕业生。"
+      "notes": "已复查Marketing博士项目及校级career页：公开逐年placement仍止于2022，Marketing校友页未给近年逐届实名表；不能把2023–26设为零。"
     },
     {
       "program_id": "university-of-maryland-marketing",
       "period": "2026-2027",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "label": "校级career页"
+        }
+      ],
+      "notes": "校级career页未标季节的候选人表当前未列Marketing；不能判定官方尚未发布或本季无人。"
     },
     {
       "program_id": "university-of-massachusetts-amherst-marketing",
@@ -9685,14 +10135,26 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方年度来源",
           "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf",
+          "label": "官方2022–23博士手册：在读身份交叉核验，非毕业生全名册"
         }
       ],
-      "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
+      "notes": "2026-10-22复核：官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。"
+      }
     },
     {
       "program_id": "university-of-pennsylvania-marketing",
@@ -9706,14 +10168,26 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方年度来源",
           "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf",
+          "label": "官方2022–23博士手册：在读身份交叉核验，非毕业生全名册"
         }
       ],
-      "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
+      "notes": "2026-10-22复核：官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。"
+      }
     },
     {
       "program_id": "university-of-pennsylvania-marketing",
@@ -9731,14 +10205,26 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方年度来源",
           "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf",
+          "label": "官方2022–23博士手册：在读身份交叉核验，非毕业生全名册"
         }
       ],
-      "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
+      "notes": "2026-10-22复核：官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。"
+      }
     },
     {
       "program_id": "university-of-pennsylvania-marketing",
@@ -12210,14 +12696,30 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+        },
+        {
+          "url": "https://www.mcgill.ca/desautels/siddhanth-mookerjee",
+          "label": "接收院校本人资料：Siddhanth PhD 2024，官方placement表列2023"
+        },
+        {
+          "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-business-administration-marketing-behavioural-science",
+          "label": "研究生院学位统计与项目目录（本轮直接读取超时）"
         }
       ],
-      "notes": "按官方表年份对齐；个别首职年与表中年份不同，个人详情保留 CV 纠正。"
+      "notes": "2026-10-22复核：官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。"
+      }
     },
     {
       "program_id": "university-of-british-columbia-marketing",
@@ -12227,14 +12729,30 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+        },
+        {
+          "url": "https://www.mcgill.ca/desautels/siddhanth-mookerjee",
+          "label": "接收院校本人资料：Siddhanth PhD 2024，官方placement表列2023"
+        },
+        {
+          "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-business-administration-marketing-behavioural-science",
+          "label": "研究生院学位统计与项目目录（本轮直接读取超时）"
         }
       ],
-      "notes": "所查来源没有该年份名单，不能解释为零毕业生；需另查年度存档与个人 CV。"
+      "notes": "2026-10-22复核：官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": false,
+        "independent_full_roster": false,
+        "reason": "官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。"
+      }
     },
     {
       "program_id": "university-of-british-columbia-marketing",
@@ -12246,14 +12764,30 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program"
+        },
+        {
+          "url": "https://www.mcgill.ca/desautels/siddhanth-mookerjee",
+          "label": "接收院校本人资料：Siddhanth PhD 2024，官方placement表列2023"
+        },
+        {
+          "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-business-administration-marketing-behavioural-science",
+          "label": "研究生院学位统计与项目目录（本轮直接读取超时）"
         }
       ],
-      "notes": "按官方表年份对齐；个别首职年与表中年份不同，个人详情保留 CV 纠正。"
+      "notes": "2026-10-22复核：官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。"
+      }
     },
     {
       "program_id": "university-of-british-columbia-marketing",
@@ -12797,14 +13331,34 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://grad.bschool.cuhk.edu.hk/programmes/marketing/"
+        },
+        {
+          "url": "https://grad.bschool.cuhk.edu.hk/students/",
+          "label": "官方当前学生目录，未给完整年度毕业/求职季身份"
+        },
+        {
+          "url": "https://gocuhk-my.sharepoint.com/:b:/g/personal/venuswong_cuhk_edu_hk1/IQC2vvUpyKHfQZ6otSZNFj_KARMwofM1WddiqLrSJYXz4fY?e=FEz9GW",
+          "label": "项目页PhD Placement链接（本轮跳转登录，无法读取）"
+        },
+        {
+          "url": "https://www.birmingham.ac.uk/staff/profiles/business/xue-nan",
+          "label": "接收院校本人档案：Nan Xue学位及任职2024"
         }
       ],
-      "notes": "官方 Marketing MPhil-PhD 项目含 QM 与 CB；可找到的旧 placement PDF 只到 2020，2023–26 实名全名册仍缺。"
+      "notes": "2026-10-22复核：项目页面、在读目录和接收院校个人资料均已查；项目页Placement链接跳转SharePoint登录，无法公开读取近年全名册。2024可核实Nan Xue一人，不证明全届；2023、2025人数未知。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": false,
+        "independent_full_roster": false,
+        "reason": "项目页面、在读目录和接收院校个人资料均已查；项目页Placement链接跳转SharePoint登录，无法公开读取近年全名册。2024可核实Nan Xue一人，不证明全届；2023、2025人数未知。"
+      }
     },
     {
       "program_id": "chinese-university-of-hong-kong-marketing",
@@ -12816,7 +13370,7 @@
       ],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-15",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
@@ -12829,9 +13383,25 @@
         {
           "label": "本轮逐人核验来源",
           "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/Lisa-Wan_Curriculum_Vitae_BA_2025_0814.pdf"
+        },
+        {
+          "url": "https://grad.bschool.cuhk.edu.hk/students/",
+          "label": "官方当前学生目录，未给完整年度毕业/求职季身份"
+        },
+        {
+          "url": "https://gocuhk-my.sharepoint.com/:b:/g/personal/venuswong_cuhk_edu_hk1/IQC2vvUpyKHfQZ6otSZNFj_KARMwofM1WddiqLrSJYXz4fY?e=FEz9GW",
+          "label": "项目页PhD Placement链接（本轮跳转登录，无法读取）"
         }
       ],
-      "notes": "官方 Marketing MPhil-PhD 项目含 QM 与 CB；可找到的旧 placement PDF 只到 2020，2023–26 实名全名册仍缺。"
+      "notes": "2026-10-22复核：项目页面、在读目录和接收院校个人资料均已查；项目页Placement链接跳转SharePoint登录，无法公开读取近年全名册。2024可核实Nan Xue一人，不证明全届；2023、2025人数未知。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": false,
+        "independent_full_roster": false,
+        "reason": "项目页面、在读目录和接收院校个人资料均已查；项目页Placement链接跳转SharePoint登录，无法公开读取近年全名册。2024可核实Nan Xue一人，不证明全届；2023、2025人数未知。"
+      }
     },
     {
       "program_id": "chinese-university-of-hong-kong-marketing",
@@ -12841,14 +13411,34 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://grad.bschool.cuhk.edu.hk/programmes/marketing/"
+        },
+        {
+          "url": "https://grad.bschool.cuhk.edu.hk/students/",
+          "label": "官方当前学生目录，未给完整年度毕业/求职季身份"
+        },
+        {
+          "url": "https://gocuhk-my.sharepoint.com/:b:/g/personal/venuswong_cuhk_edu_hk1/IQC2vvUpyKHfQZ6otSZNFj_KARMwofM1WddiqLrSJYXz4fY?e=FEz9GW",
+          "label": "项目页PhD Placement链接（本轮跳转登录，无法读取）"
+        },
+        {
+          "url": "https://www.birmingham.ac.uk/staff/profiles/business/xue-nan",
+          "label": "接收院校本人档案：Nan Xue学位及任职2024"
         }
       ],
-      "notes": "官方 Marketing MPhil-PhD 项目含 QM 与 CB；可找到的旧 placement PDF 只到 2020，2023–26 实名全名册仍缺。"
+      "notes": "2026-10-22复核：项目页面、在读目录和接收院校个人资料均已查；项目页Placement链接跳转SharePoint登录，无法公开读取近年全名册。2024可核实Nan Xue一人，不证明全届；2023、2025人数未知。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": false,
+        "independent_full_roster": false,
+        "reason": "项目页面、在读目录和接收院校个人资料均已查；项目页Placement链接跳转SharePoint登录，无法公开读取近年全名册。2024可核实Nan Xue一人，不证明全届；2023、2025人数未知。"
+      }
     },
     {
       "program_id": "chinese-university-of-hong-kong-marketing",
@@ -12870,14 +13460,19 @@
     {
       "program_id": "chinese-university-of-hong-kong-marketing",
       "period": "2026-2027",
-      "status": "not_started",
+      "status": "insufficient",
       "listed_count": null,
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": null,
-      "sources": [],
-      "notes": "尚未逐人核对该项目该年完整名册。"
+      "checked_at": "2026-10-22",
+      "sources": [
+        {
+          "url": "https://grad.bschool.cuhk.edu.hk/students/",
+          "label": "官方在读学生目录"
+        }
+      ],
+      "notes": "官方在读学生目录未明确本季求职身份，Placement文件需登录；不能把在读生批量标为2026–27候选人。"
     },
     {
       "program_id": "city-university-of-hong-kong-marketing",
@@ -13227,14 +13822,30 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+        },
+        {
+          "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+          "label": "接收院校Sijin Chen本人研究资料"
+        },
+        {
+          "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+          "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
         }
       ],
-      "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+      "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+      }
     },
     {
       "program_id": "national-university-of-singapore-marketing",
@@ -13247,14 +13858,30 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+        },
+        {
+          "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+          "label": "接收院校Sijin Chen本人研究资料"
+        },
+        {
+          "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+          "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
         }
       ],
-      "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+      "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+      }
     },
     {
       "program_id": "national-university-of-singapore-marketing",
@@ -13266,14 +13893,30 @@
       ],
       "year_basis": "source_table_year",
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "本批核对的官方名单",
           "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+        },
+        {
+          "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+          "label": "接收院校Sijin Chen本人研究资料"
+        },
+        {
+          "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+          "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
         }
       ],
-      "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+      "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+      "completeness_status": "unconfirmed",
+      "completeness_evidence": [],
+      "roster_audit": {
+        "checked_at": "2026-10-22",
+        "source_list_aligned": true,
+        "independent_full_roster": false,
+        "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+      }
     },
     {
       "program_id": "national-university-of-singapore-marketing",
@@ -14936,14 +15579,14 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/"
         }
       ],
-      "notes": "2026–27 官方目录列 Marketing PhD concentration；当前招生页未列此方向，不能推断近四年没有毕业生。近年实名全名册待补。"
+      "notes": "2026–27官方目录明确Business PhD的Marketing concentration；检索官方博士页面和近年毕业线索仍未获得2023–25 Marketing实名全名册。Rice新聘教师的培养机构不能误记为Rice。"
     },
     {
       "program_id": "rice-university-marketing",
@@ -14953,14 +15596,14 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/"
         }
       ],
-      "notes": "2026–27 官方目录列 Marketing PhD concentration；当前招生页未列此方向，不能推断近四年没有毕业生。近年实名全名册待补。"
+      "notes": "2026–27官方目录明确Business PhD的Marketing concentration；检索官方博士页面和近年毕业线索仍未获得2023–25 Marketing实名全名册。Rice新聘教师的培养机构不能误记为Rice。"
     },
     {
       "program_id": "rice-university-marketing",
@@ -14970,14 +15613,14 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/"
         }
       ],
-      "notes": "2026–27 官方目录列 Marketing PhD concentration；当前招生页未列此方向，不能推断近四年没有毕业生。近年实名全名册待补。"
+      "notes": "2026–27官方目录明确Business PhD的Marketing concentration；检索官方博士页面和近年毕业线索仍未获得2023–25 Marketing实名全名册。Rice新聘教师的培养机构不能误记为Rice。"
     },
     {
       "program_id": "rice-university-marketing",
@@ -14987,14 +15630,14 @@
       "record_ids": [],
       "year_basis": null,
       "cohort_complete": false,
-      "checked_at": "2026-10-08",
+      "checked_at": "2026-10-22",
       "sources": [
         {
           "label": "官方项目资格 / 名册核验",
           "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/"
         }
       ],
-      "notes": "2026–27 官方目录列 Marketing PhD concentration；当前招生页未列此方向，不能推断近四年没有毕业生。近年实名全名册待补。"
+      "notes": "2026–27官方目录明确Business PhD的Marketing concentration；检索官方博士页面和近年毕业线索仍未获得2023–25 Marketing实名全名册。Rice新聘教师的培养机构不能误记为Rice。"
     },
     {
       "program_id": "rice-university-marketing",
@@ -15037,7 +15680,7 @@
     }
   ],
   "faculty": {
-    "updated_at": "2026-10-16",
+    "updated_at": "2026-10-22",
     "receiving_scope": {
       "priority": [
         "US",
@@ -15140,6 +15783,42 @@
           }
         ],
         "notes": "本轮仅核实 1 份个人 CV，不代表整系覆盖。"
+      },
+      {
+        "host_id": "university-of-pennsylvania-marketing",
+        "status": "partial",
+        "checked_at": "2026-10-22",
+        "sources": [
+          {
+            "label": "本人2026-02 CV：2025博士、Wharton OID任职",
+            "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf"
+          },
+          {
+            "label": "Penn董事会2025-06-13任命决议第78页：首职日期与正式终身轨",
+            "url": "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+          }
+        ],
+        "notes": "本轮仅交叉核实Gal Smitizsky一份履历和官方任命资料；未穷尽该机构教师。院校host_id与实际任教院系分开保存。"
+      },
+      {
+        "host_id": "northwestern-university-marketing",
+        "status": "partial",
+        "checked_at": "2026-10-22",
+        "sources": [
+          {
+            "label": "Kellogg官方本人资料：Yale博后在前及行为决策研究",
+            "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/"
+          },
+          {
+            "label": "本人2026-05 CV：2024–26博后，2026起Kellogg任职",
+            "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031"
+          },
+          {
+            "label": "Kellogg 2026-09-29新教师公告：2026秋到岗",
+            "url": "https://www.kellogg.northwestern.edu/news/blog/2026/09/29/new-faculty"
+          }
+        ],
+        "notes": "本轮仅交叉核实Chengyao Sun一份履历和官方任命资料；未穷尽该机构教师。院校host_id与实际任教院系分开保存。"
       }
     ],
     "people": [
@@ -15662,6 +16341,98 @@
           {
             "label": "MIT 官方托管本人 CV：教育、任职、研究领域",
             "url": "https://mitsloan.mit.edu/shared/ods/documents?DocumentID=13942&doc=1"
+          }
+        ]
+      },
+      {
+        "id": "university-of-california-san-diego-gal-smitizsky",
+        "placement_id": "university-of-california-san-diego-gal-smitizsky",
+        "name": "Gal Smitizsky",
+        "aliases": [],
+        "host_id": "university-of-pennsylvania-marketing",
+        "current": {
+          "institution": "University of Pennsylvania, Wharton School",
+          "region": "US",
+          "department": "Operations, Information and Decisions",
+          "role": "Assistant Professor of Operations, Information and Decisions",
+          "start_year": 2025
+        },
+        "phd": {
+          "school": "University of California, San Diego",
+          "program": "PhD in Management · Marketing",
+          "program_id": "university-of-california-san-diego-marketing",
+          "region": "US",
+          "year": 2025
+        },
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Consumer Behavior"
+        ],
+        "homepage": null,
+        "cv_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf",
+        "research_inference": null,
+        "checked_at": "2026-10-22",
+        "notes": "接收院校官方托管CV与任命/新教师公告核验；只覆盖该人，非全系普查。此教师档案关联既有人，不额外增加placement计数。培养Marketing、任教OID，保留跨院系路径。",
+        "sources": [
+          {
+            "label": "本人2026-02 CV：2025博士、Wharton OID任职",
+            "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2025/06/GAL-SMITIZSKY_Feb2026.pdf"
+          },
+          {
+            "label": "Penn董事会2025-06-13任命决议第78页：首职日期与正式终身轨",
+            "url": "https://archives.upenn.edu/wp-content/uploads/2025/11/20250613tr.pdf"
+          }
+        ]
+      },
+      {
+        "id": "washington-university-in-st-louis-chengyao-sun",
+        "placement_id": "washington-university-in-st-louis-chengyao-sun",
+        "name": "Chengyao Sun",
+        "aliases": [],
+        "host_id": "northwestern-university-marketing",
+        "current": {
+          "institution": "Northwestern University, Kellogg School of Management",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2026
+        },
+        "phd": {
+          "school": "Washington University in St. Louis",
+          "program": "博士项目 · Marketing",
+          "program_id": "washington-university-in-st-louis-marketing",
+          "region": "US",
+          "year": 2024
+        },
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing",
+          "Consumer Behavior",
+          "Judgment and Decision Making"
+        ],
+        "homepage": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/",
+        "cv_url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031",
+        "research_inference": null,
+        "checked_at": "2026-10-22",
+        "notes": "接收院校官方托管CV与任命/新教师公告核验；只覆盖该人，非全系普查。此教师档案关联既有人，不额外增加placement计数。Yale 2024–26博后为首职，Kellogg2026为后续任职。",
+        "sources": [
+          {
+            "label": "Kellogg官方本人资料：Yale博后在前及行为决策研究",
+            "url": "https://www.kellogg.northwestern.edu/academics-research/faculty/sun-chengyao/"
+          },
+          {
+            "label": "本人2026-05 CV：2024–26博后，2026起Kellogg任职",
+            "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=13031"
+          },
+          {
+            "label": "Kellogg 2026-09-29新教师公告：2026秋到岗",
+            "url": "https://www.kellogg.northwestern.edu/news/blog/2026/09/29/new-faculty"
           }
         ]
       }
