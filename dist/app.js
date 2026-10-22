@@ -1,5 +1,5 @@
 import {mountObservatory,unmountObservatory,personTimelineMarkup,personClaimsMarkup} from './observatory-view.js?v=1.0.0';
-import {mountFaculty} from './faculty-view.js?v=1.0.0';
+import {mountFaculty} from './faculty-view.js?v=1.0.1';
 import {effectiveTracks,provisionalTracks,QUALITY_OPTIONS,TRACK_LABELS,regionalMatches,outcomeScenario} from './evidence.js?v=1.0.0';
 import {uncertaintyPanel,chinaPanel,regionalDetail,inferenceDetail} from './evidence-view.js?v=1.0.0';
 import {buildCsv} from './export.js?v=1.0.0';

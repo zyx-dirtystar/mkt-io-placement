@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
-import {graduationGroup,originGroup,receivingSchools,filterFaculty,facultyCsv} from '../dist/faculty.js';
+import {graduationGroup,originGroup,receivingSchools,receivingProgress,filterFaculty,facultyCsv} from '../dist/faculty.js';
 import {filterRecords} from '../dist/core.js';
 import {placementOf} from '../dist/placement.js';
 const catalog=JSON.parse(fs.readFileSync('dist/data/catalog.json','utf8'));
@@ -20,7 +20,11 @@ for(const p of people){
  for(const k of ['homepage','cv_url'])if(p[k])assert.ok(p.sources.some(s=>s.url===p[k]),p.id+' '+k+' provenance');
  if(p.placement_id){const r=records.find(r=>r.id===p.placement_id);assert.ok(r,p.id+' missing linked placement');assert.equal(r.school,p.phd.school);assert.equal(r.graduation_year||null,p.phd.year);}
 }
-for(const c of archive.receiving_checks){assert.ok(hosts.some(h=>h.id===c.host_id));assert.equal(c.status,'partial');assert.ok(c.checked_at&&c.sources.length);}
+for(const c of archive.receiving_checks){
+ assert.ok(hosts.some(h=>h.id===c.host_id));
+ assert.ok(['partial','complete','blocked','needs_review'].includes(c.status));assert.ok(c.checked_at&&c.sources.length);
+ if(c.status==='complete')assert.equal(receivingProgress({...catalog,faculty:{...archive,receiving_checks:[c]}}).find(h=>h.id===c.host_id).state,'complete','A complete department check requires explicit roster members, scope, date and quoted evidence');
+}
 const cao=people.find(p=>p.id==='faculty-xinyu-cao');
 assert.equal(cao.current.start_year,2023);
 assert.equal(graduationGroup(cao,[2023,2024,2025,2026]),'historical','A recent transfer must not create a recent graduate');
