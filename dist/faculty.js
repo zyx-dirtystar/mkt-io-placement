@@ -1,6 +1,6 @@
 import {csvCell} from './core.js?v=1.0.0';
 
-export const GRAD_GROUPS={recent:'近四年博士',historical:'历史教师',newer:'较新博士年份',unknown:'博士年份待核验'};
+export const GRAD_GROUPS={recent:'近四年博士',historical:'较早毕业博士',newer:'较新博士年份',unknown:'博士年份待核验'};
 export const ORIGIN_GROUPS={target:'目标 58 项目',extension:'四地区扩展项目',outside:'博士来源范围外',unknown:'博士来源待核验'};
 export function graduationGroup(person,years){
  const y=person.phd?.year;
@@ -20,6 +20,7 @@ export function receivingSchools(catalog){
 }
 export const CHECK_STATES={not_started:'尚未开始',partial:'名单 / 履历部分核验',complete:'官方目录已对齐',blocked:'资料受限',needs_review:'完整性待复核'};
 export const hasDatedCareer=p=>(p.career_events||[]).some(e=>e.institution&&(e.role||e.title)&&(e.start_date||e.end_date||Number.isInteger(e.start_year)||Number.isInteger(e.end_year)));
+export const facultyHasConflict=p=>(p.unknowns||[]).some(g=>/冲突|conflict|不一致|不同/.test(typeof g==='string'?g:g.reason||''))||(p.phd?.reported_years?.length||0)>1||(p.conflicts||[]).some(c=>c.status!=='resolved'&&!p.resolved_conflicts?.some(r=>r.field===c.field));
 // An individual profile never establishes the size or completeness of a department.
 export function receivingProgress(catalog){
  const people=[...new Map(catalog.faculty.people.map(p=>[p.id,p])).values()];
@@ -68,12 +69,15 @@ export function filterFaculty(people,filters,catalog){
   if(filters.gap==='role_year'&&Number.isInteger(p.current.start_year))return false;
   if(filters.gap==='unlinked'&&p.placement_id)return false;
   if(filters.gap==='linked'&&!p.placement_id)return false;
+  if(filters.gap==='conflict'&&!facultyHasConflict(p))return false;
+  if(filters.gap==='degree_added'&&!catalog.faculty_followup_update?.existing.degree_year_ids.includes(p.id))return false;
+  if(filters.gap==='career_added'&&!catalog.faculty_followup_update?.existing.dated_career_ids.includes(p.id))return false;
   const text=[p.name,...p.aliases,p.current.institution,p.current.role,p.phd?.school,p.phd?.program,...p.fields].join(' ').toLowerCase();
   return words.every(w=>text.includes(w));
  });
 }
 export function facultyCsv(people,catalog){
- const rows=[['姓名','公开别名','当前任职机构','当前任职地区','当前职位','当前职级开始年（非首职年）','博士院校','博士项目','博士毕业年','毕业年份分类','博士来源分类','研究方向','已关联 placement ID','个人主页','本人 CV','核验日期','备注','来源','教师类型','学位核验状态','到岗状态','履历片段（JSON）','具体缺口（JSON）','字段证据（JSON）','批次 ID','博士日期精度','其他学位（JSON）','本轮补查（JSON）']];
- for(const p of people)rows.push([p.name,p.aliases.join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],p.fields.join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,p.sources.map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||'见证据',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources),p.import_batch_id,p.phd?.date_precision||'year_or_unknown',JSON.stringify(p.additional_degrees||[]),JSON.stringify(p.backfill_review||null)]);
+ const rows=[['姓名','公开别名','当前任职机构','当前任职地区','当前职位','当前职级开始年（非首职年）','博士院校','博士项目','博士毕业年','毕业年份分类','博士来源分类','研究方向','已关联 placement ID','个人主页','本人 CV','核验日期','备注','来源','教师类型','学位核验状态','到岗状态','履历片段（JSON）','具体缺口（JSON）','字段证据（JSON）','批次 ID','博士日期精度','其他学位（JSON）','本轮补查（JSON）','博士年线索（未核定）']];
+ for(const p of people)rows.push([p.name,p.aliases.join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],p.fields.join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,p.sources.map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||p.phd?.status||'见证据',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources),p.import_batch_id,p.phd?.date_precision||'year_or_unknown',JSON.stringify(p.additional_degrees||[]),JSON.stringify({followup:p.followup_review||null,previous:p.backfill_review||null}),p.phd?.reported_year]);
  return '\uFEFF'+rows.map(r=>r.map(csvCell).join(',')).join('\r\n');
 }

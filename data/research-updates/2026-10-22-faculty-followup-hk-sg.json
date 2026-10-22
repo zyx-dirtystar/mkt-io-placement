@@ -1,0 +1,4895 @@
+{
+  "id": "faculty-followup-hk-sg-2026-10-22",
+  "schema_version": 1,
+  "checked_at": "2026-10-22",
+  "baseline_commit": "71504a3",
+  "selection_rule": "港新既有研究教师缺博士年或同CV可读任职者，优先HKU/HKUST/CityU；不处理已交亚洲批的六人和NUS纯adjunct，不消除Lee97/98冲突。",
+  "people": [
+    {
+      "name": "Jia Liu",
+      "aliases": [],
+      "host_id": "hong-kong-university-of-science-and-technology-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "Hong Kong University of Science and Technology",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": 2023,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Columbia University",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2017,
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://jialiu.people.ust.hk/JiaLiu_CV.pdf"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Online search",
+        "Advertising",
+        "Loyalty",
+        "Recommendations",
+        "User-generated content",
+        "Natural language processing",
+        "Bayesian methods",
+        "Causal inference",
+        "Structural models"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "http://jialiu.people.ust.hk/",
+      "cv_url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+      "sources": [
+        {
+          "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/jialiu",
+          "label": "官方 Marketing 教师资料",
+          "quote": "Associate Professor",
+          "supports": [
+            "current",
+            "phd.school",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "http://jialiu.people.ust.hk/",
+          "label": "官方个人页所链资料；链接登记不代表内容可读",
+          "checked_at": "2026-10-22",
+          "access_status": "link_recorded"
+        },
+        {
+          "url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "Columbia University, New York, NY Ph.D. in Marketing, 2017 (Advisor: Olivier Toubia)",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        },
+        {
+          "url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Hong Kong University of Science & Technology, HK School of Business and Management Lee Heng Fellow , July 2025 - present Associate Professor , Marketing, July 2023 - present",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Hong Kong University of Science & Technology, HK School of Business and Management Lee Heng Fellow , July 2025 - present Associate Professor , Marketing, July 2023 - present Assistant Professor , Marketing, Aug. 2018 - June 2023",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Microsoft Research, New York, NY Postdoctoral Researcher , mentored by Duncan Watts, Aug. 2017 - June 2018",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Meta (previously Facebook), New York, NY Academic Collaborator , Core Data Science Team, Dec. 2021 - Dec. 2023",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2023,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://jialiu.people.ust.hk/JiaLiu_CV.pdf"
+          ],
+          "quote": "Hong Kong University of Science & Technology, HK School of Business and Management Lee Heng Fellow , July 2025 - present Associate Professor , Marketing, July 2023 - present",
+          "checked_at": "2026-10-22",
+          "start_date": "2023-07"
+        },
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2018,
+          "end_year": 2023,
+          "date_precision": "month",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://jialiu.people.ust.hk/JiaLiu_CV.pdf"
+          ],
+          "quote": "Hong Kong University of Science & Technology, HK School of Business and Management Lee Heng Fellow , July 2025 - present Associate Professor , Marketing, July 2023 - present Assistant Professor , Marketing, Aug. 2018 - June 2023",
+          "checked_at": "2026-10-22",
+          "start_date": "2018-08",
+          "end_date": "2023-06"
+        },
+        {
+          "type": "postdoc",
+          "institution": "Microsoft Research",
+          "role": "Postdoctoral Researcher",
+          "start_year": 2017,
+          "end_year": 2018,
+          "date_precision": "month",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://jialiu.people.ust.hk/JiaLiu_CV.pdf"
+          ],
+          "quote": "Microsoft Research, New York, NY Postdoctoral Researcher , mentored by Duncan Watts, Aug. 2017 - June 2018",
+          "checked_at": "2026-10-22",
+          "job_kind": "industry",
+          "start_date": "2017-08",
+          "end_date": "2018-06"
+        },
+        {
+          "type": "industry",
+          "institution": "Meta",
+          "role": "Academic Collaborator, Core Data Science Team",
+          "start_year": 2021,
+          "end_year": 2023,
+          "date_precision": "month",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://jialiu.people.ust.hk/JiaLiu_CV.pdf"
+          ],
+          "quote": "Meta (previously Facebook), New York, NY Academic Collaborator , Core Data Science Team, Dec. 2021 - Dec. 2023",
+          "checked_at": "2026-10-22",
+          "job_kind": "industry",
+          "start_date": "2021-12",
+          "end_date": "2023-12"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-hong-kong-university-of-science-and-technology-jialiu",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "http://jialiu.people.ust.hk/",
+          "https://mark.hkust.edu.hk/faculty-and-staff/directory/jialiu"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "部门官方资料仅列PhD Columbia University，未显示学位专业、年份及完整任职起点；未将论文PDF误作CV。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批独立官方学位来源已补博士年2017；旧访问障碍及资料本身不含年份的观察保留历史，职业序列完整性另列。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士学位专业未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "已由本批官方或本人CV明确博士专业；未从现任院系倒填。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批任职原文已明确当前职级开始年2023；来源和入职/晋升区别保留。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+          "sha256": "225d9bdc023fb5be757529f41931ef6efc521a1d39e3e701b70353518eaa014d",
+          "pages_read": 4,
+          "total_pages": 13,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Sang Kyu Park",
+      "aliases": [],
+      "host_id": "hong-kong-university-of-science-and-technology-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "Hong Kong University of Science and Technology",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": 2021,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of Florida",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2021,
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://drive.google.com/uc?export=download&id=1Osf1s4YkaISAlxc45PBu_sAHkO1WbAVS"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Decision confidence",
+        "Inference making",
+        "Online consumer behavior",
+        "New technology",
+        "Time and money perception"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://sites.google.com/view/sang-kyu-park/home",
+      "cv_url": "https://drive.google.com/uc?export=download&id=1Osf1s4YkaISAlxc45PBu_sAHkO1WbAVS",
+      "sources": [
+        {
+          "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/sangkyupark",
+          "label": "官方 Marketing 教师资料",
+          "quote": "Assistant Professor",
+          "supports": [
+            "current",
+            "phd.school",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://sites.google.com/view/sang-kyu-park/home",
+          "label": "官方个人页所链资料；链接登记不代表内容可读",
+          "checked_at": "2026-10-22",
+          "access_status": "link_recorded"
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1Osf1s4YkaISAlxc45PBu_sAHkO1WbAVS",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "University of Florida, 2021 Ph.D., Marketing (GPA 3.9 / 4.0)",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1Osf1s4YkaISAlxc45PBu_sAHkO1WbAVS",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "The Hong Kong University of Science and Technology, 2021 - present Assistant Professor of Marketing",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2021,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://drive.google.com/uc?export=download&id=1Osf1s4YkaISAlxc45PBu_sAHkO1WbAVS"
+          ],
+          "quote": "The Hong Kong University of Science and Technology, 2021 - present Assistant Professor of Marketing",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-hong-kong-university-of-science-and-technology-sangkyupark",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://sites.google.com/view/sang-kyu-park/home",
+          "https://mark.hkust.edu.hk/faculty-and-staff/directory/sangkyupark"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "部门页面仅列PhD Florida，未显示博士专业/年份及完整任职起点。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批独立官方学位来源已补博士年2021；旧访问障碍及资料本身不含年份的观察保留历史，职业序列完整性另列。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士学位专业未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "已由本批官方或本人CV明确博士专业；未从现任院系倒填。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批任职原文已明确当前职级开始年2021；来源和入职/晋升区别保留。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://drive.google.com/uc?export=download&id=1Osf1s4YkaISAlxc45PBu_sAHkO1WbAVS",
+          "sha256": "6e7fda046a92ec718d04f7cc9e47e0dec952b17d8123d65194b591318354a084",
+          "pages_read": 4,
+          "total_pages": 6,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Jiajia Cong",
+      "aliases": [],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": 2024,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of Hong Kong",
+        "program": "Strategy",
+        "region": "HK",
+        "year": 2018,
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO"
+        ]
+      },
+      "tracks": [
+        "marketing",
+        "qm",
+        "io"
+      ],
+      "fields": [
+        "Quantitative marketing",
+        "Industrial organization"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/jiajcong/",
+      "cv_url": "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO",
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/jiajcong/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "PhD - Strategy (The University of Hong Kong)",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://scholars.cityu.edu.hk/en/persons/jiajcong/",
+          "label": "CityU Scholars 官方履历",
+          "quote": "Fudan University (2018–2024)",
+          "supports": [
+            "career_events",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2024 - present, Assistant Professor, Department of Marketing, City University of Hong Kong",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2022 - 2024, Associate Professor, School of Management, Fudan University",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2018 - 2021, Assistant Professor, School of Management, Fudan University",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "2014 - 2018, Ph.D. in Strategy, The University of Hong Kong",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 3
+        }
+      ],
+      "career_events": [
+        {
+          "type": "prior_appointment",
+          "institution": "Fudan University",
+          "role": "Assistant Professor and later Associate Professor",
+          "start_year": 2018,
+          "end_year": 2024,
+          "source_urls": [
+            "https://scholars.cityu.edu.hk/en/persons/jiajcong/"
+          ],
+          "quote": "Fudan University (2018–2024)",
+          "status": "historical",
+          "date_precision": "year",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "City University of Hong Kong",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2024,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO"
+          ],
+          "quote": "2024 - present, Assistant Professor, Department of Marketing, City University of Hong Kong",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Fudan University",
+          "role": "Associate Professor, School of Management",
+          "start_year": 2022,
+          "end_year": 2024,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO"
+          ],
+          "quote": "2022 - 2024, Associate Professor, School of Management, Fudan University",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Fudan University",
+          "role": "Assistant Professor, School of Management",
+          "start_year": 2018,
+          "end_year": 2021,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO"
+          ],
+          "quote": "2018 - 2021, Assistant Professor, School of Management, Fudan University",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "任职事件为来源明确记录的履历；最早列出的经历不无条件认定完整首职链。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-city-university-of-hong-kong-jiajiacong",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/jiajcong/",
+          "https://scholars.cityu.edu.hk/en/persons/jiajcong/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        },
+        {
+          "original": {
+            "field": "phd.year",
+            "reason": "实际读取February2026本人CV前4页，未列明确PhD授位年；2018是Fudan任职开始年，不能据此填博士年。",
+            "source_urls": [
+              "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO"
+            ]
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "另列的Shanghai Jiao Tong Economics是Ph.D. Program经历，未当作已完成的第二博士；Fudan职级晋升年未拆分。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批CV已拆出Fudan Assistant2018–2021、Associate2022–2024；Shanghai Jiao Tong仅PhD program训练，未声明授位。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批任职原文已明确当前职级开始年2024；来源和入职/晋升区别保留。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO",
+          "sha256": "5493ba55cbcccd1edbc6fa4968cd9ad3be02bd76de4ca422c1defc68d34725cc",
+          "pages_read": 4,
+          "total_pages": 4,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      },
+      "education_training": [
+        {
+          "school": "Shanghai Jiao Tong University",
+          "program": "Ph.D. program in Economics",
+          "start_year": 2011,
+          "end_year": 2014,
+          "degree_status": "training_only_award_not_asserted",
+          "source_urls": [
+            "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO"
+          ],
+          "quote": "2011 - 2014, Ph.D. program in Economics, Shanghai Jiao Tong University"
+        }
+      ]
+    },
+    {
+      "placement_id": "university-of-california-san-diego-michelle-kim",
+      "name": "Michelle Kim",
+      "aliases": [
+        "Michelle Yoosun Kim",
+        "Yoosun Kim",
+        "金攸宣"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "region": "HK",
+        "role": "Assistant Professor of Marketing",
+        "start_year": 2025,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of California, San Diego",
+        "program": "PhD in Management · Marketing",
+        "region": "US",
+        "year": null,
+        "program_id": "university-of-california-san-diego-marketing"
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Consumer Behavior"
+      ],
+      "homepage": "https://sites.google.com/view/michelle-in-marketing",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+      "research_inference": null,
+      "checked_at": "2026-10-22",
+      "notes": "CV 明确 2025 入职，但 Education 未写博士授位年；此处按毕业年归入“年份待核验”，不从入职或奖学金期限推定。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "sources": [
+        {
+          "label": "官方 Marketing placement / 毕业生名单",
+          "url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "label": "CUHK 本人资料：现职、学位及研究",
+          "url": "https://www.bschool.cuhk.edu.hk/staff/kim-michelle-yoosun/",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "label": "本人 CV：2025 年起任助理教授",
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "label": "本人主页",
+          "url": "https://sites.google.com/view/michelle-in-marketing",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "Assistant Professor of Marketing, 2025 – present",
+          "supports": [
+            "career_events"
+          ],
+          "source_date": "2025-08",
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Assistant Professor of Marketing, 2025 – present The Chinese University of Hong Kong",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "existing_faculty_id": "university-of-california-san-diego-michelle-kim",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://sites.google.com/view/michelle-in-marketing",
+          "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+          "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+          "https://www.bschool.cuhk.edu.hk/staff/kim-michelle-yoosun/"
+        ]
+      },
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2025,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "resolved_gaps": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "重读官方CV的Education仍未列学位年；2019–2025 graduate fellowship不等于2025授位，保留未知。",
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf"
+          ]
+        },
+        {
+          "field": "phd.year",
+          "reason": "August2025官方CV教育栏明确UCSD PhD但未列授位年；2019–2025 fellowship与2025任职都不单独证明博士年。",
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf"
+          ]
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf"
+        ],
+        "notes": "重读官方CV的Education仍未列学位年；2019–2025 graduate fellowship不等于2025授位，保留未知。"
+      },
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+          "sha256": "7072d72287d87fc91f9176935284e2b2fa0450fad85a08eb4496ea707be3c515",
+          "pages_read": 3,
+          "total_pages": 3,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Feifei Huang",
+      "aliases": [],
+      "host_id": "hong-kong-polytechnic-university-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "Hong Kong Polytechnic University",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": 2024,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Chinese University of Hong Kong",
+        "program": "Marketing",
+        "region": "HK",
+        "year": null,
+        "program_id": "chinese-university-of-hong-kong-marketing"
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Consumer behavior",
+        "Sustainability",
+        "Marketing communications",
+        "Emotions and feelings"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.polyu.edu.hk/mm/people/academic-staff/dr-feifei-huang/",
+      "cv_url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/people/academic-staff/dr-feifei-huang/",
+          "label": "官方教师资料",
+          "quote": "she received her PhD from the Chinese University of Hong Kong",
+          "supports": [
+            "current.institution",
+            "current.role",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+          "label": "官方公开 CV",
+          "quote": "Assistant Professor",
+          "supports": [
+            "phd",
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "http_200_pdf_text_read"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "Associate Professor of Marketing, 2024 – Present; Assistant Professor of Marketing, 2018 – 2024",
+          "supports": [
+            "career_events",
+            "current.start_year"
+          ],
+          "source_date": "2025-07",
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "The Hong Kong Polytechnic University Associate Professor of Marketing, 2024 – Present",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "The Hong Kong Polytechnic University Associate Professor of Marketing, 2024 – Present Assistant Professor of Marketing, 2018 – 2024",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Hong Kong Polytechnic University",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2018,
+          "end_year": 2024,
+          "source_urls": [
+            "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA"
+          ],
+          "quote": "Assistant Professor",
+          "date_precision": "year",
+          "status": "historical",
+          "checked_at": "2026-10-22",
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。"
+        },
+        {
+          "type": "promotion",
+          "institution": "Hong Kong Polytechnic University",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2024,
+          "end_year": null,
+          "source_urls": [
+            "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA"
+          ],
+          "quote": "Associate Professor",
+          "date_precision": "year",
+          "status": "current_at_check",
+          "checked_at": "2026-10-22",
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "CV教育栏没有博士授予年份；不以2013—2017奖学金或2018论文奖推定毕业年份。"
+        },
+        {
+          "field": "biography",
+          "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+        },
+        {
+          "field": "biography",
+          "reason": "任职事件为来源明确记录的履历；最早列出的经历不无条件认定完整首职链。"
+        },
+        {
+          "field": "phd.year",
+          "reason": "已读2025-07 CV。教育段未给PhD年份；2018论文奖及入职均不等于授位证明，博士年继续未知，补已核任职与晋升。",
+          "source_urls": [
+            "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA"
+          ]
+        },
+        {
+          "field": "phd.year",
+          "reason": "July2025官方CV教育栏列CUHK PhD无授位年；2013–2017 fellowship不是学位证明，2018任职/论文奖也不当博士年。",
+          "source_urls": [
+            "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA"
+          ]
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-hong-kong-polytechnic-university-feifeihuang",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.polyu.edu.hk/mm/people/academic-staff/dr-feifei-huang/",
+          "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA"
+        ]
+      },
+      "resolved_gaps": [],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA"
+        ],
+        "notes": "已读2025-07 CV。教育段未给PhD年份；2018论文奖及入职均不等于授位证明，博士年继续未知，补已核任职与晋升。"
+      },
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+          "sha256": "29c2ec74ed7c7141a23147bee0f893c589863c44713ef257b0d3b7205f921a25",
+          "pages_read": 4,
+          "total_pages": 4,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Stylianos Despotakis",
+      "aliases": [],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": null,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Carnegie Mellon University",
+        "program": "Industrial Administration (Algorithms, Combinatorics, and Optimization)",
+        "region": "US",
+        "year": 2018,
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.cmu.edu/tepper/programs/phd/job-market"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/sdespota/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/sdespota/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "PhD - Industrial Administration (Algorithms, Combinatorics, and Optimization) (Carnegie Mellon University)",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://www.cmu.edu/tepper/programs/phd/job-market",
+          "label": "培养校官方毕业生表：表头明确Graduation Year",
+          "quote": "Graduation Year | First Name | Last Name | Hiring Institution / Company; 2018 Stylianos Despotakis City University of Hong Kong",
+          "supports": [
+            "phd.year"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "table_header": "Graduation Year"
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-city-university-of-hong-kong-stylianosdespotakis",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/sdespota/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "CMU官方表头明确Graduation Year，未将一般placement年度充当博士年。"
+        }
+      ]
+    },
+    {
+      "name": "Xiaohang (Flora) Feng",
+      "aliases": [
+        "Flora Feng",
+        "Xiaohang Feng"
+      ],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": null,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Carnegie Mellon University",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2025,
+        "program_id": "carnegie-mellon-university-marketing",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.cmu.edu/tepper/programs/phd/job-market"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/xifeng/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/xifeng/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "Assistant Professor",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://www.cmu.edu/sites/default/files/cmu-tepper-site-files/documents/Feng%20Flora%20Dissertation.pdf",
+          "label": "CMU 官方博士论文",
+          "quote": "© Copyright 2025 by Xiaohang (Flora) Feng",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "identity"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://sem.tongji.edu.cn/semen/27172.html",
+          "label": "同济大学官方2025年讲座简介",
+          "quote": "2020–2026 expected",
+          "supports": [
+            "phd.year_conflict"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://www.cmu.edu/tepper/programs/phd/job-market",
+          "label": "培养校官方毕业生表：表头明确Graduation Year",
+          "quote": "Graduation Year | First Name | Last Name | Hiring Institution / Company; 2025 Xiaohang (Flora) Feng City University of Hong Kong",
+          "supports": [
+            "phd.year"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "table_header": "Graduation Year"
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "suggested_placement_id": "carnegie-mellon-xiaohang-flora-feng",
+      "identity_match": "已有记录的CityU官方profile URL与本次一致；CMU论文姓名及Marketing研究身份补证。",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/xifeng/",
+          "https://www.cmu.edu/sites/default/files/cmu-tepper-site-files/documents/Feng%20Flora%20Dissertation.pdf",
+          "https://sem.tongji.edu.cn/semen/27172.html"
+        ]
+      },
+      "first_job_verified": false,
+      "placement_id": "carnegie-mellon-xiaohang-flora-feng",
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "legacy_degree_year": {
+        "value": 2025,
+        "source_urls": [
+          "https://www.cmu.edu/tepper/programs/phd/job-market",
+          "https://www.cb.cityu.edu.hk/staff/xifeng/",
+          "https://www.cmu.edu/tepper/programs/phd/program/student-profiles/phd-student-feng-xiaohang-flora.html"
+        ],
+        "status": "not_reverified_in_faculty_batch"
+      },
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "carnegie-mellon-xiaohang-flora-feng",
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "CMU官方表头明确Graduation Year，未将一般placement年度充当博士年。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "CMU旧student-profile URL现404；CMU论文版权2025与2025-10同济讲座2026 expected不一致，论文版权年不自动视学位授予年；博士年份留空待CV确认。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "CMU官方Graduation Year表明确2025；较早讲座expected2026的来源差异仍独立保留。"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "phd.year",
+          "status": "source_discrepancy_retained",
+          "values": [
+            2025,
+            "2026 expected in earlier seminar biography"
+          ],
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/staff/xifeng/",
+            "https://www.cmu.edu/sites/default/files/cmu-tepper-site-files/documents/Feng%20Flora%20Dissertation.pdf",
+            "https://sem.tongji.edu.cn/semen/27172.html",
+            "https://www.cmu.edu/tepper/programs/phd/job-market"
+          ],
+          "resolution": "本批采用CMU官方毕业生表明确标注的Graduation Year2025；旧学生页404、论文版权年与较早讲座expected2026属于历史来源差异，不修改其历史记录。",
+          "checked_at": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "name": "Tuan Quang Phan",
+      "aliases": [
+        "Tuan Phan"
+      ],
+      "host_id": "university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "University of Hong Kong",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": null,
+        "departments": [
+          "Marketing",
+          "Innovation and Information Management"
+        ],
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Harvard University",
+        "program": "Marketing",
+        "region": "US",
+        "year": null,
+        "degree_type": "DBA"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Networks",
+        "Privacy",
+        "Digital economies",
+        "Mobility",
+        "Retail"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://mba.hkubs.hku.hk/zh/our-faculty/dr-tuan-phan/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mba.hkubs.hku.hk/zh/our-faculty/dr-tuan-phan/",
+          "label": "HKU 官方教师资料",
+          "quote": "Associate Professor",
+          "supports": [
+            "current",
+            "phd",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://imba.hkubs.hku.hk/wp-content/uploads/2026%E6%B8%AF%E5%A4%A7-%E5%A4%8D%E6%97%A6IMBA%E9%A1%B9%E7%9B%AE%E5%AE%A3%E4%BC%A0%E6%89%8B%E5%86%8C%EF%BC%88%E6%96%B0%EF%BC%89_20251121.pdf",
+          "label": "HKU 2026 IMBA 官方手册",
+          "quote": "DBA in Marketing, Harvard Business School",
+          "supports": [
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://www.hkubs.hku.hk/sc/people/tuan-quang-phan/",
+          "label": "官方本人页：明确博士类型（非PhD）",
+          "quote": "Doctor of Business Administration (DBA), Marketing, Harvard Business School",
+          "supports": [
+            "phd.degree_type",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "官方所列博士为DBA，保留该学位名称，不改写成PhD；年份未披露。"
+        },
+        {
+          "field": "biography",
+          "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+        },
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "官方简介所链个人站内容已不符；本轮已读且排除。博士年份及完整职业履历尚缺可核验材料。",
+          "source_urls": [
+            "https://www.hkubs.hku.hk/sc/people/tuan-quang-phan/"
+          ]
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-university-of-hong-kong-tuanquangphan",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://mba.hkubs.hku.hk/zh/our-faculty/dr-tuan-phan/",
+          "https://imba.hkubs.hku.hk/wp-content/uploads/2026%E6%B8%AF%E5%A4%A7-%E5%A4%8D%E6%97%A6IMBA%E9%A1%B9%E7%9B%AE%E5%AE%A3%E4%BC%A0%E6%89%8B%E5%86%8C%EF%BC%88%E6%96%B0%EF%BC%89_20251121.pdf"
+        ]
+      },
+      "resolved_gaps": [],
+      "reviewed_link_corrections": [
+        {
+          "field": "source_personal_website",
+          "previous_value": "https://www.tuanqphan.us",
+          "reason": "实际HTTP200返回LC88越南博彩内容，不是教师个人页；保持官方学院/MBA主页，不作为CV或事实来源。",
+          "checked_at": "2026-10-22",
+          "sha256": "f7a4c4fa0212ab0ffcd02b5a1b3b8e4d3d2ec878fd88dc95086410afaf205c80"
+        }
+      ]
+    },
+    {
+      "name": "Shan Huang",
+      "aliases": [],
+      "host_id": "university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "University of Hong Kong",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": null,
+        "status": "official_directory",
+        "institution_joined_year": 2021
+      },
+      "phd": {
+        "school": "Massachusetts Institute of Technology",
+        "program": "Management Science",
+        "region": "US",
+        "year": 2018,
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Digital experimentation",
+        "A/B testing",
+        "Artificial intelligence",
+        "Social media",
+        "Networks"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.shanhhuang.com/",
+      "cv_url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+      "sources": [
+        {
+          "url": "https://www.hkubs.hku.hk/people/shan-huang/",
+          "label": "HKU 官方教师资料",
+          "quote": "Ph.D. in Management Science, Massachusetts Institute of Technology",
+          "supports": [
+            "current",
+            "phd",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://www.shanhhuang.com/",
+          "label": "官方个人页所链资料；链接登记不代表内容可读",
+          "checked_at": "2026-10-22",
+          "access_status": "link_recorded"
+        },
+        {
+          "url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "• 2012 - 2018: Ph.D., Management Science, Sloan School of Management, Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        },
+        {
+          "url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "• 2021 - Now: Assistant Professor Area of Marketing 2023 – Now Area of Innovation and Information Management (IIM) 2021 - 2022 Faculty of Business and Economics, The University of Hong Kong, Hong Kong",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "• 2018 – 2020: Assistant Professor Department of Information Systems & Operations Management Michael G. Foster School of Business, University of Washington, Seattle, WA, USA",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "• 2020 – 2025: Digital Fellow Digital Economy Lab Institute for Human-Centered AI, Stanford University, Stanford, CA, USA",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+          "label": "本人CV：校内转领域时间",
+          "quote": "Area of Marketing 2023 – Now; Area of Innovation and Information Management (IIM) 2021 - 2022",
+          "supports": [
+            "current.department",
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Hong Kong",
+          "role": "Assistant Professor",
+          "start_year": 2021,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf"
+          ],
+          "quote": "• 2021 - Now: Assistant Professor Area of Marketing 2023 – Now Area of Innovation and Information Management (IIM) 2021 - 2022 Faculty of Business and Economics, The University of Hong Kong, Hong Kong",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Washington",
+          "role": "Assistant Professor, Information Systems and Operations Management",
+          "start_year": 2018,
+          "end_year": 2020,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf"
+          ],
+          "quote": "• 2018 – 2020: Assistant Professor Department of Information Systems & Operations Management Michael G. Foster School of Business, University of Washington, Seattle, WA, USA",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "affiliation",
+          "institution": "Stanford University",
+          "role": "Digital Fellow",
+          "start_year": 2020,
+          "end_year": 2025,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf"
+          ],
+          "quote": "• 2020 – 2025: Digital Fellow Digital Economy Lab Institute for Human-Centered AI, Stanford University, Stanford, CA, USA",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-university-of-hong-kong-shanhuang",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.shanhhuang.com/",
+          "https://www.hkubs.hku.hk/people/shan-huang/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+          "sha256": "de154173e83dca70e7da1bd1727bbb7f52171cdffae3f8a94a79780da703f34c",
+          "pages_read": 4,
+          "total_pages": 7,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Liang Guo",
+      "aliases": [],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Chair Professor",
+        "start_year": 2023,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of California, Berkeley",
+        "program": "Business Administration",
+        "region": "US",
+        "year": 2004,
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528"
+        ]
+      },
+      "tracks": [
+        "marketing",
+        "io",
+        "strategy"
+      ],
+      "fields": [
+        "Economics and psychology",
+        "Marketing strategy",
+        "Industrial organization",
+        "Applied economics"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/lianguo/",
+      "cv_url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/lianguo/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "PhD - Business Administration (University of California at Berkeley)",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "Ph.D in Business Administration, University of California at Berkeley, 2004",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2023– Chair Professor, City University of Hong Kong",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2014–2023 Professor, CUHK",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2010–2014 Associate Professor, Senior Wei Lun Fellow, HKUST",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2004–2010 Assistant Professor, HKUST",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "2010–2011 Visiting Associate Professor, CKGSB",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "City University of Hong Kong",
+          "role": "Chair Professor",
+          "start_year": 2023,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528"
+          ],
+          "quote": "2023– Chair Professor, City University of Hong Kong",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Professor",
+          "start_year": 2014,
+          "end_year": 2023,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528"
+          ],
+          "quote": "2014–2023 Professor, CUHK",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Associate Professor, Senior Wei Lun Fellow",
+          "start_year": 2010,
+          "end_year": 2014,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528"
+          ],
+          "quote": "2010–2014 Associate Professor, Senior Wei Lun Fellow, HKUST",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Assistant Professor",
+          "start_year": 2004,
+          "end_year": 2010,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528"
+          ],
+          "quote": "2004–2010 Assistant Professor, HKUST",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "visiting",
+          "institution": "Cheung Kong Graduate School of Business",
+          "role": "Visiting Associate Professor",
+          "start_year": 2010,
+          "end_year": 2011,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528"
+          ],
+          "quote": "2010–2011 Visiting Associate Professor, CKGSB",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-city-university-of-hong-kong-liangguo",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/lianguo/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批任职原文已明确当前职级开始年2023；来源和入职/晋升区别保留。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+          "sha256": "b126ab66fc3c50b7710a3f20228abb37fa350c81a5d16a99f95590d38729af99",
+          "pages_read": 4,
+          "total_pages": 6,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Chi Vincent Wong",
+      "aliases": [
+        "Vincent C. Wong",
+        "Chi Wong",
+        "Vincent Chi Wong"
+      ],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": 2022,
+        "status": "official_directory",
+        "tenure_status": "tenured",
+        "tenure_evidence_status": "confirmed",
+        "tenure_source_urls": [
+          "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6"
+        ]
+      },
+      "phd": {
+        "school": "Chinese University of Hong Kong",
+        "program": "Marketing",
+        "region": "HK",
+        "year": 2016,
+        "program_id": "chinese-university-of-hong-kong-marketing",
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6"
+        ]
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Consumer psychology"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/zhiwang4/",
+      "cv_url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6",
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/zhiwang4/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "PhD - Marketing (The Chinese University of Hong Kong)",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "The Chinese University of Hong Kong Ph.D. in Marketing, 2012 – 2016",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "City University of Hong Kong, Department of Marketing Associate Professor (with tenure), 2022 – present",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "City University of Hong Kong, Department of Marketing Associate Professor (with tenure), 2022 – present Founding Director of CityU-Columbia University Joint BBA Marketing , 2025 – present Deputy Programme Director of BBA Marketing , 2022 – present Assistant Professor , 2019 – 2022",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Lingnan University, Hong Kong, Department of Marketing and International Business Assistant Professor , 2016 – 2019",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "City University of Hong Kong",
+          "role": "Associate Professor (with tenure)",
+          "start_year": 2022,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6"
+          ],
+          "quote": "City University of Hong Kong, Department of Marketing Associate Professor (with tenure), 2022 – present",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "City University of Hong Kong",
+          "role": "Assistant Professor",
+          "start_year": 2019,
+          "end_year": 2022,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6"
+          ],
+          "quote": "City University of Hong Kong, Department of Marketing Associate Professor (with tenure), 2022 – present Founding Director of CityU-Columbia University Joint BBA Marketing , 2025 – present Deputy Programme Director of BBA Marketing , 2022 – present Assistant Professor , 2019 – 2022",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Lingnan University",
+          "role": "Assistant Professor",
+          "start_year": 2016,
+          "end_year": 2019,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6"
+          ],
+          "quote": "Lingnan University, Hong Kong, Department of Marketing and International Business Assistant Professor , 2016 – 2019",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-city-university-of-hong-kong-chivincentwong",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/zhiwang4/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批任职原文已明确当前职级开始年2022；来源和入职/晋升区别保留。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6",
+          "sha256": "38337cc817b879585d961e6dfcf762cb3825a696b8071e5200681208fc57b580",
+          "pages_read": 4,
+          "total_pages": 9,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Yimin Yu",
+      "aliases": [],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Professor",
+        "start_year": null,
+        "departments": [
+          "Department of Decision Analytics and Operations",
+          "Department of Marketing"
+        ],
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of Minnesota",
+        "program": "Industrial Engineering",
+        "region": "US",
+        "year": 2009,
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=E3FA057F95F1402E53B97A48703BDF47"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Inventory",
+        "Supply chain",
+        "Operations-marketing interface",
+        "Information economics"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://sites.google.com/site/yiminyu/",
+      "cv_url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=E3FA057F95F1402E53B97A48703BDF47",
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/yiminyu/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "PhD - Industrial Engineering (University of Minnesota)",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://sites.google.com/site/yiminyu/",
+          "label": "官方个人页所链资料；链接登记不代表内容可读",
+          "checked_at": "2026-10-22",
+          "access_status": "link_recorded"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=E3FA057F95F1402E53B97A48703BDF47",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "2009 Ph.D., Industrial Engineering University of Minnesota, Twin Cities, MN U.S.A.",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_dates",
+          "reason": "当前官网明确Professor；所链旧CV标题为Associate、未列任职区间。本批只用其明确2009博士年，不以旧CV标题覆盖现职。",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=E3FA057F95F1402E53B97A48703BDF47",
+            "https://sites.google.com/site/yiminyu/"
+          ]
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-city-university-of-hong-kong-yiminyu",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://sites.google.com/site/yiminyu/",
+          "https://www.cb.cityu.edu.hk/staff/yiminyu/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=E3FA057F95F1402E53B97A48703BDF47",
+          "sha256": "542e9cb380f1ba0f63f239972f4c8ddd8133d32877f733f3138959b04941942b",
+          "pages_read": 3,
+          "total_pages": 3,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Xu Zheng",
+      "aliases": [
+        "Xu Vivian Zheng",
+        "Vivian Zheng",
+        "Xu (Vivian) Zheng"
+      ],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": 2020,
+        "status": "official_directory",
+        "tenure_status": "tenured",
+        "tenure_evidence_status": "confirmed",
+        "tenure_source_urls": [
+          "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF"
+        ]
+      },
+      "phd": {
+        "school": "University of Wisconsin-Madison",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2012,
+        "program_id": "university-of-wisconsin-madison-marketing",
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Interorganizational governance",
+        "Franchising",
+        "Location strategy",
+        "Multichannel marketing",
+        "ESG"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/xuzheng/",
+      "cv_url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF",
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/xuzheng/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "University of Wisconsin-Madison",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "Doctor of Philosophy in Marketing 2012 Wisconsin School of Business, University of Wisconsin-Madison",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Associate Professor in Marketing (with tenure) City University of Hong Kong 2020-present",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Assistant Professor in Marketing City University of Hong Kong 2012-2020",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "City University of Hong Kong",
+          "role": "Associate Professor in Marketing (with tenure)",
+          "start_year": 2020,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF"
+          ],
+          "quote": "Associate Professor in Marketing (with tenure) City University of Hong Kong 2020-present",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "City University of Hong Kong",
+          "role": "Assistant Professor in Marketing",
+          "start_year": 2012,
+          "end_year": 2020,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF"
+          ],
+          "quote": "Assistant Professor in Marketing City University of Hong Kong 2012-2020",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-city-university-of-hong-kong-xuzheng",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/xuzheng/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批任职原文已明确当前职级开始年2020；来源和入职/晋升区别保留。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF",
+          "sha256": "b8ce3252b7000b9f3b48925c6ecab35888f46f89f461bf7bac43e285812722f6",
+          "pages_read": 4,
+          "total_pages": 8,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Esterina Nervino",
+      "aliases": [],
+      "host_id": "city-university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "City University of Hong Kong",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": null,
+        "departments": [
+          "Department of English",
+          "Department of Marketing"
+        ],
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Hong Kong Polytechnic University",
+        "program": "Applied Linguistics",
+        "region": "HK",
+        "year": 2018,
+        "degree_type": "PhD",
+        "status": "degree_listed",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50"
+        ],
+        "date": "2018-03",
+        "date_precision": "month"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Business and professional communication",
+        "Corpus linguistics",
+        "Social semiotics",
+        "Digital transformation",
+        "Luxury studies",
+        "Branding and retail"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.cb.cityu.edu.hk/staff/enervino/",
+      "cv_url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+      "sources": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/staff/enervino/",
+          "label": "CityU 官方个人资料（网页检索缓存）",
+          "quote": "PhD - Applied Linguistics (The Hong Kong Polytechnic University)",
+          "supports": [
+            "current",
+            "phd.school",
+            "phd.program",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_search_cache_direct_http_404"
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+          "label": "实际读取公开CV：博士学位行",
+          "quote": "Doctor of Philosophy, Applied Linguistics, (Hong Kong PhD Fellowship Scheme Awardee), The Hong Kong Polytechnic University (Department of English), March 2018",
+          "supports": [
+            "phd.year",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Assistant Professor, Department of English, Department of Marketing (joint appointment), City University of Hong Kong, 2021-Present",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Public Relations Lead, Bluebell Group, January 2020-August 2021",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Director, RetailinAsia.com (Part of Bluebell Group), January 2019-August 2021",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Chief Editor, RetailinAsia.com (Part of Bluebell Group), August 2017-January 2019",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "City University of Hong Kong",
+          "role": "Assistant Professor, English and Marketing (joint appointment)",
+          "start_year": 2021,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "historical_start_rank_end_unknown",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50"
+          ],
+          "quote": "Assistant Professor, Department of English, Department of Marketing (joint appointment), City University of Hong Kong, 2021-Present",
+          "checked_at": "2026-10-22",
+          "notes": "同一CV首页已列Associate，但Associate行只有starting from1July未列年份；不延伸Assistant任职为当前，也不猜晋升年份。"
+        },
+        {
+          "type": "industry",
+          "institution": "Bluebell Group",
+          "role": "Public Relations Lead",
+          "start_year": 2020,
+          "end_year": 2021,
+          "date_precision": "month",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50"
+          ],
+          "quote": "Public Relations Lead, Bluebell Group, January 2020-August 2021",
+          "checked_at": "2026-10-22",
+          "job_kind": "industry",
+          "start_date": "2020-01",
+          "end_date": "2021-08"
+        },
+        {
+          "type": "industry",
+          "institution": "RetailinAsia.com (Bluebell Group)",
+          "role": "Director",
+          "start_year": 2019,
+          "end_year": 2021,
+          "date_precision": "month",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50"
+          ],
+          "quote": "Director, RetailinAsia.com (Part of Bluebell Group), January 2019-August 2021",
+          "checked_at": "2026-10-22",
+          "job_kind": "industry",
+          "start_date": "2019-01",
+          "end_date": "2021-08"
+        },
+        {
+          "type": "industry",
+          "institution": "RetailinAsia.com (Bluebell Group)",
+          "role": "Chief Editor",
+          "start_year": 2017,
+          "end_year": 2019,
+          "date_precision": "month",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50"
+          ],
+          "quote": "Chief Editor, RetailinAsia.com (Part of Bluebell Group), August 2017-January 2019",
+          "checked_at": "2026-10-22",
+          "job_kind": "industry",
+          "start_date": "2017-08",
+          "end_date": "2019-01"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "博士为Applied Linguistics；不改写为Marketing博士；此前Retail in Asia行业任职不当作学术首职。"
+        },
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "当前CV首行及官网均明确Associate；晋升行starting from1July未写年份，保持开始年未知。",
+          "source_urls": [
+            "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50"
+          ]
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-city-university-of-hong-kong-esterinanervino",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.cb.cityu.edu.hk/staff/enervino/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "公开CV明确学位、学校、学科及博士年；完整职业路径仍独立未知。"
+        }
+      ],
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+          "sha256": "fbb5ee73290709f293ae8504baae8ab73ad1dbdb1cdabc46702d8a489a0379f0",
+          "pages_read": 4,
+          "total_pages": 20,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    },
+    {
+      "name": "Qihui Chen",
+      "aliases": [],
+      "host_id": "hong-kong-university-of-science-and-technology-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "Hong Kong University of Science and Technology",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": null,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of Maryland",
+        "program": "Business and Management",
+        "region": "US",
+        "year": 2023,
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qihui-chen-qihuichen"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Parenting and education",
+        "Consumer well-being",
+        "Innovation"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://sites.google.com/view/qhchen",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/qihuichen",
+          "label": "官方 Marketing 教师资料",
+          "quote": "Assistant Professor",
+          "supports": [
+            "current",
+            "phd.school",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://sites.google.com/view/qhchen",
+          "label": "官方个人页所链资料；链接登记不代表内容可读",
+          "checked_at": "2026-10-22",
+          "access_status": "link_recorded"
+        },
+        {
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qihui-chen-qihuichen",
+          "label": "HKUST中央官方Faculty Profile：明确博士年",
+          "quote": "PhD in Business and Management; The University of Maryland, 2023",
+          "supports": [
+            "phd.year",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "博士学位专业未在本次可读官方资料中明确披露。"
+        },
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-hong-kong-university-of-science-and-technology-qihuichen",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://sites.google.com/view/qhchen",
+          "https://mark.hkust.edu.hk/faculty-and-staff/directory/qihuichen"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "中央官方Faculty Profile直接标博士院校和年份。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "部门页面未披露博士专业/年份和首职、现职开始时间，保持未知。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批独立官方学位来源已补博士年2023；旧访问障碍及资料本身不含年份的观察保留历史，职业序列完整性另列。"
+        }
+      ]
+    },
+    {
+      "name": "Jiewen Hong",
+      "aliases": [],
+      "host_id": "hong-kong-university-of-science-and-technology-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "Hong Kong University of Science and Technology",
+        "region": "HK",
+        "role": "Professor",
+        "start_year": 2020,
+        "additional_roles": [
+          "Head of Department (since March 2021)"
+        ],
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Northwestern University",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2008,
+        "program_id": "northwestern-university-marketing",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jiewen-hong-mkjiewen"
+        ]
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Consumer information processing",
+        "Aging consumers",
+        "Sustainable consumer behavior"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://mark.hkust.edu.hk/faculty-and-staff/directory/mkjiewen",
+      "cv_url": "https://mark.hkust.edu.hk/files/staff/HONG_Jiewen.pdf",
+      "sources": [
+        {
+          "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/mkjiewen",
+          "label": "官方 Marketing 教师资料",
+          "quote": "Professor",
+          "supports": [
+            "current",
+            "phd.school",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://mark.hkust.edu.hk/files/staff/HONG_Jiewen.pdf",
+          "label": "官方公开 CV",
+          "quote": "Ph.D.",
+          "supports": [
+            "phd",
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "http_200_pdf_text_read"
+        },
+        {
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jiewen-hong-mkjiewen",
+          "label": "HKUST中央官方Faculty Profile：明确博士年",
+          "quote": "PhD in Marketing; Northwestern University, 2008",
+          "supports": [
+            "phd.year"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Assistant Professor",
+          "start_year": 2008,
+          "end_year": 2013,
+          "source_urls": [
+            "https://mark.hkust.edu.hk/files/staff/HONG_Jiewen.pdf"
+          ],
+          "quote": "Assistant Professor",
+          "date_precision": "year",
+          "status": "historical",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Associate Professor",
+          "start_year": 2013,
+          "end_year": 2020,
+          "source_urls": [
+            "https://mark.hkust.edu.hk/files/staff/HONG_Jiewen.pdf"
+          ],
+          "quote": "Associate Professor",
+          "date_precision": "year",
+          "status": "historical",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "Professor",
+          "start_year": 2020,
+          "end_year": null,
+          "source_urls": [
+            "https://mark.hkust.edu.hk/files/staff/HONG_Jiewen.pdf"
+          ],
+          "quote": "Professor",
+          "date_precision": "year",
+          "status": "current_at_check",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "任职事件为来源明确记录的履历；最早列出的经历不无条件认定完整首职链。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-hong-kong-university-of-science-and-technology-jiewenhong",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://mark.hkust.edu.hk/faculty-and-staff/directory/mkjiewen",
+          "https://mark.hkust.edu.hk/files/staff/HONG_Jiewen.pdf"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "中央官方Faculty Profile直接标博士院校和年份。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "2026年4月CV教育栏无博士年份；2008年AP开始时间不代填毕业年。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批独立官方学位来源已补博士年2008；旧访问障碍及资料本身不含年份的观察保留历史，职业序列完整性另列。"
+        }
+      ]
+    },
+    {
+      "name": "Sara Kim",
+      "aliases": [],
+      "host_id": "university-of-hong-kong-marketing",
+      "checked_at": "2026-10-22",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "University of Hong Kong",
+        "region": "HK",
+        "role": "Professor",
+        "start_year": null,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of Chicago",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2012,
+        "date": "2012-06",
+        "date_precision": "month",
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://repository.hku.hk/cris/rp/fileservice/rp01613/35/?filename=cv.pdf"
+        ]
+      },
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "fields": [
+        "Consumer and managerial decisions",
+        "Technology",
+        "Service interactions"
+      ],
+      "classification_status": "explicit_area_or_self_description",
+      "homepage": "https://www.hkubs.hku.hk/people/sara-kim/",
+      "cv_url": "https://repository.hku.hk/cris/rp/fileservice/rp01613/35/?filename=cv.pdf",
+      "sources": [
+        {
+          "url": "https://www.hkubs.hku.hk/people/sara-kim/",
+          "label": "HKU 官方教师资料",
+          "quote": "Ph.D., University of Chicago",
+          "supports": [
+            "current",
+            "phd",
+            "fields"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": null,
+          "quote_normalization": "whitespace_only",
+          "access_status": "official_public_page_read"
+        },
+        {
+          "url": "https://repository.hku.hk/cris/rp/fileservice/rp01613/35/?filename=cv.pdf",
+          "label": "HKU官方repository CV：实际PDF阅读器读取",
+          "quote": "Ph.D., Marketing, June 2012; Booth School of Business, University of Chicago, Chicago, IL",
+          "supports": [
+            "phd.year",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 1,
+          "access_method": "public PDF web reader (direct node fetch timeout)"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Hong Kong",
+          "role": "Assistant Professor",
+          "start_year": 2012,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "historical_start_rank_end_unknown",
+          "source_snapshot_only": true,
+          "source_urls": [
+            "https://repository.hku.hk/cris/rp/fileservice/rp01613/35/?filename=cv.pdf"
+          ],
+          "quote": "Assistant Professor, since 2012; School of Business, University of Hong Kong, Hong Kong",
+          "checked_at": "2026-10-22",
+          "notes": "旧repositoryCV仅核历史开始，不将Assistant职级延伸成当前Professor。"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+        },
+        {
+          "field": "biography",
+          "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "first_job_verified": false,
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "faculty-university-of-hong-kong-sarakim",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.hkubs.hku.hk/people/sara-kim/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "HKU官方repository本人CV明确June2012。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "2012加入HKU未被当作教授晋升年份；公开学位栏未列专业和学位年份。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "本批独立官方学位来源已补博士年2012；旧访问障碍及资料本身不含年份的观察保留历史，职业序列完整性另列。"
+        },
+        {
+          "original": {
+            "field": "biography",
+            "reason": "博士学位专业未在本次可读官方资料中明确披露。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "已由本批官方或本人CV明确博士专业；未从现任院系倒填。"
+        }
+      ]
+    },
+    {
+      "name": "Kuangjie Zhang",
+      "aliases": [],
+      "host_id": "nanyang-technological-university-marketing",
+      "checked_at": "2026-10-22",
+      "current": {
+        "institution": "Nanyang Technological University",
+        "region": "SG",
+        "department": "Marketing",
+        "role": "Associate Professor",
+        "start_year": null,
+        "start_year_basis": null,
+        "appointment_category": "research",
+        "tenure_status": "unknown",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "INSEAD",
+        "program": "PhD in Management (Marketing)",
+        "region": "FR",
+        "year": 2014,
+        "verification_status": "official_profile_or_cv",
+        "program_id": null,
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://sites.insead.edu/facultyresearch/faculty/cv.cfm?cid=4298"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": null,
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-faculty",
+          "label": "官方Marketing教师目录",
+          "quote": "Faculty",
+          "locator": "Kuangjie Zhang",
+          "supports": [
+            "current.institution",
+            "current.role",
+            "current.appointment_category"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.insead.edu/system/files/2023-10/phd-alumni-asia.pdf",
+          "label": "官方资料或本人学术主页",
+          "quote": "Kuangjie Zhang (China, MKT)",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ],
+          "locator": "Education / biography",
+          "checked_at": "2026-10-22",
+          "access_status": "read"
+        },
+        {
+          "url": "https://sites.insead.edu/facultyresearch/faculty/cv.cfm?cid=4298",
+          "label": "INSEAD博士委员会成员官方CV：明确Graduated",
+          "quote": "Ph.D. THESIS COMMITTEE: Committee Member, Kuangjie Zhang, Graduated 2014",
+          "supports": [
+            "phd.year"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null,
+          "page": 5,
+          "access_method": "public PDF web reader"
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "当前目录支持现职，未取得明确现职生效日期；博士年、来源表年、当前目录核验年不代替任职开始年。"
+        },
+        {
+          "field": "first_appointment",
+          "reason": "现职/个别来源表已核实，但没有完整、独立的毕业后职业顺序，不将现职自动当作毕业首职。"
+        },
+        {
+          "field": "research_subtrack",
+          "reason": "本批主要核对现职、学位和职业路径；Marketing部门身份不自动细分Quant/CB/Strategy。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "相关PDF为项目/校友或课程资料，不是本人CV；仅作为证据来源保存。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "access_attempts": [
+        {
+          "url": "https://dr.ntu.edu.sg/cris/rp/rp00940",
+          "status": "405",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "faculty_type": "research",
+      "membership_type": "research",
+      "eligibility": {
+        "research_roster": true,
+        "directory_member": true,
+        "degree_evidence": "public_source",
+        "reason": "官方Marketing目录列常设Assistant/Associate/Full/Distinguished教授序列，排除显式其他身份。"
+      },
+      "person_review_status": "partial_biography_verified",
+      "notes": "此接收端档案不自动成为近四年placement样本；当前任职、博士授予年与毕业首职分别保存。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "career_sequence_complete": false,
+      "placement_id": null,
+      "existing_faculty_id": "faculty-nanyang-technological-university-kuangjiezhang",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-faculty",
+          "https://www.insead.edu/system/files/2023-10/phd-alumni-asia.pdf"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "phd.year",
+            "reason": "可访问官方简介/CV确认博士培养机构，未披露或未独立核实授予年；不以最早已知任职年代填。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "委员会成员官方CV明确Graduated2014，不以INSEAD Asia职业表的任职年替代授位年。"
+        }
+      ]
+    },
+    {
+      "name": "Jochen Wirtz",
+      "aliases": [],
+      "host_id": "national-university-of-singapore-marketing",
+      "checked_at": "2026-10-22",
+      "current": {
+        "institution": "National University of Singapore",
+        "region": "SG",
+        "department": "Marketing",
+        "role": "Professor",
+        "start_year": 2012,
+        "start_year_basis": "current_role",
+        "appointment_category": "research",
+        "tenure_status": "unknown",
+        "status": "official_directory",
+        "start_year_source_urls": [
+          "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+        ]
+      },
+      "phd": {
+        "school": "London Business School",
+        "program": "PhD in Services Marketing",
+        "region": "UK",
+        "year": 1991,
+        "verification_status": "official_profile_or_cv",
+        "program_id": null,
+        "evidence_status": "source_quoted",
+        "source_urls": [
+          "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+        ]
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://discovery.nus.edu.sg/455",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://bschool.nus.edu.sg/marketing/faculty/",
+          "label": "官方Marketing教师目录",
+          "quote": "FULL-TIME",
+          "locator": "Jochen Wirtz",
+          "supports": [
+            "current.institution",
+            "current.role",
+            "current.appointment_category"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://discovery.nus.edu.sg/455",
+          "label": "官方个人档案或本人CV",
+          "quote": "Ph.D. in services marketing from the London Business School",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ],
+          "locator": "Education / Academic appointments",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方教育栏：明确博士年",
+          "quote": "PhD, Services Marketing, London Business School, UK, 1991",
+          "supports": [
+            "phd.year"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方任职表：明确区间",
+          "quote": "Professor of Marketing, National University of Singapore (NUS), 2012 – current",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方任职表：明确区间",
+          "quote": "Associate Professor of Marketing (with tenure), National University of Singapore (NUS), 2003 – 2011",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方任职表：明确区间",
+          "quote": "Associate Professor of Marketing, National University of Singapore, 2000 – 2002",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方任职表：明确区间",
+          "quote": "Assistant Professor of Marketing, National University of Singapore (NUS), 1998 – 1999",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方任职表：明确区间",
+          "quote": "Lecturer of Marketing, National University of Singapore (NUS), 1994 – 1997",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方任职表：明确区间",
+          "quote": "Visiting Fellow of Marketing, National University of Singapore (NUS), 1992 – 1993",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://executive-education.nus.edu.sg/members/wirtz-jochen/",
+          "label": "NUS官方任职表：明确区间",
+          "quote": "Associate Fellow in Executive Education, Said Business School, University of Oxford, 2008 – 2013",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "National University of Singapore",
+          "role": "Professor of Marketing",
+          "start_year": 2012,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "quote": "Professor of Marketing, National University of Singapore (NUS), 2012 – current",
+          "source_urls": [
+            "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "National University of Singapore",
+          "role": "Associate Professor of Marketing (with tenure)",
+          "start_year": 2003,
+          "end_year": 2011,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "quote": "Associate Professor of Marketing (with tenure), National University of Singapore (NUS), 2003 – 2011",
+          "source_urls": [
+            "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "National University of Singapore",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2000,
+          "end_year": 2002,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "quote": "Associate Professor of Marketing, National University of Singapore, 2000 – 2002",
+          "source_urls": [
+            "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "National University of Singapore",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 1998,
+          "end_year": 1999,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "quote": "Assistant Professor of Marketing, National University of Singapore (NUS), 1998 – 1999",
+          "source_urls": [
+            "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "teaching",
+          "institution": "National University of Singapore",
+          "role": "Lecturer of Marketing",
+          "start_year": 1994,
+          "end_year": 1997,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "quote": "Lecturer of Marketing, National University of Singapore (NUS), 1994 – 1997",
+          "source_urls": [
+            "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "visiting",
+          "institution": "National University of Singapore",
+          "role": "Visiting Fellow of Marketing",
+          "start_year": 1992,
+          "end_year": 1993,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "quote": "Visiting Fellow of Marketing, National University of Singapore (NUS), 1992 – 1993",
+          "source_urls": [
+            "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "affiliation",
+          "institution": "University of Oxford",
+          "role": "Associate Fellow in Executive Education",
+          "start_year": 2008,
+          "end_year": 2013,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "quote": "Associate Fellow in Executive Education, Said Business School, University of Oxford, 2008 – 2013",
+          "source_urls": [
+            "https://executive-education.nus.edu.sg/members/wirtz-jochen/"
+          ],
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "first_appointment",
+          "reason": "现职/个别来源表已核实，但没有完整、独立的毕业后职业顺序，不将现职自动当作毕业首职。"
+        },
+        {
+          "field": "research_subtrack",
+          "reason": "本批主要核对现职、学位和职业路径；Marketing部门身份不自动细分Quant/CB/Strategy。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "faculty_type": "research",
+      "membership_type": "research",
+      "eligibility": {
+        "research_roster": true,
+        "directory_member": true,
+        "degree_evidence": "public_source",
+        "reason": "官方Marketing目录列常设Assistant/Associate/Full/Distinguished教授序列，排除显式其他身份。"
+      },
+      "person_review_status": "partial_biography_verified",
+      "notes": "此接收端档案不自动成为近四年placement样本；当前任职、博士授予年与毕业首职分别保存。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "career_sequence_complete": false,
+      "placement_id": null,
+      "existing_faculty_id": "faculty-national-university-of-singapore-jochenwirtz",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://discovery.nus.edu.sg/455",
+          "https://bschool.nus.edu.sg/marketing/faculty/"
+        ]
+      },
+      "resolved_gaps": [
+        {
+          "original": {
+            "field": "phd.year",
+            "reason": "可访问官方简介/CV确认博士培养机构，未披露或未独立核实授予年；不以最早已知任职年代填。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "NUS独立官方教育栏明确PhD1991。"
+        },
+        {
+          "original": {
+            "field": "current.start_year",
+            "reason": "当前目录支持现职，未取得明确现职生效日期；博士年、来源表年、当前目录核验年不代替任职开始年。"
+          },
+          "resolved_at": "2026-10-22",
+          "reason": "NUS官方任职表明确Professor2012–current；Lecturer/Visiting未转为tenure-track。"
+        }
+      ]
+    },
+    {
+      "name": "Sharon Ng",
+      "aliases": [
+        "Sharon Ng Sok Ling",
+        "Ng Sok Ling Sharon"
+      ],
+      "host_id": "nanyang-technological-university-marketing",
+      "checked_at": "2026-10-22",
+      "current": {
+        "institution": "Nanyang Technological University",
+        "region": "SG",
+        "department": "Marketing",
+        "role": "Professor",
+        "start_year": 2021,
+        "start_year_basis": "current_role",
+        "appointment_category": "research",
+        "tenure_status": "tenured",
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "source_urls": [
+            "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+          ],
+          "quote": "Professor (Tenured)"
+        },
+        "status": "official_directory",
+        "tenure_evidence_status": "confirmed",
+        "tenure_source_urls": [
+          "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+        ]
+      },
+      "phd": {
+        "school": "University of Minnesota",
+        "program": null,
+        "region": "US",
+        "year": null,
+        "original_degree_text": "PhD (Carlson School of Management; field not specified)",
+        "verification_status": "official_profile_or_cv"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": null,
+      "cv_url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+      "sources": [
+        {
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-faculty",
+          "label": "官方Marketing教师目录",
+          "quote": "Faculty",
+          "locator": "Sharon Ng",
+          "supports": [
+            "current.institution",
+            "current.role",
+            "current.appointment_category"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+          "label": "官方资料或本人学术主页",
+          "quote": "Ph.D., University of Minnesota, Carlson School of Management",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ],
+          "locator": "Education / biography",
+          "checked_at": "2026-10-22",
+          "access_status": "read"
+        },
+        {
+          "url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+          "label": "本轮实际读取的本人CV/官方教育及任职资料",
+          "quote": "Professor (Tenured), Nanyang Business School, NTU, 2021 - current",
+          "supports": [
+            "career_events",
+            "current.start_year",
+            "current.tenure"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "fetched_at": "2026-10-22",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+          "label": "实际读取公开CV：任职日期片段",
+          "quote": "Public Relations Executive, Public Utilities Board, Singapore, 1995-1997",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+          "label": "官方CV：博士教育栏未列年份",
+          "quote": "Ph.D., University of Minnesota, Carlson School of Management",
+          "supports": [
+            "phd.school"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        },
+        {
+          "url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+          "label": "官方CV：明确Tenured职级",
+          "quote": "Professor (Tenured), Nanyang Business School, NTU, 2021 - current",
+          "supports": [
+            "current.tenure_status"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "source_quoted",
+          "source_date": null
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Nanyang Technological University",
+          "role": "Assistant Professor",
+          "start_year": 2004,
+          "end_year": 2009,
+          "source_urls": [
+            "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "promotion",
+          "institution": "Nanyang Technological University",
+          "role": "Associate Professor (Tenured)",
+          "start_year": 2009,
+          "end_year": 2021,
+          "source_urls": [
+            "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "promotion",
+          "institution": "Nanyang Technological University",
+          "role": "Professor (Tenured)",
+          "start_year": 2021,
+          "end_year": null,
+          "source_urls": [
+            "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Nanyang Technological University",
+          "role": "Senior Tutor",
+          "start_year": 1997,
+          "end_year": 2004,
+          "source_urls": [
+            "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+          ],
+          "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "industry",
+          "institution": "Public Utilities Board, Singapore",
+          "role": "Public Relations Executive",
+          "start_year": 1995,
+          "end_year": 1997,
+          "date_precision": "year",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted",
+          "source_urls": [
+            "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+          ],
+          "quote": "Public Relations Executive, Public Utilities Board, Singapore, 1995-1997",
+          "checked_at": "2026-10-22",
+          "job_kind": "industry"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.program",
+          "reason": "可访问官方资料确认博士与学校，但未明确博士专业；不以现任Marketing系别倒填Marketing PhD。"
+        },
+        {
+          "field": "phd.year",
+          "reason": "可访问官方简介/CV确认博士培养机构，未披露或未独立核实授予年；不以最早已知任职年代填。"
+        },
+        {
+          "field": "research_subtrack",
+          "reason": "本批主要核对现职、学位和职业路径；Marketing部门身份不自动细分Quant/CB/Strategy。"
+        },
+        {
+          "field": "first_appointment",
+          "reason": "本批保存可核实的职业事件和最早已知经历，不宣称CV穷尽全部职业；如需毕业首职统计须逐人用独立证据确认。"
+        },
+        {
+          "field": "phd.year",
+          "reason": "本轮实际再读官方CV教育栏仍无年。Carlson博士项目LinkedIn公开帖称graduated2004，尚无经独立核验的学校域授位/毕业清单，候选信息保留，不将NTU2004任职年当博士年。",
+          "source_urls": [
+            "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+            "https://www.linkedin.com/posts/carlson-phd-business-administration-0a1214273_woo-hoo-our-alumni-continue-to-achieve-greatness-activity-7163221122979721216-HVkN"
+          ]
+        },
+        {
+          "field": "career_sequence",
+          "reason": "本批仅核实明列日期的任职片段；未证明毕业后全部连续职业序列，也未将最早已知任职或现职自动认作首职。"
+        }
+      ],
+      "access_attempts": [
+        {
+          "url": "https://dr.ntu.edu.sg/cris/rp/rp01111",
+          "status": "405",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "faculty_type": "research",
+      "membership_type": "research",
+      "eligibility": {
+        "research_roster": true,
+        "directory_member": true,
+        "degree_evidence": "public_source",
+        "reason": "官方Marketing目录列常设Assistant/Associate/Full/Distinguished教授序列，排除显式其他身份。"
+      },
+      "person_review_status": "partial_biography_verified",
+      "notes": "此接收端档案不自动成为近四年placement样本；当前任职、博士授予年与毕业首职分别保存。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "career_sequence_complete": false,
+      "placement_id": null,
+      "existing_faculty_id": "faculty-nanyang-technological-university-sharonng",
+      "identity_evidence": {
+        "basis": "既有稳定ID及官方个人页，所链本人CV/独立培养校学位材料交叉核对；不按相似姓名合并。",
+        "source_urls": [
+          "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+          "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-faculty"
+        ]
+      },
+      "resolved_gaps": [],
+      "backfill_review": {
+        "checked_at": "2026-10-22",
+        "source_urls": [
+          "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf"
+        ],
+        "notes": "实际PDF含2025活动，不能由文件名2021判定版本。教育段仅列Minnesota PhD未列年份；补1997至今四段任职，博士年仍未知。"
+      },
+      "followup_review": {
+        "checked_at": "2026-10-22",
+        "cv_read": {
+          "url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+          "sha256": "e21a3b37407a4e17e7dc99f516b03bea4b74dc6ffc931b651434c21d35b64f60",
+          "pages_read": 4,
+          "total_pages": 11,
+          "read_status": "pdf_education_and_career_actually_read"
+        }
+      }
+    }
+  ],
+  "schools": [],
+  "source_checks": [
+    {
+      "id": "faculty-chinese-university-of-hong-kong-leileigao",
+      "url": "https://www.bschool.cuhk.edu.hk/staff/gao-leilei/",
+      "final_url": "https://www.bschool.cuhk.edu.hk/staff/gao-leilei/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "f5c0a7dc2b892514ed6b7da1d141e0898ea078bd1bba1b4b65d8c9350771ed23",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-chinese-university-of-hong-kong-xianchidai",
+      "url": "https://www.bschool.cuhk.edu.hk/staff/dai-xianchi/",
+      "final_url": "https://www.bschool.cuhk.edu.hk/staff/dai-xianchi/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "986af07881a00fa748cf8a919f60a59a52a5c5b52145b2f4e8f2ce4ce7f1081a",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "university-of-california-san-diego-michelle-kim",
+      "url": "https://www.bschool.cuhk.edu.hk/staff/kim-michelle-yoosun/",
+      "final_url": "https://www.bschool.cuhk.edu.hk/staff/kim-michelle-yoosun/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "204784c78ba11b44fff51e13d0476604a728bdd247e8025ffd515c34849081da",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "university-of-california-san-diego-michelle-kim_cv",
+      "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+      "final_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Michelle-Yoosun-Kim-_202508.pdf",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "7072d72287d87fc91f9176935284e2b2fa0450fad85a08eb4496ea707be3c515",
+      "pages_read": 3,
+      "total_pages": 3,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-hong-kong-polytechnic-university-feifeihuang",
+      "url": "https://www.polyu.edu.hk/mm/people/academic-staff/dr-feifei-huang/",
+      "final_url": "https://www.polyu.edu.hk/mm/people/academic-staff/dr-feifei-huang/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4a40a166fbe840da63021fe68a00de5f4035c519e6c95112b8b51cbf3e82ea82",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-hong-kong-university-of-science-and-technology-jiewenhong",
+      "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/mkjiewen",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "unable to verify the first certificate",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-hong-kong-university-of-science-and-technology-jialiu",
+      "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/jialiu",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "unable to verify the first certificate",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-hong-kong-university-of-science-and-technology-jiewenhong_cv",
+      "url": "https://mark.hkust.edu.hk/files/staff/HONG_Jiewen.pdf",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "unable to verify the first certificate",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-hong-kong-polytechnic-university-feifeihuang_cv",
+      "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+      "final_url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/huang_feifei/cv_feifei-huang.pdf?rev=ee5cd2e78d954da1bb41b78faac755c3&hash=8DB9A6AAED33BAE4EC72D53E190195EA",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "29c2ec74ed7c7141a23147bee0f893c589863c44713ef257b0d3b7205f921a25",
+      "pages_read": 4,
+      "total_pages": 4,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-hong-kong-university-of-science-and-technology-qihuichen",
+      "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/qihuichen",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "unable to verify the first certificate",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-hong-kong-university-of-science-and-technology-sangkyupark",
+      "url": "https://mark.hkust.edu.hk/faculty-and-staff/directory/sangkyupark",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "unable to verify the first certificate",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-stylianosdespotakis",
+      "url": "https://www.cb.cityu.edu.hk/staff/sdespota/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/sdespota/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4f17f4bfd133b4f1da60cf2b26cb3833c3b21a9f620d50e73870e8cf780162c9",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-liangguo",
+      "url": "https://www.cb.cityu.edu.hk/staff/lianguo/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/lianguo/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "566d943522cc32585ede337633a08d9ba5713e2f02de0079e563c20a5420400a",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-juanjulieli",
+      "url": "https://www.cb.cityu.edu.hk/staff/julieli/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/julieli/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "f38d8ddda591dde13165760f228505b554fbd4aae1efdbf6da8b49050ca13e73",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-yanzhidavidli",
+      "url": "https://www.cb.cityu.edu.hk/staff/yanzhili/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/yanzhili/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "885508a1b9b42291010b91791aab5ddcfe8f5059713a155e6fc7ab93ab589804",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-leisu",
+      "url": "https://www.cb.cityu.edu.hk/staff/leisu3/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/leisu3/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "c1884d8251b399739154aae2763e5e58796c99a3af2d803941c4bc45970935ee",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-yiminyu",
+      "url": "https://www.cb.cityu.edu.hk/staff/yiminyu/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/yiminyu/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "da6c5a7226cdc8fedbe45ecf9825462c06bf8373b5f89e7e002a0ec9ea3474b6",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-zibinxu",
+      "url": "https://www.cb.cityu.edu.hk/staff/zibinxu/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/zibinxu/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "7bd148ed204f32886638ced8c4bb960499d30c5a8dfad147c6f126f18a5b061b",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-chivincentwong",
+      "url": "https://www.cb.cityu.edu.hk/staff/zhiwang4/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/zhiwang4/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4a00fcccdc640eaa244feebe16d029021bb39f93ac38377303eb81616123af91",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-zhilinyang",
+      "url": "https://www.cb.cityu.edu.hk/staff/mkzyang/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/mkzyang/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "50aba68e61525f713efdef172cbdb4b10dff314e0f693b3b1a30ec0de846ec86",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-huazhongzhao",
+      "url": "https://www.cb.cityu.edu.hk/staff/huazzhao/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/huazzhao/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "660d3222b78f04b075f7af6d0852030a271424dfa501a1ce59de26d934a51a17",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-xuzheng",
+      "url": "https://www.cb.cityu.edu.hk/staff/xuzheng/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/xuzheng/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "e1f583823279b3cb3e1a4597b6f0e95c15509391f0a7ec3d663bd65f28c0ae39",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-jiajiacong",
+      "url": "https://www.cb.cityu.edu.hk/staff/jiajcong/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/jiajcong/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "2ccf0a1eb51101c7e731c02b790436a5ff93406624269fbd1ce6166d8dde1835",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-saulanfannycheung",
+      "url": "https://www.cb.cityu.edu.hk/staff/mkfach/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/mkfach/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "de283fe8beabdc10e38686204f647171298ed7a17773d878bc9eea23e5d506a6",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "carnegie-mellon-xiaohang-flora-feng",
+      "url": "https://www.cb.cityu.edu.hk/staff/xifeng/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/xifeng/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "8df1992a3cb9ab158ebb8d789dd49c2506c968a45108056d7f48eb511915e17b",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-zhilinyang_cv",
+      "url": "https://scholars.cityu.edu.hk/ws/portalfiles/portal/cv/5a6b397d-4ae5-4a53-8bf5-be284c989156?locale=en_GB",
+      "final_url": "https://scholars.cityu.edu.hk/ws/portalfiles/portal/cv/5a6b397d-4ae5-4a53-8bf5-be284c989156?locale=en_GB",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "cef1c5bf296089455234e9802d70b4b2b517df4249fddb200373118bec89dafd",
+      "pages_read": 4,
+      "total_pages": 17,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-chutianwang",
+      "url": "https://www.cb.cityu.edu.hk/staff/chutwang/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/chutwang/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "8a10d332ffb0a52daf5190648eae5005e8ff2b5888737c8776d5d80e083ca6e2",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-vincentiayuen",
+      "url": "https://www.cb.cityu.edu.hk/staff/wsyen2/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/wsyen2/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "297c029da35345ebfb6411ac576282274752fe8db4939229039952dc48ef0fb4",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-esterinanervino",
+      "url": "https://www.cb.cityu.edu.hk/staff/enervino/",
+      "final_url": "https://www.cb.cityu.edu.hk/staff/enervino/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "67250e0cd442dea6102dce104cc1fabd78378111d2ee577a4e34f555292b54cc",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-caiyuanma",
+      "url": "https://scholars.cityu.edu.hk/en/persons/caiyuanma2/",
+      "final_url": "https://scholars.cityu.edu.hk/en/persons/caiyuanma2/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "07572bffa50467887b98df36488916a53f3b5c1e7245e24ac91a790dd8248c06",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-ivychudang",
+      "url": "https://www.hkubs.hku.hk/people/chu-ivy-dang/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-jingcuncao",
+      "url": "https://www.hkubs.hku.hk/people/jingcun-cao/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-shanhuang",
+      "url": "https://www.hkubs.hku.hk/people/shan-huang/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-michaelhejia",
+      "url": "https://www.hkubs.hku.hk/people/michael-he-jia/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-takzhongqianghuang",
+      "url": "https://www.hkubs.hku.hk/people/tak-zhongqiang-huang/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-sarakim",
+      "url": "https://www.hkubs.hku.hk/people/sara-kim/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-tuanquangphan",
+      "url": "https://mba.hkubs.hku.hk/zh/our-faculty/dr-tuan-phan/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: mba.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-tianyili",
+      "url": "https://www.hkubs.hku.hk/people/tianyi-li/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-echowenwan",
+      "url": "https://www.hkubs.hku.hk/people/echo-wen-wan/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-kevinzhengzhou",
+      "url": "https://www.hkubs.hku.hk/people/kevin-zheng-zhou/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-vincentpengzhang",
+      "url": "https://www.hkubs.hku.hk/people/peng-zhang/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-bennettchikinyim",
+      "url": "https://www.hkubs.hku.hk/tc/people/bennett-chi-kin-yim/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: www.hkubs.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "university-of-pittsburgh-theresa-tess-kwon",
+      "url": "http://theresakwon.com",
+      "final_url": "https://www.theresakwon.com/",
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "f2086cc01aa45e7a94f30ff06412388aac64b1e1fce513a1a761a729701b7bf8",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-university-of-hong-kong-yufeng",
+      "url": "https://www.hkubs.hku.hk/people/yu-feng/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Client network socket disconnected before secure TLS connection was established",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-liangguo_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=A8C47DD8601B4058477EA8B094246125",
+      "final_url": null,
+      "http_status": 404,
+      "error": null,
+      "cause": null,
+      "sha256": "f9e2ac474709eebde6de160310ecce261f9f710bd208081ebc6ec7db8c18b93f",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-chivincentwong_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=1CF810B70BD94C0C55AE4392ED6F2BA0",
+      "final_url": null,
+      "http_status": 404,
+      "error": null,
+      "cause": null,
+      "sha256": "67af44787b5dec7b323f214c395801d6e22391d5b41a2356b488d673f58b53b2",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-esterinanervino_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=C771BF4A68E35A603BBAD8915D76C6AB",
+      "final_url": null,
+      "http_status": 404,
+      "error": null,
+      "cause": null,
+      "sha256": "557a10711e7864a24e54f69ea1015afb9c9bbbb628d18c2840f8b6a07b5507dc",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-xuzheng_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=087DACD6576C86BAB824A116AA3375AA",
+      "final_url": null,
+      "http_status": 404,
+      "error": null,
+      "cause": null,
+      "sha256": "31c276d9f8d8b9589640cb7c5d84a96f462fca60f95e25d0a28e9a8226120289",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "qihui_personal",
+      "url": "https://sites.google.com/view/qhchen",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "3570a2815fa64da5a633734c00ce574a873b07561eaa86fd0d71c4a6fc305fe3",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-yiminyu_cv",
+      "url": "https://sites.google.com/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=0E9AF8C6214151563BF70A4716609B90",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "09cdb1565044c8c420ed9157a678f34d4da8cb39e2731dd647a8d2d810f4a8eb",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "jialiu_personal",
+      "url": "https://jialiu.people.ust.hk/",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "ec6c30b4640ed442e0a98df5a076fc040721d467d51ab5bbac6150cdf672a4f3",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "sangkyu_personal",
+      "url": "https://sites.google.com/view/sang-kyu-park/home",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "9dc5cd987f9784431224d8c8190dcf848a56e7b99aa4db27672369a1fdaf15db",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "jiajiacong_personal",
+      "url": "https://sites.google.com/site/jiajiacong/",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "1678952bf9caf29b97813aaa723a3c7ef5a978ed2a42c2c46726e12448af1283",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "stylianos_personal",
+      "url": "https://stedes.com/",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "b04d80ce5c5ed5236d58ad9e020b7654439d77653b908b728c0e23eac989e5ca",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "leisu_personal",
+      "url": "https://su-lei-marketing.netlify.app",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "5d69f04f15520aa4f2f1b4d8355e623b748e8038d4332ea4cb129332378c6eb5",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "jialiu_cv",
+      "url": "https://jialiu.people.ust.hk/JiaLiu_CV.pdf",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "225d9bdc023fb5be757529f41931ef6efc521a1d39e3e701b70353518eaa014d",
+      "pages_read": 4,
+      "total_pages": 13,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "jiajiacong_cv",
+      "url": "https://drive.google.com/uc?export=download&id=1JmoVI2DURzjkVpWRMOb6chjJ1SoHaGVO",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "5493ba55cbcccd1edbc6fa4968cd9ad3be02bd76de4ca422c1defc68d34725cc",
+      "pages_read": 4,
+      "total_pages": 4,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "sangkyu_cv",
+      "url": "https://drive.google.com/uc?export=download&id=1Osf1s4YkaISAlxc45PBu_sAHkO1WbAVS",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "6e7fda046a92ec718d04f7cc9e47e0dec952b17d8123d65194b591318354a084",
+      "pages_read": 4,
+      "total_pages": 6,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "shan_personal",
+      "url": "https://www.shanhhuang.com/",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "e26ae67c1c39958c53fe85a56b0ed4ae7b0daf243bf848d711c065ca78395272",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "tuan_personal",
+      "url": "https://www.tuanqphan.us",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "f7a4c4fa0212ab0ffcd02b5a1b3b8e4d3d2ec878fd88dc95086410afaf205c80",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "sara_cv",
+      "url": "https://repository.hku.hk/cris/rp/fileservice/rp01613/35/?filename=cv.pdf",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: repository.hku.hk:443, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "kevin_personal",
+      "url": "http://pweb.fbe.hku.hk/~kevinzhou/",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Connect Timeout Error (attempted address: pweb.fbe.hku.hk:80, timeout: 10000ms)",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ho_profile",
+      "url": "https://www.ntu.edu.sg/about-us/university-leadership/profiles/professor-ho-teck-hua",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "1b7305814cfcb769eba9a4bd1ed57292a61c748e776928ad39b84896031197e3",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "kuangjie_alumni",
+      "url": "https://www.insead.edu/system/files/2023-10/phd-alumni-asia.pdf",
+      "final_url": null,
+      "http_status": 403,
+      "error": null,
+      "cause": null,
+      "sha256": "0dec04c560e226155e42fe060d6af14489c63d27f7d001c8b66621c49d39b077",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "sharon_cv",
+      "url": "https://personal.ntu.edu.sg/angsl/Sharon_CV_2021_web.pdf",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "e21a3b37407a4e17e7dc99f516b03bea4b74dc6ffc931b651434c21d35b64f60",
+      "pages_read": 4,
+      "total_pages": 11,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "kyuree_alumni",
+      "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+      "final_url": null,
+      "http_status": null,
+      "error": "fetch failed",
+      "cause": "Client network socket disconnected before secure TLS connection was established",
+      "sha256": null,
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "yimin_cv_correct",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=0E9AF8C6214151563BF70A4716609B90",
+      "final_url": null,
+      "http_status": 404,
+      "error": null,
+      "cause": null,
+      "sha256": "f085fc328cfe535a18549c1386c31f69805330a6618832bded49075a4763dcfb",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "shan_cv",
+      "url": "https://www.shanhhuang.com/_files/ugd/bcd769_1423fca52f694fa694b73b65d58ef5a9.pdf",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "de154173e83dca70e7da1bd1727bbb7f52171cdffae3f8a94a79780da703f34c",
+      "pages_read": 4,
+      "total_pages": 7,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ntu_faculty",
+      "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-faculty",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "d4527640df0776dacd35fb98799a4db159add5bd19e6fd89dac7c134b2764897",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_liang",
+      "url": "https://www.cb.cityu.edu.hk/zh-cn/cb2025/people-and-research/people/people-details?eid=lianguo",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "ed1d1e17da55298bfdb282775e822379b892d907330a88217d05dd8a16567da7",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "qihui_profile",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qihui-chen-qihuichen",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "adcec5199370609de469c922449efdd0d56b10a2c235ffcb3644db6236a87af2",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "jiewen_profile",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jiewen-hong-mkjiewen",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "587c3f550f8b2ddfee2db7728049f188d3c3565d95f2d049ed0285d65dc3e8aa",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "liang_new_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=198226.pdf&eid=lianguo&checksum=9E6553BEB086516F07D97B9A17FDB528",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "b126ab66fc3c50b7710a3f20228abb37fa350c81a5d16a99f95590d38729af99",
+      "pages_read": 4,
+      "total_pages": 6,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_wong",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=zhiwang4",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "f0625634a12cf2a64d7e434fa6ebd5bd630ed15eba99c927aae2095297aefcae",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_yimin",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yiminyu",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "983580a305a7e702797cdf357a9985af8d8433950fda3097696b5a0e9273f51b",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_xuzheng",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=xuzheng",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "0c7338af3449d03824f9293721463f6ec242693b8367679062c7fe9d139e5d64",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_nervino",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=enervino",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4eb6714514e57297994fab1c4784a82eef07ee4c7395b6820c8d4096208a5ee1",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ntu_julien",
+      "url": "https://dr.ntu.edu.sg/cris/rp/rp00701",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4a55c2c4312ba76f58589d398d0e9f7f22de48e59c662c22f906c5afd4991caf",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ntu_elaine",
+      "url": "https://dr.ntu.edu.sg/cris/rp/rp00928",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4a55c2c4312ba76f58589d398d0e9f7f22de48e59c662c22f906c5afd4991caf",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ntu_kuangjie",
+      "url": "https://dr.ntu.edu.sg/cris/rp/rp00940",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4a55c2c4312ba76f58589d398d0e9f7f22de48e59c662c22f906c5afd4991caf",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ntu_sadat",
+      "url": "https://dr.ntu.edu.sg/cris/rp/rp00781",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4a55c2c4312ba76f58589d398d0e9f7f22de48e59c662c22f906c5afd4991caf",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "ntu_kyuree",
+      "url": "https://dr.ntu.edu.sg/cris/rp/rp02460",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "4a55c2c4312ba76f58589d398d0e9f7f22de48e59c662c22f906c5afd4991caf",
+      "pages_read": null,
+      "total_pages": null,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_wong_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=204032.pdf&eid=zhiwang4&checksum=4F719DEE640A482FF4ECD4FA39295CE6",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "38337cc817b879585d961e6dfcf762cb3825a696b8071e5200681208fc57b580",
+      "pages_read": 4,
+      "total_pages": 9,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_yimin_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=E3FA057F95F1402E53B97A48703BDF47",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "542e9cb380f1ba0f63f239972f4c8ddd8133d32877f733f3138959b04941942b",
+      "pages_read": 3,
+      "total_pages": 3,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_xuzheng_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=202767.pdf&eid=xuzheng&checksum=CAC1A5BC2C6824E5EFC90083D2C4BCEF",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "b8ce3252b7000b9f3b48925c6ecab35888f46f89f461bf7bac43e285812722f6",
+      "pages_read": 4,
+      "total_pages": 8,
+      "checked_at": "2026-10-22"
+    },
+    {
+      "id": "cityu_new_nervino_cv",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=203861.pdf&eid=enervino&checksum=E6C2AB4EB2C9CA44C4B3F7398A74CB50",
+      "final_url": null,
+      "http_status": 200,
+      "error": null,
+      "cause": null,
+      "sha256": "fbb5ee73290709f293ae8504baae8ab73ad1dbdb1cdabc46702d8a489a0379f0",
+      "pages_read": 4,
+      "total_pages": 20,
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "summary": {
+    "people_revised": 20,
+    "people_added": 0,
+    "hosts": 7,
+    "phd_year_before": 0,
+    "phd_year_after": 16,
+    "phd_year_new": 16,
+    "dated_career_segments_before": 11,
+    "dated_career_segments_after": 45,
+    "dated_career_segments_net_added": 34,
+    "people_with_dated_career_before": 5,
+    "people_with_dated_career_after": 14
+  },
+  "review_notes": [
+    "只更新既有稳定ID，不增减学校目录完整性声明；本批未apply。",
+    "所有新博士年有含年份的原文定位；不将一般placement、任职、版权、奖项或fellowship年度当作授位年。",
+    "来源摘要和实际访问失败保留在source_checks；URL返回200但正文不符或JS空壳不视为已核履历。"
+  ]
+}

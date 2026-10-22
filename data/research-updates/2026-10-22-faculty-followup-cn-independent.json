@@ -1,0 +1,4923 @@
+{
+  "batch_id": "faculty-followup-cn-independent-2026-10-22",
+  "checked_at": "2026-10-22",
+  "status": "frozen",
+  "baseline": {
+    "faculty_sha256": "8ffa7d2f088f468c6f7a8222e0c776f9d3595af30e302d9a6d7f2fbd569deab5",
+    "note": "Full existing profiles copied before this independent review; old sources and dates retained."
+  },
+  "schools": [],
+  "people": [
+    {
+      "name": "才凤艳",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "特聘教授",
+        "start_year": 2024,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Chinese University of Hong Kong",
+        "program": "Marketing",
+        "region": "HK",
+        "year": 2011
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "才凤艳",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2011年毕业于香港中文大学，获得市场营销方向的博士学位。",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2011.08-- 2015.07 上海交通大学安泰经济与管理学院 讲师",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2015.08--2019.08 上海交通大学安泰经济与管理学院 副教授 博士生导师",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2019.09--2022.07 上海交通大学安泰经济与管理学院 副教授（长聘） 博士生导师",
+          "supports": [
+            "career_events.3"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2022.08-- 2024.06 上海交通大学安泰经济与管理学院 教授 博士生导师",
+          "supports": [
+            "career_events.4"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2024.07-- 上海交通大学安泰经济与管理学院 特聘教授 博士生导师",
+          "supports": [
+            "career_events.5"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2024.07-- 上海交通大学安泰经济与管理学院 特聘教授 博士生导师",
+          "supports": [
+            "current.role",
+            "current.start_year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "才凤艳"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "讲师",
+          "start_year": 2011,
+          "end_year": 2015,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+          ],
+          "quote": "2011.08-- 2015.07 上海交通大学安泰经济与管理学院 讲师",
+          "start": "2011-08",
+          "end": "2015-07"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "副教授",
+          "start_year": 2015,
+          "end_year": 2019,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+          ],
+          "quote": "2015.08--2019.08 上海交通大学安泰经济与管理学院 副教授 博士生导师",
+          "start": "2015-08",
+          "end": "2019-08"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "副教授（长聘）",
+          "start_year": 2019,
+          "end_year": 2022,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+          ],
+          "quote": "2019.09--2022.07 上海交通大学安泰经济与管理学院 副教授（长聘） 博士生导师",
+          "start": "2019-09",
+          "end": "2022-07"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "教授",
+          "start_year": 2022,
+          "end_year": 2024,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+          ],
+          "quote": "2022.08-- 2024.06 上海交通大学安泰经济与管理学院 教授 博士生导师",
+          "start": "2022-08",
+          "end": "2024-06"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "特聘教授",
+          "start_year": 2024,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "current_at_check",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+          ],
+          "quote": "2024.07-- 上海交通大学安泰经济与管理学院 特聘教授 博士生导师",
+          "start": "2024-07"
+        }
+      ],
+      "unknowns": [],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-才凤艳",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-才凤艳",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "顾锋",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Shanghai Jiao Tong University",
+        "program": "Enterprise Management",
+        "region": "CN",
+        "year": 2000
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/gufeng.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "顾锋",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/gufeng.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "58fe29041a5f9dcc0975a6099dad9ff06eeb679f1a817156a2a24143319b9917",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/gufeng.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/gufeng.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2000年毕业于上海交通大学管理学院企业管理系，管理学博士。",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "58fe29041a5f9dcc0975a6099dad9ff06eeb679f1a817156a2a24143319b9917",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/gufeng.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "顾锋"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "career_events",
+          "reason": "官方主页列历次职务但未列任职年月，不能由博士年或职务顺序推算。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/gufeng.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-顾锋",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-顾锋",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/gufeng.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "井淼",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "副教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Shanghai Jiao Tong University",
+        "program": "Enterprise Management",
+        "region": "CN",
+        "year": 2006
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://acem.sjtu.edu.cn/faculty/jingmiao.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "井淼",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：副教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "e28237ef127866e1dd580865ae3ab36f7f06eb6220348ad7f11ed36992671640",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2002.3-2006.3 上海交通大学安泰经济与管理学院企业管理专业博士研究生，获管理学博士学位",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "e28237ef127866e1dd580865ae3ab36f7f06eb6220348ad7f11ed36992671640",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "自2000年8月到交大任职至今",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "e28237ef127866e1dd580865ae3ab36f7f06eb6220348ad7f11ed36992671640",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2010.8-2011.8 美国南加州大学（University of Southern California）访问学者",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "e28237ef127866e1dd580865ae3ab36f7f06eb6220348ad7f11ed36992671640",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "井淼"
+        },
+        {
+          "type": "joined_institution",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "到交大任职（职级起点未知）",
+          "start_year": 2000,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "current_at_check",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+          ],
+          "quote": "自2000年8月到交大任职至今",
+          "start": "2000-08"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "University of Southern California",
+          "role": "访问学者",
+          "start_year": 2010,
+          "end_year": 2011,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+          ],
+          "quote": "2010.8-2011.8 美国南加州大学（University of Southern California）访问学者",
+          "start": "2010-08",
+          "end": "2011-08"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "2000年8月仅为到校任职年，不能作为副教授晋升年。",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-井淼",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-井淼",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://acem.sjtu.edu.cn/faculty/jingmiao.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "刘益",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "讲席教授",
+        "start_year": 2019,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Xi'an Jiaotong University",
+        "program": "Management Engineering (China–Canada joint doctoral training)",
+        "region": "CN",
+        "year": 1994
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "刘益",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1994年在西安交通大学获管理工程中-加联合培养博士学位",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1982.8-1984.7 河南科技大学 助教",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1987.7-1990.10 西安交通大学助教",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1990.11--1994.12 西安交通大学讲师",
+          "supports": [
+            "career_events.3"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1994.12--2000.12 西安交通大学副教授",
+          "supports": [
+            "career_events.4"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2000.12--2010.04 西安交通大学 教授、博士生导师",
+          "supports": [
+            "career_events.5"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2010.04--2019.06 上海交通大学特聘教授、博士生导师",
+          "supports": [
+            "career_events.6"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2019.06--至今 上海交通大学讲席教授、博士生导师",
+          "supports": [
+            "career_events.7"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2019.06--至今 上海交通大学讲席教授、博士生导师",
+          "supports": [
+            "current.role",
+            "current.start_year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "刘益"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Henan University of Science and Technology",
+          "role": "助教",
+          "start_year": 1982,
+          "end_year": 1984,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+          ],
+          "quote": "1982.8-1984.7 河南科技大学 助教",
+          "start": "1982-08",
+          "end": "1984-07"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Xi'an Jiaotong University",
+          "role": "助教",
+          "start_year": 1987,
+          "end_year": 1990,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+          ],
+          "quote": "1987.7-1990.10 西安交通大学助教",
+          "start": "1987-07",
+          "end": "1990-10"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Xi'an Jiaotong University",
+          "role": "讲师",
+          "start_year": 1990,
+          "end_year": 1994,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+          ],
+          "quote": "1990.11--1994.12 西安交通大学讲师",
+          "start": "1990-11",
+          "end": "1994-12"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Xi'an Jiaotong University",
+          "role": "副教授",
+          "start_year": 1994,
+          "end_year": 2000,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+          ],
+          "quote": "1994.12--2000.12 西安交通大学副教授",
+          "start": "1994-12",
+          "end": "2000-12"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Xi'an Jiaotong University",
+          "role": "教授",
+          "start_year": 2000,
+          "end_year": 2010,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+          ],
+          "quote": "2000.12--2010.04 西安交通大学 教授、博士生导师",
+          "start": "2000-12",
+          "end": "2010-04"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "特聘教授",
+          "start_year": 2010,
+          "end_year": 2019,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+          ],
+          "quote": "2010.04--2019.06 上海交通大学特聘教授、博士生导师",
+          "start": "2010-04",
+          "end": "2019-06"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "讲席教授",
+          "start_year": 2019,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "current_at_check",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+          ],
+          "quote": "2019.06--至今 上海交通大学讲席教授、博士生导师",
+          "start": "2019-06"
+        }
+      ],
+      "unknowns": [],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-刘益",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-刘益",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://acem.sjtu.edu.cn/faculty/liuyi.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "张铄",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "副教授",
+        "start_year": 2023,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Washington University in St. Louis",
+        "program": "Economics",
+        "region": "US",
+        "year": 2020
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "张铄",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：副教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "a3234732e204c723e69b12467031b9cf035b90849d6beee2dd0c05fd88190412",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2014-2020 美国圣路易斯华盛顿大学 经济学博士",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "a3234732e204c723e69b12467031b9cf035b90849d6beee2dd0c05fd88190412",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2020-2023 上海交通大学安泰经济与管理学院营销系 助理教授",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "a3234732e204c723e69b12467031b9cf035b90849d6beee2dd0c05fd88190412",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2023- 上海交通大学安泰经济与管理学院营销系 副教授",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "a3234732e204c723e69b12467031b9cf035b90849d6beee2dd0c05fd88190412",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2023- 上海交通大学安泰经济与管理学院营销系 副教授",
+          "supports": [
+            "current.start_year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "a3234732e204c723e69b12467031b9cf035b90849d6beee2dd0c05fd88190412",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "张铄"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "助理教授",
+          "start_year": 2020,
+          "end_year": 2023,
+          "date_precision": "year",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+          ],
+          "quote": "2020-2023 上海交通大学安泰经济与管理学院营销系 助理教授"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "副教授",
+          "start_year": 2023,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "current_at_check",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+          ],
+          "quote": "2023- 上海交通大学安泰经济与管理学院营销系 副教授"
+        }
+      ],
+      "unknowns": [],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-张铄",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-张铄",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "余明阳",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Fudan University",
+        "program": null,
+        "region": "CN",
+        "year": 1996
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://acem.sjtu.edu.cn/faculty/yumingyang.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "余明阳",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "48fba4b42a198601bab585dfd20348cfb1ce76105fc433924351a45e047d1106",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "复旦大学管理学院博士研究生（博士，1996）",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "48fba4b42a198601bab585dfd20348cfb1ce76105fc433924351a45e047d1106",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "曾担任或兼任《学习与思考》、《青年问题》、《开发》等杂志记者（1983-1988）",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "48fba4b42a198601bab585dfd20348cfb1ce76105fc433924351a45e047d1106",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "曾兼任《东方世纪》（澳门）杂志总编辑（1996-2000）",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "48fba4b42a198601bab585dfd20348cfb1ce76105fc433924351a45e047d1106",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "曾担任四川沱牌曲酒股份有限公司（上市公司）总经理（2000-2002）",
+          "supports": [
+            "career_events.3"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "48fba4b42a198601bab585dfd20348cfb1ce76105fc433924351a45e047d1106",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "余明阳"
+        },
+        {
+          "type": "industry",
+          "job_kind": "industry",
+          "institution": "Publications: 学习与思考 / 青年问题 / 开发",
+          "role": "记者",
+          "start_year": 1983,
+          "end_year": 1988,
+          "date_precision": "year",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+          ],
+          "quote": "曾担任或兼任《学习与思考》、《青年问题》、《开发》等杂志记者（1983-1988）"
+        },
+        {
+          "type": "industry",
+          "job_kind": "industry",
+          "institution": "东方世纪（澳门）",
+          "role": "总编辑（兼任）",
+          "start_year": 1996,
+          "end_year": 2000,
+          "date_precision": "year",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+          ],
+          "quote": "曾兼任《东方世纪》（澳门）杂志总编辑（1996-2000）"
+        },
+        {
+          "type": "industry",
+          "job_kind": "industry",
+          "institution": "四川沱牌曲酒股份有限公司",
+          "role": "总经理",
+          "start_year": 2000,
+          "end_year": 2002,
+          "date_precision": "year",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+          ],
+          "quote": "曾担任四川沱牌曲酒股份有限公司（上市公司）总经理（2000-2002）"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.program",
+          "reason": "官方教育栏明确复旦博士1996，但未单列博士专业；管理科学与工程出现在博士后条目，不能当作博士专业。",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "博士后条目的1999、2004未明确起止含义，不生成完整区间；交大职级起点未知。",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-余明阳",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-余明阳",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://acem.sjtu.edu.cn/faculty/yumingyang.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "陈洁",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": null,
+        "program": null,
+        "region": null,
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "陈洁",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2001年2月-2002年2月 德国康斯坦兹大学学术交流",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2004年7月-2004年9月 加拿大UBC大学暑期访问",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2007年8月－2008年 美国哥伦比亚大学商学院市场营销系全球品牌领导研究中心",
+          "supports": [
+            "career_events.3"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2008年12月-2009年2月 香港科技大学访问学者",
+          "supports": [
+            "career_events.4"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2011年9月-2012年8月 美国西北大学凯洛格商学院",
+          "supports": [
+            "career_events.5"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2014年5月-2014年6月 瑞典延雪平大学商学院",
+          "supports": [
+            "career_events.6"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2015年3月-2016年3月 夏威夷大学",
+          "supports": [
+            "career_events.7"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2024年8月-2024年8月 英国诺丁汉特伦特大学诺丁汉商学院",
+          "supports": [
+            "career_events.8"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "陈洁"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "University of Konstanz",
+          "role": "学术交流",
+          "start_year": 2001,
+          "end_year": 2002,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2001年2月-2002年2月 德国康斯坦兹大学学术交流",
+          "start": "2001-02",
+          "end": "2002-02"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "University of British Columbia",
+          "role": "暑期访问",
+          "start_year": 2004,
+          "end_year": 2004,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2004年7月-2004年9月 加拿大UBC大学暑期访问",
+          "start": "2004-07",
+          "end": "2004-09"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Columbia University",
+          "role": "访问/学术交流（官方履历片段）",
+          "start_year": 2007,
+          "end_year": 2008,
+          "date_precision": "mixed",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2007年8月－2008年 美国哥伦比亚大学商学院市场营销系全球品牌领导研究中心",
+          "start": "2007-08",
+          "start_precision": "month",
+          "end_precision": "year"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Hong Kong University of Science and Technology",
+          "role": "访问学者",
+          "start_year": 2008,
+          "end_year": 2009,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2008年12月-2009年2月 香港科技大学访问学者",
+          "start": "2008-12",
+          "end": "2009-02"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Northwestern University",
+          "role": "访问/学术交流（官方履历片段）",
+          "start_year": 2011,
+          "end_year": 2012,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2011年9月-2012年8月 美国西北大学凯洛格商学院",
+          "start": "2011-09",
+          "end": "2012-08"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Jönköping University",
+          "role": "访问/学术交流（官方履历片段）",
+          "start_year": 2014,
+          "end_year": 2014,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2014年5月-2014年6月 瑞典延雪平大学商学院",
+          "start": "2014-05",
+          "end": "2014-06"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "University of Hawaii",
+          "role": "访问/学术交流（官方履历片段）",
+          "start_year": 2015,
+          "end_year": 2016,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2015年3月-2016年3月 夏威夷大学",
+          "start": "2015-03",
+          "end": "2016-03"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Nottingham Trent University",
+          "role": "访问/学术交流（官方履历片段）",
+          "start_year": 2024,
+          "end_year": 2024,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ],
+          "quote": "2024年8月-2024年8月 英国诺丁汉特伦特大学诺丁汉商学院",
+          "start": "2024-08",
+          "end": "2024-08"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "当前官方个人页不列博士授予年月；不从访学、入职或获奖年推算。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-陈洁",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-陈洁",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/chenjie.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "伍青生",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Shanghai Jiao Tong University",
+        "program": null,
+        "region": "CN",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "伍青生",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "38608065aca41a004ce1b63092794153c7f4b80673c3cfae1505a1501a455e2c",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "上海交通大学，博士",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "38608065aca41a004ce1b63092794153c7f4b80673c3cfae1505a1501a455e2c",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2008.08~2009.07 美国哥伦比亚大学访问学者",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "38608065aca41a004ce1b63092794153c7f4b80673c3cfae1505a1501a455e2c",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2013.08~2014.07 美国富布赖特研究学者（印第安纳大学）",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "38608065aca41a004ce1b63092794153c7f4b80673c3cfae1505a1501a455e2c",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "伍青生"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Columbia University",
+          "role": "访问学者",
+          "start_year": 2008,
+          "end_year": 2009,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+          ],
+          "quote": "2008.08~2009.07 美国哥伦比亚大学访问学者",
+          "start": "2008-08",
+          "end": "2009-07"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Indiana University",
+          "role": "富布赖特研究学者",
+          "start_year": 2013,
+          "end_year": 2014,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+          ],
+          "quote": "2013.08~2014.07 美国富布赖特研究学者（印第安纳大学）",
+          "start": "2013-08",
+          "end": "2014-07"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "教育背景列上海交大博士，但不列授予年。",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-伍青生",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-伍青生",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "庄晖",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "讲师",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Shanghai Jiao Tong University",
+        "program": null,
+        "region": "CN",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "庄晖",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：讲师",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "29f3bbad6f8f2e5a2336cb3299e47541eac151bcb02dfa8ac415eb8ff0b8a96b",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "后就读于上海交通大学管理学院，获博士学位。",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "29f3bbad6f8f2e5a2336cb3299e47541eac151bcb02dfa8ac415eb8ff0b8a96b",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2001 2003年 就职于世纪联融股份有限公司",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "29f3bbad6f8f2e5a2336cb3299e47541eac151bcb02dfa8ac415eb8ff0b8a96b",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2003 至今 就职于上海交通大学管理学院",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "29f3bbad6f8f2e5a2336cb3299e47541eac151bcb02dfa8ac415eb8ff0b8a96b",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "庄晖"
+        },
+        {
+          "type": "industry",
+          "job_kind": "industry",
+          "institution": "世纪联融股份有限公司",
+          "role": "任职（原文未列职务）",
+          "start_year": 2001,
+          "end_year": 2003,
+          "date_precision": "year",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+          ],
+          "quote": "2001 2003年 就职于世纪联融股份有限公司"
+        },
+        {
+          "type": "joined_institution",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "到校任职（讲师职级起点未知）",
+          "start_year": 2003,
+          "end_year": null,
+          "date_precision": "year",
+          "status": "current_at_check",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+          ],
+          "quote": "2003 至今 就职于上海交通大学管理学院"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "博士授予年没有列明；2003是任职年，不作博士年。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-庄晖",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-庄晖",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "王良燕",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "University of California (Paul Merage School of Business)",
+        "program": "Management",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://acem.sjtu.edu.cn/faculty/wangliangyan.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "王良燕",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/wangliangyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "e56680db34334dfd7bc9d5f19d3823568150c9bfc16d4294b07486a294076847",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/wangliangyan.html"
+        },
+        {
+          "url": "https://acem.sjtu.edu.cn/faculty/wangliangyan.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "毕业于美国加州大学Paul Merage商学院，获管理学博士学位。",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "e56680db34334dfd7bc9d5f19d3823568150c9bfc16d4294b07486a294076847",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://acem.sjtu.edu.cn/faculty/wangliangyan.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "王良燕"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "官方简介未列博士授予年；保留原始学院称呼，不凭同名推断学位年月。",
+          "source_urls": [
+            "https://acem.sjtu.edu.cn/faculty/wangliangyan.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-王良燕",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-王良燕",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://acem.sjtu.edu.cn/faculty/wangliangyan.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "周颖",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "副教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Shanghai Jiao Tong University",
+        "program": null,
+        "region": "CN",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/zhouying.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "周颖",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhouying.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：副教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "82fa396df6b5227e4fabc5d8157a1a06df8042346eb8d73ce431f8170c9de661",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhouying.html"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/zhouying.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "周颖 上海交通大学博士",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "82fa396df6b5227e4fabc5d8157a1a06df8042346eb8d73ce431f8170c9de661",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/zhouying.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "周颖"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "官方简介只列上海交通大学博士，未列授予年。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/zhouying.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-周颖",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-周颖",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/zhouying.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "李杰",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "副教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": null,
+        "program": null,
+        "region": null,
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/lijie.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "李杰",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/lijie.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：副教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "fd7ed9febbc56b35055b1eb53c123f3f66846f44f936f035da368200f6c1b976",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/lijie.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "李杰"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮实际读取的官方教师页没有博士授予日期；该页的职称不能用于推算学位年。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/lijie.html"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "未读到可核定的任职起止年月。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/lijie.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-李杰",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-李杰",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/lijie.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "沈靓",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "助理教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": null,
+        "program": null,
+        "region": null,
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/shenliang.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "沈靓",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/shenliang.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：助理教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "f194ca7106345048d8ab18838a6de670baa841b516ff293a9bdbc4d7e8140f3b",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/shenliang.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "沈靓"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮实际读取的官方教师页没有博士授予日期；该页的职称不能用于推算学位年。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/shenliang.html"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "未读到可核定的任职起止年月。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/shenliang.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-沈靓",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-沈靓",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/shenliang.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "史正煜",
+      "aliases": [
+        "Zhengyu Shi"
+      ],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "助理教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "University of Hong Kong",
+        "program": null,
+        "region": null,
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "史正煜",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "职 称：助理教授",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "d3116dde34318aeb26555a5a9ad7c80575b93d791ce2356871aade01cc1de9e9",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "史正煜"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮实际读取的官方教师页没有博士授予日期；该页的职称不能用于推算学位年。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "未读到可核定的任职起止年月。",
+          "source_urls": [
+            "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "hku-zhengyu-shi",
+      "placement_id": "hku-zhengyu-shi",
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "identity_evidence": {
+        "basis": "原有官方营销系目录与个人官方主页的中文姓名、营销系及同一机构电子邮箱逐项对齐；非仅按姓名合并。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      },
+      "legacy_degree_year": {
+        "value": 2024,
+        "source_urls": [
+          "https://phd.hkubs.hku.hk/People/graduate-placement",
+          "https://www.rmbs.ruc.edu.cn/xwzx/jzhd/d27a203f8dc84eb1b589588cf02d7102.htm",
+          "https://hub.hku.hk/handle/10722/344156",
+          "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html"
+        ],
+        "status": "not_reverified_in_faculty_batch"
+      },
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "hku-zhengyu-shi",
+      "first_job_status": "not_asserted"
+    },
+    {
+      "name": "吕巍",
+      "aliases": [],
+      "host_id": "sjtu",
+      "current": {
+        "institution": "Shanghai Jiao Tong University",
+        "region": "CN",
+        "role": "教授",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Fudan University",
+        "program": "Economics",
+        "region": "CN",
+        "year": 1996
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "label": "官方MIS目录搜索索引",
+          "quote": "吕巍",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1991.02 —1996.06复旦大学经济管理系博士研究生 获经济学博士学位",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2016.06 —2016.08美国麻省理工学院斯隆管理学院 高级访问学者",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2002.04 —2002.06法国INSEAD管理学院 高级访问学者",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2001.01 —2001.06美国麻省理工学院斯隆管理学院 高级访问学者",
+          "supports": [
+            "career_events.3"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1996.09 —1997.01美国麻省理工学院斯隆管理学院 高级访问学者",
+          "supports": [
+            "career_events.4"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1994.10 —1996.04美国南加州大学商学院 访问学者",
+          "supports": [
+            "career_events.5"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2014.10 —今交通大学安泰经济与管理学院工商管理市场营销系教授、博导",
+          "supports": [
+            "career_events.6"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2004.01 — 2014.10交通大学安泰经济与管理学院工商管理系交通大学安泰经济与管理学院教授、博导副院长",
+          "supports": [
+            "career_events.7"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2003.04 — 2003.12交通大学安泰管理学院工商管理系交通大学安泰管理学院教授副院长",
+          "supports": [
+            "career_events.8"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2001.11— 2003.03 复旦大学管理学院市场营销系复旦大学管理学院教授院长助理",
+          "supports": [
+            "career_events.9"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1997.02 — 2000.12复旦大学管理学院经济管理系复旦大学管理学院复旦大学管理学院IMBA项目复旦大学管理学院北欧项目副教授院长助理主任主任",
+          "supports": [
+            "career_events.10"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1991.08 — 1996.03复旦大学管理学院经济管理系讲师",
+          "supports": [
+            "career_events.11"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1989.08 — 1991.08复旦大学管理学院经济管理系助教",
+          "supports": [
+            "career_events.12"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        },
+        {
+          "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "吕巍，上海交通大学安泰经济与管理学院教授、博士生导师。",
+          "supports": [
+            "current.role",
+            "homepage"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Shanghai Jiao Tong University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ],
+          "quote": "吕巍"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Massachusetts Institute of Technology",
+          "role": "高级访问学者",
+          "start_year": 2016,
+          "end_year": 2016,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "2016.06 —2016.08美国麻省理工学院斯隆管理学院 高级访问学者",
+          "start": "2016-06",
+          "end": "2016-08"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "INSEAD",
+          "role": "高级访问学者",
+          "start_year": 2002,
+          "end_year": 2002,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "2002.04 —2002.06法国INSEAD管理学院 高级访问学者",
+          "start": "2002-04",
+          "end": "2002-06"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Massachusetts Institute of Technology",
+          "role": "高级访问学者",
+          "start_year": 2001,
+          "end_year": 2001,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "2001.01 —2001.06美国麻省理工学院斯隆管理学院 高级访问学者",
+          "start": "2001-01",
+          "end": "2001-06"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "Massachusetts Institute of Technology",
+          "role": "高级访问学者",
+          "start_year": 1996,
+          "end_year": 1997,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "1996.09 —1997.01美国麻省理工学院斯隆管理学院 高级访问学者",
+          "start": "1996-09",
+          "end": "1997-01"
+        },
+        {
+          "type": "visiting",
+          "job_kind": "visiting",
+          "institution": "University of Southern California",
+          "role": "访问学者",
+          "start_year": 1994,
+          "end_year": 1996,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "1994.10 —1996.04美国南加州大学商学院 访问学者",
+          "start": "1994-10",
+          "end": "1996-04"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "教授、博导",
+          "start_year": 2014,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "current_at_check",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "2014.10 —今交通大学安泰经济与管理学院工商管理市场营销系教授、博导",
+          "start": "2014-10"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "教授、博导；副院长",
+          "start_year": 2004,
+          "end_year": 2014,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "2004.01 — 2014.10交通大学安泰经济与管理学院工商管理系交通大学安泰经济与管理学院教授、博导副院长",
+          "start": "2004-01",
+          "end": "2014-10"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Shanghai Jiao Tong University",
+          "role": "教授；副院长",
+          "start_year": 2003,
+          "end_year": 2003,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "2003.04 — 2003.12交通大学安泰管理学院工商管理系交通大学安泰管理学院教授副院长",
+          "start": "2003-04",
+          "end": "2003-12"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Fudan University",
+          "role": "教授；院长助理",
+          "start_year": 2001,
+          "end_year": 2003,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "2001.11— 2003.03 复旦大学管理学院市场营销系复旦大学管理学院教授院长助理",
+          "start": "2001-11",
+          "end": "2003-03"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Fudan University",
+          "role": "副教授；院长助理等",
+          "start_year": 1997,
+          "end_year": 2000,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "1997.02 — 2000.12复旦大学管理学院经济管理系复旦大学管理学院复旦大学管理学院IMBA项目复旦大学管理学院北欧项目副教授院长助理主任主任",
+          "start": "1997-02",
+          "end": "2000-12"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Fudan University",
+          "role": "讲师",
+          "start_year": 1991,
+          "end_year": 1996,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "1991.08 — 1996.03复旦大学管理学院经济管理系讲师",
+          "start": "1991-08",
+          "end": "1996-03"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Fudan University",
+          "role": "助教",
+          "start_year": 1989,
+          "end_year": 1991,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ],
+          "quote": "1989.08 — 1991.08复旦大学管理学院经济管理系助教",
+          "start": "1989-08",
+          "end": "1991-08"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "2014.10条目只表示该教授/博导片段；2003年已为交大教授，不把2014当首次到任。",
+          "source_urls": [
+            "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-sjtu-吕巍",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-sjtu-吕巍",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "安泰官方营销目录和官方EMBA教师页为同一姓名、院系与机构；EMBA页面明确校内教授职务和跨校履历。",
+        "source_urls": [
+          "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+          "https://emba.sjtu.edu.cn/faculty/lvwei.html"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Xing LI",
+      "aliases": [
+        "厉行"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Associate Professor",
+        "start_year": null,
+        "status": "historical_cv_snapshot"
+      },
+      "phd": {
+        "school": "Stanford University",
+        "program": "Economics",
+        "region": "US",
+        "year": 2016
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "http://english.gsm.pku.edu.cn/faculty/en/xingli.html",
+      "cv_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf",
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Xing LI",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "Ph.D. in Economics, Stanford University, 2016",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": "2023-11-15",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "4a8a452858b7d4c22d0ee550d2ece091ebd4eabbb3cefaceca980d7bbf755d27",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "Assistant Professor in Marketing, Guanghua School of Management, Peking University, 2016 – 2022",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": "2023-11-15",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "4a8a452858b7d4c22d0ee550d2ece091ebd4eabbb3cefaceca980d7bbf755d27",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "Associate Professor in Marketing",
+          "supports": [
+            "current.role",
+            "cv_url"
+          ],
+          "source_date": "2023-11-15",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "4a8a452858b7d4c22d0ee550d2ece091ebd4eabbb3cefaceca980d7bbf755d27",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Xing LI"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Peking University",
+          "role": "Assistant Professor in Marketing",
+          "start_year": 2016,
+          "end_year": 2022,
+          "date_precision": "year",
+          "status": "historical_interval",
+          "source_date": "2023-11-15",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf"
+          ],
+          "quote": "Assistant Professor in Marketing, Guanghua School of Management, Peking University, 2016 – 2022"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "CV先前AP至2022不能独立证明副教授开始年月；文件路径日期作快照线索，未延长历史CV至2026。",
+          "source_urls": [
+            "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-xingli",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-xingli",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Jing Xu",
+      "aliases": [
+        "徐菁"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Professor",
+        "start_year": null,
+        "status": "historical_cv_snapshot"
+      },
+      "phd": {
+        "school": "University of Michigan",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2007
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.gsm.pku.edu.cn/faculty/jingx/",
+      "cv_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf",
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Jing Xu",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "博士 美国密西根大学 Stephen M. Ross School of Business， 2007 年 6 月",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "da53bbad9d7ced639a1a6cc75cbb4cbf81ee15d26d4ffcfc43421777c6273507",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2017.2 –至今 北京大学光华管理学院市场营销系教授",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "da53bbad9d7ced639a1a6cc75cbb4cbf81ee15d26d4ffcfc43421777c6273507",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2011.7 – 2017.2 北京大学光华管理学院市场营销系副教授",
+          "supports": [
+            "career_events.2"
+          ],
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "da53bbad9d7ced639a1a6cc75cbb4cbf81ee15d26d4ffcfc43421777c6273507",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2007.9 – 2011.7 北京大学光华管理学院市场营销系助理教授",
+          "supports": [
+            "career_events.3"
+          ],
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "da53bbad9d7ced639a1a6cc75cbb4cbf81ee15d26d4ffcfc43421777c6273507",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+        },
+        {
+          "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2017.2 –至今 北京大学光华管理学院市场营销系教授",
+          "supports": [
+            "current.role"
+          ],
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "da53bbad9d7ced639a1a6cc75cbb4cbf81ee15d26d4ffcfc43421777c6273507",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/jingx/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2007 | 美国密歇根大学 | 市场营销 | 博士 Ph.D",
+          "supports": [
+            "phd.program"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Jing Xu"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Peking University",
+          "role": "Professor",
+          "start_year": 2017,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "historical_cv_snapshot",
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+          ],
+          "quote": "2017.2 –至今 北京大学光华管理学院市场营销系教授",
+          "start": "2017-02"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Peking University",
+          "role": "Associate Professor",
+          "start_year": 2011,
+          "end_year": 2017,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+          ],
+          "quote": "2011.7 – 2017.2 北京大学光华管理学院市场营销系副教授",
+          "start": "2011-07",
+          "end": "2017-02"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Peking University",
+          "role": "Assistant Professor",
+          "start_year": 2007,
+          "end_year": 2011,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_date": "2022-10",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+          ],
+          "quote": "2007.9 – 2011.7 北京大学光华管理学院市场营销系助理教授",
+          "start": "2007-09",
+          "end": "2011-07"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "career_events",
+          "reason": "2022年10月CV的至今只表示该版本仍任职，不能证明连续在任至2026。",
+          "source_urls": [
+            "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-jingxu",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-jingxu",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Yingjie Zhang",
+      "aliases": [
+        "张颖婕"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Associate Professor",
+        "start_year": null,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Carnegie Mellon University",
+        "program": "Information Systems and Management",
+        "region": "US",
+        "year": 2018
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://sites.google.com/view/yingjiezhang/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Yingjie Zhang",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://sites.google.com/view/yingjiezhang/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "I received my Ph.D. in Information Systems and Management from Carnegie Mellon University in 2018",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "ae8765918717ab87900a9290ecf50774e91f076db91f0761de60515eeb7460f6",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://sites.google.com/view/yingjiezhang/"
+        },
+        {
+          "url": "https://sites.google.com/view/yingjiezhang/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "I am an Associate Professor of Marketing at Guanghua School of Management, Peking University.",
+          "supports": [
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "ae8765918717ab87900a9290ecf50774e91f076db91f0761de60515eeb7460f6",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://sites.google.com/view/yingjiezhang/"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Yingjie Zhang"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "career_events",
+          "reason": "已读个人主页明确现职，未读取其Google Drive内CV；不填写未读到的任职日期。",
+          "source_urls": [
+            "https://sites.google.com/view/yingjiezhang/"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-yingjiezhang",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-yingjiezhang",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://sites.google.com/view/yingjiezhang/"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Yi Zhang",
+      "aliases": [
+        "张依"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Assistant Professor",
+        "start_year": 2024,
+        "status": "current_at_check"
+      },
+      "phd": {
+        "school": "Hong Kong University of Science and Technology",
+        "program": "Economics",
+        "region": "HK",
+        "year": 2024,
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://yizhangwebsite.weebly.com/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Yi Zhang",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://yizhangwebsite.weebly.com/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "I am an assistant professor in Marketing at Peking University GSM, starting from September 2024.",
+          "supports": [
+            "career_events.1"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57a6e01f574c01125eb9992b378608966bbf92452d1959ad59f1f7592b6ee054",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://yizhangwebsite.weebly.com/"
+        },
+        {
+          "url": "https://yizhangwebsite.weebly.com/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "I am an assistant professor in Marketing at Peking University GSM, starting from September 2024.",
+          "supports": [
+            "current.role",
+            "current.start_year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "public HTML read",
+          "content_sha256": "57a6e01f574c01125eb9992b378608966bbf92452d1959ad59f1f7592b6ee054",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://yizhangwebsite.weebly.com/"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/info/1022/29718.htm",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2024在香港科技大学获经济学博士学位。",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Yi Zhang"
+        },
+        {
+          "type": "academic",
+          "job_kind": "academic",
+          "institution": "Peking University",
+          "role": "Assistant Professor in Marketing",
+          "start_year": 2024,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "current_at_check",
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://yizhangwebsite.weebly.com/"
+          ],
+          "quote": "I am an assistant professor in Marketing at Peking University GSM, starting from September 2024.",
+          "start": "2024-09"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "个人主页首页未列教育表；北大2024教师介绍官方索引明确HKUST经济学博士2024，实时北大页读取失败，另存索引证据。",
+          "source_urls": [
+            "https://yizhangwebsite.weebly.com/"
+          ]
+        }
+      ],
+      "verification_status": "official_profile_checked",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-yizhang",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-yizhang",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://yizhangwebsite.weebly.com/"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Guoqun Fu",
+      "aliases": [
+        "符国群"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Professor",
+        "start_year": null,
+        "status": "indexed_reference"
+      },
+      "phd": {
+        "school": "Aston University",
+        "program": "Management",
+        "region": "UK",
+        "year": 1999,
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.gsm.pku.edu.cn/faculty/fugq/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Guoqun Fu",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/fugq/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1999 | 英国阿斯顿大学 | 管理学 | 博士 Ph.D",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/fugq/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "1997 | 武汉大学 | 经济学 | 博士 Ph.D",
+          "supports": [
+            "other_degrees.0"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Guoqun Fu"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "verification.live_source",
+          "reason": "官方教师页全文由公开搜索索引读取；独立HTTPS客户端/网页工具出现TLS握手失败或超时。本批不称成功实时抓取、不伪造内容哈希。",
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/fugq/"
+          ]
+        },
+        {
+          "field": "phd",
+          "reason": "有两个独立博士：武汉经济学1997与Aston管理学1999；主博士列后一个，其他学位单列，不视为年份冲突。",
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/fugq/"
+          ]
+        }
+      ],
+      "verification_status": "official_indexed_text",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-guoqunfu",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-guoqunfu",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://www.gsm.pku.edu.cn/faculty/fugq/"
+        ],
+        "reviewed_at": "2026-10-22"
+      },
+      "other_degrees": [
+        {
+          "school": "Wuhan University",
+          "degree": "PhD",
+          "program": "Economics",
+          "year": 1997,
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/fugq/"
+          ],
+          "evidence_status": "official_indexed_text"
+        }
+      ]
+    },
+    {
+      "name": "Phyliss Jia Gai",
+      "aliases": [
+        "盖嘉"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Associate Professor",
+        "start_year": null,
+        "status": "indexed_reference"
+      },
+      "phd": {
+        "school": "Erasmus University Rotterdam",
+        "program": "Marketing",
+        "region": "NL",
+        "year": 2020,
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.gsm.pku.edu.cn/faculty/gai/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Phyliss Jia Gai",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/gai/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2020 | 荷兰鹿特丹管理学院 | 市场营销 | 博士 Ph.D",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Phyliss Jia Gai"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "verification.live_source",
+          "reason": "官方教师页全文由公开搜索索引读取；独立HTTPS客户端/网页工具出现TLS握手失败或超时。本批不称成功实时抓取、不伪造内容哈希。",
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/gai/"
+          ]
+        }
+      ],
+      "verification_status": "official_indexed_text",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-phylissjiagai",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-phylissjiagai",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://www.gsm.pku.edu.cn/faculty/gai/"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Hongju Liu",
+      "aliases": [
+        "刘宏举"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Professor",
+        "start_year": null,
+        "status": "indexed_reference"
+      },
+      "phd": {
+        "school": "University of Chicago",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2007,
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.gsm.pku.edu.cn/faculty/hliu/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Hongju Liu",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/hliu/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2007 | 芝加哥大学 | 市场营销 | 博士 Ph.D",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Hongju Liu"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "verification.live_source",
+          "reason": "官方教师页全文由公开搜索索引读取；独立HTTPS客户端/网页工具出现TLS握手失败或超时。本批不称成功实时抓取、不伪造内容哈希。",
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/hliu/"
+          ]
+        }
+      ],
+      "verification_status": "official_indexed_text",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-hongjuliu",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-hongjuliu",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://www.gsm.pku.edu.cn/faculty/hliu/"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Rui Wang",
+      "aliases": [
+        "王锐"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Associate Professor",
+        "start_year": null,
+        "status": "indexed_reference"
+      },
+      "phd": {
+        "school": "Pennsylvania State University",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2008,
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.gsm.pku.edu.cn/faculty/rwang/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Rui Wang",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/rwang/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2008 | 宾州州立大学 | 市场营销 | 博士 Ph.D",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Rui Wang"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "verification.live_source",
+          "reason": "官方教师页全文由公开搜索索引读取；独立HTTPS客户端/网页工具出现TLS握手失败或超时。本批不称成功实时抓取、不伪造内容哈希。",
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/rwang/"
+          ]
+        }
+      ],
+      "verification_status": "official_indexed_text",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-ruiwang",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-ruiwang",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://www.gsm.pku.edu.cn/faculty/rwang/"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Kun Wang",
+      "aliases": [
+        "王鵾"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Assistant Professor",
+        "start_year": null,
+        "status": "indexed_reference"
+      },
+      "phd": {
+        "school": "Rutgers University",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2025,
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.gsm.pku.edu.cn/faculty/wangk/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Kun Wang",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/wangk/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2025年毕业于美国罗格斯大学，获市场营销博士学位",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Kun Wang"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "verification.live_source",
+          "reason": "官方教师页全文由公开搜索索引读取；独立HTTPS客户端/网页工具出现TLS握手失败或超时。本批不称成功实时抓取、不伪造内容哈希。",
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/wangk/"
+          ]
+        }
+      ],
+      "verification_status": "official_indexed_text",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-kunwang",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-kunwang",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://www.gsm.pku.edu.cn/faculty/wangk/"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Ying Zhang",
+      "aliases": [
+        "张影"
+      ],
+      "host_id": "peking",
+      "current": {
+        "institution": "Peking University",
+        "region": "CN",
+        "role": "Professor",
+        "start_year": null,
+        "status": "indexed_reference"
+      },
+      "phd": {
+        "school": "University of Chicago",
+        "program": "Behavioral Science and Management",
+        "region": "US",
+        "year": 2007,
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.gsm.pku.edu.cn/faculty/zhang/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "label": "官方目录搜索索引",
+          "quote": "Ying Zhang",
+          "supports": [
+            "name",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_reference"
+        },
+        {
+          "url": "https://www.gsm.pku.edu.cn/faculty/zhang/",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "2007年毕业于美国芝加哥大学，获行为科学和管理学博士学位。",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "indexed_official_text",
+          "read_scope": "official search-index text; live retrieval unsuccessful"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Peking University",
+          "role": null,
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "indexed_reference",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+          ],
+          "quote": "Ying Zhang"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "verification.live_source",
+          "reason": "官方教师页全文由公开搜索索引读取；独立HTTPS客户端/网页工具出现TLS握手失败或超时。本批不称成功实时抓取、不伪造内容哈希。",
+          "source_urls": [
+            "https://www.gsm.pku.edu.cn/faculty/zhang/"
+          ]
+        }
+      ],
+      "verification_status": "official_indexed_text",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "official_text_supported",
+      "id": "faculty-peking-yingzhang",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-peking-yingzhang",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+        "source_urls": [
+          "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+          "https://www.gsm.pku.edu.cn/faculty/zhang/"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    },
+    {
+      "name": "Jiang, Zhengrui",
+      "aliases": [],
+      "host_id": "nanjing",
+      "current": {
+        "institution": "Nanjing University",
+        "region": "CN",
+        "role": "Professor",
+        "start_year": 2019,
+        "directory_membership": "english_only_current_membership_unreconciled",
+        "status": "directory_membership_unreconciled"
+      },
+      "phd": {
+        "school": "University of Texas at Dallas",
+        "program": null,
+        "region": "US",
+        "year": 2005
+      },
+      "tracks": [],
+      "fields": [],
+      "homepage": "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://nubs.nju.edu.cn/nubs_en/17371/list.htm",
+          "label": "官方教师目录",
+          "quote": "Jiang, Zhengrui — Full-time Faculty (rank unverified)",
+          "supports": [
+            "name",
+            "current.institution",
+            "current.role"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm",
+          "label": "已实际读取的官方个人页",
+          "quote": "Jiang, Zhengrui",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://catalog.iastate.edu/previouscatalogs/2015-16/faculty/faculty.pdf",
+          "label": "官方个人资料：教育与职业片段",
+          "quote": "JIANG, ZHENGRUI Associate Professor of Supply Chain and Information Systems. B.A., 1992, Qingdao (China); M.B.A., 2000, M.S., 2000, Louisiana (Lafayette); Ph.D., 2005, Texas (Dallas).",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.region",
+            "phd.year"
+          ],
+          "source_date": "2015-2016",
+          "checked_at": "2026-10-22",
+          "verification_status": "checked",
+          "read_scope": "full PDF extracted",
+          "content_sha256": "eb787de89878148d01137c7848678135542dab7d06ced66aa6bf2331648eadf3",
+          "fetched_at": "2026-10-22",
+          "final_url": "https://catalog.iastate.edu/previouscatalogs/2015-16/faculty/faculty.pdf"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of North Alabama",
+          "role": "Assistant Professor of Computer Information Systems",
+          "start_year": 2005,
+          "end_year": 2008,
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm"
+          ],
+          "quote": "Assistant Professor of Computer Information Systems",
+          "date_precision": "year",
+          "status": "source_reported"
+        },
+        {
+          "type": "appointment",
+          "institution": "Iowa State University",
+          "role": "Assistant Professor of Information Systems",
+          "start_year": 2008,
+          "end_year": 2012,
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm"
+          ],
+          "quote": "Assistant Professor of Information Systems",
+          "date_precision": "year",
+          "status": "source_reported"
+        },
+        {
+          "type": "appointment",
+          "institution": "Iowa State University",
+          "role": "Associate Professor of Information Systems",
+          "start_year": 2012,
+          "end_year": 2018,
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm"
+          ],
+          "quote": "Associate Professor of Information Systems",
+          "date_precision": "year",
+          "status": "source_reported"
+        },
+        {
+          "type": "appointment",
+          "institution": "Iowa State University",
+          "role": "Professor of Information Systems and Business Analytics",
+          "start_year": 2018,
+          "end_year": 2019,
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm"
+          ],
+          "quote": "Professor of Information Systems and Business Analytics",
+          "date_precision": "year",
+          "status": "source_reported"
+        },
+        {
+          "type": "appointment",
+          "institution": "Nanjing University",
+          "role": "Professor",
+          "start_year": 2019,
+          "end_year": null,
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm"
+          ],
+          "quote": "Nanjing University, 2019 – present",
+          "date_precision": "year",
+          "status": "source_reported"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "已实际读取官方个人页；博士授予校或学位日期未明确的字段保留未知。当前任职不能自动作首职。"
+        },
+        {
+          "field": "biography",
+          "reason": "英文目录及个人页列任职，但当前中文系目录23条没有本人员；当前范围尚未对齐，不把名录缺席当离职事实。"
+        },
+        {
+          "field": "phd.program",
+          "reason": "Iowa State官方目录确认PhD学校和2005授予年，但未列PhD专业，不将任职系名当博士专业。",
+          "source_urls": [
+            "https://catalog.iastate.edu/previouscatalogs/2015-16/faculty/faculty.pdf"
+          ]
+        },
+        {
+          "field": "current.membership",
+          "reason": "该学历补核不解决南京中文目录与英文目录成员差异，保留原有成员状态。",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm"
+          ]
+        }
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22",
+      "research_classification_status": "unclassified",
+      "id": "faculty-nanjing-jiangzhengrui",
+      "placement_id": null,
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22",
+      "existing_faculty_id": "faculty-nanjing-jiangzhengrui",
+      "first_job_status": "not_asserted",
+      "identity_evidence": {
+        "basis": "南京大学既有官方个人页明确2008–2019 Iowa State任职；历史Iowa State目录同一完整英文姓名、Supply Chain and Information Systems职务以及早期学校背景相符。",
+        "source_urls": [
+          "https://nubs.nju.edu.cn/nubs_en/7e/d2/c17371a491218/page.htm",
+          "https://catalog.iastate.edu/previouscatalogs/2015-16/faculty/faculty.pdf"
+        ],
+        "reviewed_at": "2026-10-22"
+      }
+    }
+  ],
+  "investigations": [
+    {
+      "host_id": "peking",
+      "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1010)>",
+      "result": "现有目录：实时TLS握手失败；官方索引可见14条，未新增完整性声明。"
+    },
+    {
+      "host_id": "peking",
+      "url": "https://www.gsm.pku.edu.cn/faculty/hliu/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)>",
+      "result": "实时HTTPS失败；官方搜索索引明确博士2007与当前教授。"
+    },
+    {
+      "host_id": "peking",
+      "url": "https://www.gsm.pku.edu.cn/faculty/jingx/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1010)>",
+      "result": "实时HTTPS失败；改读已实际下载的官方2022-10中文CV，保留版本边界。"
+    },
+    {
+      "host_id": "peking",
+      "url": "https://www.gsm.pku.edu.cn/faculty/rwang/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>",
+      "result": "实时HTTPS失败；只保留官方索引明确的教育表。"
+    },
+    {
+      "host_id": "peking",
+      "url": "https://www.gsm.pku.edu.cn/faculty/pengsq/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1010)>",
+      "result": "实时HTTPS失败；未据此填写博士年。本轮停止前尚未读独立授位全文。"
+    },
+    {
+      "host_id": "sjtu",
+      "url": "https://www.acem.sjtu.edu.cn/acem2021/acem/marketing.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "87dc8acfaabab8c0a29197b2d93f3e1b5577b7bc538fb3462a4f6dd2c0259f05",
+      "error": null,
+      "result": "公开院系页可读；其静态计数15与MIS索引17不同，本批不改完整性。"
+    },
+    {
+      "host_id": "sjtu",
+      "url": "https://jietengchen.github.io/cv.pdf",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": "HTTP Error 404: Not Found",
+      "result": "旧个人站CV URL返回404。索引仍显示在读2021-present，不将奖学金截至2026当授位年。"
+    },
+    {
+      "host_id": "peking",
+      "url": "https://sites.google.com/view/yingjiezhang/",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "ae8765918717ab87900a9290ecf50774e91f076db91f0761de60515eeb7460f6",
+      "error": null,
+      "result": "个人站已全文读取，博士CMU2018明确；未访问其Drive CV。"
+    },
+    {
+      "host_id": "peking",
+      "url": "https://yizhangwebsite.weebly.com/",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "57a6e01f574c01125eb9992b378608966bbf92452d1959ad59f1f7592b6ee054",
+      "error": null,
+      "result": "个人首页已读；其CV链接已发现未读取，本批停止新增来源。"
+    },
+    {
+      "host_id": "nanjing",
+      "url": "https://catalog.iastate.edu/previouscatalogs/2015-16/faculty/faculty.pdf",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "eb787de89878148d01137c7848678135542dab7d06ced66aa6bf2331648eadf3",
+      "error": null,
+      "result": "完整PDF提取，核定Zhengrui Jiang博士Texas(Dallas)2005，未从目录职位推博士专业。"
+    },
+    {
+      "person_id": "faculty-sjtu-才凤艳",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/caifengyan.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "57dc444472fb3ecee0e6a17301a2bdfacffbc008fd6b4039abb3428639f1f411",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-顾锋",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/gufeng.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "58fe29041a5f9dcc0975a6099dad9ff06eeb679f1a817156a2a24143319b9917",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-井淼",
+      "url": "https://acem.sjtu.edu.cn/faculty/jingmiao.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "e28237ef127866e1dd580865ae3ab36f7f06eb6220348ad7f11ed36992671640",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-刘益",
+      "url": "https://acem.sjtu.edu.cn/faculty/liuyi.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "c1a2c1f27b22b9c22c8af8eefcf15abc542b14f375b0a69c63be1491df2efd17",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-张铄",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/zhangshuo.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "a3234732e204c723e69b12467031b9cf035b90849d6beee2dd0c05fd88190412",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-余明阳",
+      "url": "https://acem.sjtu.edu.cn/faculty/yumingyang.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "48fba4b42a198601bab585dfd20348cfb1ce76105fc433924351a45e047d1106",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-陈洁",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/chenjie.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "eaa08763a086d16f65e9a4a4d1d8db77d429b639633ec8977a01f7be46dd786f",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-伍青生",
+      "url": "https://acem.sjtu.edu.cn/faculty/wuqingsheng.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "38608065aca41a004ce1b63092794153c7f4b80673c3cfae1505a1501a455e2c",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-庄晖",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/zhuanghui.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "29f3bbad6f8f2e5a2336cb3299e47541eac151bcb02dfa8ac415eb8ff0b8a96b",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-王良燕",
+      "url": "https://acem.sjtu.edu.cn/faculty/wangliangyan.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "e56680db34334dfd7bc9d5f19d3823568150c9bfc16d4294b07486a294076847",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-周颖",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/zhouying.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "82fa396df6b5227e4fabc5d8157a1a06df8042346eb8d73ce431f8170c9de661",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-李杰",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/lijie.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "fd7ed9febbc56b35055b1eb53c123f3f66846f44f936f035da368200f6c1b976",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-沈靓",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/shenliang.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "f194ca7106345048d8ab18838a6de670baa841b516ff293a9bdbc4d7e8140f3b",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "hku-zhengyu-shi",
+      "url": "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "d3116dde34318aeb26555a5a9ad7c80575b93d791ce2356871aade01cc1de9e9",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-sjtu-吕巍",
+      "url": "https://emba.sjtu.edu.cn/faculty/lvwei.html",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "86a2a5e381e90cc0ac2bc207f9a63339b4a894200d8630814f40f23fd9205dcf",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-peking-xingli",
+      "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/144600_cv_en.pdf",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "4a8a452858b7d4c22d0ee550d2ece091ebd4eabbb3cefaceca980d7bbf755d27",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-peking-jingxu",
+      "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20231115/0290_cv_zhs.pdf",
+      "checked_at": "2026-10-22",
+      "http_status": 200,
+      "content_sha256": "da53bbad9d7ced639a1a6cc75cbb4cbf81ee15d26d4ffcfc43421777c6273507",
+      "error": null,
+      "result": "public source actually read and quote verified against cached text"
+    },
+    {
+      "person_id": "faculty-peking-yizhang",
+      "url": "https://www.gsm.pku.edu.cn/info/1022/29718.htm",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": null,
+      "result": "official_indexed_text; live page not successfully fetched"
+    },
+    {
+      "person_id": "faculty-peking-guoqunfu",
+      "url": "https://www.gsm.pku.edu.cn/faculty/fugq/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": null,
+      "result": "official_indexed_text; live page not successfully fetched"
+    },
+    {
+      "person_id": "faculty-peking-phylissjiagai",
+      "url": "https://www.gsm.pku.edu.cn/faculty/gai/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": null,
+      "result": "official_indexed_text; live page not successfully fetched"
+    },
+    {
+      "person_id": "faculty-peking-kunwang",
+      "url": "https://www.gsm.pku.edu.cn/faculty/wangk/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": null,
+      "result": "official_indexed_text; live page not successfully fetched"
+    },
+    {
+      "person_id": "faculty-peking-yingzhang",
+      "url": "https://www.gsm.pku.edu.cn/faculty/zhang/",
+      "checked_at": "2026-10-22",
+      "http_status": null,
+      "content_sha256": null,
+      "error": null,
+      "result": "official_indexed_text; live page not successfully fetched"
+    }
+  ],
+  "methodology": "Supplement existing archives with attributable official education and dated career facts. No new directory-completeness claim, no name-only merge, no inferred first job or PhD award year from hiring.",
+  "frozen_at": "2026-10-22",
+  "metrics": {
+    "revised_profiles": 26,
+    "new_phd_years": 18,
+    "new_phd_years_direct_read": 11,
+    "new_phd_years_indexed_official": 7,
+    "new_dated_career_events": 48,
+    "new_sources": 94,
+    "new_sources_with_hash": 85,
+    "schools_with_new_completeness_claim": 0
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "checked_at": "2026-10-22",
+  "scope": "南京大学现行中文资料13页实际读取；成功读取不代表教育或任职年已披露。",
+  "sources": [
+    {
+      "name": "陈曦",
+      "url": "https://nubs.nju.edu.cn/cx/list.htm",
+      "sha256": "f2ece0a0d17569010a67b12a7263291e003d1520e9302e442571a76c9820efc3",
+      "bytes": 11006,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "戴万稳",
+      "url": "https://nubs.nju.edu.cn/dww/list.htm",
+      "sha256": "bcb4c171bc007a17819bfaaaa6087e9ae68bc4f90cc58e6faca490a6ce65cc4a",
+      "bytes": 28800,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "何健",
+      "url": "https://nubs.nju.edu.cn/hj_9318/list.htm",
+      "sha256": "312384e5324c7c5558721aa09873a9daee21fbdea0f6d67b948184b3e37e0a27",
+      "bytes": 16898,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "韩顺平",
+      "url": "https://nubs.nju.edu.cn/hsp/list.htm",
+      "sha256": "0b2664bc69b1fd9c8a29cfecc3d699a0299e891a0994f10e4020ab7f3cba3db0",
+      "bytes": 12933,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "姜杨",
+      "url": "https://nubs.nju.edu.cn/jy1/list.htm",
+      "sha256": "bf5e4320d154fdbcebf6c85b59e60144f2d2fd960939e5f13e5c5a030c496497",
+      "bytes": 8468,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "李然",
+      "url": "https://nubs.nju.edu.cn/lr/list.htm",
+      "sha256": "28a7f5674a08ea60d2544b05ad0e17287a0a2eb0f44e998e0b9695008942eb0d",
+      "bytes": 7888,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "李定",
+      "url": "https://nubs.nju.edu.cn/ld1/list.htm",
+      "sha256": "e7e6b01ada46e3d866e9019f5c68f6fa3c7a1591375be094ec62722d110b22eb",
+      "bytes": 11846,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "陶向南",
+      "url": "https://nubs.nju.edu.cn/txn/list.htm",
+      "sha256": "d233e1d0e73d7ec6caf8e43cb7d4cdddfb8d0df9a2f360db525a34db4c900838",
+      "bytes": 14673,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "王全胜",
+      "url": "https://nubs.nju.edu.cn/wqs/list.htm",
+      "sha256": "b249443d143ba0d6f8104c384c678bf4df21fc5029c04ebd28826c565cc3b5fc",
+      "bytes": 18584,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "王翔",
+      "url": "https://nubs.nju.edu.cn/wx/list.htm",
+      "sha256": "937a1f02df75b2cbd35d365f7df256ed3fe91eaaf7a392419dcce31ab180ebe6",
+      "bytes": 12268,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "于笑丰",
+      "url": "https://nubs.nju.edu.cn/yxf/list.htm",
+      "sha256": "261dcf0b52b8dc099cc09b39b99abf9bdadac7c38f7479fe2e58f1b5922d1b4c",
+      "bytes": 9750,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "杨雪",
+      "url": "https://nubs.nju.edu.cn/yx/list.htm",
+      "sha256": "d150f4323100271feca543ca59ede503360f6c41971a06a714860d50ef437e47",
+      "bytes": 40732,
+      "read_status": "html_text_extracted",
+      "error": null
+    },
+    {
+      "name": "周诗豪",
+      "url": "https://nubs.nju.edu.cn/zsh2/list.htm",
+      "sha256": "4113838dcaef1eaa91740a9bde58d80247b35dd597a3d57213dea518d0a7112a",
+      "bytes": 12341,
+      "read_status": "html_text_extracted",
+      "error": null
+    }
+  ],
+  "limitations": "除Chen Xi教授2012及Dai Wanwen已核访问外，未得到足够新增年值的页面保留为实际补查记录；不自动合并中英译名。"
+}

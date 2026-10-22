@@ -27,16 +27,16 @@ export function appointment(role, jobKind, tenure = null) {
   const s = String(role || '').toLowerCase();
   let family = 'unknown';
   if(/post[- ]?doc/.test(s) || jobKind === 'postdoc') family = 'postdoc';
-  else if(/professor|lecturer|instructor/.test(s) || ['faculty','tt','non_tt'].includes(jobKind)) family = 'academic';
+  else if(/professor|lecturer|instructor|教授|讲师/.test(s) || ['faculty','tt','non_tt'].includes(jobKind)) family = 'academic';
   else if(jobKind === 'industry') family = 'industry';
   else if(jobKind === 'government') family = 'government';
   else if(jobKind === 'research') family = 'research';
-  else if(/research fellow/.test(s)) family = 'research';
+  else if(/research fellow|研究员/.test(s)) family = 'research';
   else if(/visiting scholar/.test(s)) family = 'visiting';
   else if(jobKind === 'other') family = 'other';
   const explicit = tenure?.evidence_status==='confirmed'&&tenure?.quote&&tenure?.source_urls?.some(u=>/^https?:\/\//.test(u)) ? tenure.status : null;
   const excluded = /non[- ]?tenure|teaching|instruction|visiting.*professor|clinical|adjunct|professor.*practice|in[- ]residence/.test(s);
-  const titledTT = !excluded && /\btenure[- ]?track\b|\btenured\b/.test(s)&&! /without tenure|untenured/.test(s);
+  const titledTT = !excluded && /\btenure[- ]?track\b|\btenured\b|\bwith tenure\b/.test(s)&&! /without tenure|untenured|pre[- ]?tenure/.test(s);
   return {job_family:family,tenure_status:explicit || (excluded ? 'non_tt' : titledTT ? 'tt' : 'unknown'),tenure_evidence_status:explicit ? 'confirmed' : excluded || titledTT ? 'title_explicit' : family === 'academic' ? 'inferred' : 'unknown',...(explicit?{tenure_quote:tenure.quote,tenure_source_urls:tenure.source_urls}:{})};
 }
 
@@ -88,8 +88,15 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
     const end=date(value.end_date||value.end||value.end_year);
     const source_urls=value.source_urls?.length?unique(value.source_urls):urls(value.sources?.length?value.sources:p.sources);
     const e={id:`${p.id}:${type}:${index}`,person_id:p.id,type,institution:name,institution_id:institution(name,value.destination_region||value.region,departmentOf(value)),department:departmentOf(value),title:value.title||value.role||null,start,end,date_precision:precision(start),end_precision:precision(end),status:value.status||'legacy_record',source_urls,claim_ids:[],checked_at:value.checked_at||p.checked_at||null,...appointment(value.role||value.title,value.job_kind||value.category,value.tenure)};
+    if(value.source_snapshot_only)e.source_snapshot_only=true;
+    if(value.quote)e.quote=value.quote;
+    if(value.source_date)e.source_date=value.source_date;
     if(type==='market'){e.start=p.market_cycle;e.date_precision='cycle';}
-    for(const field of ['institution','title','start','end']) if(e[field]!==null)e.claim_ids.push(claim(p,`events.${type}.${index}.${field}`,e[field],{source_urls,status:'legacy_reference',annotation:value.evidence||null}));
+    for(const field of ['institution','title','start','end']) if(e[field]!==null){
+      const quote=value.quote||null;
+      const exact=quote&&source_urls.length&&quote.toLowerCase().includes(String(e[field]).toLowerCase());
+      e.claim_ids.push(claim(p,`events.${type}.${index}.${field}`,e[field],{source_urls,quote,status:exact?'confirmed':quote?'provisional':'legacy_reference',annotation:value.evidence||null,checked_at:e.checked_at,source_date:value.source_date||null}));
+    }
     const sourceFields=type==='graduation'?['graduation_year','school','program']:type==='first_job'?['placement_year','placement_start_date','destination','role','tenure.status']:type==='final_arrangement'?['final_placement']:type==='subsequent_job'?['subsequent']:['current','current.tenure_status'];
     for(const c of claims.filter(c=>c.person_id===p.id&&c.status!=='legacy_reference'&&sourceFields.includes(c.field)))e.claim_ids.push(c.id);
     if(value.tenure?.quote&&value.tenure?.source_urls?.length)e.claim_ids.push(claim(p,`events.${type}.${index}.tenure_status`,e.tenure_status,{status:value.tenure.evidence_status==='confirmed'?'confirmed':'legacy_reference',quote:value.tenure.evidence_status==='confirmed'?value.tenure.quote:null,source_urls:value.tenure.source_urls,checked_at:value.tenure.checked_at||p.checked_at}));
@@ -139,7 +146,7 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
     for(const [field,value]of [['phd.school',f.phd?.school],['phd.program',f.phd?.program],['phd.year',f.phd?.year],['phd.defense_year',f.phd?.defense_year],['phd.reported_dissertation_year',f.phd?.reported_dissertation_year],['current.role',f.current?.role],['current.start_year',f.current?.start_year]]){
       if(value===null||value===undefined)continue;
       const sources=(f.sources||[]).filter(s=>s.supports?.some(k=>k===field||k===field.split('.')[0]));
-      const exact=sources.find(s=>s.quote?.toLowerCase().includes(String(value).toLowerCase()));
+      const exact=sources.find(s=>! /index/i.test([s.verification_status,s.status,s.access_status,s.read_status,s.read_scope].join(' '))&&s.quote?.toLowerCase().includes(String(value).toLowerCase()));
       p.claim_ids.push(claim(p,'faculty.'+field,value,{source_urls:exact?[exact.url]:urls(sources.length?sources:f.sources),quote:exact?.quote||sources.find(s=>s.quote)?.quote||null,status:exact?'confirmed':'provisional',annotation:'字段由接收端资料核验；仅原文摘录明确包含该值时列为明确确认，其余保留来源定位待逐字段补证。',checked_at:exact?.checked_at||f.carried_forward?.find(c=>c.field===field)?.checked_at||f.checked_at}));
     }
     for(const [i,gap]of (f.unknowns||[]).entries())if(gap.values||/冲突|conflict/i.test(gap.reason||''))p.claim_ids.push(claim(p,'faculty.'+(gap.field||'conflict')+'.'+i,gap.values||null,{status:'conflict',source_urls:gap.source_urls||urls(f.sources),conflict:gap.reason,checked_at:f.checked_at}));
@@ -192,7 +199,7 @@ export function observeWindow(person,events,years,asOf){
   const target={min:shift(gb.min),max:shift(gb.max)},as=bounds(asOf);
   if(!as||as.max<target.max)return {status:'not_yet_observable',event:null,target};
   const jobs=events.filter(e=>e.person_id===person.id&&['first_job','subsequent_job','current_appointment'].includes(e.type));
-  for(const e of jobs){const a=bounds(e.start),b=bounds(e.end||(e.status==='current_at_check'?e.checked_at:null));if(a&&a.max<=target.min&&b&&b.min>=target.max)return {status:'observed',event:e,target};}
+  for(const e of jobs){const a=bounds(e.start),b=bounds(e.end||(e.status==='current_at_check'&&!e.source_snapshot_only?e.checked_at:null));if(a&&a.max<=target.min&&b&&b.min>=target.max)return {status:'observed',event:e,target};}
   // An open-ended historical entry is not proof of continuous employment at the horizon.
   return {status:'insufficient_dates_or_followup',event:null,target};
 }

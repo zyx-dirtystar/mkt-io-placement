@@ -47,6 +47,23 @@ test('directory-only updates retain earlier CV links and specific research evide
  const b=batch();b.id='later-directory';b.people[0].fields=[];b.people[0].tracks=['marketing'];b.people[0].cv_url=null;
  const r=applyFacultyBatch(a,[],b).archive.people[0];assert.equal(r.cv_url,p.cv_url);assert.deepEqual(r.fields,p.fields);assert.ok(r.tracks.includes('qm'));assert.equal(r.sources.find(s=>s.url===p.cv_url).checked_at,'2026-10-01');assert.ok(r.carried_forward.some(c=>c.field==='cv_url'&&c.checked_at==='2026-10-01'));
 });
+test('a reviewed wrong CV link can be cleared without deleting historical evidence',()=>{
+ const a=applyFacultyBatch(archive(),[],batch()).archive,p=a.people[0];p.cv_url='https://host.edu/alex-photo.png';
+ const b=batch();b.id='correct-photo';b.people[0].cv_url=null;b.people[0].reviewed_link_corrections=[{field:'cv_url',previous_value:p.cv_url,reason:'Actual image is a portrait, not a CV',source_urls:[p.cv_url]}];
+ assert.throws(()=>applyFacultyBatch(a,[],b),/reviewed field evidence/);
+ b.people[0].sources.push({url:p.cv_url,quote:'Actual image visually inspected: portrait',supports:['cv_url']});
+ const next=applyFacultyBatch(a,[],b).archive.people[0];assert.equal(next.cv_url,null);assert.equal(next.previous_versions[0].cv_url,p.cv_url);assert.ok(next.sources.some(s=>s.url===p.cv_url));
+});
+test('explicit conflicting degree values stay unknown even without a particular conflict keyword',()=>{
+ const a=applyFacultyBatch(archive(),[],batch()).archive,b=batch();b.id='two-official-years';b.people[0].phd.year=null;b.people[0].phd.reported_years=[2023,2024];b.people[0].unknowns=[{field:'phd.year',reason:'Official school pages report 2023 and 2024; award register not located'}];
+ const p=applyFacultyBatch(a,[],b).archive.people[0];assert.equal(p.phd.year,null);assert.deepEqual(p.phd.reported_years,[2023,2024]);assert.equal(p.previous_versions[0].phd.year,2024);
+});
+test('an official search-index year remains a reported lead until readable award evidence is available',()=>{
+ const b=batch();b.people[0].phd.evidence_status='official_indexed_text';assert.throws(()=>applyFacultyBatch(archive(),[],b),/Indexed-only award year/);
+ b.people[0].phd.reported_year=b.people[0].phd.year;b.people[0].phd.year=null;
+ const p=applyFacultyBatch(archive(),[],b).archive.people[0];assert.equal(p.phd.year,null);assert.equal(p.phd.reported_year,2024);
+});
+
 test('published directory snapshots retain field gaps, separate appointments and conflicts',()=>{
  const a=JSON.parse(fs.readFileSync('data/faculty.json','utf8'));
  const city=a.receiving_checks.find(c=>c.host_id==='city-university-of-hong-kong-marketing');assert.notEqual(city.status,'complete');
@@ -69,7 +86,10 @@ test('directory identity conflicts and uncertain research eligibility cannot bec
  const result=applyFacultyBatch(archive(),[],b).archive;
  assert.equal(result.receiving_checks[0].status,'partial');assert.equal(result.people[0].faculty_type,'research_membership_pending');
  const a=JSON.parse(fs.readFileSync('data/faculty.json','utf8'));
- assert.equal(a.receiving_checks.find(c=>c.host_id==='university-of-notre-dame-marketing').status,'partial');
- for(const name of ['James Roger Otteson','John C. Powell'])assert.equal(a.people.find(p=>p.name===name).faculty_type,'research_membership_pending');
+ const nd=a.receiving_checks.find(c=>c.host_id==='university-of-notre-dame-marketing');
+ assert.equal(nd.status,'complete');assert.ok(nd.alias_reconciliations.every(x=>x.exact_individual_url&&x.source_url));
+ assert.equal(a.people.find(p=>p.name==='James Roger Otteson').faculty_type,'affiliated_research');
+ assert.ok(!nd.roster.member_ids.includes(a.people.find(p=>p.name==='James Roger Otteson').id));
+ assert.equal(a.people.find(p=>p.name==='John C. Powell').faculty_type,'research_membership_pending');
  assert.equal(a.people.filter(p=>p.name==='Jessica Fong').length,1);
 });

@@ -24,6 +24,12 @@ test('Assistant Professor is an academic title with unknown tenure; current tenu
   const input=template();input.records[0].current_tenure={status:'tt'};assert.equal(buildObservatory(input).events.find(e=>e.type==='first_job').tenure_status,'unknown');
   assert.equal(appointment('Associate Professor (untenured)').tenure_status,'unknown');
   assert.equal(appointment('Associate Professor (without Tenure)').tenure_status,'unknown');
+  assert.equal(appointment('Associate Professor (pre-tenure)').tenure_status,'unknown');
+  assert.equal(appointment('Associate Professor (with tenure)').tenure_status,'tt');
+  assert.equal(appointment('Associate Professor (with tenure)').tenure_evidence_status,'title_explicit');
+  assert.equal(appointment('副教授').job_family,'academic');
+  assert.equal(appointment('教授').tenure_status,'unknown');
+  assert.equal(appointment('青年副研究员').job_family,'research');
 });
 
 test('faculty backfill preserves month precision, earlier event checks, and distinct earned doctorates',()=>{
@@ -31,6 +37,12 @@ test('faculty backfill preserves month precision, earlier event checks, and dist
  const d=buildObservatory(input),g=d.events.find(e=>e.type==='graduation');assert.equal(g.start,'2012-06');assert.equal(g.date_precision,'month');
  assert.equal(d.events.find(e=>e.type==='appointment').checked_at,'2025-04-01');
  assert.equal(d.events.filter(e=>e.type==='graduation').length,1);assert.equal(d.events.find(e=>e.type==='additional_degree').start,'2005-12');assert.deepEqual(validateObservatory(d),[]);
+});
+
+test('quoted career facts retain field evidence while a historical CV present does not imply continuous employment',()=>{
+ const input=template();input.records=[];input.faculty={people:[{id:'f',name:'Faculty',aliases:[],tracks:[],sources:[],checked_at:'2026-10-22',phd:{school:'A University',year:2012},career_events:[{type:'current_appointment',institution:'B University',role:'Professor',start_year:2013,status:'current_at_check',source_snapshot_only:true,checked_at:'2026-10-22',source_urls:['https://official.example/old-cv'],quote:'2013 Professor, B University'}]}]};
+ const d=buildObservatory(input),e=d.events.find(e=>e.type==='current_appointment');assert.equal(e.source_snapshot_only,true);assert.equal(e.quote,'2013 Professor, B University');assert.ok(d.claims.some(c=>c.field.includes('events.current_appointment')&&c.status==='confirmed'&&c.quote));
+ assert.equal(observeWindow({id:'f'},d.events,3,'2026-10-22').status,'insufficient_dates_or_followup');
 });
 test('missing role categories differ from missing title strings and use the same chart classification',()=>{
   const input=template();input.records[0].destination='Company';input.records[0].role=null;input.records[0].job_kind='industry';
