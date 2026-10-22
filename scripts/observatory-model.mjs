@@ -86,7 +86,7 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
     const name=value.institution||value.employer||value.destination||null;
     const start=date(value.start_date||value.start||value.start_year||value.year);
     const end=date(value.end_date||value.end||value.end_year);
-    const source_urls=urls(value.sources?.length?value.sources:p.sources);
+    const source_urls=value.source_urls?.length?unique(value.source_urls):urls(value.sources?.length?value.sources:p.sources);
     const e={id:`${p.id}:${type}:${index}`,person_id:p.id,type,institution:name,institution_id:institution(name,value.destination_region||value.region,departmentOf(value)),department:departmentOf(value),title:value.title||value.role||null,start,end,date_precision:precision(start),end_precision:precision(end),status:value.status||'legacy_record',source_urls,claim_ids:[],checked_at:value.checked_at||p.checked_at||null,...appointment(value.role||value.title,value.job_kind||value.category,value.tenure)};
     if(type==='market'){e.start=p.market_cycle;e.date_precision='cycle';}
     for(const field of ['institution','title','start','end']) if(e[field]!==null)e.claim_ids.push(claim(p,`events.${type}.${index}.${field}`,e[field],{source_urls,status:'legacy_reference',annotation:value.evidence||null}));
@@ -118,7 +118,19 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
     let p=f.placement_id&&people.find(p=>p.id===f.placement_id);
     if(!p){p={id:f.id,name:f.name,aliases:f.aliases||[],school:f.phd?.school||null,program_id:f.phd?.program_id||null,origin:f.phd?.region||'UNKNOWN',graduation_year:f.phd?.year||null,status:'faculty_only',tracks:f.tracks||[],topics:[],methods:[],sources:f.sources||[],checked_at:f.checked_at,homepage:f.homepage,cv_url:f.cv_url,institution_id:institution(f.phd?.school,f.phd?.region),event_ids:[],claim_ids:[],faculty_ids:[],research:{tracks:canonicalize(f.tracks||[],terms.tracks,'track'),topics:[],methods:[],raw:{tracks:f.tracks||[],topics:[],methods:[]},classification_status:'legacy_reference',provisional_tracks:[]}};people.push(p);if(f.phd?.year)p.event_ids.push(event(p,'graduation',{institution:f.phd.school,region:f.phd.region,title:f.phd.program,start_year:f.phd.year,status:'recorded_degree'}));}
     p.faculty_ids.push(f.id);
-    if(f.current)p.event_ids.push(event(p,'current_appointment',{...f.current,status:'current_at_check',checked_at:f.checked_at,sources:f.sources},p.faculty_ids.length-1));
+    if(f.current)p.event_ids.push(event(p,'current_appointment',{...f.current,status:f.current.status||'current_at_check',checked_at:f.checked_at,sources:f.sources},p.faculty_ids.length-1));
+    // Reverse lookup adds observed career segments; it never rewrites the placement first/final job.
+    for(const [i,e] of (f.career_events||[]).entries()){
+      if(e.type==='current_appointment'&&e.institution===f.current?.institution&&e.start_year===f.current?.start_year)continue;
+      p.event_ids.push(event(p,e.type||'appointment',{...e,status:e.status||'source_reported',checked_at:f.checked_at},100+i));
+    }
+    for(const [field,value]of [['phd.school',f.phd?.school],['phd.program',f.phd?.program],['phd.year',f.phd?.year],['current.role',f.current?.role],['current.start_year',f.current?.start_year]]){
+      if(value===null||value===undefined)continue;
+      const sources=(f.sources||[]).filter(s=>s.supports?.some(k=>k===field||k===field.split('.')[0]));
+      const exact=sources.find(s=>s.quote?.toLowerCase().includes(String(value).toLowerCase()));
+      p.claim_ids.push(claim(p,'faculty.'+field,value,{source_urls:exact?[exact.url]:urls(sources.length?sources:f.sources),quote:exact?.quote||sources.find(s=>s.quote)?.quote||null,status:exact?'confirmed':'provisional',annotation:'字段由接收端资料核验；仅原文摘录明确包含该值时列为明确确认，其余保留来源定位待逐字段补证。',checked_at:exact?.checked_at||f.carried_forward?.find(c=>c.field===field)?.checked_at||f.checked_at}));
+    }
+    for(const [i,gap]of (f.unknowns||[]).entries())if(gap.values||/冲突|conflict/i.test(gap.reason||''))p.claim_ids.push(claim(p,'faculty.'+(gap.field||'conflict')+'.'+i,gap.values||null,{status:'conflict',source_urls:gap.source_urls||urls(f.sources),conflict:gap.reason,checked_at:f.checked_at}));
   }
   const knownOutcome=r=>r.status==='placed'&&!!r.destination;
   const audit=coverage.map(c=>{

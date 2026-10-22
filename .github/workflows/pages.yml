@@ -26,6 +26,7 @@ jobs:
       - name: Generate and validate website data
         run: |
           node scripts/sync-data.mjs
+          node scripts/faculty-report.mjs
           node scripts/check.mjs
           node scripts/check-placement.mjs
           node scripts/check-evidence.mjs

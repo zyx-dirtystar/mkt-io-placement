@@ -1,0 +1,244 @@
+[
+  {
+    "name": "Varad Vivek Deolankar",
+    "host_id": "national-university-of-singapore-marketing",
+    "placement_id": "university-of-michigan-varad-vivek-deolankar",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://michiganross.umich.edu/phd/areas-of-study/marketing",
+        "https://discovery.nus.edu.sg/29502-varad-vivek-deolankar"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Ta-Wei (David) Huang",
+    "host_id": "national-university-of-singapore-marketing",
+    "placement_id": "ta-wei-huang-2025",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://www.hbs.edu/doctoral/placement/marketing",
+        "https://www.hbs.edu/doctoral/research-community/profiles/ta-wei-huang",
+        "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf",
+        "https://discovery.nus.edu.sg/29496-david-tawei-huang"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Jane Jiaqian Wang",
+    "host_id": "national-university-of-singapore-marketing",
+    "placement_id": "northwestern-jane-jiaqian-wang",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+        "https://www.janejiaqianwang.com/",
+        "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2024/07/CV-Website-Jane-July2024.pdf",
+        "https://discovery.nus.edu.sg/27118-jane-jiaqian-wang"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Ian Nicholas Weaver",
+    "host_id": "national-university-of-singapore-marketing",
+    "placement_id": "yale-university-ian-weaver",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students",
+        "https://discovery.nus.edu.sg/24671"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Jong Yeob Kim",
+    "host_id": "nanyang-technological-university-marketing",
+    "placement_id": "new-york-university-jong-yeob-kim",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements",
+        "https://sites.google.com/stern.nyu.edu/jongyeobkim",
+        "https://sites.google.com/stern.nyu.edu/jongyeobkim/research"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Kyu Ree Kim",
+    "host_id": "nanyang-technological-university-marketing",
+    "placement_id": "indiana-university-kyu-ree-kim",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Verina F. Que",
+    "host_id": "nanyang-technological-university-marketing",
+    "placement_id": "toronto-verina-que",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://rotman.utoronto.ca/programs/phd-program/our-placements/",
+        "https://verinaque.com/",
+        "https://verinaque.com/vita.html",
+        "https://www.linkedin.com/posts/marketing-division-nbs_nanyangbusinessschool-mktdivisionnbsntu-activity-7367820947841585152-3-qL",
+        "https://verinaque.com/index.html"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Sai Chand Chintala",
+    "host_id": "singapore-management-university-marketing",
+    "placement_id": "cornell-university-sai-chand-chintala",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "https://business.smu.edu.sg/faculty/profile/8096/sai-chand-chintala-8096"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Minkwang Jang",
+    "host_id": "singapore-management-university-marketing",
+    "placement_id": "chicago-minkwang-jang",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://www.chicagobooth.edu/phd/career-outcomes",
+        "https://faculty.smu.edu.sg/profile/jang-minkwang-7816",
+        "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/CV_JANG_Sep2025.pdf",
+        "https://business.smu.edu.sg/faculty/profile/7816/jang-minkwang"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Pu Zhao",
+    "host_id": "peking",
+    "placement_id": "boston-university-pu-zhao",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://www.bu.edu/questrom/phd-program/placements/",
+        "https://worksapi.gsm.pku.edu.cn/uploadfiles/20241111/puzhao_CV_Chinese.pdf"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "史正煜",
+    "host_id": "sjtu",
+    "placement_id": "hku-zhengyu-shi",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://phd.hkubs.hku.hk/People/graduate-placement",
+        "https://www.rmbs.ruc.edu.cn/xwzx/jzhd/d27a203f8dc84eb1b589588cf02d7102.htm",
+        "https://hub.hku.hk/handle/10722/344156",
+        "https://www.acem.sjtu.edu.cn/faculty/shizhengyu.html"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "贺达",
+    "host_id": "xiamen",
+    "placement_id": "hkust-da-he",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf",
+        "https://da-he.weebly.com/",
+        "https://da-he.weebly.com/uploads/1/1/4/8/114842469/dahe_cv_aug2025.pdf",
+        "https://orcid.org/0000-0001-9530-6501",
+        "https://smr.xmu.edu.cn/TeacherWeb/Teacher_Details_2022.aspx?User_ID=1255"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Zi Wei Wei",
+    "host_id": "hong-kong-polytechnic-university-marketing",
+    "placement_id": "arizona-state-university-ziwei-wei",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "https://www.polyu.edu.hk/mm/people/academic-staff/dr-zi-wei-wei/",
+        "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/wei_ziwei/wei-ziwei_cv.pdf?rev=5bf75a2013054b76a505a904bd9d900d&hash=D6CAD5C46DD6315EDEF61F244F549408"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Xiaohang (Flora) Feng",
+    "host_id": "city-university-of-hong-kong-marketing",
+    "placement_id": "carnegie-mellon-xiaohang-flora-feng",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://www.cmu.edu/tepper/programs/phd/job-market",
+        "https://www.cb.cityu.edu.hk/staff/xifeng/",
+        "https://www.cmu.edu/tepper/programs/phd/program/student-profiles/phd-student-feng-xiaohang-flora.html",
+        "https://www.cmu.edu/sites/default/files/cmu-tepper-site-files/documents/Feng%20Flora%20Dissertation.pdf",
+        "https://sem.tongji.edu.cn/semen/27172.html"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Chong Bo Zack Wang",
+    "host_id": "university-of-hong-kong-marketing",
+    "placement_id": "washington-university-in-st-louis-chong-bo-zack-wang",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://olin.washu.edu/programs/doctoral/placements.php",
+        "https://www.hkubs.hku.hk/people/chong-bo-zack-wang/"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  },
+  {
+    "name": "Theresa Anna Kwon",
+    "host_id": "university-of-hong-kong-marketing",
+    "placement_id": "university-of-pittsburgh-theresa-tess-kwon",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "正向培养项目名册的培养院校、姓名/公开别名与接收院校吻合；接收端个人教育资料或同一官方名册交叉核对。不是仅凭姓名相似合并。",
+      "source_urls": [
+        "https://www.business.pitt.edu/phd/phd-in-marketing/",
+        "https://www.hkubs.hku.hk/sc/people/theresa-anna-kwon/"
+      ],
+      "checked_at": "2026-10-22"
+    }
+  }
+]

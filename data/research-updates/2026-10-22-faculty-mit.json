@@ -1,0 +1,928 @@
+{
+  "id": "faculty-mit-2026-10-22",
+  "checked_at": "2026-10-22",
+  "schools": [
+    {
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "directory_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+      "scope": "MIT Marketing Group官方FULL-TIME FACULTY中教授序列；10名已列现职教授及1名官方incoming教授（明确单列到岗待核验）。排除Senior Lecturer/Research Scientist、Emeritus和In Memoriam；这是目录快照对齐，不声称11人均已到岗。",
+      "roster_names": [
+        "Sinan Aral",
+        "Rahul Bhui",
+        "Dean Eckles",
+        "John R. Hauser",
+        "Ruru Hoong",
+        "Jimin Nam",
+        "Drazen Prelec",
+        "Anya Shchetkina",
+        "Duncan Simester",
+        "Catherine Tucker",
+        "Juanjuan Zhang"
+      ],
+      "directory_total": 17,
+      "exclusions": [
+        {
+          "name": "Sharmila C. Chatterjee",
+          "role": "Senior Lecturer",
+          "reason": "不属于本次目录教授序列在职/已宣布安排范围，独立保留。",
+          "source_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers"
+        },
+        {
+          "name": "Renee Richardson Gosline",
+          "role": "Research Scientist / Senior Lecturer",
+          "reason": "不属于本次目录教授序列在职/已宣布安排范围，独立保留。",
+          "source_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers"
+        },
+        {
+          "name": "Glen Urban",
+          "role": "Emeritus",
+          "reason": "不属于本次目录教授序列在职/已宣布安排范围，独立保留。",
+          "source_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers"
+        },
+        {
+          "name": "Birger Wernerfelt",
+          "role": "Emeritus",
+          "reason": "不属于本次目录教授序列在职/已宣布安排范围，独立保留。",
+          "source_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers"
+        },
+        {
+          "name": "John D.C. Little",
+          "role": "In Memoriam",
+          "reason": "不属于本次目录教授序列在职/已宣布安排范围，独立保留。",
+          "source_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers"
+        },
+        {
+          "name": "David C. Schmittlein",
+          "role": "In Memoriam",
+          "reason": "不属于本次目录教授序列在职/已宣布安排范围，独立保留。",
+          "source_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers"
+        }
+      ],
+      "complete_evidence": {
+        "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+        "quote": "FULL-TIME FACULTY ... Emeritus Faculty ... In Memoriam"
+      },
+      "notes": "官方组目录17条逐项核对，11名教授序列（含Anya incoming待核验到岗）入库、6名教学/研究科学家/荣休/已故单列。校级目录还出现访问/讲师，未与本组范围混算。"
+    }
+  ],
+  "people": [
+    {
+      "name": "Sinan Aral",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "David Austin Professor of Management",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Massachusetts Institute of Technology",
+        "program": null,
+        "degree_type": "PhD",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Social Media",
+        "Business Analytics"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/sinan-aral",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/sinan-aral",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "Sinan earned his PhD at MIT",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮官方个人页未列博士授位年，未以职称或入职年推算。"
+        },
+        {
+          "field": "phd.program",
+          "reason": "官方页只确认博士院校，专业仍待核验。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "已核官方个人页，尚未读取可核对日期的CV。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "当前职称已核验，具体职级起始年份仍待CV或任命资料。"
+        }
+      ]
+    },
+    {
+      "name": "Rahul Bhui",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Associate Professor of Marketing",
+        "start_year": 2025
+      },
+      "phd": {
+        "school": "California Institute of Technology",
+        "program": "PhD in Computation and Neural Systems",
+        "degree_type": "PhD",
+        "region": "US",
+        "year": 2016
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Cognitive Science",
+        "Computational Neuroscience",
+        "Behavioral Economics"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/rahul-bhui",
+      "cv_url": "https://mitsloan.mit.edu/shared/ods/documents?DocID=13834&PersonID=204676",
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/rahul-bhui",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "a PhD in computation and neural systems from Caltech",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/shared/ods/documents?DocID=13834&PersonID=204676",
+          "label": "MIT官方托管本人CV",
+          "quote": "PhD, Computation and Neural Systems 2013 – 2016",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "postdoc",
+          "institution": "Harvard University",
+          "region": "US",
+          "role": "Postdoctoral Fellow",
+          "start_year": 2016,
+          "end_year": 2020,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents?DocID=13834&PersonID=204676"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2020,
+          "end_year": 2025,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents?DocID=13834&PersonID=204676"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2025,
+          "end_year": null,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents?DocID=13834&PersonID=204676"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Dean Eckles",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "William F. Pounds Professor of Management",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Stanford University",
+        "program": "PhD in Communication",
+        "degree_type": "PhD",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Causal Inference",
+        "Social Media",
+        "Experiments"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/dean-eckles",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/dean-eckles",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "a PhD in communication, all from Stanford University",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Facebook",
+          "region": "US",
+          "role": "Scientist",
+          "start_year": null,
+          "end_year": null,
+          "source_urls": [
+            "https://mitsloan.mit.edu/faculty/directory/dean-eckles"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Nokia",
+          "region": "US",
+          "role": "Scientist",
+          "start_year": null,
+          "end_year": null,
+          "source_urls": [
+            "https://mitsloan.mit.edu/faculty/directory/dean-eckles"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮官方个人页未列博士授位年，未以职称或入职年推算。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "已核官方个人页，尚未读取可核对日期的CV。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "当前职称已核验，具体职级起始年份仍待CV或任命资料。"
+        }
+      ]
+    },
+    {
+      "name": "John R. Hauser",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Kirin Professor of Marketing",
+        "start_year": 1989
+      },
+      "phd": {
+        "school": "Massachusetts Institute of Technology",
+        "program": "ScD in Operations Research",
+        "degree_type": "ScD",
+        "region": "US",
+        "year": 1975
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "New Product Development",
+        "Consumer Decision Measurement"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/john-r-hauser",
+      "cv_url": "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=14388&doc=1",
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/john-r-hauser",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "Sc.D. M.I.T., 1975, Operations Research",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=14388&doc=1",
+          "label": "MIT官方托管本人CV",
+          "quote": "Sc.D. M.I.T., 1975, Operations Research",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Northwestern University",
+          "region": "US",
+          "role": "Assistant Professor of Marketing and of Transportation",
+          "start_year": 1975,
+          "end_year": 1980,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=14388&doc=1"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Associate Professor of Management Science",
+          "start_year": 1980,
+          "end_year": 1984,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=14388&doc=1"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Kirin Professor of Marketing",
+          "start_year": 1989,
+          "end_year": null,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=14388&doc=1"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Ruru Hoong",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Assistant Professor of Marketing",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Harvard University",
+        "program": null,
+        "degree_type": "PhD",
+        "region": "US",
+        "year": 2026
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Artificial Intelligence",
+        "Decision Making",
+        "Digital Technologies",
+        "Consumer Welfare"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/ruru-hoong",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/ruru-hoong",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "received her PhD from Harvard Business School in 2026",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.program",
+          "reason": "官方页只确认博士院校，专业仍待核验。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "已核官方个人页，尚未读取可核对日期的CV。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "当前职称已核验，具体职级起始年份仍待CV或任命资料。"
+        }
+      ],
+      "placement_id": "ruru-hoong-2026",
+      "identity_evidence": "已有记录的MIT官方profile URL完全相同，Harvard博士及MIT去向相同。"
+    },
+    {
+      "name": "Jimin Nam",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Assistant Professor of Marketing",
+        "start_year": 2025,
+        "tenure": {
+          "status": "tt",
+          "evidence_status": "confirmed",
+          "quote": "Assistant Professor of Marketing, Tenure-Track (2025 —)",
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Harvard University",
+        "program": "PhD in Business Administration (Marketing)",
+        "degree_type": "PhD",
+        "region": "US",
+        "year": 2024
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Consumer Attention",
+        "Experimental and Computational Methods"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/jimin-nam",
+      "cv_url": "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1",
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/jimin-nam",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "She received her PhD from Harvard Business School",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1",
+          "label": "MIT官方托管本人CV",
+          "quote": "Ph.D. Business Administration, Concentration: Marketing (2019-2024)",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "The Ohio State University",
+          "region": "US",
+          "role": "Assistant Professor of Marketing, Tenure-Track",
+          "start_year": 2024,
+          "end_year": 2025,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Assistant Professor of Marketing, Tenure-Track",
+          "start_year": 2025,
+          "end_year": null,
+          "source_urls": [
+            "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [],
+      "placement_id": "harvard-jimin-nam",
+      "identity_evidence": "已有placement来源包含同一MIT官方个人页；新CV确认Harvard博士2024→Ohio State2024→MIT2025，保留Ohio State首职。"
+    },
+    {
+      "name": "Drazen Prelec",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Professor of Management Science and Economics",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Harvard University",
+        "program": "PhD in Experimental Psychology",
+        "degree_type": "PhD",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Consumer Decision-Making",
+        "Neuroscience"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/drazen-prelec",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/drazen-prelec",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "a PhD in experimental psychology from Harvard University",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮官方个人页未列博士授位年，未以职称或入职年推算。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "已核官方个人页，尚未读取可核对日期的CV。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "当前职称已核验，具体职级起始年份仍待CV或任命资料。"
+        }
+      ]
+    },
+    {
+      "name": "Anya Shchetkina",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Assistant Professor of Marketing (incoming)",
+        "start_year": null,
+        "status": "announced_future"
+      },
+      "phd": {
+        "school": "University of Pennsylvania",
+        "program": "PhD in Marketing",
+        "degree_type": "PhD",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Personalization",
+        "Targeting",
+        "Privacy",
+        "Marketing Mix Modeling"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/anya-shchetkina",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/anya-shchetkina",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "incoming Assistant Professor of Marketing ... PhD in Marketing from the Wharton School, University of Pennsylvania",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮官方个人页未列博士授位年，未以职称或入职年推算。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "已核官方个人页，尚未读取可核对日期的CV。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "当前职称已核验，具体职级起始年份仍待CV或任命资料。"
+        },
+        {
+          "field": "current.status",
+          "reason": "官方目录列Assistant Professor，但同一官方个人页正文仍明确incoming；保留已宣布安排，到岗尚待独立核验。",
+          "status": "conflict"
+        }
+      ],
+      "placement_id": "penn-anya-shchetkina",
+      "identity_evidence": "现有Wharton官方毕业去向记录与MIT官方新教师记录同名，培养项目和MIT安排一致；当前到岗状态仍未确认。"
+    },
+    {
+      "name": "Duncan Simester",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "NTU Professor of Marketing",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Massachusetts Institute of Technology",
+        "program": null,
+        "degree_type": "PhD",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Marketing Strategy",
+        "Experiments",
+        "Artificial Intelligence"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/duncan-simester",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/duncan-simester",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "Duncan holds a PhD from MIT",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Chicago",
+          "region": "US",
+          "role": "Professor",
+          "start_year": null,
+          "end_year": null,
+          "source_urls": [
+            "https://mitsloan.mit.edu/faculty/directory/duncan-simester"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "本轮官方个人页未列博士授位年，未以职称或入职年推算。"
+        },
+        {
+          "field": "phd.program",
+          "reason": "官方页只确认博士院校，专业仍待核验。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "已核官方个人页，尚未读取可核对日期的CV。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "当前职称已核验，具体职级起始年份仍待CV或任命资料。"
+        }
+      ]
+    },
+    {
+      "name": "Catherine Tucker",
+      "aliases": [],
+      "host_id": "massachusetts-institute-of-technology-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "Massachusetts Institute of Technology",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Sloan Distinguished Professor of Management",
+        "start_year": 2015
+      },
+      "phd": {
+        "school": "Stanford University",
+        "program": "PhD in Economics",
+        "degree_type": "PhD",
+        "region": "US",
+        "year": 2005
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Digital Technology",
+        "Advertising",
+        "Platforms",
+        "Privacy",
+        "Regulation"
+      ],
+      "homepage": "https://mitsloan.mit.edu/faculty/directory/catherine-tucker",
+      "cv_url": "https://mitsloan.mit.edu/sites/default/files/faculty-cv/2021/04/07/cv-document-10571.pdf",
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/faculty/directory/catherine-tucker",
+          "label": "MIT Sloan官方教师个人页",
+          "quote": "PhD in economics from Stanford University",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+          "label": "MIT Marketing官方Full-time Faculty目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://mitsloan.mit.edu/sites/default/files/faculty-cv/2021/04/07/cv-document-10571.pdf",
+          "label": "MIT官方托管本人CV",
+          "quote": "Stanford University, Ph.D. in Economics ... 2005",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2005,
+          "end_year": 2011,
+          "source_urls": [
+            "https://mitsloan.mit.edu/sites/default/files/faculty-cv/2021/04/07/cv-document-10571.pdf"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Associate Professor of Management Science",
+          "start_year": 2011,
+          "end_year": 2015,
+          "source_urls": [
+            "https://mitsloan.mit.edu/sites/default/files/faculty-cv/2021/04/07/cv-document-10571.pdf"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "region": "US",
+          "role": "Professor of Management Science",
+          "start_year": 2015,
+          "end_year": null,
+          "source_urls": [
+            "https://mitsloan.mit.edu/sites/default/files/faculty-cv/2021/04/07/cv-document-10571.pdf"
+          ],
+          "evidence": "官方CV Academic Appointments / 官方Biography；保留原始职称和日期，未知区间不补年份。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    }
+  ]
+}

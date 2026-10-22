@@ -1,0 +1,1893 @@
+{
+  "id": "faculty-ubc-2026-10-22",
+  "checked_at": "2026-10-22",
+  "schools": [
+    {
+      "host_id": "university-of-british-columbia-marketing",
+      "directory_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+      "scope": "官方People页面Tenured Professors与Tenure-Track Professors中的研究教授序列，排除明确Associate Professor of Teaching、全职/兼职讲师和退休人员。目录快照不等于人事认证。",
+      "roster_names": [
+        "Yann Cornil",
+        "Karl Aquino",
+        "Lisa Cavanaugh",
+        "Murali Chandrashekaran",
+        "Darren Dahl",
+        "Dale Griffin",
+        "David Hardisty",
+        "Yi Qian",
+        "Yanwen Wang",
+        "Katherine White",
+        "Chunhua Wu",
+        "Wenjia Ba",
+        "Holly Howe",
+        "Shin Oblander",
+        "Jen Park",
+        "Deepak Sirwani"
+      ],
+      "directory_total": 41,
+      "exclusions": [
+        {
+          "name": "Tim Silk",
+          "role": "Associate Professor of Teaching",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Tamar Milne",
+          "role": "Lecturer",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Kirstin Appelt",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Nathanael Arney",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Rui Basto da Silva",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Phaedra Burke",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Jenny Dickson",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Negar Hadavi",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Darren Mahaffy",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Cluny South",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Mary Swaffield",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Victor Tang",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Joanne Turner",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Jarrett Vaughan",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "James Wang",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Elaine Williamson",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Laurel Xiao",
+          "role": "Part-time Instructors",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "John Claxton",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Dan Gardiner",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "JoAndrea (Joey) Hoegg",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "David (DJ) Miller",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Rick Pollay",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Dan Skarlicki",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Ann Stone",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        },
+        {
+          "name": "Chuck Weinberg",
+          "role": "Retired Faculty",
+          "source_url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "reason": "按官方教学、兼职或退休分组排除出本次在职研究教授序列；名单单独保留。"
+        }
+      ],
+      "complete_evidence": {
+        "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+        "quote": "Meet our current Faculty, Emeriti Faculty, and PhD students ... Tenured Professors ... Tenure-Track Professors"
+      },
+      "notes": "实际读取目录完整分类；16名在职研究教授序列逐人查官方profile。12份CV可读，4份CV返回Cache miss；Wenjia Ba现职年份冲突独立保留。"
+    }
+  ],
+  "people": [
+    {
+      "name": "Yann Cornil",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Associate Professor",
+        "start_year": 2022,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "INSEAD",
+        "program": "PhD in Marketing",
+        "region": null,
+        "year": 2015
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Food Marketing",
+        "Hedonic Consumption",
+        "Sustainability"
+      ],
+      "homepage": "https://www.yanncornil.com/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/CORNIL%20CV%20July%202026.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/yann-cornil",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., INSEAD",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/CORNIL%20CV%20July%202026.pdf",
+          "label": "官方托管本人CV",
+          "quote": "2015 Ph.D. Marketing, INSEAD, France & Singapore",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        },
+        {
+          "url": "https://www.yanncornil.com/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Assistant Professor of Marketing and Behavioural Science",
+          "start_year": 2015,
+          "end_year": 2022,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/CORNIL%20CV%20July%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Associate Professor of Marketing and Behavioural Science",
+          "start_year": 2022,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/CORNIL%20CV%20July%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.region",
+          "reason": "CV明确INSEAD France & Singapore；未将跨校区培养归成单一国家。"
+        }
+      ]
+    },
+    {
+      "name": "Karl Aquino",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Full Professor",
+        "start_year": null,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Northwestern University",
+        "program": "PhD in Organizational Behavior",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Moral Cognition and Behaviour",
+        "Organizational Justice"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/karl-aquino",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf:",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/karl-aquino",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Northwestern University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/AquinoCVUBC-2026.pdf:",
+          "label": "官方CV链接；本轮无法读取",
+          "quote": null,
+          "status": "unavailable",
+          "supports": [
+            "cv_url"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "官方个人页未列博士年份；CV链接本轮返回Cache miss，未据此填年份。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "本轮资料未确认当前职级开始年；不使用行政任期或早期加入学校日期代替。"
+        }
+      ]
+    },
+    {
+      "name": "Lisa Cavanaugh",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Associate Professor",
+        "start_year": null,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Duke University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Emotions",
+        "Relationships",
+        "Self and Identity"
+      ],
+      "homepage": "https://lacavanaugh.com/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf:",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/lisa-cavanaugh",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Duke University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Cavanaugh%20Vita%20-%20October%202026%20ext.pdf:",
+          "label": "官方CV链接；本轮无法读取",
+          "quote": null,
+          "status": "unavailable",
+          "supports": [
+            "cv_url"
+          ]
+        },
+        {
+          "url": "https://lacavanaugh.com/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Southern California",
+          "region": "US",
+          "role": "Faculty member",
+          "start_year": null,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/people/lisa-cavanaugh"
+          ],
+          "evidence": "Prior to UBC, she was on faculty at USC’s Marshall School of Business.",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "官方个人页未列博士年份；CV链接本轮返回Cache miss，未据此填年份。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "本轮资料未确认当前职级开始年；不使用行政任期或早期加入学校日期代替。"
+        }
+      ]
+    },
+    {
+      "name": "Murali Chandrashekaran",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Full Professor",
+        "start_year": null,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Arizona State University",
+        "program": "PhD in Business Administration",
+        "region": "US",
+        "year": 1991
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Economics and Ethics of Urbanization",
+        "Happiness and Inclusive Prosperity"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/murali-chandrashekaran",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2024-01/Murali%20Chandrashekaran%20CV%20September%202023.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/murali-chandrashekaran",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Arizona State University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2024-01/Murali%20Chandrashekaran%20CV%20September%202023.pdf",
+          "label": "官方托管本人CV",
+          "quote": "Ph.D. Arizona State University, 1991",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Professor of Marketing and Behavioural Science",
+          "start_year": 2011,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-01/Murali%20Chandrashekaran%20CV%20September%202023.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "本轮资料未确认当前职级开始年；不使用行政任期或早期加入学校日期代替。"
+        }
+      ]
+    },
+    {
+      "name": "Darren Dahl",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Full Professor",
+        "start_year": 2007,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "University of British Columbia",
+        "program": "PhD in Marketing",
+        "region": "CA",
+        "year": 1998
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "New Product Development",
+        "Creativity",
+        "Social Influence"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/darren-dahl",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-06/UBCVita%20-%20DarrenDahl.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/darren-dahl",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., University of British Columbia",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-06/UBCVita%20-%20DarrenDahl.pdf",
+          "label": "官方托管本人CV",
+          "quote": "University of British Columbia, B.C. PhD Marketing 1998",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Manitoba",
+          "region": "CA",
+          "role": "Assistant Professor",
+          "start_year": 1998,
+          "end_year": 2002,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-06/UBCVita%20-%20DarrenDahl.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Manitoba",
+          "region": "CA",
+          "role": "Associate Professor",
+          "start_year": 2002,
+          "end_year": 2002,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-06/UBCVita%20-%20DarrenDahl.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Full Professor",
+          "start_year": 2007,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-06/UBCVita%20-%20DarrenDahl.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Dale Griffin",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Full Professor",
+        "start_year": 2003,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Stanford University",
+        "program": "PhD in Psychology",
+        "region": "US",
+        "year": 1988
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Consumer Judgment and Decision Making",
+        "Prediction and Forecasting"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/dale-griffin",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2024-05/CV%20GRIFFIN%20EXTERNAL%202024.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/dale-griffin",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Stanford University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2024-05/CV%20GRIFFIN%20EXTERNAL%202024.pdf",
+          "label": "官方托管本人CV",
+          "quote": "1988 Stanford University-- Ph.D. (Psychology",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Waterloo",
+          "region": "CA",
+          "role": "Assistant and Associate Professor of Psychology",
+          "start_year": 1988,
+          "end_year": 1994,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-05/CV%20GRIFFIN%20EXTERNAL%202024.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Sussex",
+          "region": "UK",
+          "role": "Senior Lecturer and Reader in Psychology",
+          "start_year": 1994,
+          "end_year": 1999,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-05/CV%20GRIFFIN%20EXTERNAL%202024.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Associate Professor of Marketing",
+          "start_year": 1999,
+          "end_year": 2003,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-05/CV%20GRIFFIN%20EXTERNAL%202024.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "Stanford University",
+          "region": "US",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2001,
+          "end_year": 2003,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-05/CV%20GRIFFIN%20EXTERNAL%202024.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Professor of Marketing and Behavioural Science",
+          "start_year": 2003,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-05/CV%20GRIFFIN%20EXTERNAL%202024.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "David Hardisty",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Associate Professor",
+        "start_year": null,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Columbia University",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Judgment and Decision Making",
+        "Sustainability",
+        "Product Attribute Framing"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/david-hardisty",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/HARDISTY_DAVID_WEB_CV_2026.pdf:",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/david-hardisty",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Columbia University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/HARDISTY_DAVID_WEB_CV_2026.pdf:",
+          "label": "官方CV链接；本轮无法读取",
+          "quote": null,
+          "status": "unavailable",
+          "supports": [
+            "cv_url"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "官方个人页未列博士年份；CV链接本轮返回Cache miss，未据此填年份。"
+        },
+        {
+          "field": "phd.program",
+          "reason": "Education仅列Ph.D.与学校，未标专业，不能因现任Marketing而填Marketing博士。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "本轮资料未确认当前职级开始年；不使用行政任期或早期加入学校日期代替。"
+        }
+      ]
+    },
+    {
+      "name": "Yi Qian",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Full Professor",
+        "start_year": 2025,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Harvard University",
+        "program": "PhD in Economics",
+        "region": "US",
+        "year": 2006
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Econometrics",
+        "Industrial Organization",
+        "Intellectual Property Rights",
+        "Counterfeiting",
+        "Marketing Analytics"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/yi-qian",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/Qian_Yi_CV.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/yi-qian",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Harvard University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/Qian_Yi_CV.pdf",
+          "label": "官方托管本人CV",
+          "quote": "Ph.D. in Economics ... Diploma Date: June 8, 2006.",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Northwestern University",
+          "region": "US",
+          "role": "Assistant Professor",
+          "start_year": 2006,
+          "end_year": 2014,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/Qian_Yi_CV.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Associate Professor (with tenure)",
+          "start_year": 2015,
+          "end_year": 2025,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/Qian_Yi_CV.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Professor",
+          "start_year": 2025,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/Qian_Yi_CV.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Yanwen Wang",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Associate Professor",
+        "start_year": 2021,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Emory University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2014
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Empirical Modeling in Marketing",
+        "Public Health",
+        "Consumer Finance",
+        "Digital Technology"
+      ],
+      "homepage": "https://sites.google.com/site/yanwen1wang/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/CV%20-%20Yanwen%20Wang%20-%20Jul2026.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/yanwen-wang",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Emory University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/CV%20-%20Yanwen%20Wang%20-%20Jul2026.pdf",
+          "label": "官方托管本人CV",
+          "quote": "Ph.D., Marketing, 2014, Goizueta Business School, Emory University",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        },
+        {
+          "url": "https://sites.google.com/site/yanwen1wang/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Colorado Boulder",
+          "region": "CA",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2014,
+          "end_year": 2017,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/CV%20-%20Yanwen%20Wang%20-%20Jul2026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2017,
+          "end_year": 2021,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/CV%20-%20Yanwen%20Wang%20-%20Jul2026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2021,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/CV%20-%20Yanwen%20Wang%20-%20Jul2026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Katherine White",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Full Professor",
+        "start_year": 2015,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "University of British Columbia",
+        "program": "PhD in Psychology",
+        "region": "CA",
+        "year": 2003
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Social Influence",
+        "Sustainability",
+        "Prosocial Consumption"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/katherine-white",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Kate%20White%20CV%202026.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/katherine-white",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., University of British Columbia",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Kate%20White%20CV%202026.pdf",
+          "label": "官方托管本人CV",
+          "quote": "University of British Columbia PhD Psychology 2003",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "postdoc",
+          "institution": "Simon Fraser University",
+          "region": "CA",
+          "role": "Postdoctoral Fellow, Psychology",
+          "start_year": null,
+          "end_year": 2004,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-10/Kate%20White%20CV%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Calgary",
+          "region": "CA",
+          "role": "Assistant Professor, Marketing",
+          "start_year": 2004,
+          "end_year": 2008,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-10/Kate%20White%20CV%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Calgary",
+          "region": "CA",
+          "role": "Associate Professor, Marketing",
+          "start_year": 2008,
+          "end_year": 2011,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-10/Kate%20White%20CV%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Associate Professor",
+          "start_year": 2011,
+          "end_year": 2015,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-10/Kate%20White%20CV%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Full Professor",
+          "start_year": 2015,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-10/Kate%20White%20CV%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Chunhua Wu",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Associate Professor",
+        "start_year": 2020,
+        "tenure": {
+          "status": "tenured",
+          "evidence_status": "confirmed",
+          "quote": "Tenured Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Washington University in St. Louis",
+        "program": "PhD in Business Administration",
+        "region": "US",
+        "year": 2012
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Structural Modeling",
+        "Internet Advertising",
+        "Social Networks",
+        "CRM"
+      ],
+      "homepage": "https://www.chunhuawu.com/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-08/ChunhuaWu2026-Aug.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/chunhua-wu",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Washington University in St. Louis",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenured Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-08/ChunhuaWu2026-Aug.pdf",
+          "label": "官方托管本人CV",
+          "quote": "Ph.D., Business Administration, Washington University in St. Louis 2007 – 2012",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        },
+        {
+          "url": "https://www.chunhuawu.com/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2012,
+          "end_year": 2020,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-08/ChunhuaWu2026-Aug.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2020,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-08/ChunhuaWu2026-Aug.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Wenjia Ba",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Assistant Professor",
+        "start_year": null,
+        "tenure": {
+          "status": "tt",
+          "evidence_status": "confirmed",
+          "quote": "Tenure-Track Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Stanford University",
+        "program": "PhD in Operations, Information, and Technology",
+        "region": "US",
+        "year": 2022
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Machine Learning",
+        "Personalization",
+        "Technology and Online Platforms",
+        "Consumer Modeling"
+      ],
+      "homepage": "https://wenjiaba.github.io/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2024-05/Ba_Wenjia_Research_CV_2024.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/wenjia-ba",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Stanford University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenure-Track Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2024-05/Ba_Wenjia_Research_CV_2024.pdf",
+          "label": "官方托管本人CV",
+          "quote": "Stanford University PhD Operations, Information, and Technology 2022",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        },
+        {
+          "url": "https://wenjiaba.github.io/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "postdoc",
+          "institution": "Amazon",
+          "region": "US",
+          "role": "Postdoctoral Scientist",
+          "start_year": 2022,
+          "end_year": 2023,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-05/Ba_Wenjia_Research_CV_2024.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "本轮资料未确认当前职级开始年；不使用行政任期或早期加入学校日期代替。"
+        },
+        {
+          "field": "current.start_year",
+          "status": "conflict",
+          "reason": "官方CV第1页PRESENT RANK写SINCE July 31, 2023，但同页Employment At UBC写July 2022-present；本人主页确认此前Amazon博后但无任职日期，保留年份冲突。",
+          "values": [
+            2022,
+            2023
+          ],
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2024-05/Ba_Wenjia_Research_CV_2024.pdf",
+            "https://wenjiaba.github.io/"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Holly Howe",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Assistant Professor",
+        "start_year": 2026,
+        "tenure": {
+          "status": "tt",
+          "evidence_status": "confirmed",
+          "quote": "Tenure-Track Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Duke University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2022
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Interpersonal Relationships",
+        "Consumer-brand Relationships",
+        "Anthropomorphism"
+      ],
+      "homepage": "https://www.holly-howe.com/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/HollyHoweCV_07.2026%5B1%5D.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/holly-howe",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Duke University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenure-Track Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-07/HollyHoweCV_07.2026%5B1%5D.pdf",
+          "label": "官方托管本人CV",
+          "quote": "2017–2022 PhD Marketing. Fuqua School of Business",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        },
+        {
+          "url": "https://www.holly-howe.com/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "HEC Montréal",
+          "region": "CA",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2022,
+          "end_year": 2026,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/HollyHoweCV_07.2026%5B1%5D.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2026,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-07/HollyHoweCV_07.2026%5B1%5D.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Shin Oblander",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Assistant Professor",
+        "start_year": 2024,
+        "tenure": {
+          "status": "tt",
+          "evidence_status": "confirmed",
+          "quote": "Tenure-Track Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        },
+        "start_date": "2024-07"
+      },
+      "phd": {
+        "school": "Columbia University",
+        "program": "PhD in Marketing (Quantitative track)",
+        "region": "US",
+        "year": 2024,
+        "date": "2024-10"
+      },
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "fields": [
+        "Causal Inference",
+        "Representation Learning",
+        "Probabilistic Machine Learning",
+        "Customer Relationship Management"
+      ],
+      "homepage": "https://sites.google.com/view/oblander",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Oblander%20CV.pdf:",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/shin-oblander",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Columbia University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenure-Track Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-10/Oblander%20CV.pdf:",
+          "label": "官方CV链接；本轮无法读取",
+          "quote": null,
+          "status": "unavailable",
+          "supports": [
+            "cv_url"
+          ]
+        },
+        {
+          "url": "https://sites.google.com/view/oblander",
+          "label": "本人主页",
+          "supports": [
+            "homepage"
+          ]
+        },
+        {
+          "url": "https://sites.google.com/view/oblander/background",
+          "label": "本人Credentials：明确毕业与任职月份",
+          "quote": "Assistant Professor ... (July 2024 - Present) ... PhD Marketing (Quantitative track) ... (August 2018 - October 2024)",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "phd.date",
+            "current.start_date"
+          ]
+        },
+        {
+          "url": "https://www.grad.ubc.ca/researcher/24395-oblander",
+          "label": "UBC官方研究分类",
+          "quote": "quantitative marketing",
+          "supports": [
+            "tracks"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Assistant Professor",
+          "start_date": "2024-07",
+          "start_year": 2024,
+          "end_year": null,
+          "source_urls": [
+            "https://sites.google.com/view/oblander/background"
+          ],
+          "quote": "Assistant Professor, Sauder School of Business, University of British Columbia (July 2024 - Present)",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [],
+      "placement_id": "columbia-university-shin-oblander",
+      "identity_evidence": "现有记录来源含完全相同的本人主页和UBC Graduate researcher页；本人Credentials确认Columbia PhD 2024与UBC2024岗位。"
+    },
+    {
+      "name": "Jen Park",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Assistant Professor",
+        "start_year": 2022,
+        "tenure": {
+          "status": "tt",
+          "evidence_status": "confirmed",
+          "quote": "Tenure-Track Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Stanford University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2022
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Judgment and Decision-Making",
+        "Framing and Context Effects",
+        "Digital Interfaces"
+      ],
+      "homepage": "https://www.sauder.ubc.ca/people/jen-park",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2026-08/Park_Jen_CV_Jul%202026.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/jen-park",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Stanford University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenure-Track Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2026-08/Park_Jen_CV_Jul%202026.pdf",
+          "label": "官方托管本人CV",
+          "quote": "Stanford Graduate School of Business, Stanford, CA 2022 ... Ph.D., Marketing",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Assistant Professor of Marketing & Behavioral Science",
+          "start_year": 2022,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2026-08/Park_Jen_CV_Jul%202026.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Deepak Sirwani",
+      "aliases": [],
+      "host_id": "university-of-british-columbia-marketing",
+      "faculty_type": "research",
+      "current": {
+        "institution": "University of British Columbia",
+        "department": "Marketing and Behavioural Science",
+        "region": "CA",
+        "role": "Assistant Professor",
+        "start_year": 2024,
+        "tenure": {
+          "status": "tt",
+          "evidence_status": "confirmed",
+          "quote": "Tenure-Track Professors",
+          "source_urls": [
+            "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people"
+          ]
+        }
+      },
+      "phd": {
+        "school": "Cornell University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2024
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Numbers",
+        "Time",
+        "Morality",
+        "Decision Making"
+      ],
+      "homepage": "https://deepaksirwani.com/",
+      "cv_url": "https://www.sauder.ubc.ca/sites/default/files/2025-11/DeepakSirwani_CV.pdf",
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/people/deepak-sirwani",
+          "label": "UBC官方个人页；现职与Education",
+          "quote": "Ph.D., Cornell University",
+          "supports": [
+            "current.role",
+            "phd.school",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/people",
+          "label": "UBC官方分组在职目录",
+          "quote": "Tenure-Track Professors",
+          "supports": [
+            "roster_membership",
+            "current.tenure_status"
+          ]
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/sites/default/files/2025-11/DeepakSirwani_CV.pdf",
+          "label": "官方托管本人CV",
+          "quote": "PhD, Marketing 2024",
+          "status": "checked",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "career_events"
+          ]
+        },
+        {
+          "url": "https://deepaksirwani.com/",
+          "label": "官方个人页所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of British Columbia",
+          "region": "CA",
+          "role": "Assistant Professor, Marketing & Behavioural Science Division",
+          "start_year": 2024,
+          "end_year": null,
+          "source_urls": [
+            "https://www.sauder.ubc.ca/sites/default/files/2025-11/DeepakSirwani_CV.pdf"
+          ],
+          "evidence": "CV Employment / Academic Positions；按原始职称与区间逐项转录，保留日期精度。",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "unknowns": [],
+      "placement_id": "cornell-university-deepak-sirwani",
+      "identity_evidence": "现有记录来源为Cornell官方Marketing placement表，同名Cornell2024博士→UBC；本次UBC官方本人CV直接确认Cornell Marketing PhD2024和UBC2024起任职，双向对应。"
+    }
+  ]
+}

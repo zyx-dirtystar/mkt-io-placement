@@ -1,0 +1,2690 @@
+{
+  "id": "faculty-wharton-standing-2026-10-22",
+  "schema_version": 1,
+  "checked_at": "2026-10-22",
+  "selection_rule": "全部Marketing Standing，非按研究方向、博士院校或就业结果筛选；Secondary/Affiliated/Emeritus单独保留排除名单。",
+  "schools": [
+    {
+      "host_id": "university-of-pennsylvania-marketing",
+      "directory_url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+      "scope": "Wharton Marketing Standing Faculty（主职目录全部27人）",
+      "roster_names": [
+        "Jonah Berger",
+        "Ron Berman",
+        "Eric T Bradlow",
+        "Wendy De La Rosa",
+        "Ryan Dew",
+        "Peter Fader",
+        "Raghuram (Raghu) Iyengar",
+        "Zhenling Jiang",
+        "Barbara E. Kahn",
+        "Cait Lamberton",
+        "John McCoy",
+        "Barbara Mellers",
+        "Shiri Melumad",
+        "Robert Meyer",
+        "Gideon Nave",
+        "Michael Platt",
+        "Stefano Puntoni",
+        "Jagmohan Raju",
+        "Americus Reed",
+        "David Reibstein",
+        "Thomas S. Robertson",
+        "Marissa A. Sharif",
+        "Christophe Van den Bulte",
+        "Patti Williams",
+        "Pinar Yildirim",
+        "Z. John Zhang",
+        "Walter W. Zhang"
+      ],
+      "directory_complete": true,
+      "roster_count": 27,
+      "exclusions": [
+        {
+          "name": "Sudeep Bhatia",
+          "url": "https://marketing.wharton.upenn.edu/profile/_whrtn97",
+          "role": "Associate Professor of Psychology and Marketing,",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Gérard Cachon",
+          "url": "https://marketing.wharton.upenn.edu/profile/cachon",
+          "role": "Fred R. Sullivan Professor, Professor of Operations, Information and Decisions, Professor of Marketing, Department Chair",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Ulrich Doraszelski",
+          "url": "https://marketing.wharton.upenn.edu/profile/ulrichd",
+          "role": "Department Chair of Business Economics and Public Policy, Joseph J. Aresty Professor, Professor of Economics, Professor of Marketing",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Emily Falk",
+          "url": "https://marketing.wharton.upenn.edu/profile/_whrtn74",
+          "role": "Professor of Marketing, Professor of Operations, Information and Decisions, Professor of Communication, Professor of Psychology, Vice Dean of the Annenberg School for Communication, Director of the Communication Neuroscience Lab and the Climate Communication Division of the Annenberg Public Policy Center",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Santiago Gallino",
+          "url": "https://marketing.wharton.upenn.edu/profile/sgallino",
+          "role": "Charles W. Evans Distinguished Faculty Scholar, Associate Professor of Operations, Information and Decisions, Associate Professor of Marketing",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Kartik Hosanagar",
+          "url": "https://marketing.wharton.upenn.edu/profile/kartikh",
+          "role": "John C. Hower Professor, Professor of Operations, Information and Decisions, Faculty Director, Wharton Human-AI Research, Professor of Marketing",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Joseph Kable",
+          "url": "https://marketing.wharton.upenn.edu/profile/_whrtn73",
+          "role": "Jean-Marie Kneeley President’s Distinguished Professor at Penn, Director of MindCORE, Professor of Psychology , Professor of Marketing",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Aviv Nevo",
+          "url": "https://marketing.wharton.upenn.edu/profile/anevo",
+          "role": "George A. Weiss and Lydia Bravo Weiss University Professor , Professor of Business Economics and Public Policy, Professor of Economics, Professor of Marketing",
+          "category": "secondary",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Maarten Bos",
+          "url": "https://marketing.wharton.upenn.edu/profile/maartenb",
+          "role": "Lecturer",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Eric Eisenstein",
+          "url": "https://marketing.wharton.upenn.edu/profile/eme",
+          "role": "Full-Time Lecturer of Marketing, Senior Fellow of Analytics at Wharton (WAIAI)",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Bryan Eshelman",
+          "url": "https://marketing.wharton.upenn.edu/profile/eshelmab",
+          "role": "Part Time Lecturer",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Martin P. Fritze",
+          "url": "https://marketing.wharton.upenn.edu/profile/mpf",
+          "role": "Visiting Scholar",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Herbert J Kleinberger",
+          "url": "https://marketing.wharton.upenn.edu/profile/hkleinbe",
+          "role": "Part Time Lecturer",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Ellie Kyung",
+          "url": "https://marketing.wharton.upenn.edu/profile/ejkyung",
+          "role": "Visiting Scholar",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Martin R. Lautman",
+          "url": "https://marketing.wharton.upenn.edu/profile/mlaut",
+          "role": "Adjunct Professor of Marketing",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Steven Shaw",
+          "url": "https://marketing.wharton.upenn.edu/profile/shawsd",
+          "role": "Visiting Scholar",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Annie Wilson",
+          "url": "https://marketing.wharton.upenn.edu/profile/avwilson",
+          "role": "Senior Lecturer of Marketing , Faculty Director of MUSE",
+          "category": "affiliated",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "George Day",
+          "url": "https://marketing.wharton.upenn.edu/profile/dayg",
+          "role": "Geoffrey T. Boisi Professor Emeritus",
+          "category": "emeritus",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Jehoshua Eliashberg",
+          "url": "https://marketing.wharton.upenn.edu/profile/jehoshua",
+          "role": "Sebastian S. Kresge Professor Emeritus of Marketing, Professor Emeritus of Operations, Information and Decisions",
+          "category": "emeritus",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Stephen Hoch",
+          "url": "https://marketing.wharton.upenn.edu/profile/hochs",
+          "role": "Laura and John J. Pomerantz Professor Emeritus of Marketing",
+          "category": "emeritus",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "J. Wesley Hutchinson",
+          "url": "https://marketing.wharton.upenn.edu/profile/jwhutch",
+          "role": "Stephen J. Heyman Professor Emeritus of Marketing",
+          "category": "emeritus",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Leonard Lodish",
+          "url": "https://marketing.wharton.upenn.edu/profile/lodish",
+          "role": "Samuel R. Harrell Emeritus Professor , Leader and Co-founder, Global Consulting Practicum, Emeritus Professor of Marketing",
+          "category": "emeritus",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        },
+        {
+          "name": "Yoram (Jerry) Wind",
+          "url": "https://marketing.wharton.upenn.edu/profile/windj",
+          "role": "The Lauder Professor Emeritus and Professor of Marketing, , ,",
+          "category": "emeritus",
+          "reason": "官网独立类别，非本次Marketing Standing统计成员"
+        }
+      ],
+      "complete_evidence": {
+        "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+        "quote": "Standing; Secondary; Affiliated; Emeritus",
+        "checked_at": "2026-10-22"
+      },
+      "notes": "完整性限当前Standing目录；不把附属、兼聘、荣休纳入27人的分母。Gal Smitizsky为OID档案，保留既有跨系记录，不以Marketing Standing缺席将其删除。"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jonah Berger",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing",
+        "start_year": 2013
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Stanford University",
+        "program": "Marketing",
+        "region": "US",
+        "year": 2007
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/jberger",
+      "cv_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Jonah-Berger-CV-2.pdf",
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Jonah Berger — Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/jberger",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Jonah-Berger-CV-2.pdf",
+          "label": "官方CV/教育背景",
+          "quote": "Ph.D., Marketing, Stanford University, Graduate School of Business, 2007",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Pennsylvania",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2007,
+          "end_year": 2010,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Jonah-Berger-CV-2.pdf"
+          ],
+          "quote": "Assistant Professor of Marketing — July 2007 – June 2010",
+          "date_precision": "month",
+          "start_date": "2007-07",
+          "end_date": "2010-06"
+        },
+        {
+          "type": "promotion",
+          "institution": "University of Pennsylvania",
+          "role": "Associate Professor of Marketing (with tenure)",
+          "start_year": 2013,
+          "end_year": null,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Jonah-Berger-CV-2.pdf"
+          ],
+          "quote": "Associate Professor of Marketing (with tenure) — May 2013 –",
+          "date_precision": "month",
+          "start_date": "2013-05"
+        },
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2013,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "year",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/jberger"
+          ],
+          "quote": "Jonah Berger — Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "未证实的职业起止保留未知；不把博士年当现职开始年。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Ron Berman",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of California, Berkeley",
+        "program": "Business Administration",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/ronber",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Ron Berman — Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/ronber",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/ronber",
+          "label": "官方个人页博士教育",
+          "quote": "PhD and MSc in Business Administration from the University of California, Berkeley",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/ronber"
+          ],
+          "quote": "Ron Berman — Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Eric T Bradlow",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "The K.P. Chao Professor, Professor of Marketing, Vice Dean of AI & Analytics at Wharton, Professor of Statistics and Data Science, Economics and Education",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Harvard University",
+        "program": "Mathematical Statistics",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/ebradlow",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Eric T Bradlow — The K.P. Chao Professor, Professor of Marketing, Vice Dean of AI & Analytics at Wharton, Professor of Statistics and Data Science, Economics and Education",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/ebradlow",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/ebradlow",
+          "label": "官方个人页博士教育",
+          "quote": "PhD and Master’s degrees in Mathematical Statistics from Harvard University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "The K.P. Chao Professor, Professor of Marketing, Vice Dean of AI & Analytics at Wharton, Professor of Statistics and Data Science, Economics and Education",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/ebradlow"
+          ],
+          "quote": "Eric T Bradlow — The K.P. Chao Professor, Professor of Marketing, Vice Dean of AI & Analytics at Wharton, Professor of Statistics and Data Science, Economics and Education"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Wendy De La Rosa",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Assistant Professor of Marketing , Clarence Nickman Assistant Professor of Marketing, Alfred H. Williams Faculty Scholar",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Stanford University",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/wendyde",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Wendy De La Rosa — Assistant Professor of Marketing , Clarence Nickman Assistant Professor of Marketing, Alfred H. Williams Faculty Scholar",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/wendyde",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/wendyde",
+          "label": "官方个人页博士教育",
+          "quote": "Ph.D. from Stanford’s Graduate School of Business",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Assistant Professor of Marketing , Clarence Nickman Assistant Professor of Marketing, Alfred H. Williams Faculty Scholar",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/wendyde"
+          ],
+          "quote": "Wendy De La Rosa — Assistant Professor of Marketing , Clarence Nickman Assistant Professor of Marketing, Alfred H. Williams Faculty Scholar"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Ryan Dew",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Columbia University",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/ryandew",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Ryan Dew — Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/ryandew",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/ryandew",
+          "label": "官方个人页博士教育",
+          "quote": "Ph.D. from Columbia University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/ryandew"
+          ],
+          "quote": "Ryan Dew — Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Peter Fader",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Frances and Pei-Yuan Chia Professor, Professor of Marketing",
+        "start_year": 2004
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Massachusetts Institute of Technology",
+        "program": null,
+        "region": "US",
+        "year": 1987
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/faderp",
+      "cv_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/PF-vita-2025_01.pdf",
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Peter Fader — Frances and Pei-Yuan Chia Professor, Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/faderp",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/PF-vita-2025_01.pdf",
+          "label": "官方CV/教育背景",
+          "quote": "Ph.D. Massachusetts Institute of Technology, Sloan School of Management, 1987",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "University of Pennsylvania",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 1987,
+          "end_year": 1994,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/PF-vita-2025_01.pdf"
+          ],
+          "quote": "Assistant Professor of Marketing, 1987-1994",
+          "date_precision": "year"
+        },
+        {
+          "type": "promotion",
+          "institution": "University of Pennsylvania",
+          "role": "Professor of Marketing",
+          "start_year": 2002,
+          "end_year": null,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/PF-vita-2025_01.pdf"
+          ],
+          "quote": "Professor of Marketing, 2002-present",
+          "date_precision": "year"
+        },
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Frances and Pei-Yuan Chia Professor, Professor of Marketing",
+          "start_year": 2004,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "year",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/faderp"
+          ],
+          "quote": "Peter Fader — Frances and Pei-Yuan Chia Professor, Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "未证实的职业起止保留未知；不把博士年当现职开始年。",
+        "博士专业未明确。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Raghuram (Raghu) Iyengar",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Miers-Busch, W’1885 Professor, Professor of Marketing, Chairperson, Wharton Marketing Department, Faculty Director of Innovation, Experiential Learning and Research Initiatives, Analytics at Wharton",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Columbia University",
+        "program": "Marketing",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/riyengar",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Raghuram (Raghu) Iyengar — Miers-Busch, W’1885 Professor, Professor of Marketing, Chairperson, Wharton Marketing Department, Faculty Director of Innovation, Experiential Learning and Research Initiatives, Analytics at Wharton",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/riyengar",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/riyengar",
+          "label": "官方个人页博士教育",
+          "quote": "Ph.D. in Marketing from Columbia University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Miers-Busch, W’1885 Professor, Professor of Marketing, Chairperson, Wharton Marketing Department, Faculty Director of Innovation, Experiential Learning and Research Initiatives, Analytics at Wharton",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/riyengar"
+          ],
+          "quote": "Raghuram (Raghu) Iyengar — Miers-Busch, W’1885 Professor, Professor of Marketing, Chairperson, Wharton Marketing Department, Faculty Director of Innovation, Experiential Learning and Research Initiatives, Analytics at Wharton"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Zhenling Jiang",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Washington University in St. Louis",
+        "program": "Marketing",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/zhenling",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Zhenling Jiang — Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/zhenling",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://knowledge.wharton.upenn.edu/faculty/zhenling-jiang/",
+          "label": "官方CV/教育背景",
+          "quote": "PhD degree in marketing at the John M. Olin Business School, Washington University in St. Louis.",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/zhenling"
+          ],
+          "quote": "Zhenling Jiang — Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "未证实的职业起止保留未知；不把博士年当现职开始年。",
+        "博士取得年份未明确。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Barbara E. Kahn",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Patty and Jay H. Baker Professor, Professor of Marketing,",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Columbia University",
+        "program": null,
+        "region": "US",
+        "year": 1984
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/kahn",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Barbara E. Kahn — Patty and Jay H. Baker Professor, Professor of Marketing,",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/kahn",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/kahn",
+          "label": "官方个人页博士教育",
+          "quote": "1984 Ph.D., Columbia University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Patty and Jay H. Baker Professor, Professor of Marketing,",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/kahn"
+          ],
+          "quote": "Barbara E. Kahn — Patty and Jay H. Baker Professor, Professor of Marketing,"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Cait Lamberton",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Alberto I. Duran President's Distinguished Professor, Professor of Marketing, Vice Dean and Director of the Wharton Undergraduate Division,",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of South Carolina",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/catlam",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Cait Lamberton — Alberto I. Duran President's Distinguished Professor, Professor of Marketing, Vice Dean and Director of the Wharton Undergraduate Division,",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/catlam",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/catlam",
+          "label": "官方个人页博士教育",
+          "quote": "MBA and Ph.D. from the University of South Carolina",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Alberto I. Duran President's Distinguished Professor, Professor of Marketing, Vice Dean and Director of the Wharton Undergraduate Division,",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/catlam"
+          ],
+          "quote": "Cait Lamberton — Alberto I. Duran President's Distinguished Professor, Professor of Marketing, Vice Dean and Director of the Wharton Undergraduate Division,"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "John McCoy",
+      "aliases": [
+        "John Patrick McCoy"
+      ],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Assistant Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Massachusetts Institute of Technology",
+        "program": "Brain and Cognitive Sciences",
+        "region": "US",
+        "year": 2018
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/jpmccoy",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "John McCoy — Assistant Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/jpmccoy",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://dspace.mit.edu/entities/publication/9148f326-eda4-4147-8da2-d67febf28d45",
+          "label": "MIT官方博士论文书目记录",
+          "quote": "Thesis: Ph. D., Massachusetts Institute of Technology, Department of Brain and Cognitive Sciences, 2018.",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://bcs.mit.edu/events/month/201804",
+          "label": "MIT官方答辩公告交叉身份",
+          "quote": "Extracting more wisdom from the crowd; John McCoy",
+          "supports": [
+            "name",
+            "phd_candidate_history"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2017/08/11-02-2017-McCoy-John-Abstract.pdf",
+          "label": "Wharton官方讲座交叉同题研究",
+          "quote": "John McCoy; Doctoral Candidate; MIT; EXTRACTING WISDOM FROM CROWDS",
+          "supports": [
+            "name",
+            "phd_candidate_history"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Assistant Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/jpmccoy"
+          ],
+          "quote": "John McCoy — Assistant Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "现职开始年和完整职业任期未由官方资料确定。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Barbara Mellers",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "I. George Heyman University Professor, Professor of Marketing, Professor of Psychology",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Illinois Urbana-Champaign",
+        "program": "Psychology",
+        "region": "US",
+        "year": 1981
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/mellers",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Barbara Mellers — I. George Heyman University Professor, Professor of Marketing, Professor of Psychology",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/mellers",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/mellers",
+          "label": "官方个人页博士教育",
+          "quote": "Ph.D. in 1981 and an M.A. in 1978 in psychology from the University of Illinois at Urbana-Champaign",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "I. George Heyman University Professor, Professor of Marketing, Professor of Psychology",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/mellers"
+          ],
+          "quote": "Barbara Mellers — I. George Heyman University Professor, Professor of Marketing, Professor of Psychology"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Shiri Melumad",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Columbia University",
+        "program": "Marketing",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/melumad",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Shiri Melumad — Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/melumad",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/melumad",
+          "label": "官方个人页博士教育",
+          "quote": "Ph.D. and M.Phil. in Marketing from Columbia University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/melumad"
+          ],
+          "quote": "Shiri Melumad — Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Robert Meyer",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Frederick H. Ecker/MetLife Insurance Professor, Professor of Marketing, Faculty Director, Wharton Human-AI Research",
+        "start_year": 1997
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Iowa",
+        "program": "Geography",
+        "region": "US",
+        "year": 1979
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/meyerr",
+      "cv_url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf",
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Robert Meyer — Frederick H. Ecker/MetLife Insurance Professor, Professor of Marketing, Faculty Director, Wharton Human-AI Research",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/meyerr",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf",
+          "label": "官方CV/教育背景",
+          "quote": "Ph. D., The University of Iowa, 1979, in Geography",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "visiting_appointment",
+          "institution": "University of Iowa",
+          "role": "Visiting Assistant Professor",
+          "start_year": 1979,
+          "end_year": 1980,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf"
+          ],
+          "quote": "Visiting Assistant Professor, 1979 - 1980",
+          "date_precision": "year"
+        },
+        {
+          "type": "appointment",
+          "institution": "Carnegie Mellon University",
+          "role": "Assistant Professor",
+          "start_year": 1980,
+          "end_year": 1982,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf"
+          ],
+          "quote": "Assistant Professor, 1980 - 1982",
+          "date_precision": "year"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of California, Los Angeles",
+          "role": "Assistant Professor",
+          "start_year": 1982,
+          "end_year": 1985,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf"
+          ],
+          "quote": "Assistant Professor, 1982 - 1985",
+          "date_precision": "year"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of California, Los Angeles",
+          "role": "Associate Professor",
+          "start_year": 1985,
+          "end_year": 1990,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf"
+          ],
+          "quote": "Associate Professor, 1985 - 1990",
+          "date_precision": "year"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Pennsylvania",
+          "role": "Associate Professor",
+          "start_year": 1990,
+          "end_year": 1992,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf"
+          ],
+          "quote": "Associate Professor, 1990 - 1992",
+          "date_precision": "year"
+        },
+        {
+          "type": "appointment",
+          "institution": "University of Pennsylvania",
+          "role": "Professor",
+          "start_year": 1992,
+          "end_year": 1997,
+          "source_urls": [
+            "https://faculty.wharton.upenn.edu/wp-content/uploads/2016/11/Vita_1_2023.pdf"
+          ],
+          "quote": "Professor, 1992 - 1997",
+          "date_precision": "year"
+        },
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Frederick H. Ecker/MetLife Insurance Professor, Professor of Marketing, Faculty Director, Wharton Human-AI Research",
+          "start_year": 1997,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "year",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/meyerr"
+          ],
+          "quote": "Robert Meyer — Frederick H. Ecker/MetLife Insurance Professor, Professor of Marketing, Faculty Director, Wharton Human-AI Research"
+        }
+      ],
+      "unknowns": [
+        "未证实的职业起止保留未知；不把博士年当现职开始年。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Gideon Nave",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Carlos and Rosa de la Cruz Associate Professor, Associate Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "California Institute of Technology",
+        "program": "Computation & Neural Systems",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/gnave",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Gideon Nave — Carlos and Rosa de la Cruz Associate Professor, Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/gnave",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/gnave",
+          "label": "官方个人页博士教育",
+          "quote": "PhD in Computation & Neural Systems from Caltech",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Carlos and Rosa de la Cruz Associate Professor, Associate Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/gnave"
+          ],
+          "quote": "Gideon Nave — Carlos and Rosa de la Cruz Associate Professor, Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Michael Platt",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "James S. Riepe University Professor, Professor of Marketing, Professor of Psychology, Professor of Neuroscience, Senior Advisor, United Nations Strategic Planning Network, Adjunct Professor in the Centre for Work Organisation and Wellbeing, Griffith University, Australia",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Pennsylvania",
+        "program": "Biological Anthropology",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/mplatt",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Michael Platt — James S. Riepe University Professor, Professor of Marketing, Professor of Psychology, Professor of Neuroscience, Senior Advisor, United Nations Strategic Planning Network, Adjunct Professor in the Centre for Work Organisation and Wellbeing, Griffith University, Australia",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/mplatt",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/mplatt",
+          "label": "官方个人页博士教育",
+          "quote": "PhD in Biological Anthropology from Penn",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "James S. Riepe University Professor, Professor of Marketing, Professor of Psychology, Professor of Neuroscience, Senior Advisor, United Nations Strategic Planning Network, Adjunct Professor in the Centre for Work Organisation and Wellbeing, Griffith University, Australia",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/mplatt"
+          ],
+          "quote": "Michael Platt — James S. Riepe University Professor, Professor of Marketing, Professor of Psychology, Professor of Neuroscience, Senior Advisor, United Nations Strategic Planning Network, Adjunct Professor in the Centre for Work Organisation and Wellbeing, Griffith University, Australia"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Stefano Puntoni",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Faculty Director, Wharton Human-AI Research, Sebastian S. Kresge Professor of Marketing, Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "London Business School",
+        "program": "Marketing",
+        "region": "UK",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/puntoni",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Stefano Puntoni — Faculty Director, Wharton Human-AI Research, Sebastian S. Kresge Professor of Marketing, Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/puntoni",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/puntoni",
+          "label": "官方个人页博士教育",
+          "quote": "PhD in Marketing from London Business School",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Faculty Director, Wharton Human-AI Research, Sebastian S. Kresge Professor of Marketing, Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/puntoni"
+          ],
+          "quote": "Stefano Puntoni — Faculty Director, Wharton Human-AI Research, Sebastian S. Kresge Professor of Marketing, Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Jagmohan Raju",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Joseph J. Aresty Professor, Faculty Director, Baker Retailing Center, Executive Director, Wharton Co-Sponsorship of Indian School of Business, Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Stanford University",
+        "program": "Business",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/rajuj",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Jagmohan Raju — Joseph J. Aresty Professor, Faculty Director, Baker Retailing Center, Executive Director, Wharton Co-Sponsorship of Indian School of Business, Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/rajuj",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/rajuj",
+          "label": "官方个人页博士教育",
+          "quote": "PhD (Business), MA (Economics) and MS (Operations Research) degrees from Stanford University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Joseph J. Aresty Professor, Faculty Director, Baker Retailing Center, Executive Director, Wharton Co-Sponsorship of Indian School of Business, Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/rajuj"
+          ],
+          "quote": "Jagmohan Raju — Joseph J. Aresty Professor, Faculty Director, Baker Retailing Center, Executive Director, Wharton Co-Sponsorship of Indian School of Business, Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Americus Reed",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "The Whitney M. Young Jr. Professor, Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Florida",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/amreed",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Americus Reed — The Whitney M. Young Jr. Professor, Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/amreed",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/amreed",
+          "label": "官方个人页博士教育",
+          "quote": "PhD from the University of Florida",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "The Whitney M. Young Jr. Professor, Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/amreed"
+          ],
+          "quote": "Americus Reed — The Whitney M. Young Jr. Professor, Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "David Reibstein",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "William Stewart Woodside Professor, Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Purdue University",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/reibstei",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "David Reibstein — William Stewart Woodside Professor, Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/reibstei",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/reibstei",
+          "label": "官方个人页博士教育",
+          "quote": "PhD from Purdue University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "William Stewart Woodside Professor, Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/reibstei"
+          ],
+          "quote": "David Reibstein — William Stewart Woodside Professor, Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Thomas S. Robertson",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Joshua J. Harris Professor, Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Northwestern University",
+        "program": "Business",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/trobe",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Thomas S. Robertson — Joshua J. Harris Professor, Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/trobe",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/trobe",
+          "label": "官方个人页博士教育",
+          "quote": "Ph.D. in business from Northwestern University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Joshua J. Harris Professor, Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/trobe"
+          ],
+          "quote": "Thomas S. Robertson — Joshua J. Harris Professor, Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Marissa A. Sharif",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing,",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of California, Los Angeles",
+        "program": "Marketing",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/masharif",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Marissa A. Sharif — Associate Professor of Marketing,",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/masharif",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/masharif",
+          "label": "官方个人页博士教育",
+          "quote": "PhD in Marketing from the UCLA Anderson School of Business",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing,",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/masharif"
+          ],
+          "quote": "Marissa A. Sharif — Associate Professor of Marketing,"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Christophe Van den Bulte",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Gayfryd Steinberg Professor, Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "Pennsylvania State University",
+        "program": "Business Administration",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/vdbulte",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Christophe Van den Bulte — Gayfryd Steinberg Professor, Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/vdbulte",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/vdbulte",
+          "label": "官方个人页博士教育",
+          "quote": "PhD in business administration from the Pennsylvania State University",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Gayfryd Steinberg Professor, Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/vdbulte"
+          ],
+          "quote": "Christophe Van den Bulte — Gayfryd Steinberg Professor, Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Patti Williams",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Senior Vice Dean, Non-Degree Programs , Ira A. Lipman Associate Professor , Associate Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of California, Los Angeles",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/pattiw",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Patti Williams — Senior Vice Dean, Non-Degree Programs , Ira A. Lipman Associate Professor , Associate Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/pattiw",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/pattiw",
+          "label": "官方个人页博士教育",
+          "quote": "PhD and MBA from the University of California, Los Angeles",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Senior Vice Dean, Non-Degree Programs , Ira A. Lipman Associate Professor , Associate Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/pattiw"
+          ],
+          "quote": "Patti Williams — Senior Vice Dean, Non-Degree Programs , Ira A. Lipman Associate Professor , Associate Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Pinar Yildirim",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Associate Professor of Marketing, Associate Professor of Economics",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Pittsburgh",
+        "program": "Marketing",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/pyild",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Pinar Yildirim — Associate Professor of Marketing, Associate Professor of Economics",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/pyild",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/pyild",
+          "label": "官方个人页博士教育",
+          "quote": "doctoral degree in marketing from Pitt",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing, Associate Professor of Economics",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/pyild"
+          ],
+          "quote": "Pinar Yildirim — Associate Professor of Marketing, Associate Professor of Economics"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Z. John Zhang",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Tsai Wan-Tsai Professor, Professor of Marketing, Founding Director, Penn Wharton China Center",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Michigan",
+        "program": "Economics",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/zjzhang",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Z. John Zhang — Tsai Wan-Tsai Professor, Professor of Marketing, Founding Director, Penn Wharton China Center",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/zjzhang",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/zjzhang",
+          "label": "官方个人页博士教育",
+          "quote": "PhD and MA in economics from the University of Michigan",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/zjzhang",
+          "label": "官方个人页第二博士",
+          "quote": "PhD and MA in History and Sociology of Science and Technology from the University of Pennsylvania",
+          "supports": [
+            "other_doctorates"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Tsai Wan-Tsai Professor, Professor of Marketing, Founding Director, Penn Wharton China Center",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/zjzhang"
+          ],
+          "quote": "Z. John Zhang — Tsai Wan-Tsai Professor, Professor of Marketing, Founding Director, Penn Wharton China Center"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "other_doctorates": [
+        {
+          "school": "University of Pennsylvania",
+          "program": "History and Sociology of Science and Technology",
+          "region": "US",
+          "year": null
+        }
+      ],
+      "checked_at": "2026-10-22"
+    },
+    {
+      "name": "Walter W. Zhang",
+      "aliases": [],
+      "host_id": "university-of-pennsylvania-marketing",
+      "current": {
+        "institution": "University of Pennsylvania",
+        "region": "US",
+        "role": "Assistant Professor of Marketing",
+        "start_year": null
+      },
+      "department": "Marketing",
+      "phd": {
+        "school": "University of Chicago",
+        "program": null,
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://marketing.wharton.upenn.edu/profile/wwz",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+          "label": "Wharton官方Standing目录",
+          "quote": "Walter W. Zhang — Assistant Professor of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.institution"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/wwz",
+          "label": "官方个人页",
+          "quote": "Overview",
+          "supports": [
+            "profile_reviewed"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://marketing.wharton.upenn.edu/profile/wwz",
+          "label": "官方个人页博士教育",
+          "quote": "PhD and an MBA from the University of Chicago Booth School of Business",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "University of Pennsylvania",
+          "department": "Marketing",
+          "role": "Assistant Professor of Marketing",
+          "start_year": null,
+          "end_year": null,
+          "status": "observed_current",
+          "date_precision": "unknown",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+            "https://marketing.wharton.upenn.edu/profile/wwz"
+          ],
+          "quote": "Walter W. Zhang — Assistant Professor of Marketing"
+        }
+      ],
+      "unknowns": [
+        "官方个人页未给完整职业起止，现职不当作首职。",
+        "博士专业未明确，不能由当前Marketing部门倒推。",
+        "官方个人页未给博士取得年份。"
+      ],
+      "verification_status": "profile_verified",
+      "checked_at": "2026-10-22"
+    }
+  ],
+  "summary": {
+    "standing": 27,
+    "secondary_excluded": 8,
+    "affiliated_excluded": 9,
+    "emeritus_excluded": 6,
+    "phd_school_verified": 27,
+    "phd_year_verified": 6,
+    "phd_school_unknown": 0
+  }
+}

@@ -1,0 +1,1242 @@
+{
+  "id": "faculty-cuhk-2026-10-22",
+  "checked_at": "2026-10-22",
+  "schools": [
+    {
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "directory_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+      "scope": "Marketing官方Academic Staff目录中Professor / Associate Professor / Assistant Professor序列；排除访问、教学讲师和专业顾问。完整性仅指2026-10-22此官方目录快照，不是院校人事确认。",
+      "roster_names": [
+        "Gaoyang Cai",
+        "Zikun Liu",
+        "Yu Song",
+        "Jin Kim",
+        "Jasmine Yang",
+        "Michelle Kim",
+        "Xinyu Cao",
+        "Chenxi Liao",
+        "Xianchi Dai",
+        "Leilei Gao",
+        "Mandy Mantian Hu",
+        "Sungjin Jung",
+        "Tony Te Ke",
+        "Jessica Yuk-yee Kwong",
+        "Seung Yoon Lee",
+        "Hao Shen",
+        "Luxi Shen",
+        "Jimbo Jingbo Wang",
+        "Jesse Yunfei Yao",
+        "Catherine Wing-man Yeung",
+        "Meng Zhang"
+      ],
+      "directory_total": 28,
+      "exclusions": [
+        {
+          "name": "Francisco Cisternas Vera",
+          "role": "Senior Lecturer",
+          "reason": "不属于本次常设研究教授序列；在官方目录差异清单中保留。",
+          "source_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/"
+        },
+        {
+          "name": "Christian Hildebrand",
+          "role": "Visiting Professor",
+          "reason": "不属于本次常设研究教授序列；在官方目录差异清单中保留。",
+          "source_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/"
+        },
+        {
+          "name": "Ganesh Iyer",
+          "role": "Distinguished Visiting Professor",
+          "reason": "不属于本次常设研究教授序列；在官方目录差异清单中保留。",
+          "source_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/"
+        },
+        {
+          "name": "Rosette Hung-yee Leung",
+          "role": "Lecturer",
+          "reason": "不属于本次常设研究教授序列；在官方目录差异清单中保留。",
+          "source_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/"
+        },
+        {
+          "name": "Stephen Kwok-ho Poon",
+          "role": "Professional Consultant",
+          "reason": "不属于本次常设研究教授序列；在官方目录差异清单中保留。",
+          "source_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/"
+        },
+        {
+          "name": "Jacky Wing-kin Tang",
+          "role": "Professional Consultant",
+          "reason": "不属于本次常设研究教授序列；在官方目录差异清单中保留。",
+          "source_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/"
+        },
+        {
+          "name": "Sha Yang",
+          "role": "Distinguished Visiting Professor",
+          "reason": "不属于本次常设研究教授序列；在官方目录差异清单中保留。",
+          "source_url": "https://www.bschool.cuhk.edu.hk/departments/marketing/"
+        }
+      ],
+      "complete_evidence": {
+        "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+        "quote": "Academic Staff"
+      },
+      "notes": "逐项核对官方目录28条，21名常设研究教授序列入库、7名访问/教学/顾问单列；博士及任职路径缺口独立保留。"
+    }
+  ],
+  "people": [
+    {
+      "name": "Xianchi Dai",
+      "aliases": [
+        "戴先熾"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "INSEAD",
+        "program": "PhD in Management (Marketing concentration)",
+        "region": "FR",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Consumer Judgment and Decision Making",
+        "Intertemporal Choices"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/dai-xianchi/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/dai-xianchi/",
+          "label": "CUHK官方个人资料",
+          "quote": "received his PhD in Management (Marketing concentration) from INSEAD.",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "已读官方个人页未列博士授位年；不从论文、获奖或入职年倒推。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "已读资料未明确现职级开始时间。"
+        },
+        {
+          "field": "career_events",
+          "reason": "已确认现职；尚未获得可核对任职日期的完整CV。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "本轮官方页没有可核实读取的CV链接；保留个人资料来源。"
+        }
+      ]
+    },
+    {
+      "name": "Leilei Gao",
+      "aliases": [
+        "高蕾蕾"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Stanford University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Motivation",
+        "Decision Making",
+        "Social Cognition"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/gao-leilei/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/gao-leilei/",
+          "label": "CUHK官方个人资料",
+          "quote": "She received her PhD in Marketing from Stanford University.",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "已读官方个人页未列博士授位年；不从论文、获奖或入职年倒推。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "已读资料未明确现职级开始时间。"
+        },
+        {
+          "field": "career_events",
+          "reason": "已确认现职；尚未获得可核对任职日期的完整CV。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "本轮官方页没有可核实读取的CV链接；保留个人资料来源。"
+        }
+      ]
+    },
+    {
+      "name": "Mandy Mantian Hu",
+      "aliases": [
+        "胡曼恬"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "New York University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2012
+      },
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "fields": [
+        "Empirical Modelling",
+        "Word of Mouth",
+        "Consumer Search and Learning",
+        "Social Network"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/hu-mandy-mantian/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/450_Mandy-Hu-Mantian-CV-2017Mar.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/hu-mandy-mantian/",
+          "label": "CUHK官方个人资料",
+          "quote": "PhD in Marketing from Stern School of Business at New York University.",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/450_Mandy-Hu-Mantian-CV-2017Mar.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "Ph.D. in Marketing, New York University, 2012",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor",
+          "start_year": 2012,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/450_Mandy-Hu-Mantian-CV-2017Mar.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "status": "historical_cv_observation",
+          "source_date": "2017-03"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "2017年CV仍为Assistant Professor；现官方页为Associate Professor，尚无晋升开始年。"
+        }
+      ],
+      "source_date": "2017-03"
+    },
+    {
+      "name": "Sungjin Jung",
+      "aliases": [],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "INSEAD",
+        "program": "PhD in Marketing",
+        "region": "FR",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Luxury and Status Consumption",
+        "Signaling and Impression Management",
+        "Branding"
+      ],
+      "homepage": "https://sites.google.com/view/sungjinjung",
+      "cv_url": "https://drive.google.com/file/d/1N-scWzo9kWUy5cYuzeTgtJwfOykSTWYq/view?usp=drive_link",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/jung-sungjin/",
+          "label": "CUHK官方个人资料",
+          "quote": "He received his PhD in Marketing from INSEAD",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://sites.google.com/view/sungjinjung",
+          "label": "本人主页及CV入口",
+          "supports": [
+            "homepage",
+            "cv_url"
+          ]
+        },
+        {
+          "url": "https://drive.google.com/file/d/1N-scWzo9kWUy5cYuzeTgtJwfOykSTWYq/view?usp=drive_link",
+          "label": "本人CV；Drive只返回加载壳，未据此填年份",
+          "status": "unavailable",
+          "supports": [
+            "cv_url"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "已读官方个人页未列博士授位年；不从论文、获奖或入职年倒推。"
+        },
+        {
+          "field": "current.start_year",
+          "reason": "已读资料未明确现职级开始时间。"
+        },
+        {
+          "field": "career_events",
+          "reason": "已确认现职；尚未获得可核对任职日期的完整CV。"
+        }
+      ]
+    },
+    {
+      "name": "Tony Te Ke",
+      "aliases": [
+        "柯特"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Professor",
+        "start_year": 2025
+      },
+      "phd": {
+        "school": "University of California, Berkeley",
+        "program": "PhD in Operations Research",
+        "region": "US",
+        "year": 2015
+      },
+      "tracks": [
+        "marketing",
+        "qm",
+        "io"
+      ],
+      "fields": [
+        "Quantitative Marketing",
+        "Industrial Organisation",
+        "Microeconomic Theory"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/ke-tony/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Ke.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/ke-tony/",
+          "label": "CUHK官方个人资料",
+          "quote": "He received a PhD in Operations Research ... from University of California at Berkeley.",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Ke.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "Ph.D., Operations Research ... University of California, Berkeley ... 2010-2015",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Massachusetts Institute of Technology",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2015,
+          "end_year": 2020,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Ke.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2020,
+          "end_year": 2025,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Ke.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "promotion",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Professor of Marketing",
+          "start_year": 2025,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Ke.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "visiting",
+          "institution": "University of Washington",
+          "role": "Visiting Assistant Professor",
+          "start_year": 2017,
+          "end_year": 2019,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Ke.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "region": "US"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Jessica Yuk-yee Kwong",
+      "aliases": [
+        "鄺玉儀"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "Chinese University of Hong Kong",
+        "program": "PhD in Industrial & Organizational Psychology",
+        "region": "HK",
+        "year": 2002
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Consumer and Managerial Judgment and Decision Making",
+        "Affect and Motivation"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/kwong-jessica-yuk-yee/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/Jessica-Kwong_CV.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/kwong-jessica-yuk-yee/",
+          "label": "CUHK官方个人资料",
+          "quote": "BSSc; MPhil; PhD (CUHK)",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/Jessica-Kwong_CV.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "Ph. D. The Chinese University of Hong Kong, 2002 (Industrial & Organizational Psychology)",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2002,
+          "end_year": 2007,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/Jessica-Kwong_CV.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2007,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/Jessica-Kwong_CV.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "status": "historical_cv_observation"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "旧CV为2007起副教授；现官方页为教授，教授晋升年份未核验，旧CV不覆盖现职。"
+        },
+        {
+          "field": "first_job",
+          "reason": "CV还列2002年1–5月Lingnan兼职讲师，博士授位月份未知；不将CUHK2002岗位强称全部工作的首职。"
+        }
+      ]
+    },
+    {
+      "name": "Seung Yoon Lee",
+      "aliases": [
+        "李昇允"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": 2025,
+        "start_date": "2025-07"
+      },
+      "phd": {
+        "school": "Yale University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2025
+      },
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "fields": [
+        "Virtual Environments",
+        "Multimodal Interaction",
+        "Digital Marketing"
+      ],
+      "homepage": "https://www.sylee.io/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/lee-seung-yoon/",
+          "label": "CUHK官方个人资料",
+          "quote": "PhD in Quantitative Marketing from Yale University",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "Yale University, School of Management ... Ph.D. in Marketing 2025",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        },
+        {
+          "url": "https://www.sylee.io/",
+          "label": "官方资料所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor, Department of Marketing",
+          "start_year": 2025,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "start_date": "2025-07"
+        }
+      ],
+      "unknowns": [],
+      "placement_id": "seung-yoon-lee-2025",
+      "identity_evidence": "已有placement记录与本次官方CV URL完全相同，姓名、Yale PhD和CUHK现职一致。"
+    },
+    {
+      "name": "Hao Shen",
+      "aliases": [
+        "沈浩"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Professor",
+        "start_year": 2018,
+        "start_date": "2018-08"
+      },
+      "phd": {
+        "school": "Hong Kong University of Science and Technology",
+        "program": "PhD in Marketing",
+        "region": "HK",
+        "year": 2008
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Digital Marketing",
+        "Sensory Marketing",
+        "Cultural/Social Influences"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/shen-hao/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Shen-HAO_202109.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/shen-hao/",
+          "label": "CUHK官方个人资料",
+          "quote": "He received his PhD in Marketing from the Hong Kong University of Science and Technology.",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Shen-HAO_202109.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "Ph.D. (Marketing), Hong Kong University of Science and Technology 2008",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2008,
+          "end_year": 2014,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Shen-HAO_202109.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "start_date": "2008-08",
+          "end_date": "2014-07"
+        },
+        {
+          "type": "promotion",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2014,
+          "end_year": 2018,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Shen-HAO_202109.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "start_date": "2014-08",
+          "end_date": "2018-07"
+        },
+        {
+          "type": "promotion",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Professor of Marketing",
+          "start_year": 2018,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Shen-HAO_202109.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "start_date": "2018-08"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Luxi Shen",
+      "aliases": [
+        "沈璐希"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": 2020
+      },
+      "phd": {
+        "school": "University of Chicago",
+        "program": "PhD in Behavioral Science",
+        "region": "US",
+        "year": 2014
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Judgment and Decision Making",
+        "Uncertainty, Risk, and Luck",
+        "Incentive Design",
+        "Pricing Strategy"
+      ],
+      "homepage": "https://www.luxishen.com/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/LuxiShen_2609.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/shen-luxi/",
+          "label": "CUHK官方个人资料",
+          "quote": "MBA and PhD from the University of Chicago Booth School of Business in 2014",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/LuxiShen_2609.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "Doctor of Philosophy (Ph.D.) in Behavioral Science, 2014 ... The University of Chicago Booth School of Business",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        },
+        {
+          "url": "https://www.luxishen.com/",
+          "label": "官方资料所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2014,
+          "end_year": 2020,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/LuxiShen_2609.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "promotion",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Associate Professor of Marketing",
+          "start_year": 2020,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/LuxiShen_2609.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "visiting",
+          "institution": "University of California, Los Angeles",
+          "role": "Visiting Associate Professor of Marketing and Visiting Scholar",
+          "start_year": 2024,
+          "end_year": 2025,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/LuxiShen_2609.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "region": "US"
+        },
+        {
+          "type": "visiting",
+          "institution": "University of Zurich",
+          "role": "Visiting Professor",
+          "start_year": 2023,
+          "end_year": 2023,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/LuxiShen_2609.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "region": "CH"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Jimbo Jingbo Wang",
+      "aliases": [
+        "汪靜波"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Assistant Professor",
+        "start_year": null
+      },
+      "phd": {
+        "school": "University of Southern California",
+        "program": "PhD in Economics",
+        "region": "US",
+        "year": 2021
+      },
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "fields": [
+        "Quantitative Marketing",
+        "Marketing Analytics",
+        "Machine Learning",
+        "Social Network Analysis"
+      ],
+      "homepage": "https://jingbowa.github.io/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/wang-jingbo-jimbo/",
+          "label": "CUHK官方个人资料",
+          "quote": "PhD in Economics from University of Southern California",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://jingbowa.github.io/",
+          "label": "本人主页Education",
+          "quote": "Ph.D. in Economics 2021 ... University of Southern California",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year",
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "已读资料未明确现职级开始时间。"
+        },
+        {
+          "field": "career_events",
+          "reason": "已确认现职；尚未获得可核对任职日期的完整CV。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "本轮官方页没有可核实读取的CV链接；保留个人资料来源。"
+        }
+      ]
+    },
+    {
+      "name": "Jesse Yunfei Yao",
+      "aliases": [
+        "姚雲飛"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": 2026
+      },
+      "phd": {
+        "school": "University of California, Berkeley",
+        "program": "PhD in Business Administration",
+        "region": "US",
+        "year": 2023
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Privacy",
+        "Consumer Search",
+        "Information Economics",
+        "Strategic Considerations of AI/ML"
+      ],
+      "homepage": "https://www.jesseyao.com/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Yao_web.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/yao-jesse/",
+          "label": "CUHK官方个人资料",
+          "quote": "Ph.D. in Business Administration from the University of California at Berkeley",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Yao_web.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "University of California, Berkeley, Ph.D. Business Administration, 2023",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        },
+        {
+          "url": "https://www.jesseyao.com/",
+          "label": "官方资料所链本人主页",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor of Business Administration",
+          "start_year": 2023,
+          "end_year": 2026,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Yao_web.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "promotion",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Associate Professor of Business Administration",
+          "start_year": 2026,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV_Yao_web.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        }
+      ],
+      "unknowns": [],
+      "placement_id": "university-of-california-berkeley-jesse-yunfei-yao",
+      "identity_evidence": "已有placement来源包括同一CUHK个人页、本人主页及旧版同人CV；Berkeley博士2023和CUHK首职2023与新版CV吻合。"
+    },
+    {
+      "name": "Catherine Wing-man Yeung",
+      "aliases": [
+        "楊穎敏"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Associate Professor",
+        "start_year": 2015
+      },
+      "phd": {
+        "school": "Hong Kong University of Science and Technology",
+        "program": "PhD in Marketing",
+        "region": "HK",
+        "year": 2003
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Judgment and Decision Making",
+        "Behavioural Science",
+        "Behaviour Change"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/yeung-catherine-wing-man/",
+      "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV-Catherine-202605.pdf",
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/yeung-catherine-wing-man/",
+          "label": "CUHK官方个人资料",
+          "quote": "She joined CUHK in 2015, following her tenure as an Associate Professor of Marketing at the NUS Business School",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV-Catherine-202605.pdf",
+          "label": "CUHK官方托管本人CV",
+          "quote": "Ph.D. HKUST, Marketing, 2003",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "National University of Singapore",
+          "role": "Assistant Professor",
+          "start_year": 2003,
+          "end_year": 2008,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV-Catherine-202605.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "region": "SG"
+        },
+        {
+          "type": "promotion",
+          "institution": "National University of Singapore",
+          "role": "Associate Professor",
+          "start_year": 2008,
+          "end_year": 2015,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV-Catherine-202605.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。",
+          "region": "SG"
+        },
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Associate Professor",
+          "start_year": 2015,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/wp-content/uploads/CV-Catherine-202605.pdf"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        }
+      ],
+      "unknowns": []
+    },
+    {
+      "name": "Meng Zhang",
+      "aliases": [
+        "張萌"
+      ],
+      "host_id": "chinese-university-of-hong-kong-marketing",
+      "current": {
+        "institution": "Chinese University of Hong Kong",
+        "department": "Marketing",
+        "region": "HK",
+        "role": "Professor",
+        "start_year": 2018
+      },
+      "phd": {
+        "school": "University of Toronto",
+        "program": "PhD in Marketing",
+        "region": "CA",
+        "year": null
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Subjective Experience",
+        "Consumer Information Processing"
+      ],
+      "homepage": "https://www.bschool.cuhk.edu.hk/staff/zhang-meng/",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/staff/zhang-meng/",
+          "label": "CUHK官方个人资料",
+          "quote": "PhD in Marketing from the Rotman School of Management, University of Toronto",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "current.role",
+            "fields"
+          ]
+        },
+        {
+          "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+          "label": "Marketing官方在职目录",
+          "supports": [
+            "roster_membership"
+          ]
+        }
+      ],
+      "career_events": [
+        {
+          "type": "appointment",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Assistant Professor",
+          "start_year": 2006,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/staff/zhang-meng/"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        },
+        {
+          "type": "promotion",
+          "institution": "Chinese University of Hong Kong",
+          "role": "Professor",
+          "start_year": 2018,
+          "end_year": null,
+          "source_urls": [
+            "https://www.bschool.cuhk.edu.hk/staff/zhang-meng/"
+          ],
+          "evidence": "CV Employment / Academic Appointments；按所列职称及时间区间转录。此为段落定位，不是逐字引文。"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "已读官方个人页未列博士授位年；不从论文、获奖或入职年倒推。"
+        },
+        {
+          "field": "cv_url",
+          "reason": "本轮官方页没有可核实读取的CV链接；保留个人资料来源。"
+        }
+      ]
+    }
+  ]
+}

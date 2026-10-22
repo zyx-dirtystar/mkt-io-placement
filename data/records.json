@@ -1504,6 +1504,30 @@
       {
         "label": "placement year role methods and education",
         "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf"
+      },
+      {
+        "url": "https://bschool.nus.edu.sg/marketing/faculty/",
+        "label": "官方Marketing教师目录",
+        "quote": "FULL-TIME",
+        "locator": "Fei Teng",
+        "supports": [
+          "current.institution",
+          "current.role",
+          "current.appointment_category"
+        ],
+        "checked_at": "2026-10-22"
+      },
+      {
+        "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf",
+        "label": "官方个人档案或本人CV",
+        "quote": "Ph.D. in Marketing 2025",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year"
+        ],
+        "locator": "Education / Academic appointments",
+        "checked_at": "2026-10-22"
       }
     ],
     "subsequent": [],
@@ -1517,7 +1541,22 @@
     ],
     "program_id": "yale-university-marketing",
     "source_cohort_year": 2025,
-    "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf"
+    "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf",
+    "graduation_year": 2025,
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2025,
+        "status": "confirmed",
+        "source_urls": [
+          "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Fei-Website.pdf"
+        ],
+        "quote": "Ph.D. in Marketing 2025",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-singapore-2026-10-22"
+      }
+    ]
   },
   {
     "id": "toronto-francis-guiton",
@@ -2367,7 +2406,7 @@
     "market_cycle": null,
     "placement_year": 2025,
     "source_cohort_year": 2025,
-    "graduation_year": null,
+    "graduation_year": 2025,
     "status": "placed",
     "destination": "University of Hong Kong, Business School",
     "destination_region": "HK",
@@ -2394,11 +2433,39 @@
       {
         "label": "接收院校或个人资料：方向与履历",
         "url": "https://www.hkubs.hku.hk/sc/people/jiaqi-yu/"
+      },
+      {
+        "url": "https://www.hkubs.hku.hk/sc/people/jiaqi-yu/",
+        "label": "HKU 官方教师资料",
+        "quote": "Ph.D. in Marketing, University of Chicago Booth School of Business, 2025",
+        "supports": [
+          "current",
+          "phd",
+          "fields"
+        ],
+        "checked_at": "2026-10-22",
+        "source_date": null,
+        "quote_normalization": "whitespace_only",
+        "access_status": "official_public_page_read"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "来源名单年份另行保存；未核验具体入职月份。"
+    "notes": "来源名单年份另行保存；未核验具体入职月份。",
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2025,
+        "status": "confirmed",
+        "source_urls": [
+          "https://www.hkubs.hku.hk/sc/people/jiaqi-yu/"
+        ],
+        "quote": "Ph.D. in Marketing, University of Chicago Booth School of Business, 2025",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "2026-10-22-faculty-hongkong"
+      }
+    ]
   },
   {
     "id": "northwestern-jane-jiaqian-wang",
@@ -2426,7 +2493,7 @@
     "market_cycle": null,
     "placement_year": 2024,
     "source_cohort_year": 2024,
-    "graduation_year": null,
+    "graduation_year": 2024,
     "status": "placed",
     "destination": "National University of Singapore",
     "destination_region": "SG",
@@ -2460,6 +2527,30 @@
       {
         "label": "NUS 官方 CV：2024 起任职",
         "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2024/07/CV-Website-Jane-July2024.pdf"
+      },
+      {
+        "url": "https://bschool.nus.edu.sg/marketing/faculty/",
+        "label": "官方Marketing教师目录",
+        "quote": "FULL-TIME",
+        "locator": "Jane Jiaqian Wang",
+        "supports": [
+          "current.institution",
+          "current.role",
+          "current.appointment_category"
+        ],
+        "checked_at": "2026-10-22"
+      },
+      {
+        "url": "https://discovery.nus.edu.sg/27118-jane-jiaqian-wang",
+        "label": "官方个人档案或本人CV",
+        "quote": "Northwestern University, Evanston, United States 2024",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year"
+        ],
+        "locator": "Education / Academic appointments",
+        "checked_at": "2026-10-22"
       }
     ],
     "subsequent": [],
@@ -2469,7 +2560,21 @@
       "Jane Jiaqian Wang"
     ],
     "homepage": "https://www.janejiaqianwang.com/",
-    "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2024/07/CV-Website-Jane-July2024.pdf"
+    "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2024/07/CV-Website-Jane-July2024.pdf",
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2024,
+        "status": "confirmed",
+        "source_urls": [
+          "https://discovery.nus.edu.sg/27118-jane-jiaqian-wang"
+        ],
+        "quote": "Northwestern University, Evanston, United States 2024",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-singapore-2026-10-22"
+      }
+    ]
   },
   {
     "id": "toronto-jie-fang",
@@ -2572,7 +2677,7 @@
     "market_cycle": null,
     "placement_year": 2024,
     "source_cohort_year": 2024,
-    "graduation_year": null,
+    "graduation_year": 2024,
     "status": "placed",
     "destination": "The Ohio State University, Fisher College of Business",
     "destination_region": "US",
@@ -2603,6 +2708,35 @@
       {
         "label": "MIT 2025 新教师公告：后续任职时间",
         "url": "https://mitsloan.mit.edu/ideas-made-to-matter/meet-new-faculty-members-joining-mit-sloan-2025"
+      },
+      {
+        "url": "https://mitsloan.mit.edu/faculty/directory/jimin-nam",
+        "label": "MIT Sloan官方教师个人页",
+        "quote": "She received her PhD from Harvard Business School",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "current.role",
+          "fields"
+        ]
+      },
+      {
+        "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+        "label": "MIT Marketing官方Full-time Faculty目录",
+        "supports": [
+          "roster_membership"
+        ]
+      },
+      {
+        "url": "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1",
+        "label": "MIT官方托管本人CV",
+        "quote": "Ph.D. Business Administration, Concentration: Marketing (2019-2024)",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year",
+          "career_events"
+        ]
       }
     ],
     "subsequent": [
@@ -2613,7 +2747,21 @@
       }
     ],
     "checked_at": "2026-10-08",
-    "notes": "HBS 表中 Ohio State 是首次去向，MIT 是后续任职，不用现单位替换首职。"
+    "notes": "HBS 表中 Ohio State 是首次去向，MIT 是后续任职，不用现单位替换首职。",
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2024,
+        "status": "confirmed",
+        "source_urls": [
+          "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1"
+        ],
+        "quote": "Ph.D. Business Administration, Concentration: Marketing (2019-2024)",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-mit-2026-10-22"
+      }
+    ]
   },
   {
     "id": "hkust-jingling-yu",
@@ -4780,6 +4928,24 @@
       {
         "label": "field methods and education",
         "url": "https://mitsloan.mit.edu/faculty/directory/ruru-hoong"
+      },
+      {
+        "url": "https://mitsloan.mit.edu/faculty/directory/ruru-hoong",
+        "label": "MIT Sloan官方教师个人页",
+        "quote": "received her PhD from Harvard Business School in 2026",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "current.role",
+          "fields"
+        ]
+      },
+      {
+        "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers",
+        "label": "MIT Marketing官方Full-time Faculty目录",
+        "supports": [
+          "roster_membership"
+        ]
       }
     ],
     "subsequent": [],
@@ -4791,7 +4957,23 @@
       "Field experiments",
       "Quantitative analysis"
     ],
-    "program_id": "harvard-university-economics"
+    "program_id": "harvard-university-economics",
+    "graduation_year": 2026,
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2026,
+        "status": "provisional",
+        "source_urls": [
+          "https://mitsloan.mit.edu/faculty/directory/ruru-hoong",
+          "https://mitsloan.mit.edu/faculty/academic-groups/marketing/faculty-research-centers"
+        ],
+        "quote": null,
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-mit-2026-10-22"
+      }
+    ]
   },
   {
     "id": "nus-samantha-sim",
@@ -5090,6 +5272,41 @@
       {
         "label": "初始去向",
         "url": "https://spinup-000d1a-wp-offload-media.s3.amazonaws.com/faculty/wp-content/uploads/sites/32/2026/01/CV_Shin_2026-January-1.pdf"
+      },
+      {
+        "url": "https://www.bschool.cuhk.edu.hk/staff/lee-seung-yoon/",
+        "label": "CUHK官方个人资料",
+        "quote": "PhD in Quantitative Marketing from Yale University",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "current.role",
+          "fields"
+        ]
+      },
+      {
+        "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+        "label": "Marketing官方在职目录",
+        "supports": [
+          "roster_membership"
+        ]
+      },
+      {
+        "url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf",
+        "label": "CUHK官方托管本人CV",
+        "quote": "Yale University, School of Management ... Ph.D. in Marketing 2025",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year"
+        ]
+      },
+      {
+        "url": "https://www.sylee.io/",
+        "label": "官方资料所链本人主页",
+        "supports": [
+          "homepage"
+        ]
       }
     ],
     "subsequent": [],
@@ -5103,7 +5320,22 @@
     ],
     "program_id": "yale-university-marketing",
     "source_cohort_year": 2025,
-    "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf"
+    "cv_url": "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf",
+    "graduation_year": 2025,
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2025,
+        "status": "confirmed",
+        "source_urls": [
+          "https://www.bschool.cuhk.edu.hk/wp-content/uploads/SeungYoonLee_CV_202507.pdf"
+        ],
+        "quote": "Yale University, School of Management ... Ph.D. in Marketing 2025",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-cuhk-2026-10-22"
+      }
+    ]
   },
   {
     "id": "ubc-shangwen-yi",
@@ -6346,6 +6578,54 @@
       {
         "label": "本批对齐官方 Marketing placement 名单",
         "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+      },
+      {
+        "url": "https://marketing.wharton.upenn.edu/faculty/faculty-list/",
+        "label": "Wharton官方Standing目录",
+        "quote": "Walter W. Zhang — Assistant Professor of Marketing",
+        "supports": [
+          "name",
+          "current.role",
+          "current.institution"
+        ],
+        "source_date": null,
+        "checked_at": "2026-10-22",
+        "verification_status": "checked"
+      },
+      {
+        "url": "https://marketing.wharton.upenn.edu/profile/wwz",
+        "label": "官方个人页",
+        "quote": "Overview",
+        "supports": [
+          "profile_reviewed"
+        ],
+        "source_date": null,
+        "checked_at": "2026-10-22",
+        "verification_status": "checked"
+      },
+      {
+        "url": "https://marketing.wharton.upenn.edu/profile/wwz",
+        "label": "官方个人页博士教育",
+        "quote": "PhD and an MBA from the University of Chicago Booth School of Business",
+        "supports": [
+          "phd"
+        ],
+        "source_date": null,
+        "checked_at": "2026-10-22",
+        "verification_status": "checked"
+      },
+      {
+        "url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf",
+        "label": "本人2026-10-04 CV，实际读取第1页和第6页",
+        "quote": "2024 The University of Chicago, Booth School of Business; PhD in Quantitative Marketing, MBA",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year",
+          "career_events"
+        ],
+        "source_date": "2026-10-04",
+        "checked_at": "2026-10-22"
       }
     ],
     "subsequent": [],
@@ -6359,7 +6639,22 @@
     ],
     "program_id": "university-of-chicago-marketing",
     "source_cohort_year": 2024,
-    "cv_url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf"
+    "cv_url": "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf",
+    "graduation_year": 2024,
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2024,
+        "status": "confirmed",
+        "source_urls": [
+          "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf"
+        ],
+        "quote": "2024 The University of Chicago, Booth School of Business; PhD in Quantitative Marketing, MBA",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-reconciliation-2026-10-22"
+      }
+    ]
   },
   {
     "id": "nus-wanjiang-deng",
@@ -10926,7 +11221,7 @@
     "market_cycle": null,
     "placement_year": 2024,
     "source_cohort_year": 2024,
-    "graduation_year": null,
+    "graduation_year": 2024,
     "status": "placed",
     "destination": "Peking University",
     "destination_region": "CN",
@@ -10949,11 +11244,59 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://www.bu.edu/questrom/phd-program/placements/"
+      },
+      {
+        "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+        "label": "官方目录搜索索引",
+        "quote": "Pu Zhao",
+        "supports": [
+          "name",
+          "current.institution"
+        ],
+        "source_date": null,
+        "checked_at": "2026-10-22",
+        "verification_status": "indexed_reference"
+      },
+      {
+        "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20241111/puzhao_CV_Chinese.pdf",
+        "label": "官方CV",
+        "quote": "波士顿大学凯斯特罗姆商学院, 工商管理博士, 市场营销方向, 2018-2024",
+        "supports": [
+          "phd"
+        ],
+        "source_date": null,
+        "checked_at": "2026-10-22",
+        "verification_status": "checked"
+      },
+      {
+        "url": "https://worksapi.gsm.pku.edu.cn/uploadfiles/20241111/puzhao_CV_Chinese.pdf",
+        "label": "官方CV任职",
+        "quote": "市场营销学系助理教授, 2024 年至今",
+        "supports": [
+          "current"
+        ],
+        "source_date": null,
+        "checked_at": "2026-10-22",
+        "verification_status": "checked"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。  "
+    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。  ",
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2024,
+        "status": "confirmed",
+        "source_urls": [
+          "https://worksapi.gsm.pku.edu.cn/uploadfiles/20241111/puzhao_CV_Chinese.pdf"
+        ],
+        "quote": "波士顿大学凯斯特罗姆商学院, 工商管理博士, 市场营销方向, 2018-2024",
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-mainland-nine-2026-10-22"
+      }
+    ]
   },
   {
     "id": "boston-university-anna-tari-sanchez",
@@ -11492,7 +11835,7 @@
     "market_cycle": null,
     "placement_year": 2025,
     "source_cohort_year": 2025,
-    "graduation_year": null,
+    "graduation_year": 2025,
     "status": "placed",
     "destination": "National University of Singapore",
     "destination_region": "SG",
@@ -11515,11 +11858,50 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://michiganross.umich.edu/phd/areas-of-study/marketing"
+      },
+      {
+        "url": "https://bschool.nus.edu.sg/marketing/faculty/",
+        "label": "官方Marketing教师目录",
+        "quote": "FULL-TIME",
+        "locator": "Varad Vivek Deolankar",
+        "supports": [
+          "current.institution",
+          "current.role",
+          "current.appointment_category"
+        ],
+        "checked_at": "2026-10-22"
+      },
+      {
+        "url": "https://discovery.nus.edu.sg/29502-varad-vivek-deolankar",
+        "label": "官方个人档案或本人CV",
+        "quote": "Doctor of Philosophy in Marketing",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year"
+        ],
+        "locator": "Education / Academic appointments",
+        "checked_at": "2026-10-22"
       }
     ],
     "subsequent": [],
     "checked_at": "2026-10-08",
-    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。  "
+    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。  ",
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2025,
+        "status": "provisional",
+        "source_urls": [
+          "https://bschool.nus.edu.sg/marketing/faculty/",
+          "https://discovery.nus.edu.sg/29502-varad-vivek-deolankar"
+        ],
+        "quote": null,
+        "checked_at": "2026-10-22",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-singapore-2026-10-22"
+      }
+    ]
   },
   {
     "id": "university-of-michigan-yeonjin-sung",

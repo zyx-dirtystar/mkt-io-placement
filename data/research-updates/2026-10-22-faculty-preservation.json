@@ -1,0 +1,258 @@
+{
+  "id": "faculty-preservation-2026-10-22",
+  "checked_at": "2026-10-22",
+  "schools": [],
+  "people": [
+    {
+      "id": "ta-wei-huang-2025",
+      "placement_id": "ta-wei-huang-2025",
+      "name": "Ta-Wei (David) Huang",
+      "aliases": [
+        "David Ta-Wei Huang",
+        "Huang David Ta-Wei"
+      ],
+      "host_id": "national-university-of-singapore-marketing",
+      "current": {
+        "institution": "National University of Singapore",
+        "region": "SG",
+        "department": "Marketing",
+        "role": "Assistant Professor",
+        "start_year": 2025,
+        "start_year_basis": "current_role_not_initial_join",
+        "appointment_category": "research",
+        "tenure_status": "unknown",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Harvard University",
+        "program": "PhD in Marketing",
+        "region": "US",
+        "year": 2025,
+        "program_id": "harvard-university-marketing",
+        "verification_status": "official_profile_or_cv"
+      },
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "fields": [
+        "Quantitative Marketing",
+        "Targeting",
+        "Personalization",
+        "Customer management",
+        "Privacy"
+      ],
+      "homepage": "https://discovery.nus.edu.sg/29496-david-tawei-huang",
+      "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf",
+      "research_inference": null,
+      "checked_at": "2026-10-22",
+      "notes": "此接收端档案不自动成为近四年placement样本；当前任职、博士授予年与毕业首职分别保存。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "sources": [
+        {
+          "label": "初始去向",
+          "url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "checked_at": "2026-10-16"
+        },
+        {
+          "label": "field and education",
+          "url": "https://www.hbs.edu/doctoral/research-community/profiles/ta-wei-huang",
+          "checked_at": "2026-10-16"
+        },
+        {
+          "label": "placement year role and methods",
+          "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf",
+          "checked_at": "2026-10-16"
+        },
+        {
+          "label": "本批对齐官方 Marketing placement 名单",
+          "url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "checked_at": "2026-10-16"
+        },
+        {
+          "url": "https://bschool.nus.edu.sg/marketing/faculty/",
+          "label": "官方Marketing教师目录",
+          "quote": "FULL-TIME",
+          "locator": "Ta-Wei (David) Huang",
+          "supports": [
+            "current.institution",
+            "current.role",
+            "current.appointment_category"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://discovery.nus.edu.sg/29496-david-tawei-huang",
+          "label": "官方个人档案或本人CV",
+          "quote": "Harvard University, Cambridge, United States 2020 - 2025",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ],
+          "locator": "Education / Academic appointments",
+          "checked_at": "2026-10-22"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "National University of Singapore",
+          "role": "Assistant Professor",
+          "start_year": 2025,
+          "end_year": null,
+          "source_urls": [
+            "https://discovery.nus.edu.sg/29496-david-tawei-huang"
+          ],
+          "quote": "2025",
+          "checked_at": "2026-10-22",
+          "date_precision": "year",
+          "date_basis": "current_role_not_initial_join"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "first_appointment",
+          "reason": "现职/个别来源表已核实，但没有完整、独立的毕业后职业顺序，不将现职自动当作毕业首职。"
+        },
+        {
+          "field": "research_subtrack",
+          "reason": "本批主要核对现职、学位和职业路径；Marketing部门身份不自动细分Quant/CB/Strategy。"
+        }
+      ],
+      "faculty_type": "research",
+      "membership_type": "research",
+      "eligibility": {
+        "research_roster": true,
+        "directory_member": true,
+        "degree_evidence": "public_source",
+        "reason": "官方Marketing目录列常设Assistant/Associate/Full/Distinguished教授序列，排除显式其他身份。"
+      },
+      "person_review_status": "partial_biography_verified",
+      "career_sequence_complete": false,
+      "identity_evidence": {
+        "basis": "stable_existing_placement_and_archived_source",
+        "reason": "保持既有稳定ID及官方本人CV；新目录批次未核研究细分不能抹去旧证据。",
+        "source_urls": [
+          "https://www.hbs.edu/doctoral/placement/marketing",
+          "https://www.hbs.edu/doctoral/research-community/profiles/ta-wei-huang",
+          "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-David-Website.pdf",
+          "https://www.hbs.edu/doctoral/placement/marketing"
+        ]
+      },
+      "import_batch_id": "faculty-singapore-2026-10-22",
+      "carried_forward": [
+        {
+          "field": "cv_url,fields,tracks",
+          "checked_at": "2026-10-16",
+          "reason": "恢复被目录空字段遮盖的既有证据，不提高事实核验日期。"
+        }
+      ]
+    },
+    {
+      "name": "李 晨",
+      "aliases": [],
+      "host_id": "nanjing",
+      "current": {
+        "institution": "Nanjing University",
+        "region": "CN",
+        "role": "特任副研究员",
+        "start_year": null,
+        "directory_membership": "special_research_appointment_flag_conflict",
+        "status": "appointment_category_pending"
+      },
+      "phd": {
+        "school": "Harbin Institute of Technology",
+        "program": "Management Science and Engineering",
+        "region": "CN",
+        "year": 2025
+      },
+      "tracks": [],
+      "fields": [],
+      "homepage": "https://nubs.nju.edu.cn/lc/list.htm",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://nubs.nju.edu.cn/8878/list.htm",
+          "label": "官方教师目录",
+          "quote": "李 晨 — 副研究员",
+          "supports": [
+            "name",
+            "current.institution",
+            "current.role"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/lc/list.htm",
+          "label": "官方个人页教育背景",
+          "quote": "2020 - 2025 哈尔滨工业大学，管理科学与工程，博士",
+          "supports": [
+            "phd"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        },
+        {
+          "url": "https://nubs.nju.edu.cn/lc/list.htm",
+          "label": "官方联合培养博士资料",
+          "quote": "2021 - 2025 香港城市大学，资讯信息系统，博士（联合培养）",
+          "supports": [
+            "other_doctorates"
+          ],
+          "source_date": null,
+          "checked_at": "2026-10-22",
+          "verification_status": "checked"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "current_appointment",
+          "institution": "Nanjing University",
+          "role": "特任副研究员",
+          "start_year": null,
+          "end_year": null,
+          "date_precision": "unknown",
+          "status": "observed_current",
+          "checked_at": "2026-10-22",
+          "source_urls": [
+            "https://nubs.nju.edu.cn/8878/list.htm"
+          ],
+          "quote": "李 晨 — 特任副研究员"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "biography",
+          "reason": "已实际读取官方个人页，尚未明确的职业日期保留未知。"
+        },
+        {
+          "field": "biography",
+          "reason": "官网目录API名誉/兼职标记为是，但个人页为现任特任副研究员；保留研究岗位独立口径和分类冲突，不当作标准教授系列。"
+        }
+      ],
+      "verification_status": "profile_verified",
+      "other_doctorates": [
+        {
+          "school": "City University of Hong Kong",
+          "program": "Information Systems",
+          "region": "HK",
+          "year": 2025,
+          "relationship": "joint_training",
+          "source_url": "https://nubs.nju.edu.cn/lc/list.htm",
+          "quote": "2021 - 2025 香港城市大学，资讯信息系统，博士（联合培养）"
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "research_classification_status": "unclassified",
+      "id": "faculty-nanjing-李晨",
+      "placement_id": null,
+      "faculty_type": "research_membership_pending",
+      "career_sequence_complete": false,
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-mainland-nine-2026-10-22"
+    }
+  ]
+}

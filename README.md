@@ -38,6 +38,22 @@ node server.mjs
 
 `data/records.json` 保留稳定人员 ID 与旧字段；`programs.json`、`coverage.json`、`faculty.json` 分别维护培养项目、名单年度和接收院校档案。`taxonomy.json` 提供标准标签和同义词；`io-scope.json` 独立定义 Economics IO 范围；`jobs.json` 保存真实招聘公告。研究复核、原始批次和排名清单都保留版本。
 
+教师反查本轮实际数据和逐校限制见 [更新审计](docs/FACULTY-UPDATE-2026-10-22.md)。香港五校、新加坡三校、内地指定九校及北美 UBC/MIT/Wharton/Kellogg 均有目录或个人核验记录。官方目录快照、研究/教学/兼职身份、博士授位年、当前职级开始和已知职业片段独立保存。目录对齐不表示履历完整，也不增加 placement 或完整 cohort 分母。
+
+教师研究批次导入默认只预览：
+
+```sh
+node scripts/import-faculty-batch.mjs data/research-updates/2026-10-22-faculty-kellogg.json
+# 仅经人工核验后加入 --apply；重复相同批次无变化，改写已用ID或过期批次会报错。
+node scripts/import-faculty-batch.mjs path/to/reviewed-faculty-batch.json --apply
+node scripts/sync-data.mjs
+node scripts/faculty-report.mjs
+node scripts/check-faculty.mjs
+node --test scripts/tests/*.test.mjs tests/*.test.mjs
+```
+
+批次支持 `expected_faculty_sha256` 前置版本检查；复用已有事务锁、并发修改检测、原子替换和失败回滚。来源变化仍仅进入待核验队列。人员关联采用明确 `placement_id` 与身份依据，或唯一精确个人URL，不按相似姓名合并。字段证据、访问失败、排除名单和原始批次均保留；手动同人复核表位于 `data/faculty-identities.json`。接收端毕业年补充保留独立claims，不改首职或最终安排。
+
 `sync-data.mjs` 同时生成兼容旧版的 records/catalog 与统一的 `observatory.json`：people、institutions、events、claims、taxonomy、jobs、audit、quality、release、queue。旧来源关联标作 `legacy_reference`，不自动升级成带原文的已核验证据。原始研究标签仍在 raw 中，标准化不等于新增事实核验。
 
 Marketing 选校沿用固定的 UTD 四刊 2021—2025 北美 50、香港 5、新加坡 3。研究排名不代表就业质量或一定设有博士项目。Economics IO 使用独立发现范围；两个范围都有尚未完成核验的项目。
