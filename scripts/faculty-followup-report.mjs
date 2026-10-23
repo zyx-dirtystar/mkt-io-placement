@@ -20,6 +20,8 @@ export function facultyFollowupReport(archive,baseline,scope,config){
 }
 export function writeFacultyFollowupReport(){
  const a=read('data/faculty.json'),base=read('data/faculty-baseline-followup-2026-10-22.json');
+ const snapshot=read('data/faculty-followup-audit-2026-10-22.json');
+ if(a.updated_at>snapshot.as_of)return snapshot; // A new region must not silently rewrite the dated follow-up release.
  const r=facultyFollowupReport(a,base,read('data/scope.json'),read('config.json'));
  fs.writeFileSync('data/faculty-followup-audit-2026-10-22.json',JSON.stringify(r,null,2)+'\n');
  const e=r.existing,c=r.counts,clean=x=>String(typeof x==='string'?x:JSON.stringify(x)).replaceAll('|',' / ').replaceAll('\n',' ');

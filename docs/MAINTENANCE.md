@@ -138,3 +138,20 @@ HTML 提取可读文本并忽略脚本、样式和标签变化。PDF 保留原�
 `node scripts/faculty-followup-report.mjs` 以 `faculty-baseline-followup-2026-10-22.json` 的1111位固定人员计算新增博士年、撤回冲突年份、有日期职业片段及六校名单变化；新教师缺失单列。`sync-data.mjs` 和Pages构建同时计算该报表。审计批次不可改写，修正须新批。
 
 错误个人主页/CV链接可以使用 `reviewed_link_corrections` 明确撤下：须包含field、previous_value、reason和source_urls，并在sources提供同URL、字段supports和实际检查摘录。普通空链接仍保留旧值；撤下不会删除原来源及previous_versions。学位year为null且有reported_years或多值冲突时，不能被旧值保护机制填回。
+
+
+## Macao / Australia receiving-side scope (2026-10-23)
+
+`data/faculty-scope-macao-australia-2026-10-23.json` fixes the three Macao and eight current Go8 receiving institutions before individual outcome collection. Adelaide University is the current 2026 institution; predecessor appointments retain their historical institution names. The original 58-program doctoral placement scope is unchanged. Marketing roster reconciliation and supplementary Economics IO profiles have separate scopes.
+
+Reviewed batches in `data/research-updates/2026-10-23-faculty-*.json` retain directory exclusions, role types, field-level excerpts, observed unknowns, conflicting years and partial historical career segments. Only after reading and reviewing sources, import with the normal faculty importer. Source snapshot hashes refer to bytes actually retrieved; inaccessible sources retain unknown hashes and access reasons. Old CV “present” is a historical snapshot and does not establish continuity through today.
+
+```sh
+node scripts/import-faculty-batch.mjs path/to/reviewed-batch.json
+node scripts/import-faculty-batch.mjs path/to/reviewed-batch.json --apply
+node scripts/sync-data.mjs
+node scripts/faculty-extension-report.mjs
+node scripts/check-faculty-extensions.mjs
+```
+
+The extension checker verifies preserved IDs, original placement scope and first/final/later appointment facts, historical report hashes, all selected school checks, cited degree years and concrete unknown reasons. The dated 2026-10-22 North America and follow-up reports are frozen when a later archive is present; current totals are computed independently. The extension report is regenerated during synchronization. No network crawl is required for builds.

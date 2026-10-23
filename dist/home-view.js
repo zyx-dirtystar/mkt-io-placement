@@ -1,4 +1,4 @@
-import {receivingProgress} from './faculty.js?v=1.1.0';
+import {receivingProgress} from './faculty.js?v=1.1.1';
 export function homeMarkup({records,catalog,observatory,esc,region}) {
   const faculty=catalog.faculty.people, schools=receivingProgress(catalog);
   const complete=observatory.audit.filter(c=>c.cohort_complete).length;

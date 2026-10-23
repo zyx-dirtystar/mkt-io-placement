@@ -1,4 +1,4 @@
-import {REGIONS} from './core.js?v=1.1.0';
+import {REGIONS} from './core.js?v=1.1.1';
 
 export const AUDIT_STATUS = {
   not_started: 'Not started',

@@ -6,7 +6,7 @@ const catalog=JSON.parse(fs.readFileSync('dist/data/catalog.json','utf8'));
 function fixture(){return {history_years:[2023,2024,2025,2026],scope:{ranking:{rows:[{program_id:'a',school:'Alpha University',region:'US'},{program_id:'b',school:'Beta University',region:'CA'}]},asia:[]},faculty:{receiving_scope:{mainland:[]},receiving_checks:[],people:[{id:'p',host_id:'a',name:'Person',aliases:['公开别名'],checked_at:'2026-10-22',phd:{year:null},current:{region:'US'},fields:[],tracks:[],placement_id:null}]}}}
 test('published reverse-lookup counts keep receiving scope and person sample separate',()=>{
  const rows=receivingProgress(catalog);
- assert.equal(rows.length,67);assert.equal(rows.filter(h=>h.started).length,new Set([...catalog.faculty.receiving_checks.map(c=>c.host_id),...catalog.faculty.people.map(p=>p.host_id)]).size);
+ assert.equal(rows.length,67+(catalog.faculty.receiving_scope.extensions||[]).length);assert.equal(rows.filter(h=>h.started).length,new Set([...catalog.faculty.receiving_checks.map(c=>c.host_id),...catalog.faculty.people.map(p=>p.host_id)]).size);
  assert.equal(rows.reduce((s,h)=>s+h.people.length,0),catalog.faculty.people.length);assert.equal(rows.reduce((s,h)=>s+h.linked,0),catalog.faculty.people.filter(p=>p.placement_id).length);
  assert.deepEqual(['US','CA','HK','SG','CN'].map(r=>rows.filter(h=>h.region===r).length),[46,4,5,3,9]);
  assert.ok(rows.every(h=>h.roster_total===null||h.state==='complete'));

@@ -16,6 +16,8 @@ export function facultyExpansionReport(a,base,scope,config){
 }
 export function writeFacultyExpansionReport(){
  const a=read('data/faculty.json'),base=read('data/faculty-baseline-na-2026-10-22.json');
+ const snapshot=read('data/faculty-na-audit-2026-10-22.json');
+ if(a.updated_at>snapshot.as_of)return snapshot; // Preserve this dated release; later extensions have their own report.
  const r=facultyExpansionReport(a,base,read('data/scope.json'),read('config.json'));
  fs.writeFileSync('data/faculty-na-audit-2026-10-22.json',JSON.stringify(r,null,2)+'\n');
  const c=r.counts,e=r.existing;

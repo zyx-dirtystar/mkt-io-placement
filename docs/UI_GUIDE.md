@@ -1,6 +1,6 @@
-# English interface · 1.1.0
+# English interface · 1.1.1
 
-Interface release: 2026-10-23. The evidence observation date remains 2026-10-22. This release changes presentation and navigation, not research facts, scope, stable IDs, historical evidence or statistical definitions.
+Current release: 2026-10-23. The original 1.1.0 English redesign is retained. Version 1.1.1 adds researched Macao and Australian receiving-side faculty data, with individually dated evidence; original doctoral placement scope and historical reports remain preserved.
 
 ## Start with a question
 
@@ -37,3 +37,7 @@ Original quotations, factual notes, names, official titles and some program name
 ## Verification
 
 All existing data and logic checks run unchanged in substance. CSV assertions now use English headers; they continue checking tenure unknowns, provisional classifications, first-job dates and formula protection. The new home test checks actual collection sizes and the separate complete-cohort denominator. Browser verification covers the home page, restored placement search, person evidence, faculty People / School coverage, comparison, flows, jobs, coverage, quality, methodology and the mobile menu.
+
+## Added receiving regions
+
+Choose Macao or Australia under Appointment region. School coverage now has seven geographic cards and 78 targets: the original 67 plus three Macao and eight Go8 institutions. The legacy “overseas” filter retains its original 58-school definition; “Macao & Australia” isolates the new 11. Chinese school aliases and standard abbreviations work in search. Selection rules, appointment groups, named exclusions, inaccessible sources and unresolved field conflicts are available in school and person details. Economics IO supplements are labelled separately from Marketing rosters. A reconciled scoped directory still does not establish complete biographies or a doctoral cohort. CSV/JSON exports retain school IDs, scope versions and field provenance.
