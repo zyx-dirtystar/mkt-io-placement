@@ -1,0 +1,621 @@
+{
+  "id": "faculty-au-io-supplement-2026-10-23",
+  "schema_version": "1.0",
+  "checked_at": "2026-10-23",
+  "selection_rule": "Four individually verified Australian Economics profiles explicitly reporting Industrial Organization. Deliberate supplementary discovery sample, not an Economics department roster or ranking. Kept separate from primary Marketing roster reconciliation.",
+  "schools": [],
+  "people": [
+    {
+      "name": "Simon Loertscher",
+      "aliases": [],
+      "host_id": "university-of-melbourne-marketing",
+      "current": {
+        "institution": "University of Melbourne",
+        "region": "AU",
+        "role": "Professor of Economics",
+        "start_year": 2016,
+        "department": "Economics",
+        "status": "official_directory",
+        "start_year_scope": "Professor rank; directorship began separately in November 2015"
+      },
+      "phd": {
+        "school": "University of Bern",
+        "program": "Doctorate in Economics",
+        "region": "CH",
+        "year": 2004,
+        "verification_status": "awarded",
+        "date_precision": "year"
+      },
+      "tracks": [
+        "io"
+      ],
+      "fields": [
+        "Industrial Organization",
+        "Market Making",
+        "Mechanism and Market Design",
+        "Political Economics (Market Microstructure)"
+      ],
+      "homepage": "https://fbe.unimelb.edu.au/our-people/staff/economics/simon-loertscher",
+      "cv_url": "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf",
+      "faculty_type": "research",
+      "faculty_scope": "economics_io_supplement",
+      "career_events": [
+        {
+          "type": "academic",
+          "institution": "Columbia University",
+          "role": "Adjunct Assistant Professor",
+          "start_date": "2005-01",
+          "end_date": "2005-05",
+          "date_precision": "month",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "quote": "Adjunct Assistant Professor, Columbia University, January 2005 - May 2005"
+        },
+        {
+          "type": "academic",
+          "institution": "University of Bern",
+          "role": "Lecturer",
+          "start_date": "2005-09",
+          "end_date": "2006-12",
+          "date_precision": "month",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "quote": "Lecturer, University of Bern, September 2005 - December 2006"
+        },
+        {
+          "type": "academic",
+          "institution": "University of Melbourne",
+          "role": "Lecturer",
+          "start_date": "2007-01",
+          "end_date": "2009-08",
+          "date_precision": "month",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "quote": "Senior Lecturer (with tenure), University of Melbourne, September 2009 - 2013"
+        },
+        {
+          "type": "academic",
+          "institution": "University of Melbourne",
+          "role": "Senior Lecturer (with tenure)",
+          "start_date": "2009-09",
+          "end_date": "2013",
+          "date_precision": "month",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "tenure": {
+            "status": "tenured",
+            "evidence_status": "confirmed",
+            "quote": "Senior Lecturer (with tenure)",
+            "source_urls": [
+              "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+            ]
+          },
+          "quote": "Senior Lecturer (with tenure), University of Melbourne, September 2009 - 2013"
+        },
+        {
+          "type": "academic_administration",
+          "institution": "University of Melbourne",
+          "role": "Deputy Director Research, Centre for Market Design",
+          "start_date": "2012-04",
+          "end_date": "2015-10",
+          "date_precision": "month",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "quote": "Deputy Director Research, Centre for Market Design at the U of Melbourne, April 2012 - Oct 2015"
+        },
+        {
+          "type": "academic",
+          "institution": "University of Melbourne",
+          "role": "Associate Professor",
+          "start_date": "2014-01",
+          "end_date": "2015",
+          "date_precision": "month",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "quote": "Associate Professor, University of Melbourne, January 2014 - 2015"
+        },
+        {
+          "type": "academic_administration",
+          "institution": "University of Melbourne",
+          "role": "Director, Centre for Market Design",
+          "start_date": "2015-11",
+          "end_date": null,
+          "date_precision": "month",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "quote": "Director, Centre for Market Design at the U of Melbourne, Nov 2015 -"
+        },
+        {
+          "type": "academic",
+          "institution": "University of Melbourne",
+          "role": "Professor",
+          "start_date": "2016",
+          "end_date": null,
+          "date_precision": "year",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ],
+          "checked_at": "2026-10-23",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_date": "2024-08-04",
+          "first_job_status": "not_asserted",
+          "quote": "Employment Professor, University of Melbourne, 2016 -"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "career_events.continuity",
+          "reason": "The CV is dated 2024-08-04. Open-ended entries are a historical source snapshot, not independently verified uninterrupted employment through 2026-10-23.",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf"
+          ]
+        },
+        {
+          "field": "current.tenure_status",
+          "reason": "The CV explicitly identifies tenure for the past 2009–2013 Senior Lecturer appointment; current Professor contract/tenure is not separately verified.",
+          "source_urls": [
+            "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf",
+            "https://fbe.unimelb.edu.au/our-people/staff/economics/simon-loertscher"
+          ]
+        }
+      ],
+      "notes": "Separately checked Economics IO profile. Not a member of the school’s Marketing roster and not evidence of a complete Economics faculty census. Current appointment does not establish the first job. The official page separately confirms the Centre for Market Design directorship; its November 2015 start is a separate leadership event, not the Professor-rank date.",
+      "sources": [
+        {
+          "url": "https://fbe.unimelb.edu.au/our-people/staff/economics/simon-loertscher",
+          "label": "University of Melbourne official Economics profile",
+          "quote": "Professor of Economics & Director, Centre for Market Design",
+          "supports": [
+            "current",
+            "current.role",
+            "fields",
+            "tracks"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://simonloertscher.net/wp-content/uploads/2024/08/CV_2024_08_04.pdf",
+          "label": "Author CV dated 4 August 2024, first page read and visually inspected",
+          "quote": "Doctorate in Economics, University of Bern, 2004",
+          "supports": [
+            "phd",
+            "phd.year",
+            "phd.program",
+            "career_events",
+            "current.start_year"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read",
+          "source_date": "2024-08-04",
+          "sha256": "2c92d7a1a5c4364c5e4ca28278e56a65341377590b625409d5df55c3def25300",
+          "bytes": 103889,
+          "pages_read": [
+            1
+          ],
+          "total_pages": 8
+        },
+        {
+          "url": "https://fbe.unimelb.edu.au/our-people/staff/economics/simon-loertscher",
+          "label": "Officially stated research interests",
+          "quote": "Industrial Organization",
+          "supports": [
+            "fields",
+            "tracks"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        }
+      ]
+    },
+    {
+      "name": "Andrew Wait",
+      "aliases": [],
+      "host_id": "university-of-sydney-marketing",
+      "current": {
+        "institution": "University of Sydney",
+        "region": "AU",
+        "role": "Professor; Associate Dean, Postgraduate Coursework",
+        "start_year": null,
+        "department": null,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Australian National University",
+        "program": null,
+        "region": "AU",
+        "year": null,
+        "reported_year": 2002,
+        "reported_program": "PhD Economics",
+        "evidence_status": "official_indexed_text"
+      },
+      "tracks": [
+        "io"
+      ],
+      "fields": [
+        "Industry economics and industrial organisation",
+        "Microeconomic theory"
+      ],
+      "homepage": "https://profiles.sydney.edu.au/andrew.wait/about",
+      "cv_url": "https://www.sydney.edu.au/AcademicProfiles/profile/resource?type=cv&urlid=andrew.wait",
+      "faculty_type": "research",
+      "faculty_scope": "economics_io_supplement",
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "Official CV index reports 2002 but the actual PDF could not be retrieved (web-reader timeouts; independent HTTP 503). Keep reported_year as an unverified lead, not an awarded-year confirmation.",
+          "source_urls": [
+            "https://www.sydney.edu.au/AcademicProfiles/profile/resource?type=cv&urlid=andrew.wait"
+          ]
+        },
+        {
+          "field": "phd.program",
+          "reason": "Current official biography names the university but not the PhD subject; Economics appears only in the unavailable CV index.",
+          "source_urls": [
+            "https://profiles.sydney.edu.au/andrew.wait/about",
+            "https://www.sydney.edu.au/AcademicProfiles/profile/resource?type=cv&urlid=andrew.wait"
+          ]
+        },
+        {
+          "field": "current.department",
+          "reason": "Source conflict: biography says School of Economics; the same page’s structured SCHOOL field says School of Education and Social Work. Department remains unassigned until independently reconciled.",
+          "values": [
+            "School of Economics",
+            "School of Education and Social Work"
+          ],
+          "source_urls": [
+            "https://profiles.sydney.edu.au/andrew.wait/about"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "Current profile provides no appointment start dates. Indexed historical CV dates have not been verified against the unreadable PDF, so no dated career segments are asserted.",
+          "source_urls": [
+            "https://profiles.sydney.edu.au/andrew.wait/about",
+            "https://www.sydney.edu.au/AcademicProfiles/profile/resource?type=cv&urlid=andrew.wait"
+          ]
+        },
+        {
+          "field": "current.start_year",
+          "reason": "No verified start date for current Professor or Associate Dean rank.",
+          "source_urls": [
+            "https://profiles.sydney.edu.au/andrew.wait/about"
+          ]
+        }
+      ],
+      "notes": "Separately checked Economics IO profile. Not a member of the school’s Marketing roster and not evidence of a complete Economics faculty census. Current appointment does not establish the first job.",
+      "sources": [
+        {
+          "url": "https://profiles.sydney.edu.au/andrew.wait/about",
+          "label": "University of Sydney official profile",
+          "quote": "PhD, Australian National University",
+          "supports": [
+            "phd.school",
+            "current",
+            "current.role"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://profiles.sydney.edu.au/andrew.wait/about",
+          "label": "University of Sydney research field",
+          "quote": "Industry economics and industrial organisation",
+          "supports": [
+            "fields",
+            "tracks"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://www.sydney.edu.au/AcademicProfiles/profile/resource?type=cv&urlid=andrew.wait",
+          "label": "Official historical CV search-index lead; direct PDF currently unavailable",
+          "quote": null,
+          "supports": [],
+          "checked_at": "2026-10-23",
+          "access_status": "unavailable",
+          "access_attempts": [
+            {
+              "method": "web_reader",
+              "result": "timeout",
+              "checked_at": "2026-10-23"
+            },
+            {
+              "method": "independent_https_request",
+              "result": "HTTP 503 Service Temporarily Unavailable",
+              "checked_at": "2026-10-23"
+            }
+          ],
+          "indexed_lead": {
+            "phd_year": 2002,
+            "program": "PhD Economics",
+            "status": "unverified"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Flavio Menezes",
+      "aliases": [
+        "Flávio Menezes"
+      ],
+      "host_id": "university-of-queensland-marketing",
+      "current": {
+        "institution": "University of Queensland",
+        "region": "AU",
+        "role": "Professor of Economics; Director, Australian Institute for Business and Economics",
+        "start_year": null,
+        "department": "Australian Institute for Business and Economics",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "University of Illinois",
+        "program": "Doctor of Philosophy",
+        "region": "US",
+        "year": null
+      },
+      "tracks": [
+        "io"
+      ],
+      "fields": [
+        "Competition and Regulatory Economics",
+        "Industrial organisation",
+        "Auction theory and market design"
+      ],
+      "homepage": "https://about.uq.edu.au/experts/1741",
+      "cv_url": null,
+      "faculty_type": "research",
+      "faculty_scope": "economics_io_supplement",
+      "career_events": [
+        {
+          "type": "joined_institution",
+          "institution": "University of Queensland",
+          "role": "Joined the University; exact rank at arrival unverified",
+          "start_year": 2006,
+          "end_year": null,
+          "date_precision": "year",
+          "source_urls": [
+            "https://about.uq.edu.au/experts/1741"
+          ],
+          "quote": "Prior to joining UQ in 2006",
+          "checked_at": "2026-10-23",
+          "status": "reported_in_source",
+          "source_snapshot_only": true,
+          "first_job_status": "not_asserted"
+        },
+        {
+          "type": "academic_administration",
+          "institution": "University of Queensland",
+          "role": "Head of the School of Economics",
+          "start_year": 2009,
+          "end_year": 2015,
+          "date_precision": "year",
+          "source_urls": [
+            "https://about.uq.edu.au/experts/1741"
+          ],
+          "quote": "Head of the School of Economics at UQ from 2009 to 2015",
+          "checked_at": "2026-10-23",
+          "status": "historical_interval",
+          "first_job_status": "not_asserted"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "The official qualifications list the Doctor of Philosophy and University of Illinois but do not disclose an award year or campus. No campus or year inferred from employment dates.",
+          "source_urls": [
+            "https://about.uq.edu.au/experts/1741"
+          ]
+        },
+        {
+          "field": "current.start_year",
+          "reason": "Joining UQ in 2006 does not establish when the current Professor rank or directorship began.",
+          "source_urls": [
+            "https://about.uq.edu.au/experts/1741"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "The public biography supplies selected appointments rather than a complete dated CV. Dates for earlier ANU professor roles remain unverified.",
+          "source_urls": [
+            "https://about.uq.edu.au/experts/1741"
+          ]
+        }
+      ],
+      "notes": "Separately checked Economics IO profile. Not a member of the school’s Marketing roster and not evidence of a complete Economics faculty census. Current appointment does not establish the first job.",
+      "sources": [
+        {
+          "url": "https://about.uq.edu.au/experts/1741",
+          "label": "University of Queensland official expert profile",
+          "quote": "Doctor of Philosophy, University of Illinois",
+          "supports": [
+            "phd",
+            "phd.school",
+            "phd.program"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://about.uq.edu.au/experts/1741",
+          "label": "UQ official biography",
+          "quote": "Prior to joining UQ in 2006",
+          "supports": [
+            "career_events"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://about.uq.edu.au/experts/1741",
+          "label": "Official profile current appointment",
+          "quote": "Professor of Economics and Director of the Australian Institute for Business and Economics",
+          "supports": [
+            "current",
+            "current.role"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://about.uq.edu.au/experts/1741",
+          "label": "Official research fields",
+          "quote": "industrial organisation, and market design",
+          "supports": [
+            "fields",
+            "tracks"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        }
+      ]
+    },
+    {
+      "name": "Arghya Ghosh",
+      "aliases": [],
+      "host_id": "university-of-new-south-wales-marketing",
+      "current": {
+        "institution": "University of New South Wales",
+        "region": "AU",
+        "role": "Professor",
+        "start_year": null,
+        "department": "School of Economics",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": null,
+        "program": null,
+        "region": null,
+        "year": null
+      },
+      "tracks": [
+        "io"
+      ],
+      "fields": [
+        "Industrial organization",
+        "International economics"
+      ],
+      "homepage": "https://www.unsw.edu.au/staff/arghya-ghosh",
+      "cv_url": null,
+      "faculty_type": "research",
+      "faculty_scope": "economics_io_supplement",
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "phd.school",
+          "reason": "The readable official staff biography and publication sections do not disclose doctoral institution; no education value inferred from prior papers or coauthors.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/arghya-ghosh"
+          ]
+        },
+        {
+          "field": "phd.year",
+          "reason": "No doctorate award year is disclosed on the readable official profile.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/arghya-ghosh"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "Current official title is verified but no dated appointment or CV was available on the readable staff page. Grant/publication dates are not appointment dates.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/arghya-ghosh"
+          ]
+        },
+        {
+          "field": "current.start_year",
+          "reason": "Current Professor start year not disclosed by the official staff page.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/arghya-ghosh"
+          ]
+        }
+      ],
+      "notes": "Separately checked Economics IO profile. Not a member of the school’s Marketing roster and not evidence of a complete Economics faculty census. Current appointment does not establish the first job.",
+      "sources": [
+        {
+          "url": "https://www.unsw.edu.au/staff/arghya-ghosh",
+          "label": "UNSW official staff page",
+          "quote": "Professor",
+          "supports": [
+            "current",
+            "current.role"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://www.unsw.edu.au/staff/arghya-ghosh",
+          "label": "UNSW official research field",
+          "quote": "Industrial organization",
+          "supports": [
+            "fields",
+            "tracks"
+          ],
+          "checked_at": "2026-10-23",
+          "fetched_at": "2026-10-23",
+          "access_status": "content_read"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Andrew Wait’s structured department conflicts with his biography; degree-year index lead is not confirmed because the official PDF is unavailable.",
+    "Simon Loertscher’s 2024 CV dates are historical snapshots; only his then Senior Lecturer role explicitly confirms tenure.",
+    "No Economics department-wide completeness is claimed."
+  ]
+}

@@ -3649,6 +3649,69 @@
       {
         "label": "official employer profile",
         "url": "https://fob.cityu.edu.mo/en/full-time-academic-staff/1003"
+      },
+      {
+        "url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf",
+        "label": "Official education / CV",
+        "quote": "Nanyang Technological University, Singapore 2026  Ph.D. in Marketing (Quant)",
+        "supports": [
+          "phd.school",
+          "phd.program",
+          "phd.year"
+        ],
+        "checked_at": "2026-10-23",
+        "source_date": "2026-08",
+        "content_sha256": "e57e8f9975b5529c145f665224d7dd5e3f7c699c33afa7906d37c7542e340c7c",
+        "read_scope": "Education, research interests and dated employment sections reviewed in the full extracted PDF text; quotation checked literally. Publication lists were not exhaustively audited.",
+        "page_count": 2,
+        "fetched_at": "2026-10-23",
+        "extraction_scope": "all PDF pages",
+        "source_date_precision": "month"
+      },
+      {
+        "url": "https://fob.cityu.edu.mo/en/full-time-academic-staff/1003",
+        "label": "Official faculty identity and current directory title",
+        "quote": "Lingyu Lin, Assistant Professor",
+        "supports": [
+          "name",
+          "current.role"
+        ],
+        "checked_at": "2026-10-23",
+        "source_date": null,
+        "content_sha256": "a780720c0f24ac8d6198aa214a15ddcc8be0d765e3af4d47df52b76a0017bf4b",
+        "read_scope": "full official profile HTML",
+        "fetched_at": "2026-10-23"
+      },
+      {
+        "url": "https://fob.cityu.edu.mo/en/full-time-academic-staff/1003",
+        "label": "Official research / teaching scope",
+        "quote": "Current ResearchSubstantive: Product Placement, Branding, ESG, AIMethodological: Causal Inference, Machine Learning, Field ExperimentsTeachingConsumer Behaviors",
+        "supports": [
+          "fields",
+          "tracks",
+          "faculty_type"
+        ],
+        "checked_at": "2026-10-23",
+        "source_date": null,
+        "content_sha256": "a780720c0f24ac8d6198aa214a15ddcc8be0d765e3af4d47df52b76a0017bf4b",
+        "read_scope": "full official profile HTML",
+        "fetched_at": "2026-10-23"
+      },
+      {
+        "url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf",
+        "label": "Official dated career fragment",
+        "quote": "Faculty of Business, City University of Macau, Macau  Assistant Professor in Marketing 2026 - Present",
+        "supports": [
+          "career_events.0"
+        ],
+        "checked_at": "2026-10-23",
+        "source_date": "2026-08",
+        "content_sha256": "e57e8f9975b5529c145f665224d7dd5e3f7c699c33afa7906d37c7542e340c7c",
+        "read_scope": "Education, research interests and dated employment sections reviewed in the full extracted PDF text; quotation checked literally. Publication lists were not exhaustively audited.",
+        "page_count": 2,
+        "fetched_at": "2026-10-23",
+        "extraction_scope": "all PDF pages",
+        "source_date_precision": "month"
       }
     ],
     "subsequent": [],
@@ -3657,7 +3720,22 @@
     "source_file": "ca-hk-sg.json",
     "methods_original": [],
     "program_id": "nanyang-technological-university-marketing",
-    "cv_url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf"
+    "cv_url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf",
+    "graduation_year": 2026,
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2026,
+        "status": "confirmed",
+        "source_urls": [
+          "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20260824/1787561745129872.pdf"
+        ],
+        "quote": "Nanyang Technological University, Singapore 2026  Ph.D. in Marketing (Quant)",
+        "checked_at": "2026-10-23",
+        "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+        "batch_id": "faculty-macao-2026-10-23"
+      }
+    ]
   },
   {
     "id": "toronto-lorenzo-cecutti",

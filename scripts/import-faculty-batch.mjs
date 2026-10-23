@@ -13,7 +13,7 @@ const individual=u=>u&&!/\/alumni\/|phd-placements|people-partners|\/faculty\/?$
 const unionSources=(a=[],b=[])=>[...new Map([...a,...b].map(s=>[s.url+'|'+(s.quote||'')+'|'+(s.label||''),s])).values()];
 const hostAliases={penn:'university-of-pennsylvania-marketing',kellogg:'northwestern-university-marketing'};
 const normalizeHost=h=>hostAliases[h]||h;
-const regionAliases={'United States':'US','United States of America':'US',Canada:'CA','Hong Kong':'HK',Singapore:'SG',China:'CN','United Kingdom':'UK',GB:'UK',France:'FR',Germany:'DE',Netherlands:'NL',Australia:'AU',Italy:'IT',Spain:'ES',Belgium:'BE',Switzerland:'CH',Ireland:'IE',India:'IN',Israel:'IL',Turkey:'TR',Taiwan:'TW','South Korea':'KR'};
+const regionAliases={'United States':'US','United States of America':'US',Canada:'CA','Hong Kong':'HK',Singapore:'SG',China:'CN','United Kingdom':'UK',GB:'UK',France:'FR',Germany:'DE',Netherlands:'NL',Australia:'AU',Macao:'MO',Macau:'MO','Macao SAR':'MO','Macao SAR, China':'MO',Italy:'IT',Spain:'ES',Belgium:'BE',Switzerland:'CH',Ireland:'IE',India:'IN',Israel:'IL',Turkey:'TR',Taiwan:'TW','South Korea':'KR'};
 const normalizeRegion=r=>regionAliases[r]||r||null;
 export function applyFacultyBatch(original,originalRecords,batch,programs=[],identities=[]){
  batch={...batch,id:batch.id||batch.batch_id,schools:batch.schools??[]};

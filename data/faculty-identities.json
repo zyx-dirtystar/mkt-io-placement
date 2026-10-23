@@ -240,5 +240,19 @@
       ],
       "checked_at": "2026-10-22"
     }
+  },
+  {
+    "name": "Qi Zhao",
+    "host_id": "university-of-new-south-wales-marketing",
+    "placement_id": "pennsylvania-state-university-qi-zhao",
+    "identity_evidence": {
+      "basis": "manual_cross_source_reconciliation",
+      "reason": "Read both official sources: Penn State Marketing placements names Qi Zhao in 2025 and UNSW Sydney as destination; UNSW current individual profile identifies a Lecturer in Marketing with the same Penn State dual-title Quantitative Marketing/Operations Research PhD in 2025. Institution, field, award year and receiving institution agree; this is not a name-only merge. Current title and missing start date do not overwrite the original placement fields.",
+      "source_urls": [
+        "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+        "https://www.unsw.edu.au/staff/qi-zhao"
+      ],
+      "checked_at": "2026-10-23"
+    }
   }
 ]

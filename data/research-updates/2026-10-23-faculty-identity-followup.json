@@ -1,0 +1,157 @@
+{
+  "id": "faculty-macao-au-identity-followup-2026-10-23",
+  "checked_at": "2026-10-23",
+  "schools": [],
+  "people": [
+    {
+      "name": "Qi Zhao",
+      "aliases": [],
+      "host_id": "university-of-new-south-wales-marketing",
+      "faculty_type": "research",
+      "membership_type": "research",
+      "eligibility": {
+        "research_roster": true,
+        "basis": "Official Marketing directory, excluding explicitly designated education-focused, practice, visiting and emeritus roles.",
+        "source_url": "https://www.unsw.edu.au/business/our-schools/marketing/our-research"
+      },
+      "current": {
+        "institution": "University of New South Wales",
+        "department": "Marketing",
+        "region": "AU",
+        "role": "Lecturer",
+        "start_year": null,
+        "tenure_status": "unknown",
+        "tenure_evidence_status": "unknown",
+        "directory_membership": "official_marketing_directory_entry",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Pennsylvania State University",
+        "program": "Business Administration (Quantitative Marketing) and Operations Research",
+        "region": "US",
+        "year": 2025,
+        "degree": "Ph.D.",
+        "year_basis": "biographical_awarded_degree_year",
+        "verification_status": "official_profile",
+        "program_id": "pennsylvania-state-university-marketing"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [
+        "Emerging technologies: Generative AI and extended reality (XR)",
+        "Marketing effectiveness and social inclusion",
+        "Novel Bayesian methodologies, competitive strategy and causal inference"
+      ],
+      "homepage": "https://www.unsw.edu.au/staff/qi-zhao",
+      "cv_url": null,
+      "sources": [
+        {
+          "url": "https://www.unsw.edu.au/business/our-schools/marketing/our-research",
+          "label": "Official Marketing directory",
+          "quote": "Qi Zhao",
+          "supports": [
+            "current.institution",
+            "current.department",
+            "current.directory_membership"
+          ],
+          "checked_at": "2026-10-23",
+          "locator": null,
+          "confirmation_status": "confirmed"
+        },
+        {
+          "url": "https://www.unsw.edu.au/staff/qi-zhao",
+          "label": "Official faculty profile",
+          "quote": "Dr Qi Zhao Lecturer School of Marketing",
+          "supports": [
+            "name",
+            "current.role",
+            "current.department"
+          ],
+          "checked_at": "2026-10-23",
+          "locator": "Profile heading / qualifications",
+          "confirmation_status": "confirmed"
+        },
+        {
+          "url": "https://www.unsw.edu.au/staff/qi-zhao",
+          "label": "Official faculty profile",
+          "quote": "I earned my dual-title Ph.D. in Business Administration (Quantitative Marketing) and Operations Research from The Pennsylvania State University in 2025.",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.degree",
+            "phd.year"
+          ],
+          "checked_at": "2026-10-23",
+          "locator": "Biography / Education / Academic qualification",
+          "confirmation_status": "confirmed"
+        },
+        {
+          "url": "https://www.unsw.edu.au/staff/qi-zhao",
+          "label": "Root integration review: explicitly stated research",
+          "quote": "My recent research explores how emerging technologies, such as Generative AI and extended reality (XR), can enhance marketing effectiveness and promote social inclusion. As an empirical modeler, I also develop novel Bayesian methodologies to inform competitive strategy and improve causal inference by addressing endogeneity bias.",
+          "supports": [
+            "fields"
+          ],
+          "checked_at": "2026-10-23",
+          "read_scope": "Current official profile biography read in full; original research wording retained without forcing a track label."
+        }
+      ],
+      "career_events": [],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "Current official directory/profile confirms appointment but does not date the current rank; any separate joining statement is retained as a career fragment.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/qi-zhao"
+          ]
+        },
+        {
+          "field": "current.tenure_status",
+          "reason": "Official title alone does not establish contractual tenure status. No explicit tenure evidence found.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/qi-zhao"
+          ]
+        },
+        {
+          "field": "career_events",
+          "reason": "The biography/credentials passages read do not provide dated appointments; no career sequence inferred from current title.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/qi-zhao"
+          ]
+        },
+        {
+          "field": "cv_url",
+          "reason": "No current CV contents were read for this person in this pass; official profile and available credentials are the sources used.",
+          "source_urls": [
+            "https://www.unsw.edu.au/staff/qi-zhao"
+          ]
+        }
+      ],
+      "checked_at": "2026-10-23",
+      "career_sequence_complete": false,
+      "profile_read": {
+        "url": "https://www.unsw.edu.au/staff/qi-zhao",
+        "final_url": "https://www.unsw.edu.au/staff/qi-zhao",
+        "http_status": 200,
+        "sha256": "f643ff1cc3795a0fe5d4486ca94baf99bdb908f32c10136e815d94ffb90d7db1",
+        "hash_type": "sha256_source_bytes",
+        "read_scope": "Official profile biography, qualifications and appointment sections; publication dates are not appointment or degree dates.",
+        "checked_at": "2026-10-23"
+      },
+      "id": "pennsylvania-state-university-qi-zhao",
+      "placement_id": "pennsylvania-state-university-qi-zhao",
+      "identity_evidence": {
+        "basis": "manual_cross_source_reconciliation",
+        "reason": "Read both official sources: Penn State Marketing placements names Qi Zhao in 2025 and UNSW Sydney as destination; UNSW current individual profile identifies a Lecturer in Marketing with the same Penn State dual-title Quantitative Marketing/Operations Research PhD in 2025. Institution, field, award year and receiving institution agree; this is not a name-only merge. Current title and missing start date do not overwrite the original placement fields.",
+        "source_urls": [
+          "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "https://www.unsw.edu.au/staff/qi-zhao"
+        ],
+        "checked_at": "2026-10-23"
+      },
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "existing_faculty_id": "pennsylvania-state-university-qi-zhao"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "version": "1.0.4 · 六校名单复核与学位职业证据补查",
-  "updated_at": "2026-10-22",
-  "observation_as_of": "2026-10-22",
+  "version": "1.1.1 · Macao and Australian faculty extension",
+  "updated_at": "2026-10-23",
+  "observation_as_of": "2026-10-23",
   "current_cycle": "2026-2027",
   "history_years": [
     2023,
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "复核北美余下六校名单冲突，以官方CV、历史目录、博士毕业名录及独立院校来源补充学位年份与职业片段。原有1111人前后变化与新增档案分别计算；访问、博后、企业及教学职务独立保留，授位冲突和访问限制不填推定值。"
+  "change_note": "Added a separately versioned receiving-side faculty scope for three Macao universities and Australia’s eight Go8 members. Official Marketing rosters and supplementary Economics IO profiles retain PhD evidence, career segments, source conflicts and unknown reasons. Original placement cohorts and dated release reports are preserved."
 }

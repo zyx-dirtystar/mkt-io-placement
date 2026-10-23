@@ -1,0 +1,178 @@
+{
+  "id": "faculty-macao-au-go8-2026-10-23",
+  "version": "1.0",
+  "selected_at": "2026-10-23",
+  "purpose": "Receiving-side Marketing faculty research; extend geography independently of the fixed 58-program doctoral placement scope.",
+  "selection_rule": "Australia: all eight current Group of Eight members, verified from the Go8 official member board. Macao: University of Macau, Macau University of Science and Technology and City University of Macau, selected for their official business/Marketing academic units. The Macao selection is an explicit first research scope, not an asserted ranking of universities or employment outcomes.",
+  "person_rule": "Start with each official current Marketing roster. For combined Management and Marketing/Business directories, verify Marketing affiliation or substantive research individually and retain exclusions. Research, teaching, practice, visiting, emeritus and honorary roles remain separate. Separately identified Economics IO profiles may be retained with explicit IO evidence, including Economics departments; these are additional discovery samples, not part of Marketing roster completeness or a census of Economics departments.",
+  "completeness_rule": "Directory reconciliation concerns only the stated unit, appointment category and source snapshot. It does not establish complete doctoral cohorts or complete career histories. A partly inaccessible or ambiguous directory remains partial even when several faculty profiles can be verified.",
+  "sources": [
+    {
+      "url": "https://go8.edu.au/about",
+      "label": "Go8 official description and board of the eight member universities",
+      "quote": "The Group of Eight (Go8) is Australia’s peak body for research-intensive universities.",
+      "checked_at": "2026-10-23",
+      "supports": [
+        "selection_rule",
+        "schools.AU"
+      ]
+    },
+    {
+      "url": "https://adelaide.edu.au/about/",
+      "label": "Adelaide University official institutional identity and Go8 membership",
+      "checked_at": "2026-10-23",
+      "supports": [
+        "schools.adelaide-university-marketing"
+      ]
+    },
+    {
+      "url": "https://fba.um.edu.mo/mmi/",
+      "label": "University of Macau Management and Marketing department",
+      "checked_at": "2026-10-23",
+      "supports": [
+        "schools.university-of-macau-marketing"
+      ]
+    },
+    {
+      "url": "https://www.must.edu.mo/en/admission/undergraduate/programs",
+      "label": "MUST official Business Administration specializations including Marketing",
+      "checked_at": "2026-10-23",
+      "supports": [
+        "schools.macau-university-of-science-and-technology-marketing"
+      ]
+    },
+    {
+      "url": "https://fob.cityu.edu.mo/en/full-time-academic-staff",
+      "label": "City University of Macau official Business faculty directory",
+      "checked_at": "2026-10-23",
+      "supports": [
+        "schools.city-university-of-macau-marketing"
+      ]
+    }
+  ],
+  "schools": [
+    {
+      "id": "university-of-macau-marketing",
+      "school": "University of Macau",
+      "label": "澳門大學",
+      "region": "MO",
+      "group": "macao-business-2026",
+      "aliases": [
+        "Universidade de Macau",
+        "澳門大學",
+        "澳门大学"
+      ]
+    },
+    {
+      "id": "macau-university-of-science-and-technology-marketing",
+      "school": "Macau University of Science and Technology",
+      "label": "澳門科技大學",
+      "region": "MO",
+      "group": "macao-business-2026",
+      "aliases": [
+        "MUST",
+        "澳門科技大學",
+        "澳门科技大学"
+      ]
+    },
+    {
+      "id": "city-university-of-macau-marketing",
+      "school": "City University of Macau",
+      "label": "澳門城市大學",
+      "region": "MO",
+      "group": "macao-business-2026",
+      "aliases": [
+        "CityU Macau",
+        "澳門城市大學",
+        "澳门城市大学"
+      ]
+    },
+    {
+      "id": "australian-national-university-marketing",
+      "school": "Australian National University",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "ANU",
+        "The Australian National University",
+        "澳大利亚国立大学"
+      ]
+    },
+    {
+      "id": "university-of-melbourne-marketing",
+      "school": "University of Melbourne",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "The University of Melbourne",
+        "墨尔本大学"
+      ]
+    },
+    {
+      "id": "monash-university-marketing",
+      "school": "Monash University",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "莫纳什大学"
+      ]
+    },
+    {
+      "id": "university-of-new-south-wales-marketing",
+      "school": "University of New South Wales",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "UNSW Sydney",
+        "UNSW",
+        "新南威尔士大学"
+      ]
+    },
+    {
+      "id": "university-of-queensland-marketing",
+      "school": "University of Queensland",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "The University of Queensland",
+        "UQ",
+        "昆士兰大学"
+      ]
+    },
+    {
+      "id": "university-of-sydney-marketing",
+      "school": "University of Sydney",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "The University of Sydney",
+        "悉尼大学"
+      ]
+    },
+    {
+      "id": "university-of-western-australia-marketing",
+      "school": "University of Western Australia",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "The University of Western Australia",
+        "UWA",
+        "西澳大学"
+      ]
+    },
+    {
+      "id": "adelaide-university-marketing",
+      "school": "Adelaide University",
+      "region": "AU",
+      "group": "go8-2026",
+      "aliases": [
+        "阿德莱德大学（2026新校）"
+      ],
+      "predecessors": [
+        "University of Adelaide",
+        "University of South Australia"
+      ],
+      "notes": "Use the new university’s current directory. Predecessor appointments remain separate historical events; old directories do not establish current membership."
+    }
+  ]
+}

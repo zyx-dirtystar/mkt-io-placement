@@ -2,7 +2,7 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-界面版本 1.1.0（2026-10-23 英文信息架构改版）；数据版本 1.0.4，观察截至 2026-10-22。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
+网站版本 1.1.1；本轮数据核验截至 2026-10-23。本轮增加澳门三校与澳大利亚 Go8 八校的接收端教师档案。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
 
 ## 网站功能
 
@@ -15,7 +15,7 @@
 - 公开招聘公告筛选及去重，招聘人数未公布时为未知，过期与当前岗位分开。
 - 数据质量、历史基线变化、来源新鲜度、冲突与待核验队列。
 - URL 保存筛选、个人固定链接、CSV / JSON 导出，导出保留口径和证据引用。
-- 教师反查默认进入 People：四项主筛选、高级筛选与20人分页；School coverage 单独呈现五地区逐校状态、核验详情和具体缺口。既有进度 URL、人员固定链接及导出保持兼容。
+- 教师反查默认进入 People：四项主筛选、高级筛选与20人分页；School coverage 单独呈现七地区逐校状态、核验详情和具体缺口。既有进度 URL、人员固定链接及导出保持兼容。
 
 英文界面使用说明及改版验证见 [UI guide](docs/UI_GUIDE.md)。原始来源标题、引文、研究者自述与核验备注保留原文，不改变证据日期。
 
@@ -36,6 +36,14 @@ node server.mjs
 打开 http://127.0.0.1:4173 。`dist/` 是发布目录，`data/` 是权威维护输入。新增的统一观察库、质量报告和发布报告 JSON 在本地及 CI 构建时生成，不重复提交生成文件。不要直接修改生成的 `dist/data/`；不要重跑首版 `prepare-data.mjs` 覆盖后续研究。
 
 新增模型与维护命令、批次格式见 [维护指南](docs/MAINTENANCE.md)；本轮实际研究及限制见 [研究记录](docs/RESEARCH-2026-10-22.md)。早期研究批次和年度指南保留供追溯；其中日期标注的统计属于历史快照。
+
+## 澳门与澳大利亚教师扩展
+
+澳门选择澳门大学、澳门科技大学、澳门城市大学；澳大利亚采用 2026 年 Go8 八校名单，包括新的 Adelaide University。选校与纳入规则先于个人结果记录，见 [范围快照](data/faculty-scope-macao-australia-2026-10-23.json)。这是接收端扩展，原有 58 个 Marketing 培养项目与 placement 分母保持原范围。
+
+[澳门教师](https://zyx-dirtystar.github.io/mkt-io-placement/#faculty?faculty_region=MO) · [澳大利亚教师](https://zyx-dirtystar.github.io/mkt-io-placement/#faculty?faculty_region=AU) · [新增学校核验状态](https://zyx-dirtystar.github.io/mkt-io-placement/#faculty?faculty_view=progress&faculty_schoolRegion=expanded) · [实际人数、证据与逐校缺口](docs/FACULTY-MACAO-AUSTRALIA-2026-10-23.md)。研究序列、教学、荣休和关联研究分别保存。额外核验的 Economics IO 教师单列，不冒充整个经济系 IO 普查。
+
+本轮实际新增 244 人（澳门 42、澳洲 202），博士年份已确认 87 人、未知 157 人；76 人有 248 条带日期履历片段。6 校在声明范围内对齐目录，5 校保留部分核验。全部人数由审计脚本计算。
 
 ## 数据与证据
 
