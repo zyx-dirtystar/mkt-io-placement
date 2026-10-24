@@ -7,6 +7,8 @@ const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
 test('follow-up changes use the fixed 1111-person denominator and count newly exposed conflicts',()=>{
  const c=read('dist/data/catalog.json'),b=read('data/faculty-baseline-followup-2026-10-22.json');
  const r=facultyFollowupReport(c.faculty,b,c.scope,c);
+ // Filter the computed observation, while the dated published snapshot stays immutable.
+ c.faculty_followup_update=r;
  assert.equal(r.baseline.people,1111);assert.equal(r.baseline.degree_year_unknown,340);assert.equal(r.baseline.dated_career_missing,577);
  assert.equal(r.existing.missing_ids.length,0);assert.equal(r.existing.people,1111);
  assert.equal(r.existing.degree_year_unknown,340-r.existing.degree_years_added+r.existing.degree_years_withdrawn);

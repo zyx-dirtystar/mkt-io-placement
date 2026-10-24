@@ -16,5 +16,293 @@
     "checked_at": "2026-10-22T07:16:26.236Z",
     "reason": "HTTP 403",
     "change": null
+  },
+  {
+    "id": "source-5921ec37e972",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://exchange.akadeus.com/announcement/9936",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "fetch failed",
+    "change": null
+  },
+  {
+    "id": "source-543e7917c044",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "http://english.gsm.pku.edu.cn/faculty/en/xingli.html",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 404",
+    "change": null
+  },
+  {
+    "id": "source-d60d06b99a20",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://academics.business.columbia.edu/faculty/people/asim-ansari",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-6d5cca712444",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://academics.business.columbia.edu/directory/departments/marketing",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-8a98f7810f53",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "fetch failed",
+    "change": null
+  },
+  {
+    "id": "source-efb7f2b369a8",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://biz.skku.edu/gsb/Faculty_Research/GSB_Faculty.do?mode=download&sqProfessor=&sqProfessorAttach=3212",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "fetch failed",
+    "change": null
+  },
+  {
+    "id": "source-dd75dd2bd46b",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/directory/departments/marketing",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-ffc38c69a5ec",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/divisions/marketing/faculty",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-71dc53c0edda",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://bus.sysu.edu.cn/en/bus-faculty",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-4d1a2ae9c832",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-c9e376028c0e",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/andrey-simonov",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-dfd9734ff5e9",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/asim-ansari",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-6148aa634e70",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/bernd-schmitt",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-ffa5848d96fa",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/dante-donati",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-4e5494328395",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/elizabeth-friedman",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-4849dbd49c82",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/eric-johnson",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-a082aee1a134",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/george-zhida-gui",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-7ed677dbe5da",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://bschool-en.huji.ac.il/people/maayan-malter/",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "fetch failed",
+    "change": null
+  },
+  {
+    "id": "source-f0b8c7b16730",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/gita-johar",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-844cc4278f8e",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/kamel-jedidi",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-bb4d13beebf1",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/hortense-fong",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-446e2462184c",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/kinshuk-jerath",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-3adf0781e57d",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/melanie-brucks",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-dfb024f1be84",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/michel-tuan-pham",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-427c1893007f",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/miklos-sarvary",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-177671505549",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/mohamed-hussein",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-e1dbd0950a64",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/oded-netzer",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-99cc890d7080",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/olivier-toubia",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-ca57b7417023",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/rajeev-kohli",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-cf1cac206476",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/ran-kivetz",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-bfd8cf391a0c",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/silvia-bellezza",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
+  },
+  {
+    "id": "source-fa42c4195c4d",
+    "kind": "source_unavailable",
+    "status": "pending",
+    "source_url": "https://business.columbia.edu/faculty/people/vicki-morwitz",
+    "checked_at": "2026-10-23T16:53:19.556Z",
+    "reason": "HTTP 403",
+    "change": null
   }
 ]

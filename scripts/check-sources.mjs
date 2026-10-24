@@ -15,7 +15,11 @@ export function discoverSources(root){
     else if(x&&typeof x==='object')for(const [k,v] of Object.entries(x))if(k!=='notes'&&k!=='evidence'&&k!=='quote')walk(v,x.id||context);
   }
   for(const name of ['data/records.json','data/programs.json','data/faculty.json','data/jobs.json','data/io-scope.json','data/coverage.json'])walk(read(root,name,[]),name);
-  return [...found.values()];
+  const jobs=read(root,'data/jobs.json',[]);const jobUrls=new Set();function collect(x){if(typeof x==='string'&&/^https?:/.test(x))jobUrls.add(x);else if(Array.isArray(x))x.forEach(collect);else if(x&&typeof x==='object')Object.values(x).forEach(collect)}collect(jobs);return [...found.values()].map(s=>({...s,tier:jobUrls.has(s.url)?'hiring':/job.market|candidates|placement|faculty|people|directory/i.test(s.url)?'directory':'historical'}));
+}
+export function selectDueSources(discovered,previous,now,limit){
+ const prior=new Map(previous.map(s=>[s.url,s]));const days={hiring:2,directory:14,historical:45};
+ return discovered.map(s=>{const p=prior.get(s.url),interval=days[s.tier]||45,age=p?.fetched_at?(Date.parse(now)-Date.parse(p.fetched_at))/86400000:Infinity;return {...s,due_score:age/interval,review_interval_days:interval}}).filter(s=>s.due_score>=1).sort((a,b)=>b.due_score-a.due_score||({hiring:0,directory:1,historical:2}[a.tier]??2)-({hiring:0,directory:1,historical:2}[b.tier]??2)||a.url.localeCompare(b.url)).slice(0,limit);
 }
 function textOf(bytes,type,snapshotPath){
   if(type.includes('pdf')||bytes.subarray(0,4).toString()==='%PDF'){
@@ -31,7 +35,7 @@ export async function checkSources({root=process.cwd(),limit=40,concurrency=3,ti
   const previous=read(root,'data/maintenance-sources.json',{sources:[]});
   const old=new Map((previous.sources||[]).map(s=>[s.url,s]));
   const discovered=onlyUrls?onlyUrls.map(url=>({url,contexts:['manual']})):discoverSources(root);
-  const selected=discovered.sort((a,b)=>(old.get(a.url)?.fetched_at||'').localeCompare(old.get(b.url)?.fetched_at||'')||a.url.localeCompare(b.url)).slice(0,limit);
+  const selected=onlyUrls?discovered.slice(0,limit):selectDueSources(discovered,previous.sources||[],now,limit);
   let cursor=0;const outcomes=[];
   async function worker(){
     while(cursor<selected.length){

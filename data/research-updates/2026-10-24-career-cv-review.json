@@ -1,0 +1,195 @@
+{
+  "checked_at": "2026-10-24",
+  "selection": "Existing profiles missing a dated title-bearing career segment and having a registered CV URL; targeted readable sources, not a census of all missing histories.",
+  "reviews": [
+    {
+      "id": "yale-zikun-liu",
+      "name": "Zikun Liu",
+      "url": "https://www.dropbox.com/scl/fi/5vp532zcc8pdjw1u2s7mx/Zikun_CV_CUHK.pdf?dl=1&rlkey=sa4k8a58vdh2yjuqftytz15pj&st=7lo9lx1c",
+      "checked_at": "2026-10-24",
+      "sha256": "77f9f98eb809a19a6b2746afa3e603bca9b44793a432e955cb4beee4463cb65f",
+      "status": "insufficient_dated_role_evidence",
+      "reason": "CV lists current role without a dated appointment. Teaching term is not independently an employment start date."
+    },
+    {
+      "id": "arizona-state-university-ziwei-wei",
+      "name": "Zi Wei Wei",
+      "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/wei_ziwei/wei-ziwei_cv.pdf?rev=5bf75a2013054b76a505a904bd9d900d&hash=D6CAD5C46DD6315EDEF61F244F549408",
+      "checked_at": "2026-10-24",
+      "sha256": "440835a0dba3eb05128d545c199fb7ec508f2cbdbdfa2980440b32f255c1f3dd",
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Employment line says July-Present without year. CV header and PhD year cannot supply the missing appointment year."
+    },
+    {
+      "id": "faculty-city-university-of-hong-kong-yiminyu",
+      "name": "Yimin Yu",
+      "url": "https://www.cb.cityu.edu.hk/portfolio/getCV.cfm?filename=174007.pdf&eid=yiminyu&checksum=E3FA057F95F1402E53B97A48703BDF47",
+      "checked_at": "2026-10-24",
+      "sha256": "542e9cb380f1ba0f63f239972f4c8ddd8133d32877f733f3138959b04941942b",
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Three-page CV lists education, publications and supervised students but no dated personal employment sequence. Student careers are not the faculty member’s careers."
+    },
+    {
+      "id": "faculty-northwestern-university-chethanaachar",
+      "name": "Chethana Achar",
+      "url": "https://faculty.kellogg.northwestern.edu/fac_cv_download.php?fac_id=12820",
+      "checked_at": "2026-10-24",
+      "sha256": null,
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Official CV endpoint returned access-required HTML rather than readable PDF."
+    },
+    {
+      "id": "faculty-university-of-washington-shirshobiswas",
+      "name": "Shirsho Biswas",
+      "url": "https://foster.uw.edu/wp-content/uploads/2020/09/Biswas_CV.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "e3ea92061c928367c138bc7af2bb71fe1353b5e3a72ff7421825360bd37d24b1",
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Two bank experiences have dates but no role; retained as leads, not counted as dated title-bearing appointments."
+    },
+    {
+      "id": "faculty-texas-a-m-university-aprajitagautam",
+      "name": "Aprajita Gautam",
+      "url": "https://mays.tamu.edu/wp-content/uploads/2026/07/CV_Aprajita_Gautham_072026.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "256da24ce52b2f0b5d84c7233e3d6a2d961381b0066cef87fd5ec972935d1cac",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-adamalter",
+      "name": "Adam Alter",
+      "url": "https://w4.stern.nyu.edu/faculty/static/cv/cv_aalter_20170718.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "7046a1d997ecb901612fb0ae3bf5f92632972a8bc46e40f519b6749c2ca5e763",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-evaascarza",
+      "name": "Eva Ascarza",
+      "url": "http://evaascarza.com/ascarza_cv_web.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "c33fc776be482ac6ccd8af6194b5fdb78a7b31d535a96d1722ae4169ec210342",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-andreabonezzi",
+      "name": "Andrea Bonezzi",
+      "url": "https://www.dropbox.com/scl/fi/zxtbia7m5zfgsphg5i641/Andrea_Bonezzi_CV_NYU_2026_04_01.pdf?rlkey=k9bjjbh43hvdy6h8uu4tvw0s0&st=f4onda11&dl=1",
+      "checked_at": "2026-10-24",
+      "sha256": "905707bdf3799fd7c35114f19e4905e66a189e09efaf6c737a0d486cd024cbf6",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-masakazuishihara",
+      "name": "Masakazu Ishihara",
+      "url": "http://people.stern.nyu.edu/mishihar/CV_Ishihara_Sep26.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "bcd4d7369448a530f44f9edeb7a290a27fca60aa2f36c668f102554ea9afeb18",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-xiaoliu",
+      "name": "Xiao Liu",
+      "url": "https://www.dropbox.com/scl/fi/udcr7l3syvhzdanfm58ml/CV_XiaoLiu_v120.pdf?rlkey=0fdb5c1duw1lgur5pb303wmjb&st=p99mq5gq&dl=1",
+      "checked_at": "2026-10-24",
+      "sha256": "05d8ecf9d2f2f7c7fe9df149f059c51739cbafebf04726d74d84eafade35f6ce",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-durairajmaheswaran",
+      "name": "Durairaj Maheswaran",
+      "url": "https://w4.stern.nyu.edu/faculty/static/cv/cv_dm3_20220928.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "6773b189b7103ce660641cbfb7a90c69b7ade56f99275d0571a44e4ae8231ee9",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-priyaraghubir",
+      "name": "Priya Raghubir",
+      "url": "https://w4.stern.nyu.edu/faculty/static/cv/cv_pr2002_20221003.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "3e8bce6616bbc6ae5cfc574563e4a7445316e8d65bf4020ac22327bec84811cf",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-talyreich",
+      "name": "Taly Reich",
+      "url": "https://www.dropbox.com/scl/fi/bjq5yfw2c2d20ux0z8wkr/Reich_Taly_CV_09_2026.pdf?rlkey=881n52hql48ku81a68uwbyvo8&st=0yn8b9ul&dl=1",
+      "checked_at": "2026-10-24",
+      "sha256": "f8a4524e1fd69c2ad28fcdd055b913518ca0e83f424f48c4832462a904bafd20",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-new-york-university-jaredwatson",
+      "name": "Jared Watson",
+      "url": "https://www.dropbox.com/scl/fi/cmpyxrsg8k2ap2kd6ntt4/watson_CV-August-2026.pdf?rlkey=de99vxwxjl9pse12dr0ngdell&e=1&dl=1",
+      "checked_at": "2026-10-24",
+      "sha256": "d0e0d233faa84521adf72be20a3e0ee909461dc8509db7ebfb9a2969aed66f9d",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-university-of-michigan-aradhnakrishna",
+      "name": "Aradhna Krishna",
+      "url": "https://www.bus.umich.edu/FacultyBios/CV/aradhna.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "2adcb77b5d6fdacecc482608d329b008d0b47076776407b628a8f278ab50402b",
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Full 37-page CV does not date the primary professorship. Lab directorship, service and conference dates do not establish the academic job sequence."
+    },
+    {
+      "id": "faculty-boston-university-jonathanhibbard",
+      "name": "Jonathan Hibbard",
+      "url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "ae838916dd4ed614b0eb255eb180cd0f3d6761dfab3d326faf295cb67971c95b",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-arizona-state-university-martinmende",
+      "name": "Martin Mende",
+      "url": "https://search.asu.edu/profile/601803/cv",
+      "checked_at": "2026-10-24",
+      "sha256": "ab5919c6530a73d619a938e9e5fc2cdb6a5c0adb6ec04848c5dbc9da08c2c542",
+      "status": "dated_appointments_verified",
+      "reason": "Official or officially linked CV: imported only explicit dated appointments; full source, excerpt and date precision attached in the reviewed batch."
+    },
+    {
+      "id": "faculty-university-of-sydney-andrewwait",
+      "name": "Andrew Wait",
+      "url": "https://www.sydney.edu.au/AcademicProfiles/profile/resource?type=cv&urlid=andrew.wait",
+      "checked_at": "2026-10-24",
+      "sha256": null,
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Official CV download returned HTTP 503; no existing facts deleted."
+    },
+    {
+      "id": "faculty-city-university-of-macau-ruiliu",
+      "name": "Rui Liu",
+      "url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20250825/1756095179454393.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "5bc047df28727def2671599e6e31ee26b7533ec113c9668316e43f11e4b975de",
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Two-page institutional CV provides education and research but no dated appointment history."
+    },
+    {
+      "id": "faculty-city-university-of-macau-yili",
+      "name": "Yi Li",
+      "url": "https://fob.cityu.edu.mo/en/uploads/ueditor/file/20250813/1755053088590299.pdf",
+      "checked_at": "2026-10-24",
+      "sha256": "1d95151d027a61a3e2f6afd9f100843ac590bd2c4ce6889b8f4222655d40c732",
+      "status": "insufficient_dated_role_evidence",
+      "reason": "Two-page CV gives education and project participation; student projects do not establish faculty employment."
+    }
+  ]
+}

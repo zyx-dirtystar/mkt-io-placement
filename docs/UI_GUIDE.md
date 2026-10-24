@@ -41,3 +41,7 @@ All existing data and logic checks run unchanged in substance. CSV assertions no
 ## Added receiving regions
 
 Choose Macao or Australia under Appointment region. School coverage now has seven geographic cards and 78 targets: the original 67 plus three Macao and eight Go8 institutions. The legacy “overseas” filter retains its original 58-school definition; “Macao & Australia” isolates the new 11. Chinese school aliases and standard abbreviations work in search. Selection rules, appointment groups, named exclusions, inaccessible sources and unresolved field conflicts are available in school and person details. Economics IO supplements are labelled separately from Marketing rosters. A reconciled scoped directory still does not establish complete biographies or a doctoral cohort. CSV/JSON exports retain school IDs, scope versions and field provenance.
+
+## Faculty depth release · 1.2.0
+
+People opens a compact table (20 per page); Card view remains available. Open a name to fetch the full original evidence. Open a receiving-school name for its own school page; the URL preserves the school. School pages show roster scope, individual biography coverage, research labels, doctoral origins, placement and hiring links. Directory reconciliation and complete careers are independent. Exports fetch full evidence before downloading and offer retry on failure. Unicode profile IDs and existing person links remain compatible.

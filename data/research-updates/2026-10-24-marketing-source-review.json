@@ -1,0 +1,908 @@
+{
+  "id": "marketing-source-discovery-2026-10-24",
+  "checked_at": "2026-10-24",
+  "scope": "Fixed58 Marketing projects, up to two existing source URLs per program. Retrieval is not current-season roster verification.",
+  "programs": [
+    {
+      "program_id": "university-of-british-columbia-marketing",
+      "school": "University of British Columbia",
+      "attempts": [
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-toronto-marketing",
+      "school": "University of Toronto",
+      "attempts": [
+        {
+          "url": "https://rotman.utoronto.ca/programs/phd-program/our-placements/",
+          "status": "unavailable",
+          "reason": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        }
+      ]
+    },
+    {
+      "program_id": "western-university-marketing",
+      "school": "Western University",
+      "attempts": [
+        {
+          "url": "https://www.ivey.uwo.ca/phd/alumni/",
+          "final_url": "https://www.ivey.uwo.ca/phd/alumni/",
+          "sha256": "1b7de0f85d371066df6bf618c101b834d7c8794e89d43f89be3edaeb1bd32116",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "﻿ Alumni | Ivey's PhD Program Skip to Main Content IVEY.CA Ivey.ca | Programs Programs Overview HBA MSc in Management Full-Time MBA Accelerated MBA Accelerated MBA for HBAs Executive MBA Master of Management in Analytics Executive Education Ivey Online PhD Pre-Ivey Experiences Ivey Asia - Executive Education Lifelong Learning | Faculty & Research F",
+          "cycle_excerpts": [
+            "ehaviour Strategy Sustainability Students Student Life at Ivey Meet our Students Student Spotlights Job Market Candidates Events Events Events Archive Alumni Faculty Get Started Get Started Profile Assessment Contact Us Apply Now FAQ Our Alumni Our Alumni At Ivey, we prepare our doctoral students for success, helping them reach their full potential and secure positions at leading universities worldwide. Our graduates have gone on to hold positions at a range of prestigious institutions, including: ESSEC Business School Hong Kong University Business School IE Unive"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "york-university-marketing",
+      "school": "York University",
+      "attempts": [
+        {
+          "url": "https://schulich.yorku.ca/specializations/marketing-phd/",
+          "final_url": "https://schulich.yorku.ca/specializations/marketing-phd/",
+          "sha256": "9f9d22b5568e344f39914c82b3ea572526afbf148601aa5db1ce2a3f1c862bf4",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing - Schulich School of Business Schulich logo The word Schulich Schulich Wordmark The word Schulich with the words Leading Change Schulich Logo The Schulich logo Schulich 50th Logo The number 50 Search An icon depicting a magnifying glass Envelope An icon depicting an envelope Phone An icon depicting a phone Fax An icon depicting a fax mach",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "chinese-university-of-hong-kong-marketing",
+      "school": "Chinese University of Hong Kong",
+      "attempts": [
+        {
+          "url": "https://grad.bschool.cuhk.edu.hk/programmes/marketing/",
+          "final_url": "https://grad.bschool.cuhk.edu.hk/programmes/marketing/",
+          "sha256": "043b34313e8a72ded8320424c3b176f662fcfdf07bfbf85880bef7fa8a687236",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing – MPhil-PhD Menu Our Students Contact Us Apply Now About MPhil-PhD Programme Details Recruitment Summer Workshop Student Support Academic Units Accountancy Decisions, Operations and Technology Finance Hotel and Tourism Management Management Marketing Admissions FAQs Marketing On this page... MPhil-PhD in Marketing The MPhil/PhD programme ",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "city-university-of-hong-kong-marketing",
+      "school": "City University of Hong Kong",
+      "attempts": [
+        {
+          "url": "https://www.cb.cityu.edu.hk/mkt/programmes/ResearchDegree/",
+          "final_url": "https://www.cb.cityu.edu.hk/mkt/programmes/ResearchDegree/",
+          "sha256": "2dfe6ae75e4d97c278a1e2bfd745a81ae24bfa5173f996e9b438af364282db4c",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Department of Marketing | City University of Hong Kong Skip to navigation Skip to content Login · Contact Us e-Portal AIMS Email MKT Website (Staff) Search Search Keywords About Us Vision & Mission Head's Message Departmental Advisory Committee Departmental Academic Advisor Faculty & Staff Achievement Programs & Admissions BBA Marketing Prospective",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "hong-kong-polytechnic-university-marketing",
+      "school": "Hong Kong Polytechnic University",
+      "attempts": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "final_url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "sha256": "38c1132898b4a388ce1af7e206f920d60d007ac8d2ebb9051af82ea31d08747b",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD Graduates Placement | Department of Management and Marketing Skip to main content Faculty of Business Open Site Search Popup Share Facebook Linkedin Twitter Weibo Mail Copy Link Quick Access Quick Access Faculty of Business Undergraduate Programmes Research Postgraduate Programmes Taught Postgraduate Programmes Menu People External Advisors and",
+          "cycle_excerpts": []
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/study/research-postgraduate-programme/",
+          "final_url": "https://www.polyu.edu.hk/mm/study/research-postgraduate-programme/",
+          "sha256": "7b14e989bacce5a219dc5aa9260d7f66adb662d4d278930c9f0e8855aa0ff74b",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Research Postgraduate Programme | Department of Management and Marketing Skip to main content Faculty of Business Open Site Search Popup Share Facebook Linkedin Twitter Weibo Mail Copy Link Quick Access Quick Access Faculty of Business Undergraduate Programmes Research Postgraduate Programmes Taught Postgraduate Programmes Menu People External Advi",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "hong-kong-university-of-science-and-technology-marketing",
+      "school": "Hong Kong University of Science and Technology",
+      "attempts": [
+        {
+          "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf",
+          "final_url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf",
+          "sha256": "e10584b8b6366971554cb50b072a8714c3d27fa71d8b32b1492a12a6bbf59a96",
+          "status": "binary_or_cv_retrieved",
+          "excerpt": null,
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-hong-kong-marketing",
+      "school": "University of Hong Kong",
+      "attempts": [
+        {
+          "url": "https://phd.hkubs.hku.hk/People/graduate-placement",
+          "status": "unavailable",
+          "reason": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1020)>"
+        },
+        {
+          "url": "https://phd.hkubs.hku.hk/programmes/fields-of-study",
+          "final_url": "https://phd.hkubs.hku.hk/programmes/fields-of-study",
+          "sha256": "0d41074f55c8bb02a1c345316311fa37711118c48afa901c71d2bcd56a9c5ce9",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Fields of Study - Fields of Study - Programmes - PhD and MPhil - FBE - HKU Skip to main content --> The University of Hong Kong HKU FBE Student Portal FBE Student Portal (Login Required) Search Search --> About Programmes Programme Details Fields of Study Courses Offered Coursework Requirements People Research Postgraduate Students Job Market Candi",
+          "cycle_excerpts": [
+            "tails Fields of Study Courses Offered Coursework Requirements People Research Postgraduate Students Job Market Candidates Graduate Placement News Admissions Admission, Application and Tuition Fee Recruitment Camp for Prospective PhD Students Pre-doctoral Programme FAQ Contact Us Open Menu Menu Close Menu Close Fields of Study Home Programmes Fields of Study Menu Programmes Programme Details Fields of Study Courses Offered Coursework Requirements Close Research postgraduate students will focus their academic experiences in one of the six distinct fields of study. F"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "nanyang-technological-university-marketing",
+      "school": "Nanyang Technological University",
+      "attempts": [
+        {
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd",
+          "final_url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd",
+          "sha256": "753752def6a1bd5a074916a85a8430187f2dba68e33be2f760c4bad3567ce86f",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Division of Marketing - PhD | Nanyang Business School | Singapore | Nanyang Business School | NTU Singapore Toggle notification Toggle search Toggle menu About Us Back Back About Us Who We Are Message from the Dean Admissions Back Back Admissions NBS Undergraduate Programmes Graduate Studies ASEAN and China Programmes Executive Education PhD Progra",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "national-university-of-singapore-marketing",
+      "school": "National University of Singapore",
+      "attempts": [
+        {
+          "url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+          "final_url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+          "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "singapore-management-university-marketing",
+      "school": "Singapore Management University",
+      "attempts": [
+        {
+          "url": "https://business.smu.edu.sg/disciplines/marketing/phd-programme",
+          "final_url": "https://business.smu.edu.sg/disciplines/marketing/phd-programme",
+          "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "",
+          "cycle_excerpts": []
+        },
+        {
+          "url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/",
+          "final_url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/",
+          "sha256": "b147b41e94d563045e15687b1afd54b946a91c7b56e71a7df061101af1e25a0b",
+          "status": "binary_or_cv_retrieved",
+          "excerpt": null,
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "arizona-state-university-marketing",
+      "school": "Arizona State University",
+      "attempts": [
+        {
+          "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+          "final_url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+          "sha256": "9d63f1a926ce88b2fbbb4e233f3d62aca08e08f111c44fde20626d6c0468c248",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing PhD Placement Data | ASU W. P. Carey School Skip to main content Report an accessibility problem ASU Home My ASU Colleges and Schools Sign In W. P. Carey School of Business Home Degree Programs Undergraduate Programs MBA Programs Master’s Programs Accelerated Master’s Doctoral Programs Online Programs STEM Programs China Programs Graduate",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "boston-university-marketing",
+      "school": "Boston University",
+      "attempts": [
+        {
+          "url": "https://www.bu.edu/questrom/phd-program/placements/",
+          "final_url": "https://www.bu.edu/questrom/phd-program/placements/",
+          "sha256": "09520d753f201eadd6ae6e98bbac238027eaccf6e8d36c73171f01e0d420736e",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Placements - Boston University Questrom Skip to main content Recruiters Alumni Donors News Search Primary Menu About INSIGHTS @ QUESTROM QUESTROM EXPERIENTIAL LEARNING QXLconsult Case Competitions Questrom Consulting Lab ABOUT About Questrom Our Strategy & Initiatives Diversity & Inclusion Key Facts & Figures Feld Center for Career & Alumni Engagem",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "carnegie-mellon-university-marketing",
+      "school": "Carnegie Mellon University",
+      "attempts": [
+        {
+          "url": "https://www.cmu.edu/tepper/programs/phd/job-market",
+          "final_url": "https://www.cmu.edu/tepper/programs/phd/job-market",
+          "sha256": "20b90d8c2d8e650e42baf826905a6d3bd309b707f18142305c699b74ea223d8d",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Job Market and Placements | Tepper School of Business Skip to main content Utility Magazine Tepperspectives News & Events Actions Menu Visit Give to the Tepper School Tepper School of Business Main navigation Academics Academics Undergraduate Programs Doctoral Programs Master of Business Administration (MBA) Master of Science in Business Analytics ",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "columbia-university-marketing",
+      "school": "Columbia University",
+      "attempts": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "cornell-university-marketing",
+      "school": "Cornell University",
+      "attempts": [
+        {
+          "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+          "final_url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+          "sha256": "cdb9036fdd96d52f6d8662c274c861648b1bd753de18bfabf0237b5c3c21564b",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Ph.D. in Management: Marketing concentration | Our Programs - Cornell SC Johnson College of Business The safety and well-being of our community is our highest priority. Learn how Cornell is addressing sexual violence . Skip to main site navigation Skip to main content Cornell SC Johnson College of Business Homepage Open the search panel Search clic",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "duke-university-marketing",
+      "school": "Duke University",
+      "attempts": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "status": "unavailable",
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1020)>"
+        }
+      ]
+    },
+    {
+      "program_id": "emory-university-marketing",
+      "school": "Emory University",
+      "attempts": [
+        {
+          "url": "https://goizueta.emory.edu/phd/career/placement",
+          "final_url": "https://goizueta.emory.edu/phd/career/placement",
+          "sha256": "0be1eb095c3fce19f6413248450e1631d569aca5d46e6ccf917e175cdc6fe445",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD Career Placement History | Emory University Goizueta Business School Skip to main content Search Secondary Give Events Contact Apply Search Search Open collapsed main navigation Degree Programs Toggle submenu Compare Programs Graduate Admissions MS in Business Analytics Master of Business for Veterans Master of Finance Master in Management Mast",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "harvard-university-marketing",
+      "school": "Harvard University",
+      "attempts": [
+        {
+          "url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "final_url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "sha256": "e983e5c2f738cba43615a3d112837ab7ee9b5c40933d2fb957d43bd5374c37fc",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing | Doctoral Programs Skip to Main Content Harvard Business School Harvard Business School Logo Doctoral Programs Doctoral Programs PhD Programs Accounting & Management Business Economics Health Policy (Management) Marketing Organizational Behavior Strategy Technology & Operations Management Research Community Campus and Community Profiles ",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "indiana-university-marketing",
+      "school": "Indiana University",
+      "attempts": [
+        {
+          "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+          "final_url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+          "sha256": "d02794446dce2555ee85cf24fe62bb44b6b73dfadef97682aacbcdabb3a79b7c",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Placements/Alumni | Marketing | Indiana Kelley Skip to Content Kelley School of Business Indiana University Bloomington Menu Menu Undergraduate Programs Toggle Sub-navigation Bloomington Undergraduate Program Indianapolis Undergraduate Program Graduate Programs Toggle Sub-navigation Full-Time +Flex MBA Kelley Direct Online MBA Evening MBA Physician",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "massachusetts-institute-of-technology-marketing",
+      "school": "Massachusetts Institute of Technology",
+      "attempts": [
+        {
+          "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements",
+          "final_url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements",
+          "sha256": "bdfd3a6ce3d774f5bb1df8e31856ef6ced1a4128542ba87517623ed5bf99e77a",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Recent Academic Placements | PhD | MIT Sloan Skip to main content MIT Sloan logo academics Expert Insights Values Events Alumni Faculty About Executive Education academics contact facebook instagram linkedin twitter youtube MIT Same rigor, same degree. Learn about the MIT Sloan Evening MBA program. contact Search Main Menu close search Back to Menu",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "new-york-university-marketing",
+      "school": "New York University",
+      "attempts": [
+        {
+          "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements",
+          "final_url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements",
+          "sha256": "422b5980f5c87152a0b9c07420dd5824916f98c3fa2371ef50a38c2741c41ac7",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD Placements - NYU Stern Skip to main content Marketing Department | PhD Placements Audience Menu Current Students Current Students menu Undergraduate Undergraduate Current Students MBA & GRADUATE Academic Affairs & Advising Records & Registration Bursar Financial Aid Office of Student Engagement Experiential Learning Global Education Careers Fac",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "northwestern-university-marketing",
+      "school": "Northwestern University",
+      "attempts": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "final_url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "sha256": "68a14948f8fa5e6316d8b8ba1f638afd50691410d62f18799137336450e866a3",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Job placements of Kellogg Ph.D. Students | Kellogg School of Management Skip to main content Learn more about our programs by joining us at an upcoming admissions event › Faculty Staff Alumni Companies + Recruiters Media Students The Experience The Experience A Kellogg MBA is your gateway to a global community, countless personal and professional o",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "pennsylvania-state-university-marketing",
+      "school": "Pennsylvania State University",
+      "attempts": [
+        {
+          "url": "https://www.smeal.psu.edu/phd/marketing/placements",
+          "final_url": "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "sha256": "5968d0969e201cd6ae82b391f69e005efdff31842dbe5bd12a3bd08f572fce3a",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing Ph.D. Placements | Smeal College of Business | Penn State Skip to main content navSearch icon Give Apply Report a Concern Nittany Lion Shield Penn State Mark Penn State Word Mark Smeal College of Business menu icon Academics expand icon Undergraduate Majors & Concentrations Minors Certificates First-Generation Students Costs & Aid Visit A",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "stanford-university-marketing",
+      "school": "Stanford University",
+      "attempts": [
+        {
+          "url": "https://www.gsb.stanford.edu/programs/phd/placement/academic-placements",
+          "final_url": "https://www.gsb.stanford.edu/programs/phd/placement/academic-placements",
+          "sha256": "20f0781a918e47828fd42e361dd70b68fb3080f3221c3e098c6e4010292e3e55",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Academic Placements | Stanford Graduate School of Business Skip to main content Menu Enter the terms you wish to search for. PhD Program Menu Fields of Study Accounting Requirements Economic Analysis & Policy Requirements Finance Requirements Marketing Requirements: Behavioral Requirements: Quantitative Operations, Information & Technology Requirem",
+          "cycle_excerpts": [
+            "eadline & Decisions Admission Events Summit@StanfordGSB Financial Aid Student Life Voices Placement Job Market Candidates Academic Placements Contact the PhD Program Stay in Touch Fields of Study Academic Experience Admission Financial Aid Student Life Placement Contact Academic Programs PhD Placement Academic Placements Academic Placements Graduates of our PhD program have gone on to become leading scholars at top universities. Our recent academic placements are listed by year of graduation, with their dissertation title. Jump to an Academic area Accounting Econo"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "texas-a-m-university-marketing",
+      "school": "Texas A&M University",
+      "attempts": [
+        {
+          "url": "https://mays.tamu.edu/graduate/phd/ph-d-marketing-placements-and-awards/",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "the-ohio-state-university-marketing",
+      "school": "The Ohio State University",
+      "attempts": [
+        {
+          "url": "https://fisher.osu.edu/academic-departments/marketing-logistics/current-prospective-students/ph.d.-marketing/alumni",
+          "final_url": "https://fisher.osu.edu/academic-departments/marketing-logistics/current-prospective-students/ph.d.-marketing/alumni",
+          "sha256": "15a9f4137d73f85099bad0d354ae5d37e42ffe9a37afb8d93c6a55f262e183a1",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Alumni | Fisher College of Business Skip to main content Show Links Map Buckeye Link Webmail Search Ohio State Max M. Fisher College of Business Alumni & Friends Corporate Partners Faculty & Staff Get Involved About Visit Fisher Our Values The Max M. Fisher Story Rankings & Statistics College Leadership Access, Engagement and Outreach Awards Direct",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-arizona-marketing",
+      "school": "University of Arizona",
+      "attempts": [
+        {
+          "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+          "final_url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+          "sha256": "bfcc30de635fc92d9a7aee50a4c12dd2565ad4733b89ee9ef708d15d556ef2da",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing PhD Placement | Eller College of Management Skip to main content Search search search Search menu Menu home Home close Close Search search chevron_left Back to Doctoral Marketing PhD Program Program chevron_right Admissions PhD Minor in Marketing Research Faculty Current Students Placement FAQs Select your audience Resources for... Prospe",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-california-berkeley-marketing",
+      "school": "University of California, Berkeley",
+      "attempts": [
+        {
+          "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-california-los-angeles-marketing",
+      "school": "University of California, Los Angeles",
+      "attempts": [
+        {
+          "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+          "final_url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+          "sha256": "ca340a720c7796c0429a5db694b85f95c0db70e8e22421bca7b8218efc9801f7",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Ph.D. Placements | UCLA Anderson School of Management Skip to Search Skip to Main Content Skip to Footer Links About Column 1 About UCLA Anderson Our Character Our Dean Our Leadership Our History Clubs and Associations AI @ Anderson Office of Inclusive Excellence (OIE) Column 2 Our Centers Center for Healthcare Innovation Center for Global Manageme",
+          "cycle_excerpts": [
+            "rses and Seminars Strategy Strategy Overview Faculty Meet the Students Courses and Seminars Current Job Market Candidates Placement Contact Home Degrees Ph.D. Program Placement Ph.D. Placements Recent Academic Placement of Our Ph.D. Graduates Browse by area: Accounting Behavioral Decision Making Decisions, Operations, and Technology Management Finance Global Economics and Management International Business and Comparative Management Information Systems Management and Organizations Marketing Strategy Accounting Wen-Hsin Chang (Ph.D. '25) First academic placement: Pu",
+            "rses and Seminars Strategy Strategy Overview Faculty Meet the Students Courses and Seminars Current Job Market Candidates Placement Contact UCLA-NUS Executive MBA UCLA-NUS Executive MBA Curriculum & Schedule UCLA NUS Alumni Connect Fees and Financing Meet the Team Master of Financial Engineering Master of Financial Engineering Admissions Admissions Overview Events Admissions Ambassadors Requirements International Applicants FAQ Academics Academics Overview Faculty Capstone Project Career Impact Career Impact Overview Career Paths Career Paths Overview Quant Tradin"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-california-san-diego-marketing",
+      "school": "University of California, San Diego",
+      "attempts": [
+        {
+          "url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+          "final_url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+          "sha256": "bb5b644db5edb4c27d74f114ba8913a2528153e630bd1d240e4d1fd62b431018",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Ph.D. Alumni Skip to main content UC San Diego Search This Site All UCSD Sites Faculty/Staff Search Term Close Nav Why Rady Business is a Science Dean’s Office Rady Stats UC San Diego's Business School 20th Anniversary Career Impact Student Experience Centers of Excellence Our Partnership With San Diego Equity Diversity, and Inclusion Rady News Pro",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-chicago-marketing",
+      "school": "University of Chicago",
+      "attempts": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "final_url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "sha256": "b1dd9cb857b5d19f1716ca8428e4383d052349ffc8bfb96e54b48524d5a44d7f",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD Career Outcomes | The University of Chicago Booth School of Business Skip to main content The University of Chicago Booth School of Business Why Booth Degree Programs Executive Education Faculty & Insights Alumni Recruiting Events Admissions Home --> Degree Programs MBA Programs Specialized Masters Programs PhD Undergraduate Programs Taking Chi",
+          "cycle_excerpts": [
+            "ssions Dissertation Areas and Joint PhD Programs PhD Career Outcomes PhD Proposals and Defenses PhD Job Market Candidates Postdoctoral Job Market Candidates PhD Research Community 100 Years of Pioneering Research SUMMIT@Booth Yiran Fan Memorial Conference Frequently Asked Questions PhD Career Outcomes PhD PhD Career Outcomes Admissions Dissertation Areas and Joint PhD Programs PhD Proposals and Defenses PhD Job Market Candidates Postdoctoral Job Market Candidates PhD Research Community 100 Years of Pioneering Research SUMMIT@Booth Yiran Fan Memorial Conference Fre",
+            " PhD Programs PhD Career Outcomes PhD Proposals and Defenses PhD Job Market Candidates Postdoctoral Job Market Candidates PhD Research Community 100 Years of Pioneering Research SUMMIT@Booth Yiran Fan Memorial Conference Frequently Asked Questions PhD Career Outcomes PhD PhD Career Outcomes Admissions Dissertation Areas and Joint PhD Programs PhD Proposals and Defenses PhD Job Market Candidates Postdoctoral Job Market Candidates PhD Research Community 100 Years of Pioneering Research SUMMIT@Booth Yiran Fan Memorial Conference Frequently Asked Questions PhD Career ",
+            "Career Outcomes Admissions Dissertation Areas and Joint PhD Programs PhD Proposals and Defenses PhD Job Market Candidates Postdoctoral Job Market Candidates PhD Research Community 100 Years of Pioneering Research SUMMIT@Booth Yiran Fan Memorial Conference Frequently Asked Questions PhD Career Outcomes For 100 years, Chicago Booth has been a proven training ground for the next generation of leading professionals in academia, government, and industry. When you earn a PhD from Chicago Booth, you are trained to conduct original, innovative research at the highest leve",
+            "tion Areas and Joint PhD Programs PhD Proposals and Defenses PhD Job Market Candidates Postdoctoral Job Market Candidates PhD Research Community 100 Years of Pioneering Research SUMMIT@Booth Yiran Fan Memorial Conference Frequently Asked Questions PhD Career Outcomes For 100 years, Chicago Booth has been a proven training ground for the next generation of leading professionals in academia, government, and industry. When you earn a PhD from Chicago Booth, you are trained to conduct original, innovative research at the highest level. Graduates are highly sought afte",
+            "siting Research Scholar (post-doc), Society & Organizations Institute, HEC Paris (2023) See Our PhD Job Market Candidates See the Stevens Doctoral Program's current job market candidates—the next generation of researchers who will shape theory and practice in business and beyond. See Our PhD Job Market Candidates The University of Chicago Booth School of Business Explore Why Booth Degree Programs Executive Education Faculty & Insights Alumni Events Recruiting Admissions About Careers at Booth Media Relations Chicago Booth Magazine Chicago Booth Review Request Info"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-colorado-boulder-marketing",
+      "school": "University of Colorado Boulder",
+      "attempts": [
+        {
+          "url": "https://www.colorado.edu/business/phd/phd-marketing",
+          "final_url": "https://www.colorado.edu/business/phd/phd-marketing",
+          "sha256": "120a12d87384ea301ac4cfc7979c95a1d88320c65d8b2c61c9f9c0ac8c095933",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD in Marketing | Leeds School of Business | University of Colorado Boulder Skip to main content Leeds School of Business Home Undergraduate Programs Undergraduate Programs Why Study Business at Leeds? Undergraduate Academic Programs Bachelor of Science in Business Administration BS Integrated Business and Engineering Pre-Business Program Certific",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-florida-marketing",
+      "school": "University of Florida",
+      "attempts": [
+        {
+          "url": "https://warrington.ufl.edu/graduate/phd-marketing/",
+          "final_url": "https://warrington.ufl.edu/graduate/phd-marketing/",
+          "sha256": "1ab6c7d701cc5120304c17f1435d0dba963df38c0ac82c5b392459954cef3cd6",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Ph.D. in Marketing Degree- UF Warrington College of Business Skip to main content Graduate Degrees MBA Full-time MBA Online MBA Weekend Part-time MBA - Jacksonville Weekend Part-time MBA - Miami Executive MBA Joint MBA degrees MBA degrees for the military Online degrees Business Analytics Entrepreneurship International Business Management Marketing",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-georgia-marketing",
+      "school": "University of Georgia",
+      "attempts": [
+        {
+          "url": "https://www.terry.uga.edu/phd/marketing/",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-houston-marketing",
+      "school": "University of Houston",
+      "attempts": [
+        {
+          "url": "https://www.bauer.uh.edu/doctoral/placement.php",
+          "final_url": "https://www.bauer.uh.edu/doctoral/placement.php",
+          "sha256": "4fcc0ba201f7d29048df5eab656069431b2f462282fced5254c741c294b524cc",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Recent Placements - Doctoral Programs | UH Bauer College Skip to main content Search Search Button Skip to main content Events Calendar Giving Contact Visit Login to AccessUH Search C. T. Bauer College of Business About Dean's Welcome Key Statistics Mission & History Student Outcomes Leadership Bauer College Board Administration & Staff Life at Bau",
+          "cycle_excerpts": []
+        },
+        {
+          "url": "https://tyhsieh4.github.io/cv/TYH_cv.pdf",
+          "final_url": "https://tyhsieh4.github.io/cv/TYH_cv.pdf",
+          "sha256": "931e4cc87b5975917cc105910f643f8548d991e4d8861852093b4195925cd27b",
+          "status": "binary_or_cv_retrieved",
+          "excerpt": null,
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-maryland-marketing",
+      "school": "University of Maryland",
+      "attempts": [
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "final_url": "https://www.rhsmith.umd.edu/programs/phd/your-career",
+          "sha256": "f04aa7885058a3cd1772a98203e22833e1a24d5f3ad9f255b227a9656fcb724e",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Your Career | Robert H. Smith School of Business Skip site navigation Back Programs Undergraduate - College Park College Park - Shady Grove Plus 1 Full-Time MBA Flex MBA Online MBA Executive MBA Executive Education Business Master's PhD Doctor of Business Administration Graduate Certificate in Technology Management Back Students Business Impact at ",
+          "cycle_excerpts": [
+            "rrent PhD Students Your Career FAQs News Home Programs at Smith PhD Program Your Career Your Career Job Market Candidates Name Job Market Paper Title Area of Specialization Advisor(s) Yuheng Ding Complex Innovation and the “Visible Hand”: the Role of Knowledge Interdependence in Employee Entrepreneurship Strategic Management & Entrepreneurship Serguey Braguinksy & Rajshree Agarwal Olivia Zhishuang Guan A Prosocial Contributor or Status Grabber? How and Why Newcomer Proactive Knowledge Sharing Impacts Inclusion Perception via Ambivalent Coworker Attributions Organi"
+          ]
+        },
+        {
+          "url": "https://www.rhsmith.umd.edu/programs/phd/academics/areas-specialization/marketing-mkt",
+          "final_url": "https://www.rhsmith.umd.edu/programs/phd/academics/areas-specialization/marketing-mkt",
+          "sha256": "e365207529b361a2e1b7f8d5562be55e641c9f7cef4554e63887dc5533dfdf61",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing (MKT) | Robert H. Smith School of Business Skip site navigation Back Programs Undergraduate - College Park College Park - Shady Grove Plus 1 Full-Time MBA Flex MBA Online MBA Executive MBA Executive Education Business Master's PhD Doctor of Business Administration Graduate Certificate in Technology Management Back Students Business Impact",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-michigan-marketing",
+      "school": "University of Michigan",
+      "attempts": [
+        {
+          "url": "https://michiganross.umich.edu/phd/areas-of-study/marketing",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-minnesota-marketing",
+      "school": "University of Minnesota",
+      "attempts": [
+        {
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=han-young-jung-hanyoungjung",
+          "final_url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=han-young-jung-hanyoungjung",
+          "sha256": "bd4e1c59751561f9e0c6169d7dde223f462ab4b6cdd0573514a780ca10383311",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Faculty Profiles - JUNG Han Young | The Hong Kong University of Science and Technology More About HKUST University News Academic Departments A-Z Life@HKUST Library Map & Directions Jobs@HKUST Faculty Profiles About HKUST A A A Global Search Han Young JUNG PhD in Business Administration University of Minnesota, 2025 Assistant Professor Department of",
+          "cycle_excerpts": [
+            ", Han Young; Choi, Sung Tae; Oh, Sangdo Article No Publications No Publications Teaching Assignment 2026-27 Fall 1 2025-26 Summer 0 2025-26 Spring 0 2025-26 Winter 0 2025-26 Fall 1 2024-25 Summer 0 MARK3410 Promotion and Advertising Management MARK3410 Promotion and Advertising Management No Teaching Assignments No Teaching Assignments No Teaching Assignments No Teaching Assignments Research Postgraduate (RPG) Supervision From January 2023 to December 2026 (As of 23 October 2026) Current RPGs Master of Philosophy YANG, Hongrui Marketing Projects From "
+          ]
+        },
+        {
+          "url": "https://www.binghamton.edu/som/docs/cv/manand3.cv.pdf",
+          "final_url": "https://www.binghamton.edu/som/docs/cv/manand3.cv.pdf",
+          "sha256": "33cd748ac7b7475c56f182880f757d28d32e54167460cb54b39e39ac50a57549",
+          "status": "binary_or_cv_retrieved",
+          "excerpt": null,
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+      "school": "University of North Carolina at Chapel Hill",
+      "attempts": [
+        {
+          "url": "https://mays.tamu.edu/wp-content/uploads/2024/07/CV-Rahul-Suhag-202502.pdf",
+          "final_url": "https://mays.tamu.edu/wp-content/uploads/2024/07/CV-Rahul-Suhag-202502.pdf",
+          "sha256": "896a02b7ae80050fd56da09f8f48225fa8bc3e7c4df0016888bb567f4b636baa",
+          "status": "binary_or_cv_retrieved",
+          "excerpt": null,
+          "cycle_excerpts": []
+        },
+        {
+          "url": "https://docsig.org/wp-content/uploads/2024/09/2024-WWW-report-1.pdf",
+          "final_url": "https://docsig.org/wp-content/uploads/2024/09/2024-WWW-report-1.pdf",
+          "sha256": "e6b84cd616e7129c3540ee00fa60748577a967c514f81803c4003d24c71b6eac",
+          "status": "binary_or_cv_retrieved",
+          "excerpt": null,
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-pennsylvania-marketing",
+      "school": "University of Pennsylvania",
+      "attempts": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "final_url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "sha256": "dc48a2aaf1d7298fb75f960af9a72abe1e98581179f5fa67c16e8ec25e70fa0d",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Recent PhD Placements - Marketing Department Skip to content Skip to main menu Faculty Youth Program Undergrad Jacobs MSQF MBA EMBA PhD Exec Ed Wharton Online Search Wharton Mobile menu toggle Marketing Department Menu Home Faculty Faculty Recruitment Assistant Professor, Tenure Track Faculty List Faculty Awards Faculty in the News Research Researc",
+          "cycle_excerpts": [
+            " Registration Pre-baccalaureate Program Events and Calendars Calendars Decision Processes Colloquia 2026-2027 2026-2027 Marketing Colloquia Interdisciplinary Research Seminar on Financial Well-Being and Household Finance (FiWell Seminar) Department Information Staff Doctoral Students Postdoctoral Researchers Directions Recent PhD Placements The Marketing Department has produced many distinguished Ph.D. candidates. The table below lists the candidates, the year they received their degree, the original teaching position they accepted, and their current school or po"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-pittsburgh-marketing",
+      "school": "University of Pittsburgh",
+      "attempts": [
+        {
+          "url": "https://www.business.pitt.edu/phd/phd-in-marketing/",
+          "final_url": "https://www.business.pitt.edu/phd/phd-in-marketing/",
+          "sha256": "2b067eb4355024599fea3322f5e226a7f2592367178a6a3cc866ca8417683bbc",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD in Marketing at Pitt Business Get Info Apply Now Give Now About Undergraduate Graduate Overview MBA Signature MBA Part-Time MBA Accelerated MBA Dual Degree MBA and MS Joint MBA Master of Science Executive Programs PhD Credentials Micro-credentials Graduate Certificates Online Programs Tuition & Aid Degree Comparison Academic Calendar Academic C",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-rochester-marketing",
+      "school": "University of Rochester",
+      "attempts": [
+        {
+          "url": "https://simon.rochester.edu/programs/phd/students",
+          "final_url": "https://simon.rochester.edu/programs/phd/students",
+          "sha256": "f6ad02aaea627a0bd66bdfe1186f6294b12c85f816a77174dd22e838253a3b4e",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD Students As Scholars | Simon Business School Skip To Content Main navigation News Events Give Request Info Contact Apply Now Search Academics Full-Time MBA Full-Time MS Part-Time Programs Doctor of Business Administration PhD Non-Degree Programs Undergraduate Business Compare Programs About About Simon Business School Simon Business School Lead",
+          "cycle_excerpts": [
+            "ntional Simon candidate; our goal is to help you develop your own unique potential. Get to know our job market candidates. The Simon PhD program is about solving complex and challenging problems to shape the way the business world works. Simon Business School PhD graduates are highly sought-after in their fields. In fact, most are offered employment before they’ve even defended their dissertations with a 100% placement rate overall. Take a closer look at our current job market candidates, and find out how they can be an asset to your organization. Accounting Marke",
+            " defended their dissertations with a 100% placement rate overall. Take a closer look at our current job market candidates, and find out how they can be an asset to your organization. Accounting Marketing Finance Operations Management Information Systems Simon Business School Top PhD Placements A business PhD from Simon equips you to solve even the most complex and challenging problems. Simon Business School PhD graduates are highly sought-after. Most are offered employment before they've even defended their dissertations, and our overall placement rate is 100%. Ac"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-south-carolina-marketing",
+      "school": "University of South Carolina",
+      "attempts": [
+        {
+          "url": "https://www.mooreschool.sc.edu/study/colleges_schools/moore/study/marketing/degree_programs/phd/index.php",
+          "status": "unavailable",
+          "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.mooreschool.sc.edu'. (_ssl.c:1020)>"
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-southern-california-marketing",
+      "school": "University of Southern California",
+      "attempts": [
+        {
+          "url": "https://faculty.marshall.usc.edu/Sha-Yang/CV%20-%20Sha%20Yang%202026%20-%20Post.pdf",
+          "final_url": "https://faculty.marshall.usc.edu/Sha-Yang/CV%20-%20Sha%20Yang%202026%20-%20Post.pdf",
+          "sha256": "b1cdfed295e1993f0f208587b9ea01005a2f845923a3b51d9b95c0a234f5be10",
+          "status": "binary_or_cv_retrieved",
+          "excerpt": null,
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-texas-at-austin-marketing",
+      "school": "University of Texas at Austin",
+      "attempts": [
+        {
+          "url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/",
+          "final_url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/",
+          "sha256": "7a4ed5844d70776f4266e7706fbe6e5d59e67b508299fa13a818365191dbc2ec",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Marketing Ph.D. - McCombs School of Business News Events Directory Give Contact Undergraduate Bachelor of Business Administration Business Minors Canfield Business Honors Program Integrated MPA Subiendo Student Life Graduate Specialized Master’s MPA – Accounting Traditional MPA MPA Bridge Integrated MPA MS Business Analytics and AI MS Business Anal",
+          "cycle_excerpts": [
+            "Combs? Academic Life at McCombs The World Needs You The demand for skilled educators is strong, and doctoral graduates in accounting from the University of Texas at Austin have enjoyed considerable placement success over the years. If you aspire to a career as an educator and researcher in decisions science, information systems, operations management, or statistics, a doctoral degree from Texas McCombs will give you a strong foundation for success. Learn about career placement Career Placement Application information Marketing Ph.D. prerequisites The Texas McCo",
+            ", Indiana University Richard Schaefer — Rutgers University 2013 Szu-chi Huang — Stanford University Job Market Candidates Marcelino Chavez Marcelino.Chavez@mccombs.utexas.edu View Marcelino's website Runyang Shu Runyang.Shu@mccombs.utexas.edu View Runyang's CV Zhengwei (Harrison) Zhang Harrison.Zhang@mccombs.utexas.edu View Harrison's CV Current students Paige Abbott paige.abbott@mccombs.utexas.edu View Paige's CV Meher Alam meher.alam@mccombs.utexas.edu View Meher's website Somdatta Basak sb63847@my.utexas.edu View Somdatta's website Mira Guleri Jessica Guo View "
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-texas-at-dallas-marketing",
+      "school": "University of Texas at Dallas",
+      "attempts": []
+    },
+    {
+      "program_id": "university-of-washington-marketing",
+      "school": "University of Washington",
+      "attempts": [
+        {
+          "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-wisconsin-madison-marketing",
+      "school": "University of Wisconsin-Madison",
+      "attempts": [
+        {
+          "url": "https://business.wisc.edu/phd/placements/",
+          "final_url": "https://business.wisc.edu/phd/placements/",
+          "sha256": "c1b41e12579d54fabbcd2fb508d3ddc063c26768382dfdedfc45590e64c8f163",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD Placements | Wisconsin School of Business Skip to main content Undergraduate Main CTA (4) --> cta --> Undergraduate Program Become the next great business leader at the Wisconsin School of Business. Check out the Undergraduate Program cta --> Majors & Careers Pursue your interests and passions with customized support from our career team. View ",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "washington-university-in-st-louis-marketing",
+      "school": "Washington University in St. Louis",
+      "attempts": [
+        {
+          "url": "https://olin.washu.edu/programs/doctoral/placements.php",
+          "final_url": "https://olin.washu.edu/programs/doctoral/placements.php",
+          "sha256": "1dfef97d376e24d249518011cbc7ad2399f249a053266041580eb2f2cbd0978b",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "PhD and DBA Placements | WashU Olin Business School AI Hub External Partners Alumni Return to home Search Search About About Olin Home Why Olin Strategy Leadership Business of Health News & Media Events Contact Us Programs Programs Home Explore Our Programs BS in Business Administration MBAs Specialized Master's Doctoral Executive Education Dual & ",
+          "cycle_excerpts": [
+            "ie Lenz (FINANCE) Wells Fargo Wealth and Investment Management --> Initial placements of WashU Olin Doctoral graduates 2023 Bing Bai - (Supply Chain, Operations & Technology) Desautels Faculty of Management, McGill University Yakshup Chopra - (Finance) Miami Herbert Business School, University of Miami John Dooley - (Finance) Analysis Group Alexander Park - (Marketing) Kelley School of Business, Indiana University-Indianapolis Yunzhe Qiu - (Supply Chain, Operations & Technology) Peking University, China Sahika Sahan - (Supply Chain, Operations & Technology) McC"
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "yale-university-marketing",
+      "school": "Yale University",
+      "attempts": [
+        {
+          "url": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students",
+          "final_url": "https://som.yale.edu/programs/phd/overview/marketing/quantitative-marketing/recent-graduates-current-students",
+          "sha256": "364e780ed2ab4fc21710d449d3b156c10e870d36ecade6ae93344a1c4545205a",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "/| Quantitative Marketing Recent Graduates and Current Students | Yale School of Management Skip to main content Yale School of Management logo 50 years 1976 2026 Search Yale School of Management Menu Main navigation Degree Programs MBA Two-year program for leaders in all industries. MBA for Executives Rigorous executive MBA for accomplished profes",
+          "cycle_excerpts": [
+            "Current Students Admissions FAQs Careers Careers Careers Our Alumni Our Alumni Current PhD Students Job Market Candidates PhD News Our Campus Doctoral Programs Overview Marketing Quantitative Marketing Recent Graduates & Current Students Quantitative Marketing Recent Graduates and Current Students Recent Graduates Thomas Steenburgh (2004) Initial Placement at Harvard Business School Jackie Luan (2006) Initial Placement at Tuck School of Business, Dartmouth Sumon Datta (2009) Initial Placement at Krannert School of Management, Purdue University Awards Winner, 2008 "
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "johns-hopkins-university-marketing",
+      "school": "Johns Hopkins University",
+      "attempts": [
+        {
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/",
+          "final_url": "https://e-catalogue.jhu.edu/business/degrees-certificates/",
+          "sha256": "1266b25d43d428c677ddfc44a92bf955a2324d77eb35f362ea6e67b6a1583c06",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Degrees and Certificates | Johns Hopkins University Academic Catalogue Skip to Content AZ Index Catalogue Home Johns Hopkins University Home Academic Catalogue | 2026-27 Edition Search Search --> Class Schedule Search Search Catalogue Submit search Search location Search Catalogue Search Courses Search JHU Catalogue Home Programs Courses Policies &",
+          "cycle_excerpts": [
+            "atalogue Skip to Content AZ Index Catalogue Home Johns Hopkins University Home Academic Catalogue | 2026-27 Edition Search Search --> Class Schedule Search Search Catalogue Submit search Search location Search Catalogue Search Courses Search JHU Catalogue Home Programs Courses Policies & Information Print Options Archives Amendments Degrees and Certificates Carey Business School 2026-27 Edition Catalogue Home Explore our Programs University-​wide Policies and Information Toggle University-​wide Policies and Information Academic Policies and Informatio",
+            "cies & Information Print Options Archives Amendments Degrees and Certificates Carey Business School 2026-27 Edition Catalogue Home Explore our Programs University-​wide Policies and Information Toggle University-​wide Policies and Information Academic Policies and Information Toggle Academic Policies and Information Academic Calendar Academic Integrity Policies Animal Care and Use Program Credit Hour Policy FERPA PHD Specific Policies Student Leave of Absence Policy Student Status (Course Load) Transcripts and Enrollment Verifications Admission and Ai",
+            "nter Print this page. Download Page (PDF) The PDF will include all information unique to this page. 2026-2027 Johns Hopkins University Academic Catalogue"
+          ]
+        },
+        {
+          "url": "https://carey.jhu.edu/programs/dual-degrees/phd-mba",
+          "status": "unavailable",
+          "reason": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "program_id": "university-of-notre-dame-marketing",
+      "school": "University of Notre Dame",
+      "attempts": [
+        {
+          "url": "https://mendoza.nd.edu/graduate-programs/",
+          "final_url": "https://mendoza.nd.edu/graduate-programs/",
+          "sha256": "6cf974719b75e947ea4be01e547f9ab95d3b83684994a63966f5350fe1f5b01f",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Graduate Programs - Notre Dame Business Mendoza College of Business Skip Navigation Open Menu Close Menu Mendoza School of Business Mendoza School of Business Open Search Close Search Apply Explore all programs Menu Open Search Close Search Menu All Programs Logo Business Close Modal Graduate Programs Undergraduate Program Executive Education Resea",
+          "cycle_excerpts": []
+        },
+        {
+          "url": "https://mendoza.nd.edu/research-faculty/academic-departments/phd-management-organization/",
+          "final_url": "https://mendoza.nd.edu/research-faculty/academic-departments/phd-management-organization/",
+          "sha256": "b62d7f238cc33a99a651b349e4e1e7b8d005567637deefd9e518055e4ae8948d",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Ph.D. in Management - Notre Dame Mendoza College of Business Skip Navigation Open Menu Close Menu Mendoza School of Business Mendoza School of Business Open Search Close Search Apply Explore all programs Menu Open Search Close Search Menu All Programs Logo Business Close Modal Graduate Programs Undergraduate Program Executive Education Research & F",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "dartmouth-college-marketing",
+      "school": "Dartmouth College",
+      "attempts": [
+        {
+          "url": "https://tuck.dartmouth.edu/mba/academic-experience/joint-and-dual-degrees",
+          "final_url": "https://tuck.dartmouth.edu/mba/academic-experience/joint-and-dual-degrees",
+          "sha256": "299441d56fb906c4f4b11501d8bf2c96d1fa9ecd6d58c05993a815dbb20fdac4",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Joint and Dual Degrees | Tuck School of Business Tuck School of Business at Dartmouth Loading... Menu Search Tuck About Mission, Values, Vision Tuck Leadership Meet the Dean Facts & Figures See Our Campus (Map) Accessibility Staff Directory Dartmouth Collaborations MBA Student Stories Alumni Stories Tuck 360: MBA Blog Academic Experience Life at Tu",
+          "cycle_excerpts": []
+        },
+        {
+          "url": "https://tuck.dartmouth.edu/mba/academic-experience/academic-faqs",
+          "final_url": "https://tuck.dartmouth.edu/mba/academic-experience/academic-faqs",
+          "sha256": "5a72d9e104a63d968470384e5058a53810df45515acdfd695563fa4b09e9f474",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Academic FAQs | Tuck School of Business Tuck School of Business at Dartmouth Loading... Menu Search Tuck About Mission, Values, Vision Tuck Leadership Meet the Dean Facts & Figures See Our Campus (Map) Accessibility Staff Directory Dartmouth Collaborations MBA Student Stories Alumni Stories Tuck 360: MBA Blog Academic Experience Life at Tuck Admiss",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "georgetown-university-marketing",
+      "school": "Georgetown University",
+      "attempts": [
+        {
+          "url": "https://bulletin.georgetown.edu/programs/",
+          "final_url": "https://bulletin.georgetown.edu/programs/",
+          "sha256": "ca4e8c66230dc87eb604399b6445de7f28140484684b9b48807d90a737dcf81b",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Programs | Georgetown University Bulletin Skip to main content Skip to main menu 2026-2027 Bulletin Search Menu Search this site Close the search box × Search --> About Admissions Expenses and Financial Aid Academics Programs Colleges & Schools Courses Appendices Close Alternate Primary Navigation About Admissions Expenses & Financial Aid Academics",
+          "cycle_excerpts": [
+            "Programs | Georgetown University Bulletin Skip to main content Skip to main menu 2026-2027 Bulletin Search Menu Search this site Close the search box × Search --> About Admissions Expenses and Financial Aid Academics Programs Colleges & Schools Courses Appendices Close Alternate Primary Navigation About Admissions Expenses & Financial Aid Academics Programs Colleges & Schools Courses Appendices 2026-2027 Edition 2026-2027 Edition Colleges &​ Schools Courses Programs Accounting, BSBA Addiction Policy &​ Practice, MS Adult Gerontology A",
+            " About Admissions Expenses & Financial Aid Academics Programs Colleges & Schools Courses Appendices 2026-2027 Edition 2026-2027 Edition Colleges &​ Schools Courses Programs Accounting, BSBA Addiction Policy &​ Practice, MS Adult Gerontology Acute Care Nurse Practitioner, MS Advanced Biomedical Sciences, Graduate Certificate African Studies, Undergraduate Certificate Africana Studies (Qatar) Minor American Government, MA American Musical Cultures, AB American Studies (Qatar), Undergraduate Certificate American Studies, AB Anthropology Minor Anthropology,",
+            "Expenses & Financial Aid Academics Programs Colleges & Schools Courses Appendices 2026-2027 Edition 2026-2027 Edition Colleges &​ Schools Courses Programs Accounting, BSBA Addiction Policy &​ Practice, MS Adult Gerontology Acute Care Nurse Practitioner, MS Advanced Biomedical Sciences, Graduate Certificate African Studies, Undergraduate Certificate Africana Studies (Qatar) Minor American Government, MA American Musical Cultures, AB American Studies (Qatar), Undergraduate Certificate American Studies, AB Anthropology Minor Anthropology, AB Applied Data S",
+            "School School of Medicine’s Biomedical Graduate Education, Graduate School Degree Master of Science 2026-2027 Bulletin G-01 White Gravenor Building 37th and O Streets, N.W. Washington DC Phone: 202-687-4020 Fax: 202-687-3608 Email: univregistrar@georgetown.edu Maps Copyright Privacy Accessibility Notice of Non-Discrimination Sitemap Directory Back to top Close this window Print Options Send Page to Printer Print this page. Download Page (PDF) The PDF will include all information unique to this page."
+          ]
+        },
+        {
+          "url": "https://msb.georgetown.edu/graduate/",
+          "status": "unavailable",
+          "reason": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "program_id": "boston-college-marketing",
+      "school": "Boston College",
+      "attempts": [
+        {
+          "url": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs.html",
+          "final_url": "https://www.bc.edu/bc-web/schools/carroll-school/graduate/phd-programs.html",
+          "sha256": "fd7dbf4cc64776cb71b78f8924a16b66b5436cb130e84089b5b51eb5658dc521",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "--> Ph.D. Programs - Carroll School of Management - Boston College Skip to main navigation Skip to main content Apply Visit Give Information For Current Undergraduate Students Current Graduate Students Alumni Recruiters Faculty Search BC.edu Links Menu Main Nav Menu Main Nav --> Back Back Close About Overview Dean's Message Why the Carroll School? ",
+          "cycle_excerpts": []
+        }
+      ]
+    },
+    {
+      "program_id": "rice-university-marketing",
+      "school": "Rice University",
+      "attempts": [
+        {
+          "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/",
+          "final_url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/",
+          "sha256": "d8261120745414ff2d990cc97101f4362c2591bee60613745b949f7f6a962416",
+          "status": "page_text_retrieved_not_roster_verified",
+          "excerpt": "Doctor of Philosophy (PhD) Degree in the field of Business and a Major Concentration in Marketing < Rice University Skip to Content AZ Index Catalog Home Rice University Resources for: Undergraduates Graduates Parents Faculty & Staff General Announcements | 2026-2027 Search Catalog Search Toggle Menu Access Home About Policies Programs Courses Arch",
+          "cycle_excerpts": [
+            " University Resources for: Undergraduates Graduates Parents Faculty & Staff General Announcements | 2026-2027 Search Catalog Search Toggle Menu Access Home About Policies Programs Courses Archive Home / Programs of Study / Departments and Programs / Business / Doctor of Philosophy (PhD) Degree in the field of Business and a Major Concentration in Marketing Print Options Opens Modal Catalog Navigation Academic Calendar Undergraduate Students Graduate Students Non-​Traditional Students Faculty Programs of Study Departments and Programs Accounting African ",
+            "ness publishes a graduate program handbook, which can be found here: https://gradhandbooks.rice.edu/2026_27/Business_PhD_Graduate_Handbook.pdf . Transfer Credit For Rice University’s policy regarding transfer credit, see Transfer Credit . Some departments and programs have additional restrictions on transfer credit. Requests for transfer credit must be approved for Rice equivalency by the appropriate academic department offering the Rice equivalent course (corresponding to the subject code of the course content) and by the Office of Graduate and Postd",
+            "nter Print this page. Download Page (PDF) The PDF will include all information unique to this page. 2026-2027_GA_Original.pdf A PDF of the entire Rice University 2026-2027 catalog edition. Cancel",
+            " all information unique to this page. 2026-2027_GA_Original.pdf A PDF of the entire Rice University 2026-2027 catalog edition. Cancel"
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Historical placement pages, degree catalogs, CVs and navigation mentions are not current-season rosters. No zero counts or complete cohorts inferred.",
+    "UT Dallas has no registered qualifying source in this input. 403, DNS and TLS failures remain explicit."
+  ]
+}

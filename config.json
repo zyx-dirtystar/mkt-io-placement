@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1 · Macao and Australian faculty extension",
-  "updated_at": "2026-10-23",
-  "observation_as_of": "2026-10-23",
+  "version": "1.2.0 · Faculty depth and school profiles",
+  "updated_at": "2026-10-24",
+  "observation_as_of": "2026-10-24",
   "current_cycle": "2026-2027",
   "history_years": [
     2023,
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "Added a separately versioned receiving-side faculty scope for three Macao universities and Australia’s eight Go8 members. Official Marketing rosters and supplementary Economics IO profiles retain PhD evidence, career segments, source conflicts and unknown reasons. Original placement cohorts and dated release reports are preserved."
+  "change_note": "Reviewed 25 existing faculty profiles: six newly verified doctoral years, 44 unique dated appointments and four date refinements; 12 people gained their first dated career evidence. Added eight sourced recruitment advertisements, independent school profiles, compact tables and on-demand full evidence. Unknowns, historical reports and placement facts retained."
 }

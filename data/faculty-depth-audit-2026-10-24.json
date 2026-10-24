@@ -1,0 +1,224 @@
+{
+  "newly_dated_evidence_types": {
+    "academic_or_teaching": 10,
+    "industry_only": 1,
+    "visiting_only": 1
+  },
+  "complete_career_histories_added": 0,
+  "as_of": "2026-10-24",
+  "reviewed": 25,
+  "phd_years_added": 6,
+  "career_segments_added": 44,
+  "date_refinements": 4,
+  "newly_dated_people": 12,
+  "all_faculty": 1358,
+  "phd_year_unknown": 339,
+  "no_dated_career": 419,
+  "baseline": {
+    "phd_year_unknown": 345,
+    "no_dated_career": 431
+  },
+  "counting_rule": "Unique dated institution + appointment rank + start year. More precise dates are refinements, not new appointments. Join-year observations without a role do not establish a dated appointment.",
+  "profiles": [
+    {
+      "id": "faculty-university-of-wisconsin-madison-amberepp",
+      "name": "Amber Epp",
+      "degree_before": null,
+      "degree_after": 2008,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-wisconsin-madison-craigthompson",
+      "name": "Craig Thompson",
+      "degree_before": null,
+      "degree_after": 1992,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-wisconsin-madison-neilamorgan",
+      "name": "Neil A. Morgan",
+      "degree_before": null,
+      "degree_after": 1996,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-wisconsin-madison-kevinchung",
+      "name": "Kevin Chung",
+      "degree_before": null,
+      "degree_after": 2013,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-indiana-university-shiboli",
+      "name": "Shibo Li",
+      "degree_before": null,
+      "degree_after": 2003,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-pittsburgh-vanithaswaminathan",
+      "name": "Vanitha Swaminathan",
+      "degree_before": null,
+      "degree_after": 1998,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-dartmouth-college-tamikim",
+      "name": "Tami Kim",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 0,
+      "refined_appointments": 2
+    },
+    {
+      "id": "faculty-hong-kong-polytechnic-university-feifeihuang",
+      "name": "Feifei Huang",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-nanyang-technological-university-sharonng",
+      "name": "Sharon Ng",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-pennsylvania-davidreibstein",
+      "name": "David Reibstein",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 2,
+      "refined_appointments": 1
+    },
+    {
+      "id": "faculty-university-of-rochester-hanachoi",
+      "name": "Hana Choi",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 0,
+      "refined_appointments": 1
+    },
+    {
+      "id": "faculty-university-of-south-carolina-xiaojingyang",
+      "name": "Xiaojing Yang",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-maryland-pkkannan",
+      "name": "P. K. Kannan",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-adamalter",
+      "name": "Adam Alter",
+      "degree_before": 2009,
+      "degree_after": 2009,
+      "new_appointments": 2,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-evaascarza",
+      "name": "Eva Ascarza",
+      "degree_before": 2009,
+      "degree_after": 2009,
+      "new_appointments": 8,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-andreabonezzi",
+      "name": "Andrea Bonezzi",
+      "degree_before": 2012,
+      "degree_after": 2012,
+      "new_appointments": 3,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-masakazuishihara",
+      "name": "Masakazu Ishihara",
+      "degree_before": 2011,
+      "degree_after": 2011,
+      "new_appointments": 3,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-xiaoliu",
+      "name": "Xiao Liu",
+      "degree_before": 2015,
+      "degree_after": 2015,
+      "new_appointments": 4,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-durairajmaheswaran",
+      "name": "Durairaj Maheswaran",
+      "degree_before": 1987,
+      "degree_after": 1987,
+      "new_appointments": 4,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-priyaraghubir",
+      "name": "Priya Raghubir",
+      "degree_before": 1994,
+      "degree_after": 1994,
+      "new_appointments": 6,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-talyreich",
+      "name": "Taly Reich",
+      "degree_before": 2014,
+      "degree_after": 2014,
+      "new_appointments": 4,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-jaredwatson",
+      "name": "Jared Watson",
+      "degree_before": 2018,
+      "degree_after": 2018,
+      "new_appointments": 1,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-boston-university-jonathanhibbard",
+      "name": "Jonathan Hibbard",
+      "degree_before": 1995,
+      "degree_after": 1995,
+      "new_appointments": 2,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-texas-a-m-university-aprajitagautam",
+      "name": "Aprajita Gautam",
+      "degree_before": 2025,
+      "degree_after": 2025,
+      "new_appointments": 4,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-arizona-state-university-martinmende",
+      "name": "Martin Mende",
+      "degree_before": 2008,
+      "degree_after": 2008,
+      "new_appointments": 1,
+      "refined_appointments": 0
+    }
+  ]
+}

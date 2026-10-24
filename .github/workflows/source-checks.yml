@@ -6,9 +6,9 @@ on:
       limit:
         description: Maximum URLs to check in this run
         required: false
-        default: '40'
+        default: '160'
   schedule:
-    - cron: '20 1 * * 1'
+    - cron: '20 1 * * *'
 
 permissions:
   contents: read
@@ -37,7 +37,7 @@ jobs:
           restore-keys: evidence-snapshots-
       - name: Check a bounded rotating sample of public sources
         env:
-          SOURCE_LIMIT: ${{ inputs.limit || '40' }}
+          SOURCE_LIMIT: ${{ inputs.limit || '160' }}
         run: node scripts/check-sources.mjs --limit="$SOURCE_LIMIT" --concurrency=3
       - name: Generate review-only report
         if: always()
