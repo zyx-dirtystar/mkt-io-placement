@@ -10,7 +10,7 @@ export function facultyExtensionReport(archive,baseline,plan,scope,config){
 }
 export function writeFacultyExtensionReport(){
  const planFile='data/faculty-scope-macao-australia-2026-10-23.json';if(!fs.existsSync(planFile))return null;
- const a=read('data/faculty.json'),baseline=read('data/faculty-baseline-macao-australia-2026-10-23.json');
+ const a=read('data/faculty.json');if(a.updated_at>'2026-10-23'&&fs.existsSync('data/faculty-macao-australia-audit-2026-10-23.json'))return read('data/faculty-macao-australia-audit-2026-10-23.json');const baseline=read('data/faculty-baseline-macao-australia-2026-10-23.json');
  const report=facultyExtensionReport(a,baseline,read(planFile),read('data/scope.json'),read('config.json'));
  fs.writeFileSync('data/faculty-macao-australia-audit-2026-10-23.json',JSON.stringify(report,null,2)+'\n');
  const c=report.counts,clean=v=>String(typeof v==='string'?v:JSON.stringify(v??'Unknown')).replaceAll('|',' / ').replaceAll('\n',' ');

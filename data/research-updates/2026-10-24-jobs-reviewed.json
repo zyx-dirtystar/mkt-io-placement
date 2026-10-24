@@ -1,0 +1,275 @@
+{
+  "id": "jobs-reviewed-2026-10-24",
+  "checked_at": "2026-10-24",
+  "selection": "Official department calls in existing receiving regions and employer-published IO advertisements, plus explicit Australian teaching calls. Historical, EOI, rank and date conflicts separated.",
+  "jobs": [
+    {
+      "id": "polyu-cb-260810006",
+      "institution": "Hong Kong Polytechnic University",
+      "department": "Department of Management and Marketing",
+      "region": "HK",
+      "title": "Assistant Professor in Marketing (Consumer Behavior)",
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "job_family": "academic",
+      "tenure_status": "unknown",
+      "cycle": "2026-2027",
+      "published_at": "2026-08-10",
+      "deadline": null,
+      "start_date": null,
+      "status": "open",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260810006",
+          "label": "Original public recruitment announcement",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "Initial appointment for Assistant Professor will be on a fixed-term gratuity-bearing contract.",
+      "evidence": "Official posting reviewed: applications considered from 1 September 2026 until filled. Initial fixed-term contract is explicit; tenure-track is not asserted from Assistant Professor title.",
+      "aliases": [],
+      "dedupe_key": "polyu-cb-260810006"
+    },
+    {
+      "id": "nus-marketing-july2027",
+      "institution": "National University of Singapore",
+      "department": "Marketing Department",
+      "region": "SG",
+      "title": "Tenure-track Marketing faculty · Consumer Behavior and Empirical Modeling",
+      "tracks": [
+        "marketing",
+        "cb",
+        "qm"
+      ],
+      "job_family": "academic",
+      "tenure_status": "confirmed_tt",
+      "cycle": "2026-2027",
+      "published_at": null,
+      "deadline": "2026-07-15",
+      "start_date": "2027-07",
+      "status": "closed",
+      "positions": 2,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://bschool.nus.edu.sg/marketing/faculty-openings/",
+          "label": "Original public recruitment announcement",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "a candidate in consumer behavior ... as well as a candidate in empirical modeling",
+      "evidence": "Two candidates explicitly sought in one advertisement, one CB and one empirical-modeling appointment; actual hires unknown. July 15 2026 application deadline, July 2027 start. Closed deadline is not evidence of filled posts.",
+      "aliases": [],
+      "dedupe_key": "nus-marketing-july2027"
+    },
+    {
+      "id": "essec-io-ejm12858",
+      "institution": "ESSEC Business School",
+      "department": "Economics Department",
+      "region": "FR",
+      "title": "Associate / Advanced Assistant Professor in Industrial Organization",
+      "tracks": [
+        "io"
+      ],
+      "job_family": "academic",
+      "tenure_status": "unknown",
+      "cycle": "2026-2027",
+      "published_at": null,
+      "deadline": "2026-11-20",
+      "start_date": "2027-09",
+      "status": "open",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://econjobmarket.org/positions/12858",
+          "label": "Original public recruitment announcement",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "The position is tenure-track or tenured, depending on experience.",
+      "evidence": "Source headline says flexible start; advertisement text specifies September 2027. Tenure depends on rank; no single tenure value assigned. Platform application deadline November 20 differs from posting end January 15; both retained.",
+      "aliases": [],
+      "dedupe_key": "essec-io-ejm12858",
+      "posting_end_date": "2027-01-15"
+    },
+    {
+      "id": "cornell-io-ejm12658",
+      "institution": "Cornell University",
+      "department": "Economics",
+      "region": "US",
+      "title": "Associate or Full Professor in Industrial Organization",
+      "tracks": [
+        "io"
+      ],
+      "job_family": "academic",
+      "tenure_status": "unknown",
+      "cycle": "2026-2027",
+      "published_at": null,
+      "deadline": "2026-11-07",
+      "start_date": "2027-07-01",
+      "status": "open",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://econjobmarket.org/positions/12658",
+          "label": "Employer EJM announcement"
+        },
+        {
+          "url": "https://academicjobsonline.org/ajo/jobs/32705",
+          "label": "Same advertisement application channel; not a second vacancy"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "Priority will be given to applications received by November 7, 2026.",
+      "evidence": "Platform labels November 7 application deadline; text calls it priority date, retained as both source-reported deadline and priority_deadline. Posting ends November 30; tenure not expressly stated. AJO32705 and EJM12658 are the same ad.",
+      "aliases": [
+        "AJO 32705"
+      ],
+      "dedupe_key": "cornell-io-ejm12658",
+      "priority_deadline": "2026-11-07",
+      "posting_end_date": "2026-11-30"
+    },
+    {
+      "id": "ubc-sbe-ejm12709",
+      "institution": "University of British Columbia",
+      "department": "Strategy and Business Economics, Sauder School of Business",
+      "region": "CA",
+      "title": "Tenure Track Position in International Trade and/or Industrial Organization",
+      "tracks": [
+        "io"
+      ],
+      "job_family": "academic",
+      "tenure_status": "confirmed_tt",
+      "cycle": "2026-2027",
+      "published_at": null,
+      "deadline": "2026-11-09",
+      "start_date": "2027-07-01",
+      "status": "open",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://econjobmarket.org/positions/12709",
+          "label": "Original public recruitment announcement",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "invites applications for a tenure track faculty position at the Assistant Professor rank",
+      "evidence": "November9 platform deadline; ad text allows later applications until filled. Start and appointment subject to budgetary approval. Senior ranks also considered, exact headcount undisclosed.",
+      "aliases": [],
+      "dedupe_key": "ubc-sbe-ejm12709",
+      "priority_deadline": "2026-11-09"
+    },
+    {
+      "id": "melbourne-lecturer-jr014835",
+      "institution": "University of Melbourne",
+      "department": "Department of Management and Marketing",
+      "region": "AU",
+      "title": "Lecturer, Management and Marketing · education-focused",
+      "tracks": [
+        "marketing"
+      ],
+      "job_family": "teaching",
+      "tenure_status": "unknown",
+      "cycle": "2026",
+      "published_at": null,
+      "deadline": null,
+      "start_date": null,
+      "status": "closed",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://unimelb.wd105.myworkdayjobs.com/en-US/UoM_External_Career/job/Lecturer--Management-and-Marketing_JR-014835",
+          "label": "Original public recruitment announcement",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "Part Time (0.4 FTE), Fixed term until 13 December 2026",
+      "evidence": "Historical 2026 teaching call, 0.4FTE fixed term. Header deadline July3 vs body July2 2026 23:55 conflict retained; deadline left null. Both dates passed; no hire inferred.",
+      "aliases": [],
+      "dedupe_key": "melbourne-lecturer-jr014835",
+      "deadline_conflict": [
+        "2026-07-02",
+        "2026-07-03"
+      ],
+      "end_date": "2026-12-13"
+    },
+    {
+      "id": "rmit-marketing-jr51559",
+      "institution": "RMIT University",
+      "department": "School of Economics, Finance and Marketing",
+      "region": "AU",
+      "title": "Expression of Interest for Sessional Teaching (Marketing)",
+      "tracks": [
+        "marketing"
+      ],
+      "job_family": "teaching",
+      "tenure_status": "unknown",
+      "cycle": "2026-2027",
+      "published_at": null,
+      "deadline": null,
+      "start_date": "2027-03",
+      "status": "unknown",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://rmit.wd3.myworkdayjobs.com/en-US/RMIT_Careers/job/College-of-Business-and-Law---Expression-of-Interest-for-Sessional-Teaching--Marketing----School-of-Economics--Finance-and-Marketing_JR51559",
+          "label": "Original public recruitment announcement",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "Casual hours commencing March 2027",
+      "evidence": "Expression of interest for casual teaching; does not establish a confirmed vacancy count or permanent research faculty appointment. Exact closing date not disclosed; status unverified.",
+      "aliases": [],
+      "dedupe_key": "rmit-marketing-jr51559"
+    },
+    {
+      "id": "kellogg-marketing-2027-2028",
+      "institution": "Northwestern University",
+      "department": "Marketing Department",
+      "region": "US",
+      "title": "Assistant Professor, Marketing Department",
+      "tracks": [
+        "marketing"
+      ],
+      "job_family": "academic",
+      "tenure_status": "unknown",
+      "cycle": "2027-2028",
+      "published_at": null,
+      "deadline": null,
+      "start_date": null,
+      "status": "unknown",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/academics-research/faculty-recruiting/",
+          "label": "Original public recruitment announcement",
+          "checked_at": "2026-10-24"
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "quote": "one or more full-time positions ... for academic year 2027-2028",
+      "evidence": "Official text explicitly says academic year2027-2028, but interview consideration deadline July3 2026. Preserve this year mismatch and unknown live status; do not silently recode to2026-2027. One or more is a lower bound1, not exact headcount.",
+      "aliases": [],
+      "dedupe_key": "kellogg-marketing-2027-2028",
+      "priority_deadline": "2026-07-03",
+      "positions_lower_bound": 1,
+      "cycle_conflict": "Academic year2027-2028 vs recruitment consideration date2026-07-03"
+    }
+  ]
+}

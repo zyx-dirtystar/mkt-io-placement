@@ -8,9 +8,10 @@ const baseline=read('data/faculty-baseline-macao-australia-2026-10-23.json'),rec
 const hash=v=>crypto.createHash('sha256').update(JSON.stringify(v)).digest('hex');
 assert.equal(hash(read('data/scope.json')),baseline.placement_scope_sha256,'The fixed doctoral placement universe must not expand with receiving geography');
 for(const [name,expected] of Object.entries(baseline.historical_reports))assert.equal(hash(read('data/'+name+'.json')),expected,'Dated historical release changed: '+name);
+const receipt=read('data/faculty-depth-receipt-2026-10-24.json');const batches=receipt.batches.map(b=>{const x=read(b.path);assert.equal(hash(x),b.sha256);assert.ok(a.import_batches.some(i=>i.id===b.id&&i.sha256===b.sha256));return x});const batch={people:batches.flatMap(b=>b.people)};const reviewed=new Map(receipt.profiles.map(r=>[r.before.id,r]));
 const oldIds=new Set(baseline.people.map(p=>p.id)),newHosts=new Map(plan.schools.map(h=>[h.id,h]));
 assert.equal(baseline.people.length,1114);assert.equal(baseline.hosts.length,67);
-for(const b of baseline.people){const p=a.people.find(p=>p.id===b.id);assert.ok(p,'Lost existing faculty '+b.id);assert.equal(hash(p),b.snapshot_sha256,'Existing faculty evidence changed without scope '+b.id);assert.deepEqual(p.current,b.current,'Unreviewed change to existing appointment '+b.id);assert.deepEqual(p.phd,b.phd,'Unreviewed change to existing degree '+b.id);}
+for(const b of baseline.people){const p=a.people.find(p=>p.id===b.id);assert.ok(p,'Lost existing faculty '+b.id);const review=reviewed.get(b.id);if(review){assert.equal(hash(review.before),b.snapshot_sha256);assert.equal(hash(p),review.after_sha256);assert.ok(batch.people.some(x=>x.existing_faculty_id===p.id));}else assert.equal(hash(p),b.snapshot_sha256,'Existing faculty evidence changed without reviewed batch '+b.id);assert.deepEqual(p.current,b.current,'Unreviewed change to existing appointment '+b.id);if(!reviewed.has(b.id))assert.deepEqual(p.phd,b.phd,'Unreviewed change to existing degree '+b.id);}
 assert.deepEqual(records.map(r=>r.id).sort(),baseline.placement_facts.map(r=>r.id).sort(),'Receiving extension cannot add placement people');
 for(const b of baseline.placement_facts){const p=records.find(p=>p.id===b.id);for(const k of Object.keys(b))assert.deepEqual(p[k],b[k],'Placement history changed '+b.id+' / '+k);}
 const added=a.people.filter(p=>!oldIds.has(p.id));
@@ -33,3 +34,4 @@ assert.equal(schools.length,11);assert.ok(schools.every(h=>h.started&&h.check?.s
 for(const h of schools){assert.ok(h.people.length>0||h.state==='blocked',h.id+' actual data or access limitation');if(h.state==='complete')assert.equal(h.roster_total,h.check.roster.member_ids.length);}
 for(const name of ['faculty-na-audit-2026-10-22','faculty-followup-audit-2026-10-22'])assert.equal(read('data/'+name+'.json').as_of,'2026-10-22','Historical release must remain dated');
 console.log(JSON.stringify({faculty_extension:'passed',selected_schools:schools.length,new_people:added.length,regions:Object.fromEntries(['MO','AU'].map(r=>[r,added.filter(p=>p.current.region===r).length]))}));
+

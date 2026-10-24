@@ -14,3 +14,7 @@ data/source-snapshots/
 dist/data/observatory.json
 dist/data/quality-report.json
 dist/data/release-report.json
+
+dist/data/catalog-runtime.json
+dist/data/observatory-runtime.json
+dist/data/faculty-profiles/

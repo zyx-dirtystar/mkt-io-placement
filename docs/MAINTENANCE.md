@@ -97,11 +97,11 @@ node scripts/register-applied-batch.mjs data/research-updates/日期批次.json
 ## 来源变化检测
 
 ```sh
-node scripts/check-sources.mjs --limit=40 --concurrency=3 --timeout=15000
+node scripts/check-sources.mjs --limit=160 --concurrency=3 --timeout=15000
 node scripts/sync-data.mjs
 ```
 
-从人员、项目、教师、覆盖和招聘资料中发现 URL，优先轮换检查最久未查的来源。限制并发、单份大小与超时；保存 ETag、Last-Modified、原始字节哈希、标准化文本哈希、摘要、抓取时间和历史快照路径。仅在本地原始快照存在时发送条件请求；缓存被清空而元数据还在时会重新完整抓取。
+从人员、项目、教师、覆盖和招聘资料中发现 URL，按招聘2天、目录14天、历史资料45天的到期窗口轮换检查，优先招聘和从未抓取的来源；手动指定 URL 不受轮换到期限制。限制并发、单份大小与超时；保存 ETag、Last-Modified、原始字节哈希、标准化文本哈希、摘要、抓取时间和历史快照路径。仅在本地原始快照存在时发送条件请求；缓存被清空而元数据还在时会重新完整抓取。
 
 HTML 提取可读文本并忽略脚本、样式和标签变化。PDF 保留原始文件哈希和快照；系统有 `pdftotext` 时提取文本，没有解析器时明确标注 `pdf_hash_only_parser_unavailable`，不声称已经读到 CV。二进制哈希变化只是核验线索，不能直接证明事实改变。
 
@@ -155,3 +155,9 @@ node scripts/check-faculty-extensions.mjs
 ```
 
 The extension checker verifies preserved IDs, original placement scope and first/final/later appointment facts, historical report hashes, all selected school checks, cited degree years and concrete unknown reasons. The dated 2026-10-22 North America and follow-up reports are frozen when a later archive is present; current totals are computed independently. The extension report is regenerated during synchronization. No network crawl is required for builds.
+
+## Runtime evidence indexes (1.2.0)
+
+`sync-data.mjs` generates `catalog-runtime.json`, `observatory-runtime.json` and one original profile per `faculty-profiles/<id>.json`. These are build outputs; never edit them. Physical Unicode filenames are retained and URL paths are encoded once. Faculty filters use the compact index; full profiles and evidence exports hydrate on demand. Compatibility full JSON remains available. Historical dated audit reports are frozen; use a new reviewed batch and a new report instead of rewriting an old release.
+
+The 2026-10-24 depth receipt records immutable batch hashes, original profiles and final profile hashes. The change report counts semantic appointments separately from date refinements; do not report appended array entries as new careers. See [the release audit](DEPTH-REVIEW-2026-10-24.md).

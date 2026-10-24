@@ -1,0 +1,654 @@
+{
+  "id": "faculty-tami-year-evidence-correction-2026-10-24",
+  "checked_at": "2026-10-24",
+  "people": [
+    {
+      "name": "Tami Kim",
+      "aliases": [],
+      "host_id": "dartmouth-college-marketing",
+      "faculty_scope": "research_professoriate",
+      "current": {
+        "institution": "Dartmouth College",
+        "region": "US",
+        "role": "Associate Professor of Business Administration",
+        "start_year": null,
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Harvard University",
+        "program": "DBA, Marketing",
+        "region": "US",
+        "year": null,
+        "evidence_status": "indexed_year_unverified",
+        "reported_year": 2017
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+      "cv_url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+      "sources": [
+        {
+          "url": "https://tuck.dartmouth.edu/faculty/faculty-directory",
+          "label": "官方Marketing目录",
+          "quote": "Associate Professor of Business Administration",
+          "supports": [
+            "current.role",
+            "current.institution"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "confirmed_factual_reference"
+        },
+        {
+          "url": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+          "label": "官方教师个人页",
+          "quote": "Associate Professor of Business Administration",
+          "supports": [
+            "current.role",
+            "identity"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "confirmed_factual_reference"
+        },
+        {
+          "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+          "label": "已逐项核对的学位资料",
+          "quote": "Doctor of Business Administration, Marketing",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.year"
+          ],
+          "checked_at": "2026-10-22",
+          "status": "confirmed_factual_reference"
+        },
+        {
+          "url": "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+          "label": "Official historical degree / career evidence",
+          "quote": null,
+          "supports": [],
+          "checked_at": "2026-10-24",
+          "fetched_at": "2026-10-24",
+          "access_status": "unavailable_original_document",
+          "indexed_quote": "Tami Kim (DBA 2017)",
+          "access_reason": "Direct URL returns generic homepage HTML, not the original PDF; web reader404. Year claim withdrawn pending a readable original."
+        },
+        {
+          "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+          "label": "Official CV · career fragment; present is snapshot-only",
+          "quote": "ami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, B",
+          "supports": [
+            "career_events.1"
+          ],
+          "checked_at": "2026-10-24",
+          "fetched_at": "2026-10-24",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+          "label": "Official CV · career fragment; present is snapshot-only",
+          "quote": "w (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020 – 05/2024) EDUCATION Harvard Business School Doctor of Business Administration, Marketing H",
+          "supports": [
+            "career_events.0"
+          ],
+          "checked_at": "2026-10-24",
+          "fetched_at": "2026-10-24",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+          "label": "Retrieved official CV bytes",
+          "snapshot_sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+          "quote": null,
+          "supports": [],
+          "checked_at": "2026-10-24",
+          "access_status": "content_read"
+        },
+        {
+          "url": "https://news.darden.virginia.edu/articles/welcomes-six-new-professors",
+          "label": "Live official UVA announcement, August29 2017",
+          "quote": "Harvard Business School, where she recently finished her DBA.",
+          "supports": [
+            "phd.school"
+          ],
+          "source_date": "2017-08-29",
+          "checked_at": "2026-10-24",
+          "access_status": "content_read"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "academic",
+          "institution": "University of Virginia",
+          "role": "Assistant Professor of Marketing",
+          "start_year": 2017,
+          "end_year": 2024,
+          "date_precision": "month",
+          "status": "historical_interval",
+          "source_urls": [
+            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+          ],
+          "quote": "Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020",
+          "checked_at": "2026-10-24",
+          "first_job_status": "not_asserted",
+          "source_snapshot_only": false,
+          "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。",
+          "title": "Assistant Professor, Marketing",
+          "start_date": "2017-07",
+          "end_date": "2024-05",
+          "evidence": "w (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020 – 05/2024) EDUCATION Harvard Business School Doctor of Business Administration, Marketing H",
+          "evidence_versions": [
+            {
+              "type": "appointment",
+              "institution": "University of Virginia",
+              "role": "Assistant Professor of Marketing",
+              "start_year": 2017,
+              "end_year": 2024,
+              "date_precision": "year",
+              "status": "reported_in_source",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "quote": "Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020",
+              "checked_at": "2026-10-22",
+              "first_job_status": "not_asserted",
+              "source_snapshot_only": true,
+              "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+            }
+          ]
+        },
+        {
+          "type": "academic",
+          "institution": "Dartmouth College",
+          "role": "Associate Professor of Marketing (without tenure)",
+          "start_year": 2024,
+          "end_year": null,
+          "date_precision": "month",
+          "status": "historical_cv_snapshot",
+          "source_urls": [
+            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+          ],
+          "quote": "ory/tami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow",
+          "checked_at": "2026-10-24",
+          "first_job_status": "not_asserted",
+          "source_snapshot_only": true,
+          "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。",
+          "title": "Associate Professor (without tenure), Marketing",
+          "start_date": "2024-07",
+          "end_date": null,
+          "evidence": "ami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, B",
+          "evidence_versions": [
+            {
+              "type": "appointment",
+              "institution": "Dartmouth College",
+              "role": "Associate Professor of Marketing (without tenure)",
+              "start_year": 2024,
+              "end_year": null,
+              "date_precision": "year",
+              "status": "reported_in_source",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "quote": "ory/tami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow",
+              "checked_at": "2026-10-22",
+              "first_job_status": "not_asserted",
+              "source_snapshot_only": true,
+              "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+            }
+          ]
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "phd.year",
+          "reason": "Source access conflict:2017 remains an indexed Harvard graduation-year lead, but direct original graduation PDFs return generic HTML/404; readable current CV omits degree year. Live August2017 UVA announcement confirms finished DBA but does not explicitly date the award. Confirmed year withdrawn; no appointment-year substitution.",
+          "values": [
+            2017,
+            null
+          ],
+          "source_urls": [
+            "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+            "https://www.hbs.edu/doctoral/Documents/2019_recent_placement_summary.pdf",
+            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+          ]
+        }
+      ],
+      "verification": {
+        "profile_status": "read",
+        "degree_status": "checked_with_explicit_unknowns",
+        "career_status": "partial_path_verified",
+        "access_detail": null,
+        "profile_sha256": "dd40882758e50e16bfed237a0f176c1064180e03f14b6723dd3e8cc902eea681",
+        "cv_links": [
+          {
+            "text": "View CV",
+            "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+            "status": 200,
+            "error": null,
+            "is_pdf": true,
+            "is_docx": false,
+            "sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+            "text_chars": 14889
+          }
+        ],
+        "cv_access": {
+          "url": "https://tuck.dartmouth.edu/about/deans-message/biography",
+          "status": 200,
+          "error": null,
+          "sha256": "1f9e013aeb96779e560107834772290179d9bfb88685bbe73f428d845c97bcf1",
+          "is_pdf": false
+        },
+        "cv_status": "full_text_read",
+        "cv_sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+        "as_of": "2026-10-22"
+      },
+      "classification_status": "department_scope_only",
+      "id": "faculty-dartmouth-college-tamikim",
+      "placement_id": null,
+      "checked_at": "2026-10-24",
+      "faculty_type": "research",
+      "career_sequence_complete": false,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-career-missing-and-dedupe-2026-10-24",
+      "existing_faculty_id": "faculty-dartmouth-college-tamikim",
+      "identity_evidence": {
+        "basis": "Stable faculty ID and exact Tuck individual profile, audit-only evidence-status correction",
+        "source_urls": [
+          "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim"
+        ]
+      },
+      "resolved_unknowns": [
+        {
+          "field": "biography",
+          "reason": "已读学历资料未明确博士授予年份；未用求职、加入本校、首次任职或博士论文奖年份填充。"
+        }
+      ],
+      "verification_history": [
+        {
+          "checked_at": "2026-10-24",
+          "note": "Official CV re-read; dated fragments appended. Missing degree years stay unknown when education section omits dates; old current-at-check observations preserved."
+        }
+      ],
+      "previous_versions": [
+        {
+          "name": "Tami Kim",
+          "aliases": [],
+          "host_id": "dartmouth-college-marketing",
+          "faculty_scope": "research_professoriate",
+          "current": {
+            "institution": "Dartmouth College",
+            "region": "US",
+            "role": "Associate Professor of Business Administration",
+            "start_year": null,
+            "status": "official_directory"
+          },
+          "phd": {
+            "school": "Harvard University",
+            "program": "DBA, Marketing",
+            "region": "US",
+            "year": null
+          },
+          "tracks": [
+            "marketing"
+          ],
+          "fields": [],
+          "homepage": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+          "cv_url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+          "sources": [
+            {
+              "url": "https://tuck.dartmouth.edu/faculty/faculty-directory",
+              "label": "官方Marketing目录",
+              "quote": "Associate Professor of Business Administration",
+              "supports": [
+                "current.role",
+                "current.institution"
+              ],
+              "checked_at": "2026-10-22",
+              "status": "confirmed_factual_reference"
+            },
+            {
+              "url": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+              "label": "官方教师个人页",
+              "quote": "Associate Professor of Business Administration",
+              "supports": [
+                "current.role",
+                "identity"
+              ],
+              "checked_at": "2026-10-22",
+              "status": "confirmed_factual_reference"
+            },
+            {
+              "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+              "label": "已逐项核对的学位资料",
+              "quote": "Doctor of Business Administration, Marketing",
+              "supports": [
+                "phd.school",
+                "phd.program",
+                "phd.year"
+              ],
+              "checked_at": "2026-10-22",
+              "status": "confirmed_factual_reference"
+            }
+          ],
+          "career_events": [
+            {
+              "type": "appointment",
+              "institution": "University of Virginia",
+              "role": "Assistant Professor of Marketing",
+              "start_year": 2017,
+              "end_year": 2024,
+              "date_precision": "year",
+              "status": "reported_in_source",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "quote": "Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020",
+              "checked_at": "2026-10-22",
+              "first_job_status": "not_asserted",
+              "source_snapshot_only": true,
+              "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+            },
+            {
+              "type": "appointment",
+              "institution": "Dartmouth College",
+              "role": "Associate Professor of Marketing (without tenure)",
+              "start_year": 2024,
+              "end_year": null,
+              "date_precision": "year",
+              "status": "reported_in_source",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "quote": "ory/tami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow",
+              "checked_at": "2026-10-22",
+              "first_job_status": "not_asserted",
+              "source_snapshot_only": true,
+              "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+            }
+          ],
+          "unknowns": [
+            {
+              "field": "biography",
+              "reason": "已读学历资料未明确博士授予年份；未用求职、加入本校、首次任职或博士论文奖年份填充。"
+            }
+          ],
+          "verification": {
+            "profile_status": "read",
+            "degree_status": "checked_with_explicit_unknowns",
+            "career_status": "partial_path_verified",
+            "access_detail": null,
+            "profile_sha256": "dd40882758e50e16bfed237a0f176c1064180e03f14b6723dd3e8cc902eea681",
+            "cv_links": [
+              {
+                "text": "View CV",
+                "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+                "status": 200,
+                "error": null,
+                "is_pdf": true,
+                "is_docx": false,
+                "sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+                "text_chars": 14889
+              }
+            ],
+            "cv_access": {
+              "url": "https://tuck.dartmouth.edu/about/deans-message/biography",
+              "status": 200,
+              "error": null,
+              "sha256": "1f9e013aeb96779e560107834772290179d9bfb88685bbe73f428d845c97bcf1",
+              "is_pdf": false
+            },
+            "cv_status": "full_text_read",
+            "cv_sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+            "as_of": "2026-10-22"
+          },
+          "classification_status": "department_scope_only",
+          "id": "faculty-dartmouth-college-tamikim",
+          "placement_id": null,
+          "checked_at": "2026-10-22",
+          "faculty_type": "research",
+          "career_sequence_complete": false,
+          "carried_forward": [],
+          "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+          "import_batch_id": "2026-10-22-faculty-na-c"
+        },
+        {
+          "name": "Tami Kim",
+          "aliases": [],
+          "host_id": "dartmouth-college-marketing",
+          "faculty_scope": "research_professoriate",
+          "current": {
+            "institution": "Dartmouth College",
+            "region": "US",
+            "role": "Associate Professor of Business Administration",
+            "start_year": null,
+            "status": "official_directory"
+          },
+          "phd": {
+            "school": "Harvard University",
+            "program": "DBA, Marketing",
+            "region": "US",
+            "year": 2017,
+            "evidence_status": "source_quoted"
+          },
+          "tracks": [
+            "marketing"
+          ],
+          "fields": [],
+          "homepage": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+          "cv_url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+          "sources": [
+            {
+              "url": "https://tuck.dartmouth.edu/faculty/faculty-directory",
+              "label": "官方Marketing目录",
+              "quote": "Associate Professor of Business Administration",
+              "supports": [
+                "current.role",
+                "current.institution"
+              ],
+              "checked_at": "2026-10-22",
+              "status": "confirmed_factual_reference"
+            },
+            {
+              "url": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+              "label": "官方教师个人页",
+              "quote": "Associate Professor of Business Administration",
+              "supports": [
+                "current.role",
+                "identity"
+              ],
+              "checked_at": "2026-10-22",
+              "status": "confirmed_factual_reference"
+            },
+            {
+              "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+              "label": "已逐项核对的学位资料",
+              "quote": "Doctor of Business Administration, Marketing",
+              "supports": [
+                "phd.school",
+                "phd.program",
+                "phd.year"
+              ],
+              "checked_at": "2026-10-22",
+              "status": "confirmed_factual_reference"
+            },
+            {
+              "url": "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+              "label": "Official historical degree / career evidence",
+              "quote": "Tami Kim (DBA 2017)",
+              "supports": [
+                "phd.school",
+                "phd.year"
+              ],
+              "checked_at": "2026-10-24",
+              "fetched_at": "2026-10-24",
+              "access_status": "content_read"
+            },
+            {
+              "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+              "label": "Official CV · career fragment; present is snapshot-only",
+              "quote": "ami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, B",
+              "supports": [
+                "career_events.2"
+              ],
+              "checked_at": "2026-10-24",
+              "fetched_at": "2026-10-24",
+              "access_status": "content_read"
+            },
+            {
+              "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+              "label": "Official CV · career fragment; present is snapshot-only",
+              "quote": "w (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020 – 05/2024) EDUCATION Harvard Business School Doctor of Business Administration, Marketing H",
+              "supports": [
+                "career_events.3"
+              ],
+              "checked_at": "2026-10-24",
+              "fetched_at": "2026-10-24",
+              "access_status": "content_read"
+            },
+            {
+              "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+              "label": "Retrieved official CV bytes",
+              "snapshot_sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+              "quote": null,
+              "supports": [],
+              "checked_at": "2026-10-24",
+              "access_status": "content_read"
+            }
+          ],
+          "career_events": [
+            {
+              "type": "appointment",
+              "institution": "University of Virginia",
+              "role": "Assistant Professor of Marketing",
+              "start_year": 2017,
+              "end_year": 2024,
+              "date_precision": "year",
+              "status": "reported_in_source",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "quote": "Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020",
+              "checked_at": "2026-10-22",
+              "first_job_status": "not_asserted",
+              "source_snapshot_only": true,
+              "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+            },
+            {
+              "type": "appointment",
+              "institution": "Dartmouth College",
+              "role": "Associate Professor of Marketing (without tenure)",
+              "start_year": 2024,
+              "end_year": null,
+              "date_precision": "year",
+              "status": "reported_in_source",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "quote": "ory/tami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow",
+              "checked_at": "2026-10-22",
+              "first_job_status": "not_asserted",
+              "source_snapshot_only": true,
+              "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+            },
+            {
+              "type": "academic",
+              "institution": "Dartmouth College",
+              "title": "Associate Professor (without tenure), Marketing",
+              "start_date": "2024-07",
+              "end_date": null,
+              "date_precision": "month",
+              "status": "historical_cv_snapshot",
+              "source_snapshot_only": true,
+              "checked_at": "2026-10-24",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "evidence": "ami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, B"
+            },
+            {
+              "type": "academic",
+              "institution": "University of Virginia",
+              "title": "Assistant Professor, Marketing",
+              "start_date": "2017-07",
+              "end_date": "2024-05",
+              "date_precision": "month",
+              "status": "historical_interval",
+              "source_snapshot_only": false,
+              "checked_at": "2026-10-24",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ],
+              "evidence": "w (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020 – 05/2024) EDUCATION Harvard Business School Doctor of Business Administration, Marketing H"
+            }
+          ],
+          "unknowns": [],
+          "verification": {
+            "profile_status": "read",
+            "degree_status": "checked_with_explicit_unknowns",
+            "career_status": "partial_path_verified",
+            "access_detail": null,
+            "profile_sha256": "dd40882758e50e16bfed237a0f176c1064180e03f14b6723dd3e8cc902eea681",
+            "cv_links": [
+              {
+                "text": "View CV",
+                "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+                "status": 200,
+                "error": null,
+                "is_pdf": true,
+                "is_docx": false,
+                "sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+                "text_chars": 14889
+              }
+            ],
+            "cv_access": {
+              "url": "https://tuck.dartmouth.edu/about/deans-message/biography",
+              "status": 200,
+              "error": null,
+              "sha256": "1f9e013aeb96779e560107834772290179d9bfb88685bbe73f428d845c97bcf1",
+              "is_pdf": false
+            },
+            "cv_status": "full_text_read",
+            "cv_sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+            "as_of": "2026-10-22"
+          },
+          "classification_status": "department_scope_only",
+          "id": "faculty-dartmouth-college-tamikim",
+          "placement_id": null,
+          "checked_at": "2026-10-24",
+          "faculty_type": "research",
+          "career_sequence_complete": false,
+          "carried_forward": [],
+          "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+          "import_batch_id": "faculty-depth-official-cv-2026-10-24",
+          "existing_faculty_id": "faculty-dartmouth-college-tamikim",
+          "identity_evidence": {
+            "basis": "Same stable faculty ID and official individual CV/profile, institution and name cross-checked",
+            "source_urls": [
+              "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+            ]
+          },
+          "resolved_unknowns": [
+            {
+              "field": "biography",
+              "reason": "已读学历资料未明确博士授予年份；未用求职、加入本校、首次任职或博士论文奖年份填充。"
+            }
+          ],
+          "verification_history": [
+            {
+              "checked_at": "2026-10-24",
+              "note": "Official CV re-read; dated fragments appended. Missing degree years stay unknown when education section omits dates; old current-at-check observations preserved."
+            }
+          ]
+        }
+      ],
+      "career_review": {
+        "checked_at": "2026-10-24",
+        "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
+        "status": "partial_history_verified"
+      }
+    }
+  ],
+  "schools": []
+}

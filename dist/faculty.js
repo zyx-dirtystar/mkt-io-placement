@@ -1,4 +1,4 @@
-import {csvCell} from './core.js?v=1.1.1';
+import {csvCell} from './core.js?v=1.2.0';
 
 export const GRAD_GROUPS={recent:'PhD awarded in the archive window',historical:'PhD awarded before the archive window',newer:'PhD awarded after the archive window',unknown:'PhD award year unknown'};
 export const ORIGIN_GROUPS={target:'Within the 58-program Marketing scope',extension:'Other programs in the US, Canada, Hong Kong or Singapore',outside:'Outside the doctoral-program scope',unknown:'Doctoral origin unknown'};

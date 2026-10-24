@@ -1,0 +1,204 @@
+{
+  "id": "faculty-hibbard-career-2026-10-24",
+  "checked_at": "2026-10-24",
+  "people": [
+    {
+      "name": "Jonathan Hibbard",
+      "aliases": [],
+      "host_id": "boston-university-marketing",
+      "faculty_type": "research",
+      "membership_type": "research",
+      "eligibility": {
+        "research_roster": true,
+        "basis": "本轮官方院系研究教师目录与职称",
+        "source_url": "https://www.bu.edu/questrom/faculty/academic-departments/marketing/"
+      },
+      "current": {
+        "institution": "Boston University",
+        "department": "Marketing",
+        "region": "US",
+        "role": "Assistant Professor, Marketing",
+        "start_year": null,
+        "tenure_status": "unknown",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Northwestern University",
+        "program": "Marketing",
+        "region": "US",
+        "year": 1995,
+        "degree": "PhD",
+        "year_basis": "explicit_official_profile_education_year",
+        "evidence": {
+          "url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+          "quote": "nwealth Avenue Boston, MA 02215 (617) 353-4411 jhibbard@bu.edu EDUCATION Northwestern University Evanston, IL J.L. Kellogg Graduate School of Management Ph.D. in Marketing Northwestern University Evanston, IL J.L. Kellogg Graduate School of Management Master of Business Administration (with distinction) Boston University Questrom School of Business Boston, MA Bachelor of Science in Business Administration (summa cum laude) SELECTED PUBLICATIONS Eslami, Hadi, Manish Kacker and Jonathan D. Hibbard (2020), \"Antecedents of Locus of Causality Attributions for Destructive Acts in Distribution Channels,\" Journal of Business Research, 1-13. Hibbard, Jonathan, Manish Kacker and Farhad Sadeh (2019), “Performance Impact of Distribution Expansion: A Review and Research Agenda,” in",
+          "locator": "CV pp. 1–2, Education",
+          "checked_at": "2026-10-22",
+          "status": "confirmed"
+        },
+        "year_evidence": {
+          "url": "https://www.bu.edu/questrom/profiles/jonathan-hibbard/",
+          "quote": "Education PhD, Northwestern University, J.L. Kellogg Graduate School of Management, 1995",
+          "checked_at": "2026-10-22",
+          "status": "confirmed"
+        },
+        "reported_region": "United States",
+        "program_id": "northwestern-university-marketing"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://www.bu.edu/questrom/profiles/jonathan-hibbard/",
+      "cv_url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+      "sources": [
+        {
+          "url": "https://www.bu.edu/questrom/faculty/academic-departments/marketing/",
+          "label": "官方院系教师目录",
+          "quote": "Assistant Professor, Marketing",
+          "supports": [
+            "current.role",
+            "membership_type",
+            "eligibility"
+          ],
+          "checked_at": "2026-10-22",
+          "locator": "Jonathan Hibbard"
+        },
+        {
+          "url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+          "label": "Doctoral education: official profile or linked CV",
+          "quote": "nwealth Avenue Boston, MA 02215 (617) 353-4411 jhibbard@bu.edu EDUCATION Northwestern University Evanston, IL J.L. Kellogg Graduate School of Management Ph.D. in Marketing Northwestern University Evanston, IL J.L. Kellogg Graduate School of Management Master of Business Administration (with distinction) Boston University Questrom School of Business Boston, MA Bachelor of Science in Business Administration (summa cum laude) SELECTED PUBLICATIONS Eslami, Hadi, Manish Kacker and Jonathan D. Hibbard (2020), \"Antecedents of Locus of Causality Attributions for Destructive Acts in Distribution Channels,\" Journal of Business Research, 1-13. Hibbard, Jonathan, Manish Kacker and Farhad Sadeh (2019), “Performance Impact of Distribution Expansion: A Review and Research Agenda,” in",
+          "locator": "CV pp. 1–2, Education",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.degree"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.bu.edu/questrom/profiles/jonathan-hibbard/",
+          "label": "Official profile education entry",
+          "quote": "Education PhD, Northwestern University, J.L. Kellogg Graduate School of Management, 1995",
+          "supports": [
+            "phd.school",
+            "phd.year"
+          ],
+          "locator": "Education",
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+          "label": "Revised Dec2024 official BU CV: teaching experience section",
+          "quote": "1994-present Boston University School of Management Boston, MA Assistant Professor of Marketing Marketing Management – Undergraduate; Advanced Marketing Strategy Faculty Lead, SM323 - The Cross Functi",
+          "supports": [
+            "career_events.0"
+          ],
+          "checked_at": "2026-10-24",
+          "access_status": "content_read"
+        },
+        {
+          "url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+          "label": "Revised Dec2024 official BU CV: teaching experience section",
+          "quote": "1991-1993 Northwestern University Evanston, IL Teaching Assistant, Kellogg Graduate School of Management WORK EXPERIENCE Harvard Business School Boston, MA Associate in Research Using survey data, res",
+          "supports": [
+            "career_events.1"
+          ],
+          "checked_at": "2026-10-24",
+          "access_status": "content_read"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "academic",
+          "institution": "Boston University",
+          "title": "Assistant Professor of Marketing",
+          "start_date": "1994",
+          "end_date": null,
+          "date_precision": "year",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "checked_at": "2026-10-24",
+          "source_urls": [
+            "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf"
+          ],
+          "evidence": "1994-present Boston University School of Management Boston, MA Assistant Professor of Marketing Marketing Management – Undergraduate; Advanced Marketing Strategy Faculty Lead, SM323 - The Cross Functi"
+        },
+        {
+          "type": "teaching",
+          "institution": "Northwestern University",
+          "title": "Teaching Assistant, Kellogg Graduate School of Management",
+          "start_date": "1991",
+          "end_date": "1993",
+          "date_precision": "year",
+          "status": "historical_interval",
+          "source_snapshot_only": false,
+          "checked_at": "2026-10-24",
+          "source_urls": [
+            "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf"
+          ],
+          "evidence": "1991-1993 Northwestern University Evanston, IL Teaching Assistant, Kellogg Graduate School of Management WORK EXPERIENCE Harvard Business School Boston, MA Associate in Research Using survey data, res"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "目录确认现职；本轮未独立确定该现职开始年份。职业事件中较早同校任职起年不等于现职职级起年。"
+        },
+        {
+          "field": "career_events",
+          "reason": "已读官方资料未取得可核验的任职起止区间；未以现职替代首职或推算毕业后第一份工作。"
+        },
+        {
+          "field": "career_sequence_complete",
+          "reason": "仅收录有明确依据的经历片段；未确认全部职业空档与完整首职顺序。"
+        },
+        {
+          "field": "current.tenure_status",
+          "reason": "除逐条明确含tenure字样的证据外，原始职称不能独立证明tenure/tenure-track状态。"
+        },
+        {
+          "field": "career_sequence",
+          "reason": "Historical Dec2024 CV reports Assistant Professor from1994; current directory title differs. The open CV interval is preserved as a historical snapshot, not extended through today. Later rank dates remain unknown."
+        }
+      ],
+      "checked_at": "2026-10-22",
+      "career_sequence_complete": false,
+      "profile_read": {
+        "url": "https://www.bu.edu/questrom/profiles/jonathan-hibbard/",
+        "final_url": "https://www.bu.edu/questrom/profiles/jonathan-hibbard/",
+        "http_status": 200,
+        "sha256": "399f8d4420788a0d147e719854622225fdb6e5515a0f85b85aae056cf2b19ff9",
+        "checked_at": "2026-10-22"
+      },
+      "cv_read": {
+        "url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+        "checked_at": "2026-10-22",
+        "status": 200,
+        "final_url": "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf",
+        "content_type": "application/pdf",
+        "sha256": "ae838916dd4ed614b0eb255eb180cd0f3d6761dfab3d326faf295cb67971c95b",
+        "read_status": "read",
+        "pages_total": 4,
+        "pages_read": [
+          1,
+          2
+        ],
+        "read_scope": "Education and appointment sections extracted from first two PDF pages; not a claim of full CV audit."
+      },
+      "id": "faculty-boston-university-jonathanhibbard",
+      "placement_id": null,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-na-b-2026-10-22",
+      "existing_faculty_id": "faculty-boston-university-jonathanhibbard",
+      "identity_evidence": {
+        "basis": "Stable ID and exact individual official BU CV URL",
+        "source_urls": [
+          "http://questromapps.bu.edu/faculty/uploadFiles/cvUploadsProfile/MK_Hibbard_Jonathan_CV.pdf"
+        ]
+      }
+    }
+  ],
+  "schools": []
+}

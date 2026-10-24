@@ -1,5 +1,5 @@
-import * as placements from './placement.js?v=1.1.1';
-import {TERM_LABELS} from './interface-terms.js?v=1.1.1';
+import * as placements from './placement.js?v=1.2.0';
+import {TERM_LABELS} from './interface-terms.js?v=1.2.0';
 
 export const YEAR_BASES={source:'Source roster year',graduation:'PhD graduation year',market:'Job market season start year',placement:'First job start year'};
 export const TRACK_NAMES={marketing:'Marketing',qm:'Quantitative Marketing',cb:'Consumer Behavior',strategy:'Marketing Strategy',io:'Economics / IO',empirical_io:'Empirical IO',theory_io:'Theory IO'};

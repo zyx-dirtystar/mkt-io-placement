@@ -4,7 +4,9 @@
     "institution": "University of Pennsylvania",
     "department": "Wharton Marketing Department",
     "region": "US",
-    "tracks": ["marketing"],
+    "tracks": [
+      "marketing"
+    ],
     "title": "Assistant Professor of Marketing (Tenure Track)",
     "job_family": "academic",
     "tenure_status": "confirmed_tt",
@@ -17,13 +19,21 @@
     "positions": null,
     "hires": null,
     "sources": [
-      {"url": "https://marketing.wharton.upenn.edu/faculty/faculty-recruiting-2026-2027/", "label": "院系官方2026–27招聘公告"},
-      {"url": "https://facultyjobs.upenn.edu/index.php/", "label": "学校官方职位目录：183635"}
+      {
+        "url": "https://marketing.wharton.upenn.edu/faculty/faculty-recruiting-2026-2027/",
+        "label": "院系官方2026–27招聘公告"
+      },
+      {
+        "url": "https://facultyjobs.upenn.edu/index.php/",
+        "label": "学校官方职位目录：183635"
+      }
     ],
     "checked_at": "2026-10-22",
     "evidence": "官方公告明确终身轨、2027-07-01预期入职；7月15日是优先面试材料日期，公告同时说明持续审阅直至招满，故不当作最终关闭日期。学校职位目录给出开放日。未公开准确人数，不由单篇公告推成一席。",
     "quote": "Applications will be reviewed until the position is filled.",
-    "aliases": ["Penn facultyjobs 183635"],
+    "aliases": [
+      "Penn facultyjobs 183635"
+    ],
     "dedupe_key": "penn|marketing|2026-2027|183635"
   },
   {
@@ -31,7 +41,9 @@
     "institution": "University of the Balearic Islands",
     "department": "Department of Business Economics",
     "region": "ES",
-    "tracks": ["marketing"],
+    "tracks": [
+      "marketing"
+    ],
     "title": "Assistant or Associate Professor in Business Economics, Management, Finance, Marketing, and Accounting",
     "job_family": "academic",
     "tenure_status": "confirmed_tt",
@@ -43,13 +55,23 @@
     "positions": null,
     "hires": null,
     "sources": [
-      {"url": "https://econjobmarket.org/positions/12847", "label": "招聘单位在EJM发布的原始公告"},
-      {"url": "https://exchange.akadeus.com/announcement/9936", "label": "同一公告的AKADEUS渠道；用于去重与发布日期"}
+      {
+        "url": "https://econjobmarket.org/positions/12847",
+        "label": "招聘单位在EJM发布的原始公告"
+      },
+      {
+        "url": "https://exchange.akadeus.com/announcement/9936",
+        "label": "同一公告的AKADEUS渠道；用于去重与发布日期"
+      }
     ],
     "checked_at": "2026-10-22",
     "evidence": "原公告明确tenure track，面向包括Marketing在内的多个方向；只计一篇跨方向招聘公告，各方向岗位人数未公布。EJM与AKADEUS是同一招聘，不重复计数。截止时间按EJM的UTC日期保留。",
     "quote": "at the level of tenure track Assistant or Associate Professor",
-    "aliases": ["EJM 12847", "AKADEUS 9936", "Universitat de les Illes Balears"],
+    "aliases": [
+      "EJM 12847",
+      "AKADEUS 9936",
+      "Universitat de les Illes Balears"
+    ],
     "dedupe_key": "uib|business-economics|2026-2027|12847"
   },
   {
@@ -57,7 +79,9 @@
     "institution": "KU Leuven",
     "department": "Faculty of Economics and Business / Department of Economics",
     "region": "BE",
-    "tracks": ["io"],
+    "tracks": [
+      "io"
+    ],
     "title": "Postdoctoral Research Fellow in Industrial Organization",
     "job_family": "postdoc",
     "tenure_status": "not_applicable",
@@ -70,13 +94,22 @@
     "positions": null,
     "hires": null,
     "sources": [
-      {"url": "https://econjobmarket.org/positions/12765", "label": "EJM原始职位编号；本次单页直连失败"},
-      {"url": "https://econjobmarket.org/positions", "label": "EJM公开职位总表：12765全文可读"}
+      {
+        "url": "https://econjobmarket.org/positions/12765",
+        "label": "EJM原始职位编号；本次单页直连失败"
+      },
+      {
+        "url": "https://econjobmarket.org/positions",
+        "label": "EJM公开职位总表：12765全文可读"
+      }
     ],
     "checked_at": "2026-10-22",
     "evidence": "公开总表明确IO博后，三年期限，开始时间灵活；区分11月优先日期与2027年4月最终申请日期。岗位单页本次受限，证据来自同平台公开总表，未虚称单页已成功读取。",
     "quote": "Postdoctoral Research Fellow in Industrial Organization",
-    "aliases": ["EJM 12765", "Katholieke Universiteit Leuven"],
+    "aliases": [
+      "EJM 12765",
+      "Katholieke Universiteit Leuven"
+    ],
     "dedupe_key": "kuleuven|io|2026-2027|12765"
   },
   {
@@ -84,7 +117,9 @@
     "institution": "Princeton University",
     "department": "Department of Economics",
     "region": "US",
-    "tracks": ["io"],
+    "tracks": [
+      "io"
+    ],
     "title": "Postdoctoral Research Associate - Industrial Organization",
     "job_family": "postdoc",
     "tenure_status": "not_applicable",
@@ -95,11 +130,18 @@
     "status": "open",
     "positions": null,
     "hires": null,
-    "sources": [{"url": "https://www.aeaweb.org/joe/listing.php?JOE_ID=2026-02_111477767", "label": "Princeton在AEA JOE发布的原始招聘"}],
+    "sources": [
+      {
+        "url": "https://www.aeaweb.org/joe/listing.php?JOE_ID=2026-02_111477767",
+        "label": "Princeton在AEA JOE发布的原始招聘"
+      }
+    ],
     "checked_at": "2026-10-22",
     "evidence": "公告面向IO，预期2027年9月开始，初始一年、可能续期；人数表述为一个或多个，故确切岗位数保持未知。",
     "quote": "one or more Postdoctoral Research Associates",
-    "aliases": ["JOE 2026-02_111477767"],
+    "aliases": [
+      "JOE 2026-02_111477767"
+    ],
     "dedupe_key": "princeton|io|2026-2027|111477767"
   },
   {
@@ -107,7 +149,9 @@
     "institution": "MITRE",
     "department": "Applied Microeconomics",
     "region": "US",
-    "tracks": ["io"],
+    "tracks": [
+      "io"
+    ],
     "title": "Industrial Organization Economist",
     "job_family": "research",
     "tenure_status": "not_applicable",
@@ -118,11 +162,18 @@
     "status": "open",
     "positions": null,
     "hires": null,
-    "sources": [{"url": "https://www.aeaweb.org/joe/listing.php?JOE_ID=2026-02_111477828", "label": "MITRE在AEA JOE发布的原始招聘"}],
+    "sources": [
+      {
+        "url": "https://www.aeaweb.org/joe/listing.php?JOE_ID=2026-02_111477828",
+        "label": "MITRE在AEA JOE发布的原始招聘"
+      }
+    ],
     "checked_at": "2026-10-22",
     "evidence": "全职非学术IO经济学家岗位，地点McLean，要求结构计量等经验。不是大学教职或博后；未公布招聘人数和开始日期。",
     "quote": "Full-Time Nonacademic",
-    "aliases": ["JOE 2026-02_111477828"],
+    "aliases": [
+      "JOE 2026-02_111477828"
+    ],
     "dedupe_key": "mitre|io|2026-2027|111477828"
   },
   {
@@ -131,7 +182,10 @@
     "department": "School of Management and Economics",
     "region": "CN",
     "location": "Beijing, on-site at collaborating company",
-    "tracks": ["marketing", "io"],
+    "tracks": [
+      "marketing",
+      "io"
+    ],
     "title": "Postdoctoral Fellow Positions in Platform Economics and Market Design",
     "job_family": "postdoc",
     "tenure_status": "not_applicable",
@@ -142,11 +196,18 @@
     "status": "open",
     "positions": null,
     "hires": null,
-    "sources": [{"url": "https://econjobmarket.org/positions/12463", "label": "招聘单位在EJM发布的原始公告"}],
+    "sources": [
+      {
+        "url": "https://econjobmarket.org/positions/12463",
+        "label": "招聘单位在EJM发布的原始公告"
+      }
+    ],
     "checked_at": "2026-10-22",
     "evidence": "公告明确两年博后，平台经济、市场设计及实证IO，平台标签同时包括Marketing。正式隶属港中文深圳，实际工作地点为北京合作企业，地区归中国大陆；复数岗位未公开确切数量。",
     "quote": "Location: Beijing (on-site at the collaborating company)",
-    "aliases": ["EJM 12463"],
+    "aliases": [
+      "EJM 12463"
+    ],
     "dedupe_key": "cuhksz|platform-economics|2026-2027|12463"
   },
   {
@@ -154,7 +215,9 @@
     "institution": "Liverpool John Moores University",
     "department": "Liverpool Business School",
     "region": "UK",
-    "tracks": ["marketing"],
+    "tracks": [
+      "marketing"
+    ],
     "title": "Associate Professor - Applied AI in Marketing",
     "job_family": "academic",
     "tenure_status": "unknown",
@@ -165,7 +228,12 @@
     "status": "open",
     "positions": null,
     "hires": null,
-    "sources": [{"url": "https://www.jobs.service.gov.uk/jobs/6acfa3aa813f93ba413df7f8", "label": "英国政府Work Hub公开招聘公告"}],
+    "sources": [
+      {
+        "url": "https://www.jobs.service.gov.uk/jobs/6acfa3aa813f93ba413df7f8",
+        "label": "英国政府Work Hub公开招聘公告"
+      }
+    ],
     "checked_at": "2026-10-22",
     "evidence": "公开公告列永久全职学术岗位和明确截止日期。Permanent合同不自动映射为美国式tenure-track，tenure状态保留未知。",
     "quote": "Associate Professor - Applied AI in Marketing",
@@ -177,7 +245,9 @@
     "institution": "University of Surrey",
     "department": "Surrey Business School",
     "region": "UK",
-    "tracks": ["marketing"],
+    "tracks": [
+      "marketing"
+    ],
     "title": "Associate Professor in Digital Marketing and Analytics",
     "job_family": "academic",
     "tenure_status": "unknown",
@@ -188,11 +258,284 @@
     "status": "historical",
     "positions": null,
     "hires": null,
-    "sources": [{"url": "https://jobs.surrey.ac.uk/vacancies.aspx?cat=453&post=1", "label": "学校官方Research & Teaching职位列表"}],
+    "sources": [
+      {
+        "url": "https://jobs.surrey.ac.uk/vacancies.aspx?cat=453&post=1",
+        "label": "学校官方Research & Teaching职位列表"
+      }
+    ],
     "checked_at": "2026-10-22",
     "evidence": "学校官方列表列出数字营销与分析副教授及10月21日截止日，已早于核验日，作为历史广告保留，不继续计在招；过期不表示已有实际聘用。",
     "quote": "Closing Date:21/10/2026",
     "aliases": [],
     "dedupe_key": "surrey|digital-marketing|2026-2027|2026-10-21"
+  },
+  {
+    "id": "polyu-cb-260810006",
+    "institution": "Hong Kong Polytechnic University",
+    "department": "Department of Management and Marketing",
+    "region": "HK",
+    "title": "Assistant Professor in Marketing (Consumer Behavior)",
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "job_family": "academic",
+    "tenure_status": "unknown",
+    "cycle": "2026-2027",
+    "published_at": "2026-08-10",
+    "deadline": null,
+    "start_date": null,
+    "status": "open",
+    "positions": null,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://jobs.polyu.edu.hk/job_detail.php?job=260810006",
+        "label": "Original public recruitment announcement",
+        "checked_at": "2026-10-24"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "Initial appointment for Assistant Professor will be on a fixed-term gratuity-bearing contract.",
+    "evidence": "Official posting reviewed: applications considered from 1 September 2026 until filled. Initial fixed-term contract is explicit; tenure-track is not asserted from Assistant Professor title.",
+    "aliases": [],
+    "dedupe_key": "polyu-cb-260810006"
+  },
+  {
+    "id": "nus-marketing-july2027",
+    "institution": "National University of Singapore",
+    "department": "Marketing Department",
+    "region": "SG",
+    "title": "Tenure-track Marketing faculty · Consumer Behavior and Empirical Modeling",
+    "tracks": [
+      "marketing",
+      "cb",
+      "qm"
+    ],
+    "job_family": "academic",
+    "tenure_status": "confirmed_tt",
+    "cycle": "2026-2027",
+    "published_at": null,
+    "deadline": "2026-07-15",
+    "start_date": "2027-07",
+    "status": "closed",
+    "positions": 2,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://bschool.nus.edu.sg/marketing/faculty-openings/",
+        "label": "Original public recruitment announcement",
+        "checked_at": "2026-10-24"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "a candidate in consumer behavior ... as well as a candidate in empirical modeling",
+    "evidence": "Two candidates explicitly sought in one advertisement, one CB and one empirical-modeling appointment; actual hires unknown. July 15 2026 application deadline, July 2027 start. Closed deadline is not evidence of filled posts.",
+    "aliases": [],
+    "dedupe_key": "nus-marketing-july2027"
+  },
+  {
+    "id": "essec-io-ejm12858",
+    "institution": "ESSEC Business School",
+    "department": "Economics Department",
+    "region": "FR",
+    "title": "Associate / Advanced Assistant Professor in Industrial Organization",
+    "tracks": [
+      "io"
+    ],
+    "job_family": "academic",
+    "tenure_status": "unknown",
+    "cycle": "2026-2027",
+    "published_at": null,
+    "deadline": "2026-11-20",
+    "start_date": "2027-09",
+    "status": "open",
+    "positions": null,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://econjobmarket.org/positions/12858",
+        "label": "Original public recruitment announcement",
+        "checked_at": "2026-10-24"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "The position is tenure-track or tenured, depending on experience.",
+    "evidence": "Source headline says flexible start; advertisement text specifies September 2027. Tenure depends on rank; no single tenure value assigned. Platform application deadline November 20 differs from posting end January 15; both retained.",
+    "aliases": [],
+    "dedupe_key": "essec-io-ejm12858",
+    "posting_end_date": "2027-01-15"
+  },
+  {
+    "id": "cornell-io-ejm12658",
+    "institution": "Cornell University",
+    "department": "Economics",
+    "region": "US",
+    "title": "Associate or Full Professor in Industrial Organization",
+    "tracks": [
+      "io"
+    ],
+    "job_family": "academic",
+    "tenure_status": "unknown",
+    "cycle": "2026-2027",
+    "published_at": null,
+    "deadline": "2026-11-07",
+    "start_date": "2027-07-01",
+    "status": "open",
+    "positions": null,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://econjobmarket.org/positions/12658",
+        "label": "Employer EJM announcement"
+      },
+      {
+        "url": "https://academicjobsonline.org/ajo/jobs/32705",
+        "label": "Same advertisement application channel; not a second vacancy"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "Priority will be given to applications received by November 7, 2026.",
+    "evidence": "Platform labels November 7 application deadline; text calls it priority date, retained as both source-reported deadline and priority_deadline. Posting ends November 30; tenure not expressly stated. AJO32705 and EJM12658 are the same ad.",
+    "aliases": [
+      "AJO 32705"
+    ],
+    "dedupe_key": "cornell-io-ejm12658",
+    "priority_deadline": "2026-11-07",
+    "posting_end_date": "2026-11-30"
+  },
+  {
+    "id": "ubc-sbe-ejm12709",
+    "institution": "University of British Columbia",
+    "department": "Strategy and Business Economics, Sauder School of Business",
+    "region": "CA",
+    "title": "Tenure Track Position in International Trade and/or Industrial Organization",
+    "tracks": [
+      "io"
+    ],
+    "job_family": "academic",
+    "tenure_status": "confirmed_tt",
+    "cycle": "2026-2027",
+    "published_at": null,
+    "deadline": "2026-11-09",
+    "start_date": "2027-07-01",
+    "status": "open",
+    "positions": null,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://econjobmarket.org/positions/12709",
+        "label": "Original public recruitment announcement",
+        "checked_at": "2026-10-24"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "invites applications for a tenure track faculty position at the Assistant Professor rank",
+    "evidence": "November9 platform deadline; ad text allows later applications until filled. Start and appointment subject to budgetary approval. Senior ranks also considered, exact headcount undisclosed.",
+    "aliases": [],
+    "dedupe_key": "ubc-sbe-ejm12709",
+    "priority_deadline": "2026-11-09"
+  },
+  {
+    "id": "melbourne-lecturer-jr014835",
+    "institution": "University of Melbourne",
+    "department": "Department of Management and Marketing",
+    "region": "AU",
+    "title": "Lecturer, Management and Marketing · education-focused",
+    "tracks": [
+      "marketing"
+    ],
+    "job_family": "teaching",
+    "tenure_status": "unknown",
+    "cycle": "2026",
+    "published_at": null,
+    "deadline": null,
+    "start_date": null,
+    "status": "closed",
+    "positions": null,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://unimelb.wd105.myworkdayjobs.com/en-US/UoM_External_Career/job/Lecturer--Management-and-Marketing_JR-014835",
+        "label": "Original public recruitment announcement",
+        "checked_at": "2026-10-24"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "Part Time (0.4 FTE), Fixed term until 13 December 2026",
+    "evidence": "Historical 2026 teaching call, 0.4FTE fixed term. Header deadline July3 vs body July2 2026 23:55 conflict retained; deadline left null. Both dates passed; no hire inferred.",
+    "aliases": [],
+    "dedupe_key": "melbourne-lecturer-jr014835",
+    "deadline_conflict": [
+      "2026-07-02",
+      "2026-07-03"
+    ],
+    "end_date": "2026-12-13"
+  },
+  {
+    "id": "rmit-marketing-jr51559",
+    "institution": "RMIT University",
+    "department": "School of Economics, Finance and Marketing",
+    "region": "AU",
+    "title": "Expression of Interest for Sessional Teaching (Marketing)",
+    "tracks": [
+      "marketing"
+    ],
+    "job_family": "teaching",
+    "tenure_status": "unknown",
+    "cycle": "2026-2027",
+    "published_at": null,
+    "deadline": null,
+    "start_date": "2027-03",
+    "status": "unknown",
+    "positions": null,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://rmit.wd3.myworkdayjobs.com/en-US/RMIT_Careers/job/College-of-Business-and-Law---Expression-of-Interest-for-Sessional-Teaching--Marketing----School-of-Economics--Finance-and-Marketing_JR51559",
+        "label": "Original public recruitment announcement",
+        "checked_at": "2026-10-24"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "Casual hours commencing March 2027",
+    "evidence": "Expression of interest for casual teaching; does not establish a confirmed vacancy count or permanent research faculty appointment. Exact closing date not disclosed; status unverified.",
+    "aliases": [],
+    "dedupe_key": "rmit-marketing-jr51559"
+  },
+  {
+    "id": "kellogg-marketing-2027-2028",
+    "institution": "Northwestern University",
+    "department": "Marketing Department",
+    "region": "US",
+    "title": "Assistant Professor, Marketing Department",
+    "tracks": [
+      "marketing"
+    ],
+    "job_family": "academic",
+    "tenure_status": "unknown",
+    "cycle": "2027-2028",
+    "published_at": null,
+    "deadline": null,
+    "start_date": null,
+    "status": "unknown",
+    "positions": null,
+    "hires": null,
+    "sources": [
+      {
+        "url": "https://www.kellogg.northwestern.edu/academics-research/faculty-recruiting/",
+        "label": "Original public recruitment announcement",
+        "checked_at": "2026-10-24"
+      }
+    ],
+    "checked_at": "2026-10-24",
+    "quote": "one or more full-time positions ... for academic year 2027-2028",
+    "evidence": "Official text explicitly says academic year2027-2028, but interview consideration deadline July3 2026. Preserve this year mismatch and unknown live status; do not silently recode to2026-2027. One or more is a lower bound1, not exact headcount.",
+    "aliases": [],
+    "dedupe_key": "kellogg-marketing-2027-2028",
+    "priority_deadline": "2026-07-03",
+    "positions_lower_bound": 1,
+    "cycle_conflict": "Academic year2027-2028 vs recruitment consideration date2026-07-03"
   }
 ]

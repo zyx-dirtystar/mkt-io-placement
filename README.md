@@ -2,7 +2,7 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-网站版本 1.1.1；本轮数据核验截至 2026-10-23。本轮增加澳门三校与澳大利亚 Go8 八校的接收端教师档案。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
+网站版本 1.2.0；数据核验截至 2026-10-24。本轮复核 25 位既有教师，确认补齐 6 个博士年份、12 位老师的至少一段带日期职业记录，新增 8 条招聘公告。仍缺博士年份 339 人、带日期职业记录 419 人；完整 cohort 仍为 0。实际证据、去重口径和限制见 [本轮审计](docs/DEPTH-REVIEW-2026-10-24.md)。基于公开证据的持续收集样本，名单完整性与去向核验程度分别记录。当前人数、完整 cohort 数、缺失和新增修订均由实际数据生成，见网站数据质量页和 `dist/data/quality-report.json`。
 
 ## 网站功能
 
@@ -15,7 +15,7 @@
 - 公开招聘公告筛选及去重，招聘人数未公布时为未知，过期与当前岗位分开。
 - 数据质量、历史基线变化、来源新鲜度、冲突与待核验队列。
 - URL 保存筛选、个人固定链接、CSV / JSON 导出，导出保留口径和证据引用。
-- 教师反查默认进入 People：四项主筛选、高级筛选与20人分页；School coverage 单独呈现七地区逐校状态、核验详情和具体缺口。既有进度 URL、人员固定链接及导出保持兼容。
+- 教师反查默认进入 People：默认紧凑表格，可切换卡片；四项主筛选、高级筛选与20人分页；独立学校详情呈现教师、博士来源、研究与招聘；School coverage 单独呈现七地区逐校状态、核验详情和具体缺口。既有进度 URL、人员固定链接及导出保持兼容。
 
 英文界面使用说明及改版验证见 [UI guide](docs/UI_GUIDE.md)。原始来源标题、引文、研究者自述与核验备注保留原文，不改变证据日期。
 

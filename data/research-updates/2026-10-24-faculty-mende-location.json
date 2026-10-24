@@ -1,0 +1,200 @@
+{
+  "id": "faculty-mende-source-location-2026-10-24",
+  "checked_at": "2026-10-24",
+  "people": [
+    {
+      "name": "Martin Mende",
+      "aliases": [],
+      "host_id": "arizona-state-university-marketing",
+      "faculty_type": "research",
+      "membership_type": "research",
+      "eligibility": {
+        "research_roster": true,
+        "basis": "官方院系研究教授目录/筛选",
+        "source_url": "https://search.asu.edu/api/v1/webdir-profiles/faculty-staff/filtered?sort-by=last_name_asc&dept_ids=1704&size=100&page=1"
+      },
+      "current": {
+        "institution": "Arizona State University",
+        "department": "Marketing",
+        "region": "US",
+        "role": "J. Willard and Alice S. Marriott Foundation Professor in Services Leadership and Professor",
+        "start_year": null,
+        "tenure_status": "unknown",
+        "status": "official_directory"
+      },
+      "phd": {
+        "school": "Arizona State University",
+        "program": null,
+        "region": "US",
+        "year": 2008,
+        "degree": "PhD",
+        "year_basis": "explicit_degree_year",
+        "evidence": {
+          "url": "https://search.asu.edu/profile/601803/cv",
+          "quote": "Ph.D. Business Administration (Focus: Marketing), W. P. Carey School of Business, Arizona State University, 08/2008",
+          "locator": "Education: completed PhD",
+          "checked_at": "2026-10-22",
+          "status": "confirmed"
+        },
+        "reported_region": "United States"
+      },
+      "tracks": [
+        "marketing"
+      ],
+      "fields": [],
+      "homepage": "https://search.asu.edu/profile/601803",
+      "cv_url": "https://search.asu.edu/profile/601803/cv",
+      "sources": [
+        {
+          "url": "https://search.asu.edu/api/v1/webdir-profiles/faculty-staff/filtered?sort-by=last_name_asc&dept_ids=1704&size=100&page=1",
+          "label": "官方院系教师目录",
+          "quote": "J. Willard and Alice S. Marriott Foundation Professor in Services Leadership and Professor",
+          "supports": [
+            "current.role",
+            "membership_type"
+          ],
+          "checked_at": "2026-10-22",
+          "locator": "Martin Mende"
+        },
+        {
+          "url": "https://search.asu.edu/profile/601803",
+          "label": "Doctoral education: official profile or linked CV",
+          "quote": "PhD. Arizona State University",
+          "locator": "Education / biography; official ASU public directory API",
+          "supports": [
+            "phd.school",
+            "phd.program",
+            "phd.degree"
+          ],
+          "checked_at": "2026-10-22"
+        },
+        {
+          "url": "https://search.asu.edu/profile/601803/cv",
+          "label": "官方个人页所链资料；链接登记不代表内容可读",
+          "checked_at": "2026-10-22",
+          "access_status": "link_recorded"
+        },
+        {
+          "url": "https://search.asu.edu/profile/601803/cv",
+          "label": "本轮补查：官方个人页所链CV",
+          "quote": "Ph.D. Business Administration (Focus: Marketing), W. P. Carey School of Business, Arizona State University, 08/2008",
+          "locator": "CV: Education",
+          "supports": [
+            "phd.degree",
+            "phd.school",
+            "phd.year"
+          ],
+          "checked_at": "2026-10-22",
+          "source_date": "2024-10",
+          "status": "confirmed"
+        },
+        {
+          "url": "https://search.asu.edu/profile/601803/cv",
+          "label": "Official linked CV, complete text inspected for dated professional appointments",
+          "quote": "Affiliated Visiting Professor, Center for Service Intelligence, Ghent University, Belgium (March 2020 -- present).",
+          "locator": "PDF page 6 (printed page 7 of 17), Research-related awards and honors",
+          "supports": [
+            "career_events.0"
+          ],
+          "checked_at": "2026-10-24",
+          "access_status": "content_read",
+          "sha256": "ab5919c6530a73d619a938e9e5fc2cdb6a5c0adb6ec04848c5dbc9da08c2c542",
+          "source_date": "2024-10",
+          "date_precision": "month"
+        }
+      ],
+      "career_events": [
+        {
+          "type": "visiting",
+          "institution": "Ghent University",
+          "department": "Center for Service Intelligence",
+          "title": "Affiliated Visiting Professor",
+          "start_date": "2020-03",
+          "end_date": null,
+          "date_precision": "month",
+          "status": "historical_cv_snapshot",
+          "source_snapshot_only": true,
+          "source_urls": [
+            "https://search.asu.edu/profile/601803/cv"
+          ],
+          "quote": "Affiliated Visiting Professor, Center for Service Intelligence, Ghent University, Belgium (March 2020 -- present).",
+          "checked_at": "2026-10-24",
+          "note": "Affiliated visiting appointment only. CV present is not independent verification of continuous employment through the observation date. Primary academic job sequence remains unknown.",
+          "source_snapshot_date": "2024-10"
+        }
+      ],
+      "unknowns": [
+        {
+          "field": "current.start_year",
+          "reason": "目录确认现职；本轮未独立确定该现职开始年份。职业事件中较早同校任职起年不等于现职职级起年。"
+        },
+        {
+          "field": "career_sequence_complete",
+          "reason": "仅收录有明确依据的经历片段；未确认全部职业空档与完整首职顺序。"
+        },
+        {
+          "field": "current.tenure_status",
+          "reason": "除逐条明确含tenure字样的证据外，原始职称不能独立证明tenure/tenure-track状态。"
+        },
+        {
+          "field": "career_sequence_complete",
+          "reason": "Dated evidence covers only the listed appointments. Missing primary-job dates, intervening roles and continuity remain unverified; a visit or industry role does not establish a complete academic career."
+        }
+      ],
+      "checked_at": "2026-10-24",
+      "career_sequence_complete": false,
+      "profile_read": {
+        "url": "https://search.asu.edu/profile/601803",
+        "status": "read_official_public_directory_api",
+        "checked_at": "2026-10-22",
+        "api_url": "https://search.asu.edu/api/v1/webdir-profiles/faculty-staff/filtered?sort-by=last_name_asc&dept_ids=1704&size=100&page=1"
+      },
+      "cv_read": {
+        "url": "https://search.asu.edu/profile/601803/cv",
+        "checked_at": "2026-10-22",
+        "read_status": "failed",
+        "reason": "HTTP Error 403: Forbidden"
+      },
+      "id": "faculty-arizona-state-university-martinmende",
+      "placement_id": null,
+      "carried_forward": [],
+      "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+      "import_batch_id": "faculty-career-full-cv-and-gap-notes-2026-10-24",
+      "existing_faculty_id": "faculty-arizona-state-university-martinmende",
+      "identity_evidence": {
+        "basis": "Same stable profile ID and exact official ASU CV URL; source pagination and October 2024 snapshot verified from original PDF.",
+        "source_urls": [
+          "https://search.asu.edu/profile/601803/cv"
+        ]
+      },
+      "supplement_batch_id": "2026-10-22-faculty-followup-b",
+      "followup_changes": [
+        "phd.year"
+      ],
+      "followup_source_reads": [
+        {
+          "name": "Martin Mende",
+          "url": "https://search.asu.edu/profile/601803/cv",
+          "status": "read",
+          "checked_at": "2026-10-22",
+          "sha256": "8414de5d0e0f5b3cad9095c07051a3dfd825304fcbd395f0233aa5541f96a76c",
+          "hash_type": "web_render_excerpt_sha256",
+          "read_scope": "Linked CV: Education and Work Experience"
+        }
+      ],
+      "additional_degrees": [
+        {
+          "school": "Catholic University of Eichstätt",
+          "degree": "Doctor rerum politicarum",
+          "program": "Business Administration (Management)",
+          "year": 2006,
+          "date": "2006-01",
+          "source_url": "https://search.asu.edu/profile/601803/cv",
+          "quote": "Ph.D. Business Administration (Focus: Management), Catholic University of Eichstätt, Doctor rerum politicarum, 01/2006",
+          "checked_at": "2026-10-22"
+        }
+      ]
+    }
+  ],
+  "schools": []
+}
