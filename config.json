@@ -1,7 +1,7 @@
 {
-  "version": "1.2.0 · Faculty depth and school profiles",
-  "updated_at": "2026-10-24",
-  "observation_as_of": "2026-10-24",
+  "version": "1.2.1 · Official faculty career evidence",
+  "updated_at": "2026-10-25",
+  "observation_as_of": "2026-10-25",
   "current_cycle": "2026-2027",
   "history_years": [
     2023,
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "Reviewed 25 existing faculty profiles: six newly verified doctoral years, 44 unique dated appointments and four date refinements; 12 people gained their first dated career evidence. Added eight sourced recruitment advertisements, independent school profiles, compact tables and on-demand full evidence. Unknowns, historical reports and placement facts retained."
+  "change_note": "Reviewed existing faculty with official linked CVs and dated individual profiles. Academic, postdoctoral, industry and visiting segments remain distinct; duplicates and historical snapshots are preserved without claiming complete careers."
 }

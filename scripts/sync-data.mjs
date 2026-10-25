@@ -14,7 +14,8 @@ const programs=read('programs'),coverage=read('coverage'),scope=read('scope'),fa
 const targetIds=new Set([...scope.ranking.rows,...scope.asia].map(p=>p.program_id));
 for(const r of records){r.target_scope=targetIds.has(r.program_id)?scope.id:null;r.origin_rank=programs.find(p=>p.id===r.program_id)?.kind==='marketing'?scope.ranking.rows.find(p=>p.school===r.school)?.rank||null:null;}
 for(const p of programs)p.record_count=records.filter(r=>r.program_id===p.id).length;
-const faculty_depth_update=depthReport(faculty);fs.writeFileSync('data/faculty-depth-audit-2026-10-24.json',JSON.stringify(faculty_depth_update,null,2)+'\n');
+const depthDate=fs.readdirSync('data').filter(f=>/^faculty-depth-receipt-\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().at(-1).slice('faculty-depth-receipt-'.length,-5);
+const faculty_depth_update=depthReport(faculty,{receiptPath:'data/faculty-depth-receipt-'+depthDate+'.json',asOf:depthDate});fs.writeFileSync('data/faculty-depth-audit-'+depthDate+'.json',JSON.stringify(faculty_depth_update,null,2)+'\n');
 const catalog={faculty_depth_update,...config,exhaustive:false,scope,programs,coverage,faculty,faculty_update,faculty_followup_update,faculty_extension_update,archive_years:[...new Set([...config.history_years,...records.map(r=>r.placement_year).filter(Boolean)])].sort(),schools,release_notes};
 const observatory=buildObservatory({records:raw,programs,coverage,scope,faculty,config,taxonomy:read('taxonomy'),ioScope:read('io-scope',null),jobs:read('jobs',[]),researchAudit:read('research-audit-2026-10-24',read('research-audit-2026-10-22',null)),reviewQueue:fs.existsSync('review-queue.json')?JSON.parse(fs.readFileSync('review-queue.json','utf8')):[],maintenanceQueue:read('maintenance-queue',[]),sourceChecks:read('maintenance-sources',{}),baseline:read('maintenance-baseline',null)});
 const errors=validateObservatory(observatory);
