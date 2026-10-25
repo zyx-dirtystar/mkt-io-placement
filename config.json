@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1 · Official faculty career evidence",
+  "version": "1.2.2 · Faculty affiliations and titles",
   "updated_at": "2026-10-25",
   "observation_as_of": "2026-10-25",
   "current_cycle": "2026-2027",
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "Reviewed existing faculty with official linked CVs and dated individual profiles. Academic, postdoctoral, industry and visiting segments remain distinct; duplicates and historical snapshots are preserved without claiming complete careers."
+  "change_note": "Eleven existing faculty titles and eleven school or department fields added from readable official sources. Affiliations and titles are shown independently of degree dates and career chronology; index-only membership remains explicit."
 }

@@ -1,5 +1,5 @@
-import {effectiveTracks,qualityMatches} from './evidence.js?v=1.2.1';
-import {placementOf,placementSummary,rankMatches} from './placement.js?v=1.2.1';
+import {effectiveTracks,qualityMatches} from './evidence.js?v=1.2.2';
+import {placementOf,placementSummary,rankMatches} from './placement.js?v=1.2.2';
 let COVERAGE=[];
 export let CONFIG={currentCycle:'2026-2027',historyYears:[2023,2024,2025,2026]};
 export function configure(config){if(!/^20\d{2}-20\d{2}$/.test(config.currentCycle)||!Array.isArray(config.historyYears)||!config.historyYears.every(Number.isInteger))throw new Error('Invalid archive configuration');CONFIG=config;COVERAGE=config.coverage||[]}

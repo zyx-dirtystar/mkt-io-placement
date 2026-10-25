@@ -1,4 +1,4 @@
-import {csvCell} from './core.js?v=1.2.1';
+import {csvCell} from './core.js?v=1.2.2';
 
 export const GRAD_GROUPS={recent:'PhD awarded in the archive window',historical:'PhD awarded before the archive window',newer:'PhD awarded after the archive window',unknown:'PhD award year unknown'};
 export const ORIGIN_GROUPS={target:'Within the 58-program Marketing scope',extension:'Other programs in the US, Canada, Hong Kong or Singapore',outside:'Outside the doctoral-program scope',unknown:'Doctoral origin unknown'};
@@ -23,7 +23,9 @@ export function receivingSchools(catalog){
 }
 export const CHECK_STATES={not_started:'Not started',partial:'Partially checked',complete:'Directory reconciled',blocked:'Source access limited',needs_review:'Completeness under review'};
 export const hasDatedCareer=p=>(p.career_events||[]).some(e=>e.institution&&(e.role||e.title)&&(e.start_date||e.end_date||e.start||e.end||Number.isInteger(e.start_year)||Number.isInteger(e.end_year)));
-export const facultyHasConflict=p=>(p.unknowns||[]).some(g=>/冲突|conflict|不一致|不同/.test(typeof g==='string'?g:g.reason||''))||(p.phd?.reported_years?.length||0)>1||(p.conflicts||[]).some(c=>c.status!=='resolved'&&!p.resolved_conflicts?.some(r=>r.field===c.field));
+export const appointmentNeedsReview=p=>['indexed_reference','directory_membership_unreconciled','announced_future'].includes(p.current?.status);
+export function facultyBasicCoverage(people){return {total:people.length,institution:people.filter(p=>p.current?.institution).length,department:people.filter(p=>p.current?.department).length,title:people.filter(p=>p.current?.role).length,title_unknown:people.filter(p=>!p.current?.role).length,membership_pending:people.filter(appointmentNeedsReview).length};}
+export const facultyHasConflict=p=>(p.unknowns||[]).some(g=>/冲突|conflict|不一致|不同/i.test(typeof g==='string'?g:g.reason||''))||(p.phd?.reported_years?.length||0)>1||(p.conflicts||[]).some(c=>c.status!=='resolved'&&!p.resolved_conflicts?.some(r=>r.field===c.field));
 // An individual profile never establishes the size or completeness of a department.
 export function receivingProgress(catalog){
  const people=[...new Map(catalog.faculty.people.map(p=>[p.id,p])).values()];
@@ -76,13 +78,15 @@ export function filterFaculty(people,filters,catalog){
   if(filters.gap==='degree_year'&&Number.isInteger(p.phd?.year))return false;
   if(filters.gap==='cv'&&p.cv_url)return false;
   if(filters.gap==='role_year'&&Number.isInteger(p.current.start_year))return false;
+  if(filters.gap==='role'&&p.current.role)return false;
+  if(filters.gap==='appointment_review'&&!appointmentNeedsReview(p))return false;
   if(filters.gap==='unlinked'&&p.placement_id)return false;
   if(filters.gap==='linked'&&!p.placement_id)return false;
   if(filters.gap==='conflict'&&!facultyHasConflict(p))return false;
   if(filters.gap==='degree_added'&&!catalog.faculty_followup_update?.existing.degree_year_ids?.includes(p.id))return false;
   if(filters.gap==='career_added'&&!catalog.faculty_followup_update?.existing.dated_career_ids?.includes(p.id))return false;
   const host=hosts.get(p.host_id);
-  const text=[p.name,...(p.aliases||[]),p.current.institution,host?.label,...(host?.aliases||[]),p.current.role,facultyRegion(p.current.region),p.phd?.school,p.phd?.program,...(p.fields||[])].join(' ').toLowerCase();
+  const text=[p.name,...(p.aliases||[]),p.current.institution,p.current.department,host?.label,...(host?.aliases||[]),p.current.role,facultyRegion(p.current.region),p.phd?.school,p.phd?.program,...(p.fields||[])].join(' ').toLowerCase();
   return words.every(w=>text.includes(w));
  });
  if(filters.sort==='name')rows.sort((a,b)=>a.name.localeCompare(b.name)||a.id.localeCompare(b.id));
@@ -91,7 +95,7 @@ export function filterFaculty(people,filters,catalog){
 }
 export function facultyCsv(people,catalog){
  const hosts=new Map(receivingSchools(catalog).map(h=>[h.id,h]));
- const rows=[['Name','Public aliases','Current institution','Current region','Official title (source wording)','Current rank start year (not first-job year)','PhD institution','PhD program','PhD award year','Degree-year group','Doctoral origin group','Research (source wording)','Linked placement ID','Homepage','CV','Checked at','Original source notes','Source URLs','Faculty type','Degree evidence status','Appointment status','Career segments (JSON)','Gaps and conflicts (JSON)','Field evidence (JSON)','Import batch ID','PhD date precision','Other degrees (JSON)','Followup review (JSON)','Reported PhD year (unverified)','Receiving school ID','Receiving scope group','Receiving scope plan IDs','Individual inclusion scope']];
- for(const p of people)rows.push([p.name,(p.aliases||[]).join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],(p.fields||[]).join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,(p.sources||[]).map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||p.phd?.status||'See field evidence',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources||[]),p.import_batch_id,p.phd?.date_precision||'year_or_unknown',JSON.stringify(p.additional_degrees||p.other_degrees||[]),JSON.stringify({followup:p.followup_review||null,previous:p.backfill_review||null}),p.phd?.reported_year,p.host_id,hosts.get(p.host_id)?.scope_group||'',(catalog.faculty.receiving_scope.extension_plans||[]).filter(plan=>plan.school_ids.includes(p.host_id)).map(plan=>plan.id).join('; '),p.faculty_scope||'See declared school roster scope']);
+ const rows=[['Name','Public aliases','Current institution','Current region','Official title (source wording)','Current rank start year (not first-job year)','PhD institution','PhD program','PhD award year','Degree-year group','Doctoral origin group','Research (source wording)','Linked placement ID','Homepage','CV','Checked at','Original source notes','Source URLs','Faculty type','Degree evidence status','Appointment status','Career segments (JSON)','Gaps and conflicts (JSON)','Field evidence (JSON)','Import batch ID','PhD date precision','Other degrees (JSON)','Followup review (JSON)','Reported PhD year (unverified)','Receiving school ID','Receiving scope group','Receiving scope plan IDs','Individual inclusion scope','Recorded school / department']];
+ for(const p of people)rows.push([p.name,(p.aliases||[]).join('; '),p.current.institution,p.current.region,p.current.role,p.current.start_year,p.phd?.school,p.phd?.program,p.phd?.year,GRAD_GROUPS[graduationGroup(p,catalog.history_years)],ORIGIN_GROUPS[originGroup(p,catalog)],(p.fields||[]).join('; '),p.placement_id,p.homepage,p.cv_url,p.checked_at,p.notes,(p.sources||[]).map(s=>s.url).join('; '),p.faculty_type||'research',p.phd?.degree_status||p.phd?.verification_status||p.phd?.status||'See field evidence',p.current.status||'official_directory',JSON.stringify(p.career_events||[]),JSON.stringify(p.unknowns||[]),JSON.stringify(p.sources||[]),p.import_batch_id,p.phd?.date_precision||'year_or_unknown',JSON.stringify(p.additional_degrees||p.other_degrees||[]),JSON.stringify({followup:p.followup_review||null,previous:p.backfill_review||null}),p.phd?.reported_year,p.host_id,hosts.get(p.host_id)?.scope_group||'',(catalog.faculty.receiving_scope.extension_plans||[]).filter(plan=>plan.school_ids.includes(p.host_id)).map(plan=>plan.id).join('; '),p.faculty_scope||'See declared school roster scope',p.current.department||null]);
  return '\uFEFF'+rows.map(r=>r.map(csvCell).join(',')).join('\r\n');
 }

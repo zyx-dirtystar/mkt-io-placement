@@ -1,4 +1,34 @@
 {
+  "faculty_appointment_update": {
+    "as_of": "2026-10-25",
+    "reviewed": 12,
+    "titles_added": 11,
+    "departments_added": 11,
+    "unknown_titles_before": 13,
+    "unknown_titles_after": 2,
+    "limitations": [
+      {
+        "id": "faculty-peking-minghuajiang",
+        "official_url": "https://www.gsm.pku.edu.cn/jsjj.jsp?urltype=tree.TreeTempUrl&wbtreeid=1184",
+        "reported_title": "教授",
+        "status": "indexed_lead_only",
+        "attempts": [
+          "Official live directory: TLS handshake failure in direct retrieval; web reader timeout. Search index supplies title but not upgraded to confirmed live title.",
+          "English full-time faculty directory: direct TLS failure; web reader timeout."
+        ]
+      },
+      {
+        "id": "faculty-peking-siqingpeng",
+        "official_url": "https://www.gsm.pku.edu.cn/faculty/pengsq/",
+        "reported_title": "教授",
+        "status": "indexed_lead_only",
+        "attempts": [
+          "Official individual profile: TLS handshake failure in direct retrieval; web reader timeout, including HTTP alternative. Search index supplies title but not upgraded to confirmed live title.",
+          "English full-time directory and Behavioral Science in Action team profile: direct TLS failure; web reader timeout."
+        ]
+      }
+    ]
+  },
   "faculty_depth_update": {
     "newly_dated_evidence_types": {
       "academic_or_teaching": 23,
@@ -215,7 +245,7 @@
       }
     ]
   },
-  "version": "1.2.1 · Official faculty career evidence",
+  "version": "1.2.2 · Faculty affiliations and titles",
   "updated_at": "2026-10-25",
   "observation_as_of": "2026-10-25",
   "current_cycle": "2026-2027",
@@ -225,7 +255,7 @@
     2025,
     2026
   ],
-  "change_note": "Reviewed existing faculty with official linked CVs and dated individual profiles. Academic, postdoctoral, industry and visiting segments remain distinct; duplicates and historical snapshots are preserved without claiming complete careers.",
+  "change_note": "Eleven existing faculty titles and eleven school or department fields added from readable official sources. Affiliations and titles are shown independently of degree dates and career chronology; index-only membership remains explicit.",
   "exhaustive": false,
   "scope": {
     "id": "marketing-na50-hk5-sg3-2021-2025",
@@ -87062,9 +87092,9 @@
         "current": {
           "institution": "Shanghai Jiao Tong University",
           "region": "CN",
-          "role": null,
+          "role": "助理教授",
           "start_year": null,
-          "status": "indexed_reference"
+          "status": "independent_official_report"
         },
         "phd": {
           "school": null,
@@ -87090,6 +87120,21 @@
             "source_date": null,
             "checked_at": "2026-10-22",
             "verification_status": "indexed_reference"
+          },
+          {
+            "url": "https://www.bschool.cuhk.edu.hk/chi/zh-hans/can-ai-labels-restore-consumer-trust/",
+            "label": "Independent university research report · current affiliation",
+            "quote": "上海交通大学助理教授陈杰腾",
+            "supports": [
+              "current.role",
+              "current.institution",
+              "current.status"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "df78c49030fbed358d7764d20df2fa2ec916571c572088c2ebf173cf9d65a225",
+            "access_status": "content_read",
+            "source_date": "2026-10-15"
           }
         ],
         "career_events": [
@@ -87115,7 +87160,7 @@
           }
         ],
         "verification_status": "indexed_directory_reference",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sjtu-陈杰腾",
         "placement_id": null,
@@ -87123,7 +87168,91 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-mainland-nine-2026-10-22"
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
+        "existing_faculty_id": "faculty-sjtu-陈杰腾",
+        "identity_evidence": {
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
+          "source_urls": [
+            "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+          ]
+        },
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "independent_official_report_read",
+          "scope": "Institution and title independently named by CUHK. SJTU dynamic directory membership totals remain unresolved."
+        },
+        "previous_versions": [
+          {
+            "name": "陈杰腾",
+            "aliases": [],
+            "host_id": "sjtu",
+            "current": {
+              "institution": "Shanghai Jiao Tong University",
+              "region": "CN",
+              "role": null,
+              "start_year": null,
+              "status": "indexed_reference"
+            },
+            "phd": {
+              "school": null,
+              "program": null,
+              "region": null,
+              "year": null
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": null,
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y",
+                "label": "官方MIS目录搜索索引",
+                "quote": "陈杰腾",
+                "supports": [
+                  "name",
+                  "current.institution"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "indexed_reference"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai Jiao Tong University",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "indexed_reference",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://mis.acem.sjtu.edu.cn/psc/ACEMPRD/EMPLOYEE/CRM/s/WEBLIB_TZ_JSWW.TZ_WEB_JS_WW.FieldFormula.IScript_TzTeaTeam?ByYuanxi=BM101&class_yuanx=y"
+                ],
+                "quote": "陈杰腾"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "MIS实时目录不可读取；17人索引与介绍15人的版本差异未解决。个人职称、博士与日期不从姓名推断。"
+              }
+            ],
+            "verification_status": "indexed_directory_reference",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sjtu-陈杰腾",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          }
+        ]
       },
       {
         "name": "陈洁",
@@ -98040,9 +98169,10 @@
         "current": {
           "institution": "Fudan University",
           "region": "CN",
-          "role": null,
+          "role": "助理教授",
           "start_year": null,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "市场营销学系"
         },
         "phd": {
           "school": "清华大学",
@@ -98126,6 +98256,31 @@
             "status": "confirmed_factual_reference",
             "reviewed_excerpt_sha256": "2c8d44b7b9466212ca09744efdc1094d33bf46ec30b9017bb3a217605c0a3f4b",
             "read_status": "primary_source_excerpt_actually_read"
+          },
+          {
+            "url": "https://www.fdsm.fudan.edu.cn/nwmba/562/list3.htm",
+            "label": "Official Fudan course faculty biography",
+            "quote": "邹德强博士是复旦大学管理学院的市场营销系的助理教授。",
+            "supports": [
+              "current.role",
+              "current.institution"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "eebbb6d12181ec44252730ebe2e952d8117d3db59df43e6dd2998d080dfa863d",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://www.fdsm.fudan.edu.cn/nwmba/562/list3.htm",
+            "label": "Official course faculty card · department",
+            "quote": "市场营销学系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "eebbb6d12181ec44252730ebe2e952d8117d3db59df43e6dd2998d080dfa863d",
+            "access_status": "content_read"
           }
         ],
         "career_events": [
@@ -98151,10 +98306,6 @@
             "reason": "官方未列本校入职年份或完整职业序列；现职不作首职。"
           },
           {
-            "field": "biography",
-            "reason": "官方POST及POST_ENG为空，不能从目录称谓猜职级。"
-          },
-          {
             "field": "career_sequence",
             "reason": "公开academicExperience主要列访问经历；复旦任职起止、历次晋升及完整非访问路径仍待独立工作履历核验。",
             "source_urls": [
@@ -98163,7 +98314,7 @@
           }
         ],
         "verification_status": "profile_verified",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-fudan-邹德强",
         "placement_id": null,
@@ -98171,11 +98322,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-followup-asia-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-fudan-邹德强",
         "identity_evidence": {
-          "basis": "existing_official_profile_and_independent_primary_education_or_career_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
+            "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetDeptTeacherList?language=cn",
+            "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=personMessage&typeStr=",
+            "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=educationalBackground&typeStr=",
+            "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=personMessage&typeStr=",
             "https://www.fdsm.fudan.edu.cn/Aboutus/preview.html?uid=012072",
             "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=academicExperience&typeStr="
           ]
@@ -98318,8 +98473,184 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "邹德强",
+            "aliases": [
+              "Zou Deqiang"
+            ],
+            "host_id": "fudan",
+            "current": {
+              "institution": "Fudan University",
+              "region": "CN",
+              "role": null,
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "清华大学",
+              "program": "工商管理",
+              "region": "CN",
+              "year": 2007,
+              "date_precision": "year",
+              "raw_period": "2003-09-01 —— 2007-06-01"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [
+              "社会化激励机制、用户生成内容(UGC)、处理数值信息中的决策偏差、顾客身份价值、顾客满意，等"
+            ],
+            "homepage": "https://www.fdsm.fudan.edu.cn/Aboutus/preview.html?uid=012072",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetDeptTeacherList?language=cn",
+                "label": "官方教师目录",
+                "quote": "邹德强",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=personMessage&typeStr=",
+                "label": "官方教师资料API",
+                "quote": "邹德强；市场营销学系；POST为空",
+                "supports": [
+                  "current.role",
+                  "current.institution"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=educationalBackground&typeStr=",
+                "label": "官方教育经历API",
+                "quote": "2003-09-01 —— 2007-06-01；博士；工商管理；清华大学",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=personMessage&typeStr=",
+                "label": "官方研究方向API",
+                "quote": "社会化激励机制、用户生成内容(UGC)、处理数值信息中的决策偏差、顾客身份价值、顾客满意，等",
+                "supports": [
+                  "fields",
+                  "tracks"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://www.fdsm.fudan.edu.cn/Aboutus/preview.html?uid=012072",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=academicExperience&typeStr=",
+                "label": "本轮独立官方资料交叉核验",
+                "quote": "academicExperience: []（公开接口未列学术经历条目，不等同没有任职）",
+                "supports": [],
+                "checked_at": "2026-10-22",
+                "status": "confirmed_factual_reference",
+                "reviewed_excerpt_sha256": "2c8d44b7b9466212ca09744efdc1094d33bf46ec30b9017bb3a217605c0a3f4b",
+                "read_status": "primary_source_excerpt_actually_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Fudan University",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetDeptTeacherList?language=cn",
+                  "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=personMessage&typeStr="
+                ],
+                "quote": "邹德强"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "官方未列本校入职年份或完整职业序列；现职不作首职。"
+              },
+              {
+                "field": "biography",
+                "reason": "官方POST及POST_ENG为空，不能从目录称谓猜职级。"
+              },
+              {
+                "field": "career_sequence",
+                "reason": "公开academicExperience主要列访问经历；复旦任职起止、历次晋升及完整非访问路径仍待独立工作履历核验。",
+                "source_urls": [
+                  "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=academicExperience&typeStr="
+                ]
+              }
+            ],
+            "verification_status": "profile_verified",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-fudan-邹德强",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-followup-asia-2026-10-22",
+            "existing_faculty_id": "faculty-fudan-邹德强",
+            "identity_evidence": {
+              "basis": "existing_official_profile_and_independent_primary_education_or_career_source",
+              "source_urls": [
+                "https://www.fdsm.fudan.edu.cn/Aboutus/preview.html?uid=012072",
+                "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=academicExperience&typeStr="
+              ]
+            },
+            "followup_review": {
+              "baseline_commit": "71504a30e328cd91189921c56308f332a0155612",
+              "checked_at": "2026-10-22",
+              "notes": "已实际读取官方academicExperience接口，返回空列表；保留当前任职日期和更早路径未知，不记录为零工作。",
+              "official_experience_read": {
+                "url": "https://app.fdsm.fudan.edu.cn/NewTeacherService/api/Professor/GetSingleTeacherOtherInfo?personId=012072&language=cn&labelName=academicExperience&typeStr=",
+                "sha256": "1e0fdf022adcfd039f836d2f121aee2e6573b4971ba558675166f85e4caa46ea",
+                "read_status": "public_academic_experience_json_read",
+                "rows_read": 0,
+                "rows_included": 0,
+                "excluded": []
+              }
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "官方POST及POST_ENG为空，不能从目录称谓猜职级。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Main faculty API still omits title; a readable independent official course faculty card explicitly supplies 助理教授. No promotion date inferred."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_course_profile_read",
+          "scope": "Title from official course faculty card; primary profile API empty title retained in historical evidence. Page publication date not stated."
+        }
       },
       {
         "name": "陈豪隽",
@@ -98786,10 +99117,11 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "讲席教授",
           "start_year": 2023,
           "status": "official_directory",
-          "start_date": "2023-02"
+          "start_date": "2023-02",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "Shanghai Jiao Tong University",
@@ -98838,6 +99170,42 @@
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
             "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/7",
+            "label": "Official individual profile · title header",
+            "quote": "高维和\n/ 讲席教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "e1ad8e214cef85f50fab028e4a00c915ff41ac1f723887ca4249b2d9f7aa6e50",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "高维和\n讲席教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
           }
         ],
         "career_events": [
@@ -98882,14 +99250,9 @@
             "start_date": "2023-02"
           }
         ],
-        "unknowns": [
-          {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
-          }
-        ],
+        "unknowns": [],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-高维和",
         "placement_id": null,
@@ -98897,15 +99260,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-高维和",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/7",
             "https://cob.sufe.edu.cn/Faculty/Resume/7"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -98992,8 +99355,158 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "高维和",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": 2023,
+              "status": "official_directory",
+              "start_date": "2023-02"
+            },
+            "phd": {
+              "school": "Shanghai Jiao Tong University",
+              "program": "PhD in Enterprise Management",
+              "region": "CN",
+              "year": 2007
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/7",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "高维和",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/7",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/7",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "2004-2007 上海交通大学 安泰经济与管理学院 企业管理 博士",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "高维和"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "讲师、副教授、讲席副教授、教授（各晋升年未分列）",
+                "start_year": 2007,
+                "end_year": null,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/7"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2007-07"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "讲席教授",
+                "start_year": 2023,
+                "end_year": null,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/7"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2023-02"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-高维和",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-高维和",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/7"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/7"
+              ],
+              "notes": "官方页明列博士2007与2023-02讲席教授。Minnesota访问写2024/12-2015/1，时序矛盾，不擅自改成年份正确的访问事件。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "龚晗",
@@ -99117,10 +99630,11 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
-          "start_year": 2010,
+          "role": "教授",
+          "start_year": null,
           "status": "official_directory",
-          "start_date": "2010-07"
+          "start_date": null,
+          "department": "市场营销系"
         },
         "phd": {
           "school": "Xiamen University",
@@ -99170,6 +99684,55 @@
             "source_date": null,
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/26",
+            "label": "Official individual profile · title header",
+            "quote": "江晓东\n/ 教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "48937f697efcdaef7206c050a3fb9bd5876c2befa75d18091d10a394ab7df7eb",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "江晓东\n教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/26",
+            "label": "Rank-date correction · historical associate-professor date is not a professor promotion date",
+            "quote": "2010.7至今，上海财经大学国际工商管理学院 副教授",
+            "supports": [
+              "current.start_year",
+              "current.start_date"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "48937f697efcdaef7206c050a3fb9bd5876c2befa75d18091d10a394ab7df7eb",
             "access_status": "content_read"
           }
         ],
@@ -99232,12 +99795,15 @@
         ],
         "unknowns": [
           {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+            "field": "current.start_year",
+            "reason": "Current official header says 教授, while the dated experience row says 2010.7至今 副教授. Conflict in rank / stale experience row: 2010-07 is preserved in the associate-professor career segment and must not date the current professor rank. Professor promotion date remains unknown.",
+            "source_urls": [
+              "https://cob.sufe.edu.cn/Faculty/Resume/26"
+            ]
           }
         ],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-江晓东",
         "placement_id": null,
@@ -99245,15 +99811,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-江晓东",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/26",
             "https://cob.sufe.edu.cn/Faculty/Resume/26"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -99340,8 +99906,175 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "江晓东",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": 2010,
+              "status": "official_directory",
+              "start_date": "2010-07"
+            },
+            "phd": {
+              "school": "Xiamen University",
+              "program": "PhD in Economics",
+              "region": "CN",
+              "year": 2004,
+              "date": "2004-07",
+              "date_precision": "month"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/26",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "江晓东",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/26",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/26",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "2001.9-2004.7 厦门大学 经济学院 经济学 博士",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "江晓东"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "讲师",
+                "start_year": 2004,
+                "end_year": 2010,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/26"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2004-09",
+                "end_date": "2010-07"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "副教授",
+                "start_year": 2010,
+                "end_year": null,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/26"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2010-07"
+              },
+              {
+                "type": "visiting",
+                "institution": "University of Arizona",
+                "role": "高级访问学者",
+                "start_year": 2013,
+                "end_year": 2014,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/26"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2013-01",
+                "end_date": "2014-02"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-江晓东",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-江晓东",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/26"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/26"
+              ],
+              "notes": "逐项实际读取官方个人页教育与任职段落；博士授位、访问培养和当前职级起始分开，不推断缺失首职。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "楼尊",
@@ -99350,9 +100083,10 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "副教授",
           "start_year": 2001,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "Shanghai University of Finance and Economics",
@@ -99402,6 +100136,42 @@
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
             "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/13",
+            "label": "Official individual profile · title header",
+            "quote": "楼尊\n/ 副教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "4bfeebf315fdb73c04d7c70bf353638fa8b86bb955080df8208e8b563e915dd9",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "楼尊\n副教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
           }
         ],
         "career_events": [
@@ -99444,14 +100214,9 @@
             "checked_at": "2026-10-22"
           }
         ],
-        "unknowns": [
-          {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
-          }
-        ],
+        "unknowns": [],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-楼尊",
         "placement_id": null,
@@ -99459,15 +100224,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-楼尊",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/13",
             "https://cob.sufe.edu.cn/Faculty/Resume/13"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -99554,8 +100319,156 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "楼尊",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": 2001,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "Shanghai University of Finance and Economics",
+              "program": "PhD in Marketing Management",
+              "region": "CN",
+              "year": 2001,
+              "program_id": null
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/13",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "楼尊",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/13",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/13",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "2001 上海财经大学 营销管理 博士",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "楼尊"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "讲师",
+                "start_year": 1996,
+                "end_year": 2001,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/13"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "副教授",
+                "start_year": 2001,
+                "end_year": null,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/13"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-楼尊",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-楼尊",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/13"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/13"
+              ],
+              "notes": "逐项实际读取官方个人页教育与任职段落；博士授位、访问培养和当前职级起始分开，不推断缺失首职。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "刘汝晗",
@@ -99649,10 +100562,11 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "副教授",
           "start_year": 2025,
           "status": "official_directory",
-          "start_date": "2025-07"
+          "start_date": "2025-07",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "University of Rochester",
@@ -99701,6 +100615,42 @@
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
             "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/251",
+            "label": "Official individual profile · title header",
+            "quote": "李楠\n/ 副教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "bc07f1b41931dcac2c09adf989330e3318b2b7813aea442b4ac1f2fffd2b418c",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "李楠\n副教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
           }
         ],
         "career_events": [
@@ -99746,14 +100696,9 @@
             "start_date": "2025-07"
           }
         ],
-        "unknowns": [
-          {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
-          }
-        ],
+        "unknowns": [],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-李楠",
         "placement_id": null,
@@ -99761,15 +100706,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-李楠",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/251",
             "https://cob.sufe.edu.cn/Faculty/Resume/251"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -99856,8 +100801,159 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "李楠",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": 2025,
+              "status": "official_directory",
+              "start_date": "2025-07"
+            },
+            "phd": {
+              "school": "University of Rochester",
+              "program": "PhD in Business Administration",
+              "region": "US",
+              "year": 2019
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/251",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "李楠",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/251",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/251",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "2013-2019，美国罗切斯特大学，工商管理，博士",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "李楠"
+              },
+              {
+                "type": "appointment",
+                "institution": "Tongji University",
+                "role": "助理教授",
+                "start_year": 2019,
+                "end_year": 2025,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/251"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2019-06",
+                "end_date": "2025-06"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "副教授",
+                "start_year": 2025,
+                "end_year": null,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/251"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2025-07"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-李楠",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-李楠",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/251"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/251"
+              ],
+              "notes": "逐项实际读取官方个人页教育与任职段落；博士授位、访问培养和当前职级起始分开，不推断缺失首职。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "刘诚晨",
@@ -99866,9 +100962,10 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "助理教授",
           "start_year": null,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "Hong Kong Polytechnic University",
@@ -99918,6 +101015,42 @@
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
             "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/277",
+            "label": "Official individual profile · title header",
+            "quote": "刘诚晨\n/ 助理教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "dc2de8ca3e3ffe799917b1e36b5862b259a0d9c3ae843403164d62e7efbc0498",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "刘诚晨\n助理教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
           }
         ],
         "career_events": [
@@ -99938,12 +101071,15 @@
         ],
         "unknowns": [
           {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+            "field": "current.start_year",
+            "reason": "Official title is readable; start of this specific rank is not explicitly dated. It is independent of the known institution and title.",
+            "source_urls": [
+              "https://cob.sufe.edu.cn/Faculty/Resume/277"
+            ]
           }
         ],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-刘诚晨",
         "placement_id": null,
@@ -99951,15 +101087,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-刘诚晨",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/277",
             "https://cob.sufe.edu.cn/Faculty/Resume/277"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -100046,8 +101182,132 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "刘诚晨",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "Hong Kong Polytechnic University",
+              "program": "PhD in Marketing",
+              "region": "HK",
+              "year": 2026,
+              "program_id": "hong-kong-polytechnic-university-marketing"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/277",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "刘诚晨",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/277",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/277",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "香港理工大学市场营销学博士 2026",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "刘诚晨"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-刘诚晨",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-刘诚晨",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/277"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/277"
+              ],
+              "notes": "官方教育段明确PolyU博士2026；ASU2024访问不认作第二博士。未给本校入职日期，不用博士年代填。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "孙琦",
@@ -100056,9 +101316,10 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "教授（常任教职）",
           "start_year": 2021,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "Stony Brook University",
@@ -100106,6 +101367,42 @@
             "source_date": null,
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/48",
+            "label": "Official individual profile · title header",
+            "quote": "孙琦\n/ 教授（常任教职）",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "3b4dc51565c047afcdfcbb0c598ceb9170104ddbafbc5b3c87891dddaf27dc88",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "孙琦\n教授（常任教职）",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
             "access_status": "content_read"
           }
         ],
@@ -100161,14 +101458,9 @@
             "checked_at": "2026-10-22"
           }
         ],
-        "unknowns": [
-          {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
-          }
-        ],
+        "unknowns": [],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-孙琦",
         "placement_id": null,
@@ -100176,15 +101468,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-孙琦",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/48",
             "https://cob.sufe.edu.cn/Faculty/Resume/48"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -100271,8 +101563,167 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "孙琦",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": 2021,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "Stony Brook University",
+              "program": "PhD in Economics",
+              "region": "US",
+              "year": 2010
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/48",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "孙琦",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/48",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/48",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "2010年 美国纽约州立大学石溪分校 经济系 经济学博士",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "孙琦"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "讲师",
+                "start_year": 2010,
+                "end_year": 2015,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/48"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "副教授",
+                "start_year": 2015,
+                "end_year": 2021,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/48"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "教授",
+                "start_year": 2021,
+                "end_year": null,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/48"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-孙琦",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-孙琦",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/48"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/48"
+              ],
+              "notes": "逐项实际读取官方个人页教育与任职段落；博士授位、访问培养和当前职级起始分开，不推断缺失首职。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "王晓玉",
@@ -100281,9 +101732,10 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "讲席教授",
           "start_year": null,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "Shanghai University of Finance and Economics",
@@ -100334,6 +101786,42 @@
             "source_date": null,
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/53",
+            "label": "Official individual profile · title header",
+            "quote": "王晓玉\n/ 讲席教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "814f04bbb7bdc82eb7c23e05f6aaa8f0999b792963e93d6140b72ffb7f374a5c",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "王晓玉\n讲席教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
             "access_status": "content_read"
           }
         ],
@@ -100396,12 +101884,15 @@
         ],
         "unknowns": [
           {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+            "field": "current.start_year",
+            "reason": "Official title is readable; start of this specific rank is not explicitly dated. It is independent of the known institution and title.",
+            "source_urls": [
+              "https://cob.sufe.edu.cn/Faculty/Resume/53"
+            ]
           }
         ],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-王晓玉",
         "placement_id": null,
@@ -100409,15 +101900,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-王晓玉",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/53",
             "https://cob.sufe.edu.cn/Faculty/Resume/53"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -100504,8 +101995,175 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "王晓玉",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "Shanghai University of Finance and Economics",
+              "program": "PhD in Marketing",
+              "region": "CN",
+              "year": 2004,
+              "date": "2004-06",
+              "date_precision": "month",
+              "program_id": null
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/53",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "王晓玉",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/53",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/53",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "2001.9-2004.6，上海财经大学市场营销专业博士",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "王晓玉"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "讲师",
+                "start_year": 2004,
+                "end_year": 2007,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/53"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2004-08",
+                "end_date": "2007-06"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "副教授",
+                "start_year": 2007,
+                "end_year": 2018,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/53"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2007-06",
+                "end_date": "2018-07"
+              },
+              {
+                "type": "appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": "教授",
+                "start_year": 2018,
+                "end_year": null,
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/53"
+                ],
+                "evidence": "已读取CV Academic Appointments / Professional Experience；保留原职称和时间精度。",
+                "checked_at": "2026-10-22",
+                "start_date": "2018-07"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-王晓玉",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-王晓玉",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/53"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/53"
+              ],
+              "notes": "官方页明确2018-07晋升教授，但未给当前讲席头衔开始日期；不把教授晋升年自动当成讲席开始年。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "吴芳",
@@ -100514,9 +102172,10 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "教授（常任教职）",
           "start_year": null,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "University of Alberta",
@@ -100566,6 +102225,42 @@
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
             "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/76",
+            "label": "Official individual profile · title header",
+            "quote": "吴芳\n/ 教授（常任教职）",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "192d59bd6a752b8412d7d9daf57f06b0399465e1102d9bed0d2e6d1967955feb",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "吴芳\n教授（常任教职）",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
           }
         ],
         "career_events": [
@@ -100586,19 +102281,22 @@
         ],
         "unknowns": [
           {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
-          },
-          {
             "field": "phd.year",
             "reason": "补官方教育段博士院校与专业；页面没有博士年和任职起止，继续未知，常任教职原称谓保留不推断tenure。",
+            "source_urls": [
+              "https://cob.sufe.edu.cn/Faculty/Resume/76"
+            ]
+          },
+          {
+            "field": "current.start_year",
+            "reason": "Official title is readable; start of this specific rank is not explicitly dated. It is independent of the known institution and title.",
             "source_urls": [
               "https://cob.sufe.edu.cn/Faculty/Resume/76"
             ]
           }
         ],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-吴芳",
         "placement_id": null,
@@ -100606,15 +102304,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-吴芳",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/76",
             "https://cob.sufe.edu.cn/Faculty/Resume/76"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -100701,8 +102399,139 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "吴芳",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "University of Alberta",
+              "program": "PhD in Marketing",
+              "region": "CA",
+              "year": null,
+              "program_id": "university-of-alberta-marketing"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/76",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "吴芳",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/76",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/76",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "PhD in Marketing, University of Alberta, Canada",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "吴芳"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              },
+              {
+                "field": "phd.year",
+                "reason": "补官方教育段博士院校与专业；页面没有博士年和任职起止，继续未知，常任教职原称谓保留不推断tenure。",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Resume/76"
+                ]
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-吴芳",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-吴芳",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/76"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/76"
+              ],
+              "notes": "补官方教育段博士院校与专业；页面没有博士年和任职起止，继续未知，常任教职原称谓保留不推断tenure。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "汪新博",
@@ -100793,9 +102622,10 @@
         "current": {
           "institution": "Shanghai University of Finance and Economics",
           "region": "CN",
-          "role": null,
+          "role": "教授",
           "start_year": null,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "市场营销系"
         },
         "phd": {
           "school": "Shanghai University of Finance and Economics",
@@ -100845,6 +102675,42 @@
             "checked_at": "2026-10-22",
             "fetched_at": "2026-10-22",
             "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Resume/14",
+            "label": "Official individual profile · title header",
+            "quote": "叶巍岭\n/ 教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "579cff9138b5e71d80b24082cb2a7eed00697c4da007ff3babe5021133a0901e",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Independent department roster card",
+            "quote": "叶巍岭\n教授",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://cob.sufe.edu.cn/Faculty/Department",
+            "label": "Department tab containing the named member card",
+            "quote": "市场营销系",
+            "supports": [
+              "current.department"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "09c1fc9f74146e818e38a14b00bcf6add1fa1ad040ae46751a3037aa2028bfc3",
+            "access_status": "content_read"
           }
         ],
         "career_events": [
@@ -100865,12 +102731,15 @@
         ],
         "unknowns": [
           {
-            "field": "biography",
-            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+            "field": "current.start_year",
+            "reason": "Official title is readable; start of this specific rank is not explicitly dated. It is independent of the known institution and title.",
+            "source_urls": [
+              "https://cob.sufe.edu.cn/Faculty/Resume/14"
+            ]
           }
         ],
         "verification_status": "directory_only",
-        "checked_at": "2026-10-22",
+        "checked_at": "2026-10-25",
         "research_classification_status": "official_text_supported",
         "id": "faculty-sufe-叶巍岭",
         "placement_id": null,
@@ -100878,15 +102747,15 @@
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-existing-backfill-2026-10-22",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-sufe-叶巍岭",
         "identity_evidence": {
-          "basis": "explicit_stable_archive_and_named_source",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
             "https://cob.sufe.edu.cn/Faculty/Department",
+            "https://cob.sufe.edu.cn/Faculty/Resume/14",
             "https://cob.sufe.edu.cn/Faculty/Resume/14"
-          ],
-          "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+          ]
         },
         "resolved_gaps": [],
         "backfill_review": {
@@ -100973,8 +102842,132 @@
             "carried_forward": [],
             "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
             "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          },
+          {
+            "name": "叶巍岭",
+            "aliases": [],
+            "host_id": "sufe",
+            "current": {
+              "institution": "Shanghai University of Finance and Economics",
+              "region": "CN",
+              "role": null,
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "Shanghai University of Finance and Economics",
+              "program": "PhD in Marketing",
+              "region": "CN",
+              "year": 2005,
+              "program_id": null
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://cob.sufe.edu.cn/Faculty/Resume/14",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Department",
+                "label": "官方教师目录",
+                "quote": "叶巍岭",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/14",
+                "label": "官方个人页所链资料；链接登记不代表内容可读",
+                "checked_at": "2026-10-22",
+                "access_status": "link_recorded"
+              },
+              {
+                "url": "https://cob.sufe.edu.cn/Faculty/Resume/14",
+                "label": "本轮实际读取的本人CV/官方教育及任职资料",
+                "quote": "2001-2005 上海财经大学 市场营销 博士",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year",
+                  "career_events",
+                  "current.start_year"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "fetched_at": "2026-10-22",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Shanghai University of Finance and Economics",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "observed_current",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://cob.sufe.edu.cn/Faculty/Department"
+                ],
+                "quote": "叶巍岭"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+              }
+            ],
+            "verification_status": "directory_only",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-sufe-叶巍岭",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。 仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-existing-backfill-2026-10-22",
+            "existing_faculty_id": "faculty-sufe-叶巍岭",
+            "identity_evidence": {
+              "basis": "explicit_stable_archive_and_named_source",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Department",
+                "https://cob.sufe.edu.cn/Faculty/Resume/14"
+              ],
+              "reason": "按既有稳定档案ID查阅所链官方页面/本人CV，姓名、任职与培养信息交叉核对，不做姓名相似合并。"
+            },
+            "resolved_gaps": [],
+            "backfill_review": {
+              "checked_at": "2026-10-22",
+              "source_urls": [
+                "https://cob.sufe.edu.cn/Faculty/Resume/14"
+              ],
+              "notes": "教育段明确博士2005；2018起教师发展中心主任是行政任期，不能填当前教授晋升年。"
+            }
           }
-        ]
+        ],
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。",
+            "resolved_at": "2026-10-25",
+            "resolution": "Degree fields were verified in an earlier batch; current appointment independently re-read in this batch. Remaining date gaps remain explicit."
+          }
+        ],
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_and_directory_read",
+          "scope": "Current title and department only; no career segments or degree years added."
+        }
       },
       {
         "name": "周欣悦",
@@ -303609,7 +305602,8 @@
           "region": "US",
           "role": "Associate Professor of Business Administration",
           "start_year": null,
-          "status": "official_directory"
+          "status": "official_directory",
+          "department": "Tuck School of Business"
         },
         "phd": {
           "school": "Harvard University",
@@ -303723,6 +305717,31 @@
             ],
             "source_date": "2017-08-29",
             "checked_at": "2026-10-24",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+            "label": "Official Tuck faculty profile · school",
+            "quote": "Tuck School of Business at Dartmouth",
+            "supports": [
+              "current.department",
+              "current.institution"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "dd40882758e50e16bfed237a0f176c1064180e03f14b6723dd3e8cc902eea681",
+            "access_status": "content_read"
+          },
+          {
+            "url": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+            "label": "Official individual profile · title rechecked",
+            "quote": "Associate Professor of Business Administration",
+            "supports": [
+              "current.role"
+            ],
+            "checked_at": "2026-10-25",
+            "fetched_at": "2026-10-25",
+            "snapshot_sha256": "dd40882758e50e16bfed237a0f176c1064180e03f14b6723dd3e8cc902eea681",
             "access_status": "content_read"
           }
         ],
@@ -303859,17 +305878,25 @@
         "classification_status": "department_scope_only",
         "id": "faculty-dartmouth-college-tamikim",
         "placement_id": null,
-        "checked_at": "2026-10-24",
+        "checked_at": "2026-10-25",
         "faculty_type": "research",
         "career_sequence_complete": false,
         "carried_forward": [],
         "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
-        "import_batch_id": "faculty-career-full-cv-and-gap-notes-2026-10-24",
+        "import_batch_id": "faculty-current-appointments-2026-10-25",
         "existing_faculty_id": "faculty-dartmouth-college-tamikim",
         "identity_evidence": {
-          "basis": "Stable existing ID and exact individual CV/profile; review corrects stale missing-history notes and adds only source-dated appointments.",
+          "basis": "Stable archived ID and exact official individual page or explicitly named independent university report",
           "source_urls": [
-            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+            "https://tuck.dartmouth.edu/faculty/faculty-directory",
+            "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+            "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+            "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+            "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+            "https://news.darden.virginia.edu/articles/welcomes-six-new-professors"
           ]
         },
         "resolved_unknowns": [
@@ -304791,12 +306818,308 @@
               "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
               "status": "partial_history_verified"
             }
+          },
+          {
+            "name": "Tami Kim",
+            "aliases": [],
+            "host_id": "dartmouth-college-marketing",
+            "faculty_scope": "research_professoriate",
+            "current": {
+              "institution": "Dartmouth College",
+              "region": "US",
+              "role": "Associate Professor of Business Administration",
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "Harvard University",
+              "program": "DBA, Marketing",
+              "region": "US",
+              "year": null,
+              "evidence_status": "indexed_year_unverified",
+              "reported_year": 2017
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+            "cv_url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+            "sources": [
+              {
+                "url": "https://tuck.dartmouth.edu/faculty/faculty-directory",
+                "label": "官方Marketing目录",
+                "quote": "Associate Professor of Business Administration",
+                "supports": [
+                  "current.role",
+                  "current.institution"
+                ],
+                "checked_at": "2026-10-22",
+                "status": "confirmed_factual_reference"
+              },
+              {
+                "url": "https://tuck.dartmouth.edu/faculty/faculty-directory/tami-kim",
+                "label": "官方教师个人页",
+                "quote": "Associate Professor of Business Administration",
+                "supports": [
+                  "current.role",
+                  "identity"
+                ],
+                "checked_at": "2026-10-22",
+                "status": "confirmed_factual_reference"
+              },
+              {
+                "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+                "label": "已逐项核对的学位资料",
+                "quote": "Doctor of Business Administration, Marketing",
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.year"
+                ],
+                "checked_at": "2026-10-22",
+                "status": "confirmed_factual_reference"
+              },
+              {
+                "url": "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+                "label": "Official historical degree / career evidence",
+                "quote": "Tami Kim (DBA 2017)",
+                "supports": [
+                  "phd.school",
+                  "phd.year"
+                ],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "content_read"
+              },
+              {
+                "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+                "label": "Official CV · career fragment; present is snapshot-only",
+                "quote": "ami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, B",
+                "supports": [
+                  "career_events.1"
+                ],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "content_read"
+              },
+              {
+                "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+                "label": "Official CV · career fragment; present is snapshot-only",
+                "quote": "w (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020 – 05/2024) EDUCATION Harvard Business School Doctor of Business Administration, Marketing H",
+                "supports": [
+                  "career_events.0"
+                ],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "content_read"
+              },
+              {
+                "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+                "label": "Retrieved official CV bytes",
+                "snapshot_sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+                "quote": null,
+                "supports": [],
+                "checked_at": "2026-10-24",
+                "access_status": "content_read"
+              },
+              {
+                "url": "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+                "label": "Official historical degree / career evidence",
+                "quote": null,
+                "supports": [],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "unavailable_original_document",
+                "indexed_quote": "Tami Kim (DBA 2017)",
+                "access_reason": "Direct URL returns generic homepage HTML, not the original PDF; web reader404. Year claim withdrawn pending a readable original."
+              },
+              {
+                "url": "https://news.darden.virginia.edu/articles/welcomes-six-new-professors",
+                "label": "Live official UVA announcement, August29 2017",
+                "quote": "Harvard Business School, where she recently finished her DBA.",
+                "supports": [
+                  "phd.school"
+                ],
+                "source_date": "2017-08-29",
+                "checked_at": "2026-10-24",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "academic",
+                "institution": "University of Virginia",
+                "role": "Assistant Professor of Marketing",
+                "start_year": 2017,
+                "end_year": 2024,
+                "date_precision": "month",
+                "status": "historical_interval",
+                "source_urls": [
+                  "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+                ],
+                "quote": "Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020",
+                "checked_at": "2026-10-24",
+                "first_job_status": "not_asserted",
+                "source_snapshot_only": false,
+                "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。",
+                "title": "Assistant Professor, Marketing",
+                "start_date": "2017-07",
+                "end_date": "2024-05",
+                "evidence": "w (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020 – 05/2024) EDUCATION Harvard Business School Doctor of Business Administration, Marketing H",
+                "evidence_versions": [
+                  {
+                    "type": "appointment",
+                    "institution": "University of Virginia",
+                    "role": "Assistant Professor of Marketing",
+                    "start_year": 2017,
+                    "end_year": 2024,
+                    "date_precision": "year",
+                    "status": "reported_in_source",
+                    "source_urls": [
+                      "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+                    ],
+                    "quote": "Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, Batten Institute for Innovation and Entrepreneurship (09/2020",
+                    "checked_at": "2026-10-22",
+                    "first_job_status": "not_asserted",
+                    "source_snapshot_only": true,
+                    "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+                  }
+                ]
+              },
+              {
+                "type": "academic",
+                "institution": "Dartmouth College",
+                "role": "Associate Professor of Marketing (without tenure)",
+                "start_year": 2024,
+                "end_year": null,
+                "date_precision": "month",
+                "status": "historical_cv_snapshot",
+                "source_urls": [
+                  "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+                ],
+                "quote": "ory/tami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow",
+                "checked_at": "2026-10-24",
+                "first_job_status": "not_asserted",
+                "source_snapshot_only": true,
+                "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。",
+                "title": "Associate Professor (without tenure), Marketing",
+                "start_date": "2024-07",
+                "end_date": null,
+                "evidence": "ami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow (07/2025-06/2026) University of Virginia, Darden School of Business Assistant Professor, Marketing (07/2017 – 05/2024) Faculty Fellow, B",
+                "evidence_versions": [
+                  {
+                    "type": "appointment",
+                    "institution": "Dartmouth College",
+                    "role": "Associate Professor of Marketing (without tenure)",
+                    "start_year": 2024,
+                    "end_year": null,
+                    "date_precision": "year",
+                    "status": "reported_in_source",
+                    "source_urls": [
+                      "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+                    ],
+                    "quote": "ory/tami-kim ACADEMIC POSITIONS Tuck School of Business, Dartmouth College Associate Professor (without tenure), Marketing (07/2024 – ) Harvey H. Bundy III T’68 Faculty Fellow",
+                    "checked_at": "2026-10-22",
+                    "first_job_status": "not_asserted",
+                    "source_snapshot_only": true,
+                    "notes": " 开放结束日期只表示原资料当时未列结束，不自动延续至2026-10-22。"
+                  }
+                ]
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "phd.year",
+                "reason": "Source access conflict:2017 remains an indexed Harvard graduation-year lead, but direct original graduation PDFs return generic HTML/404; readable current CV omits degree year. Live August2017 UVA announcement confirms finished DBA but does not explicitly date the award. Confirmed year withdrawn; no appointment-year substitution.",
+                "values": [
+                  2017,
+                  null
+                ],
+                "source_urls": [
+                  "https://www.alumni.hbs.edu/Documents/giving/Campaign_Impact_Compilation.pdf",
+                  "https://www.hbs.edu/doctoral/Documents/2019_recent_placement_summary.pdf",
+                  "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+                ]
+              },
+              {
+                "field": "career_sequence_complete",
+                "reason": "Dated evidence covers only the listed appointments. Missing primary-job dates, intervening roles and continuity remain unverified; a visit or industry role does not establish a complete academic career."
+              }
+            ],
+            "verification": {
+              "profile_status": "read",
+              "degree_status": "checked_with_explicit_unknowns",
+              "career_status": "partial_path_verified",
+              "access_detail": null,
+              "profile_sha256": "dd40882758e50e16bfed237a0f176c1064180e03f14b6723dd3e8cc902eea681",
+              "cv_links": [
+                {
+                  "text": "View CV",
+                  "url": "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf",
+                  "status": 200,
+                  "error": null,
+                  "is_pdf": true,
+                  "is_docx": false,
+                  "sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+                  "text_chars": 14889
+                }
+              ],
+              "cv_access": {
+                "url": "https://tuck.dartmouth.edu/about/deans-message/biography",
+                "status": 200,
+                "error": null,
+                "sha256": "1f9e013aeb96779e560107834772290179d9bfb88685bbe73f428d845c97bcf1",
+                "is_pdf": false
+              },
+              "cv_status": "full_text_read",
+              "cv_sha256": "c528d104d0b2ee89ba8224c60db574dc751eaf7b4d72086a70a69a6cc561d103",
+              "as_of": "2026-10-22"
+            },
+            "classification_status": "department_scope_only",
+            "id": "faculty-dartmouth-college-tamikim",
+            "placement_id": null,
+            "checked_at": "2026-10-24",
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-career-full-cv-and-gap-notes-2026-10-24",
+            "existing_faculty_id": "faculty-dartmouth-college-tamikim",
+            "identity_evidence": {
+              "basis": "Stable existing ID and exact individual CV/profile; review corrects stale missing-history notes and adds only source-dated appointments.",
+              "source_urls": [
+                "https://tuck.dartmouth.edu/uploads/faculty/CV_TKim_2025.pdf"
+              ]
+            },
+            "resolved_unknowns": [
+              {
+                "field": "biography",
+                "reason": "已读学历资料未明确博士授予年份；未用求职、加入本校、首次任职或博士论文奖年份填充。"
+              }
+            ],
+            "verification_history": [
+              {
+                "checked_at": "2026-10-24",
+                "note": "Official CV re-read; dated fragments appended. Missing degree years stay unknown when education section omits dates; old current-at-check observations preserved."
+              }
+            ],
+            "career_review": {
+              "checked_at": "2026-10-24",
+              "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
+              "status": "partial_history_verified"
+            }
           }
         ],
         "career_review": {
           "checked_at": "2026-10-24",
           "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
           "status": "partial_history_verified"
+        },
+        "appointment_review": {
+          "checked_at": "2026-10-25",
+          "status": "official_individual_profile_read",
+          "scope": "Institution, business school and title checked independently of unknown DBA award year."
         }
       },
       {
@@ -381556,6 +383879,19 @@
           "id": "faculty-depth-resolved-notes-and-education-2026-10-25",
           "added": 0,
           "revised": 24,
+          "linked": 0,
+          "degree_years_added": 0,
+          "schools": 0
+        }
+      },
+      {
+        "id": "faculty-current-appointments-2026-10-25",
+        "sha256": "7a6453680041cc734555e219984b7e28f9d31cbd9733f05d1bd0060663e20def",
+        "checked_at": "2026-10-25",
+        "report": {
+          "id": "faculty-current-appointments-2026-10-25",
+          "added": 0,
+          "revised": 12,
           "linked": 0,
           "degree_years_added": 0,
           "schools": 0
