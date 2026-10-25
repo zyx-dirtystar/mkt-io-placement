@@ -2,7 +2,7 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-网站版本 1.2.1；数据核验截至 2026-10-25。本轮实际复核 24 位既有教师，补齐 8 个博士年份、23 位老师的至少一段带日期职业记录；100 条去重任职记录不等于新人员或完整路径。仍缺博士年份 331 人、带日期职业记录 396 人；新确认完整职业路径与完整 cohort 均为 0。证据、逐人变化与限制见 [本轮审计](docs/DEPTH-REVIEW-2026-10-25.md)，[前一轮报告](docs/DEPTH-REVIEW-2026-10-24.md) 保留原始日期与数字。
+网站版本 1.2.2；数据核验截至 2026-10-25。追加复核12位既有教师，补11个职称与11个学院／院系字段，1358人均有学校记录、1356人有职称记录，2人职称保留待确认；字段记录数不等于全部实时任职已核实。任职信息、博士年份和履历日期独立呈现，见 [任职复核](docs/APPOINTMENTS-2026-10-25.md)。此前履历批次实际复核24人，补8个博士年份、23人的至少一段带日期职业记录及100条去重任职记录。仍缺博士年份331人、带日期职业记录396人；新确认完整职业路径与完整cohort均为0。[履历审计](docs/DEPTH-REVIEW-2026-10-25.md)与[前一轮报告](docs/DEPTH-REVIEW-2026-10-24.md)保留原始口径与数字。
 
 
 ## 网站功能

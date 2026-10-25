@@ -1,4 +1,4 @@
-import {arr,unique,YEAR_BASES,TRACK_NAMES,AUDIT_NAMES,TENURE_NAMES,EVIDENCE_NAMES,labelRegion,recordYear,canonicalLabel,outcomeOf,selectStudyRecords,summarizeStudy,comparisonRows,flowRows,observationSummary,normalizedJobs,filterJobs,jobState,datasetCsv} from './observatory-logic.js?v=1.2.1';
+import {arr,unique,YEAR_BASES,TRACK_NAMES,AUDIT_NAMES,TENURE_NAMES,EVIDENCE_NAMES,labelRegion,recordYear,canonicalLabel,outcomeOf,selectStudyRecords,summarizeStudy,comparisonRows,flowRows,observationSummary,normalizedJobs,filterJobs,jobState,datasetCsv} from './observatory-logic.js?v=1.2.2';
 
 const mounted=new WeakMap();
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
