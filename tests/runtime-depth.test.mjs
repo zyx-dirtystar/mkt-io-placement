@@ -24,8 +24,8 @@ test('reviewed depth import counts unique careers, preserves unknown award years
  const tami=a.people.find(p=>p.name==='Tami Kim');assert.equal(tami.phd.year,null);assert.equal(tami.phd.reported_year,2017);assert.ok(tami.career_events.some(e=>e.title?.includes('without tenure')&&e.source_snapshot_only));
  assert.equal(tami.career_events.filter(e=>e.start_date||e.start_year||e.start).length,2,'month precision must replace duplicate year intervals');
  assert.ok(tami.sources.some(s=>s.access_status==='unavailable_original_document'&&s.supports.length===0));
- const receipt=read('data/faculty-depth-receipt-2026-10-24.json');
- assert.equal(receipt.profiles.filter(r=>!hasDatedCareer(r.before)&&hasDatedCareer(a.people.find(p=>p.id===r.before.id))).length,12);
+ const receipt=read('data/faculty-depth-receipt-2026-10-24.json'),nextPath='data/faculty-depth-receipt-2026-10-25.json',next=fs.existsSync(nextPath)?read(nextPath).profiles:[];
+ assert.equal(receipt.profiles.filter(r=>!hasDatedCareer(r.before)&&hasDatedCareer(next.find(x=>x.before.id===r.before.id)?.before||a.people.find(p=>p.id===r.before.id))).length,12);
  const jobs=read('data/jobs.json');assert.equal(jobs.find(j=>j.id==='nus-marketing-july2027').positions,2);assert.equal(jobs.find(j=>j.id==='polyu-cb-260810006').tenure_status,'unknown');assert.equal(jobs.find(j=>j.id==='melbourne-lecturer-jr014835').deadline,null);
 });
 

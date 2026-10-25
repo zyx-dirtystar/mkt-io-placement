@@ -1,0 +1,3993 @@
+{
+  "checked_at": "2026-10-25",
+  "baseline_commit": "1e5f34b1178f9ccc167b0bb04b1c2accce2d53fa",
+  "baseline": {
+    "phd_year_unknown": 339,
+    "no_dated_career": 419
+  },
+  "batches": [
+    {
+      "path": "data/research-updates/2026-10-25-faculty-depth-reviewed.json",
+      "id": "faculty-depth-official-documents-2026-10-25",
+      "sha256": "dd5290b1234d8a5c86947c6e371b9324b877caac5d100d3d7e07e4cc9721f2bf"
+    },
+    {
+      "path": "data/research-updates/2026-10-25-faculty-resolved-notes.json",
+      "id": "faculty-depth-resolved-notes-and-education-2026-10-25",
+      "sha256": "6b9b2a65bfbeabb233c6309c0bbefb62a52fbc5f3ec9d01fee776eb68f9e7e17"
+    }
+  ],
+  "profiles": [
+    {
+      "before": {
+        "name": "Kim Corfman",
+        "aliases": [],
+        "host_id": "new-york-university-marketing",
+        "current": {
+          "institution": "New York University",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Vice Dean for Learning Innovation Professor of Marketing",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Columbia University",
+          "program": "Marketing",
+          "region": "US",
+          "year": 1985,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://www.stern.nyu.edu/faculty/bio/kim-corfman"
+          ],
+          "evidence_status": "source_quoted",
+          "program_id": "columbia-university-marketing"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.stern.nyu.edu/faculty/bio/kim-corfman",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/faculty-staff/tenured-tenure-track-faculty",
+            "label": "官方教师目录",
+            "quote": "Kim Corfman；Vice Dean for Learning Innovation Professor of Marketing",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/kim-corfman",
+            "label": "官方个人页（已读）",
+            "quote": "Kim Corfman",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "282c7ec956384ca36747288efed1a9b0e734d7d4322e7c9e52395b03f904a053"
+          },
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/kim-corfman",
+            "label": "官方个人页 · 博士信息",
+            "quote": "Ph.D., Marketing, 1985 Columbia University M.B.A., Marketing, 1982 Columbia University A.B., Romance Languages, 1977 Princeton University Footer Menu Faculty Directory Contact Us Visit Stern Make",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.year",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "Education / Academic Background；CV已读取页范围见cv_read",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "source_quoted"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "appointment",
+            "institution": "New York University",
+            "role": null,
+            "start_year": 1985,
+            "end_year": null,
+            "status": "institution_join_year_only",
+            "date_precision": "year",
+            "source_urls": [
+              "https://www.stern.nyu.edu/faculty/bio/kim-corfman"
+            ],
+            "quote": "Joined Stern 1985",
+            "notes": "来源只确认加入院校年份，初任职称和首职性质未知；不能作为已证实首职。",
+            "evidence_locator": "官方页Joined字段/官方CV教育与任职区块"
+          },
+          {
+            "type": "current_appointment",
+            "institution": "New York University",
+            "department": "Marketing",
+            "role": "Vice Dean for Learning Innovation Professor of Marketing",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/faculty-staff/tenured-tenure-track-faculty",
+              "https://www.stern.nyu.edu/faculty/bio/kim-corfman"
+            ],
+            "quote": "Kim Corfman — Vice Dean for Learning Innovation Professor of Marketing"
+          }
+        ],
+        "unknowns": [],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "no_readable_cv_link_at_profile",
+          "attempts": [],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "documented_intervals_partial",
+        "source_snapshots": [
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/kim-corfman",
+            "sha256": "282c7ec956384ca36747288efed1a9b0e734d7d4322e7c9e52395b03f904a053",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-new-york-university-kimcorfman",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "03e028b4cce3f6cd70f1d4d5855c34de2643d9367fddd3652b2f39e86292049a"
+    },
+    {
+      "before": {
+        "name": "Geeta Menon",
+        "aliases": [],
+        "host_id": "new-york-university-marketing",
+        "current": {
+          "institution": "New York University",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Abraham Krasnoff Professor of Global Business & Professor of Marketing",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "University of Illinois Urbana-Champaign",
+          "program": "Business Administration",
+          "region": "US",
+          "year": 1991,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://www.stern.nyu.edu/faculty/bio/geeta-menon"
+          ],
+          "evidence_status": "source_quoted"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.stern.nyu.edu/faculty/bio/geeta-menon",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/faculty-staff/tenured-tenure-track-faculty",
+            "label": "官方教师目录",
+            "quote": "Geeta Menon；Abraham Krasnoff Professor of Global Business & Professor of Marketing",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/geeta-menon",
+            "label": "官方个人页（已读）",
+            "quote": "Geeta Menon",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "f5ea24ecea5a7e2ecf24b6714196725211b72695a9d76265c64a2d355a9849a4"
+          },
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/geeta-menon",
+            "label": "官方个人页 · 博士信息",
+            "quote": "Ph.D., Business Administration (minor, Social Psychology), 1991 University of Illinois at Urbana- Champaign M.A., Economics, 1983 Madras Christian College, Madras University B.A., Economics, 1981 Stella",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.year",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "Education / Academic Background；CV已读取页范围见cv_read",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "source_quoted"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "appointment",
+            "institution": "New York University",
+            "role": null,
+            "start_year": 1990,
+            "end_year": null,
+            "status": "institution_join_year_only",
+            "date_precision": "year",
+            "source_urls": [
+              "https://www.stern.nyu.edu/faculty/bio/geeta-menon"
+            ],
+            "quote": "Joined Stern 1990",
+            "notes": "来源只确认加入院校年份，初任职称和首职性质未知；不能作为已证实首职。",
+            "evidence_locator": "官方页Joined字段/官方CV教育与任职区块"
+          },
+          {
+            "type": "current_appointment",
+            "institution": "New York University",
+            "department": "Marketing",
+            "role": "Abraham Krasnoff Professor of Global Business & Professor of Marketing",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/faculty-staff/tenured-tenure-track-faculty",
+              "https://www.stern.nyu.edu/faculty/bio/geeta-menon"
+            ],
+            "quote": "Geeta Menon — Abraham Krasnoff Professor of Global Business & Professor of Marketing"
+          }
+        ],
+        "unknowns": [],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "no_readable_cv_link_at_profile",
+          "attempts": [],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "documented_intervals_partial",
+        "source_snapshots": [
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/geeta-menon",
+            "sha256": "f5ea24ecea5a7e2ecf24b6714196725211b72695a9d76265c64a2d355a9849a4",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-new-york-university-geetamenon",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "7da2583ae6f87e5543cd8c2dc8d301fe258e67f0a34ecac9c6be97218a3d552c"
+    },
+    {
+      "before": {
+        "name": "SUN Yacheng",
+        "aliases": [
+          "孙亚程"
+        ],
+        "host_id": "tsinghua",
+        "current": {
+          "institution": "Tsinghua University",
+          "region": "CN",
+          "role": "Professor, Chair",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Indiana University",
+          "program": "Marketing",
+          "region": "US",
+          "year": 2008,
+          "program_id": "indiana-university-marketing"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.sem.tsinghua.edu.cn/en/info/1220/7025.htm",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.sem.tsinghua.edu.cn/marken/Faculty.htm",
+            "label": "官方教师目录",
+            "quote": "SUN Yacheng — Professor, Chair",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://www.sem.tsinghua.edu.cn/en/info/1220/7025.htm",
+            "label": "实际读取的官方教育经历",
+            "quote": "PhD in Marketing from Indiana University in 2008",
+            "supports": [
+              "phd"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "Tsinghua University",
+            "role": "Professor, Chair",
+            "start_year": null,
+            "end_year": null,
+            "date_precision": "unknown",
+            "status": "observed_current",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://www.sem.tsinghua.edu.cn/marken/Faculty.htm"
+            ],
+            "quote": "SUN Yacheng — Professor, Chair"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "已读取工作经历区；未给本校入职起始或完整职业序列时保留未知。"
+          }
+        ],
+        "verification_status": "profile_verified",
+        "checked_at": "2026-10-22",
+        "research_classification_status": "official_text_supported",
+        "id": "faculty-tsinghua-sunyacheng",
+        "placement_id": null,
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-mainland-nine-2026-10-22"
+      },
+      "after_sha256": "c94f17ce2497ea4042e9fc0274d039b65ebae49db169868124efccae7c0e2068"
+    },
+    {
+      "before": {
+        "name": "Joseph Priester",
+        "aliases": [],
+        "host_id": "university-of-southern-california-marketing",
+        "current": {
+          "institution": "University of Southern California",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Associate Professor of Marketing",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Ohio State University",
+          "program": null,
+          "region": "US",
+          "year": null,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://www.marshall.usc.edu/personnel/joseph-priester"
+          ],
+          "evidence_status": "provisional_excerpt"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.marshall.usc.edu/personnel/joseph-priester",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.marshall.usc.edu/departments/marketing/faculty",
+            "label": "官方教师目录",
+            "quote": "Joseph Priester；Associate Professor of Marketing",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://www.marshall.usc.edu/personnel/joseph-priester",
+            "label": "官方个人页（已读）",
+            "quote": "Joseph Priester",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "7e970846bc8ced745d708e90ef4950fad12c55fed0c5e4d91a8cacf11a060cfb"
+          },
+          {
+            "url": "https://www.marshall.usc.edu/personnel/joseph-priester",
+            "label": "官方个人页 · 博士信息",
+            "quote": null,
+            "supports": [
+              "phd.school",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "provisional"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of Southern California",
+            "department": "Marketing",
+            "role": "Associate Professor of Marketing",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://www.marshall.usc.edu/departments/marketing/faculty",
+              "https://www.marshall.usc.edu/personnel/joseph-priester"
+            ],
+            "quote": "Joseph Priester — Associate Professor of Marketing"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          },
+          {
+            "field": "biography",
+            "reason": "博士学科未明确核定；不按现任Marketing岗位反推博士专业。"
+          },
+          {
+            "field": "biography",
+            "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "attempted_unavailable_or_preview_html",
+          "attempts": [
+            {
+              "url": "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/priester_vita_january_2020-1.docx",
+              "status": 200,
+              "error": "not_a_readable_pdf"
+            }
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://www.marshall.usc.edu/personnel/joseph-priester",
+            "sha256": "7e970846bc8ced745d708e90ef4950fad12c55fed0c5e4d91a8cacf11a060cfb",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-university-of-southern-california-josephpriester",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "d8fd65c4811ca5509643cd65dc82dbe3cf571235a48d90dc78d27bc116fee58d"
+    },
+    {
+      "before": {
+        "name": "Sha Yang",
+        "aliases": [],
+        "host_id": "university-of-southern-california-marketing",
+        "current": {
+          "institution": "University of Southern California",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Ernest Hahn Professor of Marketing; Professor of Marketing",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Ohio State University",
+          "program": null,
+          "region": "US",
+          "year": null,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://www.marshall.usc.edu/personnel/sha-yang"
+          ],
+          "evidence_status": "provisional_excerpt"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.marshall.usc.edu/personnel/sha-yang",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.marshall.usc.edu/departments/marketing/faculty",
+            "label": "官方教师目录",
+            "quote": "Sha Yang；Ernest Hahn Professor of Marketing; Professor of Marketing",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://www.marshall.usc.edu/personnel/sha-yang",
+            "label": "官方个人页（已读）",
+            "quote": "Sha Yang",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "982b12346f3503b72502528d24fb6713f440b65ae2fd0cc59d7c5428119f53ee"
+          },
+          {
+            "url": "https://www.marshall.usc.edu/personnel/sha-yang",
+            "label": "官方个人页 · 博士信息",
+            "quote": null,
+            "supports": [
+              "phd.school",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "provisional"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of Southern California",
+            "department": "Marketing",
+            "role": "Ernest Hahn Professor of Marketing; Professor of Marketing",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://www.marshall.usc.edu/departments/marketing/faculty",
+              "https://www.marshall.usc.edu/personnel/sha-yang"
+            ],
+            "quote": "Sha Yang — Ernest Hahn Professor of Marketing; Professor of Marketing"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          },
+          {
+            "field": "biography",
+            "reason": "博士学科未明确核定；不按现任Marketing岗位反推博士专业。"
+          },
+          {
+            "field": "biography",
+            "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "attempted_unavailable_or_preview_html",
+          "attempts": [
+            {
+              "url": "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/cv_-_sha_yang_2022_-_post-1.docx",
+              "status": 200,
+              "error": "not_a_readable_pdf"
+            }
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://www.marshall.usc.edu/personnel/sha-yang",
+            "sha256": "982b12346f3503b72502528d24fb6713f440b65ae2fd0cc59d7c5428119f53ee",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-university-of-southern-california-shayang",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "a59177c484c10116ce86b8a7ebbc24f28c2c180d2bfe734421948579ff2db706"
+    },
+    {
+      "before": {
+        "name": "Craig Thompson",
+        "aliases": [],
+        "host_id": "university-of-wisconsin-madison-marketing",
+        "current": {
+          "institution": "University of Wisconsin-Madison",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "University of Tennessee",
+          "program": "Marketing",
+          "region": "US",
+          "year": 1992,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://business.wisc.edu/directory/profile/craig-thompson/"
+          ],
+          "evidence_status": "source_quoted",
+          "program_id": "university-of-tennessee-marketing"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://business.wisc.edu/directory/profile/craig-thompson/",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+            "label": "官方教师目录",
+            "quote": "Craig Thompson；Professor",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+            "label": "官方个人页（已读）",
+            "quote": "Craig Thompson",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a"
+          },
+          {
+            "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+            "label": "官方个人页 · 博士信息",
+            "quote": null,
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "provisional"
+          },
+          {
+            "url": "https://guide.wisc.edu/faculty/",
+            "label": "Official historical degree / career evidence",
+            "quote": "THOMPSON,CRAIG Professor Marketing PhD 1992 The University of Tennessee",
+            "supports": [
+              "phd.school",
+              "phd.year"
+            ],
+            "checked_at": "2026-10-24",
+            "fetched_at": "2026-10-24",
+            "access_status": "content_read"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of Wisconsin-Madison",
+            "department": "Marketing",
+            "role": "Professor",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://business.wisc.edu/faculty-research/marketing/faculty/",
+              "https://business.wisc.edu/directory/profile/craig-thompson/"
+            ],
+            "quote": "Craig Thompson — Professor"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "career_sequence_complete",
+            "reason": "Dated evidence covers only the listed appointments. Missing primary-job dates, intervening roles and continuity remain unverified; a visit or industry role does not establish a complete academic career."
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "attempted_unavailable_or_preview_html",
+          "attempts": [
+            {
+              "url": "https://d2w1q8smhohfza.cloudfront.net/jcthomps/pci/Thompson_CV_Jan_2023-1.docx",
+              "status": 200,
+              "error": "not_a_readable_pdf"
+            }
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+            "sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-university-of-wisconsin-madison-craigthompson",
+        "placement_id": null,
+        "checked_at": "2026-10-24",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-career-full-cv-and-gap-notes-2026-10-24",
+        "existing_faculty_id": "faculty-university-of-wisconsin-madison-craigthompson",
+        "identity_evidence": {
+          "basis": "Stable existing ID and exact individual CV/profile; review corrects stale missing-history notes and adds only source-dated appointments.",
+          "source_urls": [
+            "https://business.wisc.edu/directory/profile/craig-thompson/"
+          ]
+        },
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          }
+        ],
+        "previous_versions": [
+          {
+            "name": "Craig Thompson",
+            "aliases": [],
+            "host_id": "university-of-wisconsin-madison-marketing",
+            "current": {
+              "institution": "University of Wisconsin-Madison",
+              "region": "US",
+              "department": "Marketing",
+              "role": "Professor",
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "University of Tennessee",
+              "program": "Marketing",
+              "region": "US",
+              "year": null,
+              "degree_type": "PhD",
+              "status": "degree_listed",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/craig-thompson/"
+              ],
+              "evidence_status": "provisional_excerpt",
+              "program_id": "university-of-tennessee-marketing"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://business.wisc.edu/directory/profile/craig-thompson/",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                "label": "官方教师目录",
+                "quote": "Craig Thompson；Professor",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role",
+                  "current.department"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "label": "官方个人页（已读）",
+                "quote": "Craig Thompson",
+                "supports": [
+                  "name",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked",
+                "snapshot_sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "label": "官方个人页 · 博士信息",
+                "quote": null,
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.degree_type"
+                ],
+                "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "provisional"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "University of Wisconsin-Madison",
+                "department": "Marketing",
+                "role": "Professor",
+                "start_year": null,
+                "end_year": null,
+                "status": "observed_current",
+                "date_precision": "unknown",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                  "https://business.wisc.edu/directory/profile/craig-thompson/"
+                ],
+                "quote": "Craig Thompson — Professor"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+              },
+              {
+                "field": "biography",
+                "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+              }
+            ],
+            "verification_status": "profile_read",
+            "profile_checked_at": "2026-10-22",
+            "cv_read": {
+              "status": "attempted_unavailable_or_preview_html",
+              "attempts": [
+                {
+                  "url": "https://d2w1q8smhohfza.cloudfront.net/jcthomps/pci/Thompson_CV_Jan_2023-1.docx",
+                  "status": 200,
+                  "error": "not_a_readable_pdf"
+                }
+              ],
+              "checked_at": "2026-10-22"
+            },
+            "profile_read_status": "profile_read",
+            "career_history_status": "current_observation_only",
+            "source_snapshots": [
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a",
+                "checked_at": "2026-10-22",
+                "type": "html"
+              }
+            ],
+            "id": "faculty-university-of-wisconsin-madison-craigthompson",
+            "placement_id": null,
+            "checked_at": "2026-10-22",
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+          },
+          {
+            "name": "Craig Thompson",
+            "aliases": [],
+            "host_id": "university-of-wisconsin-madison-marketing",
+            "current": {
+              "institution": "University of Wisconsin-Madison",
+              "region": "US",
+              "department": "Marketing",
+              "role": "Professor",
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "University of Tennessee",
+              "program": "Marketing",
+              "region": "US",
+              "year": 1992,
+              "degree_type": "PhD",
+              "status": "degree_listed",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/craig-thompson/"
+              ],
+              "evidence_status": "source_quoted",
+              "program_id": "university-of-tennessee-marketing"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://business.wisc.edu/directory/profile/craig-thompson/",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                "label": "官方教师目录",
+                "quote": "Craig Thompson；Professor",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role",
+                  "current.department"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "label": "官方个人页（已读）",
+                "quote": "Craig Thompson",
+                "supports": [
+                  "name",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked",
+                "snapshot_sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "label": "官方个人页 · 博士信息",
+                "quote": null,
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.degree_type"
+                ],
+                "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "provisional"
+              },
+              {
+                "url": "https://guide.wisc.edu/faculty/",
+                "label": "Official historical degree / career evidence",
+                "quote": "THOMPSON,CRAIG Professor Marketing PhD 1992 The University of Tennessee",
+                "supports": [
+                  "phd.school",
+                  "phd.year"
+                ],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "University of Wisconsin-Madison",
+                "department": "Marketing",
+                "role": "Professor",
+                "start_year": null,
+                "end_year": null,
+                "status": "observed_current",
+                "date_precision": "unknown",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                  "https://business.wisc.edu/directory/profile/craig-thompson/"
+                ],
+                "quote": "Craig Thompson — Professor"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+              }
+            ],
+            "verification_status": "profile_read",
+            "profile_checked_at": "2026-10-22",
+            "cv_read": {
+              "status": "attempted_unavailable_or_preview_html",
+              "attempts": [
+                {
+                  "url": "https://d2w1q8smhohfza.cloudfront.net/jcthomps/pci/Thompson_CV_Jan_2023-1.docx",
+                  "status": 200,
+                  "error": "not_a_readable_pdf"
+                }
+              ],
+              "checked_at": "2026-10-22"
+            },
+            "profile_read_status": "profile_read",
+            "career_history_status": "current_observation_only",
+            "source_snapshots": [
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a",
+                "checked_at": "2026-10-22",
+                "type": "html"
+              }
+            ],
+            "id": "faculty-university-of-wisconsin-madison-craigthompson",
+            "placement_id": null,
+            "checked_at": "2026-10-24",
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-depth-official-cv-2026-10-24",
+            "existing_faculty_id": "faculty-university-of-wisconsin-madison-craigthompson",
+            "identity_evidence": {
+              "basis": "Same stable faculty ID and official individual CV/profile, institution and name cross-checked",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/craig-thompson/"
+              ]
+            },
+            "resolved_unknowns": [
+              {
+                "field": "biography",
+                "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+              }
+            ]
+          },
+          {
+            "name": "Craig Thompson",
+            "aliases": [],
+            "host_id": "university-of-wisconsin-madison-marketing",
+            "current": {
+              "institution": "University of Wisconsin-Madison",
+              "region": "US",
+              "department": "Marketing",
+              "role": "Professor",
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "University of Tennessee",
+              "program": "Marketing",
+              "region": "US",
+              "year": 1992,
+              "degree_type": "PhD",
+              "status": "degree_listed",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/craig-thompson/"
+              ],
+              "evidence_status": "source_quoted",
+              "program_id": "university-of-tennessee-marketing"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://business.wisc.edu/directory/profile/craig-thompson/",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                "label": "官方教师目录",
+                "quote": "Craig Thompson；Professor",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role",
+                  "current.department"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "label": "官方个人页（已读）",
+                "quote": "Craig Thompson",
+                "supports": [
+                  "name",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked",
+                "snapshot_sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "label": "官方个人页 · 博士信息",
+                "quote": null,
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.degree_type"
+                ],
+                "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "provisional"
+              },
+              {
+                "url": "https://guide.wisc.edu/faculty/",
+                "label": "Official historical degree / career evidence",
+                "quote": "THOMPSON,CRAIG Professor Marketing PhD 1992 The University of Tennessee",
+                "supports": [
+                  "phd.school",
+                  "phd.year"
+                ],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "University of Wisconsin-Madison",
+                "department": "Marketing",
+                "role": "Professor",
+                "start_year": null,
+                "end_year": null,
+                "status": "observed_current",
+                "date_precision": "unknown",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                  "https://business.wisc.edu/directory/profile/craig-thompson/"
+                ],
+                "quote": "Craig Thompson — Professor"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+              }
+            ],
+            "verification_status": "profile_read",
+            "profile_checked_at": "2026-10-22",
+            "cv_read": {
+              "status": "attempted_unavailable_or_preview_html",
+              "attempts": [
+                {
+                  "url": "https://d2w1q8smhohfza.cloudfront.net/jcthomps/pci/Thompson_CV_Jan_2023-1.docx",
+                  "status": 200,
+                  "error": "not_a_readable_pdf"
+                }
+              ],
+              "checked_at": "2026-10-22"
+            },
+            "profile_read_status": "profile_read",
+            "career_history_status": "current_observation_only",
+            "source_snapshots": [
+              {
+                "url": "https://business.wisc.edu/directory/profile/craig-thompson/",
+                "sha256": "84b7ed2f4b557ee39da88c9c7585832c1e19b1ffc03dfe31ab1524aacd25f52a",
+                "checked_at": "2026-10-22",
+                "type": "html"
+              }
+            ],
+            "id": "faculty-university-of-wisconsin-madison-craigthompson",
+            "placement_id": null,
+            "checked_at": "2026-10-24",
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-career-missing-and-dedupe-2026-10-24",
+            "existing_faculty_id": "faculty-university-of-wisconsin-madison-craigthompson",
+            "identity_evidence": {
+              "basis": "Stable ID, same exact official individual CV and institution; dated academic positions read directly.",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/craig-thompson/"
+              ]
+            },
+            "resolved_unknowns": [
+              {
+                "field": "biography",
+                "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+              }
+            ],
+            "career_review": {
+              "checked_at": "2026-10-24",
+              "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
+              "status": "partial_history_verified"
+            }
+          }
+        ],
+        "career_review": {
+          "checked_at": "2026-10-24",
+          "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
+          "status": "partial_history_verified"
+        }
+      },
+      "after_sha256": "55af258f84a17219d56c858ba51bcc8dd0e2f38ebf2c2ffb85dcca3f4d1f9003"
+    },
+    {
+      "before": {
+        "name": "Neil A. Morgan",
+        "aliases": [],
+        "host_id": "university-of-wisconsin-madison-marketing",
+        "current": {
+          "institution": "University of Wisconsin-Madison",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "University of Wales",
+          "program": "Business Administration",
+          "region": "UK",
+          "year": 1996,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+          ],
+          "evidence_status": "source_quoted"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+            "label": "官方教师目录",
+            "quote": "Neil A. Morgan；Professor",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+            "label": "官方个人页（已读）",
+            "quote": "Neil A. Morgan",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db"
+          },
+          {
+            "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+            "label": "官方个人页 · 博士信息",
+            "quote": null,
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "provisional"
+          },
+          {
+            "url": "https://guide.wisc.edu/faculty/",
+            "label": "Official historical degree / career evidence",
+            "quote": "MORGAN,NEIL A. Professor Marketing PHD 1996 University of Wales",
+            "supports": [
+              "phd.school",
+              "phd.year"
+            ],
+            "checked_at": "2026-10-24",
+            "fetched_at": "2026-10-24",
+            "access_status": "content_read"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of Wisconsin-Madison",
+            "department": "Marketing",
+            "role": "Professor",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://business.wisc.edu/faculty-research/marketing/faculty/",
+              "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+            ],
+            "quote": "Neil A. Morgan — Professor"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "career_sequence_complete",
+            "reason": "Dated evidence covers only the listed appointments. Missing primary-job dates, intervening roles and continuity remain unverified; a visit or industry role does not establish a complete academic career."
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "attempted_unavailable_or_preview_html",
+          "attempts": [
+            {
+              "url": "https://d2w1q8smhohfza.cloudfront.net/namorgan/pci/NAM%20-%20Vita%20(Wisc)-1.docx",
+              "status": 200,
+              "error": "not_a_readable_pdf"
+            }
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+            "sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-university-of-wisconsin-madison-neilamorgan",
+        "placement_id": null,
+        "checked_at": "2026-10-24",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-career-full-cv-and-gap-notes-2026-10-24",
+        "existing_faculty_id": "faculty-university-of-wisconsin-madison-neilamorgan",
+        "identity_evidence": {
+          "basis": "Stable existing ID and exact individual CV/profile; review corrects stale missing-history notes and adds only source-dated appointments.",
+          "source_urls": [
+            "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+          ]
+        },
+        "resolved_unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          }
+        ],
+        "previous_versions": [
+          {
+            "name": "Neil A. Morgan",
+            "aliases": [],
+            "host_id": "university-of-wisconsin-madison-marketing",
+            "current": {
+              "institution": "University of Wisconsin-Madison",
+              "region": "US",
+              "department": "Marketing",
+              "role": "Professor",
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "University of Wales",
+              "program": "Business Administration",
+              "region": "UK",
+              "year": null,
+              "degree_type": "PhD",
+              "status": "degree_listed",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+              ],
+              "evidence_status": "provisional_excerpt"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                "label": "官方教师目录",
+                "quote": "Neil A. Morgan；Professor",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role",
+                  "current.department"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "label": "官方个人页（已读）",
+                "quote": "Neil A. Morgan",
+                "supports": [
+                  "name",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked",
+                "snapshot_sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "label": "官方个人页 · 博士信息",
+                "quote": null,
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.degree_type"
+                ],
+                "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "provisional"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "University of Wisconsin-Madison",
+                "department": "Marketing",
+                "role": "Professor",
+                "start_year": null,
+                "end_year": null,
+                "status": "observed_current",
+                "date_precision": "unknown",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                  "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+                ],
+                "quote": "Neil A. Morgan — Professor"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+              },
+              {
+                "field": "biography",
+                "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+              }
+            ],
+            "verification_status": "profile_read",
+            "profile_checked_at": "2026-10-22",
+            "cv_read": {
+              "status": "attempted_unavailable_or_preview_html",
+              "attempts": [
+                {
+                  "url": "https://d2w1q8smhohfza.cloudfront.net/namorgan/pci/NAM%20-%20Vita%20(Wisc)-1.docx",
+                  "status": 200,
+                  "error": "not_a_readable_pdf"
+                }
+              ],
+              "checked_at": "2026-10-22"
+            },
+            "profile_read_status": "profile_read",
+            "career_history_status": "current_observation_only",
+            "source_snapshots": [
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db",
+                "checked_at": "2026-10-22",
+                "type": "html"
+              }
+            ],
+            "id": "faculty-university-of-wisconsin-madison-neilamorgan",
+            "placement_id": null,
+            "checked_at": "2026-10-22",
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+          },
+          {
+            "name": "Neil A. Morgan",
+            "aliases": [],
+            "host_id": "university-of-wisconsin-madison-marketing",
+            "current": {
+              "institution": "University of Wisconsin-Madison",
+              "region": "US",
+              "department": "Marketing",
+              "role": "Professor",
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "University of Wales",
+              "program": "Business Administration",
+              "region": "UK",
+              "year": 1996,
+              "degree_type": "PhD",
+              "status": "degree_listed",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+              ],
+              "evidence_status": "source_quoted"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                "label": "官方教师目录",
+                "quote": "Neil A. Morgan；Professor",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role",
+                  "current.department"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "label": "官方个人页（已读）",
+                "quote": "Neil A. Morgan",
+                "supports": [
+                  "name",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked",
+                "snapshot_sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "label": "官方个人页 · 博士信息",
+                "quote": null,
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.degree_type"
+                ],
+                "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "provisional"
+              },
+              {
+                "url": "https://guide.wisc.edu/faculty/",
+                "label": "Official historical degree / career evidence",
+                "quote": "MORGAN,NEIL A. Professor Marketing PHD 1996 University of Wales",
+                "supports": [
+                  "phd.school",
+                  "phd.year"
+                ],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "University of Wisconsin-Madison",
+                "department": "Marketing",
+                "role": "Professor",
+                "start_year": null,
+                "end_year": null,
+                "status": "observed_current",
+                "date_precision": "unknown",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                  "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+                ],
+                "quote": "Neil A. Morgan — Professor"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+              }
+            ],
+            "verification_status": "profile_read",
+            "profile_checked_at": "2026-10-22",
+            "cv_read": {
+              "status": "attempted_unavailable_or_preview_html",
+              "attempts": [
+                {
+                  "url": "https://d2w1q8smhohfza.cloudfront.net/namorgan/pci/NAM%20-%20Vita%20(Wisc)-1.docx",
+                  "status": 200,
+                  "error": "not_a_readable_pdf"
+                }
+              ],
+              "checked_at": "2026-10-22"
+            },
+            "profile_read_status": "profile_read",
+            "career_history_status": "current_observation_only",
+            "source_snapshots": [
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db",
+                "checked_at": "2026-10-22",
+                "type": "html"
+              }
+            ],
+            "id": "faculty-university-of-wisconsin-madison-neilamorgan",
+            "placement_id": null,
+            "checked_at": "2026-10-24",
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-depth-official-cv-2026-10-24",
+            "existing_faculty_id": "faculty-university-of-wisconsin-madison-neilamorgan",
+            "identity_evidence": {
+              "basis": "Same stable faculty ID and official individual CV/profile, institution and name cross-checked",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+              ]
+            },
+            "resolved_unknowns": [
+              {
+                "field": "biography",
+                "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+              }
+            ]
+          },
+          {
+            "name": "Neil A. Morgan",
+            "aliases": [],
+            "host_id": "university-of-wisconsin-madison-marketing",
+            "current": {
+              "institution": "University of Wisconsin-Madison",
+              "region": "US",
+              "department": "Marketing",
+              "role": "Professor",
+              "start_year": null,
+              "status": "official_directory"
+            },
+            "phd": {
+              "school": "University of Wales",
+              "program": "Business Administration",
+              "region": "UK",
+              "year": 1996,
+              "degree_type": "PhD",
+              "status": "degree_listed",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+              ],
+              "evidence_status": "source_quoted"
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                "label": "官方教师目录",
+                "quote": "Neil A. Morgan；Professor",
+                "supports": [
+                  "name",
+                  "current.institution",
+                  "current.role",
+                  "current.department"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "label": "官方个人页（已读）",
+                "quote": "Neil A. Morgan",
+                "supports": [
+                  "name",
+                  "current.role"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "checked",
+                "snapshot_sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db"
+              },
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "label": "官方个人页 · 博士信息",
+                "quote": null,
+                "supports": [
+                  "phd.school",
+                  "phd.program",
+                  "phd.degree_type"
+                ],
+                "evidence_locator": "个人页教育背景/简历前四页；未截取到足够具体的学位原文",
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "provisional"
+              },
+              {
+                "url": "https://guide.wisc.edu/faculty/",
+                "label": "Official historical degree / career evidence",
+                "quote": "MORGAN,NEIL A. Professor Marketing PHD 1996 University of Wales",
+                "supports": [
+                  "phd.school",
+                  "phd.year"
+                ],
+                "checked_at": "2026-10-24",
+                "fetched_at": "2026-10-24",
+                "access_status": "content_read"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "University of Wisconsin-Madison",
+                "department": "Marketing",
+                "role": "Professor",
+                "start_year": null,
+                "end_year": null,
+                "status": "observed_current",
+                "date_precision": "unknown",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://business.wisc.edu/faculty-research/marketing/faculty/",
+                  "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+                ],
+                "quote": "Neil A. Morgan — Professor"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+              }
+            ],
+            "verification_status": "profile_read",
+            "profile_checked_at": "2026-10-22",
+            "cv_read": {
+              "status": "attempted_unavailable_or_preview_html",
+              "attempts": [
+                {
+                  "url": "https://d2w1q8smhohfza.cloudfront.net/namorgan/pci/NAM%20-%20Vita%20(Wisc)-1.docx",
+                  "status": 200,
+                  "error": "not_a_readable_pdf"
+                }
+              ],
+              "checked_at": "2026-10-22"
+            },
+            "profile_read_status": "profile_read",
+            "career_history_status": "current_observation_only",
+            "source_snapshots": [
+              {
+                "url": "https://business.wisc.edu/directory/profile/neil-a-morgan/",
+                "sha256": "b4efb4199ff595aef8a536e50523de3731f4aed0a7f655cffbc981c5d15277db",
+                "checked_at": "2026-10-22",
+                "type": "html"
+              }
+            ],
+            "id": "faculty-university-of-wisconsin-madison-neilamorgan",
+            "placement_id": null,
+            "checked_at": "2026-10-24",
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-career-missing-and-dedupe-2026-10-24",
+            "existing_faculty_id": "faculty-university-of-wisconsin-madison-neilamorgan",
+            "identity_evidence": {
+              "basis": "Stable ID, same exact official individual CV and institution; dated academic positions read directly.",
+              "source_urls": [
+                "https://business.wisc.edu/directory/profile/neil-a-morgan/"
+              ]
+            },
+            "resolved_unknowns": [
+              {
+                "field": "biography",
+                "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+              }
+            ],
+            "career_review": {
+              "checked_at": "2026-10-24",
+              "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
+              "status": "partial_history_verified"
+            }
+          }
+        ],
+        "career_review": {
+          "checked_at": "2026-10-24",
+          "rule": "Same appointment matched on institution, rank, start year, compatible end year. Month precision enriches existing appointment; raw forms kept in evidence_versions and previous_versions. Unknown role join observations remain separate and uncounted as dated positions.",
+          "status": "partial_history_verified"
+        }
+      },
+      "after_sha256": "84fd78a0b475c24429973e09b16fc41655239dcc69ce2b0d947918c723b1ac53"
+    },
+    {
+      "before": {
+        "name": "Yingjie Zhang",
+        "aliases": [
+          "张颖婕"
+        ],
+        "host_id": "peking",
+        "current": {
+          "institution": "Peking University",
+          "region": "CN",
+          "role": "Associate Professor",
+          "start_year": null,
+          "status": "current_at_check"
+        },
+        "phd": {
+          "school": "Carnegie Mellon University",
+          "program": "Information Systems and Management",
+          "region": "US",
+          "year": 2018
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://sites.google.com/view/yingjiezhang/",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+            "label": "官方目录搜索索引",
+            "quote": "Yingjie Zhang",
+            "supports": [
+              "name",
+              "current.institution"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "indexed_reference"
+          },
+          {
+            "url": "https://sites.google.com/view/yingjiezhang/",
+            "label": "官方个人资料：教育与职业片段",
+            "quote": "I received my Ph.D. in Information Systems and Management from Carnegie Mellon University in 2018",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.region",
+              "phd.year"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "read_scope": "public HTML read",
+            "content_sha256": "ae8765918717ab87900a9290ecf50774e91f076db91f0761de60515eeb7460f6",
+            "fetched_at": "2026-10-22",
+            "final_url": "https://sites.google.com/view/yingjiezhang/"
+          },
+          {
+            "url": "https://sites.google.com/view/yingjiezhang/",
+            "label": "官方个人资料：教育与职业片段",
+            "quote": "I am an Associate Professor of Marketing at Guanghua School of Management, Peking University.",
+            "supports": [
+              "current.role",
+              "current.institution"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "read_scope": "public HTML read",
+            "content_sha256": "ae8765918717ab87900a9290ecf50774e91f076db91f0761de60515eeb7460f6",
+            "fetched_at": "2026-10-22",
+            "final_url": "https://sites.google.com/view/yingjiezhang/"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "Peking University",
+            "role": null,
+            "start_year": null,
+            "end_year": null,
+            "date_precision": "unknown",
+            "status": "indexed_reference",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+            ],
+            "quote": "Yingjie Zhang"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "career_events",
+            "reason": "已读个人主页明确现职，未读取其Google Drive内CV；不填写未读到的任职日期。",
+            "source_urls": [
+              "https://sites.google.com/view/yingjiezhang/"
+            ]
+          }
+        ],
+        "verification_status": "official_profile_checked",
+        "checked_at": "2026-10-22",
+        "research_classification_status": "official_text_supported",
+        "id": "faculty-peking-yingjiezhang",
+        "placement_id": null,
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-followup-cn-reviewed-2026-10-22",
+        "existing_faculty_id": "faculty-peking-yingjiezhang",
+        "first_job_status": "not_asserted",
+        "identity_evidence": {
+          "basis": "原有英文官方营销目录的姓名和机构邮箱，与中文/个人资料的同一机构邮箱、职位和研究身份对应；不与外校同名人合并。",
+          "source_urls": [
+            "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+            "https://sites.google.com/view/yingjiezhang/"
+          ],
+          "reviewed_at": "2026-10-22"
+        },
+        "previous_versions": [
+          {
+            "name": "Yingjie Zhang",
+            "aliases": [],
+            "host_id": "peking",
+            "current": {
+              "institution": "Peking University",
+              "region": "CN",
+              "role": null,
+              "start_year": null,
+              "status": "indexed_reference"
+            },
+            "phd": {
+              "school": null,
+              "program": null,
+              "region": null,
+              "year": null
+            },
+            "tracks": [
+              "marketing"
+            ],
+            "fields": [],
+            "homepage": null,
+            "cv_url": null,
+            "sources": [
+              {
+                "url": "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm",
+                "label": "官方目录搜索索引",
+                "quote": "Yingjie Zhang",
+                "supports": [
+                  "name",
+                  "current.institution"
+                ],
+                "source_date": null,
+                "checked_at": "2026-10-22",
+                "verification_status": "indexed_reference"
+              }
+            ],
+            "career_events": [
+              {
+                "type": "current_appointment",
+                "institution": "Peking University",
+                "role": null,
+                "start_year": null,
+                "end_year": null,
+                "date_precision": "unknown",
+                "status": "indexed_reference",
+                "checked_at": "2026-10-22",
+                "source_urls": [
+                  "https://en.gsm.pku.edu.cn/marketing/Faculty_Directory.htm"
+                ],
+                "quote": "Yingjie Zhang"
+              }
+            ],
+            "unknowns": [
+              {
+                "field": "biography",
+                "reason": "实时官方目录timeout；索引名单可能滞后，当前职称、入职日期与博士资料需个人证据。"
+              }
+            ],
+            "verification_status": "indexed_directory_reference",
+            "checked_at": "2026-10-22",
+            "research_classification_status": "official_text_supported",
+            "id": "faculty-peking-yingjiezhang",
+            "placement_id": null,
+            "faculty_type": "research",
+            "career_sequence_complete": false,
+            "carried_forward": [],
+            "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+            "import_batch_id": "faculty-mainland-nine-2026-10-22"
+          }
+        ]
+      },
+      "after_sha256": "7959cd0c3cc18a6b45697ef806a2a452ceecacad35f386a5be7754382b6d9df3"
+    },
+    {
+      "before": {
+        "name": "Julian De Freitas",
+        "aliases": [],
+        "host_id": "harvard-university-marketing",
+        "faculty_type": "research",
+        "membership_type": "research",
+        "eligibility": {
+          "research_roster": true,
+          "basis": "本轮官方院系研究教师目录与职称",
+          "source_url": "https://www.hbs.edu/faculty/units/marketing/Pages/faculty.aspx"
+        },
+        "current": {
+          "institution": "Harvard University",
+          "department": "Marketing",
+          "region": "US",
+          "role": "Associate Professor of Business Administration",
+          "start_year": null,
+          "tenure_status": "unknown",
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Harvard University",
+          "program": "Psychology",
+          "region": "US",
+          "year": 2021,
+          "degree": "PhD",
+          "year_basis": "explicit_education_year",
+          "completion_status": "confirmed",
+          "evidence": {
+            "url": "https://psychology.fas.harvard.edu/doctoral-alumni-0",
+            "quote": "2021 Linda Chang Tessa Charlesworth Julian De Freitas Peter Franz Adam Jaroszewski Payton Jones Emilie Josephs Ivan Kroupin Adam Mastroianni Erik Nook Leyla Tarhan JohnMark Taylor",
+            "locator": "Education / doctoral alumni entry",
+            "checked_at": "2026-10-22",
+            "status": "confirmed"
+          },
+          "reported_region": "United States"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1326184",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.hbs.edu/faculty/units/marketing/Pages/faculty.aspx",
+            "label": "官方院系教师目录",
+            "quote": "Associate Professor of Business Administration",
+            "supports": [
+              "current.role",
+              "membership_type",
+              "eligibility"
+            ],
+            "checked_at": "2026-10-22",
+            "locator": "Julian De Freitas"
+          },
+          {
+            "url": "https://psychology.fas.harvard.edu/doctoral-alumni-0",
+            "label": "Official or author-linked primary source",
+            "quote": "2021 Linda Chang Tessa Charlesworth Julian De Freitas Peter Franz Adam Jaroszewski Payton Jones Emilie Josephs Ivan Kroupin Adam Mastroianni Erik Nook Leyla Tarhan JohnMark Taylor",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.degree",
+              "phd.year"
+            ],
+            "locator": "Education / appointments",
+            "checked_at": "2026-10-22"
+          },
+          {
+            "url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1326184",
+            "label": "官方个人页所链资料；链接登记不代表内容可读",
+            "checked_at": "2026-10-22",
+            "access_status": "link_recorded"
+          }
+        ],
+        "career_events": [],
+        "unknowns": [
+          {
+            "field": "current.start_year",
+            "reason": "目录确认现职；本轮未独立确定该现职开始年份。职业事件中较早同校任职起年不等于现职职级起年。"
+          },
+          {
+            "field": "career_events",
+            "reason": "已读官方资料未取得可核验的任职起止区间；未以现职替代首职或推算毕业后第一份工作。"
+          },
+          {
+            "field": "career_sequence_complete",
+            "reason": "仅收录有明确依据的经历片段；未确认全部职业空档与完整首职顺序。"
+          },
+          {
+            "field": "current.tenure_status",
+            "reason": "除逐条明确含tenure字样的证据外，原始职称不能独立证明tenure/tenure-track状态。"
+          }
+        ],
+        "checked_at": "2026-10-22",
+        "career_sequence_complete": false,
+        "profile_read": {
+          "url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1326184",
+          "final_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1326184",
+          "http_status": 403,
+          "sha256": "2c7bfd520ffc15e6d831e71d8523d06316a27000819c39594c9cd6adeae97d29",
+          "checked_at": "2026-10-22"
+        },
+        "additional_cv_checks": [
+          {
+            "name": "Julian De Freitas",
+            "url": "https://www.hbs.edu/ris/Profile%20Files/CV%20September%202024_f9d1bdec-f697-4df8-85da-d163ebe974ca.pdf",
+            "read_status": "failed",
+            "reason": "HTTP Error 404: Not Found"
+          }
+        ],
+        "id": "faculty-harvard-university-juliandefreitas",
+        "placement_id": null,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-b-2026-10-22"
+      },
+      "after_sha256": "571dbbd70349e430461a8263ef629cde87e8758293c516cc881abebe133a0dbf"
+    },
+    {
+      "before": {
+        "name": "Hal Hershfield",
+        "aliases": [],
+        "host_id": "university-of-california-los-angeles-marketing",
+        "faculty_type": "research",
+        "membership_type": "research",
+        "eligibility": {
+          "research_roster": true,
+          "basis": "本轮官方院系研究教师目录与职称",
+          "source_url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty"
+        },
+        "current": {
+          "institution": "University of California, Los Angeles",
+          "department": "Marketing",
+          "region": "US",
+          "role": "Roger A. Enrico Chair in Marketing; Professor of Marketing and Behavioral Decision Making; Marketing Area Chair",
+          "start_year": null,
+          "tenure_status": "unknown",
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Stanford University",
+          "program": "Psychology",
+          "region": "US",
+          "year": 2009,
+          "degree": "PhD",
+          "year_basis": "explicit_education_year",
+          "evidence": {
+            "url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/hershfield",
+            "quote": "Ph.D. Psychology, 2009, Stanford University",
+            "locator": "Education",
+            "checked_at": "2026-10-22",
+            "status": "confirmed"
+          },
+          "reported_region": "United States"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/hershfield",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty",
+            "label": "官方院系教师目录",
+            "quote": "Roger A. Enrico Chair in Marketing; Professor of Marketing and Behavioral Decision Making; Marketing Area Chair",
+            "supports": [
+              "current.role",
+              "membership_type",
+              "eligibility"
+            ],
+            "checked_at": "2026-10-22",
+            "locator": "Hal Hershfield"
+          },
+          {
+            "url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/hershfield",
+            "label": "Doctoral education: official profile or linked CV",
+            "quote": "Ph.D. Psychology, 2009, Stanford University",
+            "locator": "Education",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.degree",
+              "phd.year"
+            ],
+            "checked_at": "2026-10-22"
+          }
+        ],
+        "career_events": [],
+        "unknowns": [
+          {
+            "field": "current.start_year",
+            "reason": "目录确认现职；本轮未独立确定该现职开始年份。职业事件中较早同校任职起年不等于现职职级起年。"
+          },
+          {
+            "field": "career_events",
+            "reason": "已读官方资料未取得可核验的任职起止区间；未以现职替代首职或推算毕业后第一份工作。"
+          },
+          {
+            "field": "career_sequence_complete",
+            "reason": "仅收录有明确依据的经历片段；未确认全部职业空档与完整首职顺序。"
+          },
+          {
+            "field": "current.tenure_status",
+            "reason": "除逐条明确含tenure字样的证据外，原始职称不能独立证明tenure/tenure-track状态。"
+          }
+        ],
+        "checked_at": "2026-10-22",
+        "career_sequence_complete": false,
+        "profile_read": {
+          "url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/hershfield",
+          "final_url": "https://www.anderson.ucla.edu/faculty-and-research/marketing/faculty/hershfield",
+          "http_status": 200,
+          "sha256": "5ac9405d88c69426f2884b4b556402d756dcf5166fcc72296b79c333e5663083",
+          "checked_at": "2026-10-22"
+        },
+        "cv_read": {
+          "url": "https://www.anderson.ucla.edu/sites/default/files/document/2026-01/20260102_Hershfield_Hal_CV.doc",
+          "checked_at": "2026-10-22",
+          "status": 200,
+          "final_url": "https://www.anderson.ucla.edu/sites/default/files/document/2026-01/20260102_Hershfield_Hal_CV.doc",
+          "content_type": "application/msword",
+          "sha256": "53f8f3a1090d265fbd35b9bd1026a6fdcf0fef825d96cd5214ee77dd07a315c4",
+          "read_status": "not_pdf",
+          "reason": "HTTP响应不是PDF/DOCX，未当作CV成功。"
+        },
+        "id": "faculty-university-of-california-los-angeles-halhershfield",
+        "placement_id": null,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-b-2026-10-22"
+      },
+      "after_sha256": "1b93f6b816e1ff52f2385e76c805232c3456182588e5f81cab37af0b750d6a40"
+    },
+    {
+      "before": {
+        "name": "Olivia Natan",
+        "aliases": [],
+        "host_id": "university-of-california-berkeley-marketing",
+        "current": {
+          "institution": "University of California, Berkeley",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Assistant Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "University of Chicago",
+          "program": "Quantitative Marketing",
+          "region": "US",
+          "year": null,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://haas.berkeley.edu/faculty/olivia-natan/"
+          ],
+          "evidence_status": "source_quoted",
+          "program_id": "university-of-chicago-marketing"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://haas.berkeley.edu/faculty/olivia-natan/",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://haas.berkeley.edu/academic-area/marketing/",
+            "label": "官方教师目录",
+            "quote": "Olivia Natan；Assistant Professor",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://haas.berkeley.edu/faculty/olivia-natan/",
+            "label": "官方个人页（已读）",
+            "quote": "Olivia Natan",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "b6f98dfda8c446964638fd736a356906c4156b59d7726f6f12bfcc1679cdbf30"
+          },
+          {
+            "url": "https://haas.berkeley.edu/faculty/olivia-natan/",
+            "label": "官方个人页 · 博士信息",
+            "quote": "PhD Alumni For MBA Alumni Hire Haas Giving Giving Give to UC Berkeley Haas Impact & Recognition Haas Leadership Society How to Give Give to",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "Education / Academic Background；CV已读取页范围见cv_read",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "source_quoted"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of California, Berkeley",
+            "department": "Marketing",
+            "role": "Assistant Professor",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://haas.berkeley.edu/academic-area/marketing/",
+              "https://haas.berkeley.edu/faculty/olivia-natan/"
+            ],
+            "quote": "Olivia Natan — Assistant Professor"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          },
+          {
+            "field": "biography",
+            "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "attempted_unavailable_or_preview_html",
+          "attempts": [
+            {
+              "url": "https://sites.google.com/view/olivianatan/cv",
+              "status": 200,
+              "error": "not_a_readable_pdf"
+            }
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://haas.berkeley.edu/faculty/olivia-natan/",
+            "sha256": "b6f98dfda8c446964638fd736a356906c4156b59d7726f6f12bfcc1679cdbf30",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-university-of-california-berkeley-olivianatan",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "946d23c7e7e5f18ee57b7f26989c625a985c48c09ec1263f31839eb49b5589a2"
+    },
+    {
+      "before": {
+        "name": "Sarah Moshary",
+        "aliases": [],
+        "host_id": "university-of-california-berkeley-marketing",
+        "current": {
+          "institution": "University of California, Berkeley",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Associate Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Massachusetts Institute of Technology",
+          "program": "Economics",
+          "region": "US",
+          "year": null,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://haas.berkeley.edu/faculty/sarah-moshary/"
+          ],
+          "evidence_status": "source_quoted"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://haas.berkeley.edu/faculty/sarah-moshary/",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://haas.berkeley.edu/academic-area/marketing/",
+            "label": "官方教师目录",
+            "quote": "Sarah Moshary；Associate Professor",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://haas.berkeley.edu/faculty/sarah-moshary/",
+            "label": "官方个人页（已读）",
+            "quote": "Sarah Moshary",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "4dd9ec2493ca09da8aa12769a6cf9d7816a7c17bab7546ee5d3f36f3b2cdb325"
+          },
+          {
+            "url": "https://haas.berkeley.edu/faculty/sarah-moshary/",
+            "label": "官方个人页 · 博士信息",
+            "quote": "PhD Alumni * For MBA Alumni * Hire Haas * Lifelong Learning Lifelong Learning * Lifelong Learning * Events Events * Worldwide Alumni Events Calendar",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "Education / Academic Background；CV已读取页范围见cv_read",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "source_quoted"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of California, Berkeley",
+            "department": "Marketing",
+            "role": "Associate Professor",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://haas.berkeley.edu/academic-area/marketing/",
+              "https://haas.berkeley.edu/faculty/sarah-moshary/"
+            ],
+            "quote": "Sarah Moshary — Associate Professor"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          },
+          {
+            "field": "biography",
+            "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "no_readable_cv_link_at_profile",
+          "attempts": [],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://haas.berkeley.edu/faculty/sarah-moshary/",
+            "sha256": "4dd9ec2493ca09da8aa12769a6cf9d7816a7c17bab7546ee5d3f36f3b2cdb325",
+            "checked_at": "2026-10-22",
+            "type": "official_web_reader_text"
+          }
+        ],
+        "id": "faculty-university-of-california-berkeley-sarahmoshary",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "0e1875ebad1f584a4462439f3c55a531c1298a725792763bc6acc4ce3be92043"
+    },
+    {
+      "before": {
+        "name": "Yuichiro Kamada",
+        "aliases": [],
+        "host_id": "university-of-california-berkeley-marketing",
+        "current": {
+          "institution": "University of California, Berkeley",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Harvard University",
+          "program": "Economics",
+          "region": "US",
+          "year": null,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://haas.berkeley.edu/faculty/kamada-yuichiro/"
+          ],
+          "evidence_status": "source_quoted"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://haas.berkeley.edu/faculty/kamada-yuichiro/",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://haas.berkeley.edu/academic-area/marketing/",
+            "label": "官方教师目录",
+            "quote": "Yuichiro Kamada；Professor",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://haas.berkeley.edu/faculty/kamada-yuichiro/",
+            "label": "官方个人页（已读）",
+            "quote": "Yuichiro Kamada",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "b74ac6039a418d6bd0161e50d5a75a84d705183becd5ed558be08738cf6b78ae"
+          },
+          {
+            "url": "https://haas.berkeley.edu/faculty/kamada-yuichiro/",
+            "label": "官方个人页 · 博士信息",
+            "quote": "PhD Alumni For MBA Alumni Hire Haas Giving Giving Give to UC Berkeley Haas Impact & Recognition Haas Leadership Society How to Give Give to",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "Education / Academic Background；CV已读取页范围见cv_read",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "source_quoted"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of California, Berkeley",
+            "department": "Marketing",
+            "role": "Professor",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://haas.berkeley.edu/academic-area/marketing/",
+              "https://haas.berkeley.edu/faculty/kamada-yuichiro/"
+            ],
+            "quote": "Yuichiro Kamada — Professor"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          },
+          {
+            "field": "biography",
+            "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "attempted_unavailable_or_preview_html",
+          "attempts": [
+            {
+              "url": "https://ykamada.com/pdf/cv.pdf",
+              "status": null,
+              "error": "fetch failed"
+            }
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://haas.berkeley.edu/faculty/kamada-yuichiro/",
+            "sha256": "b74ac6039a418d6bd0161e50d5a75a84d705183becd5ed558be08738cf6b78ae",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-university-of-california-berkeley-yuichirokamada",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "445374b3e42d28e1c95fd62ee91a94abdeb4c84c26ec6e1ff047f3c99f356a36"
+    },
+    {
+      "before": {
+        "name": "Andreawan Honora",
+        "aliases": [],
+        "host_id": "university-of-western-australia-marketing",
+        "faculty_scope": "research_professoriate",
+        "faculty_type": "research",
+        "current": {
+          "institution": "University of Western Australia",
+          "region": "AU",
+          "department": "Marketing",
+          "role": "Lecturer",
+          "start_year": null,
+          "status": "official_directory",
+          "tenure_status": "unknown"
+        },
+        "phd": {
+          "school": "National Dong Hwa University",
+          "program": "Business Administration (Marketing)",
+          "region": "TW",
+          "year": 2022,
+          "degree_type": "PhD",
+          "verification_status": "official_profile_or_cv",
+          "evidence_status": "source_quoted",
+          "source_urls": [
+            "https://research-repository.uwa.edu.au/en/persons/andreawan-honora/"
+          ],
+          "date": "2022-01-31",
+          "date_precision": "day",
+          "program_id": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Digital Technology",
+          "Human-Computer Interaction",
+          "Service Management",
+          "Consumer Brand Relationships",
+          "Consumer psychology",
+          "Experimental research"
+        ],
+        "classification_status": "official_marketing_membership_only",
+        "homepage": "https://research-repository.uwa.edu.au/en/persons/andreawan-honora/",
+        "cv_url": null,
+        "career_events": [],
+        "career_sequence_complete": false,
+        "sources": [
+          {
+            "url": "https://research-repository.uwa.edu.au/en/persons/andreawan-honora/",
+            "label": "Official current Marketing membership and title",
+            "quote": "Andreawan Honora Dr Lecturer , UWA Business School , Marketing https://orcid.org/0000-0001-6809-2210",
+            "supports": [
+              "current",
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          },
+          {
+            "url": "https://research-repository.uwa.edu.au/en/organisations/marketing/",
+            "label": "Official organisation scope count",
+            "quote": "Marketing; Profiles (26); View all 26 profiles",
+            "supports": [
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          },
+          {
+            "url": "https://research-repository.uwa.edu.au/en/persons/andreawan-honora/",
+            "label": "Official doctorate education record",
+            "quote": "Business Administration - Marketing, Ph.D Award Date: 31 Jan 2022",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.year"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only",
+            "locator": "Qualifications / Education / Biography"
+          },
+          {
+            "url": "https://research-repository.uwa.edu.au/en/persons/andreawan-honora/",
+            "label": "Independent awarding institution in biography",
+            "quote": "He holds a PhD in Business Administration from National Dong Hwa University",
+            "supports": [
+              "phd.school"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          },
+          {
+            "url": "https://research-repository.uwa.edu.au/en/persons/andreawan-honora/",
+            "label": "Official self-described research expertise keywords",
+            "quote": "Research expertise keywords Digital Technology Human-Computer Interaction Service Management Consumer Brand Relationships Consumer psychology Experimental research",
+            "supports": [
+              "fields"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "current.start_year",
+            "reason": "当前官方目录支持现职，未取得明确当前职级生效年；不把目录核验日或2026合校年当入职年。"
+          },
+          {
+            "field": "career_sequence",
+            "reason": "仅保存来源明确任职片段；不宣称完整首职至今，也不自动将现职当首职。"
+          }
+        ],
+        "checked_at": "2026-10-23",
+        "id": "faculty-university-of-western-australia-andreawanhonora",
+        "placement_id": null,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-au-b-2026-10-23"
+      },
+      "after_sha256": "8a6b3ec95fe1889bd9b95a6ba32105c672b322110d0ecb2778351937bc56608d"
+    },
+    {
+      "before": {
+        "name": "Rosie Thuy Pham-Henderson",
+        "aliases": [],
+        "host_id": "university-of-western-australia-marketing",
+        "faculty_scope": "research_professoriate",
+        "faculty_type": "research",
+        "current": {
+          "institution": "University of Western Australia",
+          "region": "AU",
+          "department": "Marketing",
+          "role": "Lecturer",
+          "start_year": null,
+          "status": "official_directory",
+          "tenure_status": "unknown"
+        },
+        "phd": {
+          "school": "Queensland University of Technology",
+          "program": "Marketing",
+          "region": "AU",
+          "year": 2022,
+          "degree_type": "PhD",
+          "verification_status": "official_profile_or_cv",
+          "evidence_status": "source_quoted",
+          "source_urls": [
+            "https://research-repository.uwa.edu.au/en/persons/thuy-pham/"
+          ],
+          "date": "2022-07-26",
+          "date_precision": "day",
+          "reported_dates": [
+            "2022-05-10",
+            "2022-07-26"
+          ],
+          "program_id": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Unstructured data",
+          "Choice",
+          "Motivation",
+          "Engagement",
+          "Value",
+          "Search",
+          "Location",
+          "Health and well-being",
+          "Welfare Economics",
+          "Sustainability"
+        ],
+        "classification_status": "official_marketing_membership_only",
+        "homepage": "https://research-repository.uwa.edu.au/en/persons/thuy-pham/",
+        "cv_url": null,
+        "career_events": [],
+        "career_sequence_complete": false,
+        "sources": [
+          {
+            "url": "https://research-repository.uwa.edu.au/en/persons/thuy-pham/",
+            "label": "Official current Marketing membership and title",
+            "quote": "Rosie Thuy Pham-Henderson Dr Lecturer , UWA Business School , Marketing https://orcid.org/0000-0003-4041-5924",
+            "supports": [
+              "current",
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          },
+          {
+            "url": "https://research-repository.uwa.edu.au/en/organisations/marketing/",
+            "label": "Official organisation scope count",
+            "quote": "Marketing; Profiles (26); View all 26 profiles",
+            "supports": [
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          },
+          {
+            "url": "https://research-repository.uwa.edu.au/en/persons/thuy-pham/",
+            "label": "Official doctorate education record",
+            "quote": "Marketing, Doctor of Philosophy, How regulatory focus-mode fit impacts variety seeking, Queensland University of Technology 2 Jan 2019 → 2 Jan 2022 Award Date: 26 Jul 2022",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.year"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only",
+            "locator": "Qualifications / Education / Biography"
+          },
+          {
+            "url": "https://research-repository.uwa.edu.au/en/persons/thuy-pham/",
+            "label": "Official self-described research expertise keywords",
+            "quote": "Research expertise keywords Unstructured data Choice Motivation Engagement Value Search Location Health and well-being Welfare Economics Sustainability",
+            "supports": [
+              "fields"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "current.start_year",
+            "reason": "当前官方目录支持现职，未取得明确当前职级生效年；不把目录核验日或2026合校年当入职年。"
+          },
+          {
+            "field": "career_sequence",
+            "reason": "仅保存来源明确任职片段；不宣称完整首职至今，也不自动将现职当首职。"
+          }
+        ],
+        "checked_at": "2026-10-23",
+        "conflicts": [
+          {
+            "field": "phd.date",
+            "values": [
+              "2022-05-10",
+              "2022-07-26"
+            ],
+            "reason": "Same official profile biography says earnedPhDMay10, while education explicitlyAwardDateJul26; awardyear2022 agrees, exactdate discrepancy preserved.",
+            "source_urls": [
+              "https://research-repository.uwa.edu.au/en/persons/thuy-pham/"
+            ],
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "id": "faculty-university-of-western-australia-rosiethuyphamhenderson",
+        "placement_id": null,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-au-b-2026-10-23"
+      },
+      "after_sha256": "b450246dc441f75c1f3b5fae3b2788f64df2d73913c7c9d2ee0dba4c7270f2fc"
+    },
+    {
+      "before": {
+        "name": "David Jaud",
+        "aliases": [],
+        "host_id": "adelaide-university-marketing",
+        "faculty_scope": "research_professoriate",
+        "faculty_type": "research",
+        "current": {
+          "institution": "Adelaide University",
+          "region": "AU",
+          "department": "School of Marketing",
+          "role": "Program Director",
+          "start_year": null,
+          "status": "official_directory",
+          "tenure_status": "unknown"
+        },
+        "phd": {
+          "school": null,
+          "program": null,
+          "region": null,
+          "year": null,
+          "degree_type": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Consumer behaviour",
+          "Marketing",
+          "Business and Management"
+        ],
+        "classification_status": "official_marketing_membership_only",
+        "homepage": "https://researchers.adelaide.edu.au/profile/david.jaud",
+        "cv_url": null,
+        "career_events": [],
+        "career_sequence_complete": false,
+        "sources": [
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/david.jaud",
+            "label": "Current official new-university individual profile",
+            "quote": "David Jaud Program Director School of Marketing College of Business and Law",
+            "supports": [
+              "name",
+              "current",
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "separate_visible_profile_fields",
+            "quote_format": "field_concatenation_not_contiguous_prose"
+          },
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/david.jaud",
+            "label": "Explicit current affiliation from official filtered researcher directory",
+            "quote": "David Jaud Program Director School of Marketing Adelaide University",
+            "supports": [
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "separate_visible_profile_fields",
+            "locator": "Current profile heading; normalised column separators",
+            "quote_format": "field_concatenation_not_contiguous_prose"
+          },
+          {
+            "url": "https://adelaide.edu.au/about/school/marketing/our-people/",
+            "label": "New School of Marketing leadership/Institute association",
+            "quote": "/profile/david.jaud\\\">Dr David Jaud&lt;/a>&lt;/td>\\r\\n&lt;td>Master of Wine &amp; Food Business &lt;/td>\\r\\n&lt;/tr",
+            "supports": [
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          },
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/david.jaud",
+            "label": "Official individual research-interest labels",
+            "quote": "Consumer behaviour; Marketing; Business and Management",
+            "supports": [
+              "fields"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only",
+            "quote_format": "separate_visible_research_interest_fields"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "phd.school",
+            "reason": "本轮已读取的官方个人页/研究门户尚未取得明确博士授位学校；不代表其他公开资料不存在，不按Dr、现职或研究领域推定。"
+          },
+          {
+            "field": "phd.program",
+            "reason": "可读官方资料未明确博士专业；不以当前Marketing院系倒填。"
+          },
+          {
+            "field": "phd.year",
+            "reason": "已读教育/官方简介未给可确认授位年；不以论文、任职开始、奖项、学生指导日期或抓取日期代填。"
+          },
+          {
+            "field": "current.start_year",
+            "reason": "当前官方目录支持现职，未取得明确当前职级生效年；不把目录核验日或2026合校年当入职年。"
+          },
+          {
+            "field": "career_sequence",
+            "reason": "仅保存来源明确任职片段；不宣称完整首职至今，也不自动将现职当首职。"
+          },
+          {
+            "field": "current.academic_rank",
+            "reason": "当前研究门户标题为ProgramDirector；行政/项目职位已核，当前学术职级生效年及合同类型另待明确证据。"
+          }
+        ],
+        "checked_at": "2026-10-23",
+        "id": "faculty-adelaide-university-davidjaud",
+        "placement_id": null,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-au-b-2026-10-23"
+      },
+      "after_sha256": "e2cd83225c558822177c41a0393232dc27e0fab69eeb866ad8027ddf44a8f6c9"
+    },
+    {
+      "before": {
+        "name": "Amelie Burgess",
+        "aliases": [],
+        "host_id": "adelaide-university-marketing",
+        "faculty_scope": "research_professoriate",
+        "faculty_type": "research",
+        "current": {
+          "institution": "Adelaide University",
+          "region": "AU",
+          "department": "School of Marketing",
+          "role": "Senior Lecturer",
+          "start_year": null,
+          "status": "official_directory",
+          "tenure_status": "unknown"
+        },
+        "phd": {
+          "school": null,
+          "program": null,
+          "region": null,
+          "year": null,
+          "degree_type": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Conceptual Modelling",
+          "Culture, Gender, Sexuality",
+          "Marketing",
+          "Marketing Communications",
+          "Marketing Management",
+          "Marketing Theory",
+          "Race and Ethnic Relations"
+        ],
+        "classification_status": "official_marketing_membership_only",
+        "homepage": "https://researchers.adelaide.edu.au/profile/amelie.burgess",
+        "cv_url": null,
+        "career_events": [],
+        "career_sequence_complete": false,
+        "sources": [
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/amelie.burgess",
+            "label": "Current official new-university individual profile",
+            "quote": "Amelie Burgess Senior Lecturer School of Marketing College of Business and Law",
+            "supports": [
+              "name",
+              "current",
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "separate_visible_profile_fields",
+            "quote_format": "field_concatenation_not_contiguous_prose"
+          },
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/amelie.burgess",
+            "label": "Explicit current affiliation from official filtered researcher directory",
+            "quote": "Amelie Burgess Senior Lecturer School of Marketing Adelaide University",
+            "supports": [
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "separate_visible_profile_fields",
+            "locator": "Current profile heading; normalised column separators",
+            "quote_format": "field_concatenation_not_contiguous_prose"
+          },
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/amelie.burgess",
+            "label": "Official individual research-interest labels",
+            "quote": "Conceptual Modelling; Culture, Gender, Sexuality; Marketing; Marketing Communications; Marketing Management; Marketing Theory; Race and Ethnic Relations",
+            "supports": [
+              "fields"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only",
+            "quote_format": "separate_visible_research_interest_fields"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "phd.school",
+            "reason": "本轮已读取的官方个人页/研究门户尚未取得明确博士授位学校；不代表其他公开资料不存在，不按Dr、现职或研究领域推定。"
+          },
+          {
+            "field": "phd.program",
+            "reason": "可读官方资料未明确博士专业；不以当前Marketing院系倒填。"
+          },
+          {
+            "field": "phd.year",
+            "reason": "已读教育/官方简介未给可确认授位年；不以论文、任职开始、奖项、学生指导日期或抓取日期代填。"
+          },
+          {
+            "field": "current.start_year",
+            "reason": "当前官方目录支持现职，未取得明确当前职级生效年；不把目录核验日或2026合校年当入职年。"
+          },
+          {
+            "field": "career_sequence",
+            "reason": "仅保存来源明确任职片段；不宣称完整首职至今，也不自动将现职当首职。"
+          }
+        ],
+        "checked_at": "2026-10-23",
+        "id": "faculty-adelaide-university-amelieburgess",
+        "placement_id": null,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-au-b-2026-10-23"
+      },
+      "after_sha256": "2e5b03a827adbb83b29dccb9fb77f0d7a29fafedc05de0321b239bc5b8f2c5ef"
+    },
+    {
+      "before": {
+        "name": "Ivy Chu Dang",
+        "aliases": [
+          "Chu Ivy Dang"
+        ],
+        "host_id": "university-of-hong-kong-marketing",
+        "checked_at": "2026-10-22",
+        "faculty_scope": "research_professoriate",
+        "current": {
+          "institution": "University of Hong Kong",
+          "region": "HK",
+          "role": "Assistant Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Chinese University of Hong Kong",
+          "program": "Marketing",
+          "region": "HK",
+          "year": null,
+          "program_id": "chinese-university-of-hong-kong-marketing"
+        },
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Information economics",
+          "Consumer search",
+          "User, marketer and AI-generated content",
+          "Live commerce"
+        ],
+        "classification_status": "explicit_area_or_self_description",
+        "homepage": "https://ivydang.weebly.com",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.hkubs.hku.hk/people/chu-ivy-dang/",
+            "label": "HKU 官方教师资料",
+            "quote": "quantitative marketing",
+            "supports": [
+              "current",
+              "phd",
+              "fields"
+            ],
+            "checked_at": "2026-10-22",
+            "source_date": null,
+            "quote_normalization": "whitespace_only",
+            "access_status": "official_public_page_read"
+          },
+          {
+            "url": "https://ivydang.weebly.com",
+            "label": "官方个人页所链资料；链接登记不代表内容可读",
+            "checked_at": "2026-10-22",
+            "access_status": "link_recorded"
+          }
+        ],
+        "career_events": [],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授予年份未在本次可读官方资料中明确披露。"
+          },
+          {
+            "field": "biography",
+            "reason": "当前职级起始年份未明确；加入机构年份与当前职级年份分开。"
+          },
+          {
+            "field": "biography",
+            "reason": "尚无足以重建完整职业路径的任职日期；当前官方职务仅证明核验时现职，不证明首职。"
+          }
+        ],
+        "first_job_verified": false,
+        "id": "faculty-university-of-hong-kong-ivychudang",
+        "placement_id": null,
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "2026-10-22-faculty-hongkong"
+      },
+      "after_sha256": "aaba45fe0b4926514c7b359067fe4286455e756e68640fb74d588864fd4a2096"
+    },
+    {
+      "before": {
+        "name": "WU Jintao",
+        "aliases": [],
+        "host_id": "sun-yat-sen",
+        "current": {
+          "institution": "Sun Yat-sen University",
+          "region": "CN",
+          "role": "Associate Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": null,
+          "program": null,
+          "region": null,
+          "year": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Smart interaction, Consumer creativity, CSR marketing, Waiting"
+        ],
+        "homepage": "https://bus.sysu.edu.cn/en/teacher/8963",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://bus.sysu.edu.cn/en/bus-faculty",
+            "label": "官方全院Faculty目录",
+            "quote": "WU Jintao — Associate Professor",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://bus.sysu.edu.cn/en/teacher/8963",
+            "label": "官方目录研究方向",
+            "quote": "Smart interaction, Consumer creativity, CSR marketing, Waiting",
+            "supports": [
+              "fields",
+              "tracks"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "directory_text_checked"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "Sun Yat-sen University",
+            "role": "Associate Professor",
+            "start_year": null,
+            "end_year": null,
+            "date_precision": "unknown",
+            "status": "observed_current",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://bus.sysu.edu.cn/en/bus-faculty"
+            ],
+            "quote": "WU Jintao — Associate Professor"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+          }
+        ],
+        "verification_status": "directory_only",
+        "checked_at": "2026-10-22",
+        "research_classification_status": "official_text_supported",
+        "id": "faculty-sun-yat-sen-wujintao",
+        "placement_id": null,
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-mainland-nine-2026-10-22"
+      },
+      "after_sha256": "981a9712c127fbf92095a7a6231dfde230fb14780e882723bcd8449013e780a7"
+    },
+    {
+      "before": {
+        "name": "Wang Haizhong",
+        "aliases": [],
+        "host_id": "sun-yat-sen",
+        "current": {
+          "institution": "Sun Yat-sen University",
+          "region": "CN",
+          "role": "Professor",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": null,
+          "program": null,
+          "region": null,
+          "year": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Brand Strategy And Management, Marketing Strategy And Management, Customer Psychology And Buying Behavior, Industry And Service Marketing, National And City Brand, Etc."
+        ],
+        "homepage": "https://bus.sysu.edu.cn/en/teacher/WangHaizhong",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://bus.sysu.edu.cn/en/bus-faculty",
+            "label": "官方全院Faculty目录",
+            "quote": "Wang Haizhong — Professor",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://bus.sysu.edu.cn/en/teacher/WangHaizhong",
+            "label": "官方目录研究方向",
+            "quote": "Brand Strategy And Management, Marketing Strategy And Management, Customer Psychology And Buying Behavior, Industry",
+            "supports": [
+              "fields",
+              "tracks"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "directory_text_checked"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "Sun Yat-sen University",
+            "role": "Professor",
+            "start_year": null,
+            "end_year": null,
+            "date_precision": "unknown",
+            "status": "observed_current",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://bus.sysu.edu.cn/en/bus-faculty"
+            ],
+            "quote": "Wang Haizhong — Professor"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+          }
+        ],
+        "verification_status": "directory_only",
+        "checked_at": "2026-10-22",
+        "research_classification_status": "official_text_supported",
+        "id": "faculty-sun-yat-sen-wanghaizhong",
+        "placement_id": null,
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-mainland-nine-2026-10-22"
+      },
+      "after_sha256": "e1117fdd62fe38f1ae48adb245a17541e4b4bba02614f5477ba379fc8a9c523c"
+    },
+    {
+      "before": {
+        "name": "叶军",
+        "aliases": [],
+        "host_id": "xiamen",
+        "current": {
+          "institution": "Xiamen University",
+          "region": "CN",
+          "role": "教授",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": null,
+          "program": null,
+          "region": null,
+          "year": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://smr.xmu.edu.cn/TeacherWeb/Teacher_Details_2022.aspx?User_ID=513",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://smr.xmu.edu.cn/TeacherWeb/Teacher_Special_2022.aspx",
+            "label": "官方教师目录",
+            "quote": "叶军 — 教授",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://smr.xmu.edu.cn/TeacherWeb/Teacher_Details_2022.aspx?User_ID=513",
+            "label": "官方个人页所链资料；链接登记不代表内容可读",
+            "checked_at": "2026-10-22",
+            "access_status": "link_recorded"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "Xiamen University",
+            "role": "教授",
+            "start_year": null,
+            "end_year": null,
+            "date_precision": "unknown",
+            "status": "observed_current",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://smr.xmu.edu.cn/TeacherWeb/Teacher_Special_2022.aspx"
+            ],
+            "quote": "叶军 — 教授"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "尚未核验个人博士资料；目录任职不等于首职，当前岗位开始时间未知。"
+          }
+        ],
+        "verification_status": "directory_only",
+        "checked_at": "2026-10-22",
+        "research_classification_status": "official_text_supported",
+        "id": "faculty-xiamen-叶军",
+        "placement_id": null,
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-mainland-nine-2026-10-22"
+      },
+      "after_sha256": "57efba3f10813b2991333978db9624d46595a090999af0d9176c891b066cd615"
+    },
+    {
+      "before": {
+        "name": "John Dawes",
+        "aliases": [],
+        "host_id": "adelaide-university-marketing",
+        "faculty_scope": "research_professoriate",
+        "faculty_type": "research",
+        "current": {
+          "institution": "Adelaide University",
+          "region": "AU",
+          "department": "School of Marketing",
+          "role": "Dean, School of Marketing",
+          "start_year": null,
+          "status": "official_directory",
+          "tenure_status": "unknown"
+        },
+        "phd": {
+          "school": null,
+          "program": null,
+          "region": null,
+          "year": null,
+          "degree_type": null
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "classification_status": "official_marketing_membership_only",
+        "homepage": "https://researchers.adelaide.edu.au/profile/john.dawes",
+        "cv_url": null,
+        "career_events": [],
+        "career_sequence_complete": false,
+        "sources": [
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/john.dawes",
+            "label": "Current official new-university individual profile",
+            "quote": "John Dawes Dean, School of Marketing School of Marketing College of Business and Law",
+            "supports": [
+              "name",
+              "current",
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "separate_visible_profile_fields",
+            "quote_format": "field_concatenation_not_contiguous_prose"
+          },
+          {
+            "url": "https://researchers.adelaide.edu.au/profile/john.dawes",
+            "label": "Explicit current affiliation from official filtered researcher directory",
+            "quote": "John Dawes Dean, School of Marketing School of Marketing Adelaide University",
+            "supports": [
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "separate_visible_profile_fields",
+            "locator": "Current profile heading; normalised column separators",
+            "quote_format": "field_concatenation_not_contiguous_prose"
+          },
+          {
+            "url": "https://adelaide.edu.au/about/school/marketing/our-people/",
+            "label": "New School of Marketing leadership/Institute association",
+            "quote": "e/john.dawes\\\">Professor John Dawes&lt;/a>&lt;/td>\\r\\n&lt;td>Deputy Dean &lt;/td>\\r\\n&lt;/tr>&lt;tr>&lt;td>&lt;a hr",
+            "supports": [
+              "faculty_scope"
+            ],
+            "checked_at": "2026-10-23",
+            "source_date": null,
+            "status": "source_quoted",
+            "access_status": "official_public_page_read",
+            "quote_normalization": "whitespace_only"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "phd.school",
+            "reason": "本轮已读取的官方个人页/研究门户尚未取得明确博士授位学校；不代表其他公开资料不存在，不按Dr、现职或研究领域推定。"
+          },
+          {
+            "field": "phd.program",
+            "reason": "可读官方资料未明确博士专业；不以当前Marketing院系倒填。"
+          },
+          {
+            "field": "phd.year",
+            "reason": "已读教育/官方简介未给可确认授位年；不以论文、任职开始、奖项、学生指导日期或抓取日期代填。"
+          },
+          {
+            "field": "current.start_year",
+            "reason": "当前官方目录支持现职，未取得明确当前职级生效年；不把目录核验日或2026合校年当入职年。"
+          },
+          {
+            "field": "career_sequence",
+            "reason": "仅保存来源明确任职片段；不宣称完整首职至今，也不自动将现职当首职。"
+          }
+        ],
+        "checked_at": "2026-10-23",
+        "conflicts": [
+          {
+            "field": "current.administrative_role",
+            "values": [
+              "Dean, School of Marketing (researcher profile)",
+              "Deputy Dean (current school leadership page)"
+            ],
+            "reason": "Two official current pages show different administrative role labels; researchprofessor identity retained, do not assume timing or erase discrepancy.",
+            "source_urls": [
+              "https://researchers.adelaide.edu.au/profile/john.dawes",
+              "https://adelaide.edu.au/about/school/marketing/our-people/"
+            ],
+            "checked_at": "2026-10-23"
+          }
+        ],
+        "id": "faculty-adelaide-university-johndawes",
+        "placement_id": null,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-au-b-2026-10-23"
+      },
+      "after_sha256": "644a74a6268ccb2dd73bf823f1cfce56e290f4616970721d048ed87e86980cad"
+    },
+    {
+      "before": {
+        "name": "Tülin Erdem",
+        "aliases": [],
+        "host_id": "new-york-university-marketing",
+        "current": {
+          "institution": "New York University",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Chair, Marketing Leonard N. Stern Professor of Business & Professor of Marketing",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "University of Alberta",
+          "program": "Business Administration",
+          "region": "CA",
+          "year": 1993,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://www.stern.nyu.edu/faculty/bio/tulin-erdem"
+          ],
+          "evidence_status": "source_quoted",
+          "reported_region": "Canada"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.stern.nyu.edu/faculty/bio/tulin-erdem",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/faculty-staff/tenured-tenure-track-faculty",
+            "label": "官方教师目录",
+            "quote": "Tülin Erdem；Chair, Marketing Leonard N. Stern Professor of Business & Professor of Marketing",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/tulin-erdem",
+            "label": "官方个人页（已读）",
+            "quote": "Tülin Erdem",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "c9b2fee99c9063919deda02743c19678cf7cf5324a4dc05b027813196a75f7a4"
+          },
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/tulin-erdem",
+            "label": "官方个人页 · 博士信息",
+            "quote": "Ph.D., Business Administration, 1993 University of Alberta A.B.D., Economics, 1989 University of Alberta M.A., Economics, 1987 University of Alberta B.A., Economics, 1986 Bogazici University Awards",
+            "supports": [
+              "phd.school",
+              "phd.program",
+              "phd.year",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "Education / Academic Background；CV已读取页范围见cv_read",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "source_quoted"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "appointment",
+            "institution": "New York University",
+            "role": null,
+            "start_year": 2006,
+            "end_year": null,
+            "status": "institution_join_year_only",
+            "date_precision": "year",
+            "source_urls": [
+              "https://www.stern.nyu.edu/faculty/bio/tulin-erdem"
+            ],
+            "quote": "Joined Stern 2006",
+            "notes": "来源只确认加入院校年份，初任职称和首职性质未知；不能作为已证实首职。",
+            "evidence_locator": "官方页Joined字段/官方CV教育与任职区块"
+          },
+          {
+            "type": "current_appointment",
+            "institution": "New York University",
+            "department": "Marketing",
+            "role": "Chair, Marketing Leonard N. Stern Professor of Business & Professor of Marketing",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/faculty-staff/tenured-tenure-track-faculty",
+              "https://www.stern.nyu.edu/faculty/bio/tulin-erdem"
+            ],
+            "quote": "Tülin Erdem — Chair, Marketing Leonard N. Stern Professor of Business & Professor of Marketing"
+          }
+        ],
+        "unknowns": [],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "no_readable_cv_link_at_profile",
+          "attempts": [],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "documented_intervals_partial",
+        "source_snapshots": [
+          {
+            "url": "https://www.stern.nyu.edu/faculty/bio/tulin-erdem",
+            "sha256": "c9b2fee99c9063919deda02743c19678cf7cf5324a4dc05b027813196a75f7a4",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-new-york-university-tulinerdem",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "3f3ad1d26d4753353b62d525fcbab61b886ff44f623c58590f2e07c019c7880a"
+    },
+    {
+      "before": {
+        "name": "Jan-Benedict Steenkamp",
+        "aliases": [],
+        "host_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "current": {
+          "institution": "University of North Carolina at Chapel Hill",
+          "region": "US",
+          "department": "Marketing",
+          "role": "Knox Massey Distinguished Professor of Marketing",
+          "start_year": null,
+          "status": "official_directory"
+        },
+        "phd": {
+          "school": "Wageningen University",
+          "program": null,
+          "region": "NL",
+          "year": null,
+          "degree_type": "PhD",
+          "status": "degree_listed",
+          "source_urls": [
+            "https://www.kenan-flagler.unc.edu/faculty/directory/jan-benedict-steenkamp/"
+          ],
+          "evidence_status": "source_quoted",
+          "reported_region": "Netherlands"
+        },
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [],
+        "homepage": "https://www.kenan-flagler.unc.edu/faculty/directory/jan-benedict-steenkamp/",
+        "cv_url": null,
+        "sources": [
+          {
+            "url": "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=marketing",
+            "label": "官方教师目录",
+            "quote": "Jan-Benedict Steenkamp；Knox Massey Distinguished Professor of Marketing",
+            "supports": [
+              "name",
+              "current.institution",
+              "current.role",
+              "current.department"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked"
+          },
+          {
+            "url": "https://www.kenan-flagler.unc.edu/faculty/directory/jan-benedict-steenkamp/",
+            "label": "官方个人页（已读）",
+            "quote": "Jan-Benedict Steenkamp",
+            "supports": [
+              "name",
+              "current.role"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "checked",
+            "snapshot_sha256": "8ea72cd62517ef098dcfcaceb5bcb82fca305e41dc8aa8b108982aae6d48cccb"
+          },
+          {
+            "url": "https://www.kenan-flagler.unc.edu/faculty/directory/jan-benedict-steenkamp/",
+            "label": "官方个人页 · 博士信息",
+            "quote": "PhD Give Search Home About Programs Faculty Research News Events Alumni Centers STAR Programs Undergraduate Business Master of Science in Management Master of Accounting MBA",
+            "supports": [
+              "phd.school",
+              "phd.degree_type"
+            ],
+            "evidence_locator": "Education / Academic Background；CV已读取页范围见cv_read",
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "verification_status": "source_quoted"
+          }
+        ],
+        "career_events": [
+          {
+            "type": "current_appointment",
+            "institution": "University of North Carolina at Chapel Hill",
+            "department": "Marketing",
+            "role": "Knox Massey Distinguished Professor of Marketing",
+            "start_year": null,
+            "end_year": null,
+            "status": "observed_current",
+            "date_precision": "unknown",
+            "checked_at": "2026-10-22",
+            "source_urls": [
+              "https://www.kenan-flagler.unc.edu/faculty/?academic-areas=marketing",
+              "https://www.kenan-flagler.unc.edu/faculty/directory/jan-benedict-steenkamp/"
+            ],
+            "quote": "Jan-Benedict Steenkamp — Knox Massey Distinguished Professor of Marketing"
+          }
+        ],
+        "unknowns": [
+          {
+            "field": "biography",
+            "reason": "博士授位年份未获一致明确证据；不使用目录年、入职年或候选毕业年代填。"
+          },
+          {
+            "field": "biography",
+            "reason": "博士学科未明确核定；不按现任Marketing岗位反推博士专业。"
+          },
+          {
+            "field": "biography",
+            "reason": "实际已读资料尚未核定任职区间；现职观察与完整职业史独立，未推断首职。"
+          }
+        ],
+        "verification_status": "profile_read",
+        "profile_checked_at": "2026-10-22",
+        "cv_read": {
+          "status": "attempted_unavailable_or_preview_html",
+          "attempts": [
+            {
+              "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/1970/01/Vita-Jan-Benedict-Steenkamp.docx",
+              "status": 200,
+              "error": "not_a_readable_pdf"
+            }
+          ],
+          "checked_at": "2026-10-22"
+        },
+        "profile_read_status": "profile_read",
+        "career_history_status": "current_observation_only",
+        "source_snapshots": [
+          {
+            "url": "https://www.kenan-flagler.unc.edu/faculty/directory/jan-benedict-steenkamp/",
+            "sha256": "8ea72cd62517ef098dcfcaceb5bcb82fca305e41dc8aa8b108982aae6d48cccb",
+            "checked_at": "2026-10-22",
+            "type": "html"
+          }
+        ],
+        "id": "faculty-university-of-north-carolina-at-chapel-hill-janbenedictsteenkamp",
+        "placement_id": null,
+        "checked_at": "2026-10-22",
+        "faculty_type": "research",
+        "career_sequence_complete": false,
+        "carried_forward": [],
+        "notes": "仅为接收端教师档案；不自动纳入 placement 分母。职业事件是已核实片段，未宣称穷尽首职至今。",
+        "import_batch_id": "faculty-na-a-sixteen-2026-10-22"
+      },
+      "after_sha256": "7502f0127678c9ac5802c3f2625c9418df9200c808dc75cb8e130b83c669dc32"
+    }
+  ]
+}

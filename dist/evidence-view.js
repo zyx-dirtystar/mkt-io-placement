@@ -1,4 +1,4 @@
-import {gapSummary,outcomeScenario,regionalSummary,regionalSignals,TRACK_LABELS,SIGNAL_LABELS,provisionalTracks} from './evidence.js?v=1.2.0';
+import {gapSummary,outcomeScenario,regionalSummary,regionalSignals,TRACK_LABELS,SIGNAL_LABELS,provisionalTracks} from './evidence.js?v=1.2.1';
 
 export function uncertaintyPanel(rs,basis,assumption,ui){
   const {panel,percent}=ui,s=outcomeScenario(rs,basis,assumption),g=gapSummary(rs);

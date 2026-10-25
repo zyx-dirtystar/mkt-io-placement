@@ -1,0 +1,216 @@
+{
+  "newly_dated_evidence_types": {
+    "academic_or_teaching": 23,
+    "industry_only": 0,
+    "visiting_only": 0
+  },
+  "complete_career_histories_added": 0,
+  "as_of": "2026-10-25",
+  "reviewed": 24,
+  "phd_years_added": 8,
+  "career_segments_added": 100,
+  "date_refinements": 0,
+  "newly_dated_people": 23,
+  "all_faculty": 1358,
+  "phd_year_unknown": 331,
+  "no_dated_career": 396,
+  "baseline": {
+    "phd_year_unknown": 339,
+    "no_dated_career": 419
+  },
+  "counting_rule": "Unique dated institution + appointment rank + start year. More precise dates are refinements, not new appointments. Join-year observations without a role do not establish a dated appointment.",
+  "profiles": [
+    {
+      "id": "faculty-new-york-university-kimcorfman",
+      "name": "Kim Corfman",
+      "degree_before": 1985,
+      "degree_after": 1985,
+      "new_appointments": 4,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-geetamenon",
+      "name": "Geeta Menon",
+      "degree_before": 1991,
+      "degree_after": 1991,
+      "new_appointments": 12,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-tsinghua-sunyacheng",
+      "name": "SUN Yacheng",
+      "degree_before": 2008,
+      "degree_after": 2008,
+      "new_appointments": 2,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-southern-california-josephpriester",
+      "name": "Joseph Priester",
+      "degree_before": null,
+      "degree_after": 1994,
+      "new_appointments": 5,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-southern-california-shayang",
+      "name": "Sha Yang",
+      "degree_before": null,
+      "degree_after": 2000,
+      "new_appointments": 5,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-wisconsin-madison-craigthompson",
+      "name": "Craig Thompson",
+      "degree_before": 1992,
+      "degree_after": 1992,
+      "new_appointments": 3,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-wisconsin-madison-neilamorgan",
+      "name": "Neil A. Morgan",
+      "degree_before": 1996,
+      "degree_after": 1996,
+      "new_appointments": 9,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-peking-yingjiezhang",
+      "name": "Yingjie Zhang",
+      "degree_before": 2018,
+      "degree_after": 2018,
+      "new_appointments": 3,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-harvard-university-juliandefreitas",
+      "name": "Julian De Freitas",
+      "degree_before": 2021,
+      "degree_after": 2021,
+      "new_appointments": 2,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-california-los-angeles-halhershfield",
+      "name": "Hal Hershfield",
+      "degree_before": 2009,
+      "degree_after": 2009,
+      "new_appointments": 5,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-california-berkeley-olivianatan",
+      "name": "Olivia Natan",
+      "degree_before": null,
+      "degree_after": 2021,
+      "new_appointments": 1,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-california-berkeley-sarahmoshary",
+      "name": "Sarah Moshary",
+      "degree_before": null,
+      "degree_after": 2015,
+      "new_appointments": 5,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-california-berkeley-yuichirokamada",
+      "name": "Yuichiro Kamada",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 4,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-western-australia-andreawanhonora",
+      "name": "Andreawan Honora",
+      "degree_before": 2022,
+      "degree_after": 2022,
+      "new_appointments": 1,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-western-australia-rosiethuyphamhenderson",
+      "name": "Rosie Thuy Pham-Henderson",
+      "degree_before": 2022,
+      "degree_after": 2022,
+      "new_appointments": 1,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-adelaide-university-davidjaud",
+      "name": "David Jaud",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 7,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-adelaide-university-amelieburgess",
+      "name": "Amelie Burgess",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 3,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-hong-kong-ivychudang",
+      "name": "Ivy Chu Dang",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 1,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-sun-yat-sen-wujintao",
+      "name": "WU Jintao",
+      "degree_before": null,
+      "degree_after": 2003,
+      "new_appointments": 5,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-sun-yat-sen-wanghaizhong",
+      "name": "Wang Haizhong",
+      "degree_before": null,
+      "degree_after": null,
+      "new_appointments": 7,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-xiamen-叶军",
+      "name": "叶军",
+      "degree_before": null,
+      "degree_after": 2006,
+      "new_appointments": 2,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-adelaide-university-johndawes",
+      "name": "John Dawes",
+      "degree_before": null,
+      "degree_after": 1999,
+      "new_appointments": 0,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-new-york-university-tulinerdem",
+      "name": "Tülin Erdem",
+      "degree_before": 1993,
+      "degree_after": 1993,
+      "new_appointments": 4,
+      "refined_appointments": 0
+    },
+    {
+      "id": "faculty-university-of-north-carolina-at-chapel-hill-janbenedictsteenkamp",
+      "name": "Jan-Benedict Steenkamp",
+      "degree_before": null,
+      "degree_after": 1989,
+      "new_appointments": 9,
+      "refined_appointments": 0
+    }
+  ]
+}

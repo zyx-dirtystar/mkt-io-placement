@@ -161,3 +161,7 @@ The extension checker verifies preserved IDs, original placement scope and first
 `sync-data.mjs` generates `catalog-runtime.json`, `observatory-runtime.json` and one original profile per `faculty-profiles/<id>.json`. These are build outputs; never edit them. Physical Unicode filenames are retained and URL paths are encoded once. Faculty filters use the compact index; full profiles and evidence exports hydrate on demand. Compatibility full JSON remains available. Historical dated audit reports are frozen; use a new reviewed batch and a new report instead of rewriting an old release.
 
 The 2026-10-24 depth receipt records immutable batch hashes, original profiles and final profile hashes. The change report counts semantic appointments separately from date refinements; do not report appended array entries as new careers. See [the release audit](DEPTH-REVIEW-2026-10-24.md).
+
+## Incremental faculty review receipts
+
+Each new release uses a new dated `faculty-depth-receipt-YYYY-MM-DD.json` and immutable reviewed import batch. Preserve original profiles and final hashes in the receipt; provide the actual preceding baseline counts and commit. Never rewrite the previous dated report. The builder selects the latest receipt, and preservation checks validate the full ordered receipt chain. Changed current role/start fields also require exact official field excerpts. See [2026-10-25 audit](DEPTH-REVIEW-2026-10-25.md).
