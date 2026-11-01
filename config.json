@@ -1,7 +1,7 @@
 {
-  "version": "1.2.2 · Faculty affiliations and titles",
-  "updated_at": "2026-10-25",
-  "observation_as_of": "2026-10-25",
+  "version": "1.3.0 · Faculty evidence and directory",
+  "updated_at": "2026-11-02",
+  "observation_as_of": "2026-11-02",
   "current_cycle": "2026-2027",
   "history_years": [
     2023,
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "Eleven existing faculty titles and eleven school or department fields added from readable official sources. Affiliations and titles are shown independently of degree dates and career chronology; index-only membership remains explicit."
+  "change_note": "727 existing profiles reviewed: 511 research descriptions, 338 school or department fields and 2 titles added. Full-width faculty table, compact cards and source-linked profiles. Live Peking membership remains under review; no new career completeness claims."
 }

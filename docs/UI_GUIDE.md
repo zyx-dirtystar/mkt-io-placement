@@ -1,6 +1,6 @@
-# English interface · 1.1.1
+# English interface · 1.3.0
 
-Current release: 2026-10-23. The original 1.1.0 English redesign is retained. Version 1.1.1 adds researched Macao and Australian receiving-side faculty data, with individually dated evidence; original doctoral placement scope and historical reports remain preserved.
+Current release: 2026-11-02. The original 1.1.0 English redesign is retained. Version 1.1.1 adds researched Macao and Australian receiving-side faculty data, with individually dated evidence; original doctoral placement scope and historical reports remain preserved.
 
 ## Start with a question
 
@@ -20,7 +20,7 @@ Current release: 2026-10-23. The original 1.1.0 English redesign is retained. Ve
 
 Placements start with four controls: archive window, PhD institution, placement definition and destination region. More filters contains explicit year axes, complete-cohort eligibility, tenure evidence and research labels. An explicit year basis replaces the archive window; the recent archive is not a single graduating cohort.
 
-Faculty People starts with appointment region, receiving school, research track and PhD award year. More filters includes appointment group, degree-year group, doctoral scope, career evidence and field gaps. Active advanced filters are disclosed. Twenty profiles are shown per page; exports contain the full filtered set.
+Faculty People starts with appointment region, receiving school, research track and appointment evidence. More filters includes appointment group, PhD award year, degree-year group, doctoral scope, career evidence and field gaps. Active advanced filters are disclosed. Twenty profiles are shown per page; exports contain the full filtered set.
 
 Filters remain in the URL. Copy the address or use Copy link in the placement directory. Individual records have permanent links; existing Chinese-era hash routes, raw taxonomy filter values and faculty coverage links remain valid.
 
@@ -45,3 +45,10 @@ Choose Macao or Australia under Appointment region. School coverage now has seve
 ## Faculty depth release · 1.2.0
 
 People opens a compact table (20 per page); Card view remains available. Open a name to fetch the full original evidence. Open a receiving-school name for its own school page; the URL preserves the school. School pages show roster scope, individual biography coverage, research labels, doctoral origins, placement and hiring links. Directory reconciliation and complete careers are independent. Exports fetch full evidence before downloading and offer retry on failure. Unicode profile IDs and existing person links remain compatible.
+
+
+## Faculty information release · 1.3.0
+
+The faculty results panel now spans the page. Table columns separate name/title, school/unit, original research, doctoral training and appointment evidence; compact cards show a concise summary. Open a person for the complete evidence profile. Appointment-state filters distinguish historical, visiting, emeritus, future and membership-review records. Sources and degree dates remain independent of that state.
+
+The 727-profile review added 511 sourced research descriptions, 338 school/unit fields and two titles, with no new people or career claims. Click coverage totals or missing-field counts to inspect records. School pages report title/unit/research coverage and link to their sourced research records. Exports include unit evidence level and the pending current-membership review. [Dated review and limitations](FACULTY-BASICS-2026-11-02.md).

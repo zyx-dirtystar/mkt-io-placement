@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {facultySnapshot} from '../scripts/faculty-snapshot.mjs';
 import {facultyBasicCoverage,appointmentNeedsReview,filterFaculty,hasDatedCareer,facultyCsv,facultyHasConflict} from '../dist/faculty.js';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8'));
 test('appointment backfill adds eleven titles without inventing people, degree dates or dated histories',()=>{
@@ -14,7 +15,7 @@ test('appointment backfill adds eleven titles without inventing people, degree d
  const chen=a.people.find(p=>p.name==='陈杰腾');assert.equal(chen.current.status,'independent_official_report');assert.ok(chen.sources.some(s=>s.source_date==='2026-10-15'&&s.quote.includes('上海交通大学助理教授陈杰腾')));
 });
 test('affiliation search and gaps remain independent of unknown PhD year and career dates',()=>{
- const c=read('dist/data/catalog.json'),a=c.faculty.people,b=facultyBasicCoverage(a);
+ const current=read('dist/data/catalog.json'),c={...current,faculty:facultySnapshot(current.faculty,'2026-10-25')},a=c.faculty.people,b=facultyBasicCoverage(a);
  assert.equal(b.institution,1358);assert.equal(b.title,1356);assert.equal(b.title_unknown,2);assert.equal(b.department,968);
  const missing=filterFaculty(a,{gap:'role'},c);assert.deepEqual(missing.map(p=>p.name).sort(),['Minghua Jiang','Siqing Peng']);assert.ok(missing.every(appointmentNeedsReview));
  assert.equal(filterFaculty(a,{gap:'appointment_review'},c).length,b.membership_pending);

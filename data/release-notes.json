@@ -1,5 +1,10 @@
 [
   {
+    "school": "Faculty information · 1.3.0",
+    "note": "2026-11-02: 727 existing profiles revised; 511 research descriptions, 338 school/department fields (136 department-level; 202 school-level), and two independently supported Peking titles added. 1,358 people retained. Live Peking membership remains under review. Missing: 52 units, 522 research descriptions, 331 PhD years and 396 dated career records. No new complete careers or cohorts.",
+    "url": "https://github.com/zyx-dirtystar/mkt-io-placement/blob/main/docs/FACULTY-BASICS-2026-11-02.md"
+  },
+  {
     "school": "Macao & Australia · receiving faculty extension",
     "note": "2026-10-23: 244 new profiles across 3 Macao and 8 current Australian Go8 schools; 87 PhD years verified, 157 remain unknown; 76 profiles have 248 dated career fragments. 6 scoped directories reconciled; the remaining 5 stay partial. Three explicit placement identities linked; original 308 placement records and fixed doctoral program scope retained.",
     "url": "https://github.com/zyx-dirtystar/mkt-io-placement/blob/main/docs/FACULTY-MACAO-AUSTRALIA-2026-10-23.md"

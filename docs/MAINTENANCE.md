@@ -167,3 +167,8 @@ The 2026-10-24 depth receipt records immutable batch hashes, original profiles a
 ## Incremental faculty review receipts
 
 Each new release uses a new dated `faculty-depth-receipt-YYYY-MM-DD.json` and immutable reviewed import batch. Preserve original profiles and final hashes in the receipt; provide the actual preceding baseline counts and commit. Never rewrite the previous dated report. The builder selects the latest receipt, and preservation checks validate the full ordered receipt chain. Changed current role/start fields also require exact official field excerpts. See [2026-10-25 audit](DEPTH-REVIEW-2026-10-25.md).
+
+
+## Faculty basic-field receipts
+
+`faculty-basics-receipt-2026-11-02.json` extends the chronological reviewed-person receipt chain. `node scripts/faculty-basics-report.mjs` recomputes actual field coverage and person-level unresolved gaps; CI runs it before deployment. `scripts/faculty-snapshot.mjs` rolls later receipts back for historical assertions, retaining old release facts. Shared URL/quote/label evidence now unions field supports, with a regression test; repeated basic-batch import remains inert. Do not turn a source retrieval pass into a verified-person census, or a school-level unit into confirmed department membership. Current membership flags must be carried into the runtime index and exports even when a title is known.

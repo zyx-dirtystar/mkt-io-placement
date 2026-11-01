@@ -10,7 +10,7 @@ const fold=s=>String(s||'').normalize('NFKD').toLowerCase().replace(/[^a-z0-9\u4
 const canonical=s=>String(s||'').replace(/^The /,'').replace('Hong Kong Polytechnic University','Hong Kong Polytechnic University');
 const sourceUrls=p=>(p.sources||[]).map(s=>s.url);
 const individual=u=>u&&!/\/alumni\/|phd-placements|people-partners|\/faculty\/?$|\/faculty-list\//i.test(u);
-const unionSources=(a=[],b=[])=>[...new Map([...a,...b].map(s=>[s.url+'|'+(s.quote||'')+'|'+(s.label||''),s])).values()];
+const unionSources=(a=[],b=[])=>{const out=new Map();for(const s of [...a,...b]){const key=s.url+'|'+(s.quote||'')+'|'+(s.label||''),old=out.get(key);out.set(key,old?{...old,...s,supports:uniq([...(old.supports||[]),...(s.supports||[])])}:s)}return [...out.values()]};
 const hostAliases={penn:'university-of-pennsylvania-marketing',kellogg:'northwestern-university-marketing'};
 const normalizeHost=h=>hostAliases[h]||h;
 const regionAliases={'United States':'US','United States of America':'US',Canada:'CA','Hong Kong':'HK',Singapore:'SG',China:'CN','United Kingdom':'UK',GB:'UK',France:'FR',Germany:'DE',Netherlands:'NL',Australia:'AU',Macao:'MO',Macau:'MO','Macao SAR':'MO','Macao SAR, China':'MO',Italy:'IT',Spain:'ES',Belgium:'BE',Switzerland:'CH',Ireland:'IE',India:'IN',Israel:'IL',Turkey:'TR',Taiwan:'TW','South Korea':'KR'};
