@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import crypto from 'node:crypto';
 import {applyFacultyBatch} from '../scripts/import-faculty-batch.mjs';
-import {hasDatedCareer,facultyBasicCoverage,filterFaculty,facultyAppointmentGroup,appointmentNeedsReview,facultyCsv} from '../dist/faculty.js';
+import {hasDatedCareer,facultyBasicCoverage,filterFaculty,facultyAppointmentGroup,appointmentNeedsReview,facultyCsv,facultyRoute} from '../dist/faculty.js';
 import {facultyBasicsReport} from '../scripts/faculty-basics-report.mjs';
 const read=p=>JSON.parse(fs.readFileSync(p,'utf8')),hash=v=>crypto.createHash('sha256').update(JSON.stringify(v)).digest('hex');
 test('reviewed basic backfill counts unique existing people and preserves all degree and career evidence',()=>{
@@ -25,4 +25,13 @@ test('basic-field drilldowns, search, source dates and exports retain the actual
 test('reviewed basic batch replay is inert and the same excerpt retains all supported fields',()=>{
  const a=read('data/faculty.json'),records=read('data/records.json'),batch=read('data/research-updates/2026-11-02-faculty-basics-reviewed.json'),before=hash(a);const r=applyFacultyBatch(a,records,batch);assert.equal(r.report.replayed,true);assert.equal(hash(r.archive),before);
  const original={people:[],receiving_checks:[],import_batches:[]};const p={name:'A Person',host_id:'host',homepage:'https://example.edu/people/a',current:{institution:'University',role:'Professor'},phd:{year:null},sources:[{url:'https://example.edu/people/a',quote:'A Person Professor',supports:['current.role']},{url:'https://example.edu/people/a',quote:'A Person Professor',supports:['name']}]};const out=applyFacultyBatch(original,[],{id:'test-fixture-only',checked_at:'2026-11-02',people:[p],schools:[]});assert.deepEqual(out.archive.people[0].sources[0].supports.sort(),['current.role','name']);
+});
+
+test('people URLs retain an explicit view after visiting a school and survive legacy coverage inference',()=>{
+ const defaults={view:'people',gap:'all',school:'',schoolRegion:'all',q:'',layout:'table'};
+ const state={...defaults,school:'university-of-maryland-marketing',schoolRegion:'US',gap:'role'};
+ const url=facultyRoute(state,defaults),params=new URLSearchParams(url.split('?')[1]);
+ assert.equal(params.get('faculty_view'),'people');assert.equal(params.get('faculty_gap'),'role');assert.equal(params.get('faculty_school'),state.school);
+ assert.equal(new URLSearchParams(facultyRoute({...state,view:'school'},defaults).split('?')[1]).get('faculty_view'),'school');
+ assert.equal(new URLSearchParams(facultyRoute({...state,id:'faculty-peking-siqingpeng',layout:'cards'},defaults).split('?')[1]).get('faculty_id'),'faculty-peking-siqingpeng');
 });

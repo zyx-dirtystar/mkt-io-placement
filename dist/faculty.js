@@ -29,6 +29,7 @@ export const appointmentNeedsReview=p=>['review','future','historical'].includes
 export function facultyBasicCoverage(people){return {total:people.length,institution:people.filter(p=>p.current?.institution).length,department:people.filter(p=>p.current?.department).length,title:people.filter(p=>p.current?.role).length,research:people.filter(p=>p.fields?.some(f=>String(f).trim())).length,title_unknown:people.filter(p=>!p.current?.role).length,membership_pending:people.filter(appointmentNeedsReview).length};}
 export const facultyInitials=p=>{const parts=String(p.name||'').trim().split(/\s+/);return parts.length>1?(parts[0][0]+parts.at(-1)[0]).toUpperCase():parts[0]?.slice(0,2)||'?'};
 export const facultyResearchText=p=>(p.fields||[]).filter(Boolean).join('; ');
+export function facultyRoute(state,defaults={}){const query=new URLSearchParams();query.set('faculty_view',state.view||'people');for(const [key,value] of Object.entries(state))if(key!=='view'&&value!==defaults[key])query.set('faculty_'+key,value);return '#faculty?'+query;}
 export const facultyHasConflict=p=>(p.unknowns||[]).some(g=>/冲突|conflict|不一致|不同/i.test(typeof g==='string'?g:g.reason||''))||(p.phd?.reported_years?.length||0)>1||(p.conflicts||[]).some(c=>c.status!=='resolved'&&!p.resolved_conflicts?.some(r=>r.field===c.field));
 // An individual profile never establishes the size or completeness of a department.
 export function receivingProgress(catalog){
