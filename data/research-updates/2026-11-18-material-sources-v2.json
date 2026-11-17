@@ -1,0 +1,30 @@
+{
+  "id": "systematic-cohorts-2026-11-18-material-sources-v2",
+  "checked_at": "2026-11-18",
+  "updates": [
+    {
+      "id": "mit-matthew-cashman",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://cashman.science/",
+          "label": "Author homepage; CV supplies verified degree and career facts",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Register the public homepage material link without treating its link alone as new field evidence."
+    },
+    {
+      "id": "columbia-daniel-russman",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.drussman.com/home",
+          "label": "Author homepage link; official newsletter supplies verified CB evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Register the public homepage material link without treating its link alone as new field evidence."
+    }
+  ]
+}

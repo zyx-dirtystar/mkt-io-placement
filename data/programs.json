@@ -826,7 +826,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
     "target_scope": true,
-    "record_count": 13
+    "record_count": 14
   },
   {
     "id": "cornell-university-marketing",
@@ -1338,7 +1338,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。",
     "target_scope": true,
-    "record_count": 9
+    "record_count": 13
   },
   {
     "id": "michigan-state-university-marketing",
@@ -1431,7 +1431,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。以 Marketing 系表为准；学校总表未列 Zekun Liu，已记录差异。",
     "target_scope": true,
-    "record_count": 9
+    "record_count": 10
   },
   {
     "id": "northwestern-university-economics",
@@ -2610,7 +2610,7 @@
     "checked_at": "2026-10-08",
     "notes": "Marketing 博士已确认；校级 placement 页主要为匿名去向，已通过个人 CV 和自报调查补少量实名，仍缺全名册。",
     "target_scope": true,
-    "record_count": 3
+    "record_count": 6
   },
   {
     "id": "university-of-north-texas-marketing",
@@ -2904,7 +2904,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
     "target_scope": true,
-    "record_count": 8
+    "record_count": 9
   },
   {
     "id": "university-of-texas-at-el-paso-marketing",

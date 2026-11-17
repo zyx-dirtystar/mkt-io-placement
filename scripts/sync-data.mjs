@@ -1,3 +1,4 @@
+import {writeCohortChecklist} from './cohort-checklist.mjs';
 import fs from 'node:fs';
 import {depthReport} from './depth-report.mjs';
 import {buildObservatory, validateObservatory} from './observatory-model.mjs';
@@ -18,7 +19,8 @@ const depthDate=fs.readdirSync('data').filter(f=>/^faculty-depth-receipt-\d{4}-\
 const faculty_depth_update=depthReport(faculty,{receiptPath:'data/faculty-depth-receipt-'+depthDate+'.json',asOf:depthDate});fs.writeFileSync('data/faculty-depth-audit-'+depthDate+'.json',JSON.stringify(faculty_depth_update,null,2)+'\n');
 const appointmentPath=fs.readdirSync('data').filter(f=>/^faculty-affiliation-receipt-\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().at(-1),appointmentReceipt=appointmentPath?read(appointmentPath.slice(0,-5)):null,faculty_appointment_update=appointmentReceipt?{as_of:appointmentReceipt.checked_at,reviewed:appointmentReceipt.profiles.length,...appointmentReceipt.changes,limitations:appointmentReceipt.limitations}:null;
 const basicReceipt=read('faculty-basics-receipt-2026-11-02',null),faculty_basic_update=basicReceipt?{as_of:basicReceipt.checked_at,scope:basicReceipt.scope,before:basicReceipt.before,after:basicReceipt.after,changes:basicReceipt.changes,limitations:basicReceipt.limitations}:null;
-const catalog={market_resources:read('market-resources',null),faculty_basic_update,faculty_appointment_update,faculty_depth_update,...config,exhaustive:false,scope,programs,coverage,faculty,faculty_update,faculty_followup_update,faculty_extension_update,archive_years:[...new Set([...config.history_years,...records.map(r=>r.placement_year).filter(Boolean)])].sort(),schools,release_notes};
+const cohort_checklist=writeCohortChecklist();
+const catalog={cohort_checklist,market_resources:read('market-resources',null),faculty_basic_update,faculty_appointment_update,faculty_depth_update,...config,exhaustive:false,scope,programs,coverage,faculty,faculty_update,faculty_followup_update,faculty_extension_update,archive_years:[...new Set([...config.history_years,...records.map(r=>r.placement_year).filter(Boolean)])].sort(),schools,release_notes};
 const observatory=buildObservatory({records:raw,programs,coverage,scope,faculty,config,taxonomy:read('taxonomy'),ioScope:read('io-scope',null),jobs:read('jobs',[]),researchAudit:read('research-audit-2026-10-24',read('research-audit-2026-10-22',null)),reviewQueue:fs.existsSync('review-queue.json')?JSON.parse(fs.readFileSync('review-queue.json','utf8')):[],maintenanceQueue:read('maintenance-queue',[]),sourceChecks:read('maintenance-sources',{}),baseline:read('maintenance-baseline',null)});
 const errors=validateObservatory(observatory);
 if(errors.length)throw new Error('Observatory generation failed:\n'+errors.join('\n'));

@@ -10,17 +10,17 @@
     "demo": 1
   },
   "snapshot": {
-    "placement_records": 322,
+    "placement_records": 332,
     "faculty_profiles": 1358,
     "current_candidates": 30,
     "job_advertisements": 18,
-    "complete_cohorts": 3,
-    "marketing_records": 294,
-    "marketing_unclassified": 143,
+    "complete_cohorts": 4,
+    "marketing_records": 304,
+    "marketing_unclassified": 144,
     "recorded_tracks": {
-      "qm": 83,
-      "cb": 66,
-      "strategy": 3,
+      "qm": 87,
+      "cb": 70,
+      "strategy": 4,
       "io": 50
     }
   },

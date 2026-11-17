@@ -15,7 +15,7 @@ test('degree review records all fourteen priority programs and limited-access ed
   assert.ok(receipt.program_reviews.every(r=>r.materials.length&&r.next_step));
   const wis=receipt.program_reviews.find(r=>r.program_id==='university-of-wisconsin-madison-marketing');
   assert.ok(wis.materials.some(m=>m.access==='indexed_body_only'));
-  assert.ok(!coverage.find(c=>c.program_id===wis.program_id&&c.period==='2025').cohort_complete);
+  assert.ok(!receipt.cell_changes.find(c=>c.after.program_id===wis.program_id&&c.after.period==='2025').after.cohort_complete,'At the prior indexed-only review, completeness was not established');
   for(const a of receipt.artifacts)assert.match(a.sha256,/^[a-f0-9]{64}$/);
 });
 
@@ -28,15 +28,15 @@ test('complete degree rosters retain an independent count, named population, sco
     assert.ok(c.population.scope_note&&c.population.kind);
     assert.ok(c.completeness_evidence.every(e=>e.url&&e.quote&&e.checked_at));
     assert.ok(c.completeness_evidence.some(e=>e.count===c.listed_count));
-    assert.deepEqual(coverage.find(x=>x.program_id===c.program_id&&x.period===c.period),c);
+    const current=coverage.find(x=>x.program_id===c.program_id&&x.period===c.period);assert.deepEqual(current.record_ids,c.record_ids);assert.equal(current.population.independent_count,c.population.independent_count);
   }
 });
 
 test('the omitted graduate stays in the completion population with unknown first job and exact award year',()=>{
   const r=records.find(r=>r.id==='northwestern-carolyn-wells-keller');
   assert.equal(r.status,'outcome_unknown');
-  assert.equal(r.destination,null);assert.equal(r.placement_year,null);assert.equal(r.graduation_year,null);
-  assert.equal(r.tracks.includes('qm'),false);assert.equal(r.tracks.includes('cb'),false);
+  assert.equal(r.destination,null);assert.equal(r.placement_year,null);const original=read('data/research-updates/2026-11-17-degree-cohorts-v1.json').additions.find(a=>a.id===r.id).set;assert.equal(original.graduation_year,null);assert.ok(r.graduation_year===null||r.claims.some(c=>c.field==='graduation_year'&&c.status==='confirmed'&&c.checked_at>'2026-11-17'));
+  assert.equal(r.tracks.includes('qm'),false);assert.equal(original.tracks.includes('cb'),false);
   assert.ok(r.claims.some(c=>c.field==='reported_appointment'&&c.value.role==='Lecturer'));
   const c=coverage.find(c=>c.program_id===r.program_id&&c.period==='2023');
   assert.equal(c.population.kind,'degree_completion_window');
@@ -46,12 +46,13 @@ test('the omitted graduate stays in the completion population with unknown first
 });
 
 test('a complete published class cannot be borrowed as a graduation-year, first-job or market denominator',()=>{
-  configure({currentCycle:'2026-2027',historyYears:[2023,2024,2025,2026],coverage});
+  const frozenCoverage=receipt.cell_changes.filter(x=>x.after.cohort_complete).map(x=>x.after);
+  configure({currentCycle:'2026-2027',historyYears:[2023,2024,2025,2026],coverage:frozenCoverage});
   const ids=filterRecords(records,{completeOnly:'yes',yearBasis:'source',year:'2023'}).map(r=>r.id);
   assert.equal(ids.length,3);assert.ok(ids.includes('northwestern-carolyn-wells-keller'));
   for(const yearBasis of ['graduation','placement','market'])assert.equal(filterRecords(records,{completeOnly:'yes',yearBasis,year:'all'}).length,0);
   assert.equal(filterRecords(records,{completeOnly:'yes',period:'2023'}).length,0);
-  const obs={audit:coverage};
+  const obs={audit:frozenCoverage};
   assert.equal(selectStudyRecords(records,{},obs,{complete_only:true,year_basis:'source',year:'2025'}).length,3);
   assert.equal(selectStudyRecords(records,{},obs,{complete_only:true,year_basis:'graduation',year:'2025'}).length,0);
   const comparison=comparisonRows(records,{programs:[]},obs,{programs:['northwestern-university-marketing'],year_basis:'placement',year:'2023'});

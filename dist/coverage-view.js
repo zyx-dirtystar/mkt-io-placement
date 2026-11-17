@@ -1,5 +1,6 @@
-import {cohortEvidenceMarkup} from './cohort-scope.js?v=1.3.3';
-import {REGIONS} from './core.js?v=1.3.3';
+import {checklistMarkup,bindChecklist} from './checklist-view.js?v=1.3.4';
+import {cohortEvidenceMarkup,countReconciliationMarkup} from './cohort-scope.js?v=1.3.4';
+import {REGIONS} from './core.js?v=1.3.4';
 
 export const AUDIT_STATUS = {
   not_started: 'Not started',
@@ -66,7 +67,7 @@ export function coverageMarkup(catalog,records) {
   const gaps=verified.filter(p=>!withPeople.has(p.id));
   const exceptions=marketing.filter(p=>p.eligibility!=='verified');
   const sourceCells=catalog.coverage.filter(c=>targets.has(c.program_id)&&(c.status==='source_reconciled'||c.cohort_complete)&&auditPeriods(catalog).includes(c.period));
-  return `<div class="coverage-summary">${['US','CA','HK','SG'].map(region=>`<article class="coverage-region"><span>${REGIONS[region]}</span><strong>${marketing.filter(p=>p.region===region).length}<small> target schools</small></strong><p>${verified.filter(p=>p.region===region).length} verified doctoral programs · ${marketing.filter(p=>p.region===region&&withPeople.has(p.id)).length} with named records</p></article>`).join('')}</div>
+  return `${checklistMarkup(catalog)}<div class="coverage-summary">${['US','CA','HK','SG'].map(region=>`<article class="coverage-region"><span>${REGIONS[region]}</span><strong>${marketing.filter(p=>p.region===region).length}<small> target schools</small></strong><p>${verified.filter(p=>p.region===region).length} verified doctoral programs · ${marketing.filter(p=>p.region===region&&withPeople.has(p.id)).length} with named records</p></article>`).join('')}</div>
     <section class="panel scope-panel"><div class="panel-heading"><div><p class="eyebrow">A FIXED RESEARCH UNIVERSE</p><h2>North America 50 + Hong Kong 5 + Singapore 3</h2></div><a class="button secondary" href="data/scope.json" download>Download school scope</a></div>
     <div class="prose"><p>The North American scope uses the top 50 schools in the official ${sourceLink({url:catalog.scope.ranking.source_url,label:'UT Dallas journal research rankings'})} for <strong>${catalog.scope.ranking.start_year}–${catalog.scope.ranking.end_year}</strong>, selecting Journal of Consumer Research, Journal of Marketing, Journal of Marketing Research and Marketing Science. Frozen on ${catalog.scope.frozen_at}; this measures research output, not placement performance.</p><p>Hong Kong: HKU, CUHK, HKUST, CityU and PolyU. Singapore: NUS, NTU and SMU. Of ${marketing.length} target schools, ${verified.length} have verified doctoral-program evidence. ${sourceCells.length} source-year or job-market-cycle cells have been reconciled with the source roster. These are program and audit counts, not person-level coverage rates.</p>
     <details class="scope-gaps"><summary>${gaps.length} verified programs without named records · ${exceptions.length} eligibility exceptions</summary><p class="chart-note">Original source notes are preserved below. Eligibility exceptions remain in the fixed scope; they are not counted as zero graduates or replaced by other schools.</p><ul>${gaps.map(p=>`<li><strong>${esc(p.school)}</strong>: ${esc(p.notes)}</li>`).join('')}</ul><h3>Program eligibility exceptions</h3><ul>${exceptions.map(p=>`<li><strong>${esc(p.school)}</strong>: ${esc(p.notes)}</li>`).join('')}</ul></details></div></section>
@@ -84,12 +85,12 @@ export function coverageMarkup(catalog,records) {
 export function bindCoverage(catalog,records,openPerson) {
   const results=document.querySelector('#coverage-results');
   function bindCells() {
-    results.querySelectorAll('[data-audit-program]').forEach(button=>button.onclick=()=>{
+    document.querySelectorAll('[data-audit-program]').forEach(button=>button.onclick=()=>{
       const p=catalog.programs.find(p=>p.id===button.dataset.auditProgram);
       const c=findAudit(catalog,p.id,button.dataset.auditPeriod);
       let dialog=document.querySelector('#audit-dialog');
       if(!dialog){dialog=document.createElement('dialog');dialog.id='audit-dialog';dialog.setAttribute('aria-labelledby','audit-title');document.body.append(dialog);dialog.onclick=e=>{if(e.target===dialog)dialog.close()};}
-      dialog.innerHTML=`<div class="dialog-inner"><div class="dialog-top"><p class="eyebrow">SOURCE RECONCILIATION</p><button class="close-button" aria-label="Close verification details">×</button></div><h2 id="audit-title">${esc(p.school)} · ${esc(c.period)}</h2><p class="muted">${statusLabel(c,p)} · ${p.kind==='marketing'?'Marketing':'Economics / Business Economics'}</p><p class="detail-note">Cohort roster completeness: ${c.cohort_complete?'confirmed':'unconfirmed'}. Last checked: ${c.checked_at||'Not started'}.</p>${cohortEvidenceMarkup(c)}<details><summary>Original source notes</summary><p class="detail-note">${esc(c.notes)}</p><p class="detail-note">${esc(p.notes)}</p></details>${c.record_ids.length?`<ul class="source-list">${c.record_ids.map(id=>{const r=records.find(r=>r.id===id);return `<li><button class="person-button" data-audit-person="${esc(id)}">${esc(r.name)}</button><span>First-job year: ${r.placement_year||'Unverified'} · ${esc(r.destination||'Outcome unverified')}</span></li>`}).join('')}</ul>`:'<p class="detail-note">No annual roster has been reconciled here. This does not establish a zero cohort size.</p>'}<h3>Roster and program sources</h3><ul class="source-list">${[...c.sources,...p.sources].filter((s,i,a)=>a.findIndex(x=>x.url===s.url)===i).map((s,i)=>`<li>${sourceLink({...s,label:`Source ${i+1}`})}${s.label?`<span class="cell-note">Original source title: ${esc(s.label)}</span>`:''}</li>`).join('')}</ul></div>`;
+      dialog.innerHTML=`<div class="dialog-inner"><div class="dialog-top"><p class="eyebrow">SOURCE RECONCILIATION</p><button class="close-button" aria-label="Close verification details">×</button></div><h2 id="audit-title">${esc(p.school)} · ${esc(c.period)}</h2><p class="muted">${statusLabel(c,p)} · ${p.kind==='marketing'?'Marketing':'Economics / Business Economics'}</p><p class="detail-note">Cohort roster completeness: ${c.cohort_complete?'confirmed':'unconfirmed'}. Last checked: ${c.checked_at||'Not started'}.</p>${countReconciliationMarkup(c)}${cohortEvidenceMarkup(c)}<details><summary>Original source notes</summary><p class="detail-note">${esc(c.notes)}</p><p class="detail-note">${esc(p.notes)}</p></details>${c.record_ids.length?`<ul class="source-list">${c.record_ids.map(id=>{const r=records.find(r=>r.id===id);return `<li><button class="person-button" data-audit-person="${esc(id)}">${esc(r.name)}</button><span>First-job year: ${r.placement_year||'Unverified'} · ${esc(r.destination||'Outcome unverified')}</span></li>`}).join('')}</ul>`:'<p class="detail-note">No annual roster has been reconciled here. This does not establish a zero cohort size.</p>'}<h3>Roster and program sources</h3><ul class="source-list">${[...c.sources,...p.sources].filter((s,i,a)=>a.findIndex(x=>x.url===s.url)===i).map((s,i)=>`<li>${sourceLink({...s,label:`Source ${i+1}`})}${s.label?`<span class="cell-note">Original source title: ${esc(s.label)}</span>`:''}</li>`).join('')}</ul></div>`;
       dialog.querySelector('.close-button').onclick=()=>dialog.close();
       dialog.querySelectorAll('[data-audit-person]').forEach(b=>b.onclick=()=>{dialog.close();openPerson(b.dataset.auditPerson)});
       dialog.showModal();
@@ -97,6 +98,7 @@ export function bindCoverage(catalog,records,openPerson) {
   }
   const form=document.querySelector('#coverage-filters');
   form.onsubmit=e=>e.preventDefault();
-  form.oninput=e=>{filters[e.target.name]=e.target.value;const query=new URLSearchParams();for(const [k,v] of Object.entries(filters))query.set('cv_'+k,v);history.replaceState(null,'','#coverage?'+query);results.innerHTML=table(catalog,records);bindCells()};
+  form.oninput=e=>{filters[e.target.name]=e.target.value;const query=new URLSearchParams(location.hash.split('?')[1]||'');for(const [k,v] of Object.entries(filters))query.set('cv_'+k,v);history.replaceState(null,'','#coverage?'+query);results.innerHTML=table(catalog,records);bindCells()};
+  bindChecklist(catalog,bindCells);
   bindCells();
 }

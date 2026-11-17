@@ -2,11 +2,13 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-网站版本 1.3.3；本轮对 14 个优先项目查找官方学位名册、毕业生全名单及年度报告，核全 3 个范围明确的 Marketing cohort（其中 HKUST Marketing 为额外补查），新增遗漏毕业生 1 人、复核既有档案 8 人。名单完整与去向完整分开；完整性只适用于所注明的完成窗口／学校公布届别，不代表全年授位或整季求职人口。逐校结果、原始页码和未解决问题见 [学位分母核对报告](docs/DEGREE-COHORT-REVIEW-2026-11-17.md)。个人字段保留独立核验日期，统一职业观察窗口仍截止 2026-11-02。
+网站版本 1.3.4；更新改为固定范围逐项核对：58 所 Marketing 目标学校 × 2023–2026 共 232 格，Purdue Marketing／HKUST Economics 扩展另列 8 格。当季求职另表。网站新增六阶段 checklist、证据和下一步队列，CSV／JSON 与 [完整文字检查表](reports/COHORT-CHECKLIST.md) 自动生成。14 个优先项目本轮完成 56 格实际检索／读取记录，未取得材料的仍保留待办。
 
-上一版建立 Market references：31 条官方入口与可比项目，覆盖 Quant、CB、Strategy，并修订部分招聘日期。完整调研与统计边界见 [参考项目与市场资料审计](docs/MARKET-REFERENCE-REVIEW-2026-11-17.md)。
+本轮新增遗漏人物 10 人、复核既有档案 25 人；Quant 83→87、CB 66→70、Strategy 3→4。Berkeley 2026 的 9→8 具名差异得到部分解释，11→9 仍开放；Keller 已确认 CB、PhD2022。逐校证据与限度见 [系统核对报告](docs/SYSTEMATIC-COHORT-REVIEW-2026-11-18.md)。统一职业观察窗口仍截止 2026-11-02。
 
-人物资料现为 322 条 placement / candidate 档案，其中 30 人记录在 2026–27 求职季；1,358 位教师独立保存。3 个已核全的具名名单共 6 人，包含首职未知者。已对齐官方网页中的所有名单行不等于已证明整届完整。上一轮教师基础信息修订及缺口见 [2026-11-02 报告](docs/FACULTY-BASICS-2026-11-02.md)；旧报告保留其历史快照，不表示已完整覆盖全球市场。
+参考资料页 Market references 保留：31 条官方入口与可比项目，覆盖 Quant、CB、Strategy，并修订部分招聘日期。完整调研与统计边界见 [参考项目与市场资料审计](docs/MARKET-REFERENCE-REVIEW-2026-11-17.md)。
+
+人物资料现为 332 条 placement / candidate 档案，其中 30 人记录在 2026–27 求职季；1,358 位教师独立保存。4 个已核全的具名名单共 8 人，包含首职未知者。已对齐官方网页中的所有名单行不等于已证明整届完整。上一轮教师基础信息修订及缺口见 [2026-11-02 报告](docs/FACULTY-BASICS-2026-11-02.md)；旧报告保留其历史快照，不表示已完整覆盖全球市场。
 
 ## 网站功能
 

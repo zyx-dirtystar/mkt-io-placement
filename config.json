@@ -1,6 +1,6 @@
 {
-  "version": "1.3.3 · Defined degree cohorts and independent denominators",
-  "updated_at": "2026-11-17",
+  "version": "1.3.4 · Systematic cohort checklist and source reconciliation",
+  "updated_at": "2026-11-18",
   "observation_as_of": "2026-11-02",
   "current_cycle": "2026-2027",
   "history_years": [
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "Fourteen priority programs searched for independent degree/annual denominators; three explicitly defined Marketing degree cohorts reconciled (Kellogg2023 completion window, Haas2025 announced class, HKUST2025 published conferment class). One omitted graduate added with first outcome unknown; CB field and official-name aliases cross-checked. Counts do not establish calendar-year or job-market completeness. Career-window cutoff remains2026-11-02."
+  "change_note": "Fixed232-cell Marketing checklist plus8 separate extension cells, deterministic next actions and downloadable CSV/JSON. Berkeley count discrepancy partially explained; Keller CB and PhD2022 verified. Additional omitted roster members and dated initial jobs added through reviewed evidence. Career-window cutoff remains2026-11-02."
 }

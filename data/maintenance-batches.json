@@ -175,5 +175,61 @@
     "additions": [
       "northwestern-carolyn-wells-keller"
     ]
+  },
+  {
+    "id": "systematic-cohorts-2026-11-18-v1",
+    "sha256": "94d8722e0d9a317fa7d410ee9e9e506585866d0ee071b453762ee20a737ce15f",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T16:34:06.749Z",
+    "updates": [
+      "northwestern-carolyn-wells-keller",
+      "northwestern-julia-jeong",
+      "malika-korganbekova-2024",
+      "northwestern-jane-jiaqian-wang",
+      "northwestern-bindan-zhang",
+      "northwestern-joseph-abruzzo",
+      "northwestern-jocelyn-grabke",
+      "northwestern-seo-young-myaeng",
+      "northwestern-sarena-su",
+      "northwestern-jason-zhao",
+      "northwestern-jesse-dagostino",
+      "northwestern-jessie-jia",
+      "northwestern-matejas-mackin",
+      "northwestern-xuekang-wu",
+      "university-of-california-berkeley-yixiang-xu",
+      "massachusetts-institute-of-technology-jason-du",
+      "new-york-university-zekun-liu",
+      "ella-xu-2025",
+      "university-of-wisconsin-madison-suyeon-jung",
+      "university-of-wisconsin-madison-yutian-carol-liu",
+      "university-of-wisconsin-madison-nitisha-tomar",
+      "university-of-texas-at-dallas-salar-nozari",
+      "university-of-texas-at-dallas-ehsan-saremi",
+      "university-of-texas-at-dallas-ata-jameei-osgouei",
+      "university-of-north-carolina-at-chapel-hill-fahmi-emerson-grey"
+    ],
+    "additions": [
+      "mit-matthew-cashman",
+      "mit-yunhao-jerry-zhang",
+      "mit-xi-chen",
+      "columbia-daniel-russman",
+      "nyu-m-leonor-neto",
+      "mit-yiqun-cathy-cao",
+      "unc-andre-martin",
+      "unc-jiaming-jasmine-wei",
+      "unc-carlos-siri",
+      "utd-taewook-lim"
+    ]
+  },
+  {
+    "id": "systematic-cohorts-2026-11-18-material-sources-v2",
+    "sha256": "0cb1a2cd876cdd8113d092891a400ed0f7b24956fca3e5a1d154e0044927d9fc",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T16:38:49.806Z",
+    "updates": [
+      "mit-matthew-cashman",
+      "columbia-daniel-russman"
+    ],
+    "additions": []
   }
 ]

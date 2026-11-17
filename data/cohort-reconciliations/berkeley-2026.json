@@ -1,0 +1,442 @@
+{
+  "checked_at": "2026-11-18",
+  "program_id": "university-of-california-berkeley-marketing",
+  "sources": [
+    {
+      "id": "profile",
+      "url": "https://haas.berkeley.edu/phd/community/class-profile/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "quote": "2026 Graduates | 11",
+      "date_modified": "2026-05-27T18:32:36+00:00",
+      "count": 11,
+      "population_label": "2026 Graduates; all Haas PhD fields; no names or term/window definition supplied",
+      "limitation": "Not admissions/new entrants; label really is graduates. An aggregate does not identify the two missing names."
+    },
+    {
+      "id": "announcement",
+      "url": "https://www.linkedin.com/posts/berkeley-haas_berkeleyhaas-2026haasphdcommencement-ucberkeley-activity-7460008483367665664-yiih",
+      "publisher_type": "university_official_social_account",
+      "access": "read_full_html",
+      "quote": "Congratulations to our nine PhD graduates in the Class of 2026!",
+      "date_published": "2026-05-12T16:50:22.673Z",
+      "count": 9,
+      "population_label": "Nine people named in the official Class of2026 announcement",
+      "limitation": "Not explicitly described as ceremony-only participants or all calendar-year conferrals; do not invent either interpretation."
+    },
+    {
+      "id": "placements",
+      "url": "https://haas.berkeley.edu/phd/careers/job-placements/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "quote": "organized by year of graduation",
+      "date_modified": "2026-09-30T16:57:47+00:00",
+      "count": 8,
+      "population_label": "Eight named2026 graduates with published placements; all Haas fields",
+      "limitation": "Publication of destinations is not an independent complete graduating roster."
+    },
+    {
+      "id": "marketing",
+      "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "quote": "Dissertation titles and job placements for our graduates in Marketing",
+      "date_modified": "2026-09-30T16:56:26+00:00",
+      "count_2026": 3,
+      "limitation": "Three named Marketing records corroborated; still no independently reconciled whole Marketing denominator against unnamed11-count."
+    },
+    {
+      "id": "perry",
+      "url": "https://andrewperry.owlstown.net/",
+      "publisher_type": "researcher_self_authored",
+      "access": "read_full_html",
+      "quote": "Haas School of Business, Finance",
+      "limitation": "Owlstown personal academic website, NOT an official university page. Field affiliation is self-reported; no accepted industry offer or employment start date stated."
+    },
+    {
+      "id": "reporter",
+      "url": "https://www.admin.cam.ac.uk/reporter/2025-26/weekly/6834/section2.shtml",
+      "publisher_type": "university_official_record",
+      "access": "read_full_html",
+      "date_published": "2026-07-22",
+      "quote": "appointed from 1 August 2026",
+      "limitation": "Original has a nonbreaking space between August and2026. Heading is University Assistant Professors. UK probation is not mapped to US tenure."
+    },
+    {
+      "id": "park",
+      "url": "https://parksinchaisri.github.io/files/cv.pdf",
+      "publisher_type": "researcher_cv",
+      "access": "read_full_pdf_and_rendered",
+      "quote": "Yixiang Xu ’26, Berkeley Haas Marketing ... (Initial Placement: University of Cambridge)",
+      "page": 9,
+      "page_basis": "physical PDF page in current10-page CV",
+      "limitation": "Coauthor CV explicitly names initial destination; it is not a whole-cohort roster."
+    },
+    {
+      "id": "cambridge_group",
+      "url": "https://www.jbs.cam.ac.uk/faculty-research/subject-groups/marketing/members/?area=3183&subject=Marketing",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "quote": "Yixiang Xu Assistant Professor in Marketing",
+      "limitation": "Confirms title/current directory identity, not employment start date."
+    },
+    {
+      "id": "vincent_cv",
+      "url": "https://vpchen.org/assets/pdf/cv.pdf",
+      "publisher_type": "researcher_cv",
+      "access": "read_full_pdf",
+      "quote": "Vincent (Pei-Ming) Chen; Ph.D. in Behavioral Marketing Anticipated2026",
+      "page": 1,
+      "limitation": "Name and CB field are explicit, degree2026 is anticipated in this CV; final graduate status is sourced separately to school announcement."
+    },
+    {
+      "id": "drukker",
+      "url": "https://www.leoneldrukker.com/",
+      "publisher_type": "researcher_self_authored",
+      "access": "read_full_html",
+      "quote": "joint Finance and Real Estate PhD",
+      "limitation": "Discipline self-reported; not Marketing."
+    },
+    {
+      "id": "bpp",
+      "url": "https://haas.berkeley.edu/phd/academics/business-public-policy/placement/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "limitation": "MORS explicitly says selected graduates. Finance and RealEstate pages have not yet listed any2026 recipient; absence is not zero graduates."
+    },
+    {
+      "id": "mors",
+      "url": "https://haas.berkeley.edu/phd/academics/management-of-organizations/placements/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "limitation": "MORS explicitly says selected graduates. Finance and RealEstate pages have not yet listed any2026 recipient; absence is not zero graduates."
+    },
+    {
+      "id": "accounting",
+      "url": "https://haas.berkeley.edu/phd/academics/accounting/placements/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "limitation": "MORS explicitly says selected graduates. Finance and RealEstate pages have not yet listed any2026 recipient; absence is not zero graduates."
+    },
+    {
+      "id": "finance",
+      "url": "https://haas.berkeley.edu/phd/academics/finance/placements/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "limitation": "MORS explicitly says selected graduates. Finance and RealEstate pages have not yet listed any2026 recipient; absence is not zero graduates."
+    },
+    {
+      "id": "realestate",
+      "url": "https://haas.berkeley.edu/phd/academics/real-estate/placement/",
+      "publisher_type": "university",
+      "access": "read_full_html",
+      "limitation": "MORS explicitly says selected graduates. Finance and RealEstate pages have not yet listed any2026 recipient; absence is not zero graduates."
+    }
+  ],
+  "school_2026_names": [
+    {
+      "name_raw": "Sebastian Arechaga Garcés",
+      "canonical_name": "Sebastián Arechaga Garces",
+      "placement_name": "Sebastián Arechaga Garces",
+      "field": "Business & Public Policy",
+      "field_source_id": "bpp",
+      "placement": "University of Chicago",
+      "role": "Postdoctoral Fellow",
+      "in_placement_table": true,
+      "identity_match": "accent_normalization"
+    },
+    {
+      "name_raw": "Vincent Pei-Ming Chen",
+      "canonical_name": "Vincent Chen",
+      "placement_name": "Vincent Chen",
+      "record_id": "university-of-california-berkeley-vincent-chen",
+      "field": "Marketing",
+      "field_source_id": "marketing",
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "placement": "Vals AI",
+      "role": "Research Scientist",
+      "in_placement_table": true,
+      "identity_match": "explicit_middle_name_variant_from_author_cv",
+      "identity_source_id": "vincent_cv"
+    },
+    {
+      "name_raw": "Leonel Drukker",
+      "canonical_name": "Leonel Drukker",
+      "placement_name": "Leonel Drukker",
+      "field": "Finance and Real Estate",
+      "field_source_id": "drukker",
+      "placement": "San Diego State University",
+      "role": "Assistant Professor",
+      "in_placement_table": true,
+      "identity_match": "exact"
+    },
+    {
+      "name_raw": "Amanda Geiser",
+      "canonical_name": "Amanda Geiser",
+      "placement_name": "Amanda Geiser",
+      "record_id": "university-of-california-berkeley-amanda-geiser",
+      "field": "Marketing",
+      "field_source_id": "marketing",
+      "tracks": [
+        "marketing",
+        "cb"
+      ],
+      "placement": "University of Minnesota",
+      "role": "Assistant Professor",
+      "in_placement_table": true,
+      "identity_match": "exact"
+    },
+    {
+      "name_raw": "Analexis Glaude, PhD",
+      "canonical_name": "Analexis Glaude",
+      "placement_name": "Analexis Glaude",
+      "field": "Management of Organizations",
+      "field_source_id": "mors",
+      "placement": "Savannah State",
+      "role": "Assistant Professor",
+      "in_placement_table": true,
+      "identity_match": "professional_suffix_removed"
+    },
+    {
+      "name_raw": "Sophia L.",
+      "canonical_name": "Sophia Li",
+      "placement_name": "Sophia Li",
+      "field": "Management of Organizations",
+      "field_source_id": "mors",
+      "placement": "Kikoff",
+      "role": "People Operations Generalist",
+      "in_placement_table": true,
+      "identity_match": "contextual_working_match_only",
+      "identity_status": "provisional",
+      "limitation": "Official announcement uses abbreviated surname, without a profile link. Do not write permanent confirmed alias or auto-merge merely on name similarity."
+    },
+    {
+      "name_raw": "Andrew Maurice Perry",
+      "canonical_name": "Andrew Maurice Perry",
+      "placement_name": null,
+      "field": "Finance",
+      "field_source_id": "perry",
+      "field_evidence_level": "self_reported_primary",
+      "placement": null,
+      "role": null,
+      "in_placement_table": false,
+      "identity_match": "official_announcement_full_name; personal site uses Andrew Perry",
+      "limitation": "The official post hyperlinks his exact LinkedIn profile. No accepted first placement found; omission from public table does not prove unemployment."
+    },
+    {
+      "name_raw": "Ziqing Tian",
+      "canonical_name": "Ziqing Tian",
+      "placement_name": "Ziqing Tian",
+      "field": "Accounting",
+      "field_source_id": "accounting",
+      "placement": "Fordham University",
+      "role": "Assistant Professor",
+      "in_placement_table": true,
+      "identity_match": "exact"
+    },
+    {
+      "name_raw": "Yixiang Xu",
+      "canonical_name": "Yixiang Xu",
+      "placement_name": "Yixiang Xu",
+      "record_id": "university-of-california-berkeley-yixiang-xu",
+      "field": "Marketing",
+      "field_source_id": "marketing",
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "placement": "University of Cambridge",
+      "role": "Assistant Professor",
+      "in_placement_table": true,
+      "identity_match": "exact"
+    }
+  ],
+  "marketing_rosters": {
+    "2023": {
+      "source_id": "marketing",
+      "names": [
+        "Stephen Baum",
+        "Jesse (Yunfei) Yao",
+        "Fan Zhang"
+      ],
+      "record_ids": [
+        "university-of-california-berkeley-stephen-baum",
+        "university-of-california-berkeley-jesse-yunfei-yao",
+        "university-of-california-berkeley-fan-zhang"
+      ],
+      "known_named_count": 3,
+      "cohort_complete": false,
+      "reason": "Source roster only; no new independent full graduating census obtained."
+    },
+    "2024": {
+      "source_id": "marketing",
+      "names": [
+        "Tianyu Han"
+      ],
+      "record_ids": [
+        "university-of-california-berkeley-tianyu-han"
+      ],
+      "known_named_count": 1,
+      "cohort_complete": false,
+      "reason": "Source roster only; no new independent full graduating census obtained."
+    },
+    "2025": {
+      "source_id": "marketing",
+      "names": [
+        "Yunhao Huang",
+        "William Ryan"
+      ],
+      "record_ids": [
+        "university-of-california-berkeley-yunhao-huang",
+        "university-of-california-berkeley-william-ryan"
+      ],
+      "known_named_count": 2,
+      "new_cohort_promotion": false,
+      "reason": "Prior defined graduating-class completeness retained; no new denominator change."
+    },
+    "2026": {
+      "source_id": "marketing",
+      "names": [
+        "Amanda Geiser",
+        "Vincent Chen",
+        "Yixiang Xu"
+      ],
+      "record_ids": [
+        "university-of-california-berkeley-amanda-geiser",
+        "university-of-california-berkeley-vincent-chen",
+        "university-of-california-berkeley-yixiang-xu"
+      ],
+      "known_named_count": 3,
+      "tracks_current": {
+        "qm": 1,
+        "cb": 2,
+        "strategy": 0
+      },
+      "track_zero_meaning": "Zero confirmed Strategy labels among these three observed people, not a whole-market zero.",
+      "cohort_complete": false,
+      "reason": "Official9-name announcement includes same three Marketing records, but aggregate11 leaves two unidentified people; fields of those unknown names not established."
+    }
+  },
+  "reconciliation": {
+    "status": "partially_resolved",
+    "counts": {
+      "aggregate_graduates": 11,
+      "official_announcement_names": 9,
+      "published_placements": 8,
+      "marketing_placements": 3
+    },
+    "explained_difference": {
+      "from": 9,
+      "to": 8,
+      "announcement_not_in_placements": [
+        "Andrew Maurice Perry"
+      ],
+      "condition": "After explicit name normalization and the separately flagged provisional Sophia L.→Sophia Li working mapping.",
+      "interpretation": "One Finance-affiliated graduate named in the school announcement has no public placement row; no claim that he is unemployed."
+    },
+    "unresolved_difference": {
+      "from": 11,
+      "to": 9,
+      "missing_name_count_if_same_population": 2,
+      "names": null,
+      "fields": null,
+      "reason": "Neither source defines its full term/cutoff or explains the other count. Different publication dates alone cannot establish different populations."
+    },
+    "strict_unmatched_without_provisional_mapping": {
+      "announcement_only": [
+        "Sophia L.",
+        "Andrew Maurice Perry"
+      ],
+      "placement_only": [
+        "Sophia Li"
+      ]
+    },
+    "forbidden_inferences": [
+      "Do not label9 as ceremony attendees only: source does not say this.",
+      "Do not label11 as all calendar-year final conferrals: source does not define this.",
+      "Do not invent two people or allocate them to non-Marketing fields.",
+      "Do not promote2026 Marketing or Quant to complete based on current evidence."
+    ]
+  },
+  "suggested_record_updates": [
+    {
+      "id": "university-of-california-berkeley-yixiang-xu",
+      "set": {
+        "placement_year": 2026,
+        "placement_start_date": "2026-08-01"
+      },
+      "source_ids": [
+        "reporter",
+        "park",
+        "marketing",
+        "cambridge_group"
+      ],
+      "claims": [
+        {
+          "field": "placement_start_date",
+          "value": "2026-08-01",
+          "source_urls": [
+            "https://www.admin.cam.ac.uk/reporter/2025-26/weekly/6834/section2.shtml",
+            "https://parksinchaisri.github.io/files/cv.pdf"
+          ],
+          "quote": "appointed from 1 August 2026",
+          "status": "confirmed",
+          "checked_at": "2026-11-18",
+          "annotation": "Cambridge official appointment notice gives start date; coauthor CV explicitly identifies Cambridge as initial placement. Do not infer US tenure from UK probation."
+        }
+      ]
+    }
+  ],
+  "extractor_notes": {
+    "class_profile": "Locate table row exact heading2026 Graduates, not admissions or current enrollment. Metadata modified time is separate from count definition.",
+    "school_placements": "Read only content after2026 heading until2025 heading; one name per person, do not count employer lines.",
+    "official_post": "JSON-LD SocialMediaPosting.articleBody and datePublished; extract nine personal-name spans in body. Credential suffix PhD is not a tenth person.",
+    "marketing": "Dissertation roster2026 three rows; source-year is graduation-year context, not first-job year.",
+    "identity": "Unicode accent and whitespace normalization permitted. Middle names require explicit source mapping. Sophia initial-only surname stays provisional; do not automatically merge."
+  },
+  "artifacts": [
+    {
+      "file": "andrew-perry.html",
+      "sha256": "30e9c0b75e2bdcac4b745b7a7f4d6281ac4b5d71e05b1858f657a7c561b0fa0d",
+      "bytes": 83348
+    },
+    {
+      "file": "cambridge-appointments.html",
+      "sha256": "05b581d0559a21ea322656a0cc149b6bade2e313230180bb4271701436c147dc",
+      "bytes": 20984
+    },
+    {
+      "file": "class-profile.html",
+      "sha256": "5bf06858dfdd723440ea93beb309c885e023aaa76b5a265655d704926527e839",
+      "bytes": 97401
+    },
+    {
+      "file": "job-placements.html",
+      "sha256": "720916707dbc6d823c3c423c7e664d6dd8fa2021bf66af583db27353784bb8b1",
+      "bytes": 110348
+    },
+    {
+      "file": "marketing-placements.html",
+      "sha256": "6234383fdfdd3262a38428a829ddb1ad60b535294ecab7f08c802b1201823afc",
+      "bytes": 97733
+    },
+    {
+      "file": "official-nine-graduates.html",
+      "sha256": "c0dc96cd7ce5f5626a87fd30ffbea8ad48498488062cea3daadeff7cd8de9516",
+      "bytes": 187033
+    },
+    {
+      "file": "park-sinchaisri-cv.pdf",
+      "sha256": "f4ec47641298d557f8d1086ce709a6ba903d903a814d4b8b254b08558ae06b75",
+      "bytes": 57489
+    }
+  ],
+  "scope_limits": [
+    "No tracked data or code changed.",
+    "Only the six existing2023–2025 Marketing names and three2026 names are reconciled here; no claim of a new complete2023/24 graduating cohort.",
+    "Andrew and Leonel field evidence is self-authored primary, not university-hosted; the school official social post establishes their inclusion in its announced class."
+  ]
+}

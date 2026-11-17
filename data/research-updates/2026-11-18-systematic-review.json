@@ -1,0 +1,1285 @@
+{
+  "id": "systematic-cohort-review-2026-11-18-v1",
+  "checked_at": "2026-11-18",
+  "plan": "data/cohort-research-plan.json",
+  "person_batch": "data/research-updates/2026-11-18-systematic-cohorts-v1.json",
+  "scope": {
+    "core_marketing_programs": 58,
+    "years": [
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "core_cells": 232,
+    "extension_cells": 8,
+    "current_cycle": "2026-2027",
+    "current_cycle_separate": true
+  },
+  "counts": {
+    "additions": 10,
+    "existing_profiles_reviewed": 25
+  },
+  "before_coverage_sha256": "684bb8260c5c4be61c370708631019f71ab6759b7b75d59cbe4e81c6f10f506f",
+  "after_coverage_sha256": "a2810cc5a8972ce00917cbcdf278725c5e4a6c82159acb58f34c572b9c38a30a",
+  "cell_changes": [
+    {
+      "before": {
+        "program_id": "columbia-university-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 2,
+        "record_ids": [
+          "columbia-university-lan-luo",
+          "columbia-university-eli-sugerman"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
+      },
+      "after": {
+        "program_id": "columbia-university-marketing",
+        "period": "2026",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "columbia-university-lan-luo",
+          "columbia-university-eli-sugerman",
+          "columbia-daniel-russman"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://students.business.columbia.edu/sites/students/files-efs/imce-uploads/graduation/2026%20MS%20and%20PhD%20Recognition%20Program.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://business.columbia.edu/cds/research/pamlab"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
+      }
+    },
+    {
+      "before": {
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "massachusetts-institute-of-technology-marat-ibragimov"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing 毕业生现职表",
+            "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。"
+      },
+      "after": {
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "period": "2023",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "massachusetts-institute-of-technology-marat-ibragimov",
+          "mit-yunhao-jerry-zhang",
+          "mit-yiqun-cathy-cao"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing 毕业生现职表",
+            "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://commencement.mit.edu/sites/default/files/2023-06/MIT.Commencement.2023.Graduates.Name.Book.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.psychoftech.org/2023-conference"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.somolab.org/people"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.fdsm.fudan.edu.cn/en/2026/0912/c1894a37296/page.htm"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。"
+      }
+    },
+    {
+      "before": {
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "massachusetts-institute-of-technology-jennifer-allen",
+          "massachusetts-institute-of-technology-keyan-li",
+          "massachusetts-institute-of-technology-yifei-wang"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing 毕业生现职表",
+            "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。"
+      },
+      "after": {
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "period": "2024",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "massachusetts-institute-of-technology-jennifer-allen",
+          "massachusetts-institute-of-technology-keyan-li",
+          "massachusetts-institute-of-technology-yifei-wang",
+          "mit-matthew-cashman"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing 毕业生现职表",
+            "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://commencement.mit.edu/sites/default/files/2024-05/MIT.Commencement.2024.Graduates.Name.Book.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://mitsloan.mit.edu/sites/default/files/inline-files/Thesis%20Abstracts_Marketing%20%281%29.pdf"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。"
+      }
+    },
+    {
+      "before": {
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "massachusetts-institute-of-technology-reed-orchinik"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing 毕业生现职表",
+            "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。"
+      },
+      "after": {
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "period": "2026",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "massachusetts-institute-of-technology-reed-orchinik",
+          "mit-xi-chen"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing 毕业生现职表",
+            "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://commencement.mit.edu/sites/default/files/MIT.Commencement.2026.Graduates.Name.Book%20v2-tagged.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://mitsloan.mit.edu/programs/phd/marketing"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 官网原文是 recent graduates are today，作为现职线索保留，待 CV 确认首职。"
+      }
+    },
+    {
+      "before": {
+        "program_id": "new-york-university-marketing",
+        "period": "2026",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 以 Marketing 系表为准；学校总表未列 Zekun Liu，已记录差异。"
+      },
+      "after": {
+        "program_id": "new-york-university-marketing",
+        "period": "2026",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "nyu-m-leonor-neto"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.stern.nyu.edu/programs-admissions/phd/job-placement/recent-job-placements"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://leonorneto.com/cv.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://leonorneto.com/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.stern.nyu.edu/sites/default/files/2026-05/2026%20stern_graduate_MBA_PhD%20convocation_program_05-01-26_accessible.pdf"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 以 Marketing 系表为准；学校总表未列 Zekun Liu，已记录差异。"
+      }
+    },
+    {
+      "before": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2023",
+        "status": "cohort_complete",
+        "listed_count": 3,
+        "record_ids": [
+          "youngeun-lee-2023",
+          "yingkang-xie-2023",
+          "northwestern-carolyn-wells-keller"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.medill.northwestern.edu/directory/faculty/carolyn-keller.html"
+          }
+        ],
+        "notes": "Three Marketing PhDs in the completed-degree section; only two appear in the placement table. Carolyn Wells Keller is added with unknown initial outcome. Three Marketing MS names on the same page are excluded. Completion-window year is independent of first-job and exact conferral years.",
+        "population": {
+          "kind": "degree_completion_window",
+          "label": "Kellogg Marketing PhDs completed since June 2022, listed in the 2023 convocation program",
+          "publication_year": 2023,
+          "window_start_text": "since June 2022",
+          "window_end_text": "2023 convocation publication",
+          "scope_note": "Complete only for the explicitly defined completed-degree window. Not a calendar-2023 conferral census or a job-market cohort.",
+          "independent_count": 3,
+          "roster_names": [
+            "Carolyn Wells Keller",
+            "Youngeun Lee",
+            "Yingkang Xie"
+          ],
+          "first_job_unknown_ids": [
+            "northwestern-carolyn-wells-keller"
+          ],
+          "excluded_degree_groups": [
+            "Master of Science"
+          ]
+        },
+        "completeness_evidence": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en",
+            "label": "Completed PhD roster",
+            "checked_at": "2026-11-17",
+            "quote": "DOCTOR OF PHILOSOPHY; Degrees completed since June 2022",
+            "page": 6,
+            "page_basis": "physical PDF page",
+            "count": 3
+          }
+        ]
+      },
+      "after": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2023",
+        "status": "cohort_complete",
+        "listed_count": 3,
+        "record_ids": [
+          "youngeun-lee-2023",
+          "yingkang-xie-2023",
+          "northwestern-carolyn-wells-keller"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.medill.northwestern.edu/directory/faculty/carolyn-keller.html"
+          },
+          {
+            "url": "https://arch.library.northwestern.edu/downloads/736665174?locale=en",
+            "label": "Additional official degree / roster evidence",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://rimatoure.squarespace.com/s/Toure-Tillery-Vitae-20240518-Web.pdf",
+            "label": "Primary author / committee evidence; not university-hosted",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Three Marketing PhDs in the completed-degree section; only two appear in the placement table. Carolyn Wells Keller is added with unknown initial outcome. Three Marketing MS names on the same page are excluded. Completion-window year is independent of first-job and exact conferral years. 2026-11-18：Carolyn Wells Keller is now confirmed CB and PhD2022; source publication/cohort stays2023. First placement still unknown.",
+        "population": {
+          "kind": "degree_completion_window",
+          "label": "Kellogg Marketing PhDs completed since June 2022, listed in the 2023 convocation program",
+          "publication_year": 2023,
+          "window_start_text": "since June 2022",
+          "window_end_text": "2023 convocation publication",
+          "scope_note": "Complete only for the explicitly defined completed-degree window. Not a calendar-2023 conferral census or a job-market cohort.",
+          "independent_count": 3,
+          "roster_names": [
+            "Carolyn Wells Keller",
+            "Youngeun Lee",
+            "Yingkang Xie"
+          ],
+          "first_job_unknown_ids": [
+            "northwestern-carolyn-wells-keller"
+          ],
+          "excluded_degree_groups": [
+            "Master of Science"
+          ]
+        },
+        "completeness_evidence": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en",
+            "label": "Completed PhD roster",
+            "checked_at": "2026-11-17",
+            "quote": "DOCTOR OF PHILOSOPHY; Degrees completed since June 2022",
+            "page": 6,
+            "page_basis": "physical PDF page",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 4,
+        "record_ids": [
+          "northwestern-julia-jeong",
+          "malika-korganbekova-2024",
+          "northwestern-jane-jiaqian-wang",
+          "northwestern-bindan-zhang"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
+      },
+      "after": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 4,
+        "record_ids": [
+          "northwestern-julia-jeong",
+          "malika-korganbekova-2024",
+          "northwestern-jane-jiaqian-wang",
+          "northwestern-bindan-zhang"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf",
+            "label": "Additional official degree / roster evidence",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained. 2026-11-18：Full official ceremony program matched 4 Marketing PhD names. Candidates for degree June14,2024. Candidate-list and degree-proof disclaimer retained; no calendar-year completeness promotion."
+      }
+    },
+    {
+      "before": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 5,
+        "record_ids": [
+          "northwestern-joseph-abruzzo",
+          "northwestern-jocelyn-grabke",
+          "northwestern-seo-young-myaeng",
+          "northwestern-sarena-su",
+          "northwestern-jason-zhao"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
+      },
+      "after": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 5,
+        "record_ids": [
+          "northwestern-joseph-abruzzo",
+          "northwestern-jocelyn-grabke",
+          "northwestern-seo-young-myaeng",
+          "northwestern-sarena-su",
+          "northwestern-jason-zhao"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf",
+            "label": "Additional official degree / roster evidence",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained. 2026-11-18：Full official ceremony program matched 5 Marketing PhD names. Abruzzo explicitly degree awarded March28,2025; the other four are June20,2025 degree candidates. Candidate-list and degree-proof disclaimer retained; no calendar-year completeness promotion."
+      }
+    },
+    {
+      "before": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 4,
+        "record_ids": [
+          "northwestern-jesse-dagostino",
+          "northwestern-jessie-jia",
+          "northwestern-matejas-mackin",
+          "northwestern-xuekang-wu"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
+      },
+      "after": {
+        "program_id": "northwestern-university-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 4,
+        "record_ids": [
+          "northwestern-jesse-dagostino",
+          "northwestern-jessie-jia",
+          "northwestern-matejas-mackin",
+          "northwestern-xuekang-wu"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+            "label": "Official roster / corroborating author source",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf",
+            "label": "Additional official degree / roster evidence",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained. 2026-11-18：Full official ceremony program matched 4 Marketing PhD names. Candidates for degree June22,2026. Candidate-list and degree-proof disclaimer retained; no calendar-year completeness promotion."
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-california-berkeley-stephen-baum",
+          "university-of-california-berkeley-jesse-yunfei-yao",
+          "university-of-california-berkeley-fan-zhang"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。"
+      },
+      "after": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-california-berkeley-stephen-baum",
+          "university-of-california-berkeley-jesse-yunfei-yao",
+          "university-of-california-berkeley-fan-zhang"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 2026-11-18：Official Marketing source roster rechecked: Stephen Baum; Jesse (Yunfei) Yao; Fan Zhang. Source roster year and first-job dates remain separate."
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-california-berkeley-tianyu-han"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。"
+      },
+      "after": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-california-berkeley-tianyu-han"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 2026-11-18：Official Marketing source roster rechecked: Tianyu Han. Source roster year and first-job dates remain separate."
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2025",
+        "status": "cohort_complete",
+        "listed_count": 2,
+        "record_ids": [
+          "university-of-california-berkeley-yunhao-huang",
+          "university-of-california-berkeley-william-ryan"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": true,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          },
+          {
+            "url": "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/",
+            "label": "Full Haas 2025 graduate announcement",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "All eleven named graduates have been checked by academic group; two are Marketing and match the separate placement list. Quant and CB both retained. Yunhao Huang first-job start year remains unknown; graduation year is not used to fill it.",
+        "population": {
+          "kind": "school_announced_graduating_class",
+          "label": "Marketing members of the eleven-person Haas 2025 graduating class announced May 8, 2025",
+          "publication_year": 2025,
+          "window_end_text": "2025-05-08 announcement",
+          "scope_note": "Complete within the school-announced graduating class. Does not establish every calendar-year degree conferral or everyone entering that job market.",
+          "independent_count": 2,
+          "parent_class_count": 11,
+          "roster_names": [
+            "Yunhao Huang",
+            "William Ryan"
+          ]
+        },
+        "completeness_evidence": [
+          {
+            "url": "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/",
+            "label": "Full Haas 2025 graduate announcement",
+            "checked_at": "2026-11-17",
+            "quote": "Here are the 2025 graduates, along with their dissertation titles and academic groups at Haas:",
+            "count": 2,
+            "parent_count": 11
+          }
+        ]
+      },
+      "after": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2025",
+        "status": "cohort_complete",
+        "listed_count": 2,
+        "record_ids": [
+          "university-of-california-berkeley-yunhao-huang",
+          "university-of-california-berkeley-william-ryan"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          },
+          {
+            "url": "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/",
+            "label": "Full Haas 2025 graduate announcement",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "All eleven named graduates have been checked by academic group; two are Marketing and match the separate placement list. Quant and CB both retained. Yunhao Huang first-job start year remains unknown; graduation year is not used to fill it. 2026-11-18：Official Marketing source roster rechecked: Yunhao Huang; William Ryan. Source roster year and first-job dates remain separate.",
+        "population": {
+          "kind": "school_announced_graduating_class",
+          "label": "Marketing members of the eleven-person Haas 2025 graduating class announced May 8, 2025",
+          "publication_year": 2025,
+          "window_end_text": "2025-05-08 announcement",
+          "scope_note": "Complete within the school-announced graduating class. Does not establish every calendar-year degree conferral or everyone entering that job market.",
+          "independent_count": 2,
+          "parent_class_count": 11,
+          "roster_names": [
+            "Yunhao Huang",
+            "William Ryan"
+          ]
+        },
+        "completeness_evidence": [
+          {
+            "url": "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/",
+            "label": "Full Haas 2025 graduate announcement",
+            "checked_at": "2026-11-17",
+            "quote": "Here are the 2025 graduates, along with their dissertation titles and academic groups at Haas:",
+            "count": 2,
+            "parent_count": 11
+          }
+        ]
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-california-berkeley-amanda-geiser",
+          "university-of-california-berkeley-vincent-chen",
+          "university-of-california-berkeley-yixiang-xu"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          },
+          {
+            "url": "https://haas.berkeley.edu/phd/community/class-profile/",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://haas.berkeley.edu/phd/careers/job-placements/",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/berkeley-haas_berkeleyhaas-2026haasphdcommencement-ucberkeley-activity-7460008483367665664-yiih",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 2026-11-17：Conflicting school-wide populations: class-profile reports eleven 2026 graduates, official social announcement names nine, placement list names eight. No complete-cohort promotion; different cutoffs or populations remain unresolved."
+      },
+      "after": {
+        "program_id": "university-of-california-berkeley-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-california-berkeley-amanda-geiser",
+          "university-of-california-berkeley-vincent-chen",
+          "university-of-california-berkeley-yixiang-xu"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/"
+          },
+          {
+            "url": "https://haas.berkeley.edu/phd/community/class-profile/",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://haas.berkeley.edu/phd/careers/job-placements/",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://www.linkedin.com/posts/berkeley-haas_berkeleyhaas-2026haasphdcommencement-ucberkeley-activity-7460008483367665664-yiih",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://andrewperry.owlstown.net/",
+            "label": "Primary author / committee evidence; not university-hosted",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 岗位来自 Haas 学校总表（https://haas.berkeley.edu/phd/careers/job-placements/）；该总表明确按毕业年排列，首职年待核验。 2026-11-17：Conflicting school-wide populations: class-profile reports eleven 2026 graduates, official social announcement names nine, placement list names eight. No complete-cohort promotion; different cutoffs or populations remain unresolved. 2026-11-18：Count comparison is partially resolved: published nine-person announcement exceeds eight placement rows by Andrew Maurice Perry (Finance self-report), conditional on provisional Sophia L.→Sophia Li working mapping. The11-graduate aggregate leaves two unnamed people and undefined population differences. Marketing2026 stays incomplete. 2026-11-18：Official Marketing source roster rechecked: Amanda Geiser; Vincent Chen; Yixiang Xu. Source roster year and first-job dates remain separate.",
+        "count_reconciliation": {
+          "status": "Partially resolved",
+          "sources": [
+            {
+              "url": "https://haas.berkeley.edu/phd/community/class-profile/",
+              "label": "Class Profile",
+              "population_label": "2026 Graduates; all Haas PhD fields; no names or term/window definition supplied",
+              "count": 11,
+              "date": "2026-05-27T18:32:36+00:00"
+            },
+            {
+              "url": "https://www.linkedin.com/posts/berkeley-haas_berkeleyhaas-2026haasphdcommencement-ucberkeley-activity-7460008483367665664-yiih",
+              "label": "Official graduate announcement",
+              "population_label": "Nine people named in the official Class of2026 announcement",
+              "count": 9,
+              "date": "2026-05-12T16:50:22.673Z"
+            },
+            {
+              "url": "https://haas.berkeley.edu/phd/careers/job-placements/",
+              "label": "Published placement table",
+              "population_label": "Eight named2026 graduates with published placements; all Haas fields",
+              "count": 8,
+              "date": "2026-09-30T16:57:47+00:00"
+            }
+          ],
+          "names": [
+            {
+              "name_raw": "Sebastian Arechaga Garcés",
+              "canonical_name": "Sebastián Arechaga Garces",
+              "placement_name": "Sebastián Arechaga Garces",
+              "field": "Business & Public Policy",
+              "field_source_id": "bpp",
+              "placement": "University of Chicago",
+              "role": "Postdoctoral Fellow",
+              "in_placement_table": true,
+              "identity_match": "accent_normalization"
+            },
+            {
+              "name_raw": "Vincent Pei-Ming Chen",
+              "canonical_name": "Vincent Chen",
+              "placement_name": "Vincent Chen",
+              "record_id": "university-of-california-berkeley-vincent-chen",
+              "field": "Marketing",
+              "field_source_id": "marketing",
+              "tracks": [
+                "marketing",
+                "cb"
+              ],
+              "placement": "Vals AI",
+              "role": "Research Scientist",
+              "in_placement_table": true,
+              "identity_match": "explicit_middle_name_variant_from_author_cv",
+              "identity_source_id": "vincent_cv"
+            },
+            {
+              "name_raw": "Leonel Drukker",
+              "canonical_name": "Leonel Drukker",
+              "placement_name": "Leonel Drukker",
+              "field": "Finance and Real Estate",
+              "field_source_id": "drukker",
+              "placement": "San Diego State University",
+              "role": "Assistant Professor",
+              "in_placement_table": true,
+              "identity_match": "exact"
+            },
+            {
+              "name_raw": "Amanda Geiser",
+              "canonical_name": "Amanda Geiser",
+              "placement_name": "Amanda Geiser",
+              "record_id": "university-of-california-berkeley-amanda-geiser",
+              "field": "Marketing",
+              "field_source_id": "marketing",
+              "tracks": [
+                "marketing",
+                "cb"
+              ],
+              "placement": "University of Minnesota",
+              "role": "Assistant Professor",
+              "in_placement_table": true,
+              "identity_match": "exact"
+            },
+            {
+              "name_raw": "Analexis Glaude, PhD",
+              "canonical_name": "Analexis Glaude",
+              "placement_name": "Analexis Glaude",
+              "field": "Management of Organizations",
+              "field_source_id": "mors",
+              "placement": "Savannah State",
+              "role": "Assistant Professor",
+              "in_placement_table": true,
+              "identity_match": "professional_suffix_removed"
+            },
+            {
+              "name_raw": "Sophia L.",
+              "canonical_name": "Sophia Li",
+              "placement_name": "Sophia Li",
+              "field": "Management of Organizations",
+              "field_source_id": "mors",
+              "placement": "Kikoff",
+              "role": "People Operations Generalist",
+              "in_placement_table": true,
+              "identity_match": "contextual_working_match_only",
+              "identity_status": "provisional",
+              "limitation": "Official announcement uses abbreviated surname, without a profile link. Do not write permanent confirmed alias or auto-merge merely on name similarity."
+            },
+            {
+              "name_raw": "Andrew Maurice Perry",
+              "canonical_name": "Andrew Maurice Perry",
+              "placement_name": null,
+              "field": "Finance",
+              "field_source_id": "perry",
+              "field_evidence_level": "self_reported_primary",
+              "placement": null,
+              "role": null,
+              "in_placement_table": false,
+              "identity_match": "official_announcement_full_name; personal site uses Andrew Perry",
+              "limitation": "The official post hyperlinks his exact LinkedIn profile. No accepted first placement found; omission from public table does not prove unemployment."
+            },
+            {
+              "name_raw": "Ziqing Tian",
+              "canonical_name": "Ziqing Tian",
+              "placement_name": "Ziqing Tian",
+              "field": "Accounting",
+              "field_source_id": "accounting",
+              "placement": "Fordham University",
+              "role": "Assistant Professor",
+              "in_placement_table": true,
+              "identity_match": "exact"
+            },
+            {
+              "name_raw": "Yixiang Xu",
+              "canonical_name": "Yixiang Xu",
+              "placement_name": "Yixiang Xu",
+              "record_id": "university-of-california-berkeley-yixiang-xu",
+              "field": "Marketing",
+              "field_source_id": "marketing",
+              "tracks": [
+                "marketing",
+                "qm"
+              ],
+              "placement": "University of Cambridge",
+              "role": "Assistant Professor",
+              "in_placement_table": true,
+              "identity_match": "exact"
+            }
+          ],
+          "explained": "One Finance-affiliated graduate named in the school announcement has no public placement row; no claim that he is unemployed. After explicit name normalization and the separately flagged provisional Sophia L.→Sophia Li working mapping. Andrew Perry’s Finance affiliation is self-reported on his personal academic page, not a university field classification.",
+          "unresolved": "11 versus9: two identities and their fields remain unknown if the populations coincide. The sources do not define or explain different populations; publication dates alone do not settle this.",
+          "identity_note": "Strict differences without the provisional Sophia mapping: announcement-only Sophia L. and Andrew Maurice Perry; placement-only Sophia Li. A provisional working match is not a permanent person alias."
+        }
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "period": "2023",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://mays.tamu.edu/wp-content/uploads/2024/07/CV-Rahul-Suhag-202502.pdf"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；来源需逐人补查，未声称已全部对齐。 个人 CV 确认 2024 博士毕业和 2024-07 开始任职；并非完整院系名册。"
+      },
+      "after": {
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "period": "2023",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "unc-andre-martin"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://mays.tamu.edu/wp-content/uploads/2024/07/CV-Rahul-Suhag-202502.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://mendoza.nd.edu/mendoza-directory/profile/andre-martin/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；来源需逐人补查，未声称已全部对齐。 个人 CV 确认 2024 博士毕业和 2024-07 开始任职；并非完整院系名册。"
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "period": "2026",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://mays.tamu.edu/wp-content/uploads/2024/07/CV-Rahul-Suhag-202502.pdf"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；来源需逐人补查，未声称已全部对齐。 个人 CV 确认 2024 博士毕业和 2024-07 开始任职；并非完整院系名册。"
+      },
+      "after": {
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "period": "2026",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "unc-jiaming-jasmine-wei",
+          "unc-carlos-siri"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://mays.tamu.edu/wp-content/uploads/2024/07/CV-Rahul-Suhag-202502.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://gradschool.unc.edu/students/events/hooding/2026-doctoral-hooding-ceremony/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.linkedin.com/posts/marketing-at-unc-kenan-flagler_unc-kenanflagler-marketing-activity-7459588559050776576-owhL"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://sites.google.com/view/jiamingwei/home"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://sites.google.com/view/carlos-siri/about"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；来源需逐人补查，未声称已全部对齐。 个人 CV 确认 2024 博士毕业和 2024-07 开始任职；并非完整院系名册。"
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-texas-at-dallas-marketing",
+        "period": "2026",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://jindal.utdallas.edu/phd-programs/management-science/marketing/"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+      },
+      "after": {
+        "program_id": "university-of-texas-at-dallas-marketing",
+        "period": "2026",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "utd-taewook-lim"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://jindal.utdallas.edu/phd-programs/management-science/marketing/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://issuu.com/utdgrad/docs/commencement_-_spring_2026_-_the_un_e63a2e393dadc5"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+      }
+    },
+    {
+      "before": {
+        "program_id": "university-of-wisconsin-madison-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 2,
+        "record_ids": [
+          "university-of-wisconsin-madison-suyeon-jung",
+          "university-of-wisconsin-madison-yutian-carol-liu"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-17",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://business.wisc.edu/phd/placements/"
+          },
+          {
+            "url": "https://commencement.wisc.edu/content/uploads/2025/05/Spring2025-Commencement-program-INSIDE-8_375x10_875_web.pdf",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7333499100820066305/",
+            "label": "Official degree/annual source cross-check",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。  2026-11-17：Selected placement rows match Suyeon Jung and Yutian (Carol) Liu, including Google industry placement. Spring program explicitly disclaims conclusive graduation evidence and groups PhDs under Business. Official program LinkedIn indexed class announcement lists two Marketing names, but direct body retrieval failed; retained as an unconfirmed denominator lead, not completeness proof."
+      },
+      "after": {
+        "program_id": "university-of-wisconsin-madison-marketing",
+        "period": "2025",
+        "status": "cohort_complete",
+        "listed_count": 2,
+        "record_ids": [
+          "university-of-wisconsin-madison-suyeon-jung",
+          "university-of-wisconsin-madison-yutian-carol-liu"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": true,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7333499100820066305/",
+            "label": "Full official PhD class announcement; complete public body read",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://business.wisc.edu/phd/placements/",
+            "label": "Separate selected placement list",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Full public official PhD program announcement now read: fifteen named Business graduates, two Marketing; both match existing records, including Google industry placement. Complete only for this announced class, not the entire calendar-year conferral census or job-market season. Yutian research subfield remains unknown.",
+        "population": {
+          "kind": "school_announced_graduating_class",
+          "label": "Marketing members of the15-person Business PhD Class of2025 announced by the Wisconsin School of Business PhD Program on2025-05-28",
+          "publication_year": 2025,
+          "window_end_text": "2025-05-28 announcement following May9 hooding",
+          "scope_note": "Complete for this school-announced graduating class; not all final calendar2025 conferrals or a job-market-entry cohort.",
+          "independent_count": 2,
+          "parent_class_count": 15,
+          "roster_names": [
+            "Suyeon Jung",
+            "Yutian (Carol) Liu"
+          ]
+        },
+        "completeness_evidence": [
+          {
+            "url": "https://www.linkedin.com/feed/update/urn:li:activity:7333499100820066305/",
+            "label": "Full official PhD Class of2025 announcement",
+            "checked_at": "2026-11-18",
+            "quote": "completed their studies and earned a Doctoral of Philosophy in Business this year",
+            "count": 2,
+            "parent_count": 15,
+            "date_published": "2025-05-28T14:27:15.431Z"
+          }
+        ]
+      }
+    }
+  ],
+  "research_files": [
+    {
+      "folder": "kellogg",
+      "sha256": "300e0acb21769026bd8e80ab93b5d6ef5f012b50ad025b75f29c33c2fe4174a4"
+    },
+    {
+      "folder": "berkeley",
+      "sha256": "3d2d3fbb0d7080aec88b3c7cfa560615fadde899172cbbe9e8bd8e1921451d98"
+    },
+    {
+      "folder": "east",
+      "sha256": "228fb380febadf4bfdb3cd0abc9b7cf415877cc5082dd2d0108b26161de648d9"
+    },
+    {
+      "folder": "wisconsin",
+      "sha256": "9688d5c5693ad89541be3427f37f08710c0a00a07c7569d8a69cc26c117a2ec5"
+    },
+    {
+      "folder": "unc-utd",
+      "sha256": "c7f07235971df1e3df7dcc10e5c108fc37eabf220e05eef8591e62f80ca73cda"
+    },
+    {
+      "folder": "root",
+      "sha256": "c7449f587444257e3d3e01a46682c48c3443256b9c0ec21ac3c1d7d0a90cd31e"
+    }
+  ],
+  "limitations": [
+    "Berkeley11versus9 remains unresolved; no fabricated names or field allocation.",
+    "Candidates in commencement books do not establish all actual degree recipients.",
+    "Checklist stages are independent: searched, roster matched, independent denominator, field labels, outcomes and dates.",
+    "Receiving-side appointments and first jobs remain separate; faculty archive and career-window cutoff unchanged."
+  ],
+  "source_packet": "data/research-updates/2026-11-18-official-source-packet.json",
+  "supplemental_batches": [
+    "data/research-updates/2026-11-18-material-sources-v2.json"
+  ]
+}

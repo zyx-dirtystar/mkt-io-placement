@@ -124,6 +124,13 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
   }
   for(const f of faculty.people||[]){
     let p=f.placement_id&&people.find(p=>p.id===f.placement_id);
+    // New forward-roster research may identify an existing receiving-side profile.
+    // An explicit reviewed stable-ID link joins observations without refreshing faculty facts.
+    if(!p){
+      const matches=people.filter(person=>person.school===f.phd?.school&&(person.verified_faculty_links||[]).some(link=>link.faculty_id===f.id&&link.status==='confirmed'&&link.quote&&link.checked_at&&link.source_urls?.some(url=>url===f.homepage||url===f.cv_url)));
+      if(matches.length>1)throw new Error('Conflicting reviewed faculty identity links: '+f.id);
+      p=matches[0];
+    }
     if(!p){p={id:f.id,name:f.name,aliases:f.aliases||[],school:f.phd?.school||null,program_id:f.phd?.program_id||null,origin:f.phd?.region||'UNKNOWN',graduation_year:f.phd?.year||null,status:'faculty_only',tracks:f.tracks||[],topics:[],methods:[],sources:f.sources||[],checked_at:f.checked_at,homepage:f.homepage,cv_url:f.cv_url,institution_id:institution(f.phd?.school,f.phd?.region),event_ids:[],claim_ids:[],faculty_ids:[],research:{tracks:canonicalize(f.tracks||[],terms.tracks,'track'),topics:[],methods:[],raw:{tracks:f.tracks||[],topics:[],methods:[]},classification_status:'legacy_reference',provisional_tracks:[]}};people.push(p);if(f.phd?.year)p.event_ids.push(event(p,'graduation',{institution:f.phd.school,region:f.phd.region,title:f.phd.program,start_date:f.phd.date,start_year:f.phd.year,status:'recorded_degree',source_urls:urls((f.sources||[]).filter(s=>s.supports?.some(k=>['phd','phd.year','phd.date'].includes(k))))}));}
     p.faculty_ids.push(f.id);
     if(f.phd?.date&&f.phd.year===p.graduation_year){

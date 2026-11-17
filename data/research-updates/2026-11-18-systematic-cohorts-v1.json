@@ -1,0 +1,2956 @@
+{
+  "id": "systematic-cohorts-2026-11-18-v1",
+  "checked_at": "2026-11-18",
+  "updates": [
+    {
+      "id": "northwestern-carolyn-wells-keller",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": null,
+        "field_evidence": "Official profile describes research on cuteness; teaching Consumer Behavior alone is not sufficient to assign a research subfield.",
+        "claims": [
+          {
+            "field": "degree_completion_roster",
+            "value": {
+              "publication_year": 2023,
+              "degree": "PhD",
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en"
+            ],
+            "quote": "Degrees completed since June 2022; Carolyn Wells Keller",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "Northwestern University · Medill",
+              "role": "Lecturer"
+            },
+            "source_urls": [
+              "https://www.medill.northwestern.edu/directory/faculty/carolyn-keller.html"
+            ],
+            "quote": "Carolyn Wells Keller; Lecturer",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "Undated official profile. This establishes a reported appointment, not its start date or initial placement."
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing",
+          "Consumer Behavior"
+        ],
+        "graduation_year": 2022,
+        "field_evidence": "Author dissertation explicitly states contribution to consumer behavior (Northwestern official repository, p3); committee member CV explicitly identifies Marketing PhD2022.",
+        "claims": [
+          {
+            "field": "degree_completion_roster",
+            "value": {
+              "publication_year": 2023,
+              "degree": "PhD",
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en"
+            ],
+            "quote": "Degrees completed since June 2022; Carolyn Wells Keller",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "Northwestern University · Medill",
+              "role": "Lecturer"
+            },
+            "source_urls": [
+              "https://www.medill.northwestern.edu/directory/faculty/carolyn-keller.html"
+            ],
+            "quote": "Carolyn Wells Keller; Lecturer",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "Undated official profile. This establishes a reported appointment, not its start date or initial placement."
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://arch.library.northwestern.edu/downloads/736665174?locale=en"
+            ],
+            "quote": "this work contributes to the field of consumer behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 3
+          },
+          {
+            "field": "graduation_year",
+            "value": 2022,
+            "source_urls": [
+              "https://rimatoure.squarespace.com/s/Toure-Tillery-Vitae-20240518-Web.pdf",
+              "https://arch.library.northwestern.edu/downloads/736665174?locale=en"
+            ],
+            "quote": "Carolyn Keller, Marketing (PhD 2022)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 8,
+            "annotation": "Committee member CV explicitly dates completed PhD2022; source cohort remains2023 completion-window publication."
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "Northwestern University · Medill",
+              "role": "Lecturer",
+              "academic_year": "2024-2025"
+            },
+            "source_urls": [
+              "https://www.medill.northwestern.edu/news/2024/medill-welcomes-new-faculty-for-2024-25-academic-year.html"
+            ],
+            "quote": "Carolyn Wells Keller will serve as a lecturer",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Appointment announced for2024–25; not proof of first employment or exact start date."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://arch.library.northwestern.edu/downloads/736665174?locale=en",
+          "label": "Author dissertation · official repository · physical page3",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://rimatoure.squarespace.com/s/Toure-Tillery-Vitae-20240518-Web.pdf",
+          "label": "Committee member CV · physical page8",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.medill.northwestern.edu/news/2024/medill-welcomes-new-faculty-for-2024-25-academic-year.html",
+          "label": "Medill2024–25 appointment announcement",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Resolved research field and exact PhD year from primary evidence; initial destination and first-job year remain unknown."
+    },
+    {
+      "id": "northwestern-julia-jeong",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Julia Jeong; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Arkansas State University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Julia Jeong; Arkansas State University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Julia Jeong; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Arkansas State University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Julia Jeong; Arkansas State University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2024,
+              "name": "Julia You Jin Jeong",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf"
+            ],
+            "quote": "Julia You Jin Jeong",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "31, 33",
+            "annotation": "Candidates for degree June14,2024; program disclaimer prevents annual-award completeness claim."
+          }
+        ],
+        "aliases": [
+          "Julia You Jin Jeong"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf",
+          "label": "Official university PhD program · 2024",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "malika-korganbekova-2024",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Malika Korganbekova; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Chicago",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Malika Korganbekova; University of Chicago",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Malika Korganbekova; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Chicago",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Malika Korganbekova; University of Chicago",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2024,
+              "name": "Malika Korganbekova",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf"
+            ],
+            "quote": "Malika Korganbekova",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "31, 33",
+            "annotation": "Candidates for degree June14,2024; program disclaimer prevents annual-award completeness claim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf",
+          "label": "Official university PhD program · 2024",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-jane-jiaqian-wang",
+      "expected": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "status": "confirmed",
+            "source_urls": [
+              "https://discovery.nus.edu.sg/27118-jane-jiaqian-wang"
+            ],
+            "quote": "Northwestern University, Evanston, United States 2024",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-singapore-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jiaqian (Jane) Wang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "National University of Singapore",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jiaqian (Jane) Wang; National University of Singapore",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "status": "confirmed",
+            "source_urls": [
+              "https://discovery.nus.edu.sg/27118-jane-jiaqian-wang"
+            ],
+            "quote": "Northwestern University, Evanston, United States 2024",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-singapore-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jiaqian (Jane) Wang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "National University of Singapore",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jiaqian (Jane) Wang; National University of Singapore",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2024,
+              "name": "Jane Jiaqian Wang",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf"
+            ],
+            "quote": "Jane Jiaqian Wang",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "31, 33",
+            "annotation": "Candidates for degree June14,2024; program disclaimer prevents annual-award completeness claim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf",
+          "label": "Official university PhD program · 2024",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-bindan-zhang",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Bindan Zhang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Chinese University of Hong Kong, Shenzhen",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Bindan Zhang; Chinese University of Hong Kong, Shenzhen",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Bindan Zhang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Chinese University of Hong Kong, Shenzhen",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Bindan Zhang; Chinese University of Hong Kong, Shenzhen",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2024,
+              "name": "Bindan Zhang",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf"
+            ],
+            "quote": "Bindan Zhang",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "31, 33",
+            "annotation": "Candidates for degree June14,2024; program disclaimer prevents annual-award completeness claim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/2024finalprogram1.pdf",
+          "label": "Official university PhD program · 2024",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-joseph-abruzzo",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Joseph Abruzzo; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Northwestern University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Joseph Abruzzo; Northwestern University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Joseph Abruzzo; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Northwestern University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Joseph Abruzzo; Northwestern University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2025,
+              "name": "Joseph Malcolm Abruzzo",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf"
+            ],
+            "quote": "Joseph Malcolm Abruzzo",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "30, 32, 33, 34",
+            "annotation": "Abruzzo explicitly degree awarded March28,2025; the other four are June20,2025 degree candidates; program disclaimer prevents annual-award completeness claim."
+          },
+          {
+            "field": "graduation_date",
+            "value": "2025-03-28",
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf"
+            ],
+            "quote": "Degree awarded March 28, 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 30,
+            "annotation": "Dated awarded-degree section, separately from June candidates."
+          }
+        ],
+        "aliases": [
+          "Joseph Malcolm Abruzzo"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf",
+          "label": "Official university PhD program · 2025",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof. Official named entry is in the actual March2025 degree-awarded section."
+    },
+    {
+      "id": "northwestern-jocelyn-grabke",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jocelyn Grabke; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Saint Mary's University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jocelyn Grabke; Saint Mary's University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jocelyn Grabke; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Saint Mary's University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jocelyn Grabke; Saint Mary's University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2025,
+              "name": "Jocelyn Cosette Grabke",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf"
+            ],
+            "quote": "Jocelyn Cosette Grabke",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "30, 32, 33, 34",
+            "annotation": "Abruzzo explicitly degree awarded March28,2025; the other four are June20,2025 degree candidates; program disclaimer prevents annual-award completeness claim."
+          }
+        ],
+        "aliases": [
+          "Jocelyn Cosette Grabke"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf",
+          "label": "Official university PhD program · 2025",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-seo-young-myaeng",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Seo Young Myaeng; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Meta",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Seo Young Myaeng; Meta",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Seo Young Myaeng; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Meta",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Seo Young Myaeng; Meta",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2025,
+              "name": "Seo Young Myaeng",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf"
+            ],
+            "quote": "Seo Young Myaeng",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "30, 32, 33, 34",
+            "annotation": "Abruzzo explicitly degree awarded March28,2025; the other four are June20,2025 degree candidates; program disclaimer prevents annual-award completeness claim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf",
+          "label": "Official university PhD program · 2025",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-sarena-su",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Sarena Su; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Chinese University of Hong Kong, Shenzhen",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Sarena Su; Chinese University of Hong Kong, Shenzhen",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Sarena Su; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Chinese University of Hong Kong, Shenzhen",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Sarena Su; Chinese University of Hong Kong, Shenzhen",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2025,
+              "name": "Sarena Jiang Su",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf"
+            ],
+            "quote": "Sarena Jiang Su",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "30, 32, 33, 34",
+            "annotation": "Abruzzo explicitly degree awarded March28,2025; the other four are June20,2025 degree candidates; program disclaimer prevents annual-award completeness claim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf",
+          "label": "Official university PhD program · 2025",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-jason-zhao",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jason Zhao; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Purdue University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jason Zhao; Purdue University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm",
+              "io"
+            ],
+            "source_urls": [
+              "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv"
+            ],
+            "quote": "Quantitative Marketing, Industrial Organization",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv"
+            ],
+            "quote": "Assistant Professor of Management (Marketing), Purdue University 2025 - Present",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jason Zhao; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Purdue University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jason Zhao; Purdue University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm",
+              "io"
+            ],
+            "source_urls": [
+              "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv"
+            ],
+            "quote": "Quantitative Marketing, Industrial Organization",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv"
+            ],
+            "quote": "Assistant Professor of Management (Marketing), Purdue University 2025 - Present",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2025,
+              "name": "Jason Yujian Zhao",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf"
+            ],
+            "quote": "Jason Yujian Zhao",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "30, 32, 33, 34",
+            "annotation": "Abruzzo explicitly degree awarded March28,2025; the other four are June20,2025 degree candidates; program disclaimer prevents annual-award completeness claim."
+          }
+        ],
+        "aliases": [
+          "Jason Yujian Zhao"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/images/25commencementprogramfinal.pdf",
+          "label": "Official university PhD program · 2025",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-jesse-dagostino",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jesse D'Agostino; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Bonsai",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jesse D'Agostino; Bonsai",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "aliases": [
+          "Jesse D’Agostino"
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jesse D'Agostino; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Bonsai",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jesse D'Agostino; Bonsai",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2026,
+              "name": "Jessica Loe D’Agostino",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf"
+            ],
+            "quote": "Jessica Loe D’Agostino",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "32, 33, 35",
+            "annotation": "Candidates for degree June22,2026; program disclaimer prevents annual-award completeness claim."
+          }
+        ],
+        "aliases": [
+          "Jesse D’Agostino",
+          "Jessica Loe D’Agostino"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf",
+          "label": "Official university PhD program · 2026",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-jessie-jia",
+      "expected": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "status": "confirmed",
+            "source_urls": [
+              "https://www.jessiezjia.com/home"
+            ],
+            "quote": "Employment: Assistant Professor Marketing, The Hong Kong Polytechnic University, Hong Kong, 2026–present. Education: Ph.D Marketing, Kellogg School of Management, Northwestern University, 2026.",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-followup-asia-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jessie Jia; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Hong Kong Polytechnic University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jessie Jia; Hong Kong Polytechnic University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "aliases": [
+          "Zhisui Jessie Jia",
+          "Jessie Zhisui Jia"
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "status": "confirmed",
+            "source_urls": [
+              "https://www.jessiezjia.com/home"
+            ],
+            "quote": "Employment: Assistant Professor Marketing, The Hong Kong Polytechnic University, Hong Kong, 2026–present. Education: Ph.D Marketing, Kellogg School of Management, Northwestern University, 2026.",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-followup-asia-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jessie Jia; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Hong Kong Polytechnic University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jessie Jia; Hong Kong Polytechnic University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2026,
+              "name": "Zhisui Jia",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf"
+            ],
+            "quote": "Zhisui Jia",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "32, 33, 35",
+            "annotation": "Candidates for degree June22,2026; program disclaimer prevents annual-award completeness claim."
+          }
+        ],
+        "aliases": [
+          "Zhisui Jessie Jia",
+          "Jessie Zhisui Jia",
+          "Zhisui Jia"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf",
+          "label": "Official university PhD program · 2026",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-matejas-mackin",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Matejas Mackin; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Northwestern University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Matejas Mackin; Northwestern University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Matejas Mackin; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Northwestern University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Matejas Mackin; Northwestern University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2026,
+              "name": "Matejas Mackin",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf"
+            ],
+            "quote": "Matejas Mackin",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "32, 33, 35",
+            "annotation": "Candidates for degree June22,2026; program disclaimer prevents annual-award completeness claim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf",
+          "label": "Official university PhD program · 2026",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "northwestern-xuekang-wu",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Xuekang Wu; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Zhejiang University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Xuekang Wu; Zhejiang University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Xuekang Wu; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Zhejiang University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Xuekang Wu; Zhejiang University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "commencement_roster",
+            "value": {
+              "publication_year": 2026,
+              "name": "Xuekang Wu",
+              "population": "degree candidates and separately dated prior conferrals"
+            },
+            "source_urls": [
+              "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf"
+            ],
+            "quote": "Xuekang Wu",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": "32, 33, 35",
+            "annotation": "Candidates for degree June22,2026; program disclaimer prevents annual-award completeness claim."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.northwestern.edu/graduation/families-and-guests/2026_commcmntprogram1.pdf",
+          "label": "Official university PhD program · 2026",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Matched official full-name ceremony roster; candidate status is not final degree proof."
+    },
+    {
+      "id": "university-of-california-berkeley-yixiang-xu",
+      "expected": {
+        "placement_year": null
+      },
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "placement_year": 2026,
+        "placement_start_date": "2026-08-01",
+        "claims": [
+          {
+            "field": "placement_start_date",
+            "value": "2026-08-01",
+            "source_urls": [
+              "https://www.admin.cam.ac.uk/reporter/2025-26/weekly/6834/section2.shtml",
+              "https://parksinchaisri.github.io/files/cv.pdf"
+            ],
+            "quote": "appointed from 1 August 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Cambridge official appointment notice gives start date; coauthor CV explicitly identifies Cambridge as initial placement. Do not infer US tenure from UK probation."
+          },
+          {
+            "field": "placement_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.admin.cam.ac.uk/reporter/2025-26/weekly/6834/section2.shtml",
+              "https://parksinchaisri.github.io/files/cv.pdf"
+            ],
+            "quote": "appointed from 1 August 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Official appointment plus explicit Initial Placement statement in adviser/coauthor CV."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.admin.cam.ac.uk/reporter/2025-26/weekly/6834/section2.shtml",
+          "label": "Cambridge official appointment record",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://parksinchaisri.github.io/files/cv.pdf",
+          "label": "CV explicitly identifying initial placement · physical page9",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://haas.berkeley.edu/phd/academics/marketing/placements/",
+          "label": "Official placement / appointment corroboration",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.jbs.cam.ac.uk/faculty-research/subject-groups/marketing/members/?area=3183&subject=Marketing",
+          "label": "Official placement / appointment corroboration",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "First-job start verified as2026-08-01. UK probation is not converted into a US tenure claim."
+    },
+    {
+      "id": "massachusetts-institute-of-technology-jason-du",
+      "expected": {},
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "identity_review": {
+          "status": "provisional",
+          "proposed_alias": "Ding Du",
+          "reason": "Exact distinctive doctoral dissertation title, ManagementPhD2025, and Jason thesis listing simultaneousSM2025 explain namebook JasonDuMasters entry at printedp73. No literal Ding(Jason) alias statement found; store matching inference and same stable ID, not a separate person.",
+          "source_urls": [
+            "https://dspace.mit.edu/server/api/core/bitstreams/00b6486e-9db9-4507-888c-cf7561412769/content",
+            "https://commencement.mit.edu/sites/default/files/2025-05/MIT.Commencement.2025.Graduates.Name.Book.pdf"
+          ],
+          "checked_at": "2026-11-18"
+        },
+        "claims": [
+          {
+            "field": "proposed_alias",
+            "value": "Ding Du",
+            "source_urls": [
+              "https://dspace.mit.edu/server/api/core/bitstreams/00b6486e-9db9-4507-888c-cf7561412769/content",
+              "https://commencement.mit.edu/sites/default/files/2025-05/MIT.Commencement.2025.Graduates.Name.Book.pdf"
+            ],
+            "quote": "Content Creator Conduct; Jason Du / Ding Du",
+            "status": "provisional",
+            "checked_at": "2026-11-18",
+            "annotation": "Exact distinctive doctoral dissertation title, ManagementPhD2025, and Jason thesis listing simultaneousSM2025 explain namebook JasonDuMasters entry at printedp73. No literal Ding(Jason) alias statement found; store matching inference and same stable ID, not a separate person."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://dspace.mit.edu/server/api/core/bitstreams/00b6486e-9db9-4507-888c-cf7561412769/content",
+          "label": "Official thesis and namebook identity cross-check",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://commencement.mit.edu/sites/default/files/2025-05/MIT.Commencement.2025.Graduates.Name.Book.pdf",
+          "label": "Official thesis and namebook identity cross-check",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Exact distinctive thesis title supports a provisional identity match; no duplicate Ding Du record and no permanent confirmed alias added."
+    },
+    {
+      "id": "new-york-university-zekun-liu",
+      "expected": {
+        "graduation_year": null
+      },
+      "expected_checked_at": "2026-10-15",
+      "set": {
+        "graduation_year": 2025,
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.stern.nyu.edu/sites/default/files/2025-05/2025%20stern_graduate_MBA_PhD%20convocation_program_Accessible.pdf"
+            ],
+            "quote": "Zekun Liu; as of January 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 9,
+            "annotation": "Official PhD roster explicitly dates January2025, already past at May2025 publication. Preserve placementyear2024 and sourcecohortyear2024; these are distinct axes."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.stern.nyu.edu/sites/default/files/2025-05/2025%20stern_graduate_MBA_PhD%20convocation_program_Accessible.pdf",
+          "label": "Official prior-term PhD roster",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Exact prior-term graduation year supplemented independently of first-job and source-list years."
+    },
+    {
+      "id": "ella-xu-2025",
+      "expected": {
+        "aliases": [
+          "Ella Xu"
+        ],
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "status": "confirmed",
+            "source_urls": [
+              "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf"
+            ],
+            "quote": "ness School, Emory University Assistant Professor of Marketing 2025 - Education New York University Ph.D., Marketing 2019 - 2025 Dissertation Committee: T ¨ulin Erdem (co-chair), Raluca Ursu (co-chair), Runshan Fu (co-chair), Bryan Bollinger Columbia University M.S., Marketing Science 2018 - 2019 T singhua University B.E., Industrial Engineering 2014 - 2018 Research Interests Quantitative Marketing, Consumer Search, Information Acquisition and Processing, Algorithmic Fair- ness, Online and In-store Retailing Deep Learning, Machine Learning, Unstructured Data, Field Experiments, Econometrics Working Papers “An Explainable and Theory-Driven Deep Learning Architecture for Consumer Search and Consider- ation Sets” with Runshan Fu, T ¨ulin Erdem, Bryan Bollinger, and Raluca Ursu Job Market Paper “The Impact of Product Location Changes on Habits, Search, and Purchase Decis",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-na-b-2026-10-22"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "aliases": [
+          "Ella Xu",
+          "Jiaming Ella Xu"
+        ],
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "status": "confirmed",
+            "source_urls": [
+              "https://media-speakerfile-pre.s3.amazonaws.com/documents/aa60865ffbb85b84486a1572045879131751394370.pdf"
+            ],
+            "quote": "ness School, Emory University Assistant Professor of Marketing 2025 - Education New York University Ph.D., Marketing 2019 - 2025 Dissertation Committee: T ¨ulin Erdem (co-chair), Raluca Ursu (co-chair), Runshan Fu (co-chair), Bryan Bollinger Columbia University M.S., Marketing Science 2018 - 2019 T singhua University B.E., Industrial Engineering 2014 - 2018 Research Interests Quantitative Marketing, Consumer Search, Information Acquisition and Processing, Algorithmic Fair- ness, Online and In-store Retailing Deep Learning, Machine Learning, Unstructured Data, Field Experiments, Econometrics Working Papers “An Explainable and Theory-Driven Deep Learning Architecture for Consumer Search and Consider- ation Sets” with Runshan Fu, T ¨ulin Erdem, Bryan Bollinger, and Raluca Ursu Job Market Paper “The Impact of Product Location Changes on Habits, Search, and Purchase Decis",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-na-b-2026-10-22"
+          },
+          {
+            "field": "aliases",
+            "value": "Jiaming Ella Xu",
+            "source_urls": [
+              "https://www.stern.nyu.edu/sites/default/files/2025-05/2025%20stern_graduate_MBA_PhD%20convocation_program_Accessible.pdf"
+            ],
+            "quote": "Jiaming Ella Xu; as of May 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 9
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.stern.nyu.edu/sites/default/files/2025-05/2025%20stern_graduate_MBA_PhD%20convocation_program_Accessible.pdf",
+          "label": "Official full-name degree roster",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Official name variant cross-checked without inferring a pending award date."
+    },
+    {
+      "id": "university-of-wisconsin-madison-suyeon-jung",
+      "expected": {
+        "graduation_year": null,
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "doctoral candidate in Marketing, specializing in Consumer Behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "graduation_year": 2025,
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "doctoral candidate in Marketing, specializing in Consumer Behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.linkedin.com/feed/update/urn:li:activity:7333499100820066305/"
+            ],
+            "quote": "completed their studies and earned a Doctoral of Philosophy in Business this year",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Dated2025 announcement explicitly says these named PhD graduates completed studies and earned the degree this year; no job date inferred."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7333499100820066305/",
+          "label": "Official PhD class / employer university evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Dated2025 announcement explicitly says these named PhD graduates completed studies and earned the degree this year; no job date inferred."
+    },
+    {
+      "id": "university-of-wisconsin-madison-yutian-carol-liu",
+      "expected": {
+        "graduation_year": null
+      },
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "graduation_year": 2025,
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.linkedin.com/feed/update/urn:li:activity:7333499100820066305/"
+            ],
+            "quote": "completed their studies and earned a Doctoral of Philosophy in Business this year",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Same explicit2025 completion statement. Keep tracks marketing/unclassified; no direct Quant specialization found. Keep Google industry outcome."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7333499100820066305/",
+          "label": "Official PhD class / employer university evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Same explicit2025 completion statement. Keep tracks marketing/unclassified; no direct Quant specialization found. Keep Google industry outcome."
+    },
+    {
+      "id": "university-of-wisconsin-madison-nitisha-tomar",
+      "expected": {
+        "graduation_year": null,
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      },
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "graduation_year": 2024,
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing",
+          "Consumer Behavior",
+          "Consumer Culture Theory"
+        ],
+        "field_evidence": "Employer university explicitly identifies Consumer Behaviour and Consumer Culture Theory; PhD dates are separately recorded.",
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/nitisha-tomar"
+            ],
+            "quote": "Consumer Behaviour; PhD ... September2019 - August2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Employer university page explicitly identifies Consumer Behaviour research and PhD ending August2024. It is current-role evidence only; do not backfill initial role or employment date."
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/nitisha-tomar"
+            ],
+            "quote": "Consumer Behaviour",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Explicit employer university research description."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/experts/nitisha-tomar",
+          "label": "Official PhD class / employer university evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Employer university page explicitly identifies Consumer Behaviour research and PhD ending August2024. It is current-role evidence only; do not backfill initial role or employment date."
+    },
+    {
+      "id": "university-of-texas-at-dallas-salar-nozari",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      },
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Marketing",
+          "Quantitative Marketing"
+        ],
+        "field_evidence": "Explicit primary-source Quantitative Marketing statement; methods alone are not used for classification.",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://salarnozari.github.io/index.html"
+            ],
+            "quote": "received my PhD. in Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Explicit author specialization."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://salarnozari.github.io/index.html",
+          "label": "Author / university-hosted explicit Quant evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Research-field classification verified independently of degree and employment dates."
+    },
+    {
+      "id": "university-of-texas-at-dallas-ehsan-saremi",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "quote": "Saremi, Ehsan, Assistant Professor of Business Analytics. 2025.",
+            "source_urls": [
+              "https://www.depauw.edu/academics/catalog/university-personnel/faculty/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "quote": "Ph.D., The University of Texas at Dallas, 2025",
+            "source_urls": [
+              "https://www.depauw.edu/academics/catalog/university-personnel/faculty/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          }
+        ]
+      },
+      "expected_checked_at": "2026-10-22",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Marketing",
+          "Quantitative Marketing"
+        ],
+        "field_evidence": "Explicit primary-source Quantitative Marketing statement; methods alone are not used for classification.",
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "quote": "Saremi, Ehsan, Assistant Professor of Business Analytics. 2025.",
+            "source_urls": [
+              "https://www.depauw.edu/academics/catalog/university-personnel/faculty/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "quote": "Ph.D., The University of Texas at Dallas, 2025",
+            "source_urls": [
+              "https://www.depauw.edu/academics/catalog/university-personnel/faculty/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://sites.google.com/view/ehsan-saremi"
+            ],
+            "quote": "I did my PhD in quantitative marketing at The University of Texas at Dallas",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Explicit author specialization."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://sites.google.com/view/ehsan-saremi",
+          "label": "Author / university-hosted explicit Quant evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Research-field classification verified independently of degree and employment dates."
+    },
+    {
+      "id": "university-of-texas-at-dallas-ata-jameei-osgouei",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      },
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Marketing",
+          "Quantitative Marketing"
+        ],
+        "field_evidence": "Explicit primary-source Quantitative Marketing statement; methods alone are not used for classification.",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://jindal.utdallas.edu/files/2023/07/2023-CV_Ata-Jameei.pdf"
+            ],
+            "quote": "Methodological: Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1,
+            "annotation": "Historical2023CVsaysExpectedMay2024; useonlyfieldclassificationnotactualdegreeproof."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://jindal.utdallas.edu/files/2023/07/2023-CV_Ata-Jameei.pdf",
+          "label": "Author / university-hosted explicit Quant evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Historical2023CVsaysExpectedMay2024; useonlyfieldclassificationnotactualdegreeproof."
+    },
+    {
+      "id": "university-of-north-carolina-at-chapel-hill-fahmi-emerson-grey",
+      "expected": {},
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "claims": [
+          {
+            "field": "accepted_placement",
+            "value": {
+              "institution": "Indiana University",
+              "tenure_track_offer": true
+            },
+            "source_urls": [
+              "https://www.linkedin.com/posts/marketing-at-unc-kenan-flagler_fahmi-grey-a-fifth-year-marketing-phd-student-activity-7130660538459541505-1SAo"
+            ],
+            "quote": "has accepted a tenure track faculty position",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Official PhD program reports accepted faculty offer; no exact employment start date found."
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "Indiana University",
+              "role": "Assistant Professor"
+            },
+            "source_urls": [
+              "https://kelley.iu.edu/faculty-research/faculty-directory/profile.html?id=FAGREY"
+            ],
+            "quote": "Assistant Professor",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Receiving university corroboration; current title is not silently assigned to initial employment."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://kelley.iu.edu/faculty-research/faculty-directory/profile.html?id=FAGREY",
+          "label": "Official current faculty profile",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/marketing-at-unc-kenan-flagler_fahmi-grey-a-fifth-year-marketing-phd-student-activity-7130660538459541505-1SAo",
+          "label": "Official program accepted-placement announcement",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Exactstartyearnotverified; publicKelleyCVreturns404. Officialcurrentpagecorroboratesemployer, notfirststartdate."
+    }
+  ],
+  "additions": [
+    {
+      "id": "mit-matthew-cashman",
+      "set": {
+        "name": "Matthew Patrick Cashman",
+        "school": "Massachusetts Institute of Technology",
+        "program": "博士项目 · Marketing",
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "origin": "US",
+        "aliases": [
+          "Matthew Cashman"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "source_cohort_year": 2024,
+        "graduation_year": 2023,
+        "placement_year": 2023,
+        "status": "placed",
+        "destination": "University of Warwick",
+        "destination_region": "UK",
+        "role": "Houlden Fellow, Behavioural Science Group",
+        "job_kind": "research",
+        "claims": [
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2024,
+              "person": "Matthew Patrick Cashman"
+            },
+            "source_urls": [
+              "https://commencement.mit.edu/sites/default/files/2024-05/MIT.Commencement.2024.Graduates.Name.Book.pdf"
+            ],
+            "quote": "Matthew Patrick Cashman (September, 2023)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 99,
+            "annotation": "Evidence scope: Exact subfield remains unclassified; formal models/empirical methods do not automatically establish Quant. Official selected thesis page calls him2024, but actual completed degree September2023 is corroborated by namebook and authorCV. Source roster2024 and graduation2023 must remain separate. First research fellowship title is explicit; job_kind research is conservative. Warwick2025 outstanding postdoctoral achievement award corroborates postdoctoral character but not tenure. Old indexed CV link /wp-content/uploads/2025/10/... returns404; current CV actually downloaded from /assets/pdf/."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2024,
+              "person": "Matthew Patrick Cashman"
+            },
+            "source_urls": [
+              "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students"
+            ],
+            "quote": "Matthew Cashman; MIT Sloan Postdoctoral Associate",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": null,
+            "annotation": "Evidence scope: Exact subfield remains unclassified; formal models/empirical methods do not automatically establish Quant. Official selected thesis page calls him2024, but actual completed degree September2023 is corroborated by namebook and authorCV. Source roster2024 and graduation2023 must remain separate. First research fellowship title is explicit; job_kind research is conservative. Warwick2025 outstanding postdoctoral achievement award corroborates postdoctoral character but not tenure. Old indexed CV link /wp-content/uploads/2025/10/... returns404; current CV actually downloaded from /assets/pdf/."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2024,
+              "person": "Matthew Patrick Cashman"
+            },
+            "source_urls": [
+              "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf"
+            ],
+            "quote": "Ph.D. MIT Sloan, Cambridge, MA 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1,
+            "annotation": "Evidence scope: Exact subfield remains unclassified; formal models/empirical methods do not automatically establish Quant. Official selected thesis page calls him2024, but actual completed degree September2023 is corroborated by namebook and authorCV. Source roster2024 and graduation2023 must remain separate. First research fellowship title is explicit; job_kind research is conservative. Warwick2025 outstanding postdoctoral achievement award corroborates postdoctoral character but not tenure. Old indexed CV link /wp-content/uploads/2025/10/... returns404; current CV actually downloaded from /assets/pdf/."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2024,
+              "person": "Matthew Patrick Cashman"
+            },
+            "source_urls": [
+              "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf"
+            ],
+            "quote": "Warwick Business School, Warwick, UK 2023–2025 Houlden Fellow, Behavioural Science Group (independent research fellowship)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1,
+            "annotation": "Evidence scope: Exact subfield remains unclassified; formal models/empirical methods do not automatically establish Quant. Official selected thesis page calls him2024, but actual completed degree September2023 is corroborated by namebook and authorCV. Source roster2024 and graduation2023 must remain separate. First research fellowship title is explicit; job_kind research is conservative. Warwick2025 outstanding postdoctoral achievement award corroborates postdoctoral character but not tenure. Old indexed CV link /wp-content/uploads/2025/10/... returns404; current CV actually downloaded from /assets/pdf/."
+          },
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "source_urls": [
+              "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf"
+            ],
+            "quote": "Ph.D. MIT Sloan, Cambridge, MA 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2023,
+            "source_urls": [
+              "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf"
+            ],
+            "quote": "Warwick Business School, Warwick, UK 2023–2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1
+          },
+          {
+            "field": "initial_placement",
+            "value": {
+              "institution": "University of Warwick",
+              "role": "Houlden Fellow, Behavioural Science Group"
+            },
+            "source_urls": [
+              "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf"
+            ],
+            "quote": "Houlden Fellow, Behavioural Science Group (independent research fellowship)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1
+          }
+        ],
+        "field_evidence": "Marketing affiliation confirmed; subfield not automatically assigned from topic or method.",
+        "homepage": "https://cashman.science/",
+        "cv_url": "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf",
+        "subsequent": [
+          {
+            "institution": "Massachusetts Institute of Technology",
+            "role": "Postdoc, PrioR Lab",
+            "year": 2025,
+            "start": 2025,
+            "sources": [
+              "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://commencement.mit.edu/sites/default/files/2024-05/MIT.Commencement.2024.Graduates.Name.Book.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://cashman.science/assets/pdf/Matthew-Cashman-CV.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://mitsloan.mit.edu/sites/default/files/inline-files/Thesis%20Abstracts_Marketing%20%281%29.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Omitted Marketing roster member added; Exact subfield remains unclassified; formal models/empirical methods do not automatically establish Quant. Official selected thesis page calls him2024, but actual completed degree September2023 is corroborated by namebook and authorCV. Source roster2024 and graduation2023 must remain separate. First research fellowship title is explicit; job_kind research is conservative. Warwick2025 outstanding postdoctoral achievement award corroborates postdoctoral character but not tenure. Old indexed CV link /wp-content/uploads/2025/10/... returns404; current CV actually downloaded from /assets/pdf/."
+    },
+    {
+      "id": "mit-yunhao-jerry-zhang",
+      "set": {
+        "name": "Yunhao (Jerry) Zhang",
+        "school": "Massachusetts Institute of Technology",
+        "program": "博士项目 · Marketing",
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "origin": "US",
+        "aliases": [
+          "Jerry (Yunhao) Zhang",
+          "Yunhao Zhang",
+          "Jerry Zhang"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "source_cohort_year": 2023,
+        "graduation_year": null,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "claims": [
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2023,
+              "person": "Yunhao (Jerry) Zhang"
+            },
+            "source_urls": [
+              "https://commencement.mit.edu/sites/default/files/2023-06/MIT.Commencement.2023.Graduates.Name.Book.pdf"
+            ],
+            "quote": "Yunhao Zhang; Essays on Mechanisms Underlying Belief Updating with Applications in Wisdom of Crowds",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 101,
+            "annotation": "Evidence scope: Keep first destination/year null if policy requires explicit earliest-job evidence; record dated postdoc observation as separate claim rather than omit person. Personal homepage directweb404 and CLI403 challenge; search-index body says joiningUCLfall2026. Do not claim CV read. Ignore unrelated CornellCS/NJIT/SJTU namesakes. MIT official Marketing alumni plus unique dissertation bind this person. Research topics include judgment/decision-making, but no explicit CB/Quant self-classification retrieved. 2023 publication year alone is not actual award-year proof; graduation year left null as owner requested."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2023,
+              "person": "Yunhao (Jerry) Zhang"
+            },
+            "source_urls": [
+              "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students"
+            ],
+            "quote": "Jerry (Yunhao) Zhang; Postdoctoral fellow at the Psychology of Tech Institute (Berkeley Haas and USC)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": null,
+            "annotation": "Evidence scope: Keep first destination/year null if policy requires explicit earliest-job evidence; record dated postdoc observation as separate claim rather than omit person. Personal homepage directweb404 and CLI403 challenge; search-index body says joiningUCLfall2026. Do not claim CV read. Ignore unrelated CornellCS/NJIT/SJTU namesakes. MIT official Marketing alumni plus unique dissertation bind this person. Research topics include judgment/decision-making, but no explicit CB/Quant self-classification retrieved. 2023 publication year alone is not actual award-year proof; graduation year left null as owner requested."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2023,
+              "person": "Yunhao (Jerry) Zhang"
+            },
+            "source_urls": [
+              "https://www.somolab.org/people"
+            ],
+            "quote": "Yunhao (Jerry) Zhang is a postdoctoral fellow at the Haas School of Business (entered: 2023).",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": null,
+            "annotation": "Evidence scope: Keep first destination/year null if policy requires explicit earliest-job evidence; record dated postdoc observation as separate claim rather than omit person. Personal homepage directweb404 and CLI403 challenge; search-index body says joiningUCLfall2026. Do not claim CV read. Ignore unrelated CornellCS/NJIT/SJTU namesakes. MIT official Marketing alumni plus unique dissertation bind this person. Research topics include judgment/decision-making, but no explicit CB/Quant self-classification retrieved. 2023 publication year alone is not actual award-year proof; graduation year left null as owner requested."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2023,
+              "person": "Yunhao (Jerry) Zhang"
+            },
+            "source_urls": [
+              "https://www.fdsm.fudan.edu.cn/en/2026/0912/c1894a37296/page.htm"
+            ],
+            "quote": "Speaker: Assistant Professor Yunhao (Jerry) Zhang, UCL School of Management",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": null,
+            "annotation": "Evidence scope: Keep first destination/year null if policy requires explicit earliest-job evidence; record dated postdoc observation as separate claim rather than omit person. Personal homepage directweb404 and CLI403 challenge; search-index body says joiningUCLfall2026. Do not claim CV read. Ignore unrelated CornellCS/NJIT/SJTU namesakes. MIT official Marketing alumni plus unique dissertation bind this person. Research topics include judgment/decision-making, but no explicit CB/Quant self-classification retrieved. 2023 publication year alone is not actual award-year proof; graduation year left null as owner requested."
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "Psychology of Technology Institute (Berkeley Haas and USC)",
+              "role": "Postdoctoral Fellow",
+              "observed_by": "2023-11-03",
+              "reported_entry_year": 2023,
+              "start_year_status": "lab reports entered2023; primary institute conference establishes in-postbyNovember2023. Not explicit first-ever job declaration."
+            },
+            "source_urls": [
+              "https://www.somolab.org/people",
+              "https://www.psychoftech.org/2023-conference"
+            ],
+            "quote": "postdoctoral fellow at the Haas School of Business (entered: 2023)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Dated appointment observation; initial-ever job not established."
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "University College London",
+              "role": "Assistant Professor in Marketing",
+              "observed_by": "2026-09-15",
+              "source_url": "https://www.fdsm.fudan.edu.cn/en/2026/0912/c1894a37296/page.htm"
+            },
+            "source_urls": [
+              "https://www.fdsm.fudan.edu.cn/en/2026/0912/c1894a37296/page.htm"
+            ],
+            "quote": "Assistant Professor Yunhao (Jerry) Zhang, UCL School of Management",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "2026 receiving-side observation, not first placement."
+          }
+        ],
+        "field_evidence": "Marketing affiliation confirmed; subfield not automatically assigned from topic or method."
+      },
+      "sources": [
+        {
+          "url": "https://commencement.mit.edu/sites/default/files/2023-06/MIT.Commencement.2023.Graduates.Name.Book.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.psychoftech.org/2023-conference",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.somolab.org/people",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.fdsm.fudan.edu.cn/en/2026/0912/c1894a37296/page.htm",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Omitted Marketing roster member added; Keep first destination/year null if policy requires explicit earliest-job evidence; record dated postdoc observation as separate claim rather than omit person. Personal homepage directweb404 and CLI403 challenge; search-index body says joiningUCLfall2026. Do not claim CV read. Ignore unrelated CornellCS/NJIT/SJTU namesakes. MIT official Marketing alumni plus unique dissertation bind this person. Research topics include judgment/decision-making, but no explicit CB/Quant self-classification retrieved. 2023 publication year alone is not actual award-year proof; graduation year left null as owner requested."
+    },
+    {
+      "id": "mit-xi-chen",
+      "set": {
+        "name": "Xi Chen",
+        "school": "Massachusetts Institute of Technology",
+        "program": "博士项目 · Marketing",
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "origin": "US",
+        "aliases": [],
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": 2025,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "claims": [
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2026,
+              "person": "Xi Chen"
+            },
+            "source_urls": [
+              "https://commencement.mit.edu/sites/default/files/MIT.Commencement.2026.Graduates.Name.Book%20v2-tagged.pdf"
+            ],
+            "quote": "Xi Chen (September, 2025); Essays on Behavioral Economics and Sophisticated Procrastination",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 103,
+            "annotation": "Evidence scope: Common name; merge only by exact unique dissertation title plus MIT degree/program evidence. Bookyear2026 is not graduationyear2026. Explicit September2025 is retained. No firstjob or explicit Quant/CB label established; do not infer from behavioral economics title."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2026,
+              "person": "Xi Chen"
+            },
+            "source_urls": [
+              "https://mitsloan.mit.edu/programs/phd/marketing"
+            ],
+            "quote": "Xi Chen: Essays on Behavioral Economics and Sophisticated Procrastination",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": null,
+            "annotation": "Evidence scope: Common name; merge only by exact unique dissertation title plus MIT degree/program evidence. Bookyear2026 is not graduationyear2026. Explicit September2025 is retained. No firstjob or explicit Quant/CB label established; do not infer from behavioral economics title."
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://commencement.mit.edu/sites/default/files/MIT.Commencement.2026.Graduates.Name.Book%20v2-tagged.pdf"
+            ],
+            "quote": "Xi Chen (September, 2025)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 103,
+            "annotation": "Explicit prior-term degree date in2026 book. Unique dissertation title confirms Marketing affiliation, not similarly named faculty elsewhere."
+          }
+        ],
+        "field_evidence": "Marketing affiliation confirmed; subfield not automatically assigned from topic or method."
+      },
+      "sources": [
+        {
+          "url": "https://commencement.mit.edu/sites/default/files/MIT.Commencement.2026.Graduates.Name.Book%20v2-tagged.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://mitsloan.mit.edu/programs/phd/marketing",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Omitted Marketing roster member added; Common name; merge only by exact unique dissertation title plus MIT degree/program evidence. Bookyear2026 is not graduationyear2026. Explicit September2025 is retained. No firstjob or explicit Quant/CB label established; do not infer from behavioral economics title."
+    },
+    {
+      "id": "columbia-daniel-russman",
+      "set": {
+        "name": "Daniel Jesse Konstant Russman",
+        "school": "Columbia University",
+        "program": "博士项目 · Marketing",
+        "program_id": "columbia-university-marketing",
+        "origin": "US",
+        "aliases": [
+          "Daniel Russman"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "claims": [
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2026,
+              "person": "Daniel Jesse Konstant Russman"
+            },
+            "source_urls": [
+              "https://students.business.columbia.edu/sites/students/files-efs/imce-uploads/graduation/2026%20MS%20and%20PhD%20Recognition%20Program.pdf"
+            ],
+            "quote": "Daniel Jesse Konstant Russman; The Body as a Machine or as a Temple: Philosophies of the Body and Wellness Consumption",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 5,
+            "annotation": "Evidence scope: 2026 Candidate Hooding is not final award proof; nojobmarketcycle inferred. 2025 newsletter has author first-person CB research description. Homepage searchindex explicitlyCBstudent, directweb cachemiss; do not treat indexedCVasread. No destination verified; preserve missing outcome."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2026,
+              "person": "Daniel Jesse Konstant Russman"
+            },
+            "source_urls": [
+              "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf"
+            ],
+            "quote": "I study health and wellness consumer behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 8,
+            "annotation": "Evidence scope: 2026 Candidate Hooding is not final award proof; nojobmarketcycle inferred. 2025 newsletter has author first-person CB research description. Homepage searchindex explicitlyCBstudent, directweb cachemiss; do not treat indexedCVasread. No destination verified; preserve missing outcome."
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf"
+            ],
+            "quote": "I study health and wellness consumer behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 8
+          }
+        ],
+        "field_evidence": "Author first-person Consumer Behavior research description in official2025 departmental newsletter.",
+        "homepage": "https://www.drussman.com/home"
+      },
+      "sources": [
+        {
+          "url": "https://students.business.columbia.edu/sites/students/files-efs/imce-uploads/graduation/2026%20MS%20and%20PhD%20Recognition%20Program.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/marketing-div/cbs_marketing_2025_newsletter.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://business.columbia.edu/cds/research/pamlab",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Omitted Marketing roster member added; 2026 Candidate Hooding is not final award proof; nojobmarketcycle inferred. 2025 newsletter has author first-person CB research description. Homepage searchindex explicitlyCBstudent, directweb cachemiss; do not treat indexedCVasread. No destination verified; preserve missing outcome."
+    },
+    {
+      "id": "nyu-m-leonor-neto",
+      "set": {
+        "name": "M. Leonor Neto",
+        "school": "New York University",
+        "program": "博士项目 · Marketing",
+        "program_id": "new-york-university-marketing",
+        "origin": "US",
+        "aliases": [
+          "Maria Leonor Neto",
+          "Leonor Neto"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": 2026,
+        "status": "placed",
+        "destination": "Dartmouth College",
+        "destination_region": "US",
+        "role": "Postdoctoral Research Fellow",
+        "job_kind": "postdoc",
+        "claims": [
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2026,
+              "person": "M. Leonor Neto"
+            },
+            "source_urls": [
+              "https://www.stern.nyu.edu/programs-admissions/phd/job-placement/recent-job-placements"
+            ],
+            "quote": "2026 Placements; Marketing; M. Leonor Neto; Dartmouth College; Post-Doctoral Researcher",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Evidence scope: September2026 CV still labels PhD Candidate2026; do not convert to awarded-degree proof. Name remains on stale departmental CurrentPhDStudents directory; centralplacement+authorcurrenthome+CV showpostdoc. Not current2026–27candidate. Undergraduate UniversityofLisbonPsychology2018 from CV; exchangeMaastricht is not seconddegree."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2026,
+              "person": "M. Leonor Neto"
+            },
+            "source_urls": [
+              "https://leonorneto.com/cv.pdf"
+            ],
+            "quote": "Tuck School of Business at Dartmouth College, NH; Postdoctoral Research Fellow; 2026 – Present",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1,
+            "annotation": "Evidence scope: September2026 CV still labels PhD Candidate2026; do not convert to awarded-degree proof. Name remains on stale departmental CurrentPhDStudents directory; centralplacement+authorcurrenthome+CV showpostdoc. Not current2026–27candidate. Undergraduate UniversityofLisbonPsychology2018 from CV; exchangeMaastricht is not seconddegree."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2026,
+              "person": "M. Leonor Neto"
+            },
+            "source_urls": [
+              "https://leonorneto.com/cv.pdf"
+            ],
+            "quote": "Ph.D Candidate, Marketing (Consumer Behavior)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1,
+            "annotation": "Evidence scope: September2026 CV still labels PhD Candidate2026; do not convert to awarded-degree proof. Name remains on stale departmental CurrentPhDStudents directory; centralplacement+authorcurrenthome+CV showpostdoc. Not current2026–27candidate. Undergraduate UniversityofLisbonPsychology2018 from CV; exchangeMaastricht is not seconddegree."
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://leonorneto.com/cv.pdf"
+            ],
+            "quote": "Ph.D Candidate, Marketing (Consumer Behavior)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1
+          },
+          {
+            "field": "placement_year",
+            "value": 2026,
+            "source_urls": [
+              "https://leonorneto.com/cv.pdf"
+            ],
+            "quote": "Dartmouth College; Postdoctoral Research Fellow; 2026–",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1
+          },
+          {
+            "field": "initial_placement",
+            "value": {
+              "institution": "Dartmouth College",
+              "role": "Postdoctoral Research Fellow"
+            },
+            "source_urls": [
+              "https://www.stern.nyu.edu/programs-admissions/phd/job-placement/recent-job-placements",
+              "https://leonorneto.com/cv.pdf"
+            ],
+            "quote": "Marketing; Dartmouth College; Postdoctoral Researcher",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Official current placement table and dated author CV, not inferred from candidacy year."
+          }
+        ],
+        "field_evidence": "Author first-person Consumer Behavior research description in official2025 departmental newsletter.",
+        "homepage": "https://leonorneto.com/",
+        "cv_url": "https://leonorneto.com/cv.pdf"
+      },
+      "sources": [
+        {
+          "url": "https://www.stern.nyu.edu/programs-admissions/phd/job-placement/recent-job-placements",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://leonorneto.com/cv.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://leonorneto.com/",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.stern.nyu.edu/sites/default/files/2026-05/2026%20stern_graduate_MBA_PhD%20convocation_program_05-01-26_accessible.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Omitted Marketing roster member added; September2026 CV still labels PhD Candidate2026; do not convert to awarded-degree proof. Name remains on stale departmental CurrentPhDStudents directory; centralplacement+authorcurrenthome+CV showpostdoc. Not current2026–27candidate. Undergraduate UniversityofLisbonPsychology2018 from CV; exchangeMaastricht is not seconddegree."
+    },
+    {
+      "id": "mit-yiqun-cathy-cao",
+      "set": {
+        "name": "Yiqun (Cathy) Cao",
+        "school": "Massachusetts Institute of Technology",
+        "program": "博士项目 · Marketing",
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "origin": "US",
+        "aliases": [
+          "Yiqun Cao",
+          "Cathy Cao"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "source_cohort_year": 2023,
+        "graduation_year": 2022,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "claims": [
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2023,
+              "person": "Yiqun (Cathy) Cao"
+            },
+            "source_urls": [
+              "https://commencement.mit.edu/sites/default/files/2023-06/MIT.Commencement.2023.Graduates.Name.Book.pdf"
+            ],
+            "quote": "Yiqun Cao (September, 2022); Understanding Video Ads on Social Media Platforms",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 101,
+            "annotation": "Evidence scope: Historicalscope uses sourcebook2023–26, soSeptember2022actualdegree belongs to2023publicationpopulation. Undatedalumnipage providesreportedQuoraappointment,not anexplicitfirstjoborstartdate. Preservefirstdestination/yearunknown. Do notconfusewithXinyuCao or differentYiqunCao namesakes; exactMITMarketingalumni and namebookidentitymatch. NoexplicitQuant/CBclassificationread; do not inferQuantfromdatascientisttitle."
+          },
+          {
+            "field": "source_roster_evidence",
+            "value": {
+              "publication_year": 2023,
+              "person": "Yiqun (Cathy) Cao"
+            },
+            "source_urls": [
+              "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students"
+            ],
+            "quote": "Yiqun (Cathy) Cao; Data Scientist - Quora",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Evidence scope: Historicalscope uses sourcebook2023–26, soSeptember2022actualdegree belongs to2023publicationpopulation. Undatedalumnipage providesreportedQuoraappointment,not anexplicitfirstjoborstartdate. Preservefirstdestination/yearunknown. Do notconfusewithXinyuCao or differentYiqunCao namesakes; exactMITMarketingalumni and namebookidentitymatch. NoexplicitQuant/CBclassificationread; do not inferQuantfromdatascientisttitle."
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "Quora",
+              "role": "Data Scientist",
+              "start": null,
+              "source_url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students"
+            },
+            "source_urls": [
+              "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students"
+            ],
+            "quote": "Yiqun (Cathy) Cao; Data Scientist - Quora",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Undated reported appointment, not a verified first job."
+          },
+          {
+            "field": "graduation_year",
+            "value": 2022,
+            "source_urls": [
+              "https://commencement.mit.edu/sites/default/files/2023-06/MIT.Commencement.2023.Graduates.Name.Book.pdf"
+            ],
+            "quote": "Yiqun Cao (September, 2022)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 101
+          }
+        ],
+        "field_evidence": "Marketing affiliation confirmed; subfield not automatically assigned from topic or method."
+      },
+      "sources": [
+        {
+          "url": "https://commencement.mit.edu/sites/default/files/2023-06/MIT.Commencement.2023.Graduates.Name.Book.pdf",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://mitsloan.mit.edu/faculty/academic-groups/marketing/phd-students",
+          "label": "Official / author source for omitted roster member",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Omitted Marketing roster member added; Historicalscope uses sourcebook2023–26, soSeptember2022actualdegree belongs to2023publicationpopulation. Undatedalumnipage providesreportedQuoraappointment,not anexplicitfirstjoborstartdate. Preservefirstdestination/yearunknown. Do notconfusewithXinyuCao or differentYiqunCao namesakes; exactMITMarketingalumni and namebookidentitymatch. NoexplicitQuant/CBclassificationread; do not inferQuantfromdatascientisttitle."
+    },
+    {
+      "id": "unc-andre-martin",
+      "set": {
+        "name": "Andre Martin",
+        "aliases": [
+          "Andrè Martin",
+          "Andre Urban Martin"
+        ],
+        "school": "University of North Carolina at Chapel Hill",
+        "program": "博士项目 · Marketing",
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "origin": "US",
+        "source_cohort_year": 2023,
+        "graduation_year": 2023,
+        "placement_year": 2023,
+        "market_cycle": null,
+        "destination": "University of Notre Dame",
+        "destination_region": "US",
+        "status": "placed",
+        "role": "Assistant Professor of Marketing",
+        "job_kind": "faculty",
+        "tracks": [
+          "marketing",
+          "strategy"
+        ],
+        "fields": [
+          "Marketing",
+          "Marketing Strategy"
+        ],
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "strategy"
+            ],
+            "source_urls": [
+              "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf"
+            ],
+            "quote": "Substantive: Marketing Strategy, Privacy, Firm Communication, Marketing Finance Interface",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1
+          },
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "source_urls": [
+              "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf"
+            ],
+            "quote": "Doctor of Philosophy, Marketing 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1
+          },
+          {
+            "field": "placement_year",
+            "value": 2023,
+            "source_urls": [
+              "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf"
+            ],
+            "quote": "Mendoza College of Business, University of Notre Dame 2023 – Present",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 1
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://mendoza.nd.edu/mendoza-directory/profile/andre-martin/",
+              "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf",
+              "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf",
+              "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf"
+            ],
+            "quote": "Andre Martin",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Official named source and program-affiliation evidence; candidacy does not establish a final award or market cycle."
+          }
+        ],
+        "field_evidence": "Explicit primary-source research-field statement.",
+        "cv_url": "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf",
+        "verified_faculty_links": [
+          {
+            "faculty_id": "faculty-university-of-notre-dame-andreurbanmartin",
+            "status": "confirmed",
+            "quote": "UNC Marketing PhD2023; University of Notre Dame Assistant Professor2023–present",
+            "source_urls": [
+              "https://mendoza.nd.edu/mendoza-directory/profile/andre-martin/",
+              "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf"
+            ],
+            "checked_at": "2026-11-18",
+            "annotation": "Exact same official individual profile and matching education/career evidence; existing faculty ID retained, faculty facts and check dates unchanged."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mendoza.nd.edu/mendoza-directory/profile/andre-martin/",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://d23loykajbcndr.cloudfront.net/amarti94/pci/Andre%20Martin%20CV%20-%20Current-2.pdf",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Do not infer tenure. CV explicitlyMarketingStrategy; do not automaticallyQMfromMLmethods."
+    },
+    {
+      "id": "unc-jiaming-jasmine-wei",
+      "set": {
+        "name": "Jiaming (Jasmine) Wei",
+        "aliases": [
+          "Jiaming Wei"
+        ],
+        "school": "University of North Carolina at Chapel Hill",
+        "program": "博士项目 · Marketing",
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "origin": "US",
+        "source_cohort_year": 2026,
+        "graduation_year": 2026,
+        "placement_year": null,
+        "market_cycle": null,
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "status": "outcome_unknown",
+        "role": null,
+        "job_kind": "unknown",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Marketing",
+          "Quantitative Marketing"
+        ],
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "I am a 3rd year Quant Marketing PhD student",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 78
+          },
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "source_urls": [
+              "https://sites.google.com/view/jiamingwei/home"
+            ],
+            "quote": "received my PhD in Marketing from Kenan-Flagler Business School in 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "employer": "Beihang University",
+              "role": "assistant professor",
+              "source": "https://sites.google.com/view/jiamingwei/home"
+            },
+            "source_urls": [
+              "https://sites.google.com/view/jiamingwei/home"
+            ],
+            "quote": "assistant professor at Beihang University",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Undated author report; no first-job or start-date assertion. Indexed Tongji profile lead conflicts and remains unresolved."
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://gradschool.unc.edu/students/events/hooding/2026-doctoral-hooding-ceremony/",
+              "https://www.linkedin.com/posts/marketing-at-unc-kenan-flagler_unc-kenanflagler-marketing-activity-7459588559050776576-owhL",
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+              "https://sites.google.com/view/jiamingwei/home",
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+              "https://sites.google.com/view/jiamingwei/home"
+            ],
+            "quote": "Jiaming (Jasmine) Wei",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Official named source and program-affiliation evidence; candidacy does not establish a final award or market cycle."
+          }
+        ],
+        "field_evidence": "Explicit primary-source research-field statement.",
+        "homepage": "https://sites.google.com/view/jiamingwei/home",
+        "current_affiliation_conflict": {
+          "values": [
+            "Beihang University",
+            "Tongji University"
+          ],
+          "status": "unresolved",
+          "source_urls": [
+            "https://sites.google.com/view/jiamingwei/home",
+            "https://www.linkedin.com/in/jasmine-wei097"
+          ],
+          "note": "Readable author page versus indexed professional profile. Neither is converted into a first placement."
+        }
+      },
+      "sources": [
+        {
+          "url": "https://gradschool.unc.edu/students/events/hooding/2026-doctoral-hooding-ceremony/",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/marketing-at-unc-kenan-flagler_unc-kenanflagler-marketing-activity-7459588559050776576-owhL",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://sites.google.com/view/jiamingwei/home",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "No firstjobstartdateorfirstjobdesignation. Use reportedappointmentclaimnotinitialdestination."
+    },
+    {
+      "id": "unc-carlos-siri",
+      "set": {
+        "name": "Carlos Siri",
+        "aliases": [],
+        "school": "University of North Carolina at Chapel Hill",
+        "program": "博士项目 · Marketing",
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "origin": "US",
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "status": "outcome_unknown",
+        "role": null,
+        "job_kind": "unknown",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://gradschool.unc.edu/students/events/hooding/2026-doctoral-hooding-ceremony/",
+              "https://www.linkedin.com/posts/marketing-at-unc-kenan-flagler_unc-kenanflagler-marketing-activity-7459588559050776576-owhL",
+              "https://sites.google.com/view/carlos-siri/about"
+            ],
+            "quote": "Carlos Siri",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Official named source and program-affiliation evidence; candidacy does not establish a final award or market cycle."
+          }
+        ],
+        "field_evidence": "Marketing program identity cross-checked; no research subfield inferred from methods.",
+        "homepage": "https://sites.google.com/view/carlos-siri/about"
+      },
+      "sources": [
+        {
+          "url": "https://gradschool.unc.edu/students/events/hooding/2026-doctoral-hooding-ceremony/",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.linkedin.com/posts/marketing-at-unc-kenan-flagler_unc-kenanflagler-marketing-activity-7459588559050776576-owhL",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://sites.google.com/view/carlos-siri/about",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Officialdepartmentcalls2026PhDgraduate; authorpageremainsstalePhDcandidate. If graduationyear2026filled, attach explicit graduatepost, notcandidateprogram. NoQMlabelinferredfromBayesianmethods."
+    },
+    {
+      "id": "utd-taewook-lim",
+      "set": {
+        "name": "Taewook Lim",
+        "aliases": [],
+        "school": "University of Texas at Dallas",
+        "program": "博士项目 · Marketing",
+        "program_id": "university-of-texas-at-dallas-marketing",
+        "origin": "US",
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "status": "outcome_unknown",
+        "role": null,
+        "job_kind": "unknown",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://issuu.com/utdgrad/docs/commencement_-_spring_2026_-_the_un_e63a2e393dadc5",
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "Taewook Lim",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Official named source and program-affiliation evidence; candidacy does not establish a final award or market cycle."
+          }
+        ],
+        "field_evidence": "Marketing program identity cross-checked; no research subfield inferred from methods."
+      },
+      "sources": [
+        {
+          "url": "https://issuu.com/utdgrad/docs/commencement_-_spring_2026_-_the_un_e63a2e393dadc5",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+          "label": "Official / author roster, identity and field evidence",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "2026SpringUTDManagementSciencePhDcandidatepage58 plus2024AMAauthorMarketingbio. Actualdegree/firstjob/marketseasonunknown; noexplicitQuantidentity."
+    }
+  ]
+}
