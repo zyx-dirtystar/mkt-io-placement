@@ -1746,5 +1746,2015 @@
     ],
     "source_list_names": null,
     "population_type": "management_science_degree_candidates"
+  },
+  {
+    "program_id": "johns-hopkins-university-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:carey.jhu.edu \"2023\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2023-specific official-domain search and current program-portfolio review: The current official Carey portfolio lists MBA, specialized master's, certificates and executive education; its PhD/MBA is a dual-degree pathway, not an identified Carey Marketing doctorate. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://carey.jhu.edu/programs",
+        "label": "Official current program portfolio; historical annual census not established"
+      },
+      {
+        "url": "https://carey.jhu.edu/programs/dual-degrees/phd-mba",
+        "label": "Official dual-degree scope clarification"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "johns-hopkins-university-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "johns-hopkins-university-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:carey.jhu.edu \"2024\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2024-specific official-domain search and current program-portfolio review: The current official Carey portfolio lists MBA, specialized master's, certificates and executive education; its PhD/MBA is a dual-degree pathway, not an identified Carey Marketing doctorate. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://carey.jhu.edu/programs",
+        "label": "Official current program portfolio; historical annual census not established"
+      },
+      {
+        "url": "https://carey.jhu.edu/programs/dual-degrees/phd-mba",
+        "label": "Official dual-degree scope clarification"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "johns-hopkins-university-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "johns-hopkins-university-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:carey.jhu.edu \"2025\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2025-specific official-domain search and current program-portfolio review: The current official Carey portfolio lists MBA, specialized master's, certificates and executive education; its PhD/MBA is a dual-degree pathway, not an identified Carey Marketing doctorate. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://carey.jhu.edu/programs",
+        "label": "Official current program portfolio; historical annual census not established"
+      },
+      {
+        "url": "https://carey.jhu.edu/programs/dual-degrees/phd-mba",
+        "label": "Official dual-degree scope clarification"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "johns-hopkins-university-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "johns-hopkins-university-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:carey.jhu.edu \"2026\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2026-specific official-domain search and current program-portfolio review: The current official Carey portfolio lists MBA, specialized master's, certificates and executive education; its PhD/MBA is a dual-degree pathway, not an identified Carey Marketing doctorate. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://carey.jhu.edu/programs",
+        "label": "Official current program portfolio; historical annual census not established"
+      },
+      {
+        "url": "https://carey.jhu.edu/programs/dual-degrees/phd-mba",
+        "label": "Official dual-degree scope clarification"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "johns-hopkins-university-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-notre-dame-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:mendoza.nd.edu \"2023\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2023-specific official-domain search and current program-portfolio review: The current official Mendoza doctoral menu lists Analytics and Management. A Marketing doctorate and its historical degree recipients were not established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://mendoza.nd.edu/graduate",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "university-of-notre-dame-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-notre-dame-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:mendoza.nd.edu \"2024\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2024-specific official-domain search and current program-portfolio review: The current official Mendoza doctoral menu lists Analytics and Management. A Marketing doctorate and its historical degree recipients were not established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://mendoza.nd.edu/graduate",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "university-of-notre-dame-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-notre-dame-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:mendoza.nd.edu \"2025\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2025-specific official-domain search and current program-portfolio review: The current official Mendoza doctoral menu lists Analytics and Management. A Marketing doctorate and its historical degree recipients were not established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://mendoza.nd.edu/graduate",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "university-of-notre-dame-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-notre-dame-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:mendoza.nd.edu \"2026\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2026-specific official-domain search and current program-portfolio review: The current official Mendoza doctoral menu lists Analytics and Management. A Marketing doctorate and its historical degree recipients were not established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://mendoza.nd.edu/graduate",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "university-of-notre-dame-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "dartmouth-college-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:tuck.dartmouth.edu \"2023\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2023-specific official-domain search and current program-portfolio review: Tuck's official academic FAQ expressly answers no to offering a PhD. Current portfolio evidence does not provide a historical annual Marketing degree census. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://tuck.dartmouth.edu/mba/academic-experience/academic-faqs",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "dartmouth-college-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "dartmouth-college-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:tuck.dartmouth.edu \"2024\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2024-specific official-domain search and current program-portfolio review: Tuck's official academic FAQ expressly answers no to offering a PhD. Current portfolio evidence does not provide a historical annual Marketing degree census. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://tuck.dartmouth.edu/mba/academic-experience/academic-faqs",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "dartmouth-college-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "dartmouth-college-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:tuck.dartmouth.edu \"2025\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2025-specific official-domain search and current program-portfolio review: Tuck's official academic FAQ expressly answers no to offering a PhD. Current portfolio evidence does not provide a historical annual Marketing degree census. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://tuck.dartmouth.edu/mba/academic-experience/academic-faqs",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "dartmouth-college-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "dartmouth-college-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:tuck.dartmouth.edu \"2026\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2026-specific official-domain search and current program-portfolio review: Tuck's official academic FAQ expressly answers no to offering a PhD. Current portfolio evidence does not provide a historical annual Marketing degree census. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://tuck.dartmouth.edu/mba/academic-experience/academic-faqs",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "dartmouth-college-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "georgetown-university-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:msb.georgetown.edu \"2023\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2023-specific official-domain search and current program-portfolio review: The official graduate-program comparison identifies master's-level business routes; no Marketing doctorate or historical Marketing recipient list was identified. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://msb.georgetown.edu/choosing-graduate-programs/",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "georgetown-university-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "georgetown-university-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:msb.georgetown.edu \"2024\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2024-specific official-domain search and current program-portfolio review: The official graduate-program comparison identifies master's-level business routes; no Marketing doctorate or historical Marketing recipient list was identified. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://msb.georgetown.edu/choosing-graduate-programs/",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "georgetown-university-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "georgetown-university-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:msb.georgetown.edu \"2025\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2025-specific official-domain search and current program-portfolio review: The official graduate-program comparison identifies master's-level business routes; no Marketing doctorate or historical Marketing recipient list was identified. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://msb.georgetown.edu/choosing-graduate-programs/",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "georgetown-university-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "georgetown-university-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:msb.georgetown.edu \"2026\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2026-specific official-domain search and current program-portfolio review: The official graduate-program comparison identifies master's-level business routes; no Marketing doctorate or historical Marketing recipient list was identified. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://msb.georgetown.edu/choosing-graduate-programs/",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "georgetown-university-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "boston-college-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:bc.edu \"2023\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2023-specific official-domain search and current program-portfolio review: The official Carroll graduate catalog identifies Accounting, Finance and Organization Studies doctorates. No Marketing doctorate or year-specific Marketing recipient census was established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://www.bc.edu/bc-web/academics/sites/university-catalog/graduate/csomgp.html",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "boston-college-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "boston-college-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:bc.edu \"2024\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2024-specific official-domain search and current program-portfolio review: The official Carroll graduate catalog identifies Accounting, Finance and Organization Studies doctorates. No Marketing doctorate or year-specific Marketing recipient census was established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://www.bc.edu/bc-web/academics/sites/university-catalog/graduate/csomgp.html",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "boston-college-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "boston-college-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:bc.edu \"2025\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2025-specific official-domain search and current program-portfolio review: The official Carroll graduate catalog identifies Accounting, Finance and Organization Studies doctorates. No Marketing doctorate or year-specific Marketing recipient census was established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://www.bc.edu/bc-web/academics/sites/university-catalog/graduate/csomgp.html",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "boston-college-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "boston-college-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "eligibility_review",
+    "query": "site:bc.edu \"2026\" \"marketing\" \"PhD\" graduates doctoral program",
+    "finding": "2026-specific official-domain search and current program-portfolio review: The official Carroll graduate catalog identifies Accounting, Finance and Organization Studies doctorates. No Marketing doctorate or year-specific Marketing recipient census was established. Eligibility remains not_identified; the annual population and denominator remain unknown, not zero.",
+    "sources": [
+      {
+        "url": "https://www.bc.edu/bc-web/academics/sites/university-catalog/graduate/csomgp.html",
+        "label": "Official current program portfolio; historical annual census not established"
+      }
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence.",
+    "id": "boston-college-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-texas-at-austin-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The central official Marketing table has 5 named rows for 2023.",
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Central placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.utexas.edu/content/webcasts",
+        "label": "Official ceremony archive; no independent Marketing degree denominator",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Xing (Mike) Lan",
+      "Nikkita Sarna",
+      "Andreas Kraft",
+      "Max Alberhasky",
+      "Tushmit Hasan"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "site:mccombs.utexas.edu \"2023\" Marketing PhD graduates commencement annual report",
+    "next_step": "Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms.",
+    "id": "university-of-texas-at-austin-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-texas-at-austin-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The central official Marketing table has 1 named rows for 2024.",
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Central placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.utexas.edu/content/webcasts",
+        "label": "Official ceremony archive; no independent Marketing degree denominator",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Mahdi Moghadam Niknejad"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "site:mccombs.utexas.edu \"2024\" Marketing PhD graduates commencement annual report",
+    "next_step": "Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms.",
+    "id": "university-of-texas-at-austin-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-texas-at-austin-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The central official Marketing table has 3 named rows for 2025.",
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Central placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.utexas.edu/content/webcasts",
+        "label": "Official ceremony archive; no independent Marketing degree denominator",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Aprajita Gautam",
+      "Sachin Sridhar",
+      "Robina Ghosh"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "site:mccombs.utexas.edu \"2025\" Marketing PhD graduates commencement annual report",
+    "next_step": "Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms.",
+    "id": "university-of-texas-at-austin-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-texas-at-austin-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "checked_no_annual_roster",
+    "finding": "The central Marketing table has no 2026 entry; this does not establish zero graduates. The department page is stale at 2023.",
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Central placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.utexas.edu/content/webcasts",
+        "label": "Official ceremony archive; no independent Marketing degree denominator",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "site:mccombs.utexas.edu \"2026\" Marketing PhD graduates commencement annual report",
+    "next_step": "Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms.",
+    "id": "university-of-texas-at-austin-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-california-los-angeles-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths. Year 2023: Xiuyi (Sherry) He, Julia Levine, Daniel J. Mirny",
+    "sources": [
+      {
+        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.anderson.ucla.edu/news-and-events/signature-events/commencement/video-archives",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Xiuyi (Sherry) He",
+      "Julia Levine",
+      "Daniel J. Mirny"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2023\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-california-los-angeles-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-california-los-angeles-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths. Year 2024: David Dolifka",
+    "sources": [
+      {
+        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.anderson.ucla.edu/news-and-events/signature-events/commencement/video-archives",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "David Dolifka"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2024\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-california-los-angeles-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-california-los-angeles-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths. Year 2025: Mahsa Paridar",
+    "sources": [
+      {
+        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.anderson.ucla.edu/news-and-events/signature-events/commencement/video-archives",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Mahsa Paridar"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2025\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-california-los-angeles-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-california-los-angeles-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "checked_no_annual_roster",
+    "finding": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths. Year 2026: annual name denominator not established.",
+    "sources": [
+      {
+        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.anderson.ucla.edu/news-and-events/signature-events/commencement/video-archives",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2026\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-california-los-angeles-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "arizona-state-university-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort. Year 2023: Dahae Jeong",
+    "sources": [
+      {
+        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://graduation.asu.edu/sites/g/files/litvpz3431/files/2025-12/FALL2025_DayofWEB_LINKsf_Book1_12.10.25.pdf",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Dahae Jeong"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2023\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "arizona-state-university-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "arizona-state-university-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort. Year 2024: Pradeep Jacob",
+    "sources": [
+      {
+        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://graduation.asu.edu/sites/g/files/litvpz3431/files/2025-12/FALL2025_DayofWEB_LINKsf_Book1_12.10.25.pdf",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Pradeep Jacob"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2024\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "arizona-state-university-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "arizona-state-university-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "checked_no_annual_roster",
+    "finding": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort. Year 2025: annual name denominator not established.",
+    "sources": [
+      {
+        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://graduation.asu.edu/sites/g/files/litvpz3431/files/2025-12/FALL2025_DayofWEB_LINKsf_Book1_12.10.25.pdf",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2025\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "arizona-state-university-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "arizona-state-university-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort. Year 2026: Xin Zhou, Ziwei Wei",
+    "sources": [
+      {
+        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://graduation.asu.edu/sites/g/files/litvpz3431/files/2025-12/FALL2025_DayofWEB_LINKsf_Book1_12.10.25.pdf",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Xin Zhou",
+      "Ziwei Wei"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2026\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "arizona-state-university-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-georgia-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program. Year 2023: Lan Anh Ton, Rachel Ramey, Molly Ahearne",
+    "sources": [
+      {
+        "url": "https://www.terry.uga.edu/phd/marketing/",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.terry.uga.edu/celebrating-graduate-convocation/",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Lan Anh Ton",
+      "Rachel Ramey",
+      "Molly Ahearne"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2023\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-georgia-marketing:frontier:01:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-georgia-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program. Year 2024: Nicole Davis",
+    "sources": [
+      {
+        "url": "https://www.terry.uga.edu/phd/marketing/",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.terry.uga.edu/celebrating-graduate-convocation/",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Nicole Davis"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2024\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-georgia-marketing:frontier:01:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-georgia-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "checked_no_annual_roster",
+    "finding": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program. Year 2025: annual name denominator not established.",
+    "sources": [
+      {
+        "url": "https://www.terry.uga.edu/phd/marketing/",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.terry.uga.edu/celebrating-graduate-convocation/",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2025\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-georgia-marketing:frontier:01:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-georgia-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "checked_no_annual_roster",
+    "finding": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program. Year 2026: annual name denominator not established.",
+    "sources": [
+      {
+        "url": "https://www.terry.uga.edu/phd/marketing/",
+        "label": "Official program or placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.terry.uga.edu/celebrating-graduate-convocation/",
+        "label": "Independent graduation-source lead; no field-level final denominator established",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "query": "\"2026\" Marketing PhD graduates commencement annual report",
+    "next_step": "Find field-level all-recipient degree list, including non-academic and unobserved outcomes.",
+    "id": "university-of-georgia-marketing:frontier:01:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json"
+  },
+  {
+    "program_id": "university-of-washington-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "Recent job placements of doctoral students. The list is not a final degree census. Bita is listed at UC Davis under 2023, but her official CV proves that appointment began in 2024 after Oklahoma State in 2023. No independent annual Marketing degree roster was located. Undergraduate profiles and MBA reports were excluded. Named entries for 2023: Bita Hajihashemi, Natalie Chisam.",
+    "sources": [
+      {
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Bita Hajihashemi",
+      "Natalie Chisam"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization.",
+    "id": "university-of-washington-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-washington-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "Recent job placements of doctoral students. The list is not a final degree census. Bita is listed at UC Davis under 2023, but her official CV proves that appointment began in 2024 after Oklahoma State in 2023. No independent annual Marketing degree roster was located. Undergraduate profiles and MBA reports were excluded. Named entries for 2024: Sylvia Chang, Evy Smith.",
+    "sources": [
+      {
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Sylvia Chang",
+      "Evy Smith"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization.",
+    "id": "university-of-washington-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-washington-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "no_year_specific_cohort_evidence",
+    "finding": "Recent job placements of doctoral students. The list is not a final degree census. Bita is listed at UC Davis under 2023, but her official CV proves that appointment began in 2024 after Oklahoma State in 2023. No independent annual Marketing degree roster was located. Undergraduate profiles and MBA reports were excluded. Named entries for 2025: none found; the annual cohort size is unknown.",
+    "sources": [
+      {
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization.",
+    "id": "university-of-washington-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-washington-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "Recent job placements of doctoral students. The list is not a final degree census. Bita is listed at UC Davis under 2023, but her official CV proves that appointment began in 2024 after Oklahoma State in 2023. No independent annual Marketing degree roster was located. Undergraduate profiles and MBA reports were excluded. Named entries for 2026: Haonan Zhang.",
+    "sources": [
+      {
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Haonan Zhang"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization.",
+    "id": "university-of-washington-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "cornell-university-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "The program explicitly presents a few alumni placements. The director of graduate studies CV supplies an omitted 2024 graduate, Ronghan (Michelle) Wang. Daniel Winkler is excluded because he earned his PhD at WU Vienna and only visited Cornell. Annual searches located ceremony material and university-level programs, but no independently enumerated Marketing award cohort was established. Named entries for 2023: Elina Hur.",
+    "sources": [
+      {
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Elina Hur"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome.",
+    "id": "cornell-university-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "cornell-university-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "The program explicitly presents a few alumni placements. The director of graduate studies CV supplies an omitted 2024 graduate, Ronghan (Michelle) Wang. Daniel Winkler is excluded because he earned his PhD at WU Vienna and only visited Cornell. Annual searches located ceremony material and university-level programs, but no independently enumerated Marketing award cohort was established. Named entries for 2024: Deepak Sirwani, Ronghan (Michelle) Wang.",
+    "sources": [
+      {
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Deepak Sirwani",
+      "Ronghan (Michelle) Wang"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome.",
+    "id": "cornell-university-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "cornell-university-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "The program explicitly presents a few alumni placements. The director of graduate studies CV supplies an omitted 2024 graduate, Ronghan (Michelle) Wang. Daniel Winkler is excluded because he earned his PhD at WU Vienna and only visited Cornell. Annual searches located ceremony material and university-level programs, but no independently enumerated Marketing award cohort was established. Named entries for 2025: Archer Pan, Y. Rin Yoon, Sai Chand Chintala.",
+    "sources": [
+      {
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Archer Pan",
+      "Y. Rin Yoon",
+      "Sai Chand Chintala"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome.",
+    "id": "cornell-university-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "cornell-university-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "no_year_specific_cohort_evidence",
+    "finding": "The program explicitly presents a few alumni placements. The director of graduate studies CV supplies an omitted 2024 graduate, Ronghan (Michelle) Wang. Daniel Winkler is excluded because he earned his PhD at WU Vienna and only visited Cornell. Annual searches located ceremony material and university-level programs, but no independently enumerated Marketing award cohort was established. Named entries for 2026: none found; the annual cohort size is unknown.",
+    "sources": [
+      {
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome.",
+    "id": "cornell-university-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-southern-california-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "The official Recent Placements section adds four people missing from the advisor-only source: Solinas 2023, Larsen 2025, Riveros and Shoshani 2026. No 2024 entry is not evidence of zero graduates. Annual searches were performed. The 2026 university program was located, but it mixes completed fall graduates and expected spring/summer graduates and classifies Business Administration rather than Marketing. Named entries for 2023: Elisa Solinas, Wensi Zhang.",
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Elisa Solinas",
+      "Wensi Zhang"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing.",
+    "id": "university-of-southern-california-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-southern-california-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "no_year_specific_cohort_evidence",
+    "finding": "The official Recent Placements section adds four people missing from the advisor-only source: Solinas 2023, Larsen 2025, Riveros and Shoshani 2026. No 2024 entry is not evidence of zero graduates. Annual searches were performed. The 2026 university program was located, but it mixes completed fall graduates and expected spring/summer graduates and classifies Business Administration rather than Marketing. Named entries for 2024: none found; the annual cohort size is unknown.",
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing.",
+    "id": "university-of-southern-california-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-southern-california-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "The official Recent Placements section adds four people missing from the advisor-only source: Solinas 2023, Larsen 2025, Riveros and Shoshani 2026. No 2024 entry is not evidence of zero graduates. Annual searches were performed. The 2026 university program was located, but it mixes completed fall graduates and expected spring/summer graduates and classifies Business Administration rather than Marketing. Named entries for 2025: Poet Larsen, Yanyan Li.",
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Poet Larsen",
+      "Yanyan Li"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing.",
+    "id": "university-of-southern-california-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-southern-california-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "The official Recent Placements section adds four people missing from the advisor-only source: Solinas 2023, Larsen 2025, Riveros and Shoshani 2026. No 2024 entry is not evidence of zero graduates. Annual searches were performed. The 2026 university program was located, but it mixes completed fall graduates and expected spring/summer graduates and classifies Business Administration rather than Marketing. Named entries for 2026: Ignacio Riveros, Tal Shoshani.",
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Ignacio Riveros",
+      "Tal Shoshani"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing.",
+    "id": "university-of-southern-california-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "indiana-university-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "All seven official Marketing placement names match the existing records. The school-wide placement page says sampling. The registrar degree archive is independent but the public year selector stops at 2021-2022. Its June-May definition and privacy exclusions prevent treating it as a current calendar-year census. The annual search was run and the official registrar graduate archive was read; 2023-2026 reports are not present in its actual public dropdown. Named entries for 2023: Der-Wei Huang, Luciano Lapa.",
+    "sources": [
+      {
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Der-Wei Huang",
+      "Luciano Lapa"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat.",
+    "id": "indiana-university-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "indiana-university-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "All seven official Marketing placement names match the existing records. The school-wide placement page says sampling. The registrar degree archive is independent but the public year selector stops at 2021-2022. Its June-May definition and privacy exclusions prevent treating it as a current calendar-year census. The annual search was run and the official registrar graduate archive was read; 2023-2026 reports are not present in its actual public dropdown. Named entries for 2024: Kyu Ree Kim, Pooja Somasundaram.",
+    "sources": [
+      {
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Kyu Ree Kim",
+      "Pooja Somasundaram"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat.",
+    "id": "indiana-university-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "indiana-university-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "All seven official Marketing placement names match the existing records. The school-wide placement page says sampling. The registrar degree archive is independent but the public year selector stops at 2021-2022. Its June-May definition and privacy exclusions prevent treating it as a current calendar-year census. The annual search was run and the official registrar graduate archive was read; 2023-2026 reports are not present in its actual public dropdown. Named entries for 2025: Meng Ji, Philip Kim.",
+    "sources": [
+      {
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Meng Ji",
+      "Philip Kim"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat.",
+    "id": "indiana-university-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "indiana-university-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial_named_roster",
+    "finding": "All seven official Marketing placement names match the existing records. The school-wide placement page says sampling. The registrar degree archive is independent but the public year selector stops at 2021-2022. Its June-May definition and privacy exclusions prevent treating it as a current calendar-year census. The annual search was run and the official registrar graduate archive was read; 2023-2026 reports are not present in its actual public dropdown. Named entries for 2026: Dong Wook (Peter) Chae.",
+    "sources": [
+      {
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "known_names": [
+      "Dong Wook (Peter) Chae"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "population": "Source-listed Marketing placements, not an independently verified annual awarded-degree cohort.",
+    "next_step": "Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat.",
+    "id": "indiana-university-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-california-san-diego-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The full official alumni table lists 2 explicitly labeled Marketing alumni in academic year 2022-23; all match existing records. The official past-ceremonies archive and a targeted 2023 Rady program search did not locate a historical Marketing degree register; all-campus and GEPA programs cannot substitute for the separate Rady ceremony.",
+    "sources": [
+      {
+        "url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+        "label": "Official Rady complete PhD alumni table, all 2022-23 through 2025-26 rows read"
+      },
+      {
+        "url": "https://commencement.ucsd.edu/past-ceremonies/index.html",
+        "label": "Official past-ceremony archive, no annual Marketing degree denominator"
+      }
+    ],
+    "known_names": [
+      "Ariel Fridman",
+      "Giulia Maimone"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-california-san-diego-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-california-san-diego-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The full official alumni table lists 2 explicitly labeled Marketing alumni in academic year 2023-24; all match existing records. The official past-ceremonies archive and a targeted 2024 Rady program search did not locate a historical Marketing degree register; all-campus and GEPA programs cannot substitute for the separate Rady ceremony.",
+    "sources": [
+      {
+        "url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+        "label": "Official Rady complete PhD alumni table, all 2022-23 through 2025-26 rows read"
+      },
+      {
+        "url": "https://commencement.ucsd.edu/past-ceremonies/index.html",
+        "label": "Official past-ceremony archive, no annual Marketing degree denominator"
+      }
+    ],
+    "known_names": [
+      "Seung Hyun Kim",
+      "Jean Zhang"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-california-san-diego-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-california-san-diego-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The full official alumni table lists 4 explicitly labeled Marketing alumni in academic year 2024-25; all match existing records. The official past-ceremonies archive and a targeted 2025 Rady program search did not locate a historical Marketing degree register; all-campus and GEPA programs cannot substitute for the separate Rady ceremony.",
+    "sources": [
+      {
+        "url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+        "label": "Official Rady complete PhD alumni table, all 2022-23 through 2025-26 rows read"
+      },
+      {
+        "url": "https://commencement.ucsd.edu/past-ceremonies/index.html",
+        "label": "Official past-ceremony archive, no annual Marketing degree denominator"
+      }
+    ],
+    "known_names": [
+      "Meenakshi Balakrishna",
+      "Katie Hillegass",
+      "Michelle Kim",
+      "Gal Smitizsky"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-california-san-diego-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-california-san-diego-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The full official alumni table lists 2 explicitly labeled Marketing alumni in academic year 2025-26; all match existing records. The independent commencement book lists five Management PhD recipients on physical page 7, including Hayashida and Wynns. Olivia Jurkiewicz is Organizational Behavior according to her official Stony Brook profile and is excluded. Huining Chen is in the alumni table but absent from the ceremony book, demonstrating that the ceremony roster is not a final all-degree denominator.",
+    "sources": [
+      {
+        "url": "https://rady.ucsd.edu/programs/phd/phd-alumni.html",
+        "label": "Official Rady complete PhD alumni table, all 2022-23 through 2025-26 rows read"
+      },
+      {
+        "url": "https://rady.ucsd.edu/_files/2026-Spring-Commencement-Program.pdf",
+        "label": "Official Rady 2026 commencement book",
+        "pages": [
+          7
+        ]
+      },
+      {
+        "url": "https://www.stonybrook.edu/business/faculty-research/faculty-directory/olivia-jurkiewicz.html",
+        "label": "Official receiving-unit field: Organizational Behavior"
+      }
+    ],
+    "known_names": [
+      "Kohei Hayashida",
+      "Paul Wynns"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-california-san-diego-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "york-university-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "source_reconciled",
+    "finding": "The current official page has dissertation years only through 2023 and a Fall 2025 current-student list. Rowan El-Bialy is the only 2023 row and matches the database. Targeted 2023 convocation-program search did not locate a named doctoral booklet. The official convocation site exposes ceremony schedules, not a verified Marketing graduate register. Its public media attachment query for 2023 returned HTTP 403 and yielded no roster.",
+    "sources": [
+      {
+        "url": "https://schulich.yorku.ca/specializations/marketing-phd/",
+        "label": "Official Marketing alumni and dissertations page, full table read through web search renderer"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/",
+        "label": "Official convocation site read"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/wp-json/wp/v2/media?search=2023&per_page=100",
+        "label": "Official public 2023 attachment discovery failed with HTTP 403"
+      }
+    ],
+    "known_names": [
+      "Rowan El-Bialy"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "york-university-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "york-university-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The current official page has dissertation years only through 2023 and a Fall 2025 current-student list. It has no 2024 graduate row; this is not evidence of zero graduates. Targeted 2024 convocation-program search did not locate a named doctoral booklet. The official convocation site exposes ceremony schedules, not a verified Marketing graduate register. Its public media attachment query for 2024 returned HTTP 403 and yielded no roster.",
+    "sources": [
+      {
+        "url": "https://schulich.yorku.ca/specializations/marketing-phd/",
+        "label": "Official Marketing alumni and dissertations page, full table read through web search renderer"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/",
+        "label": "Official convocation site read"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/wp-json/wp/v2/media?search=2024&per_page=100",
+        "label": "Official public 2024 attachment discovery failed with HTTP 403"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "york-university-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "york-university-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The current official page has dissertation years only through 2023 and a Fall 2025 current-student list. It has no 2025 graduate row; this is not evidence of zero graduates. Targeted 2025 convocation-program search did not locate a named doctoral booklet. The official convocation site exposes ceremony schedules, not a verified Marketing graduate register. Its public media attachment query for 2025 returned HTTP 403 and yielded no roster.",
+    "sources": [
+      {
+        "url": "https://schulich.yorku.ca/specializations/marketing-phd/",
+        "label": "Official Marketing alumni and dissertations page, full table read through web search renderer"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/",
+        "label": "Official convocation site read"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/wp-json/wp/v2/media?search=2025&per_page=100",
+        "label": "Official public 2025 attachment discovery failed with HTTP 403"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "york-university-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "york-university-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The current official page has dissertation years only through 2023 and a Fall 2025 current-student list. It has no 2026 graduate row; this is not evidence of zero graduates. Targeted 2026 convocation-program search did not locate a named doctoral booklet. The official convocation site exposes ceremony schedules, not a verified Marketing graduate register. Its public media attachment query for 2026 returned HTTP 403 and yielded no roster.",
+    "sources": [
+      {
+        "url": "https://schulich.yorku.ca/specializations/marketing-phd/",
+        "label": "Official Marketing alumni and dissertations page, full table read through web search renderer"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/",
+        "label": "Official convocation site read"
+      },
+      {
+        "url": "https://www.yorku.ca/convocation/wp-json/wp/v2/media?search=2026&per_page=100",
+        "label": "Official public 2026 attachment discovery failed with HTTP 403"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "york-university-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-arizona-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial",
+    "finding": "The official 2023 doctoral section includes Ashok Kumar Kaliyamurthy, matching the existing record. The degree is Management and the advisor is in Marketing. The book also contains prior-year and expected terms, and does not independently establish an all-calendar-year Marketing count.",
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2023-05/COM23_Program_Digital_3.pdf",
+        "label": "Official 2023 commencement program, doctoral pages actually read",
+        "pages": [
+          46
+        ]
+      },
+      {
+        "url": "https://grad.arizona.edu/degree-services/commencement",
+        "label": "Official program inclusion rules: expected graduation terms and FERPA exclusions"
+      }
+    ],
+    "known_names": [
+      "Ashok Kaliyamurthy"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-arizona-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-arizona-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial",
+    "finding": "The official 2024 doctoral section includes Pureum Kim under Management with a Marketing advisor, matching the database. The book groups terms spanning two calendar years; Marketing is not a standalone degree heading.",
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2024-05/COM24_Program.pdf",
+        "label": "Official 2024 commencement program, doctoral pages actually read",
+        "pages": [
+          38
+        ]
+      },
+      {
+        "url": "https://grad.arizona.edu/degree-services/commencement",
+        "label": "Official program inclusion rules: expected graduation terms and FERPA exclusions"
+      }
+    ],
+    "known_names": [
+      "Pureum Kim"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-arizona-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-arizona-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial",
+    "finding": "The official 2025 doctoral section includes Arash Roghani. Christoph Hueller is in the full placement table and his receiving-unit record already confirms a 2025 PhD; exact-name text search in this two-page-spread book did not locate him. This mismatch prevents a complete-cohort claim.",
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2025-05/Commencement2025_Program.pdf",
+        "label": "Official 2025 commencement program, doctoral pages actually read",
+        "pages": [
+          20
+        ]
+      },
+      {
+        "url": "https://grad.arizona.edu/degree-services/commencement",
+        "label": "Official program inclusion rules: expected graduation terms and FERPA exclusions"
+      }
+    ],
+    "known_names": [
+      "Christoph Hueller",
+      "Arash Roghani"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-arizona-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-arizona-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial",
+    "finding": "The 2026 doctoral section adds five Marketing-linked people missing from the database: Wenyan Tuo, Liuyi Wang, Pete Zhou, Utku Ay and Qing Yuan. All are in the Spring 2026 Management section with named Marketing advisors; their department or official university biographies independently establish Marketing. The undated placement page lists Tuo, Wang and Zhou; Ay and Yuan have no verified destination. Degree-service rules allow expected terms and FERPA omissions, so this is not a certified complete cohort.",
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "label": "Official 2026 commencement program, doctoral pages actually read",
+        "pages": [
+          32,
+          39,
+          40
+        ]
+      },
+      {
+        "url": "https://grad.arizona.edu/degree-services/commencement",
+        "label": "Official program inclusion rules: expected graduation terms and FERPA exclusions"
+      }
+    ],
+    "known_names": [
+      "Wenyan Tuo",
+      "Liuyi Wang",
+      "Pete Zhou",
+      "Utku Ay",
+      "Qing Yuan"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-arizona-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-pittsburgh-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial",
+    "finding": "The Marketing placement table lists Sayan Gupta and Pallavi Jha, both present. The independently read December 2023 university book adds Cary Leonard Anderson, listed as an August 2023 Business PhD. The official Marketing collaborative-research page marks Cary Anderson as a PhD student. The table therefore misses at least one nonacademic/unknown-outcome graduate; no first job is inferred from a current private-employer profile.",
+    "sources": [
+      {
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/",
+        "label": "Official full Marketing placements table, all rows read"
+      },
+      {
+        "url": "https://www.cba.pitt.edu/wp-content/uploads/2023/12/2023-December-Commencement-Program.pdf",
+        "label": "Official December 2023 university commencement, Katz doctoral rows actually read"
+      },
+      {
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/phd-in-marketing-collaborative-research/",
+        "label": "Official Marketing faculty-student research list identifies Cary Anderson"
+      }
+    ],
+    "known_names": [
+      "Sayan Gupta",
+      "Pallavi Jha",
+      "Cary Leonard Anderson"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-pittsburgh-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-pittsburgh-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "partial",
+    "finding": "The Marketing placement table lists Theresa Tess Kwon and matches the database. The official December 2024 program was found in the university search index, but direct retrieval returned HTTP 404. Its indexed excerpt is insufficient to read the Katz doctoral roster.",
+    "sources": [
+      {
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/",
+        "label": "Official full Marketing placements table, all rows read"
+      },
+      {
+        "url": "https://www.commencement.pitt.edu/sites/default/files/december-2024-program-final.pdf",
+        "label": "Official indexed program; direct HTTP 404, only metadata/excerpt read"
+      }
+    ],
+    "known_names": [
+      "Theresa (Tess) Kwon"
+    ],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-pittsburgh-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-pittsburgh-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The official placement table ends at 2024. A separate university-wide employment page supplies institutions only. Targeted 2025 doctoral/commencement searches did not locate a usable Katz doctoral name roster.",
+    "sources": [
+      {
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/",
+        "label": "Official full Marketing placements table, all rows read"
+      },
+      {
+        "url": "https://www.commencement.pitt.edu/",
+        "label": "Official university ceremony entry, not a named graduate roster"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-pittsburgh-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "university-of-pittsburgh-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The official placement table ends at 2024. The university commencement site is currently advertising Winter 2026 events in December, after the research date. Targeted doctoral-program searches did not locate a final 2026 Marketing degree roster; do not infer zero.",
+    "sources": [
+      {
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/",
+        "label": "Official full Marketing placements table, all rows read"
+      },
+      {
+        "url": "https://www.commencement.pitt.edu/",
+        "label": "Official university ceremony entry, not a named graduate roster"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate a final annual degree register with a verified Marketing specialization for every person.",
+    "id": "university-of-pittsburgh-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "rice-university-marketing",
+    "years": [
+      2023
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The official 2026-27 catalog verifies a Marketing concentration, but the current business PhD page and Fall 2027 admissions list only Accounting, Finance, Operations, Organizational Behavior and Strategic Management. No official named Marketing alumni/placement table was found. The official business commencement archive exposes Spring and Fall 2023 videos but the accessible page did not provide a named Marketing doctoral program.",
+    "sources": [
+      {
+        "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/",
+        "label": "Official catalog verifies Marketing concentration"
+      },
+      {
+        "url": "https://business.rice.edu/graduate-programs/phd-business",
+        "label": "Official current PhD page actually read, Marketing absent from five listed areas"
+      },
+      {
+        "url": "https://business.rice.edu/commencement",
+        "label": "Official business commencement archive, 2023 ceremony entries discovered"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person.",
+    "id": "rice-university-marketing:frontier:02:2023",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "rice-university-marketing",
+    "years": [
+      2024
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The official 2026-27 catalog verifies a Marketing concentration, but the current business PhD page and Fall 2027 admissions list only Accounting, Finance, Operations, Organizational Behavior and Strategic Management. No official named Marketing alumni/placement table was found. The official 2024 book public reader manifest was read (43 pages), but the older edition provides no accessible-text URLs. Only manifest and entry were read, not a full name roster.",
+    "sources": [
+      {
+        "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/",
+        "label": "Official catalog verifies Marketing concentration"
+      },
+      {
+        "url": "https://business.rice.edu/graduate-programs/phd-business",
+        "label": "Official current PhD page actually read, Marketing absent from five listed areas"
+      },
+      {
+        "url": "https://commencement.rice.edu/2024May",
+        "label": "Official 2024 university digital program viewer entry actually read"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person.",
+    "id": "rice-university-marketing:frontier:02:2024",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "rice-university-marketing",
+    "years": [
+      2025
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The official 2026-27 catalog verifies a Marketing concentration, but the current business PhD page and Fall 2027 admissions list only Accounting, Finance, Operations, Organizational Behavior and Strategic Management. No official named Marketing alumni/placement table was found. The official 2025 book public reader manifest was read (48 pages), but the older edition provides no accessible-text URLs. Only manifest and entry were read, not a full name roster.",
+    "sources": [
+      {
+        "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/",
+        "label": "Official catalog verifies Marketing concentration"
+      },
+      {
+        "url": "https://business.rice.edu/graduate-programs/phd-business",
+        "label": "Official current PhD page actually read, Marketing absent from five listed areas"
+      },
+      {
+        "url": "https://commencement.rice.edu/may-2025",
+        "label": "Official 2025 university digital program viewer entry actually read"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person.",
+    "id": "rice-university-marketing:frontier:02:2025",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
+  },
+  {
+    "program_id": "rice-university-marketing",
+    "years": [
+      2026
+    ],
+    "checked_at": "2026-11-18",
+    "result": "insufficient",
+    "finding": "The official 2026-27 catalog verifies a Marketing concentration, but the current business PhD page and Fall 2027 admissions list only Accounting, Finance, Operations, Organizational Behavior and Strategic Management. No official named Marketing alumni/placement table was found. All 50 public accessible text pages of the 2026 book were read. Doctoral pages 4-7 classify the relevant degree as Management, without Marketing concentrations; none can be assigned to Marketing solely from the broad heading.",
+    "sources": [
+      {
+        "url": "https://ga.rice.edu/programs-study/departments-programs/business/business/business-phd-concentration-marketing/",
+        "label": "Official catalog verifies Marketing concentration"
+      },
+      {
+        "url": "https://business.rice.edu/graduate-programs/phd-business",
+        "label": "Official current PhD page actually read, Marketing absent from five listed areas"
+      },
+      {
+        "url": "https://commencement.rice.edu/may2026",
+        "label": "Official 2026 university digital program viewer entry actually read"
+      }
+    ],
+    "known_names": [],
+    "independent_count": null,
+    "cohort_complete": false,
+    "next_step": "Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person.",
+    "id": "rice-university-marketing:frontier:02:2026",
+    "source_packet": "data/research-updates/2026-11-18-frontier-02-sources.json"
   }
 ]

@@ -231,5 +231,70 @@
       "columbia-daniel-russman"
     ],
     "additions": []
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-01",
+    "sha256": "14208bd006fb418baba96946caab51dd119b0175e98bb165ca2ad94ae79c0063",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:30:30.208Z",
+    "updates": [],
+    "additions": [
+      "frontier-university-of-texas-at-austin-xing-mike-lan",
+      "frontier-university-of-texas-at-austin-nikkita-sarna",
+      "frontier-university-of-texas-at-austin-mahdi-moghadam-niknejad",
+      "frontier-university-of-texas-at-austin-aprajita-gautam",
+      "frontier-university-of-texas-at-austin-sachin-sridhar",
+      "frontier-university-of-texas-at-austin-robina-ghosh"
+    ]
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-02",
+    "sha256": "2511b81f49dddcfbe947dd52703d7c4dfa34324fef658e1ac7852aaeb4092be0",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:33:24.749Z",
+    "updates": [
+      "university-of-washington-bita-hajihashemi",
+      "university-of-washington-natalie-chisam",
+      "university-of-washington-haonan-zhang",
+      "cornell-university-sai-chand-chintala",
+      "indiana-university-meng-ji"
+    ],
+    "additions": [
+      "cornell-university-ronghan-michelle-wang",
+      "university-of-southern-california-ignacio-riveros",
+      "university-of-southern-california-tal-shoshani",
+      "university-of-southern-california-poet-larsen",
+      "university-of-southern-california-elisa-solinas",
+      "university-of-arizona-wenyan-tuo",
+      "university-of-arizona-liuyi-wang",
+      "university-of-arizona-pete-zhou",
+      "university-of-arizona-utku-ay",
+      "university-of-arizona-qing-yuan",
+      "university-of-pittsburgh-cary-anderson"
+    ]
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-03",
+    "sha256": "55e374a5eaf451322d710a08e51202ef250f1082e191572ac7efb49f2983dc91",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:34:39.620Z",
+    "updates": [
+      "university-of-washington-bita-hajihashemi",
+      "university-of-washington-natalie-chisam",
+      "university-of-washington-haonan-zhang",
+      "cornell-university-sai-chand-chintala",
+      "indiana-university-meng-ji"
+    ],
+    "additions": []
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-04",
+    "sha256": "6c20d433c84d590ddd4231d2ae70d52c1bb0aa090b14b0fa4c3d6d6b20bebcaa",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:35:20.976Z",
+    "updates": [
+      "university-of-southern-california-ignacio-riveros"
+    ],
+    "additions": []
   }
 ]

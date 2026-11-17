@@ -1,0 +1,126 @@
+{
+  "id": "frontier-cohorts-2026-11-18-03-sources",
+  "checked_at": "2026-11-18",
+  "packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/material-supplement.json",
+      "sha256": "a47dbbf42629ebf7c34cb2fc14789dee5404d5c10d40e71cf62c251aad08677d",
+      "data": {
+        "checked_at": "2026-11-18",
+        "updates": [
+          {
+            "id": "university-of-washington-bita-hajihashemi",
+            "set": {
+              "field_evidence": "Explicit primary-source classification: Ph.D. in Management Science (Quantitative Marketing)"
+            },
+            "sources": [
+              {
+                "url": "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf",
+                "label": "UC Davis hosted CV; physical PDF p1, rendered and read",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately."
+          },
+          {
+            "id": "university-of-washington-natalie-chisam",
+            "set": {
+              "field_evidence": "Explicit primary-source classification: Research Interests: Marketing strategy, data privacy, marketing law & public policy."
+            },
+            "sources": [
+              {
+                "url": "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf",
+                "label": "Nebraska hosted CV, physical PDF p1",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately."
+          },
+          {
+            "id": "university-of-washington-haonan-zhang",
+            "set": {
+              "field_evidence": "Explicit primary-source classification: Ph.D. Candidate in Quantitative Marketing"
+            },
+            "sources": [
+              {
+                "url": "https://haonanzhang-vv.github.io/",
+                "label": "Personal academic homepage",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately."
+          },
+          {
+            "id": "cornell-university-sai-chand-chintala",
+            "set": {
+              "field_evidence": "Explicit primary-source classification: Sai Chintala (2025), Quantitative Marketing"
+            },
+            "sources": [
+              {
+                "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/jl2545",
+                "label": "Cornell supervisor CV, physical PDF p7",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately."
+          },
+          {
+            "id": "indiana-university-meng-ji",
+            "set": {
+              "field_evidence": "Explicit primary-source classification: As a quantitative marketing researcher"
+            },
+            "sources": [
+              {
+                "url": "https://sites.google.com/view/meng-ji/research",
+                "label": "Personal research page",
+                "checked_at": "2026-11-18"
+              },
+              {
+                "url": "https://sites.google.com/view/meng-ji/",
+                "label": "Author homepage, body read; research classification is quoted from explicit Research page",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately."
+          }
+        ]
+      }
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/supplementary01.json",
+      "sha256": "874de2337ca5a4a93c79b343e68eb675c6b1b9616c62154b82b3a02e07efc50d",
+      "data": {
+        "checked_at": "2026-11-18",
+        "status": "supplementary evidence",
+        "artifacts": [
+          {
+            "url": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf",
+            "file": "data/source-snapshots/2026-11-18/frontier/b/sachin-sridhar-2025.pdf",
+            "sha256": "0577c1db7e1699f56010981b5b791ea0ea38ccefae6cb3631684b7532c11edd0",
+            "pages": [
+              1
+            ]
+          }
+        ],
+        "source_access_corrections": [
+          {
+            "url": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf",
+            "access": "Official PDF downloaded by PowerShell Invoke-WebRequest and pdftotext actually read",
+            "primary_quotes": [
+              "Assistant Professor, Marketing Area; June 2025 - present",
+              "University of Texas at Austin; August 2020 - May 2025; Ph.D. in Quantitative Marketing"
+            ],
+            "pages": [
+              1
+            ]
+          },
+          {
+            "url": "https://graduation.asu.edu/sites/g/files/litvpz3431/files/2025-12/FALL2025_DayofWEB_LINKsf_Book1_12.10.25.pdf",
+            "access": "lead_only",
+            "finding": "Indexed official book only; not downloaded or read; no denominator claimed."
+          }
+        ]
+      }
+    }
+  ]
+}

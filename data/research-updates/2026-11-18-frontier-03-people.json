@@ -1,0 +1,112 @@
+{
+  "id": "frontier-cohorts-2026-11-18-03",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/material-supplement.json",
+      "sha256": "a47dbbf42629ebf7c34cb2fc14789dee5404d5c10d40e71cf62c251aad08677d"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/supplementary01.json",
+      "sha256": "874de2337ca5a4a93c79b343e68eb675c6b1b9616c62154b82b3a02e07efc50d"
+    }
+  ],
+  "updates": [
+    {
+      "id": "university-of-washington-bita-hajihashemi",
+      "set": {
+        "field_evidence": "Explicit primary-source classification: Ph.D. in Management Science (Quantitative Marketing)"
+      },
+      "sources": [
+        {
+          "url": "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf",
+          "label": "UC Davis hosted CV; physical PDF p1, rendered and read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "university-of-washington-natalie-chisam",
+      "set": {
+        "field_evidence": "Explicit primary-source classification: Research Interests: Marketing strategy, data privacy, marketing law & public policy."
+      },
+      "sources": [
+        {
+          "url": "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf",
+          "label": "Nebraska hosted CV, physical PDF p1",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "university-of-washington-haonan-zhang",
+      "set": {
+        "field_evidence": "Explicit primary-source classification: Ph.D. Candidate in Quantitative Marketing"
+      },
+      "sources": [
+        {
+          "url": "https://haonanzhang-vv.github.io/",
+          "label": "Personal academic homepage",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "cornell-university-sai-chand-chintala",
+      "set": {
+        "field_evidence": "Explicit primary-source classification: Sai Chintala (2025), Quantitative Marketing"
+      },
+      "sources": [
+        {
+          "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/jl2545",
+          "label": "Cornell supervisor CV, physical PDF p7",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "indiana-university-meng-ji",
+      "set": {
+        "field_evidence": "Explicit primary-source classification: As a quantitative marketing researcher"
+      },
+      "sources": [
+        {
+          "url": "https://sites.google.com/view/meng-ji/research",
+          "label": "Personal research page",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://sites.google.com/view/meng-ji/",
+          "label": "Author homepage, body read; research classification is quoted from explicit Research page",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    }
+  ],
+  "additions": []
+}

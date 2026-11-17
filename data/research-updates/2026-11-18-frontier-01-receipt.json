@@ -1,0 +1,568 @@
+{
+  "id": "frontier-cohorts-2026-11-18-01",
+  "checked_at": "2026-11-18",
+  "people_batch": "data/research-updates/2026-11-18-frontier-01-people.json",
+  "people_batch_sha256": "14208bd006fb418baba96946caab51dd119b0175e98bb165ca2ad94ae79c0063",
+  "source_packet": "data/research-updates/2026-11-18-frontier-01-sources.json",
+  "annual_review_ids": [
+    "johns-hopkins-university-marketing:frontier:01:2023",
+    "johns-hopkins-university-marketing:frontier:01:2024",
+    "johns-hopkins-university-marketing:frontier:01:2025",
+    "johns-hopkins-university-marketing:frontier:01:2026",
+    "university-of-notre-dame-marketing:frontier:01:2023",
+    "university-of-notre-dame-marketing:frontier:01:2024",
+    "university-of-notre-dame-marketing:frontier:01:2025",
+    "university-of-notre-dame-marketing:frontier:01:2026",
+    "dartmouth-college-marketing:frontier:01:2023",
+    "dartmouth-college-marketing:frontier:01:2024",
+    "dartmouth-college-marketing:frontier:01:2025",
+    "dartmouth-college-marketing:frontier:01:2026",
+    "georgetown-university-marketing:frontier:01:2023",
+    "georgetown-university-marketing:frontier:01:2024",
+    "georgetown-university-marketing:frontier:01:2025",
+    "georgetown-university-marketing:frontier:01:2026",
+    "boston-college-marketing:frontier:01:2023",
+    "boston-college-marketing:frontier:01:2024",
+    "boston-college-marketing:frontier:01:2025",
+    "boston-college-marketing:frontier:01:2026",
+    "university-of-texas-at-austin-marketing:frontier:01:2023",
+    "university-of-texas-at-austin-marketing:frontier:01:2024",
+    "university-of-texas-at-austin-marketing:frontier:01:2025",
+    "university-of-texas-at-austin-marketing:frontier:01:2026",
+    "university-of-california-los-angeles-marketing:frontier:01:2023",
+    "university-of-california-los-angeles-marketing:frontier:01:2024",
+    "university-of-california-los-angeles-marketing:frontier:01:2025",
+    "university-of-california-los-angeles-marketing:frontier:01:2026",
+    "arizona-state-university-marketing:frontier:01:2023",
+    "arizona-state-university-marketing:frontier:01:2024",
+    "arizona-state-university-marketing:frontier:01:2025",
+    "arizona-state-university-marketing:frontier:01:2026",
+    "university-of-georgia-marketing:frontier:01:2023",
+    "university-of-georgia-marketing:frontier:01:2024",
+    "university-of-georgia-marketing:frontier:01:2025",
+    "university-of-georgia-marketing:frontier:01:2026"
+  ],
+  "reviewed_cell_ids": [
+    "johns-hopkins-university-marketing:2023",
+    "johns-hopkins-university-marketing:2024",
+    "johns-hopkins-university-marketing:2025",
+    "johns-hopkins-university-marketing:2026",
+    "university-of-notre-dame-marketing:2023",
+    "university-of-notre-dame-marketing:2024",
+    "university-of-notre-dame-marketing:2025",
+    "university-of-notre-dame-marketing:2026",
+    "dartmouth-college-marketing:2023",
+    "dartmouth-college-marketing:2024",
+    "dartmouth-college-marketing:2025",
+    "dartmouth-college-marketing:2026",
+    "georgetown-university-marketing:2023",
+    "georgetown-university-marketing:2024",
+    "georgetown-university-marketing:2025",
+    "georgetown-university-marketing:2026",
+    "boston-college-marketing:2023",
+    "boston-college-marketing:2024",
+    "boston-college-marketing:2025",
+    "boston-college-marketing:2026",
+    "university-of-texas-at-austin-marketing:2023",
+    "university-of-texas-at-austin-marketing:2024",
+    "university-of-texas-at-austin-marketing:2025",
+    "university-of-texas-at-austin-marketing:2026",
+    "university-of-california-los-angeles-marketing:2023",
+    "university-of-california-los-angeles-marketing:2024",
+    "university-of-california-los-angeles-marketing:2025",
+    "university-of-california-los-angeles-marketing:2026",
+    "arizona-state-university-marketing:2023",
+    "arizona-state-university-marketing:2024",
+    "arizona-state-university-marketing:2025",
+    "arizona-state-university-marketing:2026",
+    "university-of-georgia-marketing:2023",
+    "university-of-georgia-marketing:2024",
+    "university-of-georgia-marketing:2025",
+    "university-of-georgia-marketing:2026"
+  ],
+  "coverage_before_sha256": "a2810cc5a8972ce00917cbcdf278725c5e4a6c82159acb58f34c572b9c38a30a",
+  "coverage_after_sha256": "9e07c79f1967ad2c33ade83631eaf0e81dfef4bd9701548222f6bd9c92a10b2b",
+  "coverage_changes": [
+    {
+      "id": "arizona-state-university-marketing:2023",
+      "before": {
+        "program_id": "arizona-state-university-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "arizona-state-university-dahae-jeong"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+      },
+      "after": {
+        "program_id": "arizona-state-university-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "arizona-state-university-dahae-jeong"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort."
+      }
+    },
+    {
+      "id": "arizona-state-university-marketing:2024",
+      "before": {
+        "program_id": "arizona-state-university-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "arizona-state-university-pradeep-jacob"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+      },
+      "after": {
+        "program_id": "arizona-state-university-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "arizona-state-university-pradeep-jacob"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort."
+      }
+    },
+    {
+      "id": "arizona-state-university-marketing:2026",
+      "before": {
+        "program_id": "arizona-state-university-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 2,
+        "record_ids": [
+          "arizona-state-university-xin-zhou",
+          "arizona-state-university-ziwei-wei"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+      },
+      "after": {
+        "program_id": "arizona-state-university-marketing",
+        "period": "2026",
+        "status": "source_reconciled",
+        "listed_count": 2,
+        "record_ids": [
+          "arizona-state-university-xin-zhou",
+          "arizona-state-university-ziwei-wei"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort."
+      }
+    },
+    {
+      "id": "university-of-california-los-angeles-marketing:2023",
+      "before": {
+        "program_id": "university-of-california-los-angeles-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-california-los-angeles-xiuyi-sherry-he",
+          "university-of-california-los-angeles-julia-levine",
+          "university-of-california-los-angeles-daniel-j-mirny"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 原表为 First academic placement，保存为校方报告的初始学术去向；若另有更早的博士后或行业经历须修订。"
+      },
+      "after": {
+        "program_id": "university-of-california-los-angeles-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-california-los-angeles-xiuyi-sherry-he",
+          "university-of-california-los-angeles-julia-levine",
+          "university-of-california-los-angeles-daniel-j-mirny"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths."
+      }
+    },
+    {
+      "id": "university-of-california-los-angeles-marketing:2024",
+      "before": {
+        "program_id": "university-of-california-los-angeles-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-california-los-angeles-david-dolifka"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 原表为 First academic placement，保存为校方报告的初始学术去向；若另有更早的博士后或行业经历须修订。"
+      },
+      "after": {
+        "program_id": "university-of-california-los-angeles-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-california-los-angeles-david-dolifka"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths."
+      }
+    },
+    {
+      "id": "university-of-california-los-angeles-marketing:2025",
+      "before": {
+        "program_id": "university-of-california-los-angeles-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-california-los-angeles-mahsa-paridar"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 原表为 First academic placement，保存为校方报告的初始学术去向；若另有更早的博士后或行业经历须修订。"
+      },
+      "after": {
+        "program_id": "university-of-california-los-angeles-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-california-los-angeles-mahsa-paridar"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths."
+      }
+    },
+    {
+      "id": "university-of-georgia-marketing:2023",
+      "before": {
+        "program_id": "university-of-georgia-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-georgia-lan-anh-ton",
+          "university-of-georgia-rachel-ramey",
+          "university-of-georgia-molly-ahearne"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.terry.uga.edu/phd/marketing/"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+      },
+      "after": {
+        "program_id": "university-of-georgia-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-georgia-lan-anh-ton",
+          "university-of-georgia-rachel-ramey",
+          "university-of-georgia-molly-ahearne"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.terry.uga.edu/phd/marketing/",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program."
+      }
+    },
+    {
+      "id": "university-of-georgia-marketing:2024",
+      "before": {
+        "program_id": "university-of-georgia-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-georgia-nicole-davis"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.terry.uga.edu/phd/marketing/"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+      },
+      "after": {
+        "program_id": "university-of-georgia-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "university-of-georgia-nicole-davis"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.terry.uga.edu/phd/marketing/",
+            "label": "Official annual Marketing rows",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program."
+      }
+    },
+    {
+      "id": "university-of-texas-at-austin-marketing:2023",
+      "before": {
+        "program_id": "university-of-texas-at-austin-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "university-of-texas-at-austin-andreas-kraft",
+          "university-of-texas-at-austin-max-alberhasky",
+          "university-of-texas-at-austin-tushmit-hasan"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/"
+          }
+        ],
+        "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 网页近期名单停在 2023；随后年份待补。"
+      },
+      "after": {
+        "program_id": "university-of-texas-at-austin-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 5,
+        "record_ids": [
+          "university-of-texas-at-austin-andreas-kraft",
+          "university-of-texas-at-austin-max-alberhasky",
+          "university-of-texas-at-austin-tushmit-hasan",
+          "frontier-university-of-texas-at-austin-xing-mike-lan",
+          "frontier-university-of-texas-at-austin-nikkita-sarna"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.mccombs.utexas.edu/placement/",
+            "label": "School central Marketing placement table",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "The central Marketing table includes industry placements omitted from the older department page. No independent whole-cohort denominator established."
+      }
+    },
+    {
+      "id": "university-of-texas-at-austin-marketing:2024",
+      "before": {
+        "program_id": "university-of-texas-at-austin-marketing",
+        "period": "2024",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 网页近期名单停在 2023；随后年份待补。"
+      },
+      "after": {
+        "program_id": "university-of-texas-at-austin-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "frontier-university-of-texas-at-austin-mahdi-moghadam-niknejad"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.mccombs.utexas.edu/placement/",
+            "label": "School central Marketing placement table",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "The central Marketing table includes industry placements omitted from the older department page. No independent whole-cohort denominator established."
+      }
+    },
+    {
+      "id": "university-of-texas-at-austin-marketing:2025",
+      "before": {
+        "program_id": "university-of-texas-at-austin-marketing",
+        "period": "2025",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 网页近期名单停在 2023；随后年份待补。"
+      },
+      "after": {
+        "program_id": "university-of-texas-at-austin-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 3,
+        "record_ids": [
+          "frontier-university-of-texas-at-austin-aprajita-gautam",
+          "frontier-university-of-texas-at-austin-sachin-sridhar",
+          "frontier-university-of-texas-at-austin-robina-ghosh"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.mccombs.utexas.edu/placement/",
+            "label": "School central Marketing placement table",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "The central Marketing table includes industry placements omitted from the older department page. No independent whole-cohort denominator established."
+      }
+    }
+  ],
+  "summary": {
+    "updates": 0,
+    "additions": 6,
+    "people": 338
+  }
+}

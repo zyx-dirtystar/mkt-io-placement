@@ -1,5 +1,10 @@
 [
   {
+    "school": "Annual cohort review · 1.3.6",
+    "note": "2026-11-18: 72/184 frontier cells received annual official-source reviews; 112 remain untouched. 17 omitted people added; 11 existing profiles reviewed. Quant 94, CB 75, Strategy 5. 4 explicitly defined complete rosters; reviews and source-table matches do not establish independent cohort denominators.",
+    "url": "https://github.com/zyx-dirtystar/mkt-io-placement/blob/main/docs/COHORT-FRONTIER-2026-11-18.md"
+  },
+  {
     "school": "Faculty information · 1.3.0",
     "note": "2026-11-02: 727 existing profiles revised; 511 research descriptions, 338 school/department fields (136 department-level; 202 school-level), and two independently supported Peking titles added. 1,358 people retained. Live Peking membership remains under review. Missing: 52 units, 522 research descriptions, 331 PhD years and 396 dated career records. No new complete careers or cohorts.",
     "url": "https://github.com/zyx-dirtystar/mkt-io-placement/blob/main/docs/FACULTY-BASICS-2026-11-02.md"

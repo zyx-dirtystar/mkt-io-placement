@@ -9,14 +9,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data"
+        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort."
   },
   {
     "program_id": "arizona-state-university-marketing",
@@ -28,14 +29,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data"
+        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort."
   },
   {
     "program_id": "arizona-state-university-marketing",
@@ -65,14 +67,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data"
+        "url": "https://wpcarey.asu.edu/marketing-degrees/phd-placement-data",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "All official recent-graduate rows match the archive; PhD year, initial placement and current placement are separate columns. Missing 2025 is not a zero cohort."
   },
   {
     "program_id": "arizona-state-university-marketing",
@@ -484,45 +487,68 @@
   {
     "program_id": "cornell-university-marketing",
     "period": "2023",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 1,
     "record_ids": [
       "cornell-university-elina-hur"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/"
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "cornell-university-marketing",
     "period": "2024",
-    "status": "source_reconciled",
-    "listed_count": 1,
+    "status": "partial",
+    "listed_count": 2,
     "record_ids": [
-      "cornell-university-deepak-sirwani"
+      "cornell-university-deepak-sirwani",
+      "cornell-university-ronghan-michelle-wang"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/"
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "cornell-university-marketing",
     "period": "2025",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 3,
     "record_ids": [
       "cornell-university-archer-pan",
@@ -531,14 +557,25 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/"
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "cornell-university-marketing",
@@ -548,14 +585,25 @@
     "record_ids": [],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/"
+        "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://commencement.cornell.edu/may/events/phd/",
+        "label": "2026 ceremony eligibility includes expected graduates",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "DGS CV, physical PDF p9, graduation year explicitly defined",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "cornell-university-marketing",
@@ -1518,7 +1566,7 @@
   {
     "program_id": "indiana-university-marketing",
     "period": "2023",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 2,
     "record_ids": [
       "indiana-university-der-wei-huang",
@@ -1526,19 +1574,25 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html"
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "indiana-university-marketing",
     "period": "2024",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 2,
     "record_ids": [
       "indiana-university-kyu-ree-kim",
@@ -1546,19 +1600,25 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html"
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "indiana-university-marketing",
     "period": "2025",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 2,
     "record_ids": [
       "indiana-university-meng-ji",
@@ -1566,33 +1626,45 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html"
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "indiana-university-marketing",
     "period": "2026",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 1,
     "record_ids": [
       "indiana-university-dong-wook-peter-chae"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html"
+        "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://registrar.indiana.edu/reporting/reports/grad-list/index.html",
+        "label": "Registrar official degree archive; public dropdown stops at 2021-2022",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "indiana-university-marketing",
@@ -3760,16 +3832,50 @@
   {
     "program_id": "university-of-arizona-marketing",
     "period": "2026",
-    "status": "insufficient",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "university-of-arizona-wenyan-tuo",
+      "university-of-arizona-liuyi-wang",
+      "university-of-arizona-pete-zhou",
+      "university-of-arizona-utku-ay",
+      "university-of-arizona-qing-yuan"
+    ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://view.sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://eller.arizona.edu/sites/default/files/CV-Liuyi-WANG-02082025-Final.pdf"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://eller.arizona.edu/news/2021/09/department-marketing-welcomes-new-phd-students"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://fba.bilkent.edu.tr/january-7-utku-ay/"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://eller.arizona.edu/sites/default/files/Vita_Qing_Yuan_2024_v2.pdf"
       }
     ],
     "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；来源需逐人补查，未声称已全部对齐。 项目 placement 表未分年，毕业年由接收单位或导师 CV 交叉确认；其他条目尚需筛查年份。"
@@ -4288,14 +4394,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement"
+        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 原表为 First academic placement，保存为校方报告的初始学术去向；若另有更早的博士后或行业经历须修订。"
+    "notes": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths."
   },
   {
     "program_id": "university-of-california-los-angeles-marketing",
@@ -4307,14 +4414,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement"
+        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 原表为 First academic placement，保存为校方报告的初始学术去向；若另有更早的博士后或行业经历须修订。"
+    "notes": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths."
   },
   {
     "program_id": "university-of-california-los-angeles-marketing",
@@ -4326,14 +4434,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement"
+        "url": "https://www.anderson.ucla.edu/degrees/phd-program/placement",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 原表为 First academic placement，保存为校方报告的初始学术去向；若另有更早的博士后或行业经历须修订。"
+    "notes": "Full Marketing block matches existing records. Separate Behavioral Decision Making and Strategy programs are excluded. The list explicitly describes first academic placements and can omit other career paths."
   },
   {
     "program_id": "university-of-california-los-angeles-marketing",
@@ -4435,7 +4544,7 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
@@ -4455,7 +4564,7 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
@@ -4477,7 +4586,7 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
@@ -4497,7 +4606,7 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
@@ -5012,14 +5121,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.terry.uga.edu/phd/marketing/"
+        "url": "https://www.terry.uga.edu/phd/marketing/",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program."
   },
   {
     "program_id": "university-of-georgia-marketing",
@@ -5031,14 +5141,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.terry.uga.edu/phd/marketing/"
+        "url": "https://www.terry.uga.edu/phd/marketing/",
+        "label": "Official annual Marketing rows",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Recent alumni names match previously collected records; no new 2025 or 2026 complete graduating list located. Marketing Strategy and CB are both expressly supported by the program."
   },
   {
     "program_id": "university-of-georgia-marketing",
@@ -6706,19 +6817,28 @@
   {
     "program_id": "university-of-pittsburgh-marketing",
     "period": "2023",
-    "status": "source_reconciled",
-    "listed_count": 2,
+    "status": "partial",
+    "listed_count": null,
     "record_ids": [
       "university-of-pittsburgh-sayan-gupta",
-      "university-of-pittsburgh-pallavi-jha"
+      "university-of-pittsburgh-pallavi-jha",
+      "university-of-pittsburgh-cary-anderson"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://www.business.pitt.edu/phd/phd-in-marketing/"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://www.cba.pitt.edu/wp-content/uploads/2023/12/2023-December-Commencement-Program.pdf"
+      },
+      {
+        "label": "逐人核验来源",
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/phd-in-marketing-collaborative-research/"
       }
     ],
     "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 官网明确这些人接受 tenure-track Assistant Professor 岗位。"
@@ -7041,20 +7161,27 @@
     "program_id": "university-of-southern-california-marketing",
     "period": "2023",
     "status": "partial",
-    "listed_count": null,
+    "listed_count": 2,
     "record_ids": [
-      "university-of-southern-california-wensi-zhang"
+      "university-of-southern-california-wensi-zhang",
+      "university-of-southern-california-elisa-solinas"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://faculty.marshall.usc.edu/Sha-Yang/CV%20-%20Sha%20Yang%202026%20-%20Post.pdf"
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；来源需逐人补查，未声称已全部对齐。 导师 CV 的毕业年和首职表，只覆盖该导师学生，不是全系名册。"
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-southern-california-marketing",
@@ -7064,50 +7191,72 @@
     "record_ids": [],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://faculty.marshall.usc.edu/Sha-Yang/CV%20-%20Sha%20Yang%202026%20-%20Post.pdf"
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；该表为选录；来源需逐人补查，未声称已全部对齐。 导师 CV 的毕业年和首职表，只覆盖该导师学生，不是全系名册。"
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-southern-california-marketing",
     "period": "2025",
     "status": "partial",
-    "listed_count": null,
+    "listed_count": 2,
     "record_ids": [
-      "university-of-southern-california-yanyan-li"
+      "university-of-southern-california-yanyan-li",
+      "university-of-southern-california-poet-larsen"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://faculty.marshall.usc.edu/Sha-Yang/CV%20-%20Sha%20Yang%202026%20-%20Post.pdf"
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；该表为选录；来源需逐人补查，未声称已全部对齐。 导师 CV 的毕业年和首职表，只覆盖该导师学生，不是全系名册。"
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-southern-california-marketing",
     "period": "2026",
-    "status": "insufficient",
-    "listed_count": null,
-    "record_ids": [],
+    "status": "partial",
+    "listed_count": 2,
+    "record_ids": [
+      "university-of-southern-california-ignacio-riveros",
+      "university-of-southern-california-tal-shoshani"
+    ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://faculty.marshall.usc.edu/Sha-Yang/CV%20-%20Sha%20Yang%202026%20-%20Post.pdf"
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://arr.usc.edu/degree-progress/",
+        "label": "Registrar program population definition",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；该表为选录；来源需逐人补查，未声称已全部对齐。 导师 CV 的毕业年和首职表，只覆盖该导师学生，不是全系名册。"
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-southern-california-marketing",
@@ -7305,56 +7454,67 @@
     "program_id": "university-of-texas-at-austin-marketing",
     "period": "2023",
     "status": "source_reconciled",
-    "listed_count": 3,
+    "listed_count": 5,
     "record_ids": [
       "university-of-texas-at-austin-andreas-kraft",
       "university-of-texas-at-austin-max-alberhasky",
-      "university-of-texas-at-austin-tushmit-hasan"
+      "university-of-texas-at-austin-tushmit-hasan",
+      "frontier-university-of-texas-at-austin-xing-mike-lan",
+      "frontier-university-of-texas-at-austin-nikkita-sarna"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/"
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "School central Marketing placement table",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 网页近期名单停在 2023；随后年份待补。"
+    "notes": "The central Marketing table includes industry placements omitted from the older department page. No independent whole-cohort denominator established."
   },
   {
     "program_id": "university-of-texas-at-austin-marketing",
     "period": "2024",
-    "status": "insufficient",
-    "listed_count": null,
-    "record_ids": [],
+    "status": "source_reconciled",
+    "listed_count": 1,
+    "record_ids": [
+      "frontier-university-of-texas-at-austin-mahdi-moghadam-niknejad"
+    ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/"
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "School central Marketing placement table",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 网页近期名单停在 2023；随后年份待补。"
+    "notes": "The central Marketing table includes industry placements omitted from the older department page. No independent whole-cohort denominator established."
   },
   {
     "program_id": "university-of-texas-at-austin-marketing",
     "period": "2025",
-    "status": "insufficient",
-    "listed_count": null,
-    "record_ids": [],
+    "status": "source_reconciled",
+    "listed_count": 3,
+    "record_ids": [
+      "frontier-university-of-texas-at-austin-aprajita-gautam",
+      "frontier-university-of-texas-at-austin-sachin-sridhar",
+      "frontier-university-of-texas-at-austin-robina-ghosh"
+    ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://www.mccombs.utexas.edu/graduate/phd/academics/marketing-phd/"
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "School central Marketing placement table",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 网页近期名单停在 2023；随后年份待补。"
+    "notes": "The central Marketing table includes industry placements omitted from the older department page. No independent whole-cohort denominator established."
   },
   {
     "program_id": "university-of-texas-at-austin-marketing",
@@ -7801,7 +7961,7 @@
   {
     "program_id": "university-of-washington-marketing",
     "period": "2023",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 2,
     "record_ids": [
       "university-of-washington-bita-hajihashemi",
@@ -7809,19 +7969,20 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/"
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-washington-marketing",
     "period": "2024",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 2,
     "record_ids": [
       "university-of-washington-sylvia-chang",
@@ -7829,14 +7990,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/"
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-washington-marketing",
@@ -7846,33 +8008,35 @@
     "record_ids": [],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/"
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-washington-marketing",
     "period": "2026",
-    "status": "source_reconciled",
+    "status": "partial",
     "listed_count": 1,
     "record_ids": [
       "university-of-washington-haonan-zhang"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-18",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/"
+        "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/",
+        "label": "Official Marketing placement/alumni list",
+        "checked_at": "2026-11-18"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Named entries were reconciled; missing annual evidence is not a confirmed zero. Do not mark a complete awarded-degree cohort."
   },
   {
     "program_id": "university-of-washington-marketing",

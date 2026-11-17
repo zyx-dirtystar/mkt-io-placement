@@ -14,9 +14,27 @@ test('fixed scope produces exactly one cell for every school and year including 
   for(const r of [...x.scope.ranking.rows,...x.scope.asia])for(const y of x.plan.history_years)assert.ok(d.rows.some(c=>c.program_id===r.program_id&&c.year===y));
   for(const r of d.rows.filter(r=>r.recorded_count===0&&!r.cohort_complete)){assert.equal(r.independent_count,null);assert.equal(r.work_complete,false);}
   assert.equal(d.rows.find(r=>r.program_id.endsWith('-economics')).scope,'extension');
-  assert.equal(d.first_pass_queue.length,184);assert.equal(d.revisit_queue.length,56);
-  assert.equal(d.next_queue[0].queue,'first_pass','An unresolved prior source gap must not trap the work queue ahead of untouched school-years');
-  assert.ok(d.next_queue.slice(0,184).every(t=>!d.rows.find(r=>r.id===t.id).annual_reviews.length));
+  const untouched=d.rows.filter(r=>!r.work_complete&&!r.annual_reviews.length);
+  const reviewed=d.rows.filter(r=>!r.work_complete&&r.annual_reviews.length);
+  assert.deepEqual(d.first_pass_queue.map(t=>t.id),untouched.map(r=>r.id));
+  assert.deepEqual(d.revisit_queue.map(t=>t.id),reviewed.map(r=>r.id));
+  assert.equal(d.summary.first_pass_remaining,untouched.length);
+  assert.equal(d.summary.revisit_with_evidence_gap,reviewed.length);
+  assert.ok(d.next_queue.slice(0,untouched.length).every(t=>t.queue==='first_pass'));
+  assert.ok(d.next_queue.slice(untouched.length).every(t=>t.queue==='revisit_when_new_evidence'));
+});
+
+test('a reviewed unresolved priority cell moves behind every untouched school-year',()=>{
+  const x=inputs(),program_id=x.plan.priority_program_ids[0];
+  const d=buildCohortChecklist({...x,reviewLog:[{program_id,years:[2026],checked_at:'2026-11-18',result:'searched',finding:'Independent final roster not located.',sources:[{url:'https://example.edu/official-directory'}]}]});
+  const id=program_id+':2026';
+  assert.ok(!d.first_pass_queue.some(t=>t.id===id));
+  assert.ok(d.revisit_queue.some(t=>t.id===id));
+  assert.ok(d.next_queue.findIndex(t=>t.id===id)>=d.first_pass_queue.length);
+  assert.equal(d.rows.find(r=>r.id===id).cohort_complete,false);
+  assert.equal(checklistRows(d,{queue:'first_pass'}).length,d.first_pass_queue.length);
+  assert.equal(checklistRows(d,{queue:'revisit'}).length,d.revisit_queue.length);
+  assert.equal(checklistRows(d,{queue:'resolved'}).length,d.summary.fully_resolved_cells);
 });
 
 test('a search, a matched placement table and candidate counts cannot create a degree denominator',()=>{

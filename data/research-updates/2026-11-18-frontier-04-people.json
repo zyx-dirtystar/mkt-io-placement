@@ -1,0 +1,27 @@
+{
+  "id": "frontier-cohorts-2026-11-18-04",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/links-supplement.json",
+      "sha256": "786c358a77f7a8e13c7a61c77b9c277f225fca69d2512c22b7bca8d2ebe019e2"
+    }
+  ],
+  "updates": [
+    {
+      "id": "university-of-southern-california-ignacio-riveros",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://ignacioriveros1.github.io/",
+          "label": "Author material link; research-field evidence is supplied by the separately quoted primary source",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Register the exact linked material URL; this registration does not assert a new field or date.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {}
+    }
+  ],
+  "additions": []
+}

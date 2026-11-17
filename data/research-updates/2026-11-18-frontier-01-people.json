@@ -1,0 +1,464 @@
+{
+  "id": "frontier-cohorts-2026-11-18-01",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/research.json",
+      "sha256": "59fd10ee927f85e98b42ad25618a798db1465a7b8bfae8a617520904da7a998d"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/part01.json",
+      "sha256": "4136cf993d5d333dc4b50faf95479612b34ce7896e65a21878658368a6fdfeea"
+    }
+  ],
+  "updates": [],
+  "additions": [
+    {
+      "id": "frontier-university-of-texas-at-austin-xing-mike-lan",
+      "set": {
+        "name": "Xing (Mike) Lan",
+        "school": "University of Texas at Austin",
+        "program_id": "university-of-texas-at-austin-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "source_cohort_year": 2023,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "Calque Inc.",
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "industry",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Xing (Mike) Lan; 2023",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Calque Inc.",
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Xing (Mike) Lan; Calque Inc.",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.mccombs.utexas.edu/placement/",
+          "label": "Official Marketing placement table",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year."
+    },
+    {
+      "id": "frontier-university-of-texas-at-austin-nikkita-sarna",
+      "set": {
+        "name": "Nikkita Sarna",
+        "school": "University of Texas at Austin",
+        "program_id": "university-of-texas-at-austin-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "source_cohort_year": 2023,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "Blue Cross Blue Shield",
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "industry",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Nikkita Sarna; 2023",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Blue Cross Blue Shield",
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Nikkita Sarna; Blue Cross Blue Shield",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.nikkitasarna.com/home"
+            ],
+            "quote": "Marketing PhD, specializing in consumer behavior",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          }
+        ],
+        "homepage": "https://www.nikkitasarna.com/home"
+      },
+      "sources": [
+        {
+          "url": "https://www.mccombs.utexas.edu/placement/",
+          "label": "Official Marketing placement table",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.nikkitasarna.com/home",
+          "label": "Author homepage: explicit Consumer Behavior",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year."
+    },
+    {
+      "id": "frontier-university-of-texas-at-austin-mahdi-moghadam-niknejad",
+      "set": {
+        "name": "Mahdi Moghadam Niknejad",
+        "school": "University of Texas at Austin",
+        "program_id": "university-of-texas-at-austin-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "source_cohort_year": 2024,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "University of Texas at Tyler",
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Mahdi Moghadam Niknejad; 2024",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Texas at Tyler",
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Mahdi Moghadam Niknejad; University of Texas at Tyler",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.mccombs.utexas.edu/placement/",
+          "label": "Official Marketing placement table",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.uttyler.edu/academics/colleges-schools/business/departments/management-and-marketing/faculty/",
+          "label": "Receiving-school faculty directory; corroborates person but not initial appointment date",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year."
+    },
+    {
+      "id": "frontier-university-of-texas-at-austin-aprajita-gautam",
+      "set": {
+        "name": "Aprajita Gautam",
+        "school": "University of Texas at Austin",
+        "program_id": "university-of-texas-at-austin-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "source_cohort_year": 2025,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "Texas A&M University",
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Aprajita Gautam; 2025",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Texas A&M University",
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Aprajita Gautam; Texas A&M University",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://mays.tamu.edu/directory/aprajita-gautam/"
+            ],
+            "quote": "Research Interest: Consumer Behavior",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          }
+        ],
+        "homepage": "https://mays.tamu.edu/directory/aprajita-gautam/",
+        "verified_faculty_links": [
+          {
+            "faculty_id": "faculty-texas-a-m-university-aprajitagautam",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "source_urls": [
+              "https://mays.tamu.edu/directory/aprajita-gautam/"
+            ],
+            "quote": "Aprajita Gautam",
+            "annotation": "Reviewed exact official profile URL, same named person and independently registered PhD school. Receiving-side facts and observation dates remain unchanged."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.mccombs.utexas.edu/placement/",
+          "label": "Official Marketing placement table",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://mays.tamu.edu/directory/aprajita-gautam/",
+          "label": "Official research interests: Consumer Behavior",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year."
+    },
+    {
+      "id": "frontier-university-of-texas-at-austin-sachin-sridhar",
+      "set": {
+        "name": "Sachin Sridhar",
+        "school": "University of Texas at Austin",
+        "program_id": "university-of-texas-at-austin-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "source_cohort_year": 2025,
+        "graduation_year": 2025,
+        "placement_year": 2025,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "Indian Institute of Management Bangalore",
+        "destination_region": "IN",
+        "role": "Assistant Professor, Marketing Area",
+        "job_kind": "faculty",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Sachin Sridhar; 2025",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Indian Institute of Management Bangalore",
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Sachin Sridhar; Indian Institute of Management Bangalore",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+            ],
+            "quote": "Ph.D. in Quantitative Marketing",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+            ],
+            "quote": "Indian Institute of Management Bangalore (June 2025 - present)",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+            ],
+            "quote": "University of Texas at Austin (August 2020 - May 2025) Ph.D. in Quantitative Marketing",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          }
+        ],
+        "cv_url": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+      },
+      "sources": [
+        {
+          "url": "https://www.mccombs.utexas.edu/placement/",
+          "label": "Official Marketing placement table",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf",
+          "label": "Official faculty CV June2025: degree, Quant and appointment",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year."
+    },
+    {
+      "id": "frontier-university-of-texas-at-austin-robina-ghosh",
+      "set": {
+        "name": "Robina Ghosh",
+        "school": "University of Texas at Austin",
+        "program_id": "university-of-texas-at-austin-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "source_cohort_year": 2025,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "University of Colorado, Colorado Springs",
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Robina Ghosh; 2025",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Colorado, Colorado Springs",
+            "source_urls": [
+              "https://www.mccombs.utexas.edu/placement/"
+            ],
+            "quote": "Robina Ghosh; University of Colorado, Colorado Springs",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.robinaghosh.com/"
+            ],
+            "quote": "I'm a Consumer Behavior researcher at the University of Texas at Austin.",
+            "checked_at": "2026-11-18",
+            "status": "confirmed"
+          }
+        ],
+        "homepage": "https://www.robinaghosh.com/"
+      },
+      "sources": [
+        {
+          "url": "https://www.mccombs.utexas.edu/placement/",
+          "label": "Official Marketing placement table",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.robinaghosh.com/",
+          "label": "Author page: Consumer Behavior researcher",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year."
+    }
+  ]
+}

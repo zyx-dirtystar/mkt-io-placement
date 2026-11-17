@@ -11643,10 +11643,11 @@
     "program_id": "university-of-washington-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
     "methods": [],
     "topics": [],
@@ -11660,7 +11661,7 @@
     "role": "Senior AI Scientist",
     "job_kind": "industry",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+    "field_evidence": "Explicit primary-source classification: Ph.D. Candidate in Quantitative Marketing",
     "undergraduate": null,
     "identity": {
       "chinese_national": {
@@ -11676,11 +11677,40 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/"
+      },
+      {
+        "url": "https://haonanzhang-vv.github.io/",
+        "label": "Personal academic homepage",
+        "checked_at": "2026-11-18"
       }
     ],
     "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。  "
+    "checked_at": "2026-11-18",
+    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。   2026-11-18：Direct Quantitative Marketing classification. Education still says expected June 2026; do not infer completed degree. 2026-11-18：Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+    "homepage": "https://haonanzhang-vv.github.io/",
+    "claims": [
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "qm"
+        ],
+        "source_urls": [
+          "https://haonanzhang-vv.github.io/"
+        ],
+        "quote": "Ph.D. Candidate in Quantitative Marketing",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-03",
+      "evidence_urls": [
+        "https://haonanzhang-vv.github.io/"
+      ]
+    }
   },
   {
     "id": "university-of-washington-sylvia-chang",
@@ -11784,24 +11814,25 @@
     "program_id": "university-of-washington-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
     "methods": [],
     "topics": [],
     "market_cycle": null,
     "placement_year": 2023,
     "source_cohort_year": 2023,
-    "graduation_year": null,
+    "graduation_year": 2023,
     "status": "placed",
-    "destination": "University of California, Davis",
+    "destination": "Oklahoma State University",
     "destination_region": "US",
-    "role": "Assistant Professor",
+    "role": "Assistant Professor of Marketing",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+    "field_evidence": "Explicit primary-source classification: Ph.D. in Management Science (Quantitative Marketing)",
     "undergraduate": null,
     "identity": {
       "chinese_national": {
@@ -11817,11 +11848,66 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/"
+      },
+      {
+        "url": "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf",
+        "label": "UC Davis hosted CV; physical PDF p1, rendered and read",
+        "checked_at": "2026-11-18"
       }
     ],
-    "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。  "
+    "subsequent": [
+      {
+        "institution": "University of California, Davis",
+        "title": "Assistant Professor of Marketing",
+        "start_year": 2024
+      }
+    ],
+    "checked_at": "2026-11-18",
+    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。   2026-11-18：Correct initial destination. Foster 2023 UC Davis is a later affiliation: the CV separately dates Oklahoma State 2023-2024 and UC Davis 2024-present. Preserve the older source claim as a conflict rather than overwrite its history. 2026-11-18：Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+    "cv_url": "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf",
+    "claims": [
+      {
+        "field": "initial_destination",
+        "value": "Oklahoma State University",
+        "source_urls": [
+          "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf"
+        ],
+        "quote": "Assistant Professor of Marketing 2023-2024; Spears School of Business, Oklahoma State University",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "graduation_year",
+        "value": 2023,
+        "source_urls": [
+          "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf"
+        ],
+        "quote": "Ph.D. in Management Science (Quantitative Marketing) 2017-2023",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "qm"
+        ],
+        "source_urls": [
+          "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf"
+        ],
+        "quote": "Ph.D. in Management Science (Quantitative Marketing)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-03",
+      "evidence_urls": [
+        "https://my.gsm.ucdavis.edu/sites/default/files/2024-08/BitaHajihashemi_CV.pdf"
+      ]
+    }
   },
   {
     "id": "university-of-washington-natalie-chisam",
@@ -11831,24 +11917,25 @@
     "program_id": "university-of-washington-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Marketing Strategy"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "strategy"
     ],
     "methods": [],
     "topics": [],
     "market_cycle": null,
     "placement_year": 2023,
     "source_cohort_year": 2023,
-    "graduation_year": null,
+    "graduation_year": 2023,
     "status": "placed",
     "destination": "University of Nebraska–Lincoln",
     "destination_region": "US",
     "role": "Assistant Professor",
     "job_kind": "faculty",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+    "field_evidence": "Explicit primary-source classification: Research Interests: Marketing strategy, data privacy, marketing law & public policy.",
     "undergraduate": null,
     "identity": {
       "chinese_national": {
@@ -11864,11 +11951,60 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://foster.uw.edu/academics/degree-programs/phd-program/placements/"
+      },
+      {
+        "url": "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf",
+        "label": "Nebraska hosted CV, physical PDF p1",
+        "checked_at": "2026-11-18"
       }
     ],
     "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。  "
+    "checked_at": "2026-11-18",
+    "notes": "官方 past/recent/initial placement 表按年归档；以该表报告的 placement 年记录，尚待个人 CV 交叉验证。   2026-11-18：Directly named Marketing Strategy research interest and independently dated completed PhD and Nebraska appointment. 2026-11-18：Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+    "cv_url": "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf",
+    "claims": [
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "strategy"
+        ],
+        "source_urls": [
+          "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf"
+        ],
+        "quote": "Research Interests: Marketing strategy, data privacy, marketing law & public policy.",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "graduation_year",
+        "value": 2023,
+        "source_urls": [
+          "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf"
+        ],
+        "quote": "University of Washington June 2023; Doctor of Philosophy, Marketing",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "placement_year",
+        "value": 2023,
+        "source_urls": [
+          "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf"
+        ],
+        "quote": "University of Nebraska-Lincoln 2023-Present; Assistant Professor of Marketing",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-03",
+      "evidence_urls": [
+        "https://business-files.unl.edu/facStaffUploads/Natalie-Chisam-CV-3-18-25.pdf"
+      ]
+    }
   },
   {
     "id": "cornell-university-archer-pan",
@@ -11972,10 +12108,11 @@
     "program_id": "cornell-university-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
     "methods": [],
     "topics": [],
@@ -11989,7 +12126,7 @@
     "role": null,
     "job_kind": "unknown",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+    "field_evidence": "Explicit primary-source classification: Sai Chintala (2025), Quantitative Marketing",
     "undergraduate": null,
     "identity": {
       "chinese_national": {
@@ -12005,11 +12142,39 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://business.cornell.edu/programs/phd-in-management-marketing-concentration/"
+      },
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/jl2545",
+        "label": "Cornell supervisor CV, physical PDF p7",
+        "checked_at": "2026-11-18"
       }
     ],
     "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。  "
+    "checked_at": "2026-11-18",
+    "notes": "来源列为毕业年，未自动当作首职年。 来源为选录，不能视为全体毕业生。   2026-11-18：Explicit Quantitative Marketing advising label; existing full name and SMU placement identity match. 2026-11-18：Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+    "claims": [
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "qm"
+        ],
+        "source_urls": [
+          "https://apps.business.cornell.edu/faculty-research/faculty/vita/jl2545"
+        ],
+        "quote": "Sai Chintala (2025), Quantitative Marketing",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-03",
+      "evidence_urls": [
+        "https://apps.business.cornell.edu/faculty-research/faculty/vita/jl2545"
+      ]
+    }
   },
   {
     "id": "cornell-university-deepak-sirwani",
@@ -12160,10 +12325,11 @@
     "program_id": "indiana-university-marketing",
     "origin": "US",
     "fields": [
-      "Marketing"
+      "Quantitative Marketing"
     ],
     "tracks": [
-      "marketing"
+      "marketing",
+      "qm"
     ],
     "methods": [],
     "topics": [],
@@ -12177,7 +12343,7 @@
     "role": null,
     "job_kind": "unknown",
     "jmp": null,
-    "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+    "field_evidence": "Explicit primary-source classification: As a quantitative marketing researcher",
     "undergraduate": null,
     "identity": {
       "chinese_national": {
@@ -12193,11 +12359,46 @@
       {
         "label": "官方 Marketing placement / 毕业生名单",
         "url": "https://kelley.iu.edu/faculty-research/departments/marketing/phd/alumni/index.html"
+      },
+      {
+        "url": "https://sites.google.com/view/meng-ji/research",
+        "label": "Personal research page",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://sites.google.com/view/meng-ji/",
+        "label": "Author homepage, body read; research classification is quoted from explicit Research page",
+        "checked_at": "2026-11-18"
       }
     ],
     "subsequent": [],
-    "checked_at": "2026-10-08",
-    "notes": "来源列为毕业年，未自动当作首职年。  "
+    "checked_at": "2026-11-18",
+    "notes": "来源列为毕业年，未自动当作首职年。   2026-11-18：Explicit self classification; do not classify from methods. 2026-11-18：Replace stale unclassified description with the newly verified primary field statement; material links are registered separately.",
+    "homepage": "https://sites.google.com/view/meng-ji/",
+    "claims": [
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "qm"
+        ],
+        "source_urls": [
+          "https://sites.google.com/view/meng-ji/research"
+        ],
+        "quote": "As a quantitative marketing researcher",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-03",
+      "evidence_urls": [
+        "https://sites.google.com/view/meng-ji/research",
+        "https://sites.google.com/view/meng-ji/"
+      ]
+    }
   },
   {
     "id": "indiana-university-philip-kim",
@@ -26255,6 +26456,1506 @@
       "evidence_urls": [
         "https://issuu.com/utdgrad/docs/commencement_-_spring_2026_-_the_un_e63a2e393dadc5",
         "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+      ]
+    }
+  },
+  {
+    "id": "frontier-university-of-texas-at-austin-xing-mike-lan",
+    "name": "Xing (Mike) Lan",
+    "school": "University of Texas at Austin",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-texas-at-austin-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2023,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Calque Inc.",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Official Marketing placement table",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year.",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2023,
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Xing (Mike) Lan; 2023",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "Calque Inc.",
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Xing (Mike) Lan; Calque Inc.",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      }
+    ],
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-01",
+      "evidence_urls": [
+        "https://www.mccombs.utexas.edu/placement/"
+      ]
+    }
+  },
+  {
+    "id": "frontier-university-of-texas-at-austin-nikkita-sarna",
+    "name": "Nikkita Sarna",
+    "school": "University of Texas at Austin",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-texas-at-austin-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2023,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Blue Cross Blue Shield",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Official Marketing placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.nikkitasarna.com/home",
+        "label": "Author homepage: explicit Consumer Behavior",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year.",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2023,
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Nikkita Sarna; 2023",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "Blue Cross Blue Shield",
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Nikkita Sarna; Blue Cross Blue Shield",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "cb"
+        ],
+        "source_urls": [
+          "https://www.nikkitasarna.com/home"
+        ],
+        "quote": "Marketing PhD, specializing in consumer behavior",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      }
+    ],
+    "homepage": "https://www.nikkitasarna.com/home",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-01",
+      "evidence_urls": [
+        "https://www.mccombs.utexas.edu/placement/",
+        "https://www.nikkitasarna.com/home"
+      ]
+    }
+  },
+  {
+    "id": "frontier-university-of-texas-at-austin-mahdi-moghadam-niknejad",
+    "name": "Mahdi Moghadam Niknejad",
+    "school": "University of Texas at Austin",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-texas-at-austin-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2024,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "University of Texas at Tyler",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Official Marketing placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.uttyler.edu/academics/colleges-schools/business/departments/management-and-marketing/faculty/",
+        "label": "Receiving-school faculty directory; corroborates person but not initial appointment date",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year.",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2024,
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Mahdi Moghadam Niknejad; 2024",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "University of Texas at Tyler",
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Mahdi Moghadam Niknejad; University of Texas at Tyler",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      }
+    ],
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-01",
+      "evidence_urls": [
+        "https://www.mccombs.utexas.edu/placement/",
+        "https://www.uttyler.edu/academics/colleges-schools/business/departments/management-and-marketing/faculty/"
+      ]
+    }
+  },
+  {
+    "id": "frontier-university-of-texas-at-austin-aprajita-gautam",
+    "name": "Aprajita Gautam",
+    "school": "University of Texas at Austin",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-texas-at-austin-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2025,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Texas A&M University",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Official Marketing placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://mays.tamu.edu/directory/aprajita-gautam/",
+        "label": "Official research interests: Consumer Behavior",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year.",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2025,
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Aprajita Gautam; 2025",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "Texas A&M University",
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Aprajita Gautam; Texas A&M University",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "cb"
+        ],
+        "source_urls": [
+          "https://mays.tamu.edu/directory/aprajita-gautam/"
+        ],
+        "quote": "Research Interest: Consumer Behavior",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      }
+    ],
+    "homepage": "https://mays.tamu.edu/directory/aprajita-gautam/",
+    "verified_faculty_links": [
+      {
+        "faculty_id": "faculty-texas-a-m-university-aprajitagautam",
+        "status": "confirmed",
+        "checked_at": "2026-11-18",
+        "source_urls": [
+          "https://mays.tamu.edu/directory/aprajita-gautam/"
+        ],
+        "quote": "Aprajita Gautam",
+        "annotation": "Reviewed exact official profile URL, same named person and independently registered PhD school. Receiving-side facts and observation dates remain unchanged."
+      }
+    ],
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-01",
+      "evidence_urls": [
+        "https://www.mccombs.utexas.edu/placement/",
+        "https://mays.tamu.edu/directory/aprajita-gautam/"
+      ]
+    }
+  },
+  {
+    "id": "frontier-university-of-texas-at-austin-sachin-sridhar",
+    "name": "Sachin Sridhar",
+    "school": "University of Texas at Austin",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-texas-at-austin-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2025,
+    "source_cohort_year": 2025,
+    "graduation_year": 2025,
+    "status": "placed",
+    "destination": "Indian Institute of Management Bangalore",
+    "destination_region": "IN",
+    "role": "Assistant Professor, Marketing Area",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Official Marketing placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf",
+        "label": "Official faculty CV June2025: degree, Quant and appointment",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year.",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2025,
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Sachin Sridhar; 2025",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "Indian Institute of Management Bangalore",
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Sachin Sridhar; Indian Institute of Management Bangalore",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "qm"
+        ],
+        "source_urls": [
+          "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+        ],
+        "quote": "Ph.D. in Quantitative Marketing",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "placement_year",
+        "value": 2025,
+        "source_urls": [
+          "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+        ],
+        "quote": "Indian Institute of Management Bangalore (June 2025 - present)",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "graduation_year",
+        "value": 2025,
+        "source_urls": [
+          "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+        ],
+        "quote": "University of Texas at Austin (August 2020 - May 2025) Ph.D. in Quantitative Marketing",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      }
+    ],
+    "cv_url": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-01",
+      "evidence_urls": [
+        "https://www.mccombs.utexas.edu/placement/",
+        "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf"
+      ]
+    }
+  },
+  {
+    "id": "frontier-university-of-texas-at-austin-robina-ghosh",
+    "name": "Robina Ghosh",
+    "school": "University of Texas at Austin",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-texas-at-austin-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2025,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "University of Colorado, Colorado Springs",
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.mccombs.utexas.edu/placement/",
+        "label": "Official Marketing placement table",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.robinaghosh.com/",
+        "label": "Author page: Consumer Behavior researcher",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Official Marketing table name missing from the prior archive. Source year is not copied into the first-job or actual award year.",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2025,
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Robina Ghosh; 2025",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "University of Colorado, Colorado Springs",
+        "source_urls": [
+          "https://www.mccombs.utexas.edu/placement/"
+        ],
+        "quote": "Robina Ghosh; University of Colorado, Colorado Springs",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "cb"
+        ],
+        "source_urls": [
+          "https://www.robinaghosh.com/"
+        ],
+        "quote": "I'm a Consumer Behavior researcher at the University of Texas at Austin.",
+        "checked_at": "2026-11-18",
+        "status": "confirmed"
+      }
+    ],
+    "homepage": "https://www.robinaghosh.com/",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-01",
+      "evidence_urls": [
+        "https://www.mccombs.utexas.edu/placement/",
+        "https://www.robinaghosh.com/"
+      ]
+    }
+  },
+  {
+    "id": "cornell-university-ronghan-michelle-wang",
+    "name": "Ronghan (Michelle) Wang",
+    "school": "Cornell University",
+    "program": "博士项目 · Marketing",
+    "program_id": "cornell-university-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2024,
+    "graduation_year": 2024,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "label": "Cornell DGS CV p9, explicit graduation year",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://michelleronghanwan.wixsite.com/personal",
+        "label": "Personal site explicitly Consumer Behavior; stale second-year bio not used for graduation date",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Read the official named record. The listed year is kept as a source roster year; no award date or job start is inferred unless separately supported.",
+    "checked_at": "2026-11-18",
+    "homepage": "https://michelleronghanwan.wixsite.com/personal",
+    "claims": [
+      {
+        "field": "graduation_year",
+        "value": 2024,
+        "source_urls": [
+          "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67"
+        ],
+        "quote": "PhD Dissertation Committee Member (graduation year; placement); Ronghan (Michelle) Wang, Cornell Marketing (2024)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "cb"
+        ],
+        "source_urls": [
+          "https://michelleronghanwan.wixsite.com/personal"
+        ],
+        "quote": "PhD student in marketing (consumer behavior)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://apps.business.cornell.edu/faculty-research/faculty/vita/krw67",
+        "https://michelleronghanwan.wixsite.com/personal"
+      ]
+    }
+  },
+  {
+    "id": "university-of-southern-california-ignacio-riveros",
+    "name": "Ignacio Riveros",
+    "school": "University of Southern California",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-southern-california-marketing",
+    "origin": "US",
+    "fields": [
+      "Quantitative Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Meta",
+    "destination_region": "US",
+    "role": "Data Scientist",
+    "job_kind": "industry",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing Recent Placements",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.marshall.usc.edu/personnel/ignacio-riveros",
+        "label": "USC individual profile",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://ignacioriveros1.github.io/",
+        "label": "Author material link; research-field evidence is supplied by the separately quoted primary source",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Read the official named record. The listed year is kept as a source roster year; no award date or job start is inferred unless separately supported. 2026-11-18：Register the exact linked material URL; this registration does not assert a new field or date.",
+    "checked_at": "2026-11-18",
+    "homepage": "https://ignacioriveros1.github.io/",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2026,
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Ignacio Riveros (2026)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "Meta",
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Ignacio Riveros; Meta",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "qm"
+        ],
+        "source_urls": [
+          "https://www.marshall.usc.edu/personnel/ignacio-riveros"
+        ],
+        "quote": "Ph.D. student in Quantitative Marketing",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-04",
+      "evidence_urls": [
+        "https://ignacioriveros1.github.io/"
+      ]
+    }
+  },
+  {
+    "id": "university-of-southern-california-tal-shoshani",
+    "name": "Tal Shoshani",
+    "school": "University of Southern California",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-southern-california-marketing",
+    "origin": "US",
+    "fields": [],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2026,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Chapman University",
+    "destination_region": "US",
+    "role": "Assistant Professor of Marketing",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing Recent Placements",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.chapman.edu/business/doy-b-henley-school-of-management/about/faculty-and-staff.aspx",
+        "label": "Chapman department directory: Joining Fall 2026",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Read the official named record. The listed year is kept as a source roster year; no award date or job start is inferred unless separately supported. Quant/CB remains unclassified: studying consumer behavior descriptively is not a formal CB-track label.",
+    "checked_at": "2026-11-18",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2026,
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Tal Shoshani (2026)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "Chapman University",
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Tal Shoshani; Chapman University",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "placement_year",
+        "value": 2026,
+        "source_urls": [
+          "https://www.chapman.edu/business/doy-b-henley-school-of-management/about/faculty-and-staff.aspx"
+        ],
+        "quote": "Ph.D. Candidate, University of Southern California (Joining Fall 2026)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "https://www.chapman.edu/business/doy-b-henley-school-of-management/about/faculty-and-staff.aspx"
+      ]
+    }
+  },
+  {
+    "id": "university-of-southern-california-poet-larsen",
+    "name": "Poet Larsen",
+    "school": "University of Southern California",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-southern-california-marketing",
+    "origin": "US",
+    "fields": [],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2025,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Harvard University",
+    "destination_region": "US",
+    "role": "Postdoctoral Researcher",
+    "job_kind": "postdoc",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing Recent Placements",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Read the official named record. The listed year is kept as a source roster year; no award date or job start is inferred unless separately supported.",
+    "checked_at": "2026-11-18",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2025,
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Poet Larsen (2025)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "Harvard University",
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Poet Larsen; Harvard University",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+      ]
+    }
+  },
+  {
+    "id": "university-of-southern-california-elisa-solinas",
+    "name": "Elisa Solinas",
+    "school": "University of Southern California",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-southern-california-marketing",
+    "origin": "US",
+    "fields": [
+      "Consumer Behavior"
+    ],
+    "tracks": [
+      "marketing",
+      "cb"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": 2023,
+    "source_cohort_year": 2023,
+    "graduation_year": 2023,
+    "status": "placed",
+    "destination": "IE University",
+    "destination_region": "ES",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "label": "Official Marketing Recent Placements",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "url": "https://www.ie.edu/business-school/faculty-and-research/faculty/elisa-solinas/",
+        "label": "IE official faculty page",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Read the official named record. The listed year is kept as a source roster year; no award date or job start is inferred unless separately supported.",
+    "checked_at": "2026-11-18",
+    "homepage": "https://www.ie.edu/business-school/faculty-and-research/faculty/elisa-solinas/",
+    "claims": [
+      {
+        "field": "source_roster_year",
+        "value": 2023,
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Elisa Solinas (2023)",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "source_reported_placement",
+        "value": "IE University",
+        "source_urls": [
+          "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing"
+        ],
+        "quote": "Elisa Solinas; IE University",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "tracks",
+        "value": [
+          "marketing",
+          "cb"
+        ],
+        "source_urls": [
+          "https://www.ie.edu/business-school/faculty-and-research/faculty/elisa-solinas/"
+        ],
+        "quote": "specializing in consumer behavior",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "graduation_year",
+        "value": 2023,
+        "source_urls": [
+          "https://www.ie.edu/business-school/faculty-and-research/faculty/elisa-solinas/"
+        ],
+        "quote": "Ph.D. in Business Administration, University of Southern California, USA, 2023",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      },
+      {
+        "field": "placement_year",
+        "value": 2023,
+        "source_urls": [
+          "https://www.ie.edu/business-school/faculty-and-research/faculty/elisa-solinas/"
+        ],
+        "quote": "Assistant Professor, Marketing Department, IE University, Spain, 2023-present",
+        "status": "confirmed",
+        "checked_at": "2026-11-18"
+      }
+    ],
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://www.marshall.usc.edu/programs/graduate-programs/phd-program/marketing",
+        "https://www.ie.edu/business-school/faculty-and-research/faculty/elisa-solinas/"
+      ]
+    }
+  },
+  {
+    "id": "university-of-arizona-wenyan-tuo",
+    "name": "Wenyan Tuo",
+    "school": "University of Arizona",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-arizona-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing",
+      "qm"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": 2026,
+    "status": "placed",
+    "destination": "University of South Carolina",
+    "destination_region": "US",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Official faculty biography explicitly states empirical quantitative marketing and Marketing PhD 2026",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "label": "Official 2026 program doctoral Management entries",
+        "pages": [
+          32,
+          39,
+          40
+        ]
+      },
+      {
+        "url": "https://view.sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php",
+        "label": "Official faculty biography explicitly states empirical quantitative marketing and Marketing PhD 2026"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：The commencement edition supplies source_cohort_year only. Expected degree dates and new faculty appointments are not automatically actual graduation or first-job years. Only Tuo has explicit quantitative field evidence.",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "https://view.sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php"
+      ]
+    }
+  },
+  {
+    "id": "university-of-arizona-liuyi-wang",
+    "name": "Liuyi Wang",
+    "school": "University of Arizona",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-arizona-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Baruch College, City University of New York",
+    "destination_region": "US",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Official author CV page 1: Marketing PhD expected May 2026, not actual conferral",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "label": "Official 2026 program doctoral Management entries",
+        "pages": [
+          32,
+          39,
+          40
+        ]
+      },
+      {
+        "url": "https://eller.arizona.edu/sites/default/files/CV-Liuyi-WANG-02082025-Final.pdf",
+        "label": "Official author CV page 1: Marketing PhD expected May 2026, not actual conferral",
+        "pages": [
+          1
+        ]
+      },
+      {
+        "url": "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf",
+        "label": "Official receiving-unit report says she will join in Fall 2026; search-indexed text read, PDF body not downloaded"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：The commencement edition supplies source_cohort_year only. Expected degree dates and new faculty appointments are not automatically actual graduation or first-job years. Only Tuo has explicit quantitative field evidence.",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "https://eller.arizona.edu/sites/default/files/CV-Liuyi-WANG-02082025-Final.pdf",
+        "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf"
+      ]
+    }
+  },
+  {
+    "id": "university-of-arizona-pete-zhou",
+    "name": "Pete Zhou",
+    "school": "University of Arizona",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-arizona-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "placed",
+    "destination": "Georgia Southern University",
+    "destination_region": "US",
+    "role": "Assistant Professor",
+    "job_kind": "faculty",
+    "jmp": null,
+    "field_evidence": "Official Marketing department entering cohort names Pete Zhou",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "label": "Official 2026 program doctoral Management entries",
+        "pages": [
+          32,
+          39,
+          40
+        ]
+      },
+      {
+        "url": "https://eller.arizona.edu/news/2021/09/department-marketing-welcomes-new-phd-students",
+        "label": "Official Marketing department entering cohort names Pete Zhou"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：The commencement edition supplies source_cohort_year only. Expected degree dates and new faculty appointments are not automatically actual graduation or first-job years. Only Tuo has explicit quantitative field evidence.",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "https://eller.arizona.edu/news/2021/09/department-marketing-welcomes-new-phd-students"
+      ]
+    }
+  },
+  {
+    "id": "university-of-arizona-utku-ay",
+    "name": "Utku Ay",
+    "school": "University of Arizona",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-arizona-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "Official invited talk biography explicitly states Arizona Marketing PhD candidate",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "label": "Official 2026 program doctoral Management entries",
+        "pages": [
+          32,
+          39,
+          40
+        ]
+      },
+      {
+        "url": "https://fba.bilkent.edu.tr/january-7-utku-ay/",
+        "label": "Official invited talk biography explicitly states Arizona Marketing PhD candidate"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：The commencement edition supplies source_cohort_year only. Expected degree dates and new faculty appointments are not automatically actual graduation or first-job years. Only Tuo has explicit quantitative field evidence.",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "https://fba.bilkent.edu.tr/january-7-utku-ay/"
+      ]
+    }
+  },
+  {
+    "id": "university-of-arizona-qing-yuan",
+    "name": "Qing Yuan",
+    "school": "University of Arizona",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-arizona-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2026,
+    "graduation_year": null,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "Official author CV page 1 explicitly states Marketing PhD candidate, expected May 2026",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "label": "Official last-ten-years Marketing placements, all rows read; table itself has no years"
+      },
+      {
+        "url": "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "label": "Official 2026 program doctoral Management entries",
+        "pages": [
+          32,
+          39,
+          40
+        ]
+      },
+      {
+        "url": "https://eller.arizona.edu/sites/default/files/Vita_Qing_Yuan_2024_v2.pdf",
+        "label": "Official author CV page 1 explicitly states Marketing PhD candidate, expected May 2026",
+        "pages": [
+          1
+        ]
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：The commencement edition supplies source_cohort_year only. Expected degree dates and new faculty appointments are not automatically actual graduation or first-job years. Only Tuo has explicit quantitative field evidence.",
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://eller.arizona.edu/programs/doctoral/marketing/placement",
+        "https://commencement.arizona.edu/sites/default/files/2026-05/COM26_Program_5-15-26.pdf",
+        "https://eller.arizona.edu/sites/default/files/Vita_Qing_Yuan_2024_v2.pdf"
+      ]
+    }
+  },
+  {
+    "id": "university-of-pittsburgh-cary-anderson",
+    "name": "Cary Leonard Anderson",
+    "school": "University of Pittsburgh",
+    "program": "博士项目 · Marketing",
+    "program_id": "university-of-pittsburgh-marketing",
+    "origin": "US",
+    "fields": [
+      "Marketing"
+    ],
+    "tracks": [
+      "marketing"
+    ],
+    "methods": [],
+    "topics": [],
+    "market_cycle": null,
+    "placement_year": null,
+    "source_cohort_year": 2023,
+    "graduation_year": null,
+    "status": "outcome_unknown",
+    "destination": null,
+    "destination_region": "UNKNOWN",
+    "role": null,
+    "job_kind": "unknown",
+    "jmp": null,
+    "field_evidence": "",
+    "undergraduate": null,
+    "identity": {
+      "chinese_national": {
+        "value": "unknown",
+        "source": null
+      },
+      "chinese_heritage": {
+        "value": "unknown",
+        "source": null
+      }
+    },
+    "sources": [
+      {
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/",
+        "label": "Official full Marketing placements table, all rows read"
+      },
+      {
+        "url": "https://www.cba.pitt.edu/wp-content/uploads/2023/12/2023-December-Commencement-Program.pdf",
+        "label": "Official December 2023 university commencement, Katz doctoral rows actually read"
+      },
+      {
+        "url": "https://www.business.pitt.edu/phd/phd-in-marketing/phd-in-marketing-collaborative-research/",
+        "label": "Official Marketing faculty-student research list identifies Cary Anderson"
+      }
+    ],
+    "subsequent": [],
+    "notes": "2026-11-18：Official independent university booklet lists August 2023 PhD; Marketing collaborative research names him as a PhD student. Keep graduation_year null until a finalized award source is checked, and keep first destination unknown. Dissertation search index confirms 2023 PhD but the repository full PDF returns HTTP 403.",
+    "aliases": [
+      "Cary Anderson",
+      "Cary L. Anderson"
+    ],
+    "checked_at": "2026-11-18",
+    "research_review": {
+      "checked_at": "2026-11-18",
+      "status": "reviewed",
+      "batch_id": "frontier-cohorts-2026-11-18-02",
+      "evidence_urls": [
+        "https://www.business.pitt.edu/phd/phd-in-marketing/",
+        "https://www.cba.pitt.edu/wp-content/uploads/2023/12/2023-December-Commencement-Program.pdf",
+        "https://www.business.pitt.edu/phd/phd-in-marketing/phd-in-marketing-collaborative-research/"
       ]
     }
   }

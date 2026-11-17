@@ -64,22 +64,22 @@
 | Hong Kong University of Science and Technology ★ | 2025 | extension | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Hong Kong University of Science and Technology ★ | 2024 | extension | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Hong Kong University of Science and Technology ★ | 2023 | extension | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Washington | 2026 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 1/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Washington | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Washington | 2024 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 2/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Washington | 2023 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 2/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Cornell University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Cornell University | 2025 | core | 3/3 ✓ | ? | ○ 待核全 | 0/0/0/3 | 3/3 | 0/3 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Cornell University | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Cornell University | 2023 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Southern California | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Southern California | 2025 | core | 1/? | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Southern California | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Southern California | 2023 | core | 1/? | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Indiana University | 2026 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Indiana University | 2025 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Indiana University | 2024 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Indiana University | 2023 | core | 2/2 ✓ | ? | ○ 待核全 | 0/1/0/1 | 2/2 | 1/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
+| University of Washington | 2026 | core | 1/1 | ? | ○ 待核全 | 1/0/0/0 | 1/1 | 1/1 | Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization. |
+| University of Washington | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization. |
+| University of Washington | 2024 | core | 2/2 | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 2/2 | Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization. |
+| University of Washington | 2023 | core | 2/2 | ? | ○ 待核全 | 1/0/1/0 | 2/2 | 2/2 | Obtain the annual UW degree-conferral list and map Business Administration PhDs to the Marketing specialization. |
+| Cornell University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome. |
+| Cornell University | 2025 | core | 3/3 | ? | ○ 待核全 | 1/0/0/2 | 3/3 | 0/3 | Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome. |
+| Cornell University | 2024 | core | 2/2 | ? | ○ 待核全 | 0/1/0/1 | 1/2 | 0/2 | Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome. |
+| Cornell University | 2023 | core | 1/1 | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Read the Management PhD conferral section of the relevant Cornell program and map every named Management PhD to Marketing; investigate Michelle Wang outcome. |
+| University of Southern California | 2026 | core | 2/2 | ? | ○ 待核全 | 1/0/0/1 | 2/2 | 1/2 | Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing. |
+| University of Southern California | 2025 | core | 2/2 | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing. |
+| University of Southern California | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing. |
+| University of Southern California | 2023 | core | 2/2 | ? | ○ 待核全 | 0/1/0/1 | 2/2 | 1/2 | Read the annual Marshall hooding rosters or Business Administration PhD degree-conferral records and map all names to Marketing. |
+| Indiana University | 2026 | core | 1/1 | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat. |
+| Indiana University | 2025 | core | 2/2 | ? | ○ 待核全 | 1/0/0/1 | 2/2 | 0/2 | Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat. |
+| Indiana University | 2024 | core | 2/2 | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat. |
+| Indiana University | 2023 | core | 2/2 | ? | ○ 待核全 | 0/1/0/1 | 2/2 | 1/2 | Obtain the corresponding June-May IU registrar graduate PDF and a Marketing specialization crosswalk; retain privacy exclusion caveat. |
 | University of Maryland | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Maryland | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Maryland | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
@@ -120,26 +120,26 @@
 | University of Toronto | 2025 | core | 2/2 ✓ | ? | ○ 待核全 | 1/1/0/0 | 2/2 | 2/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Toronto | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/1/0/0 | 1/1 | 1/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Toronto | 2023 | core | 3/3 ✓ | ? | ○ 待核全 | 3/0/0/0 | 2/3 | 1/3 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Texas at Austin | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Texas at Austin | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Texas at Austin | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Texas at Austin | 2023 | core | 3/3 ✓ | ? | ○ 待核全 | 1/1/1/0 | 3/3 | 3/3 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, Los Angeles | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, Los Angeles | 2025 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, Los Angeles | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, Los Angeles | 2023 | core | 3/3 ✓ | ? | ○ 待核全 | 0/0/0/3 | 3/3 | 0/3 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Johns Hopkins University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Johns Hopkins University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Johns Hopkins University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Johns Hopkins University | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Arizona State University | 2026 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Arizona State University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Arizona State University | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Arizona State University | 2023 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Georgia | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Georgia | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Georgia | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Georgia | 2023 | core | 3/3 ✓ | ? | ○ 待核全 | 0/0/0/3 | 3/3 | 0/3 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
+| University of Texas at Austin | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms. |
+| University of Texas at Austin | 2025 | core | 3/3 ✓ | ? | ○ 待核全 | 1/2/0/0 | 3/3 | 1/3 | Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms. |
+| University of Texas at Austin | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms. |
+| University of Texas at Austin | 2023 | core | 5/5 ✓ | ? | ○ 待核全 | 1/2/1/1 | 5/5 | 3/5 | Obtain final Graduate School degree-recipient list mapped to Marketing and all conferral terms. |
+| University of California, Los Angeles | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| University of California, Los Angeles | 2025 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| University of California, Los Angeles | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| University of California, Los Angeles | 2023 | core | 3/3 ✓ | ? | ○ 待核全 | 0/0/0/3 | 3/3 | 0/3 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| Johns Hopkins University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Johns Hopkins University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Johns Hopkins University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Johns Hopkins University | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Arizona State University | 2026 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| Arizona State University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| Arizona State University | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| Arizona State University | 2023 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| University of Georgia | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| University of Georgia | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| University of Georgia | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
+| University of Georgia | 2023 | core | 3/3 ✓ | ? | ○ 待核全 | 0/0/0/3 | 3/3 | 0/3 | Find field-level all-recipient degree list, including non-academic and unobserved outcomes. |
 | Stanford University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Stanford University | 2025 | core | 1/1 ✓ | ? | ○ 待核全 | 0/1/0/0 | 1/1 | 1/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Stanford University | 2024 | core | 2/2 ✓ | ? | ○ 待核全 | 1/1/0/0 | 2/2 | 2/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
@@ -160,18 +160,18 @@
 | University of Florida | 2025 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Florida | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Florida | 2023 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Notre Dame | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| University of Notre Dame | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| University of Notre Dame | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| University of Notre Dame | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
+| University of Notre Dame | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| University of Notre Dame | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| University of Notre Dame | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| University of Notre Dame | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
 | University of Colorado Boulder | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Colorado Boulder | 2025 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Colorado Boulder | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Colorado Boulder | 2023 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Dartmouth College | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Dartmouth College | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Dartmouth College | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Dartmouth College | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
+| Dartmouth College | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Dartmouth College | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Dartmouth College | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Dartmouth College | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
 | Pennsylvania State University | 2026 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Pennsylvania State University | 2025 | core | 3/3 ✓ | ? | ○ 待核全 | 0/0/0/3 | 3/3 | 0/3 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Pennsylvania State University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
@@ -188,34 +188,34 @@
 | University of Minnesota | 2025 | core | 1/? | ? | ○ 待核全 | 0/1/0/0 | 0/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Minnesota | 2024 | core | 1/? | ? | ○ 待核全 | 0/1/0/0 | 1/1 | 1/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | University of Minnesota | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, San Diego | 2026 | core | 2/2 ✓ | ? | ○ 待核全 | 1/1/0/0 | 2/2 | 1/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, San Diego | 2025 | core | 4/4 ✓ | ? | ○ 待核全 | 1/3/0/0 | 4/4 | 2/4 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, San Diego | 2024 | core | 2/2 ✓ | ? | ○ 待核全 | 1/1/0/0 | 2/2 | 0/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of California, San Diego | 2023 | core | 2/2 ✓ | ? | ○ 待核全 | 0/2/0/0 | 2/2 | 0/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Georgetown University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Georgetown University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Georgetown University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Georgetown University | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| York University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| York University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| York University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| York University | 2023 | core | 1/? | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 1/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Boston College | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Boston College | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Boston College | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| Boston College | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Verify that this school offers the relevant doctorate; keep the school in the fixed scope. |
-| University of Arizona | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Arizona | 2025 | core | 2/? | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Arizona | 2024 | core | 1/? | ? | ○ 待核全 | 0/1/0/0 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Arizona | 2023 | core | 1/? | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Pittsburgh | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Pittsburgh | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Pittsburgh | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 1/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| University of Pittsburgh | 2023 | core | 2/2 ✓ | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 2/2 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Rice University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Rice University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Rice University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
-| Rice University | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
+| University of California, San Diego | 2026 | core | 2/2 ✓ | ? | ○ 待核全 | 1/1/0/0 | 2/2 | 1/2 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of California, San Diego | 2025 | core | 4/4 ✓ | ? | ○ 待核全 | 1/3/0/0 | 4/4 | 2/4 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of California, San Diego | 2024 | core | 2/2 ✓ | ? | ○ 待核全 | 1/1/0/0 | 2/2 | 0/2 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of California, San Diego | 2023 | core | 2/2 ✓ | ? | ○ 待核全 | 0/2/0/0 | 2/2 | 0/2 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| Georgetown University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Georgetown University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Georgetown University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Georgetown University | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| York University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| York University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| York University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| York University | 2023 | core | 1/? | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 1/1 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| Boston College | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Boston College | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Boston College | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| Boston College | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate the relevant historical graduate catalog or a final field-coded degree-recipient census; retain the school in the fixed scope pending eligibility evidence. |
+| University of Arizona | 2026 | core | 5/? | ? | ○ 待核全 | 1/0/0/4 | 3/5 | 0/5 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of Arizona | 2025 | core | 2/? | ? | ○ 待核全 | 0/0/0/2 | 2/2 | 0/2 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of Arizona | 2024 | core | 1/? | ? | ○ 待核全 | 0/1/0/0 | 1/1 | 0/1 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of Arizona | 2023 | core | 1/? | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 0/1 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of Pittsburgh | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of Pittsburgh | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of Pittsburgh | 2024 | core | 1/1 ✓ | ? | ○ 待核全 | 0/0/0/1 | 1/1 | 1/1 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| University of Pittsburgh | 2023 | core | 3/? | ? | ○ 待核全 | 0/0/0/3 | 2/3 | 2/3 | Locate a final annual degree register with a verified Marketing specialization for every person. |
+| Rice University | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person. |
+| Rice University | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person. |
+| Rice University | 2024 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person. |
+| Rice University | 2023 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Locate an official alumni register or retrospective concentration-level award list; reconcile Marketing versus broad Management before assigning any person. |
 | Chinese University of Hong Kong | 2026 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Chinese University of Hong Kong | 2025 | core | 0/? | ? | ○ 待核全 | ? | ? | ? | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |
 | Chinese University of Hong Kong | 2024 | core | 1/? | ? | ○ 待核全 | 0/1/0/0 | 1/1 | 1/1 | Find an independent full named degree roster and define its exact population; reconcile all names, including unknown outcomes. |

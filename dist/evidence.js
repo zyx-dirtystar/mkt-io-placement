@@ -1,4 +1,4 @@
-import {placementOf,placementSummary} from './placement.js?v=1.3.5';
+import {placementOf,placementSummary} from './placement.js?v=1.3.6';
 
 export const TRACK_LABELS={qm:'Quant Mkt',cb:'Consumer Behavior',strategy:'Marketing Strategy',io:'IO',empirical_io:'Empirical IO',theory_io:'Theory IO'};
 export const SIGNAL_LABELS={explicit_interest:'Self-reported job-search interest',recruiting_event:'Explicitly identified recruiting event',academic_exchange:'Academic exchange · not job-search evidence'};

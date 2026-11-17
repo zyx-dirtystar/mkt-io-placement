@@ -851,7 +851,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
     "target_scope": true,
-    "record_count": 5
+    "record_count": 6
   },
   {
     "id": "drexel-university-marketing",
@@ -1900,7 +1900,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。项目 placement 表未分年，毕业年由接收单位或导师 CV 交叉确认；其他条目尚需筛查年份。",
     "target_scope": true,
-    "record_count": 4
+    "record_count": 9
   },
   {
     "id": "university-of-arkansas-marketing",
@@ -2711,7 +2711,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。官网明确这些人接受 tenure-track Assistant Professor 岗位。",
     "target_scope": true,
-    "record_count": 3
+    "record_count": 4
   },
   {
     "id": "university-of-rhode-island-marketing",
@@ -2820,7 +2820,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。导师 CV 的毕业年和首职表，只覆盖该导师学生，不是全系名册。",
     "target_scope": true,
-    "record_count": 2
+    "record_count": 6
   },
   {
     "id": "university-of-tennessee-marketing",
@@ -2879,7 +2879,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。网页近期名单停在 2023；随后年份待补。",
     "target_scope": true,
-    "record_count": 3
+    "record_count": 9
   },
   {
     "id": "university-of-texas-at-dallas-marketing",
