@@ -40,7 +40,14 @@ for(const c of coverage){
   for(const id of c.record_ids){const r=records.find(r=>r.id===id);assert.equal(r?.program_id,c.program_id,'Cross-program audit contamination');if(c.year_basis==='source_table_year')assert.equal(String(r.source_cohort_year),c.period);}
   if(c.status==='source_reconciled'){assert.ok(Number.isInteger(c.listed_count));assert.equal(c.record_ids.length,c.listed_count);assert.ok(c.sources.length&&c.checked_at);}
   if(c.listed_count!==null){assert.ok(Number.isInteger(c.listed_count)&&c.listed_count>=0);assert.ok(c.record_ids.length<=c.listed_count);}
-  if(c.cohort_complete)assert.ok(c.completeness_evidence?.length,'Full cohort claim requires independent evidence');
+  if(c.cohort_complete){
+    assert.ok(c.completeness_evidence?.length&&c.completeness_evidence.every(e=>e.url&&e.quote),'Full cohort claim requires independent evidence');
+    assert.ok(c.population?.kind&&c.population.label&&c.population.scope_note,'Complete roster needs an explicit population and time boundary');
+    assert.equal(c.population.independent_count,c.record_ids.length,'Independent population must match the full named roster');
+    assert.equal(c.listed_count,c.record_ids.length);
+    assert.equal(c.population.roster_names.length,c.record_ids.length);
+    for(const name of c.population.roster_names)assert.ok(c.record_ids.some(id=>{const r=records.find(r=>r.id===id);return r.name===name||(r.aliases||[]).includes(name)}),'Unmatched named graduate: '+name);
+  }
 }
 const cb={...base,tracks:['marketing','cb'],market_cycle:null},unclassified={...cb,tracks:['marketing']};
 assert.equal(filterRecords([cb,unclassified],{track:'marketing'}).length,2,'Unknown subfield must remain in Marketing');

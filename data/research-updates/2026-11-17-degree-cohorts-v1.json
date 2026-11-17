@@ -1,0 +1,570 @@
+{
+  "id": "degree-cohorts-2026-11-17-v1",
+  "checked_at": "2026-11-17",
+  "updates": [
+    {
+      "id": "youngeun-lee-2023",
+      "expected": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "status": "confirmed",
+            "source_urls": [
+              "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf"
+            ],
+            "quote": "Ph.D. in Marketing 2023 Yonsei University Seoul, Korea Department of Statistics and Data Science, M.A. in Statistics 2016 Department of Statistics, B.A.",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "2026-10-22-faculty-na-c"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Youngeun Lee; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Boston College",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Youngeun Lee; Boston College",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "status": "confirmed",
+            "source_urls": [
+              "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf"
+            ],
+            "quote": "Ph.D. in Marketing 2023 Yonsei University Seoul, Korea Department of Statistics and Data Science, M.A. in Statistics 2016 Department of Statistics, B.A.",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "2026-10-22-faculty-na-c"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Youngeun Lee; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Boston College",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Youngeun Lee; Boston College",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "degree_completion_roster",
+            "value": {
+              "publication_year": 2023,
+              "degree": "PhD",
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en"
+            ],
+            "quote": "DOCTOR OF PHILOSOPHY; Degrees completed since June 2022",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "PDF physical page 6. Membership in this completion window does not establish an exact calendar conferral year."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en",
+          "label": "Kellogg 2023 completed-degree roster · PDF page 6",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Independent completed-degree roster cross-check; first-job dates unchanged."
+    },
+    {
+      "id": "yingkang-xie-2023",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Yingkang Xie; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Washington University in St. Louis",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Yingkang Xie; Washington University in St. Louis",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Yingkang Xie; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Washington University in St. Louis",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Yingkang Xie; Washington University in St. Louis",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "degree_completion_roster",
+            "value": {
+              "publication_year": 2023,
+              "degree": "PhD",
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en"
+            ],
+            "quote": "DOCTOR OF PHILOSOPHY; Degrees completed since June 2022",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "PDF physical page 6. Membership in this completion window does not establish an exact calendar conferral year."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en",
+          "label": "Kellogg 2023 completed-degree roster · PDF page 6",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Independent completed-degree roster cross-check; first-job dates unchanged."
+    },
+    {
+      "id": "university-of-california-berkeley-yunhao-huang",
+      "expected": {},
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "claims": [
+          {
+            "field": "graduating_class",
+            "value": {
+              "publication_year": 2025,
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/"
+            ],
+            "quote": "Here are the 2025 graduates, along with their dissertation titles and academic groups at Haas:",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/",
+          "label": "Haas 2025 complete named graduating-class announcement",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://haas.berkeley.edu/phd/careers/job-placements/",
+          "label": "Haas placements grouped by graduation year",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Matched against all eleven school-announced PhD graduates; two are Marketing. Does not establish all calendar-year conferrals or the entire job-market entering population."
+    },
+    {
+      "id": "university-of-california-berkeley-william-ryan",
+      "expected": {},
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "claims": [
+          {
+            "field": "graduating_class",
+            "value": {
+              "publication_year": 2025,
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/"
+            ],
+            "quote": "Here are the 2025 graduates, along with their dissertation titles and academic groups at Haas:",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://newsroom.haas.berkeley.edu/11-berkeley-haas-phd-students-graduate/",
+          "label": "Haas 2025 complete named graduating-class announcement",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://haas.berkeley.edu/phd/careers/job-placements/",
+          "label": "Haas placements grouped by graduation year",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Matched against all eleven school-announced PhD graduates; two are Marketing. Does not establish all calendar-year conferrals or the entire job-market entering population."
+    },
+    {
+      "id": "columbia-university-eric-park",
+      "expected": {
+        "aliases": [
+          "Eric S. Park",
+          "Sanghyeok Park",
+          "Sanghyeok Eric Park"
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eric Park; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Vanderbilt University",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eric Park; Vanderbilt University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "aliases": [
+          "Eric S. Park",
+          "Sanghyeok Park",
+          "Sanghyeok Eric Park",
+          "Eric Sanghyeok Park"
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eric Park; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Vanderbilt University",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eric Park; Vanderbilt University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "aliases",
+            "value": "Eric Sanghyeok Park",
+            "source_urls": [
+              "https://students.business.columbia.edu/sites/students/files-efs/imce-uploads/graduation/2025%20EMBA%20PhD%20Recognition%20Program.pdf"
+            ],
+            "quote": "Eric Sanghyeok Park",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "Physical page 5, Marketing under 2025 PhD Candidate Hooding; corroborates identity, not final conferral completeness."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://students.business.columbia.edu/sites/students/files-efs/imce-uploads/graduation/2025%20EMBA%20PhD%20Recognition%20Program.pdf",
+          "label": "2025 PhD Candidate Hooding · PDF page 5",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Exact official ceremony-name alias reconciled; existing employment conflicts retained."
+    },
+    {
+      "id": "columbia-university-jasmine-yang",
+      "expected": {
+        "aliases": [
+          "Jasmine Y. Yang"
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jasmine Yang; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Meta Core Data Science",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jasmine Yang; Meta Core Data Science",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "expected_checked_at": "2026-11-17",
+      "set": {
+        "aliases": [
+          "Jasmine Y. Yang",
+          "Yu Ming (Jasmine) Yang"
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jasmine Yang; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Meta Core Data Science",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jasmine Yang; Meta Core Data Science",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "aliases",
+            "value": "Yu Ming (Jasmine) Yang",
+            "source_urls": [
+              "https://students.business.columbia.edu/sites/students/files-efs/imce-uploads/graduation/2025%20EMBA%20PhD%20Recognition%20Program.pdf"
+            ],
+            "quote": "Yu Ming (Jasmine) Yang",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "Physical page 5, Marketing under 2025 PhD Candidate Hooding; corroborates identity, not final conferral completeness."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://students.business.columbia.edu/sites/students/files-efs/imce-uploads/graduation/2025%20EMBA%20PhD%20Recognition%20Program.pdf",
+          "label": "2025 PhD Candidate Hooding · PDF page 5",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Exact official ceremony-name alias reconciled; existing employment conflicts retained."
+    },
+    {
+      "id": "university-of-wisconsin-madison-suyeon-jung",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      },
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Marketing",
+          "Consumer Behavior"
+        ],
+        "field_evidence": "AMA-Sheth 2024 official doctoral-consortium biography explicitly identifies Consumer Behavior specialization.",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "doctoral candidate in Marketing, specializing in Consumer Behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+          "label": "AMA-Sheth 2024 doctoral consortium · author biography",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Explicit CB specialization added. 2024 job-market reference is not a 2024 awarded-degree date."
+    },
+    {
+      "id": "hkust-jingling-yu",
+      "expected": {},
+      "expected_checked_at": "2026-10-08",
+      "set": {
+        "claims": [
+          {
+            "field": "degree_completion_roster",
+            "value": {
+              "publication_year": 2025,
+              "degree": "PhD",
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://booklet.congregation.ust.hk/2025/cbook_book1/61/"
+            ],
+            "quote": "Doctor of Philosophy in Marketing 哲學博士（市場學） YU, Jingling 俞晶铃",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "Printed p59, physical/HTML page61. Exact conferral date is not supplied."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://booklet.congregation.ust.hk/2025/cbook_book1/61/",
+          "label": "HKUST 2025 PhD roster · printed page 59",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://booklet.congregation.ust.hk/2025/cbook_book1/72/",
+          "label": "HKUST degrees conferred · Appendix iii",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://booklet.congregation.ust.hk/2025/cbook_book1/85/",
+          "label": "2024–25 completed doctoral theses · Appendix xvi",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "One named Marketing graduate matches the independently printed PhD Marketing count of one. Economics count of one is a different program and is not the Quant/IO subset denominator."
+    }
+  ],
+  "additions": [
+    {
+      "id": "northwestern-carolyn-wells-keller",
+      "set": {
+        "name": "Carolyn Wells Keller",
+        "school": "Northwestern University",
+        "program": "博士项目 · Marketing",
+        "program_id": "northwestern-university-marketing",
+        "origin": "US",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "source_cohort_year": 2023,
+        "graduation_year": null,
+        "market_cycle": null,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "role": null,
+        "job_kind": "unknown",
+        "homepage": "https://www.medill.northwestern.edu/directory/faculty/carolyn-keller.html",
+        "field_evidence": "Official profile describes research on cuteness; teaching Consumer Behavior alone is not sufficient to assign a research subfield.",
+        "claims": [
+          {
+            "field": "degree_completion_roster",
+            "value": {
+              "publication_year": 2023,
+              "degree": "PhD",
+              "field": "Marketing"
+            },
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en"
+            ],
+            "quote": "Degrees completed since June 2022; Carolyn Wells Keller",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "reported_appointment",
+            "value": {
+              "institution": "Northwestern University · Medill",
+              "role": "Lecturer"
+            },
+            "source_urls": [
+              "https://www.medill.northwestern.edu/directory/faculty/carolyn-keller.html"
+            ],
+            "quote": "Carolyn Wells Keller; Lecturer",
+            "status": "confirmed",
+            "checked_at": "2026-11-17",
+            "annotation": "Undated official profile. This establishes a reported appointment, not its start date or initial placement."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/-/media/files/the-experience/convocation/kellogg-school-2023-convocation-ceremony-program.ashx?hash=A4CB82E9CA940E09710BB04F01D6A9DB&la=en",
+          "label": "Kellogg 2023 completed-degree roster · PDF page 6",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://www.medill.northwestern.edu/directory/faculty/carolyn-keller.html",
+          "label": "Medill official faculty profile",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Missing from the placement table but listed among completed Marketing PhDs. Retained in the denominator with first job unknown. Source year 2023 refers to the publication/completion cohort, not an exact graduation year."
+    }
+  ]
+}

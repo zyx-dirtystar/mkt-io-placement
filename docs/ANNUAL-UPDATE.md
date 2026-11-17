@@ -124,3 +124,10 @@ UBC 本批是一个例子：官方来源表把 Zining Wang 列在 2023，但 BC 
 每年更改 `config.json` 的最近四年后，教师的近期 / 历史标签自动重算；旧 `checked_at` 不自动刷新。毕业年份和当前职位需要新证据才能修改。新增 / 更正 placement 时同步检查 `placement_id` 与姓名别名，避免重复计人。
 
 发布前运行 `node scripts/check-faculty.mjs` 和 `node --check dist/faculty-view.js`，以及原有三组检查。教师 CSV 与 placement CSV 分开，不能混用分母。当前没有定时爬取或自动监测。
+
+
+## 2026-11-17 补充：有范围的完整名单
+
+完整名单须同时保存 `population.kind`、可读的群体定义、时间边界说明、独立人数、全体姓名及可定位的 `completeness_evidence`。毕业典礼候选人不等于已授位者；学校公布届别不自动等于全部历年授位者。先找名单，再核对首职，未知去向者保留在分母中。
+
+当前核全的三组使用来源表年份；在其他时间轴下不得借用完整性。官网年度统计与毕业名册相冲突时保留两边口径，不直接修改人数。详见 [本轮学位分母核对](DEGREE-COHORT-REVIEW-2026-11-17.md)。

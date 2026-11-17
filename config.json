@@ -1,5 +1,5 @@
 {
-  "version": "1.3.2 · Quant candidates and school-year roster reconciliation",
+  "version": "1.3.3 · Defined degree cohorts and independent denominators",
   "updated_at": "2026-11-17",
   "observation_as_of": "2026-11-02",
   "current_cycle": "2026-2027",
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "13 current candidates added; 72 existing profiles reviewed across Quant, CB and Strategy; 37 school-year cells reviewed, 28 source lists reconciled. Initial-job conflict preserved for Siddharth Prusty. No complete-cohort claims; career-window cutoff remains 2026-11-02 and individual review dates remain field-specific."
+  "change_note": "Fourteen priority programs searched for independent degree/annual denominators; three explicitly defined Marketing degree cohorts reconciled (Kellogg2023 completion window, Haas2025 announced class, HKUST2025 published conferment class). One omitted graduate added with first outcome unknown; CB field and official-name aliases cross-checked. Counts do not establish calendar-year or job-market completeness. Career-window cutoff remains2026-11-02."
 }

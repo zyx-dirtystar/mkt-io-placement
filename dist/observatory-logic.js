@@ -1,5 +1,6 @@
-import * as placements from './placement.js?v=1.3.0';
-import {TERM_LABELS} from './interface-terms.js?v=1.3.0';
+import {cohortMatchesTime} from './cohort-scope.js?v=1.3.3';
+import * as placements from './placement.js?v=1.3.3';
+import {TERM_LABELS} from './interface-terms.js?v=1.3.3';
 
 export const YEAR_BASES={source:'Source roster year',graduation:'PhD graduation year',market:'Job market season start year',placement:'First job start year'};
 export const TRACK_NAMES={marketing:'Marketing',qm:'Quantitative Marketing',cb:'Consumer Behavior',strategy:'Marketing Strategy',io:'Economics / IO',empirical_io:'Empirical IO',theory_io:'Theory IO'};
@@ -37,15 +38,7 @@ export function matchesTenure(outcome,evidence='all'){
 }
 export function cohortMembership(r,catalog,observatory,f={}){
  const cells=arr(observatory.audit).length?observatory.audit:arr(catalog.coverage);
- return cells.filter(c=>{
-  if(c.program_id!==r.program_id||!arr(c.record_ids).includes(r.id))return false;
-  // Cohort completeness belongs to its source roster / market season, not a different year's cell.
-  if(f.year_basis==='source'&&String(c.period)!==String(r.source_cohort_year))return false;
-  if(f.year_basis==='market'&&String(c.period)!==String(r.market_cycle))return false;
-  if(f.year_basis==='graduation'&&!['graduation_year','graduation'].includes(c.year_basis))return false;
-  if(f.year_basis==='placement'&&!['placement_year','placement','first_job_year'].includes(c.year_basis))return false;
-  return !f.year||f.year==='all'||String(c.period).startsWith(String(f.year));
- });
+ return cells.filter(c=>cohortMatchesTime(c,r,{yearBasis:f.year_basis||'source',year:f.year}));
 }
 export function selectStudyRecords(records,catalog={},observatory={},f={}){
  const programSet=new Set(arr(f.programs));
@@ -67,7 +60,7 @@ export function summarizeStudy(records,observatory={},basis='final'){
  return {n:records.length,known:known.length,faculty:faculty.length,all_academic:known.filter(p=>['tt','non_tt'].includes(p.category)).length,facultyShare:known.length?faculty.length/known.length:null,unknown:outcomes.filter(p=>p.category==='unknown').length,on_market:outcomes.filter(p=>p.category==='on_market').length,deferred:outcomes.filter(p=>p.category==='deferred').length,postdoc:outcomes.filter(p=>p.category==='postdoc').length,non_tt:outcomes.filter(p=>p.category==='non_tt').length,other:outcomes.filter(p=>p.category==='other').length,confirmed_tt:confirmedTT.length,tenure_unknown:outcomes.filter(p=>p.tenure_status==='unknown'||!p.tenure_status).length,final_verified:basis==='final'?records.filter(r=>r.final_placement).length:0,final_fallback:basis==='final'?records.filter(r=>!r.final_placement&&r.destination).length:0,final_unobserved:basis==='final'?records.filter(r=>!r.final_placement&&!r.destination).length:0};
 }
 export function comparisonRows(records,catalog,observatory,f){
- return arr(f.programs).map(id=>{const program=arr(catalog.programs).find(p=>p.id===id)||{id,school:id};const rows=selectStudyRecords(records,catalog,observatory,{...f,programs:[id]});const cells=(arr(observatory.audit).length?observatory.audit:arr(catalog.coverage)).filter(c=>c.program_id===id&&(!f.year||f.year==='all'||String(c.period).startsWith(f.year)));return {program,records:rows,summary:summarizeStudy(rows,observatory,f.basis),cells,complete:cells.filter(c=>c.cohort_complete===true).length};});
+ return arr(f.programs).map(id=>{const program=arr(catalog.programs).find(p=>p.id===id)||{id,school:id};const rows=selectStudyRecords(records,catalog,observatory,{...f,programs:[id]});const cells=(arr(observatory.audit).length?observatory.audit:arr(catalog.coverage)).filter(c=>c.program_id===id&&(!f.year||f.year==='all'||String(c.period).startsWith(f.year)));return {program,records:rows,summary:summarizeStudy(rows,observatory,f.basis),cells,complete:cells.filter(c=>c.cohort_complete===true&&rows.some(r=>cohortMatchesTime(c,r,{yearBasis:f.year_basis||'source',year:f.year}))).length};});
 }
 export function flowRows(records,observatory={},f={}){
  const groups=new Map();

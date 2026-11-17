@@ -79,7 +79,7 @@ test('the release preserves every prior stable ID and routes career sources to t
  const raw=r.find(p=>p.id==='harvard-jimin-nam');assert.match(raw.destination,/Ohio/i);
  const e=d.events.find(e=>e.person_id===raw.id&&e.type==='appointment'&&e.institution==='Massachusetts Institute of Technology');assert.equal(e.start,'2025');assert.ok(e.source_urls.some(u=>u.includes('13887')));assert.ok(!e.source_urls.some(u=>u.includes('career-outcomes')));
  assert.ok(!d.events.some(e=>e.person_id===a.people.find(p=>p.name==='Guanzhong Du').id&&e.type==='graduation'));
- assert.equal(d.quality.metrics.complete_cohorts,0);
+ assert.equal(d.quality.metrics.complete_cohorts,JSON.parse(fs.readFileSync('data/coverage.json','utf8')).filter(c=>c.cohort_complete&&c.completeness_evidence?.length).length,'Receiving-faculty imports must not create placement cohorts');
 });
 
 test('directory identity conflicts and uncertain research eligibility cannot become complete research membership',()=>{

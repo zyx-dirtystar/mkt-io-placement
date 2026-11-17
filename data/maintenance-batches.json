@@ -156,5 +156,24 @@
       "nyu-steve-shitai-zhang"
     ],
     "additions": []
+  },
+  {
+    "id": "degree-cohorts-2026-11-17-v1",
+    "sha256": "5f491c7454ce0742d9ef71dd354cf04b1223bfcf6b0174406fdfd1b84e8c1181",
+    "checked_at": "2026-11-17",
+    "applied_at": "2026-11-17T03:11:53.391Z",
+    "updates": [
+      "youngeun-lee-2023",
+      "yingkang-xie-2023",
+      "university-of-california-berkeley-yunhao-huang",
+      "university-of-california-berkeley-william-ryan",
+      "columbia-university-eric-park",
+      "columbia-university-jasmine-yang",
+      "university-of-wisconsin-madison-suyeon-jung",
+      "hkust-jingling-yu"
+    ],
+    "additions": [
+      "northwestern-carolyn-wells-keller"
+    ]
   }
 ]
