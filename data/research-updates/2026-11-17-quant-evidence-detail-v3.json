@@ -1,0 +1,168 @@
+{
+  "id": "quant-cohorts-2026-11-17-evidence-detail-v3",
+  "checked_at": "2026-11-17",
+  "updates": [
+    {
+      "id": "duke-university-siddharth-prusty",
+      "expected": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Siddharth Prusty; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Indiana University",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Siddharth Prusty; Indiana University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty"
+            ],
+            "quote": "PhD in Marketing (Quantitative), Duke University, 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "current_appointment",
+            "value": {
+              "institution": "Indian School of Business",
+              "role": "Assistant Professor, Marketing",
+              "start_year": 2026
+            },
+            "source_urls": [
+              "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty"
+            ],
+            "quote": "2026 - Present: Assistant Professor, Marketing, Indian School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "initial_employer",
+            "value": [
+              "Indiana University",
+              "Indian School of Business"
+            ],
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Indiana University",
+            "status": "conflict",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Siddharth Prusty; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Indiana University",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Siddharth Prusty; Indiana University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty"
+            ],
+            "quote": "PhD in Marketing (Quantitative), Duke University, 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "current_appointment",
+            "value": {
+              "institution": "Indian School of Business",
+              "role": "Assistant Professor, Marketing",
+              "start_year": 2026
+            },
+            "source_urls": [
+              "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty"
+            ],
+            "quote": "2026 - Present: Assistant Professor, Marketing, Indian School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "initial_employer",
+            "value": [
+              "Indiana University",
+              "Indian School of Business"
+            ],
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+              "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty",
+              "https://siddharthprusty.com/uploads/cv.pdf"
+            ],
+            "quote": "Indiana University",
+            "status": "conflict",
+            "checked_at": "2026-11-17",
+            "conflict": "Duke initial-placement table names Indiana University; employer and author CV identify ISB from 2026. First-job sequence unresolved."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "label": "官方 Marketing placement / 毕业生名单",
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+        },
+        {
+          "url": "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://siddharthprusty.com/uploads/cv.pdf",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Conflict claim links both sides of the disagreement."
+    },
+    {
+      "id": "purdue-arindam-roy-chowdhury",
+      "expected": {
+        "homepage": "https://business.purdue.edu/academics/marketing/images/arindamroychowdhury-cv-2027.pdf"
+      },
+      "set": {
+        "homepage": null
+      },
+      "sources": [],
+      "note": "Official CV retained as cv_url; a PDF is not labelled a personal homepage."
+    }
+  ]
+}

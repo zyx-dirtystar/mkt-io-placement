@@ -1,0 +1,9 @@
+{
+  "description": "Reviewed placement research after the frozen faculty-expansion baselines. Every file must match the applied placement-batch ledger; receiving-faculty batches cannot authorize these changes.",
+  "batches": [
+    "data/research-updates/2026-11-17-quant-cohorts-v1.json",
+    "data/research-updates/2026-11-17-quant-date-provenance-v2.json",
+    "data/research-updates/2026-11-17-quant-evidence-detail-v3.json",
+    "data/research-updates/2026-11-17-quant-material-sources-v4.json"
+  ]
+}

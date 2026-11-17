@@ -1,5 +1,5 @@
 {
-  "version": "1.3.1 · Market references and recruitment dates",
+  "version": "1.3.2 · Quant candidates and school-year roster reconciliation",
   "updated_at": "2026-11-17",
   "observation_as_of": "2026-11-02",
   "current_cycle": "2026-2027",
@@ -9,5 +9,5 @@
     2025,
     2026
   ],
-  "change_note": "31 reviewed or attempted references across Quant, CB and Strategy; separate DocSIG survey benchmarks; four job calls rechecked and two Quant advertisements added. Person evidence cutoff remains 2026-11-02; no new complete-cohort claims."
+  "change_note": "13 current candidates added; 72 existing profiles reviewed across Quant, CB and Strategy; 37 school-year cells reviewed, 28 source lists reconciled. Initial-job conflict preserved for Siddharth Prusty. No complete-cohort claims; career-window cutoff remains 2026-11-02 and individual review dates remain field-specific."
 }

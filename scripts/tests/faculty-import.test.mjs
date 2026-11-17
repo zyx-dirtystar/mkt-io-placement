@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import {reviewedPlacementState} from '../placement-reviewed-state.mjs';
 import {applyFacultyBatch} from '../import-faculty-batch.mjs';
 const person=()=>({name:'Alex Lee',host_id:'host',current:{institution:'Host',region:'US',role:'Assistant Professor',start_year:null},phd:{school:'Origin',program:'Marketing',year:2024,region:'US'},sources:[{url:'https://host.edu/profiles/alex',quote:'2024 PhD Marketing, Origin',supports:['phd.year']}],aliases:[],homepage:'https://host.edu/profiles/alex',career_events:[]});
 const batch=()=>({id:'review-1',checked_at:'2026-10-22',people:[person()],schools:[{host_id:'host',directory_url:'https://host.edu/faculty',scope:'Research professors',roster_names:['Alex Lee'],complete_evidence:{url:'https://host.edu/faculty',quote:'Research professors'}}]});
@@ -74,7 +75,7 @@ test('published directory snapshots retain field gaps, separate appointments and
 });
 test('the release preserves every prior stable ID and routes career sources to the correct event',()=>{
  const base=JSON.parse(fs.readFileSync('data/faculty-baseline-2026-10-22.json','utf8')),a=JSON.parse(fs.readFileSync('data/faculty.json','utf8')),r=JSON.parse(fs.readFileSync('data/records.json','utf8')),d=JSON.parse(fs.readFileSync('dist/data/observatory.json','utf8'));
- assert.deepEqual(r.map(p=>p.id).sort(),base.placement_ids.toSorted());for(const id of base.faculty_ids)assert.ok(a.people.some(p=>p.id===id));
+ assert.deepEqual(r.map(p=>p.id).sort(),reviewedPlacementState(base).ids);for(const id of base.faculty_ids)assert.ok(a.people.some(p=>p.id===id));
  const raw=r.find(p=>p.id==='harvard-jimin-nam');assert.match(raw.destination,/Ohio/i);
  const e=d.events.find(e=>e.person_id===raw.id&&e.type==='appointment'&&e.institution==='Massachusetts Institute of Technology');assert.equal(e.start,'2025');assert.ok(e.source_urls.some(u=>u.includes('13887')));assert.ok(!e.source_urls.some(u=>u.includes('career-outcomes')));
  assert.ok(!d.events.some(e=>e.person_id===a.people.find(p=>p.name==='Guanzhong Du').id&&e.type==='graduation'));

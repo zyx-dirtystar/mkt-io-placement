@@ -1,0 +1,3876 @@
+{
+  "id": "quant-cohorts-2026-11-17-v1",
+  "checked_at": "2026-11-17",
+  "updates": [
+    {
+      "id": "penn-ada-aka",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Ada Aka; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Stanford University",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Ada Aka; Stanford University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2023
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2023
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-mingyung-kim",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Mingyung Kim; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Ohio State University",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Mingyung Kim; Ohio State University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-andrew-morningstar",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Andrew Morningstar; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Bristol Myers Squibb",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Andrew Morningstar; Bristol Myers Squibb",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-yu-zhao",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Yu Zhao; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Tsinghua University",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Yu Zhao; Tsinghua University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-shannon-duncan",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Shannon Duncan; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Alberta",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Shannon Duncan; University of Alberta",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-henrique-laurino",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Henrique Laurino Dos Santos; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Oxford",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Henrique Laurino Dos Santos; University of Oxford",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-ekaterina-goncharova",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Ekaterina Goncharova; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Vanguard Behavioral Science",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Ekaterina Goncharova; Vanguard Behavioral Science",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-anna-gao",
+      "set": {
+        "claims": [
+          {
+            "field": "aliases",
+            "value": [
+              "Anna (Ran) Gao"
+            ],
+            "quote": "Anna (Ran) Gao",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "topics",
+            "value": [
+              "平台与数字市场",
+              "在线评论"
+            ],
+            "quote": "comment toxicity in social media discussions",
+            "source_urls": [
+              "https://mackinstitute.wharton.upenn.edu/2024/exploring-the-dynamics-of-hashtag-use-and-comment-toxicity-on-social-media/"
+            ],
+            "source_date": "2024-10-09",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Anna Gao; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Netflix Data Science",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Anna Gao; Netflix Data Science",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-22"
+    },
+    {
+      "id": "penn-siyuan-yin",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Siyuan Yin; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Stony Brook University",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Siyuan Yin; Stony Brook University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "yihao-yuan-2025",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Yihao Yuan; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of California, Los Angeles",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Yihao Yuan; University of California, Los Angeles",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "hangcheng-zhao-2025",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Hangcheng Zhao; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Rutgers University",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Hangcheng Zhao; Rutgers University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-rachele-ciulli",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Rachele Ciulli; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "LUISS University",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Rachele Ciulli; LUISS University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2026
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2026
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-anya-shchetkina",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Anya Shchetkina; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Massachusetts Institute of Technology",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Anya Shchetkina; Massachusetts Institute of Technology",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2026
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2026
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "penn-jiani-xue",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Jiani (Jenny) Xue; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Kepler AI",
+            "source_urls": [
+              "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+            ],
+            "quote": "Jiani (Jenny) Xue; Kepler AI",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2026
+      },
+      "sources": [
+        {
+          "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2026
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "columbia-university-sibel-sozuer-zorlu",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Sibel Sozuer Zorlu; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of North Carolina at Chapel Hill",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Sibel Sozuer Zorlu; University of North Carolina at Chapel Hill",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2023
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2023
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-byung-cheol-lee",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Byung Cheol Lee; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Houston",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Byung Cheol Lee; University of Houston",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2023
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2023
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-maayan-shira-malter",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Maayan Shira Malter; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Hebrew University of Jerusalem",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Maayan Shira Malter; Hebrew University of Jerusalem",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-jennifer-sun",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jennifer Sun; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Yonsei University",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jennifer Sun; Yonsei University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-yinghao-wu",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Yinghao Wu; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Utah",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Yinghao Wu; University of Utah",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-shin-oblander",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Shin Oblander; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of British Columbia",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Shin Oblander; University of British Columbia",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-sonia-kim",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Sonia Kim; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Yale University",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Sonia Kim; Yale University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2024
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2024
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-maren-hoff",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Maren Hoff; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Harvard University",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Maren Hoff; Harvard University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-eric-park",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eric Park; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Vanderbilt University",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eric Park; Vanderbilt University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-jasmine-yang",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jasmine Yang; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Meta Core Data Science",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Jasmine Yang; Meta Core Data Science",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2025
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2025
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-lan-luo",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Lan Luo; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Yale University",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Lan Luo; Yale University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2026
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2026
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "columbia-university-eli-sugerman",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eli Sugerman; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Utah",
+            "source_urls": [
+              "https://business.columbia.edu/faculty/divisions/marketing/phd"
+            ],
+            "quote": "Eli Sugerman; University of Utah",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "graduation_year": 2026
+      },
+      "sources": [
+        {
+          "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {
+        "graduation_year": 2026
+      },
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "harvard-emily-prinsloo",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "status": "confirmed",
+            "source_urls": [
+              "https://business.rice.edu/sites/default/files/2023-06/Emily-Prinsloo-CV.pdf"
+            ],
+            "quote": "Harvard Business School, Harvard University (Boston, USA) 2018 – 2023 Ph.D. in Business Administration (Marketing)",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "2026-10-22-faculty-na-c"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Emily Prinsloo; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Rice University, Jones Graduate School of Business",
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Emily Prinsloo; Rice University, Jones Graduate School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "harvard-jimin-nam",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "status": "confirmed",
+            "source_urls": [
+              "https://mitsloan.mit.edu/shared/ods/documents/?DocumentID=13887&doc=1"
+            ],
+            "quote": "Ph.D. Business Administration, Concentration: Marketing (2019-2024)",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-mit-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Jimin Nam; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "The Ohio State University, Fisher College of Business",
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Jimin Nam; The Ohio State University, Fisher College of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "ta-wei-huang-2025",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Ta-Wei (David) Huang; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "National University of Singapore",
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Ta-Wei (David) Huang; National University of Singapore",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-16"
+    },
+    {
+      "id": "magie-cheng-2026",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Mengjie (Magie) Cheng; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Texas at Austin",
+            "source_urls": [
+              "https://www.hbs.edu/doctoral/placement/marketing"
+            ],
+            "quote": "Mengjie (Magie) Cheng; University of Texas at Austin",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.hbs.edu/doctoral/placement/marketing",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "youngeun-lee-2023",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "status": "confirmed",
+            "source_urls": [
+              "https://youngeun-lee.github.io/files/youngeun_lee_cv.pdf"
+            ],
+            "quote": "Ph.D. in Marketing 2023 Yonsei University Seoul, Korea Department of Statistics and Data Science, M.A. in Statistics 2016 Department of Statistics, B.A.",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "2026-10-22-faculty-na-c"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Youngeun Lee; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Boston College",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Youngeun Lee; Boston College",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "yingkang-xie-2023",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Yingkang Xie; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Washington University in St. Louis",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Yingkang Xie; Washington University in St. Louis",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-julia-jeong",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Julia Jeong; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Arkansas State University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Julia Jeong; Arkansas State University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "malika-korganbekova-2024",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Malika Korganbekova; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Chicago",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Malika Korganbekova; University of Chicago",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-jane-jiaqian-wang",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "status": "confirmed",
+            "source_urls": [
+              "https://discovery.nus.edu.sg/27118-jane-jiaqian-wang"
+            ],
+            "quote": "Northwestern University, Evanston, United States 2024",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-singapore-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jiaqian (Jane) Wang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "National University of Singapore",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jiaqian (Jane) Wang; National University of Singapore",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-bindan-zhang",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Bindan Zhang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Chinese University of Hong Kong, Shenzhen",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Bindan Zhang; Chinese University of Hong Kong, Shenzhen",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-joseph-abruzzo",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Joseph Abruzzo; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Northwestern University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Joseph Abruzzo; Northwestern University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-jocelyn-grabke",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jocelyn Grabke; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Saint Mary's University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jocelyn Grabke; Saint Mary's University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-seo-young-myaeng",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Seo Young Myaeng; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Meta",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Seo Young Myaeng; Meta",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-sarena-su",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Sarena Su; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Chinese University of Hong Kong, Shenzhen",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Sarena Su; Chinese University of Hong Kong, Shenzhen",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-jason-zhao",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jason Zhao; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Purdue University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jason Zhao; Purdue University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm",
+              "io"
+            ],
+            "source_urls": [
+              "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv"
+            ],
+            "quote": "Quantitative Marketing, Industrial Organization",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv"
+            ],
+            "quote": "Assistant Professor of Management (Marketing), Purdue University 2025 - Present",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "tracks": [
+          "marketing",
+          "qm",
+          "io"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Industrial Organization",
+          "Advertising",
+          "Media Economics",
+          "Health Economics"
+        ],
+        "role": "Assistant Professor of Management (Marketing)",
+        "job_kind": "faculty",
+        "cv_url": "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv"
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://apps.it.purdue.edu/sites/Home/Files/User/61e2631f-07c8-42bf-8cf7-098c8589d2d7/DownloadCv",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed. Official employer-hosted CV confirms research identity and appointment; ordinary Assistant Professor does not establish tenure track.",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing",
+          "Information Acquisition",
+          "Pharmaceutical Marketing",
+          "Limited Consideration"
+        ],
+        "role": null,
+        "job_kind": "unknown"
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-jesse-dagostino",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jesse D'Agostino; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Bonsai",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jesse D'Agostino; Bonsai",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-jessie-jia",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "status": "confirmed",
+            "source_urls": [
+              "https://www.jessiezjia.com/home"
+            ],
+            "quote": "Employment: Assistant Professor Marketing, The Hong Kong Polytechnic University, Hong Kong, 2026–present. Education: Ph.D Marketing, Kellogg School of Management, Northwestern University, 2026.",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-followup-asia-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jessie Jia; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Hong Kong Polytechnic University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Jessie Jia; Hong Kong Polytechnic University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-matejas-mackin",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Matejas Mackin; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Northwestern University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Matejas Mackin; Northwestern University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-xuekang-wu",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Xuekang Wu; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Zhejiang University",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+            ],
+            "quote": "Xuekang Wu; Zhejiang University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "duke-university-lingrui-zhou",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Lingrui Zhou; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Hong Kong",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Lingrui Zhou; University of Hong Kong",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "duke-university-luis-abreu",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Luis Abreu; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Kentucky",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Luis Abreu; University of Kentucky",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "duke-university-rodrigo-dias",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Rodrigo Dias; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Colorado Boulder",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Rodrigo Dias; University of Colorado Boulder",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "duke-university-levin-zhu",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Levin Zhu; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Hawaii",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Levin Zhu; University of Hawaii",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "duke-university-denny-huynh",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Denny Huynh; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Alabama",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Denny Huynh; University of Alabama",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "duke-university-demi-oba",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Demi Oba; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Harvard University",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Demi Oba; Harvard University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "duke-university-siddharth-prusty",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Siddharth Prusty; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Indiana University",
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Siddharth Prusty; Indiana University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty"
+            ],
+            "quote": "PhD in Marketing (Quantitative), Duke University, 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "current_appointment",
+            "value": {
+              "institution": "Indian School of Business",
+              "role": "Assistant Professor, Marketing",
+              "start_year": 2026
+            },
+            "source_urls": [
+              "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty"
+            ],
+            "quote": "2026 - Present: Assistant Professor, Marketing, Indian School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "initial_employer",
+            "value": [
+              "Indiana University",
+              "Indian School of Business"
+            ],
+            "source_urls": [
+              "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+            ],
+            "quote": "Indiana University",
+            "status": "conflict",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "job_kind": "unknown",
+        "role": null,
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Digital Marketing",
+          "Retail Media",
+          "Advertising Auctions",
+          "Sustainability"
+        ],
+        "homepage": "https://siddharthprusty.com/",
+        "cv_url": "https://siddharthprusty.com/uploads/cv.pdf",
+        "jmp": "Enhancing Position Auctions in Retail Media",
+        "jmp_url": "https://siddharthprusty.com/uploads/cv.pdf",
+        "jmp_evidence": "Author CV labels this Job market paper.",
+        "source_reported_placement": "Indiana University (Duke initial-placement table); Indian School of Business (employer and author CV)",
+        "first_job_conflict": {
+          "status": "unresolved",
+          "values": [
+            "Indiana University",
+            "Indian School of Business"
+          ],
+          "source_urls": [
+            "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+            "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty",
+            "https://siddharthprusty.com/uploads/cv.pdf"
+          ],
+          "checked_at": "2026-11-17"
+        }
+      },
+      "sources": [
+        {
+          "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://www.isb.edu/faculty-and-research/faculty-directory/siddharth-prusty",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://siddharthprusty.com/uploads/cv.pdf",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed. Sending-program initial-placement table conflicts with the receiving employer and author CV. ISB appointment from 2026 is confirmed; first-job order remains unresolved. No silent conversion of the Indiana entry into ISB.",
+      "expected": {
+        "destination": "Indiana University",
+        "destination_region": "US",
+        "placement_year": null,
+        "status": "placed",
+        "job_kind": "unknown",
+        "role": null,
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "jmp": null
+      },
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-akshina-banerjee",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Akshina Banerjee; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Michigan, Ross School of Business",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Akshina Banerjee; University of Michigan, Ross School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-lin-fei",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Lin Fei; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Uber",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Lin Fei; Uber",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "xinyao-kong-2023",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Xinyao Kong; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Texas at Dallas",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Xinyao Kong; University of Texas at Dallas",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-shweta-desiraju",
+      "set": {
+        "claims": [
+          {
+            "field": "research_inference",
+            "value": "cb",
+            "quote": "in four studies",
+            "source_urls": [
+              "https://voices.uchicago.edu/shwetadesiraju/research/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "provisional",
+            "conflict": null
+          },
+          {
+            "field": "dissertation_date",
+            "value": "2023-08",
+            "quote": "Published August 2023",
+            "source_urls": [
+              "https://knowledge.uchicago.edu/records/7cqg4-nnh43"
+            ],
+            "source_date": "2023-08",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": "论文2023-08，来源去向表2024；论文提交日期不自动等于授位或首职年份。"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Shweta Desiraju; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Fors Marsh",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Shweta Desiraju; Fors Marsh",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-22"
+    },
+    {
+      "id": "chicago-minkwang-jang",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Minkwang Jang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Singapore Management University",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Minkwang Jang; Singapore Management University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "chicago-daniel-katz",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "quote": "PhD in Marketing 2024",
+            "source_urls": [
+              "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "placement_start_date",
+            "value": "2024-08",
+            "quote": "Visiting Assistant Professor of Marketing Aug 2024 – Present",
+            "source_urls": [
+              "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "quote": "study consumer behavior, financial decision-making, and product reviews",
+            "source_urls": [
+              "https://damore-mckim.northeastern.edu/people/daniel-katz/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Daniel Katz; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Northeastern University, D’Amore-McKim School of Business",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Daniel Katz; Northeastern University, D’Amore-McKim School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-22"
+    },
+    {
+      "id": "chicago-yuxiao-li",
+      "set": {
+        "claims": [
+          {
+            "field": "dissertation_date",
+            "value": "2024-08",
+            "quote": "Published August 2024",
+            "source_urls": [
+              "https://knowledge.uchicago.edu/records/gn2kn-13550"
+            ],
+            "source_date": "2024-08",
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Yuxiao Li; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Cornerstone Research",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Yuxiao Li; Cornerstone Research",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-22"
+    },
+    {
+      "id": "walter-zhang-2024",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "status": "confirmed",
+            "source_urls": [
+              "https://walterwzhang.github.io/assets/files/Zhang,Walter-CV.pdf"
+            ],
+            "quote": "2024 The University of Chicago, Booth School of Business; PhD in Quantitative Marketing, MBA",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-reconciliation-2026-10-22"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Walter W. Zhang; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Pennsylvania",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Walter W. Zhang; University of Pennsylvania",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-nicholas-herzog",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Nicholas Herzog; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Tulane University, A. B. Freeman School of Business",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Nicholas Herzog; Tulane University, A. B. Freeman School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-jiaqi-yu",
+      "set": {
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "status": "confirmed",
+            "source_urls": [
+              "https://www.hkubs.hku.hk/sc/people/jiaqi-yu/"
+            ],
+            "quote": "Ph.D. in Marketing, University of Chicago Booth School of Business, 2025",
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "2026-10-22-faculty-hongkong"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Jiaqi Yu; 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Hong Kong, Business School",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Jiaqi Yu; University of Hong Kong, Business School",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-soaham-bharti",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Soaham Bharti; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Washington, Foster School of Business",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Soaham Bharti; University of Washington, Foster School of Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-15"
+    },
+    {
+      "id": "hung-ho-2026",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Hung Ho; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Nanyang Technological University",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Hung Ho; Nanyang Technological University",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-yusu-wang",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Yusu Wang; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Peking University, HSBC Business School",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Yusu Wang; Peking University, HSBC Business School",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-ningyin-ariel-xu",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Ningyin (Ariel) Xu; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "CUNEF Universidad",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Ningyin (Ariel) Xu; CUNEF Universidad",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "chicago-lydia-zhao",
+      "set": {
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Lydia Zhao; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "Amazon",
+            "source_urls": [
+              "https://www.chicagobooth.edu/phd/career-outcomes"
+            ],
+            "quote": "Lydia Zhao; Amazon",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Re-read the official annual row. Review covers roster identity, source year and reported initial employer; other career fields are not refreshed.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-caroline-wang",
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+            ],
+            "quote": "Caroline Wang; 2026-2027",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://carolinejunyuwang.github.io/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Official 2026–27 Marketing roster corroborates the existing candidate; rolling list completeness remains unknown.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-andrew-wooders",
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+            ],
+            "quote": "Andrew Wooders; 2026-2027",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://sites.google.com/view/andrewwooders",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Official 2026–27 Marketing roster corroborates the existing candidate; rolling list completeness remains unknown.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "northwestern-samuel-su",
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+            ],
+            "quote": "Samuel Su; 2026-2027",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://samuelsukellogg.github.io/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Official 2026–27 Marketing roster corroborates the existing candidate; rolling list completeness remains unknown.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    },
+    {
+      "id": "university-of-texas-at-austin-tushmit-hasan",
+      "set": {
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2023,
+            "quote": "Kelley School of Business, Indiana University Bloomington, 2023-2025",
+            "source_urls": [
+              "https://tushmithasan.wordpress.com/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "subsequent",
+            "value": "St. Edward's University, 2025–",
+            "quote": "St. Edward’s University, 2025-present",
+            "source_urls": [
+              "https://tushmithasan.wordpress.com/"
+            ],
+            "source_date": null,
+            "checked_at": "2026-10-22",
+            "status": "confirmed",
+            "conflict": null
+          },
+          {
+            "field": "research_review_scope",
+            "value": "Strategy source follow-up",
+            "source_urls": [
+              "https://tushmithasan.wordpress.com/"
+            ],
+            "quote": "Marketing Strategy",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://tushmithasan.wordpress.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Strategy follow-up: preserve existing classification and initial-placement chronology; a current title does not overwrite initial employment.",
+      "expected": {},
+      "expected_checked_at": "2026-10-22"
+    },
+    {
+      "id": "singapore-management-university-junqiu-jiang",
+      "set": {
+        "claims": [
+          {
+            "field": "research_review_scope",
+            "value": "Strategy source follow-up",
+            "source_urls": [
+              "https://faculty.essec.edu/cv/jiang-junqiu/pdf/"
+            ],
+            "quote": "Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Strategy follow-up: preserve existing classification and initial-placement chronology; a current title does not overwrite initial employment.",
+      "expected": {},
+      "expected_checked_at": "2026-10-08"
+    }
+  ],
+  "additions": [
+    {
+      "id": "purdue-arindam-roy-chowdhury",
+      "set": {
+        "name": "Arindam Roy Chowdhury",
+        "school": "Purdue University",
+        "program_id": "purdue-university-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Consumer Mobility",
+          "Attention Spillovers",
+          "Public Policy"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://business.purdue.edu/academics/marketing/images/arindamroychowdhury-cv-2027.pdf",
+        "expected_graduation_year": 2027,
+        "cv_url": "https://business.purdue.edu/academics/marketing/images/arindamroychowdhury-cv-2027.pdf",
+        "jmp": "Parking Fees and Retail Shopping: Evidence from the City of Chicago",
+        "jmp_url": "https://business.purdue.edu/academics/marketing/images/arindamroychowdhury-cv-2027.pdf",
+        "jmp_evidence": "CV explicitly labels the paper as Job Market Paper.",
+        "methods": [
+          "causal"
+        ],
+        "field_evidence": "CV describes causal empirical research but does not explicitly state Quantitative Marketing; subtrack remains unclassified.",
+        "research_inference": {
+          "status": "provisional",
+          "tracks": [
+            "qm"
+          ],
+          "reason": "Empirical marketing work and causal methods; formal subtrack not explicitly identified.",
+          "source_urls": [
+            "https://business.purdue.edu/academics/marketing/images/arindamroychowdhury-cv-2027.pdf"
+          ],
+          "checked_at": "2026-11-17"
+        },
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.purdue.edu/academics/marketing/job-market-candidates.php"
+            ],
+            "quote": "Arindam Roy Chowdhury; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.purdue.edu/academics/marketing/job-market-candidates.php",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://business.purdue.edu/academics/marketing/images/arindamroychowdhury-cv-2027.pdf",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "purdue-chaewon-seol",
+      "set": {
+        "name": "Chaewon Seol",
+        "school": "Purdue University",
+        "program_id": "purdue-university-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Consumer Mobility",
+          "Spatial Competition"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://chaewonseol.github.io/",
+        "expected_graduation_year": 2027,
+        "cv_url": "https://apps.it.purdue.edu/sites/Home/Files/User/e75e4a8c-38e3-4f32-9260-5fd0054435f5/DownloadCv",
+        "jmp": "Trajectory Matters: Retail Exposure and Zoning Policies in Legal Cannabis Market",
+        "jmp_url": "https://chaewonseol.github.io/research.html",
+        "jmp_evidence": "Author research page labels this as Job Market Paper; department labels a different title as dissertation. Do not conflate titles.",
+        "methods": [
+          "causal",
+          "ml"
+        ],
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.purdue.edu/academics/marketing/job-market-candidates.php"
+            ],
+            "quote": "Chaewon Seol; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://chaewonseol.github.io/"
+            ],
+            "quote": "Ph.D. Candidate in Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.purdue.edu/academics/marketing/job-market-candidates.php",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://chaewonseol.github.io/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "mit-zelin-james-li",
+      "set": {
+        "name": "Zelin (James) Li",
+        "school": "Massachusetts Institute of Technology",
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "AI in Marketing",
+          "Innovation",
+          "Sales and Channel Management"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://jameszli.com/",
+        "expected_graduation_year": 2027,
+        "cv_url": "https://jameszli.com/assets/Zelin(James)Li_CV.pdf",
+        "jmp": "Innovation Choice and Supply-Side Inference",
+        "jmp_url": "https://jameszli.com/assets/Zelin(James)Li_CV.pdf",
+        "jmp_evidence": "October 2026 CV explicitly labels JOB MARKET PAPER.",
+        "methods": [
+          "field_experiment",
+          "causal",
+          "ml"
+        ],
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://mitsloan.mit.edu/phd/students/on-the-job-market"
+            ],
+            "quote": "Zelin (James) Li; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://jameszli.com/"
+            ],
+            "quote": "Ph.D. Candidate, Marketing (Quantitative)",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/phd/students/on-the-job-market",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://jameszli.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "mit-lei-huang",
+      "set": {
+        "name": "Lei Huang",
+        "school": "Massachusetts Institute of Technology",
+        "program_id": "massachusetts-institute-of-technology-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing",
+          "Market Design",
+          "Experimentation",
+          "Network Inference"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://www.leihuang.site/",
+        "expected_graduation_year": 2027,
+        "cv_url": "https://www.leihuang.site/cv/CV_Lei_Huang_June2026.pdf",
+        "jmp": "Designing Self-Sustaining Markets: An Application to Content Platforms",
+        "jmp_url": "https://www.leihuang.site/cv/CV_Lei_Huang_June2026.pdf",
+        "jmp_evidence": "Author CV explicitly marks Job Market Paper.",
+        "methods": [
+          "ml",
+          "theory"
+        ],
+        "research_inference": {
+          "status": "provisional",
+          "tracks": [
+            "qm"
+          ],
+          "reason": "Official Marketing group and author theory/empirical research; no explicit Quant subtrack found.",
+          "source_urls": [
+            "https://mitsloan.mit.edu/phd/students/on-the-job-market",
+            "https://www.leihuang.site/"
+          ],
+          "checked_at": "2026-11-17"
+        },
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://mitsloan.mit.edu/phd/students/on-the-job-market"
+            ],
+            "quote": "Lei Huang; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/phd/students/on-the-job-market",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://www.leihuang.site/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "berkeley-kristine-cho",
+      "set": {
+        "name": "Kristine Cho",
+        "school": "University of California, Berkeley",
+        "program_id": "university-of-california-berkeley-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Behavioral Marketing",
+          "Judgment and Decision Making"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://kristinecho.com/",
+        "jmp": "When Stating the Obvious Backfires: Consumers Dislike Products that Advertise Positive but Obvious Attributes",
+        "jmp_url": "https://haas.berkeley.edu/phd/careers/job-market-candidates/",
+        "jmp_evidence": "Official candidate table column is Job Market Paper.",
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://haas.berkeley.edu/phd/careers/job-market-candidates/"
+            ],
+            "quote": "Kristine Cho; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://kristinecho.com/"
+            ],
+            "quote": "Behavioral Marketing Ph.D. Candidate",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://haas.berkeley.edu/phd/careers/job-market-candidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://kristinecho.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "berkeley-peiyao-li",
+      "set": {
+        "name": "Peiyao Li",
+        "school": "University of California, Berkeley",
+        "program_id": "university-of-california-berkeley-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing",
+          "Brand Perception",
+          "AI Models in Business Research"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://www.peiyao-li.com/",
+        "jmp": "No Spoilers: A Contamination-Free LLM for Brand Perception Analysis",
+        "jmp_url": "https://www.peiyao-li.com/",
+        "jmp_evidence": "Both official candidate table and author page explicitly label Job Market Paper.",
+        "methods": [
+          "ml",
+          "nlp"
+        ],
+        "research_inference": {
+          "status": "provisional",
+          "tracks": [
+            "qm"
+          ],
+          "reason": "Marketing measurement/modeling research; explicit formal Quant subtrack not found.",
+          "source_urls": [
+            "https://haas.berkeley.edu/phd/careers/job-market-candidates/",
+            "https://www.peiyao-li.com/"
+          ],
+          "checked_at": "2026-11-17"
+        },
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://haas.berkeley.edu/phd/careers/job-market-candidates/"
+            ],
+            "quote": "Peiyao Li; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://haas.berkeley.edu/phd/careers/job-market-candidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://www.peiyao-li.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "utd-simon-kim",
+      "set": {
+        "name": "Seung Mok (Simon) Kim",
+        "school": "University of Texas at Dallas",
+        "program_id": "university-of-texas-at-dallas-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Online Experimentation",
+          "Retail",
+          "Health Care",
+          "Food Policy"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://www.kimsm.com/",
+        "aliases": [
+          "Simon Kim",
+          "Seung Mok Kim"
+        ],
+        "jmp": "Correcting Consent Bias in Online A/B Tests with Randomized Cookie Banner Designs",
+        "jmp_url": "https://www.kimsm.com/",
+        "jmp_evidence": "Author explicitly labels Job Market Paper.",
+        "field_evidence": "Author explicitly states Ph.D. candidate in Quantitative Marketing. Official student API was discoverable but full fetch returned 502; no complete roster claimed.",
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://www.kimsm.com/"
+            ],
+            "quote": "Seung Mok (Simon) Kim; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.kimsm.com/"
+            ],
+            "quote": "Ph.D. candidate in Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.kimsm.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "wisconsin-yepeng-jin",
+      "set": {
+        "name": "Yepeng Jin",
+        "school": "University of Wisconsin-Madison",
+        "program_id": "university-of-wisconsin-madison-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Social Media",
+          "Influencer Videos",
+          "Behavioral Economics"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://www.ypjin.com/homepage",
+        "methods": [
+          "ml",
+          "causal"
+        ],
+        "field_evidence": "Official profile links author site, which explicitly identifies Quantitative Marketing and the 2026–27 market. Official roster independently dates the season.",
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.wisc.edu/phd/job-candidates/"
+            ],
+            "quote": "Yepeng Jin; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.wisc.edu/phd/job-candidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://www.ypjin.com/homepage",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "wisconsin-jungeun-lim",
+      "set": {
+        "name": "Jungeun Lim",
+        "school": "University of Wisconsin-Madison",
+        "program_id": "university-of-wisconsin-madison-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://business.wisc.edu/directory/profile/jungeun-lim/",
+        "field_evidence": "Official profile confirms Marketing and official dated roster confirms market season; no subtrack or JMP inferred from a namesake or working paper.",
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.wisc.edu/phd/job-candidates/"
+            ],
+            "quote": "Jungeun Lim; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.wisc.edu/phd/job-candidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://business.wisc.edu/directory/profile/jungeun-lim/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "wisconsin-yohei-nishimura",
+      "set": {
+        "name": "Yohei Nishimura",
+        "school": "University of Wisconsin-Madison",
+        "program_id": "university-of-wisconsin-madison-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing",
+          "AI and Machine Learning",
+          "Economic Modeling",
+          "Bayesian Statistics"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://business.wisc.edu/directory/profile/yohei-nishimura/",
+        "methods": [
+          "ml",
+          "econometrics"
+        ],
+        "research_inference": {
+          "status": "provisional",
+          "tracks": [
+            "qm"
+          ],
+          "reason": "Official profile reports economic modeling and Bayesian/ML methods but does not identify a formal Quant subtrack.",
+          "source_urls": [
+            "https://business.wisc.edu/directory/profile/yohei-nishimura/"
+          ],
+          "checked_at": "2026-11-17"
+        },
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.wisc.edu/phd/job-candidates/"
+            ],
+            "quote": "Yohei Nishimura; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.wisc.edu/phd/job-candidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://business.wisc.edu/directory/profile/yohei-nishimura/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "unc-yimeng-margaret-cai",
+      "set": {
+        "name": "Yimeng (Margaret) Cai",
+        "school": "University of North Carolina at Chapel Hill",
+        "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Branding",
+          "Social Media Advertising",
+          "Influencer Marketing",
+          "Retailing"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://margaretcaim.github.io/",
+        "expected_graduation_year": 2027,
+        "methods": [
+          "causal",
+          "ml"
+        ],
+        "field_evidence": "Author explicitly identifies Quantitative Marketing and 2026–27 job market. Official current roster could not be retrieved. Withheld working paper is not guessed to be JMP.",
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://margaretcaim.github.io/"
+            ],
+            "quote": "Yimeng (Margaret) Cai; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://margaretcaim.github.io/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "nyu-steve-shitai-zhang",
+      "set": {
+        "name": "Steve (Shitai) Zhang",
+        "school": "New York University",
+        "program_id": "new-york-university-marketing",
+        "program": "PhD in Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Durable Product Adoption",
+          "Consumer Search",
+          "Sustainability"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://steveshitaizh.github.io/",
+        "jmp": "Co-Adoption of Durable Green Technologies and Financial Constraints",
+        "jmp_url": "https://steveshitaizh.github.io/research/",
+        "jmp_evidence": "Author research page explicitly labels Job Market Paper.",
+        "methods": [
+          "structural"
+        ],
+        "field_evidence": "Author explicitly identifies Quantitative Marketing and 2026/27 market. NYU official program page returned 403; no current roster completeness claim.",
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://steveshitaizh.github.io/"
+            ],
+            "quote": "Steve (Shitai) Zhang; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://steveshitaizh.github.io/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    },
+    {
+      "id": "hkust-ke-cheng-hsu",
+      "set": {
+        "name": "Ke-Cheng Hsu",
+        "school": "Hong Kong University of Science and Technology",
+        "program_id": "hong-kong-university-of-science-and-technology-economics",
+        "program": "PhD in Economics",
+        "origin": "HK",
+        "tracks": [
+          "qm",
+          "io"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Industrial Organization",
+          "Digital Economics"
+        ],
+        "market_cycle": "2026-2027",
+        "status": "on_market",
+        "job_kind": "on_market",
+        "homepage": "https://cliohsu1997.github.io/",
+        "aliases": [
+          "Ke Cheng Hsu",
+          "Clio Hsu"
+        ],
+        "jmp": "Designing Return Policy in E-Commerce: A Trade-off between Purchase and Return Efficiency",
+        "jmp_url": "https://cliohsu1997.github.io/",
+        "jmp_evidence": "Author explicitly labels Job Market Paper.",
+        "methods": [
+          "structural",
+          "theory"
+        ],
+        "field_evidence": "Economics training with explicitly self-reported Quantitative Marketing crossover. Official indexed candidate result corroborates; direct page fetch returned 502. Excluded from Marketing-program cohort denominator.",
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://cliohsu1997.github.io/"
+            ],
+            "quote": "Ke-Cheng Hsu; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://cliohsu1997.github.io/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Destination unobserved. An expected degree year is not an awarded degree; no complete-cohort inference."
+    }
+  ]
+}

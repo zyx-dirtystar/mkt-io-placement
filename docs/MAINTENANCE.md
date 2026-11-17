@@ -90,6 +90,8 @@ node scripts/apply-research-update.mjs data/research-updates/日期批次.json
 
 批次必须有明确 `checked_at`，建议有稳定 `id`，条目含 `id`、`set`、`sources` 和可选 `note`。无批次 ID 的旧格式以内容哈希作为身份。同 ID 同内容重复执行无修改；同 ID 改内容拒绝导入。需要更正时创建新 ID 的批次。
 
+教师扩展历史基线仍冻结。后续独立的 placement 增员或首职更正须先核验并应用研究批次，再把其路径登记到 `data/placement-reviewed-revisions.json`。校验仅接受与 `maintenance-batches.json` 内容哈希一致的批次，按顺序重放受保护字段并检查前置值；未登记的新增人物、未核验的首职更正或 faculty 批次仍会失败。不能为通过检查而改写历史基线或删除保护断言。
+
 旧批次默认不能覆盖较新核验日期的字段。确需采用较旧来源修正现值时，必须为每个改变的字段提供准确 `expected` 前置值；也可提供 `expected_checked_at` 或 `expected_hash` 进一步防止并发修改。即使采用较旧证据，人员核验日期也不会向后倒退。
 
 导入前先完成身份、项目、来源、最终安排证据、成员关系等验证。数据文件与批次台账在同一受锁事务中替换；普通异常自动回滚所有已替换文件。并发文件变化会中止，不覆盖他人的新修改。异常进程终止若留下 `.batch-import.lock` 和 `.batch-transaction-*`，先检查事务备份及 Git 差异再恢复，不能直接重复导入。

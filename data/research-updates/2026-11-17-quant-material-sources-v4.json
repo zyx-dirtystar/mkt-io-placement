@@ -1,0 +1,91 @@
+{
+  "id": "quant-cohorts-2026-11-17-material-sources-v4",
+  "checked_at": "2026-11-17",
+  "updates": [
+    {
+      "id": "duke-university-siddharth-prusty",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://siddharthprusty.com/",
+          "label": "Individually read author homepage / CV / JMP source",
+          "checked_at": "2026-11-17",
+          "supports": [
+            "homepage"
+          ]
+        }
+      ],
+      "note": "Register all reviewed material links as evidence sources as well as UI fields."
+    },
+    {
+      "id": "purdue-chaewon-seol",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://apps.it.purdue.edu/sites/Home/Files/User/e75e4a8c-38e3-4f32-9260-5fd0054435f5/DownloadCv",
+          "label": "Individually read author homepage / CV / JMP source",
+          "checked_at": "2026-11-17",
+          "supports": [
+            "cv_url"
+          ]
+        },
+        {
+          "url": "https://chaewonseol.github.io/research.html",
+          "label": "Individually read author homepage / CV / JMP source",
+          "checked_at": "2026-11-17",
+          "supports": [
+            "jmp_url"
+          ]
+        }
+      ],
+      "note": "Register all reviewed material links as evidence sources as well as UI fields."
+    },
+    {
+      "id": "mit-zelin-james-li",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://jameszli.com/assets/Zelin(James)Li_CV.pdf",
+          "label": "Individually read author homepage / CV / JMP source",
+          "checked_at": "2026-11-17",
+          "supports": [
+            "cv_url",
+            "jmp_url"
+          ]
+        }
+      ],
+      "note": "Register all reviewed material links as evidence sources as well as UI fields."
+    },
+    {
+      "id": "mit-lei-huang",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.leihuang.site/cv/CV_Lei_Huang_June2026.pdf",
+          "label": "Individually read author homepage / CV / JMP source",
+          "checked_at": "2026-11-17",
+          "supports": [
+            "cv_url",
+            "jmp_url"
+          ]
+        }
+      ],
+      "note": "Register all reviewed material links as evidence sources as well as UI fields."
+    },
+    {
+      "id": "nyu-steve-shitai-zhang",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://steveshitaizh.github.io/research/",
+          "label": "Individually read author homepage / CV / JMP source",
+          "checked_at": "2026-11-17",
+          "supports": [
+            "jmp_url"
+          ]
+        }
+      ],
+      "note": "Register all reviewed material links as evidence sources as well as UI fields."
+    }
+  ]
+}

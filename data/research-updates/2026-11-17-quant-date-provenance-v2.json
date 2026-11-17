@@ -1,0 +1,350 @@
+{
+  "id": "quant-cohorts-2026-11-17-date-provenance-v2",
+  "checked_at": "2026-11-17",
+  "updates": [
+    {
+      "id": "purdue-arindam-roy-chowdhury",
+      "expected": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.purdue.edu/academics/marketing/job-market-candidates.php"
+            ],
+            "quote": "Arindam Roy Chowdhury; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.purdue.edu/academics/marketing/job-market-candidates.php"
+            ],
+            "quote": "Expected Graduation Date: Summer 2027",
+            "status": "inferred",
+            "checked_at": "2026-11-17",
+            "annotation": "Market season inferred from the current official November 2026 candidate roster and expected 2027 graduation; not an awarded-degree date."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.purdue.edu/academics/marketing/job-market-candidates.php",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://business.purdue.edu/academics/marketing/images/arindamroychowdhury-cv-2027.pdf",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Retain explicit inference status or link the author page that actually states the market cycle."
+    },
+    {
+      "id": "purdue-chaewon-seol",
+      "expected": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.purdue.edu/academics/marketing/job-market-candidates.php"
+            ],
+            "quote": "Chaewon Seol; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://chaewonseol.github.io/"
+            ],
+            "quote": "Ph.D. Candidate in Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://business.purdue.edu/academics/marketing/job-market-candidates.php"
+            ],
+            "quote": "Expected Graduation Date: May 2027",
+            "status": "inferred",
+            "checked_at": "2026-11-17",
+            "annotation": "Market season inferred from the current official November 2026 candidate roster and expected 2027 graduation; not an awarded-degree date."
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://chaewonseol.github.io/"
+            ],
+            "quote": "Ph.D. Candidate in Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.purdue.edu/academics/marketing/job-market-candidates.php",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://chaewonseol.github.io/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Retain explicit inference status or link the author page that actually states the market cycle."
+    },
+    {
+      "id": "mit-lei-huang",
+      "expected": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://mitsloan.mit.edu/phd/students/on-the-job-market"
+            ],
+            "quote": "Lei Huang; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://www.leihuang.site/"
+            ],
+            "quote": "2026–2027 academic job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/phd/students/on-the-job-market",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://www.leihuang.site/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Retain explicit inference status or link the author page that actually states the market cycle."
+    },
+    {
+      "id": "mit-zelin-james-li",
+      "expected": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://mitsloan.mit.edu/phd/students/on-the-job-market"
+            ],
+            "quote": "Zelin (James) Li; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://jameszli.com/"
+            ],
+            "quote": "Ph.D. Candidate, Marketing (Quantitative)",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://jameszli.com/"
+            ],
+            "quote": "2026–2027 academic job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://jameszli.com/"
+            ],
+            "quote": "Ph.D. Candidate, Marketing (Quantitative)",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mitsloan.mit.edu/phd/students/on-the-job-market",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://jameszli.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Retain explicit inference status or link the author page that actually states the market cycle."
+    },
+    {
+      "id": "berkeley-kristine-cho",
+      "expected": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://haas.berkeley.edu/phd/careers/job-market-candidates/"
+            ],
+            "quote": "Kristine Cho; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://kristinecho.com/"
+            ],
+            "quote": "Behavioral Marketing Ph.D. Candidate",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://kristinecho.com/"
+            ],
+            "quote": "2026-2027 academic job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://kristinecho.com/"
+            ],
+            "quote": "Behavioral Marketing Ph.D. Candidate",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://haas.berkeley.edu/phd/careers/job-market-candidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://kristinecho.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Retain explicit inference status or link the author page that actually states the market cycle."
+    },
+    {
+      "id": "berkeley-peiyao-li",
+      "expected": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://haas.berkeley.edu/phd/careers/job-market-candidates/"
+            ],
+            "quote": "Peiyao Li; 2026–2027 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "set": {
+        "claims": [
+          {
+            "field": "market_cycle",
+            "value": "2026-2027",
+            "source_urls": [
+              "https://www.peiyao-li.com/"
+            ],
+            "quote": "2026-27 job market",
+            "status": "confirmed",
+            "checked_at": "2026-11-17"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://haas.berkeley.edu/phd/careers/job-market-candidates/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://www.peiyao-li.com/",
+          "label": "Official roster / author evidence",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "note": "Retain explicit inference status or link the author page that actually states the market cycle."
+    }
+  ]
+}

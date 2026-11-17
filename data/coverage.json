@@ -580,14 +580,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd"
+        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "columbia-university-marketing",
@@ -603,14 +604,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd"
+        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "columbia-university-marketing",
@@ -624,14 +626,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd"
+        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "columbia-university-marketing",
@@ -644,26 +647,33 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd"
+        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "columbia-university-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "insufficient",
     "listed_count": null,
     "record_ids": [],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+        "label": "Official current roster review",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Current-student directory does not establish a season roster. Existing independently confirmed Penny Chen retained; no other current student auto-imported."
   },
   {
     "program_id": "drexel-university-marketing",
@@ -735,14 +745,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "duke-university-marketing",
@@ -756,14 +767,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "duke-university-marketing",
@@ -776,14 +788,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "duke-university-marketing",
@@ -795,14 +808,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方 Marketing placement / 毕业生名单",
-        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/"
+        "url": "https://areas.fuqua.duke.edu/marketing/ph-d-program/placement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入所核对来源该年列出的 Marketing 人员；已对齐仅指本来源，不证明整届完整。 "
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "duke-university-marketing",
@@ -1390,14 +1404,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+        "url": "https://www.hbs.edu/doctoral/placement/marketing",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "harvard-university-marketing",
@@ -1409,14 +1424,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+        "url": "https://www.hbs.edu/doctoral/placement/marketing",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "harvard-university-marketing",
@@ -1428,14 +1444,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+        "url": "https://www.hbs.edu/doctoral/placement/marketing",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "harvard-university-marketing",
@@ -1447,26 +1464,33 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.hbs.edu/doctoral/placement/marketing"
+        "url": "https://www.hbs.edu/doctoral/placement/marketing",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入此来源表该年所列全部 Marketing 人员；尚未与独立毕业生/候选人名册交叉确认整届完整性。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "harvard-university-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "insufficient",
     "listed_count": null,
     "record_ids": [],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://www.hbs.edu/doctoral/placement/students-job-market",
+        "label": "Official current roster review",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "School-wide current market page was read but no Marketing section was available in the extracted content. Does not establish zero Marketing candidates."
   },
   {
     "program_id": "indiana-university-marketing",
@@ -1941,14 +1965,33 @@
   {
     "program_id": "massachusetts-institute-of-technology-marketing",
     "period": "2026-2027",
-    "status": "not_started",
-    "listed_count": null,
-    "record_ids": [],
+    "status": "source_reconciled",
+    "listed_count": 2,
+    "record_ids": [
+      "mit-lei-huang",
+      "mit-zelin-james-li"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://mitsloan.mit.edu/phd/students/on-the-job-market",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://www.leihuang.site/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://jameszli.com/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Both Marketing-group names reconciled; authors independently state 2026–27 season. Does not certify every Marketing graduate or a final season roster."
   },
   {
     "program_id": "michigan-state-university-marketing",
@@ -2272,14 +2315,22 @@
   {
     "program_id": "new-york-university-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "nyu-steve-shitai-zhang"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://steveshitaizh.github.io/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Author-confirmed Quant and 2026/27 season; official program page returned 403. Other candidates may remain uncollected."
   },
   {
     "program_id": "northwestern-university-marketing",
@@ -2287,19 +2338,20 @@
     "status": "source_reconciled",
     "listed_count": 2,
     "record_ids": [
-      "yingkang-xie-2023",
-      "youngeun-lee-2023"
+      "youngeun-lee-2023",
+      "yingkang-xie-2023"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "northwestern-university-marketing",
@@ -2307,21 +2359,22 @@
     "status": "source_reconciled",
     "listed_count": 4,
     "record_ids": [
-      "malika-korganbekova-2024",
       "northwestern-julia-jeong",
+      "malika-korganbekova-2024",
       "northwestern-jane-jiaqian-wang",
       "northwestern-bindan-zhang"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "northwestern-university-marketing",
@@ -2337,14 +2390,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "northwestern-university-marketing",
@@ -2359,14 +2413,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/"
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已对齐 Kellogg Marketing placement 表该年全部姓名；还未以完整毕业生及求职者名册证明整届分母。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "northwestern-university-marketing",
@@ -2374,20 +2429,21 @@
     "status": "source_reconciled",
     "listed_count": 3,
     "record_ids": [
-      "northwestern-samuel-su",
+      "northwestern-andrew-wooders",
       "northwestern-caroline-wang",
-      "northwestern-andrew-wooders"
+      "northwestern-samuel-su"
     ],
     "year_basis": "market_cycle",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "Kellogg 2026–27 滚动名单",
-        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/"
+        "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobmarketcandidates/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "2026-10-08 已对齐官方 Marketing 栏目前列出的 Samuel Su、Caroline Wang、Andrew Wooders 三人。官网说明名单仍会更新，因此不是最终完整 cohort。"
+    "notes": "All three currently published Marketing names reconciled; official page says information will be updated as available. No complete-cohort claim."
   },
   {
     "program_id": "the-ohio-state-university-marketing",
@@ -2797,14 +2853,23 @@
   {
     "program_id": "purdue-university-marketing",
     "period": "2026-2027",
-    "status": "not_started",
-    "listed_count": null,
-    "record_ids": [],
+    "status": "source_reconciled",
+    "listed_count": 2,
+    "record_ids": [
+      "purdue-arindam-roy-chowdhury",
+      "purdue-chaewon-seol"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://business.purdue.edu/academics/marketing/job-market-candidates.php",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Both currently listed names reconciled. 2026–27 season inferred from current November 2026 roster and expected 2027 graduation; not independently a full graduating-cohort count."
   },
   {
     "program_id": "rutgers-university-marketing",
@@ -3766,14 +3831,33 @@
   {
     "program_id": "university-of-california-berkeley-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "berkeley-kristine-cho",
+      "berkeley-peiyao-li"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://haas.berkeley.edu/phd/careers/job-market-candidates/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://haas.berkeley.edu/phd/community/student-profiles/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://www.amandageiser.com/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Official candidate table has three names including Amanda Geiser, who is already placed in the official 2026 graduation/placement list and on her current website. Student profiles also mark Mengyao Huang as a job candidate without an explicit season. Only Cho and Li independently confirm 2026–27. No zero or whole-roster claim."
   },
   {
     "program_id": "university-of-california-irvine-marketing",
@@ -4149,26 +4233,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-22",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
-      },
-      {
-        "url": "https://knowledge.uchicago.edu/records/7cqg4-nnh43",
-        "label": "Shweta Desiraju博士论文（2023-08，和2024去向表年份不同）"
-      },
-      {
-        "url": "https://knowledge.uchicago.edu/records/gn2kn-13550",
-        "label": "Yuxiao Li博士论文（2024-08）"
-      },
-      {
-        "url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf",
-        "label": "Daniel Katz本人CV：2024博士与任职"
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "2026-10-22复核：官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。",
+    "notes": "Official outcomes are explicitly posted on a rolling basis; the 2026 list is provisional, not a whole-cohort count. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained.",
     "completeness_status": "unconfirmed",
     "completeness_evidence": [],
     "roster_audit": {
@@ -4192,26 +4265,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-22",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
-      },
-      {
-        "url": "https://knowledge.uchicago.edu/records/7cqg4-nnh43",
-        "label": "Shweta Desiraju博士论文（2023-08，和2024去向表年份不同）"
-      },
-      {
-        "url": "https://knowledge.uchicago.edu/records/gn2kn-13550",
-        "label": "Yuxiao Li博士论文（2024-08）"
-      },
-      {
-        "url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf",
-        "label": "Daniel Katz本人CV：2024博士与任职"
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "2026-10-22复核：官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。",
+    "notes": "Official outcomes are explicitly posted on a rolling basis; the 2026 list is provisional, not a whole-cohort count. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained.",
     "completeness_status": "unconfirmed",
     "completeness_evidence": [],
     "roster_audit": {
@@ -4232,26 +4294,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-22",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
-      },
-      {
-        "url": "https://knowledge.uchicago.edu/records/7cqg4-nnh43",
-        "label": "Shweta Desiraju博士论文（2023-08，和2024去向表年份不同）"
-      },
-      {
-        "url": "https://knowledge.uchicago.edu/records/gn2kn-13550",
-        "label": "Yuxiao Li博士论文（2024-08）"
-      },
-      {
-        "url": "https://damore-mckim.northeastern.edu/wp-content/uploads/2024/08/CV-Northeastern.pdf",
-        "label": "Daniel Katz本人CV：2024博士与任职"
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "2026-10-22复核：官方career outcomes表成员已对齐；独立论文库和CV只覆盖部分人，论文提交年不等于学位年或去向表年，没有全届独立名册。",
+    "notes": "Official outcomes are explicitly posted on a rolling basis; the 2026 list is provisional, not a whole-cohort count. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained.",
     "completeness_status": "unconfirmed",
     "completeness_evidence": [],
     "roster_audit": {
@@ -4275,26 +4326,33 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "本批核对的官方名单",
-        "url": "https://www.chicagobooth.edu/phd/career-outcomes"
+        "url": "https://www.chicagobooth.edu/phd/career-outcomes",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已录入目前表中所有 Marketing 人员；官网明确 2026 名单仍会更新。"
+    "notes": "Official outcomes are explicitly posted on a rolling basis; the 2026 list is provisional, not a whole-cohort count. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "university-of-chicago-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "insufficient",
     "listed_count": null,
     "record_ids": [],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://www.chicagobooth.edu/phd/job-market-candidates",
+        "label": "Official current roster review",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Official page says 2026–27 names are added on a rolling basis. No Marketing-specific names available in the extracted content; Chanwool Kim is an Economics-program crossover and is not a Booth Marketing member."
   },
   {
     "program_id": "university-of-cincinnati-marketing",
@@ -5927,14 +5985,22 @@
   {
     "program_id": "university-of-north-carolina-at-chapel-hill-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "unc-yimeng-margaret-cai"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://margaretcaim.github.io/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Author-confirmed Quant and 2026–27 season; official current roster could not be retrieved. No completeness inference."
   },
   {
     "program_id": "university-of-north-texas-marketing",
@@ -6126,18 +6192,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-22",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
-      },
-      {
-        "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf",
-        "label": "官方2022–23博士手册：在读身份交叉核验，非毕业生全名册"
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "2026-10-22复核：官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。",
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained.",
     "completeness_status": "unconfirmed",
     "completeness_evidence": [],
     "roster_audit": {
@@ -6159,18 +6222,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-22",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
-      },
-      {
-        "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf",
-        "label": "官方2022–23博士手册：在读身份交叉核验，非毕业生全名册"
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "2026-10-22复核：官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。",
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained.",
     "completeness_status": "unconfirmed",
     "completeness_evidence": [],
     "roster_audit": {
@@ -6186,28 +6246,25 @@
     "status": "source_reconciled",
     "listed_count": 7,
     "record_ids": [
-      "hangcheng-zhao-2025",
-      "yihao-yuan-2025",
       "penn-shannon-duncan",
       "penn-henrique-laurino",
       "penn-ekaterina-goncharova",
       "penn-anna-gao",
-      "penn-siyuan-yin"
+      "penn-siyuan-yin",
+      "yihao-yuan-2025",
+      "hangcheng-zhao-2025"
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-22",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
-      },
-      {
-        "url": "https://marketing.wharton.upenn.edu/wp-content/uploads/2023/04/Marketing-Dept-PhD-Manual-2022-23-Rev.pdf",
-        "label": "官方2022–23博士手册：在读身份交叉核验，非毕业生全名册"
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "2026-10-22复核：官方Recent Alumni表的Year明确为学位授予年；旧博士手册可支持在读身份，不能独立穷尽2023–25各届全部毕业生。",
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained.",
     "completeness_status": "unconfirmed",
     "completeness_evidence": [],
     "roster_audit": {
@@ -6229,14 +6286,15 @@
     ],
     "year_basis": "source_table_year",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
-        "label": "官方年度来源",
-        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/"
+        "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
       }
     ],
-    "notes": "已对齐近期首职表本毕业年全部姓名；Year 明确为学位授予年。人物可有未确认的首职日期或雇主，仍保留入库，不等于全部毕业生均已查全。"
+    "notes": "Published source rows reconciled; no independent whole-cohort count supplied. Table year and job-start year remain independent. All three Marketing tracks and industry outcomes retained."
   },
   {
     "program_id": "university-of-pennsylvania-marketing",
@@ -6246,14 +6304,14 @@
     "record_ids": [],
     "year_basis": "market_cycle",
     "cohort_complete": false,
-    "checked_at": "2026-10-08",
+    "checked_at": "2026-11-17",
     "sources": [
       {
         "label": "Wharton 当前博士生目录",
         "url": "https://marketing.wharton.upenn.edu/contact-us/phdstudentscontact/"
       }
     ],
-    "notes": "当前博士生目录有姓名，但未明确这些人属于 2026–27 求职季；不能把全体在读博士生当作本季求职者。尚未核实完整当季名单。"
+    "notes": "Current doctoral-student directory does not identify a current market cohort. Profile fetches for selected senior students failed; do not treat every PhD student as a candidate."
   },
   {
     "program_id": "university-of-pittsburgh-marketing",
@@ -7017,14 +7075,28 @@
   {
     "program_id": "university-of-texas-at-dallas-marketing",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "anmol-madan-2026-27",
+      "utd-simon-kim"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://anmolmadan.me/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://www.kimsm.com/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Two authors explicitly confirm Quant and 2026–27. Official student API was discoverable in search but full fetch returned 502; no whole-roster count."
   },
   {
     "program_id": "university-of-texas-at-el-paso-marketing",
@@ -7492,14 +7564,64 @@
   {
     "program_id": "university-of-wisconsin-madison-marketing",
     "period": "2026-2027",
-    "status": "not_started",
-    "listed_count": null,
-    "record_ids": [],
+    "status": "source_reconciled",
+    "listed_count": 3,
+    "record_ids": [
+      "wisconsin-yepeng-jin",
+      "wisconsin-jungeun-lim",
+      "wisconsin-yohei-nishimura"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://business.wisc.edu/phd/job-candidates/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/yepeng-jin/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/jungeun-lim/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/yohei-nishimura/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/brayden-bulloch/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/leitao-fu/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/yuwen-ji/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/yi-li/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      },
+      {
+        "url": "https://business.wisc.edu/directory/profile/soojin-iris-park/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "All eight school-wide candidate profiles checked for department: three are Marketing; five from Accounting, Finance, Real Estate, Management, and Insurance excluded. Official current list aligned, not independently certified complete."
   },
   {
     "program_id": "university-of-wisconsin-milwaukee-marketing",
@@ -11033,14 +11155,22 @@
   {
     "program_id": "hong-kong-university-of-science-and-technology-economics",
     "period": "2026-2027",
-    "status": "not_started",
+    "status": "partial",
     "listed_count": null,
-    "record_ids": [],
+    "record_ids": [
+      "hkust-ke-cheng-hsu"
+    ],
     "year_basis": null,
     "cohort_complete": false,
-    "checked_at": null,
-    "sources": [],
-    "notes": "尚未逐人核对该项目该年完整名册。"
+    "checked_at": "2026-11-17",
+    "sources": [
+      {
+        "url": "https://cliohsu1997.github.io/",
+        "label": "Official roster / corroborating author source",
+        "checked_at": "2026-11-17"
+      }
+    ],
+    "notes": "Economics candidate with explicitly declared Quant Marketing crossover, corroborated by indexed official 2026–27 roster. Direct official page returned 502. This is an IO/Quant subset, not the whole Economics cohort."
   },
   {
     "program_id": "university-of-california-berkeley-economics",

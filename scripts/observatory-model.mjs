@@ -77,6 +77,7 @@ export function buildObservatory({records,programs,coverage,faculty={},scope,con
   function claim(p,field,value,details={}) {
     const id=`${p.id}:${field}:${digest({value,status:details.status||'legacy_reference',quote:details.quote||null}).slice(0,10)}`;
     const c={id,person_id:p.id,field,value,status:'legacy_reference',source_urls:urls(p.sources),quote:null,source_date:null,fetched_at:null,checked_at:p.checked_at||null,conflict:null,...details};
+    if(c.status==='inferred'){c.status_raw='inferred';c.status='provisional';}
     if(!['confirmed','provisional','conflict','legacy_reference'].includes(c.status))c.status='legacy_reference';
     if(c.status==='confirmed'&&(!c.quote||!c.source_urls.length))c.status='legacy_reference';
     if(!claims.some(x=>x.id===id))claims.push(c);return id;

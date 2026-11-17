@@ -2,9 +2,11 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-网站版本 1.3.1；参考资料及部分招聘复核截至 2026-11-17，人物事实观察截止仍为 2026-11-02。本版新增 Market references：31 条官方入口与可比项目，覆盖 Quant、CB、Strategy，优先补齐 Quant 的 Marketing / IO 双渠道。参考用途、阅读限制、调查样本与项目缺口分别展示；重新核查 4 条招聘并新增 2 条 Quant 广告，区分申请截止、优先审阅及广告结束日。完整调研、实际修改与后续补全标准见 [参考项目与市场资料审计](docs/MARKET-REFERENCE-REVIEW-2026-11-17.md)。
+网站版本 1.3.2；本轮优先补 Quant：新增 13 位当季候选人，复核 72 份既有档案，按学校和年份核对 37 个单元，28 个对齐所读名单。CB 与 Strategy 同时复核；具体年份、来源、未知与冲突见 [Quant 候选人与年度名单审计](docs/QUANT-COHORT-REVIEW-2026-11-17.md)。个人字段使用各自复核日期，统一职业窗口截止保留 2026-11-02，避免把局部补查误作所有人物连续任职的新证据。
 
-人物资料仍为 308 条 placement 档案、1,358 位教师、0 个已确认完整 cohort。上一轮 727 份教师基础信息修订及未解决缺口见 [2026-11-02 报告](docs/FACULTY-BASICS-2026-11-02.md)；旧日期报告保留其历史口径。新增来源入口不代表重核了所有人物，也不表示已完整覆盖全球市场。
+上一版建立 Market references：31 条官方入口与可比项目，覆盖 Quant、CB、Strategy，并修订部分招聘日期。完整调研与统计边界见 [参考项目与市场资料审计](docs/MARKET-REFERENCE-REVIEW-2026-11-17.md)。
+
+人物资料现为 321 条 placement 档案，其中 30 人记录在 2026–27 求职季；1,358 位教师独立保存，完整 cohort 仍为 0。已对齐官方网页中的所有名单行不等于已证明整届完整。上一轮教师基础信息修订及缺口见 [2026-11-02 报告](docs/FACULTY-BASICS-2026-11-02.md)；旧报告保留其历史快照，不表示已完整覆盖全球市场。
 
 ## 网站功能
 

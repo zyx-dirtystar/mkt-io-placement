@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
+import {reviewedPlacementState} from './placement-reviewed-state.mjs';
 import {receivingProgress,hasDatedCareer,FACULTY_TYPES} from '../dist/faculty.js';
 const read=f=>JSON.parse(fs.readFileSync(f,'utf8'));
 const c=read('dist/data/catalog.json'),a=c.faculty,plan=read('data/faculty-scope-macao-australia-2026-10-23.json');
@@ -21,8 +22,9 @@ const batch={people:allBatches.flatMap(b=>b.people)};
 const oldIds=new Set(baseline.people.map(p=>p.id)),newHosts=new Map(plan.schools.map(h=>[h.id,h]));
 assert.equal(baseline.people.length,1114);assert.equal(baseline.hosts.length,67);
 for(const b of baseline.people){const p=a.people.find(p=>p.id===b.id);assert.ok(p,'Lost existing faculty '+b.id);const review=reviewed.get(b.id);if(review){assert.equal(hash(review.before),b.snapshot_sha256);assert.equal(hash(p),review.after_sha256);assert.ok(batch.people.some(x=>x.existing_faculty_id===p.id));}else assert.equal(hash(p),b.snapshot_sha256,'Existing faculty evidence changed without reviewed batch '+b.id);if(hash(p.current)!==hash(b.current)){assert.ok(review,'Unreviewed change to existing appointment '+b.id);for(const k of new Set([...Object.keys(p.current),...Object.keys(b.current)])){if(hash(p.current[k]??null)===hash(b.current[k]??null))continue;validateCurrentChange(p,k)}}if(!reviewed.has(b.id))assert.deepEqual(p.phd,b.phd,'Unreviewed change to existing degree '+b.id);}
-assert.deepEqual(records.map(r=>r.id).sort(),baseline.placement_facts.map(r=>r.id).sort(),'Receiving extension cannot add placement people');
-for(const b of baseline.placement_facts){const p=records.find(p=>p.id===b.id);for(const k of Object.keys(b))assert.deepEqual(p[k],b[k],'Placement history changed '+b.id+' / '+k);}
+const placementExpected=reviewedPlacementState(baseline);
+assert.deepEqual(records.map(r=>r.id).sort(),placementExpected.ids,'Receiving extension cannot add placement people without separately reviewed research');
+for(const b of placementExpected.facts){const p=records.find(p=>p.id===b.id);for(const k of Object.keys(b))assert.deepEqual(p[k],b[k],'Placement history changed without reviewed research '+b.id+' / '+k);}
 const added=a.people.filter(p=>!oldIds.has(p.id));
 assert.ok(added.length>0,'Extension must contain verified faculty, not empty school shells');
 for(const p of added){
