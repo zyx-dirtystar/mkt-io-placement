@@ -102,7 +102,18 @@ export function fixedWindowObservation(person,events=[],years=1,asOf=''){
 }
 export function observationSummary(records,observatory={},years=1){const rows=records.map(r=>fixedWindowObservation(r,arr(observatory.events),years,observatory.as_of));const counts={};for(const r of rows)counts[r.status]=(counts[r.status]||0)+1;return {rows,counts,total:rows.length,known:counts.observed||0};}
 export function normalizedJobs(observatory={},catalog={}){const input=observatory.jobs||catalog.jobs||[];return arr(Array.isArray(input)?input:input.jobs||input.postings).map(j=>({...j,institution:j.institution||j.school||j.employer||'Institution unknown',tracks:arr(j.tracks),sources:arr(j.sources),positions:Number.isInteger(j.positions)&&j.positions>=0?j.positions:null}));}
-export function jobState(job,asOf){const date=String(asOf||'').slice(0,10);if(job.deadline&&date&&String(job.deadline)<date)return 'historical';if(['closed','expired','historical','filled','withdrawn'].includes(job.status))return 'historical';if(['active','open','current','in_progress'].includes(job.status))return 'active';return 'unknown';}
+export function jobTiming(job,asOf){
+ const date=String(asOf||'').slice(0,10),valid=v=>/^\d{4}-\d{2}-\d{2}$/.test(v||'');
+ const application_deadline=job.application_deadline||(job.deadline_kind==='priority'?null:job.deadline)||null;
+ const priority_deadline=job.priority_deadline||(job.deadline_kind==='priority'?job.deadline:null)||null;
+ const passed=value=>valid(value)&&valid(date)&&value<date;
+ let state='unknown';
+ if(['closed','expired','historical','filled','withdrawn'].includes(job.status)||passed(application_deadline))state='historical';
+ else if(passed(job.posting_end_date))state='unknown';
+ else if(['active','open','current','in_progress'].includes(job.status))state='active';
+ return {state,application_deadline,priority_deadline,priority_passed:passed(priority_deadline),posting_ended:passed(job.posting_end_date),reference_date:date};
+}
+export function jobState(job,asOf){return jobTiming(job,asOf).state;}
 export function filterJobs(jobs,f={},asOf=''){return jobs.filter(j=>(!f.q||[j.institution,j.department,j.title,...j.tracks].filter(Boolean).join(' ').toLowerCase().includes(f.q.toLowerCase()))&&(!f.cycle||f.cycle==='all'||j.cycle===f.cycle)&&(!f.region||f.region==='all'||j.region===f.region)&&(!f.track||f.track==='all'||j.tracks.includes(f.track))&&(!f.status||f.status==='all'||jobState(j,asOf)===f.status)&&(!f.family||f.family==='all'||j.job_family===f.family)&&(!f.institution||f.institution==='all'||j.institution===f.institution)&&(!f.title||f.title==='all'||j.title===f.title));}
 export function csvCell(value){let s=typeof value==='object'&&value!==null?JSON.stringify(value):String(value??'');if(/^[=+@\-\t\r]/.test(s))s="'"+s;return '"'+s.replaceAll('"','""')+'"';}
 export function datasetCsv(rows,columns,meta={}){const metaColumns=Object.keys(meta).map(k=>'_'+k);const names=[...metaColumns,...columns];return '\uFEFF'+[names.map(csvCell).join(','),...rows.map(row=>names.map(key=>csvCell(key.startsWith('_')?meta[key.slice(1)]:row[key])).join(','))].join('\r\n');}

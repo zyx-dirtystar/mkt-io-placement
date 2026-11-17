@@ -15,6 +15,7 @@ node scripts/check-placement.mjs
 node scripts/check-evidence.mjs
 node scripts/check-faculty.mjs
 node scripts/check-observatory.mjs
+node scripts/check-market-resources.mjs
 node --test scripts/tests/*.test.mjs tests/*.test.mjs
 node scripts/release-report.mjs
 node server.mjs
@@ -73,7 +74,13 @@ Marketing 与 IO 使用各自版本的范围。统一核验单元提供八类状
 
 项目比较必须明确来源年、毕业年、求职季或首职年。完整性只适用于被核验的名单与时间轴，不能借另一年的完整名单过滤当前记录。固定职业窗口保留未达到观察时长、毕业日期未知、连续任职证据不足及多重任职状态。历史开放结束时间不自动表示持续在职；当前任职观察也不能超过其真实核验日期。
 
-招聘数据保存广告 ID、招聘季、机构／院系、研究标签、职级、岗位性质、来源和核验时间。跨平台公告通过明确匹配的来源归在同条记录；广告数、已公布招聘人数和实际聘用人数分别处理。未知人数为 null，零值保持为 0。过了明确截止日期的岗位在界面归历史，即使源记录尚未更新为 closed。
+招聘数据保存广告 ID、招聘季、机构／院系、研究标签、职级、岗位性质、来源和核验时间。跨平台公告通过明确匹配的来源归在同条记录；广告数、已公布招聘人数和实际聘用人数分别处理。未知人数为 null，零值保持为 0。
+
+`deadline` 为兼容字段；明确最终申请日标注 `deadline_kind: application`，旧资料只有优先日期时标注 `priority`。也可分别写 `application_deadline`、`priority_deadline`、`posting_end_date` 和原文 `search_status`。`jobTiming` 只在精确日级申请截止早于浏览当天 UTC 日期时归历史；优先审阅日已过不自动关闭，广告结束且没有明确关闭证据则标待核验。当天不按未知时区抢先关闭。来源明确 closed／filled／withdrawn 等状态优先；closed 不证明 hires。界面默认显示最近核验为 open 且明确申请日未过的记录，同时标明实际 `checked_at`。导出保留原始与有效状态以及日期判断口径。
+
+`data/market-resources.json` 是参考入口注册表，随生成脚本进入两个 catalog。每项必须有原始 URL、来源类型、适用方向、用途、年度、复核日期、读取状态及限制；`read`、`limited`、`redirect`、`demo` 不可混用。方向仅用于资源发现，不用于给人物分类。`survey` 独立保存报告及各题 n，不并入 placement 分母，也不把匿名调查连接到具名人物。资源校验生成对应日期的 `market-reference-audit`；实际调研边界见 [2026-11-17 审计](MARKET-REFERENCE-REVIEW-2026-11-17.md)。
+
+`config.updated_at` 是数据版本日期，`config.observation_as_of` 是人物事实观察截止。补入口或重查部分招聘只更新相关来源日期，不自动推进人物观察窗口。网页变化监测也不自动导入参考页里的候选人或招聘广告。
 
 ## 安全导入经核验批次
 

@@ -2,7 +2,9 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-网站版本 1.3.0；基础信息复核截至 2026-11-02。本轮修订 727 个既有档案：补 511 人研究描述、338 人学院／院系（136 个系级、202 个学院级）和两位北大老师职称。教师总数仍为 1,358，学校／职称均有记录；院系／学院仍缺 52、研究描述仍缺 522。两位北大职称有独立证据，但实时目录任职仍待核对。博士年份仍缺 331、带日期职业记录仍缺 396，未新增完整职业路径或完整 cohort。实际证据、读取失败与计数见 [本轮报告](docs/FACULTY-BASICS-2026-11-02.md)。旧日期报告保留其历史口径。
+网站版本 1.3.1；参考资料及部分招聘复核截至 2026-11-17，人物事实观察截止仍为 2026-11-02。本版新增 Market references：31 条官方入口与可比项目，覆盖 Quant、CB、Strategy，优先补齐 Quant 的 Marketing / IO 双渠道。参考用途、阅读限制、调查样本与项目缺口分别展示；重新核查 4 条招聘并新增 2 条 Quant 广告，区分申请截止、优先审阅及广告结束日。完整调研、实际修改与后续补全标准见 [参考项目与市场资料审计](docs/MARKET-REFERENCE-REVIEW-2026-11-17.md)。
+
+人物资料仍为 308 条 placement 档案、1,358 位教师、0 个已确认完整 cohort。上一轮 727 份教师基础信息修订及未解决缺口见 [2026-11-02 报告](docs/FACULTY-BASICS-2026-11-02.md)；旧日期报告保留其历史口径。新增来源入口不代表重核了所有人物，也不表示已完整覆盖全球市场。
 
 ## 网站功能
 
@@ -13,6 +15,7 @@
 - 培养项目 → 研究方向 → 接收机构 / 院系流向图及可核对的人员明细表。
 - 职业事件时间线、字段级来源、证据状态、原文与冲突；普通工作论文不自动标作 JMP。
 - 公开招聘公告筛选及去重，招聘人数未公布时为未知，过期与当前岗位分开。
+- Market references 按方向、问题和来源类型筛选，记录版本与访问限制；独立展示 DocSIG 调查基准、项目覆盖缺口与可借鉴设计。
 - 数据质量、历史基线变化、来源新鲜度、冲突与待核验队列。
 - URL 保存筛选、个人固定链接、CSV / JSON 导出，导出保留口径和证据引用。
 - 教师反查默认进入 People：默认紧凑表格，可切换卡片；四项主筛选、高级筛选与20人分页；独立学校详情呈现教师、博士来源、研究与招聘；School coverage 单独呈现七地区逐校状态、核验详情和具体缺口。既有进度 URL、人员固定链接及导出保持兼容。
@@ -29,6 +32,7 @@ node scripts/check.mjs
 node scripts/check-placement.mjs
 node scripts/check-evidence.mjs
 node scripts/check-faculty.mjs
+node scripts/check-market-resources.mjs
 node --test
 node server.mjs
 ```

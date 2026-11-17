@@ -1,0 +1,33 @@
+{
+  "reviewed_at": "2026-11-17",
+  "person_observation_as_of": "2026-11-02",
+  "scope": "A reviewed starting map for Marketing PhD job seekers across Quant / Modeling, Consumer Behavior and Strategy, with separate Economics / IO complements. Not an exhaustive directory or market census.",
+  "resources": 31,
+  "access_counts": {
+    "read": 24,
+    "limited": 5,
+    "redirect": 1,
+    "demo": 1
+  },
+  "snapshot": {
+    "placement_records": 308,
+    "faculty_profiles": 1358,
+    "current_candidates": 17,
+    "job_advertisements": 18,
+    "complete_cohorts": 0,
+    "marketing_records": 281,
+    "marketing_unclassified": 140,
+    "recorded_tracks": {
+      "qm": 74,
+      "cb": 64,
+      "strategy": 3,
+      "io": 48
+    }
+  },
+  "limitations": [
+    "Resource relevance is not a person-level research classification.",
+    "An access attempt does not refresh person evidence.",
+    "Survey respondent totals do not enter placement denominators.",
+    "No new complete-cohort claims or globally exhaustive job coverage."
+  ]
+}

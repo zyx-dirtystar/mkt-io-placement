@@ -1,0 +1,404 @@
+{
+  "id": "market-reference-jobs-2026-11-17",
+  "checked_at": "2026-11-17",
+  "base_jobs_sha256": "99e11981db693e54b9cf700bcb8db34d2dec485ced87c0288a0cbb0812a645a8",
+  "selection": "Four existing employer EJM calls re-read; two Quant Marketing calls added after primary-source review. A bounded validation batch, not a vacancy census.",
+  "updates": [
+    {
+      "id": "ubc-sbe-ejm12709",
+      "before": {
+        "id": "ubc-sbe-ejm12709",
+        "institution": "University of British Columbia",
+        "department": "Strategy and Business Economics, Sauder School of Business",
+        "region": "CA",
+        "title": "Tenure Track Position in International Trade and/or Industrial Organization",
+        "tracks": [
+          "io"
+        ],
+        "job_family": "academic",
+        "tenure_status": "confirmed_tt",
+        "cycle": "2026-2027",
+        "published_at": null,
+        "deadline": "2026-11-09",
+        "start_date": "2027-07-01",
+        "status": "open",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12709",
+            "label": "Original public recruitment announcement",
+            "checked_at": "2026-10-24"
+          }
+        ],
+        "checked_at": "2026-10-24",
+        "quote": "invites applications for a tenure track faculty position at the Assistant Professor rank",
+        "evidence": "November9 platform deadline; ad text allows later applications until filled. Start and appointment subject to budgetary approval. Senior ranks also considered, exact headcount undisclosed.",
+        "aliases": [],
+        "dedupe_key": "ubc-sbe-ejm12709",
+        "priority_deadline": "2026-11-09"
+      },
+      "after": {
+        "id": "ubc-sbe-ejm12709",
+        "institution": "University of British Columbia",
+        "department": "Strategy and Business Economics, Sauder School of Business",
+        "region": "CA",
+        "title": "Tenure Track Position in International Trade and/or Industrial Organization",
+        "tracks": [
+          "io"
+        ],
+        "job_family": "academic",
+        "tenure_status": "confirmed_tt",
+        "cycle": "2026-2027",
+        "published_at": null,
+        "deadline": "2026-11-09",
+        "start_date": "2027-07-01",
+        "status": "closed",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12709",
+            "label": "Original public recruitment announcement",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "checked_at": "2026-11-17",
+        "quote": "invites applications for a tenure track faculty position at the Assistant Professor rank",
+        "evidence": "November9 platform deadline; ad text allows later applications until filled. Start and appointment subject to budgetary approval. Senior ranks also considered, exact headcount undisclosed. 2026-11-17: EJM explicitly reports that applications are no longer accepted and the search is reviewing applications. Retain priority/rolling wording as separate context; this is not evidence that a hire occurred.",
+        "aliases": [],
+        "dedupe_key": "ubc-sbe-ejm12709",
+        "priority_deadline": "2026-11-09",
+        "search_status": "Reviewing applications; EJM application channel closed",
+        "deadline_kind": "application",
+        "posting_end_date": "2026-12-31",
+        "status_quote": "no longer accepting applications",
+        "status_source_url": "https://econjobmarket.org/positions/12709"
+      }
+    },
+    {
+      "id": "cornell-io-ejm12658",
+      "before": {
+        "id": "cornell-io-ejm12658",
+        "institution": "Cornell University",
+        "department": "Economics",
+        "region": "US",
+        "title": "Associate or Full Professor in Industrial Organization",
+        "tracks": [
+          "io"
+        ],
+        "job_family": "academic",
+        "tenure_status": "unknown",
+        "cycle": "2026-2027",
+        "published_at": null,
+        "deadline": "2026-11-07",
+        "start_date": "2027-07-01",
+        "status": "open",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12658",
+            "label": "Employer EJM announcement"
+          },
+          {
+            "url": "https://academicjobsonline.org/ajo/jobs/32705",
+            "label": "Same advertisement application channel; not a second vacancy"
+          }
+        ],
+        "checked_at": "2026-10-24",
+        "quote": "Priority will be given to applications received by November 7, 2026.",
+        "evidence": "Platform labels November 7 application deadline; text calls it priority date, retained as both source-reported deadline and priority_deadline. Posting ends November 30; tenure not expressly stated. AJO32705 and EJM12658 are the same ad.",
+        "aliases": [
+          "AJO 32705"
+        ],
+        "dedupe_key": "cornell-io-ejm12658",
+        "priority_deadline": "2026-11-07",
+        "posting_end_date": "2026-11-30"
+      },
+      "after": {
+        "id": "cornell-io-ejm12658",
+        "institution": "Cornell University",
+        "department": "Economics",
+        "region": "US",
+        "title": "Associate or Full Professor in Industrial Organization",
+        "tracks": [
+          "io"
+        ],
+        "job_family": "academic",
+        "tenure_status": "unknown",
+        "cycle": "2026-2027",
+        "published_at": null,
+        "deadline": "2026-11-07",
+        "start_date": "2027-07-01",
+        "status": "closed",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12658",
+            "label": "Employer EJM announcement",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://academicjobsonline.org/ajo/jobs/32705",
+            "label": "Same advertisement application channel; not a second vacancy",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "checked_at": "2026-11-17",
+        "quote": "Priority will be given to applications received by November 7, 2026.",
+        "evidence": "Platform labels November 7 application deadline; text calls it priority date, retained as both source-reported deadline and priority_deadline. Posting ends November 30; tenure not expressly stated. AJO32705 and EJM12658 are the same ad. 2026-11-17: EJM explicitly reports that applications are no longer accepted and the search is reviewing applications. Retain priority/rolling wording as separate context; this is not evidence that a hire occurred.",
+        "aliases": [
+          "AJO 32705"
+        ],
+        "dedupe_key": "cornell-io-ejm12658",
+        "priority_deadline": "2026-11-07",
+        "posting_end_date": "2026-11-30",
+        "search_status": "Reviewing applications; EJM application channel closed",
+        "deadline_kind": "application",
+        "status_quote": "no longer accepting applications",
+        "status_source_url": "https://econjobmarket.org/positions/12658"
+      }
+    },
+    {
+      "id": "cuhksz-platform-ejm12463",
+      "before": {
+        "id": "cuhksz-platform-ejm12463",
+        "institution": "Chinese University of Hong Kong (Shenzhen)",
+        "department": "School of Management and Economics",
+        "region": "CN",
+        "location": "Beijing, on-site at collaborating company",
+        "tracks": [
+          "marketing",
+          "io"
+        ],
+        "title": "Postdoctoral Fellow Positions in Platform Economics and Market Design",
+        "job_family": "postdoc",
+        "tenure_status": "not_applicable",
+        "cycle": "2026-2027",
+        "published_at": "2026-04-20",
+        "deadline": "2026-11-01",
+        "start_date": null,
+        "status": "open",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12463",
+            "label": "招聘单位在EJM发布的原始公告"
+          }
+        ],
+        "checked_at": "2026-10-22",
+        "evidence": "公告明确两年博后，平台经济、市场设计及实证IO，平台标签同时包括Marketing。正式隶属港中文深圳，实际工作地点为北京合作企业，地区归中国大陆；复数岗位未公开确切数量。",
+        "quote": "Location: Beijing (on-site at the collaborating company)",
+        "aliases": [
+          "EJM 12463"
+        ],
+        "dedupe_key": "cuhksz|platform-economics|2026-2027|12463"
+      },
+      "after": {
+        "id": "cuhksz-platform-ejm12463",
+        "institution": "Chinese University of Hong Kong (Shenzhen)",
+        "department": "School of Management and Economics",
+        "region": "CN",
+        "location": "Beijing, on-site at collaborating company",
+        "tracks": [
+          "marketing",
+          "io"
+        ],
+        "title": "Postdoctoral Fellow Positions in Platform Economics and Market Design",
+        "job_family": "postdoc",
+        "tenure_status": "not_applicable",
+        "cycle": "2026-2027",
+        "published_at": "2026-04-20",
+        "deadline": "2026-11-01",
+        "start_date": null,
+        "status": "closed",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12463",
+            "label": "招聘单位在EJM发布的原始公告",
+            "checked_at": "2026-11-17"
+          }
+        ],
+        "checked_at": "2026-11-17",
+        "evidence": "公告明确两年博后，平台经济、市场设计及实证IO，平台标签同时包括Marketing。正式隶属港中文深圳，实际工作地点为北京合作企业，地区归中国大陆；复数岗位未公开确切数量。 2026-11-17: EJM explicitly reports that applications are no longer accepted and the search is reviewing applications. Retain priority/rolling wording as separate context; this is not evidence that a hire occurred.",
+        "quote": "Location: Beijing (on-site at the collaborating company)",
+        "aliases": [
+          "EJM 12463"
+        ],
+        "dedupe_key": "cuhksz|platform-economics|2026-2027|12463",
+        "search_status": "Reviewing applications; EJM application channel closed",
+        "deadline_kind": "application",
+        "posting_end_date": "2027-04-18",
+        "status_quote": "no longer accepting applications",
+        "status_source_url": "https://econjobmarket.org/positions/12463"
+      }
+    },
+    {
+      "id": "uib-business-economics-ejm12847",
+      "before": {
+        "id": "uib-business-economics-ejm12847",
+        "institution": "University of the Balearic Islands",
+        "department": "Department of Business Economics",
+        "region": "ES",
+        "tracks": [
+          "marketing"
+        ],
+        "title": "Assistant or Associate Professor in Business Economics, Management, Finance, Marketing, and Accounting",
+        "job_family": "academic",
+        "tenure_status": "confirmed_tt",
+        "cycle": "2026-2027",
+        "published_at": "2026-10-17",
+        "deadline": "2026-12-05",
+        "start_date": "2027-09-01",
+        "status": "open",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12847",
+            "label": "招聘单位在EJM发布的原始公告"
+          },
+          {
+            "url": "https://exchange.akadeus.com/announcement/9936",
+            "label": "同一公告的AKADEUS渠道；用于去重与发布日期"
+          }
+        ],
+        "checked_at": "2026-10-22",
+        "evidence": "原公告明确tenure track，面向包括Marketing在内的多个方向；只计一篇跨方向招聘公告，各方向岗位人数未公布。EJM与AKADEUS是同一招聘，不重复计数。截止时间按EJM的UTC日期保留。",
+        "quote": "at the level of tenure track Assistant or Associate Professor",
+        "aliases": [
+          "EJM 12847",
+          "AKADEUS 9936",
+          "Universitat de les Illes Balears"
+        ],
+        "dedupe_key": "uib|business-economics|2026-2027|12847"
+      },
+      "after": {
+        "id": "uib-business-economics-ejm12847",
+        "institution": "University of the Balearic Islands",
+        "department": "Department of Business Economics",
+        "region": "ES",
+        "tracks": [
+          "marketing"
+        ],
+        "title": "Assistant or Associate Professor in Business Economics, Management, Finance, Marketing, and Accounting",
+        "job_family": "academic",
+        "tenure_status": "confirmed_tt",
+        "cycle": "2026-2027",
+        "published_at": "2026-10-17",
+        "deadline": "2026-12-05",
+        "start_date": "2027-09-01",
+        "status": "open",
+        "positions": null,
+        "hires": null,
+        "sources": [
+          {
+            "url": "https://econjobmarket.org/positions/12847",
+            "label": "招聘单位在EJM发布的原始公告",
+            "checked_at": "2026-11-17"
+          },
+          {
+            "url": "https://exchange.akadeus.com/announcement/9936",
+            "label": "同一公告的AKADEUS渠道；用于去重与发布日期"
+          }
+        ],
+        "checked_at": "2026-11-17",
+        "evidence": "原公告明确tenure track，面向包括Marketing在内的多个方向；只计一篇跨方向招聘公告，各方向岗位人数未公布。EJM与AKADEUS是同一招聘，不重复计数。截止时间按EJM的UTC日期保留。",
+        "quote": "at the level of tenure track Assistant or Associate Professor",
+        "aliases": [
+          "EJM 12847",
+          "AKADEUS 9936",
+          "Universitat de les Illes Balears"
+        ],
+        "dedupe_key": "uib|business-economics|2026-2027|12847",
+        "deadline_kind": "application",
+        "posting_end_date": "2026-12-05",
+        "search_status": "Accepting applications on EJM"
+      }
+    }
+  ],
+  "additions": [
+    {
+      "id": "calgary-quant-18360463",
+      "institution": "University of Calgary",
+      "department": "Marketing Area, Haskayne School of Business",
+      "region": "CA",
+      "title": "Assistant Professor in Marketing (Quantitative / Empirical)",
+      "tracks": [
+        "marketing",
+        "qm"
+      ],
+      "job_family": "academic",
+      "tenure_status": "confirmed_tt",
+      "cycle": "2026-2027",
+      "published_at": null,
+      "start_date": "2027-07-01",
+      "deadline": "2026-11-18",
+      "deadline_kind": "application",
+      "status": "open",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://careers.ucalgary.ca/jobs/18360463-associate-professor-marketing",
+          "label": "Employer original recruitment announcement",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "checked_at": "2026-11-17",
+      "quote": "Research expertise in quantitative marketing",
+      "evidence": "Official text specifies Assistant Professor, tenure track and empirical quantitative marketing; use the actual text rather than the misleading associate-professor URL slug. Teaching interests do not independently establish Strategy research specialization. Headcount not explicitly quantified; hires unknown.",
+      "aliases": [
+        "AMA 86477873"
+      ],
+      "dedupe_key": "calgary-quant-18360463"
+    },
+    {
+      "id": "frankfurt-marketing-interfolio184939",
+      "institution": "Frankfurt School of Finance & Management",
+      "department": "Marketing, Management Department",
+      "region": "DE",
+      "title": "Assistant Professor of Marketing (Quantitative Marketing / Strategy)",
+      "tracks": [
+        "marketing",
+        "qm",
+        "strategy"
+      ],
+      "job_family": "academic",
+      "tenure_status": "confirmed_tt",
+      "cycle": null,
+      "published_at": null,
+      "start_date": null,
+      "deadline": "2026-07-15",
+      "deadline_kind": "application",
+      "status": "historical",
+      "positions": null,
+      "hires": null,
+      "sources": [
+        {
+          "url": "https://www.frankfurt-school.de/en/about/careers/assistant-professor-of-marketing",
+          "label": "Employer original recruitment announcement",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "url": "https://apply.interfolio.com/184939",
+          "label": "Employer-linked application channel; same advertisement, not independently read"
+        }
+      ],
+      "checked_at": "2026-11-17",
+      "quote": "Last day to submit your application package is 15 July 2026.",
+      "evidence": "Official employer page explicitly specifies quantitative marketing/marketing strategy and tenure track. The employer gives a final submission date, superseding the earlier board wording about review from June until filled. No assumption of successful hiring. Hiring season, start date and exact headcount undisclosed; the application year does not establish a hiring season.",
+      "aliases": [
+        "Interfolio 184939",
+        "AMA 83337291"
+      ],
+      "dedupe_key": "frankfurt-marketing-interfolio184939"
+    }
+  ],
+  "excluded": "EMAC fictional examples; inaccessible or unverified listings; no inferred hiring outcomes."
+}

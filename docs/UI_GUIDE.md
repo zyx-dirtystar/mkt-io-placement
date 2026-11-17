@@ -10,6 +10,7 @@ Current release: 2026-11-02. The original 1.1.0 English redesign is retained. Ve
 | Who is on this season’s market? | `#current` | Recorded market-season participants, including known outcomes in that season. |
 | Who works at a receiving institution? | `#faculty` | Separate faculty collection. Search People or switch to School coverage. Faculty records do not enter placement denominators. |
 | Who is hiring? | `#jobs` | Sourced advertisements, including historical calls. Advertisements, declared openings and hires are separate. |
+| Which sources and projects should I use? | `#resources` | Filter official sources and comparable projects by Quant, CB, Strategy / IO, question and publisher. Editions and access limitations remain visible. |
 | How do programs compare? | `#compare` | Choose 2–5 programs and one consistent year basis. Missing data and incomplete cohorts remain visible. |
 | Where do people move? | `#flows` | Program / research / receiving-institution flows, with person-level table alternatives. |
 | What evidence is missing? | `#quality` | Field gaps, roster audit cells, conflicts and release history. |

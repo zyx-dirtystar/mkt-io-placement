@@ -1,0 +1,758 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-11-17",
+  "scope": "A reviewed starting map for Marketing PhD job seekers across Quant / Modeling, Consumer Behavior and Strategy, with separate Economics / IO complements. Not an exhaustive directory or market census.",
+  "resources": [
+    {
+      "id": "docsig-www",
+      "title": "AMA DocSIG · Who Went Where",
+      "publisher": "AMA Doctoral SIG",
+      "publisher_type": "society",
+      "url": "https://docsig.org/who-went-where-report/",
+      "tasks": [
+        "benchmarks",
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "North America (2025 edition)",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "2025 report; archive links 2003–2024",
+      "use": "Annual survey archive for the experience of entering the academic market.",
+      "limit": "Self-selected responses. The 2025 geographic restriction and redesigned questions limit comparisons across editions.",
+      "takeaway": "Store survey edition, population and question-level sample sizes separately from person records."
+    },
+    {
+      "id": "docsig-www-2025",
+      "title": "Who Went Where · 2025 full report",
+      "publisher": "AMA Doctoral SIG",
+      "publisher_type": "society",
+      "url": "https://docsig.org/wp-content/uploads/2025/09/2025-AMA-DocSIG-WWW-report.pdf",
+      "tasks": [
+        "benchmarks"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "North American PhD origin and/or hiring institution",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "2024–2025 market / Fall 2025 appointments",
+      "use": "Read the tables behind the survey benchmarks below.",
+      "limit": "Anonymous survey responses cannot be linked to the separately volunteered placement names.",
+      "takeaway": "Never attach an aggregate salary, publication count or offer count to a named candidate."
+    },
+    {
+      "id": "ama-elmar",
+      "title": "AMA · ELMAR job archive",
+      "publisher": "American Marketing Association / ELMAR",
+      "publisher_type": "society",
+      "url": "https://www.ama.org/listing-types/jobs/",
+      "aliases": [
+        "https://www.ama.org/about-elmar/"
+      ],
+      "tasks": [
+        "jobs",
+        "process"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "International",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Dated job announcements and searchable archive",
+      "use": "A central Marketing academic discovery channel, including Quant, CB, Strategy and mixed calls.",
+      "limit": "Announcement date is not the application deadline. One notice may link several positions, and duplicate notices may describe the same search.",
+      "takeaway": "Follow employer links and preserve original posting IDs; keep notices, positions and hires separate."
+    },
+    {
+      "id": "ama-academic-jobs",
+      "title": "AMA Academic Job Board",
+      "publisher": "American Marketing Association",
+      "publisher_type": "society",
+      "url": "https://academicplacement.ama.org/",
+      "tasks": [
+        "jobs"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "International",
+      "access": "limited",
+      "checked_at": "2026-11-17",
+      "edition": "Live service; automated read returned HTTP 403",
+      "use": "Academic vacancy discovery across Marketing specializations; linked from the AMA website.",
+      "limit": "Listings were not fully readable in this review. Access failure says nothing about the number of available jobs.",
+      "takeaway": "Open the original advertisement and institution application page before recording a position."
+    },
+    {
+      "id": "ams-jobs",
+      "title": "Academy of Marketing Science · Job Board",
+      "publisher": "Academy of Marketing Science",
+      "publisher_type": "society",
+      "url": "https://amsweb.mcjobboard.net/jobs",
+      "aliases": [
+        "https://marketingphdjobs.org/"
+      ],
+      "tasks": [
+        "jobs",
+        "projects"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "International",
+      "access": "redirect",
+      "checked_at": "2026-11-17",
+      "edition": "MarketingPhDJobs.org redirected here at review",
+      "use": "A working academic job board and the current destination of a well-known historical Marketing aggregator.",
+      "limit": "The redirect does not establish that the former site's candidate profiles, archives or statistics survive.",
+      "takeaway": "Treat the two addresses as one discovery channel, not independent vacancy counts."
+    },
+    {
+      "id": "ejm",
+      "title": "Econ Job Market · Advertisements",
+      "publisher": "Econ Job Market Inc.",
+      "publisher_type": "platform",
+      "url": "https://econjobmarket.org/positions",
+      "tasks": [
+        "jobs"
+      ],
+      "tracks": [
+        "qm",
+        "io"
+      ],
+      "market": "economics",
+      "region": "International",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Current advertisements",
+      "use": "Search Marketing, Industrial Organization and relevant Business Economics calls; especially useful for the Quant / IO interface.",
+      "limit": "Some ads require login. An economics field label alone does not make a vacancy a Marketing position.",
+      "takeaway": "Separate full-consideration dates, application deadlines and posting end dates. Deduplicate by posting ID and institution."
+    },
+    {
+      "id": "aea-joe",
+      "title": "AEA · JOE Listings",
+      "publisher": "American Economic Association",
+      "publisher_type": "society",
+      "url": "https://www.aeaweb.org/joe/listings",
+      "tasks": [
+        "jobs"
+      ],
+      "tracks": [
+        "qm",
+        "io"
+      ],
+      "market": "economics",
+      "region": "International",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "August 2026–January 2027 listing cycle",
+      "use": "Find academic and nonacademic economics opportunities using JEL L and relevant M categories, then inspect research fit.",
+      "limit": "Adjacent-market discovery; this is not a Marketing census. Consult source terms before reuse or bulk collection.",
+      "takeaway": "Retain the actual department, rank and appointment type; do not relabel every IO job as Quant Marketing."
+    },
+    {
+      "id": "aea-econtrack",
+      "title": "AEA · EconTrack",
+      "publisher": "American Economic Association",
+      "publisher_type": "society",
+      "url": "https://www.aeaweb.org/econtrack",
+      "tasks": [
+        "process",
+        "projects"
+      ],
+      "tracks": [
+        "qm",
+        "io"
+      ],
+      "market": "economics",
+      "region": "International",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Service description",
+      "use": "A model for following recruitment milestones and distinguishing institution-certified updates from other contributions.",
+      "limit": "Employer participation is voluntary. Unreported activity is not evidence that interviews or offers have not happened.",
+      "takeaway": "Track a search's status and its reporter, without exposing candidate-level interview or offer rumors."
+    },
+    {
+      "id": "aea-openings",
+      "title": "AEA · JOE Openings by Week",
+      "publisher": "American Economic Association",
+      "publisher_type": "society",
+      "url": "https://www.aeaweb.org/about-aea/committees/job-market/graphs-openings",
+      "tasks": [
+        "benchmarks",
+        "projects"
+      ],
+      "tracks": [
+        "qm",
+        "io"
+      ],
+      "market": "economics",
+      "region": "JOE coverage",
+      "access": "limited",
+      "checked_at": "2026-11-17",
+      "edition": "Landing page read; embedded charts not extracted",
+      "use": "Official economics demand-monitoring reference and a design model for comparing the same week across years.",
+      "limit": "No numerical chart values were imported. Economics trends should not be presented as Marketing trends.",
+      "takeaway": "Compare consistent calendar cutoffs and retain the underlying posting population."
+    },
+    {
+      "id": "aea-guidance-2026",
+      "title": "AEA · 2026 job market guidance",
+      "publisher": "American Economic Association",
+      "publisher_type": "society",
+      "url": "https://www.aeaweb.org/news/guidance-job-market-sept-9-2026",
+      "tasks": [
+        "process"
+      ],
+      "tracks": [
+        "qm",
+        "io"
+      ],
+      "market": "economics",
+      "region": "Economics recruitment",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "September 9, 2026",
+      "use": "Economics-cycle guidance for candidates also applying through the economics market.",
+      "limit": "Recommendations are market-specific; individual employers may use different dates.",
+      "takeaway": "Maintain a separate Economics / IO calendar alongside the Marketing calendar."
+    },
+    {
+      "id": "ama-guidance-2022",
+      "title": "AMA · Academic job market guidelines",
+      "publisher": "AMA Academic Council",
+      "publisher_type": "society",
+      "url": "https://www.ama.org/2022/04/02/guidelines-marketing-academic-job-market/",
+      "tasks": [
+        "process"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "Marketing recruitment",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "2022 guidance, retained as a dated reference",
+      "use": "Understand the association's recommended interview, flyout and offer sequence.",
+      "limit": "A historical recommendation is not an enforced 2026 timetable. Source publication year must remain visible.",
+      "takeaway": "Use current employer deadlines for applications and label recommendations separately from observed behavior."
+    },
+    {
+      "id": "berman-2026",
+      "title": "Ron Berman · Marketing market analysis",
+      "publisher": "Ron Berman",
+      "publisher_type": "researcher",
+      "url": "https://www.linkedin.com/pulse/insights-marketing-academic-job-market-2026-ron-berman-05hoe",
+      "tasks": [
+        "benchmarks",
+        "projects",
+        "process"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "International",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "June 20, 2026; observations through June 19",
+      "use": "A directly relevant faculty-authored analysis of Marketing hiring activity and timing.",
+      "limit": "An individual's analysis, not an official market census. Posting schools, advertisements and actual positions are different units.",
+      "takeaway": "Borrow the dated comparisons and separate units; do not treat the author's forecast as an observed annual result."
+    },
+    {
+      "id": "econ-phd-placements",
+      "title": "Econ PhD Placements",
+      "publisher": "Pablo García-Guzmán",
+      "publisher_type": "researcher",
+      "url": "https://www.econphdplacements.com/",
+      "tasks": [
+        "projects",
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "io"
+      ],
+      "market": "economics",
+      "region": "Selected economics departments",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Site labels October 2026 update",
+      "use": "A close product reference: cohort coverage, searchable first jobs, department comparisons, employer profiles and CSV downloads.",
+      "limit": "Its methodology can classify an employer-only university placement as tenure-track and warns of upward bias.",
+      "takeaway": "Borrow coverage and employer views. Preserve this project's stronger rule: missing titles or contracts keep tenure unknown."
+    },
+    {
+      "id": "emac-jobs",
+      "title": "EMAC · Job Market",
+      "publisher": "European Marketing Academy",
+      "publisher_type": "society",
+      "url": "https://www.emac.academy/job-market/",
+      "tasks": [
+        "jobs",
+        "projects"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "International / Europe",
+      "access": "demo",
+      "checked_at": "2026-11-17",
+      "edition": "Visible listings explicitly marked DEMO / fictional",
+      "use": "Reference for filtering by marketing area, region, rank and contract type.",
+      "limit": "The three visible examples at review were fictional. They are excluded from this project's job data.",
+      "takeaway": "Recheck for real advertisements before using this page as a vacancy feed."
+    },
+    {
+      "id": "emac-training",
+      "title": "EMAC · Job Market Training",
+      "publisher": "European Marketing Academy",
+      "publisher_type": "society",
+      "url": "https://www.emac.academy/emac-job-market-training/",
+      "tasks": [
+        "process"
+      ],
+      "tracks": [
+        "qm",
+        "cb"
+      ],
+      "market": "marketing",
+      "region": "Europe / conference participants",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Page advertises 2027 application round",
+      "use": "Application feedback and practice interviews with separate Quant and CB tracks.",
+      "limit": "Training participation is not a placement observation or guarantee; check the live call for conditions.",
+      "takeaway": "Offer a preparation-resource layer alongside market records."
+    },
+    {
+      "id": "acr-list",
+      "title": "ACR · Community E-List",
+      "publisher": "Association for Consumer Research",
+      "publisher_type": "society",
+      "url": "https://acrwebsite.org/resources/listserv/",
+      "tasks": [
+        "jobs",
+        "process"
+      ],
+      "tracks": [
+        "cb"
+      ],
+      "market": "marketing",
+      "region": "International",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Official list description",
+      "use": "A consumer-research announcement channel that includes job openings.",
+      "limit": "A mailing list is a discovery channel, not a structured public archive of all CB jobs.",
+      "takeaway": "Resolve an announcement to the institution's original vacancy before adding it."
+    },
+    {
+      "id": "scp-jobs",
+      "title": "Society for Consumer Psychology · Jobs",
+      "publisher": "Society for Consumer Psychology",
+      "publisher_type": "society",
+      "url": "https://myscp.org/current-jobs/",
+      "tasks": [
+        "jobs"
+      ],
+      "tracks": [
+        "cb"
+      ],
+      "market": "marketing",
+      "region": "International",
+      "access": "limited",
+      "checked_at": "2026-11-17",
+      "edition": "Extracted page showed a job-widget placeholder",
+      "use": "An additional CB discovery entry point.",
+      "limit": "No individual live listing was verified in this review; do not interpret the empty extraction as zero openings.",
+      "takeaway": "Retain access limitations and verify each employer link separately."
+    },
+    {
+      "id": "ama-programs",
+      "title": "AMA · PhD Programs in Marketing",
+      "publisher": "American Marketing Association",
+      "publisher_type": "society",
+      "url": "https://www.ama.org/phd-programs-in-marketing/",
+      "tasks": [
+        "scope"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "Worldwide",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Global PhD / DBA discovery directory",
+      "use": "A starting list for extending the sending-program frame beyond North America, Hong Kong and Singapore.",
+      "limit": "Includes DBA institutions and does not verify active PhD cohorts or research tracks. Research rankings are a separate concept.",
+      "takeaway": "Verify program eligibility, then locate candidate and placement pages for each program-year."
+    },
+    {
+      "id": "wharton-placements",
+      "title": "Wharton · Marketing placements",
+      "publisher": "University of Pennsylvania",
+      "publisher_type": "university",
+      "url": "https://marketing.wharton.upenn.edu/phd-recent-alumni/",
+      "tasks": [
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Graduation year and first placement",
+      "use": "Named graduates and initial destinations, including nonacademic employers.",
+      "limit": "The year is degree year; a first-job start year requires separate evidence. Public rows alone do not prove cohort completeness.",
+      "takeaway": "Keep graduation year, job start year and source-table year distinct."
+    },
+    {
+      "id": "columbia-placements",
+      "title": "Columbia · Marketing PhD",
+      "publisher": "Columbia Business School",
+      "publisher_type": "university",
+      "url": "https://business.columbia.edu/faculty/divisions/marketing/phd",
+      "tasks": [
+        "placements",
+        "candidates"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Initial-placement table and student sections",
+      "use": "Official destinations with examples of postdocs and sequential industry / academic arrangements.",
+      "limit": "A general PhD-student profile is not proof of current market participation; distinguish student and job-market sections.",
+      "takeaway": "Represent multiple appointments as dated events, without replacing the initial job."
+    },
+    {
+      "id": "hbs-placements",
+      "title": "HBS · Marketing doctoral placement",
+      "publisher": "Harvard Business School",
+      "publisher_type": "university",
+      "url": "https://www.hbs.edu/doctoral/placement/marketing",
+      "tasks": [
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Named initial placements",
+      "use": "A useful source format linking initial destination, dissertation and advisors.",
+      "limit": "A dissertation title is not automatically a job market paper; named successful placements do not establish all graduates.",
+      "takeaway": "Save dissertation and JMP as separate material types."
+    },
+    {
+      "id": "purdue-candidates",
+      "title": "Purdue · Marketing job market candidates",
+      "publisher": "Purdue University",
+      "publisher_type": "university",
+      "url": "https://www.business.purdue.edu/academics/marketing/job-market-candidates.php",
+      "tasks": [
+        "candidates"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Candidates with expected graduation in 2027",
+      "use": "Department candidate roster with research titles, committees and CV links.",
+      "limit": "Expected graduation is not a completed PhD. Determine research track from explicit candidate evidence.",
+      "takeaway": "Retain expected dates and confirmed dates separately; snapshot rosters before they change."
+    },
+    {
+      "id": "kellogg-placements",
+      "title": "Kellogg · Doctoral job placements",
+      "publisher": "Northwestern University",
+      "publisher_type": "university",
+      "url": "https://www.kellogg.northwestern.edu/doctoral/placement/jobplacement/",
+      "tasks": [
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Multi-discipline placement page",
+      "use": "A school-level placement source with Marketing among other doctoral programs.",
+      "limit": "Other Kellogg fields, including Managerial Economics and Strategy, must not be automatically counted as Marketing.",
+      "takeaway": "Use the actual doctoral program and explicit research labels."
+    },
+    {
+      "id": "mit-current-placements",
+      "title": "MIT Sloan · Recent academic placements",
+      "publisher": "Massachusetts Institute of Technology",
+      "publisher_type": "university",
+      "url": "https://mitsloan.mit.edu/programs/phd/program-overview/recent-academic-placements",
+      "tasks": [
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Page describes where graduates are today",
+      "use": "Graduate identities, degree years and observed academic affiliations.",
+      "limit": "Despite its title, this page describes current destinations, not necessarily first placements. It omits nonacademic paths by design.",
+      "takeaway": "Confirm first jobs independently from CVs or contemporaneous announcements."
+    },
+    {
+      "id": "stanford-placements",
+      "title": "Stanford GSB · Academic placements",
+      "publisher": "Stanford University",
+      "publisher_type": "university",
+      "url": "https://www.gsb.stanford.edu/programs/phd/placement/academic-placements",
+      "tasks": [
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "limited",
+      "checked_at": "2026-11-17",
+      "edition": "Existing project source; HTTP 403 on this review",
+      "use": "A priority follow-up source in the existing Quant / Marketing program frame.",
+      "limit": "No fresh person-level facts were confirmed from this URL in this review.",
+      "takeaway": "Keep existing evidence dates; do not turn an access attempt into factual re-verification."
+    },
+    {
+      "id": "nyu-placements",
+      "title": "NYU Stern · Marketing PhD placements",
+      "publisher": "New York University",
+      "publisher_type": "university",
+      "url": "https://www.stern.nyu.edu/experience-stern/about/departments-centers-initiatives/academic-departments/marketing/academic-programs-0/phd-program/phd-placements",
+      "tasks": [
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United States",
+      "access": "limited",
+      "checked_at": "2026-11-17",
+      "edition": "Existing project source; HTTP 403 on this review",
+      "use": "A priority follow-up source in the existing Quant / Marketing program frame.",
+      "limit": "No fresh person-level facts were confirmed from this URL in this review.",
+      "takeaway": "Try department-linked candidate pages and individual CVs, preserving access-failure history."
+    },
+    {
+      "id": "nus-placements",
+      "title": "NUS · Marketing student placements",
+      "publisher": "National University of Singapore",
+      "publisher_type": "university",
+      "url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+      "tasks": [
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "Singapore",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Department placement page",
+      "use": "An Asia-based sending-program source for the existing project scope.",
+      "limit": "Page accessibility does not establish that the latest cohort has been published or completely recorded.",
+      "takeaway": "Audit each source year, then inspect individual research fields and destination dates."
+    },
+    {
+      "id": "insead-community",
+      "title": "INSEAD · PhD community and placements",
+      "publisher": "INSEAD",
+      "publisher_type": "university",
+      "url": "https://www.insead.edu/phd/community",
+      "tasks": [
+        "candidates",
+        "placements",
+        "scope"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "France / Singapore",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "2026/27 candidate entry point and alumni placement section",
+      "use": "A priority addition to the sending-program frame across Europe and Asia.",
+      "limit": "The school-wide page spans multiple disciplines. A headline or overall placement statement is not a Marketing cohort denominator.",
+      "takeaway": "Follow named Marketing candidates and distinguish campus, degree program and destination."
+    },
+    {
+      "id": "tilburg-marketing",
+      "title": "Tilburg · Marketing PhD and placements",
+      "publisher": "Tilburg University",
+      "publisher_type": "university",
+      "url": "https://www.tilburguniversity.edu/research/economics-and-management/graduate-school/phd-business/marketing",
+      "tasks": [
+        "scope",
+        "placements"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "Netherlands",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "Explicit Modeling / CB / Strategy program description",
+      "use": "A three-track program reference with both academic and professional placement examples.",
+      "limit": "Listed examples are historical and some do not name individuals; they are not a full current cohort.",
+      "takeaway": "Preserve unnamed aggregate evidence without inventing people or inferring track from employer."
+    },
+    {
+      "id": "tilburg-candidates",
+      "title": "Tilburg · 2026–2027 job market candidates",
+      "publisher": "Tilburg University",
+      "publisher_type": "university",
+      "url": "https://www.tilburguniversity.edu/research/economics-and-management/graduate-school/candidates",
+      "tasks": [
+        "candidates",
+        "scope"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy",
+        "io"
+      ],
+      "market": "mixed",
+      "region": "Netherlands",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "2026–2027 CentER roster",
+      "use": "An example of a dated school-wide roster with fields, JMPs and placement officers.",
+      "limit": "Check the current discipline sections; absence of a Marketing section does not prove zero Marketing candidates.",
+      "takeaway": "Track roster publication and field-specific completeness separately."
+    },
+    {
+      "id": "lbs-placements",
+      "title": "London Business School · Placement archive",
+      "publisher": "London Business School",
+      "publisher_type": "university",
+      "url": "https://assets.london.edu/hxo16fanegqh/5JqRfG9ZRnOWpygoPwGo85/9f21c3cf4d4b244afee851e5caeecc58/web-placement-list-2012---2023.pdf",
+      "tasks": [
+        "placements",
+        "scope"
+      ],
+      "tracks": [
+        "qm",
+        "cb",
+        "strategy"
+      ],
+      "market": "marketing",
+      "region": "United Kingdom",
+      "access": "read",
+      "checked_at": "2026-11-17",
+      "edition": "September 2012–August 2023 archive",
+      "use": "A European expansion reference with named graduates, subject codes and job titles.",
+      "limit": "Historical coverage only; a Marketing-related employer or title does not make a graduate with another subject code a Marketing PhD.",
+      "takeaway": "Use the MKT program code, and find newer official cohorts before making current comparisons."
+    }
+  ],
+  "survey": {
+    "id": "docsig-2025-process",
+    "resource_id": "docsig-www-2025",
+    "edition": "2024–2025 market",
+    "n_total": 61,
+    "population": "North American doctoral origin and/or North American appointment; self-reported survey.",
+    "location": "Page 10, Table 3 (PDF page index 9)",
+    "metrics": [
+      {
+        "label": "Applications sent",
+        "mean": 69.9,
+        "n": 59
+      },
+      {
+        "label": "Initial interviews",
+        "mean": 13.1,
+        "n": 59
+      },
+      {
+        "label": "Offers received",
+        "mean": 1.9,
+        "n": 57
+      }
+    ],
+    "caution": "Question sample sizes vary. These all-track respondent averages are neither Quant-specific targets nor market-wide success rates."
+  }
+}

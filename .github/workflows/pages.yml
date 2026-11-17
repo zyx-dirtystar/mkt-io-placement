@@ -34,12 +34,14 @@ jobs:
           node scripts/check-faculty-extensions.mjs
           node scripts/faculty-basics-report.mjs
           node scripts/check-observatory.mjs
+          node scripts/check-market-resources.mjs
           node --test scripts/tests/*.test.mjs tests/*.test.mjs
           node scripts/release-report.mjs
           node --check dist/faculty-view.js
           node --check dist/evidence-view.js
           node --check dist/app.js
           node --check dist/core.js
+          node --check dist/resources-view.js
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
