@@ -14,6 +14,9 @@ test('fixed scope produces exactly one cell for every school and year including 
   for(const r of [...x.scope.ranking.rows,...x.scope.asia])for(const y of x.plan.history_years)assert.ok(d.rows.some(c=>c.program_id===r.program_id&&c.year===y));
   for(const r of d.rows.filter(r=>r.recorded_count===0&&!r.cohort_complete)){assert.equal(r.independent_count,null);assert.equal(r.work_complete,false);}
   assert.equal(d.rows.find(r=>r.program_id.endsWith('-economics')).scope,'extension');
+  assert.equal(d.first_pass_queue.length,184);assert.equal(d.revisit_queue.length,56);
+  assert.equal(d.next_queue[0].queue,'first_pass','An unresolved prior source gap must not trap the work queue ahead of untouched school-years');
+  assert.ok(d.next_queue.slice(0,184).every(t=>!d.rows.find(r=>r.id===t.id).annual_reviews.length));
 });
 
 test('a search, a matched placement table and candidate counts cannot create a degree denominator',()=>{

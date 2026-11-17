@@ -2,7 +2,7 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-网站版本 1.3.4；更新改为固定范围逐项核对：58 所 Marketing 目标学校 × 2023–2026 共 232 格，Purdue Marketing／HKUST Economics 扩展另列 8 格。当季求职另表。网站新增六阶段 checklist、证据和下一步队列，CSV／JSON 与 [完整文字检查表](reports/COHORT-CHECKLIST.md) 自动生成。14 个优先项目本轮完成 56 格实际检索／读取记录，未取得材料的仍保留待办。
+网站版本 1.3.5；更新改为固定范围逐项核对：58 所 Marketing 目标学校 × 2023–2026 共 232 格，Purdue Marketing／HKUST Economics 扩展另列 8 格。当季求职另表。网站新增六阶段 checklist、证据和下一步队列，CSV／JSON 与 [完整文字检查表](reports/COHORT-CHECKLIST.md) 自动生成。14 个优先项目本轮完成 56 格实际检索／读取记录，未取得材料的仍保留待办。
 
 本轮新增遗漏人物 10 人、复核既有档案 25 人；Quant 83→87、CB 66→70、Strategy 3→4。Berkeley 2026 的 9→8 具名差异得到部分解释，11→9 仍开放；Keller 已确认 CB、PhD2022。逐校证据与限度见 [系统核对报告](docs/SYSTEMATIC-COHORT-REVIEW-2026-11-18.md)。统一职业观察窗口仍截止 2026-11-02。
 

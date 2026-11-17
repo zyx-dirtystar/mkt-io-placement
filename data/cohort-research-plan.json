@@ -1,24 +1,46 @@
 {
   "id": "marketing-cohort-program-year-plan-v1",
   "created_at": "2026-11-18",
-  "history_years": [2023, 2024, 2025, 2026],
+  "history_years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
   "core_scope_id": "marketing-na50-hk5-sg3-2021-2025",
   "core_definition": "The existing frozen 58-school Marketing scope; all research tracks, industry outcomes and unclassified people retained.",
-  "extension_program_ids": ["purdue-university-marketing", "hong-kong-university-of-science-and-technology-economics"],
+  "extension_program_ids": [
+    "purdue-university-marketing",
+    "hong-kong-university-of-science-and-technology-economics"
+  ],
   "priority_program_ids": [
-    "university-of-california-berkeley-marketing", "northwestern-university-marketing",
-    "massachusetts-institute-of-technology-marketing", "university-of-pennsylvania-marketing",
-    "columbia-university-marketing", "new-york-university-marketing", "duke-university-marketing",
-    "harvard-university-marketing", "university-of-chicago-marketing",
-    "university-of-wisconsin-madison-marketing", "university-of-north-carolina-at-chapel-hill-marketing",
-    "university-of-texas-at-dallas-marketing", "purdue-university-marketing",
+    "university-of-california-berkeley-marketing",
+    "northwestern-university-marketing",
+    "massachusetts-institute-of-technology-marketing",
+    "university-of-pennsylvania-marketing",
+    "columbia-university-marketing",
+    "new-york-university-marketing",
+    "duke-university-marketing",
+    "harvard-university-marketing",
+    "university-of-chicago-marketing",
+    "university-of-wisconsin-madison-marketing",
+    "university-of-north-carolina-at-chapel-hill-marketing",
+    "university-of-texas-at-dallas-marketing",
+    "purdue-university-marketing",
     "hong-kong-university-of-science-and-technology-economics"
   ],
   "priority_definition": "Continue the fourteen programs already under active review, with Berkeley and Kellogg discrepancies first. This is a work order, not a new ranking or a completeness claim.",
   "current_cycle_separate": "2026-2027",
-  "stages": ["population", "independent_denominator", "named_roster", "research_classification", "initial_destination", "independent_dates"],
+  "stages": [
+    "population",
+    "independent_denominator",
+    "named_roster",
+    "research_classification",
+    "initial_destination",
+    "independent_dates"
+  ],
   "stop_rule": "An unresolved cell remains open with its exact evidence gap and next action. A failed access attempt, search result or ceremony-candidate list does not close an awarded-degree cohort.",
-  "ordering": "Named count/identity conflicts, then the fixed priority programs, then core ranking order; newest unresolved year first within each program. Never drop a school-year because it has no collected people.",
+  "ordering": "First-pass school-years without a dated edition-specific review come first in the execution queue; reviewed but unresolved cells enter a separate evidence-gap revisit queue. Within each group preserve the fixed priority order, core ranking order and newest year first. Count discrepancies remain prominent in the website view without trapping the execution queue.",
   "invariants": [
     "Unknown is not zero.",
     "Marketing and Economics/IO subset populations remain separate.",
