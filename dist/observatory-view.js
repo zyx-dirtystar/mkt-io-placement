@@ -1,5 +1,5 @@
-import {cohortEvidenceMarkup,countReconciliationMarkup} from './cohort-scope.js?v=1.3.6';
-import {arr,unique,YEAR_BASES,TRACK_NAMES,AUDIT_NAMES,TENURE_NAMES,EVIDENCE_NAMES,labelRegion,recordYear,canonicalLabel,outcomeOf,selectStudyRecords,summarizeStudy,comparisonRows,flowRows,observationSummary,normalizedJobs,filterJobs,jobState,jobTiming,datasetCsv} from './observatory-logic.js?v=1.3.6';
+import {cohortEvidenceMarkup,countReconciliationMarkup} from './cohort-scope.js?v=1.3.7';
+import {arr,unique,YEAR_BASES,TRACK_NAMES,AUDIT_NAMES,TENURE_NAMES,EVIDENCE_NAMES,labelRegion,recordYear,canonicalLabel,outcomeOf,selectStudyRecords,summarizeStudy,comparisonRows,flowRows,observationSummary,normalizedJobs,filterJobs,jobState,jobTiming,datasetCsv} from './observatory-logic.js?v=1.3.7';
 
 const mounted=new WeakMap();
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

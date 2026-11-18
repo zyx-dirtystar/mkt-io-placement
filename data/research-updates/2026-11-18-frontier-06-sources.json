@@ -1,0 +1,197 @@
+{
+  "id": "frontier-cohorts-2026-11-18-06-sources",
+  "checked_at": "2026-11-18",
+  "packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/supplementary03.json",
+      "sha256": "44f51161338cf4e57ed9aca31f9c742e71dc5fb55b385584008c2eb7b2aa2830",
+      "data": {
+        "checked_at": "2026-11-18",
+        "status": "supplementary03 frozen; finite audit complete",
+        "annual_reviews": [],
+        "additions": [],
+        "updates": [
+          {
+            "id": "pennsylvania-state-university-qi-zhao",
+            "set": {
+              "tracks": [
+                "marketing",
+                "qm"
+              ],
+              "fields": [
+                "Quantitative Marketing",
+                "Operations Research"
+              ],
+              "graduation_year": 2025
+            },
+            "sources": [
+              {
+                "url": "https://www.unsw.edu.au/staff/qi-zhao",
+                "label": "Official UNSW faculty profile, full body actually read",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "claims": [
+              {
+                "field": "research_direction",
+                "value": "Quantitative Marketing",
+                "source_urls": [
+                  "https://www.unsw.edu.au/staff/qi-zhao"
+                ],
+                "quote": "dual-title Ph.D. in Business Administration (Quantitative Marketing) and Operations Research",
+                "status": "confirmed",
+                "checked_at": "2026-11-18"
+              },
+              {
+                "field": "graduation_year",
+                "value": 2025,
+                "source_urls": [
+                  "https://www.unsw.edu.au/staff/qi-zhao"
+                ],
+                "quote": "from The Pennsylvania State University in 2025.",
+                "status": "confirmed",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "note": "Explicit receiving-school dual-title degree supports Quant classification and actual completed PhD2025. Current Lecturer (Assistant Professor) title is documented in the source; it is not silently substituted for a separately dated first-appointment title."
+          },
+          {
+            "id": "frontier-university-of-rochester-ziyao-tang",
+            "set": {
+              "homepage": "https://www.ziyao-tang.com/home",
+              "cv_url": "https://drive.google.com/file/d/1_WDbUuMm1lIVbDSDMbuh6SkSb3R5qNP9/view?usp=drive_link"
+            },
+            "sources": [
+              {
+                "url": "https://www.ziyao-tang.com/home",
+                "label": "Author homepage, read; same person and CV link",
+                "checked_at": "2026-11-18"
+              },
+              {
+                "url": "https://drive.google.com/file/d/1_WDbUuMm1lIVbDSDMbuh6SkSb3R5qNP9/view?usp=drive_link",
+                "label": "Author-linked current CV, downloaded and first page read",
+                "checked_at": "2026-11-18",
+                "pages": [
+                  1
+                ]
+              }
+            ],
+            "claims": [],
+            "note": "Register the exact person and current CV URLs in the same update that sets them."
+          },
+          {
+            "id": "frontier-university-of-minnesota-yunhyoung-kim",
+            "set": {
+              "homepage": "https://business.ku.edu/people/yunhyoung-kim"
+            },
+            "sources": [
+              {
+                "url": "https://business.ku.edu/people/yunhyoung-kim",
+                "label": "Exact official current faculty profile, full body actually read",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "claims": [],
+            "note": "Register exact faculty profile as the person homepage. No existing faculty-dataset exact-name match was found, so no faculty ID is fabricated."
+          }
+        ],
+        "coverage_recommendations": [],
+        "artifacts": [],
+        "source_access_corrections": [
+          {
+            "url": "https://business.ku.edu/news/article/three-emerging-scholars-join-ku-school-of-business-for-2026-27",
+            "access": "search_index_body",
+            "finding": "Official indexed full Yunhyoung Kim profile and article lead read; subsequent direct open inaccessible. Part03 label body read means indexed text, not successfully fetched page."
+          },
+          {
+            "url": "https://sc.edu/study/colleges_schools/moore/study/phd_programs/our_people/candidate_directory/index.php",
+            "access": "search_index_body",
+            "finding": "Official indexed complete Mackenzie Volk profile read; direct open timed out. The College of Charleston receiving-school profile was separately directly read."
+          }
+        ],
+        "audit": {
+          "scope_files": [
+            "part01.json",
+            "part02.json",
+            "part03.json",
+            "supplementary02.json"
+          ],
+          "additions_reviewed": 9,
+          "updates_reviewed": 8,
+          "url_registration_checks": [
+            {
+              "file": "part01.json",
+              "id": "frontier-university-of-texas-at-austin-nikkita-sarna",
+              "field": "homepage",
+              "url": "https://www.nikkitasarna.com/home",
+              "registered": true
+            },
+            {
+              "file": "part01.json",
+              "id": "frontier-university-of-texas-at-austin-aprajita-gautam",
+              "field": "homepage",
+              "url": "https://mays.tamu.edu/directory/aprajita-gautam/",
+              "registered": true
+            },
+            {
+              "file": "part01.json",
+              "id": "frontier-university-of-texas-at-austin-sachin-sridhar",
+              "field": "cv_url",
+              "url": "https://www.iimb.ac.in/sites/default/files/2025-06/Sachin-Sridhar-CV-June-25.pdf",
+              "registered": true
+            },
+            {
+              "file": "part01.json",
+              "id": "frontier-university-of-texas-at-austin-robina-ghosh",
+              "field": "homepage",
+              "url": "https://www.robinaghosh.com/",
+              "registered": true
+            }
+          ],
+          "all_urls_registered": true,
+          "faculty_exact_name_matches": [
+            {
+              "record_id": "frontier-university-of-texas-at-austin-aprajita-gautam",
+              "faculty_id": "faculty-texas-a-m-university-aprajitagautam",
+              "name": "Aprajita Gautam",
+              "exact_profile": "https://mays.tamu.edu/directory/aprajita-gautam/",
+              "already_reported": true
+            }
+          ],
+          "unconnected_exact_matches": [],
+          "date_checks": [
+            {
+              "id": "frontier-university-of-texas-at-austin-sachin-sridhar",
+              "independent_date_evidence": "Official IIMB June2025 CV page1: education ends May2025; academic appointment starts June2025; archived SHA256 in supplementary01."
+            },
+            {
+              "id": "frontier-university-of-rochester-ziyao-tang",
+              "independent_date_evidence": "Author-linked current CV page1 explicitly PhD May2026 and Baruch academic appointment August2026; official candidate book projected August2026 is not substituted for actual degree."
+            },
+            {
+              "id": "frontier-university-of-south-carolina-mackenzie-volk",
+              "independent_date_evidence": "Receiving-school September1,2026 new-faculty article identifies the fall2026 cohort. Actual degree year stays null; spring candidate book only supplies sourceyear2026."
+            },
+            {
+              "id": "frontier-university-of-minnesota-yunhyoung-kim",
+              "independent_date_evidence": "Official employer new-faculty article explicitly start of2026–27 academic year; official advisor separately reports first placementKansas. Actual degree year stays null because February2026 advisor CV year could be prospective."
+            },
+            {
+              "id": "the-ohio-state-university-steph-flout",
+              "independent_date_evidence": "Receiving-school biography explicitly joined2025 and PhD2025, independent of OSU placement year. Direct fetch timed out; full indexed official biography read."
+            },
+            {
+              "id": "other_part01_additions",
+              "independent_date_evidence": "XingLan, NikkitaSarna, MahdiNiknejad, AprajitaGautam, RobinaGhosh retain graduationyearnull and placementyearnull; dated source-table years only set sourcecohortyear."
+            },
+            {
+              "id": "PennState_6_appointment_updates",
+              "independent_date_evidence": "No new job start dates set. The program explicitly says placements are within one year of graduation, so graduationyear is not treated as exact startyear."
+            }
+          ],
+          "conclusion": "No unregistered person/CV/JMP URLs or unconnected exact faculty matches found. Actual award and first-job years retain independent date evidence or remain null. No additional schools searched in this finite audit."
+        }
+      }
+    }
+  ]
+}

@@ -206,7 +206,7 @@
     "checked_at": "2026-10-08",
     "notes": "本批核对官方已列出的历史人员；仍需用毕业生或候选人原始名册检验整届完整性。",
     "target_scope": true,
-    "record_count": 4
+    "record_count": 5
   },
   {
     "id": "university-of-calgary-marketing",
@@ -460,7 +460,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。Management and Marketing 合并院系表；根据所列消费、品牌、口碑、赠礼、B2B 营销博士论文筛出相关研究者（整理判断），未将管理或信息系统毕业生全部算入 Marketing。表头明确为 Current Placement，首职待核验。",
     "target_scope": true,
-    "record_count": 9
+    "record_count": 12
   },
   {
     "id": "hong-kong-university-of-science-and-technology-economics",
@@ -644,7 +644,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。接收单位 CV 记 PhD 2024、首职 2024；SMU 两处网页分别为 2021 和 2023，年份冲突保留，以本人 CV 核验的就业日期归档。",
     "target_scope": true,
-    "record_count": 1
+    "record_count": 4
   },
   {
     "id": "arizona-state-university-marketing",
@@ -949,7 +949,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。",
     "target_scope": true,
-    "record_count": 2
+    "record_count": 4
   },
   {
     "id": "florida-atlantic-university-marketing",
@@ -1799,7 +1799,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。项目页不列就业年份；按接收单位个人资料逐人补证毕业年，未声称全届完整。",
     "target_scope": true,
-    "record_count": 3
+    "record_count": 5
   },
   {
     "id": "texas-tech-university-marketing",
@@ -2399,7 +2399,7 @@
     "checked_at": "2026-10-22",
     "notes": "已复查Marketing博士项目及校级career页：公开逐年placement仍止于2022，Marketing校友页未给近年逐届实名表；不能把2023–26设为零。",
     "target_scope": true,
-    "record_count": 0,
+    "record_count": 4,
     "qualification_review": {
       "checked_at": "2026-10-22",
       "status": "public_catalog_reviewed",
@@ -2526,7 +2526,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。个人 CV 确认 2024 毕业及该年任教，结合 AMA DocSIG 2024 人名表；并非完整院系名册。",
     "target_scope": true,
-    "record_count": 2
+    "record_count": 3
   },
   {
     "id": "university-of-mississippi-marketing",
@@ -2753,7 +2753,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士及就业去向已确认；所查近期就业页缺实名和逐年对应，完整分母未知。",
     "target_scope": true,
-    "record_count": 1
+    "record_count": 2
   },
   {
     "id": "university-of-south-carolina-marketing",
@@ -2778,7 +2778,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing PhD 分 CB / QM；placement 栏列匿名历史任职机构，缺近四年逐人名单。",
     "target_scope": true,
-    "record_count": 1
+    "record_count": 2
   },
   {
     "id": "university-of-south-florida-marketing",
@@ -3149,7 +3149,7 @@
     "checked_at": "2026-10-08",
     "notes": "官方 Marketing 博士项目或毕业名单确认。从学校 PhD/DBA 页面中抽取 Marketing 研究毕业生，学位细节仍需个人履历交叉验证。",
     "target_scope": true,
-    "record_count": 9
+    "record_count": 10
   },
   {
     "id": "wayne-state-university-marketing",

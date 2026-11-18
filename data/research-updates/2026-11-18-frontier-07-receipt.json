@@ -1,0 +1,370 @@
+{
+  "id": "frontier-cohorts-2026-11-18-07",
+  "checked_at": "2026-11-18",
+  "people_batch": "data/research-updates/2026-11-18-frontier-07-people.json",
+  "people_batch_sha256": "77af35eddc397767c38f29531abf3881ae95a2d21fd0a0b5f37a730d42cbfed5",
+  "source_packet": "data/research-updates/2026-11-18-frontier-07-sources.json",
+  "annual_review_ids": [
+    "nanyang-technological-university-marketing:frontier:07:2023",
+    "nanyang-technological-university-marketing:frontier:07:2024",
+    "nanyang-technological-university-marketing:frontier:07:2025",
+    "nanyang-technological-university-marketing:frontier:07:2026",
+    "national-university-of-singapore-marketing:frontier:07:2023",
+    "national-university-of-singapore-marketing:frontier:07:2024",
+    "national-university-of-singapore-marketing:frontier:07:2025",
+    "national-university-of-singapore-marketing:frontier:07:2026",
+    "singapore-management-university-marketing:frontier:07:2023",
+    "singapore-management-university-marketing:frontier:07:2024",
+    "singapore-management-university-marketing:frontier:07:2025",
+    "singapore-management-university-marketing:frontier:07:2026"
+  ],
+  "reviewed_cell_ids": [
+    "nanyang-technological-university-marketing:2023",
+    "nanyang-technological-university-marketing:2024",
+    "nanyang-technological-university-marketing:2025",
+    "nanyang-technological-university-marketing:2026",
+    "national-university-of-singapore-marketing:2023",
+    "national-university-of-singapore-marketing:2024",
+    "national-university-of-singapore-marketing:2025",
+    "national-university-of-singapore-marketing:2026",
+    "singapore-management-university-marketing:2023",
+    "singapore-management-university-marketing:2024",
+    "singapore-management-university-marketing:2025",
+    "singapore-management-university-marketing:2026"
+  ],
+  "coverage_before_sha256": "788abdfab8f4c3fe67d62518b8a84e019cfb3ef6d8419eaaa6525a5a9d3a06b1",
+  "coverage_after_sha256": "4403b058e512d7707bd194d41e14a54c926ea42f94e5dfc84e30198fe08672a8",
+  "coverage_changes": [
+    {
+      "id": "national-university-of-singapore-marketing:2023",
+      "before": {
+        "program_id": "national-university-of-singapore-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "nus-shiwen-gao"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-22",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+          },
+          {
+            "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+            "label": "接收院校Sijin Chen本人研究资料"
+          },
+          {
+            "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+            "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
+          }
+        ],
+        "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+        "completeness_status": "unconfirmed",
+        "completeness_evidence": [],
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+        }
+      },
+      "after": {
+        "program_id": "national-university-of-singapore-marketing",
+        "period": "2023",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "nus-shiwen-gao"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+          },
+          {
+            "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+            "label": "接收院校Sijin Chen本人研究资料"
+          },
+          {
+            "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+            "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
+          }
+        ],
+        "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+        "completeness_status": "unconfirmed",
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+        }
+      }
+    },
+    {
+      "id": "national-university-of-singapore-marketing:2024",
+      "before": {
+        "program_id": "national-university-of-singapore-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 2,
+        "record_ids": [
+          "nus-wanjiang-deng",
+          "nus-samantha-sim"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-22",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+          },
+          {
+            "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+            "label": "接收院校Sijin Chen本人研究资料"
+          },
+          {
+            "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+            "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
+          }
+        ],
+        "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+        "completeness_status": "unconfirmed",
+        "completeness_evidence": [],
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+        }
+      },
+      "after": {
+        "program_id": "national-university-of-singapore-marketing",
+        "period": "2024",
+        "status": "source_reconciled",
+        "listed_count": 2,
+        "record_ids": [
+          "nus-samantha-sim",
+          "nus-wanjiang-deng"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+          },
+          {
+            "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+            "label": "接收院校Sijin Chen本人研究资料"
+          },
+          {
+            "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+            "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
+          }
+        ],
+        "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+        "completeness_status": "unconfirmed",
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+        }
+      }
+    },
+    {
+      "id": "national-university-of-singapore-marketing:2025",
+      "before": {
+        "program_id": "national-university-of-singapore-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "nus-sijin-chen"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-22",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+          },
+          {
+            "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+            "label": "接收院校Sijin Chen本人研究资料"
+          },
+          {
+            "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+            "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
+          }
+        ],
+        "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+        "completeness_status": "unconfirmed",
+        "completeness_evidence": [],
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+        }
+      },
+      "after": {
+        "program_id": "national-university-of-singapore-marketing",
+        "period": "2025",
+        "status": "source_reconciled",
+        "listed_count": 1,
+        "record_ids": [
+          "nus-sijin-chen"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://bschool.nus.edu.sg/marketing/phd/placements/"
+          },
+          {
+            "url": "https://www.chicagobooth.edu/research/roman/who-we-are/principal-researchers/sijin-chen",
+            "label": "接收院校Sijin Chen本人研究资料"
+          },
+          {
+            "url": "https://sijinchen.com/wp-content/uploads/2025/09/sijin_cv_20250917.pdf",
+            "label": "Sijin Chen本人CV（职位称谓/年份存在语义冲突）"
+          }
+        ],
+        "notes": "2026-10-22复核：官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。",
+        "completeness_status": "unconfirmed",
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "官方页面明确是近期学生initial placements清单；独立本人资料支持部分身份，未找到逐年完整毕业或求职名册。Sijin的2024研究员/访问身份和2025表中postdoc待核。"
+        }
+      }
+    },
+    {
+      "id": "singapore-management-university-marketing:2025",
+      "before": {
+        "program_id": "singapore-management-university-marketing",
+        "period": "2025",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；来源需逐人补查，未声称已全部对齐。 接收单位 CV 记 PhD 2024、首职 2024；SMU 两处网页分别为 2021 和 2023，年份冲突保留，以本人 CV 核验的就业日期归档。"
+      },
+      "after": {
+        "program_id": "singapore-management-university-marketing",
+        "period": "2025",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "singapore-management-university-qingli-zeng",
+          "singapore-management-university-rahul-narnindi",
+          "singapore-management-university-yichen-wang"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://faculty.essec.edu/cv/jiang-junqiu/pdf/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://ink.library.smu.edu.sg/etd_coll/678/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://business.smu.edu.sg/taxonomy/term/1166"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2025%20CV/CV_Sandeep_Oct2025.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://qinglizeng.com/cv/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/phdstudents/phdstudentsCV/Zeng%20Qingli_2024.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://bschool-en.huji.ac.il/faculty-members"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://ink.library.smu.edu.sg/etd_coll/679/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/phdstudents/phdstudentsCV/Rahul%20Narnindi_CV.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.bitsom.edu.in/faculty-directory/"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://ink.library.smu.edu.sg/etd_coll/680/"
+          }
+        ],
+        "notes": "所核对来源未列出该年可确认的 Marketing 人员，人数未知；来源需逐人补查，未声称已全部对齐。 接收单位 CV 记 PhD 2024、首职 2024；SMU 两处网页分别为 2021 和 2023，年份冲突保留，以本人 CV 核验的就业日期归档。"
+      }
+    },
+    {
+      "id": "nanyang-technological-university-marketing:2025-2026",
+      "before": null,
+      "after": {
+        "program_id": "nanyang-technological-university-marketing",
+        "period": "2025-2026",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [
+          "ntu-lingyu-lin"
+        ],
+        "year_basis": "explicit_market_cycle",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.ntu.edu.sg/media/docs/default-source/ntu-convocation/2026-graduate-listing/phd-ceremony-2-graduate-listing-1-august-2026.pdf"
+          },
+          {
+            "label": "逐人核验来源",
+            "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates"
+          }
+        ],
+        "notes": "逐人证据补充，尚未确认整届分母。"
+      }
+    }
+  ],
+  "summary": {
+    "updates": 2,
+    "additions": 3,
+    "people": 365
+  }
+}

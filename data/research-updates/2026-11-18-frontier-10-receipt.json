@@ -1,0 +1,159 @@
+{
+  "id": "frontier-cohorts-2026-11-18-10",
+  "checked_at": "2026-11-18",
+  "people_batch": "data/research-updates/2026-11-18-frontier-10-people.json",
+  "people_batch_sha256": "6b0262add83d7f54735900527a488a4417526558e6a51c87050309ab091d3e58",
+  "source_packet": "data/research-updates/2026-11-18-frontier-10-sources.json",
+  "annual_review_ids": [
+    "university-of-british-columbia-marketing:frontier:10:2023-2024"
+  ],
+  "reviewed_cell_ids": [
+    "university-of-british-columbia-marketing:2023",
+    "university-of-british-columbia-marketing:2024"
+  ],
+  "coverage_before_sha256": "1afd1d48559006a4641b994bbef7cd114f682cea588e2fd6176e4a8707b68ecd",
+  "coverage_after_sha256": "017124e02147429d7617f361dd724ef0092e0be555b36106475b079a7cf3fec4",
+  "coverage_changes": [
+    {
+      "id": "university-of-british-columbia-marketing:2023",
+      "before": {
+        "program_id": "university-of-british-columbia-marketing",
+        "period": "2023",
+        "status": "partial",
+        "listed_count": 1,
+        "record_ids": [
+          "ubc-ekin-ok"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+            "label": "Official program or placement page",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni/2023",
+            "label": "Official school-wide 2023 alumni specialization table",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "No final independently complete awarded-degree cohort claim.",
+        "completeness_status": "unconfirmed",
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。"
+        }
+      },
+      "after": {
+        "program_id": "university-of-british-columbia-marketing",
+        "period": "2023",
+        "status": "partial",
+        "listed_count": 1,
+        "record_ids": [
+          "ubc-ekin-ok"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni/2023",
+            "label": "Primary official annual alumni table: 2023",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+            "label": "Legacy Marketing first-placement table; distinct source-year labels, not the annual-cell denominator",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Primary annual alumni source-year series: 2023 lists Ekin Ok; 2024 lists Zining Wang and Siddhanth Mookerjee. The older Marketing first-placement table groups all three under2023. Both observations are retained; published alumni membership does not prove an all-recipient award census, and current university columns are not job-start evidence.",
+        "completeness_status": "unconfirmed",
+        "roster_audit": {
+          "checked_at": "2026-11-18",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "Annual alumni series and person source-roster years aligned. Different labels in the legacy first-placement table retained explicitly; no whole awarded-degree cohort claim."
+        }
+      }
+    },
+    {
+      "id": "university-of-british-columbia-marketing:2024",
+      "before": {
+        "program_id": "university-of-british-columbia-marketing",
+        "period": "2024",
+        "status": "partial",
+        "listed_count": 2,
+        "record_ids": [
+          "ubc-siddhanth-mookerjee",
+          "ubc-zining-wang"
+        ],
+        "year_basis": null,
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+            "label": "Official program or placement page",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni",
+            "label": "Official school-wide 2024 alumni specialization table",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "No final independently complete awarded-degree cohort claim.",
+        "completeness_status": "unconfirmed",
+        "roster_audit": {
+          "checked_at": "2026-10-22",
+          "source_list_aligned": false,
+          "independent_full_roster": false,
+          "reason": "官方页面称为近期毕业生first placements完整清单，但不是逐届独立毕业名册；2024未列行，不能解释为零。2023表中成员首职/学位年存在2022、2024差异，保留来源年和个人日期。"
+        }
+      },
+      "after": {
+        "program_id": "university-of-british-columbia-marketing",
+        "period": "2024",
+        "status": "partial",
+        "listed_count": 2,
+        "record_ids": [
+          "ubc-siddhanth-mookerjee",
+          "ubc-zining-wang"
+        ],
+        "year_basis": "source_table_year",
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni",
+            "label": "Primary official annual alumni table: 2024",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+            "label": "Legacy Marketing first-placement table; distinct source-year labels, not the annual-cell denominator",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "Primary annual alumni source-year series: 2023 lists Ekin Ok; 2024 lists Zining Wang and Siddhanth Mookerjee. The older Marketing first-placement table groups all three under2023. Both observations are retained; published alumni membership does not prove an all-recipient award census, and current university columns are not job-start evidence.",
+        "completeness_status": "unconfirmed",
+        "roster_audit": {
+          "checked_at": "2026-11-18",
+          "source_list_aligned": true,
+          "independent_full_roster": false,
+          "reason": "Annual alumni series and person source-roster years aligned. Different labels in the legacy first-placement table retained explicitly; no whole awarded-degree cohort claim."
+        }
+      }
+    }
+  ],
+  "summary": {
+    "updates": 2,
+    "additions": 0,
+    "people": 368
+  }
+}

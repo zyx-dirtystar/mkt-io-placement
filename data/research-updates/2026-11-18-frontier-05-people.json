@@ -1,0 +1,1934 @@
+{
+  "id": "frontier-cohorts-2026-11-18-05",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/a/part02.json",
+      "sha256": "c2820e080ae6dc3e46202c2def9dbf8c906714190db1727d6c9aea1c7d25067a"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/part02.json",
+      "sha256": "706dc41cf91c096370c926a71703fd719eeee97b06248ec7d30ba98477f695bf"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/part03.json",
+      "sha256": "d6ecc86565c0444a3f41ac255e924b2467f1aff5ceb94cb0888ae8856a0bb6c7"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/supplementary02.json",
+      "sha256": "0fcab41f0668bd03b76dc9430d7ac56c39d203fe80637ecd66abdccf84984c1a"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/c/part02.json",
+      "sha256": "60f01eb4a6525cce39516a9ebe796d128a07e1a1be71d507c08106916e73e1a3"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/az-supplement.json",
+      "sha256": "f3d328a44bf2e019d50f324876dbade33e5323e2ca2799a4069d79ac9e8379c9"
+    }
+  ],
+  "updates": [
+    {
+      "id": "university-of-michigan-varad-vivek-deolankar",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing"
+        ],
+        "cv_url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Varad-Website.pdf",
+        "field_evidence": "Explicit primary-source classification: Research Interests: Quantitative Marketing",
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "status": "provisional",
+            "source_urls": [
+              "https://bschool.nus.edu.sg/marketing/faculty/",
+              "https://discovery.nus.edu.sg/29502-varad-vivek-deolankar"
+            ],
+            "quote": null,
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-singapore-2026-10-22"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Varad-Website.pdf"
+            ],
+            "quote": "Research Interests: Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://bizfaculty.nus.edu.sg/wp-content/uploads/sites/139/2025/07/CV-Varad-Website.pdf",
+          "label": "NUS official CV p1",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Direct Quantitative Marketing research interest; completed PhD2025 and NUS employment July2025.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。",
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "status": "provisional",
+            "source_urls": [
+              "https://bschool.nus.edu.sg/marketing/faculty/",
+              "https://discovery.nus.edu.sg/29502-varad-vivek-deolankar"
+            ],
+            "quote": null,
+            "checked_at": "2026-10-22",
+            "annotation": "接收端官方教育资料核验；仅补博士授位年，不改变名单年、首职或最终安排。",
+            "batch_id": "faculty-singapore-2026-10-22"
+          }
+        ]
+      }
+    },
+    {
+      "id": "university-of-michigan-gwen-geunhae-ahn",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing"
+        ],
+        "homepage": "https://sites.google.com/umich.edu/gwenahn/home",
+        "field_evidence": "Explicit primary-source classification: PhD in Business Administration (Quantitative Marketing)",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://sites.google.com/umich.edu/gwenahn/home"
+            ],
+            "quote": "PhD in Business Administration (Quantitative Marketing)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://sites.google.com/umich.edu/gwenahn/home",
+          "label": "Personal academic site on Michigan domain",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Direct PhD Quantitative Marketing degree description.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "university-of-michigan-bruno-castelo-branco",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm",
+          "io"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Industrial Organization"
+        ],
+        "graduation_year": 2024,
+        "placement_year": 2024,
+        "role": "Assistant Professor of Business Analytics and Strategy",
+        "cv_url": "https://www.iit.edu/sites/default/files/2024-08/Bruno_Castelo-Branco_CV_Aug2024.pdf",
+        "field_evidence": "Explicit primary-source classification: Ph.D. in Quantitative Marketing; Interests: Industrial Organization",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm",
+              "io"
+            ],
+            "source_urls": [
+              "https://www.iit.edu/sites/default/files/2024-08/Bruno_Castelo-Branco_CV_Aug2024.pdf"
+            ],
+            "quote": "Ph.D. in Quantitative Marketing; Interests: Industrial Organization",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.iit.edu/sites/default/files/2024-08/Bruno_Castelo-Branco_CV_Aug2024.pdf"
+            ],
+            "quote": "University of Michigan 2018-2024; Ph.D. in Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.iit.edu/sites/default/files/2024-08/Bruno_Castelo-Branco_CV_Aug2024.pdf",
+          "label": "Illinois Tech official CV p1",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Explicit Quantitative Marketing degree and Industrial Organization research interest. Job title Strategy alone is not a Marketing Strategy research-track label.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": null,
+        "placement_year": 2024,
+        "role": null,
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "university-of-michigan-jangwon-choi",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing"
+        ],
+        "graduation_year": 2023,
+        "placement_year": 2023,
+        "cv_url": "https://www.scu.edu/media/leavey-school-of-business/marketing/cv/CHOI_CV_250227.pdf",
+        "field_evidence": "Explicit primary-source classification: Ph.D. in Business Administration (Quantitative Marketing)",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.scu.edu/media/leavey-school-of-business/marketing/cv/CHOI_CV_250227.pdf"
+            ],
+            "quote": "Ph.D. in Business Administration (Quantitative Marketing)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.scu.edu/media/leavey-school-of-business/marketing/cv/CHOI_CV_250227.pdf"
+            ],
+            "quote": "University of Michigan August 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2023,
+            "source_urls": [
+              "https://www.scu.edu/media/leavey-school-of-business/marketing/cv/CHOI_CV_250227.pdf"
+            ],
+            "quote": "Santa Clara University From September 2023; Assistant Professor of Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.scu.edu/media/leavey-school-of-business/marketing/cv/CHOI_CV_250227.pdf",
+          "label": "Santa Clara official CV p1",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "PhD August2023 and AP September2023 are separately dated.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": null,
+        "placement_year": 2023,
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "university-of-michigan-yeonjin-sung",
+      "set": {
+        "graduation_year": 2024,
+        "placement_year": 2025,
+        "homepage": "https://www.yjinsung.com/",
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.yjinsung.com/"
+            ],
+            "quote": "Ph.D. in Marketing; University of Michigan; Dec 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.yjinsung.com/"
+            ],
+            "quote": "Assistant Professor of Marketing (tenure-track) | March 2025-Present",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.yjinsung.com/",
+          "label": "Personal current academic CV page",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Correct first-job year from source roster year2024 to actual March2025 appointment. Keep source_cohort_year2024.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "graduation_year": null,
+        "placement_year": 2024
+      }
+    },
+    {
+      "id": "pennsylvania-state-university-wenlan-yu",
+      "set": {
+        "job_kind": "faculty",
+        "role": "Tenure-track faculty",
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "label": "Official Marketing placement list and explicit tenure-track note, actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Classify published academic placement type using the explicit table note. Exact Assistant Professor title and first-job start date remain unasserted; do not copy graduationyear into placementyear.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "job_kind": "unknown",
+        "role": null
+      }
+    },
+    {
+      "id": "pennsylvania-state-university-dalal-alqadeeri",
+      "set": {
+        "job_kind": "faculty",
+        "role": "Tenure-track faculty",
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "label": "Official Marketing placement list and explicit tenure-track note, actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Classify published academic placement type using the explicit table note. Exact Assistant Professor title and first-job start date remain unasserted; do not copy graduationyear into placementyear.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "job_kind": "unknown",
+        "role": null
+      }
+    },
+    {
+      "id": "pennsylvania-state-university-tongyao-shen",
+      "set": {
+        "job_kind": "faculty",
+        "role": "Tenure-track faculty",
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "label": "Official Marketing placement list and explicit tenure-track note, actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Classify published academic placement type using the explicit table note. Exact Assistant Professor title and first-job start date remain unasserted; do not copy graduationyear into placementyear.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "job_kind": "unknown",
+        "role": null
+      }
+    },
+    {
+      "id": "pennsylvania-state-university-qi-zhao",
+      "set": {
+        "job_kind": "faculty",
+        "role": "Tenure-track faculty",
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "label": "Official Marketing placement list and explicit tenure-track note, actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Classify published academic placement type using the explicit table note. Exact Assistant Professor title and first-job start date remain unasserted; do not copy graduationyear into placementyear.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "job_kind": "unknown",
+        "role": null
+      }
+    },
+    {
+      "id": "pennsylvania-state-university-nate-allred",
+      "set": {
+        "job_kind": "faculty",
+        "role": "Tenure-track faculty",
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "label": "Official Marketing placement list and explicit tenure-track note, actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Classify published academic placement type using the explicit table note. Exact Assistant Professor title and first-job start date remain unasserted; do not copy graduationyear into placementyear.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "job_kind": "unknown",
+        "role": null
+      }
+    },
+    {
+      "id": "pennsylvania-state-university-benjamin-beck",
+      "set": {
+        "job_kind": "faculty",
+        "role": "Tenure-track faculty",
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements",
+          "label": "Official Marketing placement list and explicit tenure-track note, actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Classify published academic placement type using the explicit table note. Exact Assistant Professor title and first-job start date remain unasserted; do not copy graduationyear into placementyear.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "job_kind": "unknown",
+        "role": null
+      }
+    },
+    {
+      "id": "the-ohio-state-university-steph-flout",
+      "set": {
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "placement_year": 2025,
+        "role": "Assistant Professor of Marketing",
+        "job_kind": "faculty",
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.em-normandie.com/annuaire-des-professeurs/stephanie-flout"
+            ],
+            "quote": "2025 : PhD in Marketing, The Ohio State University Columbus, USA",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "appointment_start_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.em-normandie.com/annuaire-des-professeurs/stephanie-flout"
+            ],
+            "quote": "elle a rejoint l’EM Normandie en 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "research_direction",
+            "value": "Consumer Behavior",
+            "source_urls": [
+              "https://www.em-normandie.com/annuaire-des-professeurs/stephanie-flout"
+            ],
+            "quote": "Ses recherches portent sur le domaine du comportement du consommateur.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.em-normandie.com/annuaire-des-professeurs/stephanie-flout",
+          "label": "Official employer profile, indexed complete biography and degree paragraph read; direct open timed out",
+          "checked_at": "2026-11-18",
+          "access": "search_index_body"
+        }
+      ],
+      "note": "Receiving-school explicit PhD2025 and joined2025 corroborate department table2025 against central OSU hub2024. Retain documented source discrepancy. Steph/Stephanie match uses same institution and placement; no duplicate created.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "placement_year": null,
+        "role": null,
+        "job_kind": "unknown"
+      }
+    },
+    {
+      "id": "the-ohio-state-university-cory-haltman",
+      "set": {
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "claims": [
+          {
+            "field": "research_direction",
+            "value": "Consumer Behavior",
+            "source_urls": [
+              "https://u.osu.edu/marketingbrownbags/"
+            ],
+            "quote": "Fall 2024: Aug 30th: Cory Haltman (CB Ph.D. student)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://u.osu.edu/marketingbrownbags/",
+          "label": "Official OSU research-seminar page, indexed dated entries read; direct open failed 502",
+          "checked_at": "2026-11-18",
+          "access": "search_index_body"
+        }
+      ],
+      "note": "Explicit CB label supports classification. Central OSU hub reports2024 while Marketing alumni reports2025; no independent actual degree-year resolution found.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ]
+      }
+    },
+    {
+      "id": "hong-kong-polytechnic-university-yuting-pang",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-menglu-dong",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-jie-wang",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-yi-gao",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-qianqian-liu",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-ce-liang",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-fei-xu",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-danyang-zhao",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "hong-kong-polytechnic-university-xueying-zhao",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        }
+      ],
+      "note": "Full official current-placement table reconciled. Current Placement must not populate the first destination. Add a dated current-position observation if desired; the table is saved verbatim in polyu-placement.html and polyu-placement.txt.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "university-of-arizona-wenyan-tuo",
+      "set": {
+        "homepage": "https://sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php",
+        "fields": [
+          "Marketing",
+          "Quantitative Marketing"
+        ],
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php"
+            ],
+            "quote": "empirical quantitative marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "source_urls": [
+              "https://sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php"
+            ],
+            "quote": "Ph.D. in Marketing, 2026, University of Arizona",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "verified_faculty_links": [
+          {
+            "faculty_id": "faculty-university-of-south-carolina-wenyantuo",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "source_urls": [
+              "https://sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php"
+            ],
+            "quote": "Wenyan Tuo",
+            "annotation": "Reviewed exact official profile URL, same named person and independently registered PhD school. Receiving-side facts and observation dates remain unchanged."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://sc.edu/study/colleges_schools/moore/directory/tuo_wenyan.php",
+          "label": "Official receiving-school biography, full HTML body read; Quant and completed PhD2026",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Reviewed exact official identity joins the existing receiving faculty record while retaining its earlier observation date.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "fields": [
+          "Marketing"
+        ]
+      }
+    },
+    {
+      "id": "university-of-arizona-liuyi-wang",
+      "set": {
+        "placement_year": 2026,
+        "role": "Assistant Professor, Marketing and International Business",
+        "tenure": {
+          "status": "tenure_track",
+          "evidence_status": "confirmed",
+          "quote": "three tenure-track assistant professor positions",
+          "source_urls": [
+            "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf"
+          ]
+        },
+        "claims": [
+          {
+            "field": "placement_year",
+            "value": 2026,
+            "source_urls": [
+              "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf",
+              "https://newscenter.baruch.cuny.edu/wp-content/uploads/sites/24/2026/09/2026-Faculty-Convocation-Program.pdf"
+            ],
+            "quote": "will join the department in Fall 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "page": 4,
+            "annotation": "Spring report names Liuyi Wang from Arizona in the same sentence; September new-faculty program independently lists her Assistant Professor role. Actual PhD award stays unknown."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf",
+          "label": "Full official spring report downloaded, rendered and read, physical p4; appointment Fall2026",
+          "checked_at": "2026-11-18",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "url": "https://newscenter.baruch.cuny.edu/wp-content/uploads/sites/24/2026/09/2026-Faculty-Convocation-Program.pdf",
+          "label": "Official new-faculty convocation program downloaded, rendered and read, physical p6 / printed p7",
+          "checked_at": "2026-11-18",
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "note": "Read the actual official PDFs, supplementing the previous index-only lead. No Quant/Strategy field inferred from methods or dissertation topics.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "placement_year": null,
+        "role": "Assistant Professor"
+      }
+    }
+  ],
+  "additions": [
+    {
+      "id": "university-of-maryland-qihui-chen",
+      "set": {
+        "id": "university-of-maryland-qihui-chen",
+        "name": "Qihui Chen",
+        "program_id": "university-of-maryland-marketing",
+        "school": "University of Maryland",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Consumer Behavior"
+        ],
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2023,
+        "graduation_year": 2023,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [
+          {
+            "institution": "Hong Kong University of Science and Technology",
+            "title": "Assistant Professor of Marketing",
+            "start_year": null
+          }
+        ],
+        "checked_at": "2026-11-18",
+        "homepage": "https://sites.google.com/view/qhchen",
+        "field_evidence": "Explicit primary-source classification: Evolutionary theory in consumer behaviour",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://researchportal.hkust.edu.hk/en/persons/qihui-chen/"
+            ],
+            "quote": "Qihui Chen; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "source_urls": [
+              "https://researchportal.hkust.edu.hk/en/persons/qihui-chen/"
+            ],
+            "quote": "PhD in Business and Management, The University of Maryland, 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://researchportal.hkust.edu.hk/en/persons/qihui-chen/"
+            ],
+            "quote": "Evolutionary theory in consumer behaviour",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "verified_faculty_links": [
+          {
+            "faculty_id": "faculty-hong-kong-university-of-science-and-technology-qihuichen",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "source_urls": [
+              "https://sites.google.com/view/qhchen"
+            ],
+            "quote": "Qihui Chen",
+            "annotation": "Reviewed exact official profile URL, same named person and independently registered PhD school. Receiving-side facts and observation dates remain unchanged."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/qihui-chen/",
+          "label": "HKUST official profile: completed Maryland PhD 2023",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://drum.lib.umd.edu/items/4ab1cf68-cd25-4d17-852f-3bdf0b539aec",
+          "label": "Official Marketing dissertation 2023",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://sites.google.com/view/qhchen",
+          "label": "Linked author material URL; fact verification is supplied by the separately quoted primary sources",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The named individual was reconciled against existing placement records and faculty identities. A dissertation year or current affiliation is not automatically a degree or first-job date. Current HKUST role is verified, but initial-job identity/start is not asserted from a current profile."
+    },
+    {
+      "id": "university-of-maryland-sanghwa-kim",
+      "set": {
+        "id": "university-of-maryland-sanghwa-kim",
+        "name": "Sanghwa Kim",
+        "program_id": "university-of-maryland-marketing",
+        "school": "University of Maryland",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2024,
+        "graduation_year": 2024,
+        "placement_year": 2024,
+        "status": "placed",
+        "destination": "McMaster University",
+        "destination_region": "CA",
+        "role": "Assistant Professor of Marketing",
+        "job_kind": "faculty",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [],
+        "checked_at": "2026-11-18",
+        "homepage": "https://sites.google.com/view/ksanghwa",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://orcid.org/0000-0003-1346-5897"
+            ],
+            "quote": "Sanghwa Kim; 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://orcid.org/0000-0003-1346-5897"
+            ],
+            "quote": "2019-08-19 to 2024-05-23; Ph.D. in Business and Management (Marketing)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2024,
+            "source_urls": [
+              "https://orcid.org/0000-0003-1346-5897"
+            ],
+            "quote": "McMaster University; 2024-08-19 to present; Assistant Professor of Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://orcid.org/0000-0003-1346-5897",
+          "label": "Self-asserted ORCID with verified McMaster email, precise education and employment dates",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://degroote.mcmaster.ca/profiles/kim910/",
+          "label": "McMaster official faculty profile",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://drum.lib.umd.edu/items/902a29c6-f9fe-418d-9740-58adbc1d91fe",
+          "label": "Official 2024 Marketing dissertation",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://sites.google.com/view/ksanghwa",
+          "label": "Linked author material URL; fact verification is supplied by the separately quoted primary sources",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The named individual was reconciled against existing placement records and faculty identities. A dissertation year or current affiliation is not automatically a degree or first-job date. Quantitative methods do not independently prove a Quantitative Marketing research-track label."
+    },
+    {
+      "id": "university-of-maryland-andy-li",
+      "set": {
+        "id": "university-of-maryland-andy-li",
+        "name": "Andy Li",
+        "program_id": "university-of-maryland-marketing",
+        "school": "University of Maryland",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Consumer Behavior"
+        ],
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2026,
+        "graduation_year": 2026,
+        "placement_year": 2026,
+        "status": "placed",
+        "destination": "San Diego State University",
+        "destination_region": "US",
+        "role": "Assistant Professor of Marketing",
+        "job_kind": "faculty",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [],
+        "checked_at": "2026-11-18",
+        "field_evidence": "Explicit primary-source classification: an expert in consumer behavior",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://business.sdsu.edu/news/2026/08/fowler-new-professors"
+            ],
+            "quote": "Andy Li; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "source_urls": [
+              "https://business.sdsu.edu/news/2026/08/fowler-new-professors"
+            ],
+            "quote": "A 2026 Ph.D. graduate of the University of Maryland",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://business.sdsu.edu/news/2026/08/fowler-new-professors"
+            ],
+            "quote": "an expert in consumer behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2026,
+            "source_urls": [
+              "https://business.sdsu.edu/news/2026/08/fowler-new-professors"
+            ],
+            "quote": "will begin his academic career at SDSU; fall 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://business.sdsu.edu/news/2026/08/fowler-new-professors",
+          "label": "SDSU August 10 2026 new faculty announcement",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://drum.lib.umd.edu/items/2daa514e-4954-49a9-a17e-da53303d44ee",
+          "label": "Official 2026 Marketing dissertation",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The named individual was reconciled against existing placement records and faculty identities. A dissertation year or current affiliation is not automatically a degree or first-job date."
+    },
+    {
+      "id": "university-of-maryland-zipei-lu",
+      "set": {
+        "id": "university-of-maryland-zipei-lu",
+        "name": "Zipei Lu",
+        "program_id": "university-of-maryland-marketing",
+        "school": "University of Maryland",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": 2026,
+        "status": "placed",
+        "destination": "Baruch College, City University of New York",
+        "destination_region": "US",
+        "role": "Assistant Professor",
+        "job_kind": "faculty",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [],
+        "checked_at": "2026-11-18",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf"
+            ],
+            "quote": "Zipei Lu; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2026,
+            "source_urls": [
+              "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf"
+            ],
+            "quote": "Zipei Lu from Univ. of Maryland; will join the department in Fall 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://gfm.baruch.cuny.edu/wp-content/uploads/sites/41/2026/03/Spring-2026_GeneralFacultyReport_Zicklin-FINAL.pdf",
+          "label": "Baruch official faculty report: Fall 2026 appointment",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://drum.lib.umd.edu/items/9598900c-71f8-4cd8-8eb9-4bc4ba985399",
+          "label": "Official 2026 Marketing dissertation",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://zicklin.baruch.cuny.edu/faculty-profile/zipei-lu/",
+          "label": "Official individual faculty profile (web reader 502; search indexed readable)",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The named individual was reconciled against existing placement records and faculty identities. A dissertation year or current affiliation is not automatically a degree or first-job date. The dissertation year is 2026; no exact award year is inferred. Quant remains unclassified without a direct specialization statement."
+    },
+    {
+      "id": "texas-a-m-university-narendra-bosukonda",
+      "set": {
+        "id": "texas-a-m-university-narendra-bosukonda",
+        "name": "Narendra Bosukonda",
+        "program_id": "texas-a-m-university-marketing",
+        "school": "Texas A&M University",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Marketing Strategy"
+        ],
+        "tracks": [
+          "marketing",
+          "strategy"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2023,
+        "graduation_year": 2023,
+        "placement_year": 2023,
+        "status": "placed",
+        "destination": "University of Texas at El Paso",
+        "destination_region": "US",
+        "role": "Assistant Professor of Marketing",
+        "job_kind": "faculty",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [
+          {
+            "institution": "Florida State University",
+            "title": "Assistant Professor of Marketing",
+            "start_year": 2024
+          }
+        ],
+        "checked_at": "2026-11-18",
+        "cv_url": "https://wertheim.fsu.edu/sites/default/files/2025-12/Narendra%20Bosukonda%20CV%2012%209%2025.pdf",
+        "homepage": "https://wertheim.fsu.edu/person/narendra-bosukonda",
+        "field_evidence": "Explicit primary-source classification: Research Areas: Marketing Strategy",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://mays.tamu.edu/graduate/phd/ph-d-marketing-placements-and-awards/"
+            ],
+            "quote": "Narendra Bosukonda; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "source_urls": [
+              "https://wertheim.fsu.edu/sites/default/files/2025-12/Narendra%20Bosukonda%20CV%2012%209%2025.pdf"
+            ],
+            "quote": "2023 Ph.D. in Business Administration-Marketing; Texas A&M University",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2023,
+            "source_urls": [
+              "https://wertheim.fsu.edu/sites/default/files/2025-12/Narendra%20Bosukonda%20CV%2012%209%2025.pdf"
+            ],
+            "quote": "The University of Texas at El Paso; Assistant Professor in Marketing (July 2023-June 2024)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "strategy"
+            ],
+            "source_urls": [
+              "https://ai.fsu.edu/faculty/research/narenda-bosukonda"
+            ],
+            "quote": "Research Areas: Marketing Strategy",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mays.tamu.edu/graduate/phd/ph-d-marketing-placements-and-awards/",
+          "label": "Mays first-placement list; FSU subsequent affiliation",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://wertheim.fsu.edu/sites/default/files/2025-12/Narendra%20Bosukonda%20CV%2012%209%2025.pdf",
+          "label": "FSU official CV: UTEP July2023-June2024; FSU June2024-now",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://ai.fsu.edu/faculty/research/narenda-bosukonda",
+          "label": "FSU official direct Marketing Strategy classification",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://wertheim.fsu.edu/person/narendra-bosukonda",
+          "label": "Linked author material URL; fact verification is supplied by the separately quoted primary sources",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The named individual was reconciled against existing placement records and faculty identities. A dissertation year or current affiliation is not automatically a degree or first-job date."
+    },
+    {
+      "id": "texas-a-m-university-priya-rangaswamy",
+      "set": {
+        "id": "texas-a-m-university-priya-rangaswamy",
+        "name": "Priya Rangaswamy",
+        "program_id": "texas-a-m-university-marketing",
+        "school": "Texas A&M University",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2023,
+        "graduation_year": null,
+        "placement_year": null,
+        "status": "placed",
+        "destination": "Baruch College, City University of New York",
+        "destination_region": "US",
+        "role": "Assistant Professor",
+        "job_kind": "faculty",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [],
+        "checked_at": "2026-11-18",
+        "homepage": "https://www.baruch.cuny.edu/profiles/faculty/Priya-Rangaswamy",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2023,
+            "source_urls": [
+              "https://mays.tamu.edu/graduate/phd/ph-d-marketing-placements-and-awards/"
+            ],
+            "quote": "Priya Rangaswamy; 2023",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://mays.tamu.edu/graduate/phd/ph-d-marketing-placements-and-awards/",
+          "label": "Mays graduate-placement list",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://oaktrust.library.tamu.edu/server/api/core/bitstreams/a76878cd-f764-4ea0-b9df-cff14ca0d655/content",
+          "label": "Official May2023 doctoral dissertation; not a conferral certificate",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.baruch.cuny.edu/profiles/faculty/Priya-Rangaswamy",
+          "label": "Baruch individual profile confirms completed Marketing PhD, no degree date",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The named individual was reconciled against existing placement records and faculty identities. A dissertation year or current affiliation is not automatically a degree or first-job date. Source cohort year 2023 is the dissertation title-page year, not an established award or job-start date. Teaching Marketing Strategy does not itself establish a Strategy research classification."
+    },
+    {
+      "id": "ubc-guanzhong-du",
+      "set": {
+        "id": "ubc-guanzhong-du",
+        "name": "Guanzhong Du",
+        "program_id": "university-of-british-columbia-marketing",
+        "school": "University of British Columbia",
+        "program": "博士项目 · Marketing",
+        "origin": "CA",
+        "fields": [
+          "Consumer Behavior"
+        ],
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2026,
+        "graduation_year": 2026,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [
+          {
+            "institution": "Nanyang Technological University",
+            "title": "Assistant Professor",
+            "start_year": null
+          }
+        ],
+        "checked_at": "2026-11-18",
+        "field_evidence": "Explicit primary-source classification: Guanzhong DU; Expertise: Consumer Behaviour",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.sauder.ubc.ca/phd-business-administration/overview/people/alumni/phd-people-alumni-2026"
+            ],
+            "quote": "Guanzhong Du; 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-faculty"
+            ],
+            "quote": "Guanzhong DU; Expertise: Consumer Behaviour",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/phd-business-administration/overview/people/alumni/phd-people-alumni-2026",
+          "label": "Official school-wide 2026 alumni list, current university column",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-faculty",
+          "label": "NTU official division directory explicitly Consumer Behaviour",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The named individual was reconciled against existing placement records and faculty identities. A dissertation year or current affiliation is not automatically a degree or first-job date. UBC annual alumni source reports current NTU; initial job not yet established by a fully read first-placement source. Legacy org-www first-placement table is indexed but returns403 and was not used to certify first job."
+    },
+    {
+      "id": "frontier-university-of-rochester-ziyao-tang",
+      "set": {
+        "name": "Ziyao Tang",
+        "school": "University of Rochester",
+        "program_id": "university-of-rochester-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "qm",
+          "io"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Empirical Industrial Organization",
+          "Information Design",
+          "Digital Platforms"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": 2026,
+        "placement_year": 2026,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "Baruch College, City University of New York",
+        "destination_region": "US",
+        "role": "Assistant Professor of Information Systems",
+        "job_kind": "faculty",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://www.rochester.edu/commencement/wp-content/uploads/2026/05/commencement-program.pdf"
+            ],
+            "quote": "Ziyao Tang; Business Administration (August 31, 2026)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "source_urls": [
+              "https://drive.google.com/file/d/1_WDbUuMm1lIVbDSDMbuh6SkSb3R5qNP9/view?usp=drive_link"
+            ],
+            "quote": "Ph.D. in Business Administration, University of Rochester, May 2026.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "first_appointment",
+            "value": "Baruch College; Assistant Professor of Information Systems; August 2026",
+            "source_urls": [
+              "https://drive.google.com/file/d/1_WDbUuMm1lIVbDSDMbuh6SkSb3R5qNP9/view?usp=drive_link"
+            ],
+            "quote": "Academic Appointment: Baruch College; 08/2026–Present; Assistant Professor of Information Systems",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "research_direction",
+            "value": "Quantitative Marketing; Empirical IO",
+            "source_urls": [
+              "https://simon.rochester.edu/sites/default/files/2025-09/Tang%2C%20Ziyao%20CV%202025.09.04.pdf"
+            ],
+            "quote": "Research Interests: Quantitative Marketing, Empirical IO",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.rochester.edu/commencement/wp-content/uploads/2026/05/commencement-program.pdf",
+          "label": "Official 2026 degree-candidate program",
+          "checked_at": "2026-11-18",
+          "pages": [
+            42
+          ]
+        },
+        {
+          "url": "https://simon.rochester.edu/sites/default/files/2025-09/Tang%2C%20Ziyao%20CV%202025.09.04.pdf",
+          "label": "Official September-2025 CV downloaded and first page read",
+          "checked_at": "2026-11-18",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "url": "https://www.ziyao-tang.com/home",
+          "label": "Author current homepage actually read; links the archived current CV",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1_WDbUuMm1lIVbDSDMbuh6SkSb3R5qNP9/view?usp=drive_link",
+          "label": "Author-linked current CV downloaded from Google Drive and first page actually read",
+          "checked_at": "2026-11-18",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "note": "New omitted Marketing graduate identified from the 2026 independent program. Candidate booklet projected August; current author CV explicitly gives actual PhD May2026, which supersedes the projected date. The sole post-PhD academic appointment in the current CV starts August2026. Destination is Information Systems; source training remains Marketing. Quant and IO use explicit researcher direction in the official prior CV, not appointment title."
+    },
+    {
+      "id": "frontier-university-of-south-carolina-mackenzie-volk",
+      "set": {
+        "name": "Mackenzie Volk",
+        "school": "University of South Carolina",
+        "program_id": "university-of-south-carolina-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Consumer Behavior",
+          "Consumer Decision Making"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": 2026,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "College of Charleston",
+        "destination_region": "US",
+        "role": "Assistant Professor, Department of Management and Marketing",
+        "job_kind": "faculty",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://sc.edu/docs/2026-doctoral-commencement-program.pdf"
+            ],
+            "quote": "Mackenzie Michaela Volk; Business Administration",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "program",
+            "value": "Marketing",
+            "source_urls": [
+              "https://sc.edu/study/colleges_schools/moore/study/phd_programs/our_people/candidate_directory/index.php"
+            ],
+            "quote": "Pursuing Ph.D. in Business Administration; Marketing Concentration; Entered program in 2021",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "new_appointment_2026",
+            "value": "College of Charleston; Assistant Professor",
+            "source_urls": [
+              "https://today.charleston.edu/2026/09/01/cofc-welcomes-new-faculty-9-26/"
+            ],
+            "quote": "Mackenzie Volk; Assistant Professor, Department of Management and Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "research_direction",
+            "value": "Consumer Behavior",
+            "source_urls": [
+              "https://today.charleston.edu/2026/09/01/cofc-welcomes-new-faculty-9-26/"
+            ],
+            "quote": "I conduct experimental research in consumer behavior.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://sc.edu/docs/2026-doctoral-commencement-program.pdf",
+          "label": "Official spring-2026 candidate program, Moore block actually read",
+          "checked_at": "2026-11-18",
+          "pages": [
+            32
+          ]
+        },
+        {
+          "url": "https://sc.edu/study/colleges_schools/moore/study/phd_programs/our_people/candidate_directory/index.php",
+          "label": "Official directory, complete indexed profile paragraph read; direct open timeout",
+          "checked_at": "2026-11-18",
+          "access": "search_index_body"
+        },
+        {
+          "url": "https://today.charleston.edu/2026/09/01/cofc-welcomes-new-faculty-9-26/",
+          "label": "Official receiving-college September2026 new-faculty profile, actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The independent ceremony book has the full name Mackenzie Michaela Volk. Official program directory and receiving-college biography share Kentucky education and Marketing identity, supporting the short-name match. Actual award year remains null because candidate-program year is not degree-award proof. Placementyear2026 is the dated new-faculty cohort; exact start month and absolute first post-PhD appointment remain unconfirmed."
+    },
+    {
+      "id": "frontier-university-of-minnesota-yunhyoung-kim",
+      "set": {
+        "name": "Yunhyoung Kim",
+        "school": "University of Minnesota",
+        "program_id": "university-of-minnesota-marketing",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing",
+          "Quantitative Behavioral Modeling",
+          "Digital Marketplaces",
+          "Reinforcement Learning"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": 2026,
+        "market_cycle": null,
+        "status": "placed",
+        "destination": "University of Kansas",
+        "destination_region": "US",
+        "role": "Assistant Professor of Marketing",
+        "job_kind": "faculty",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/faculty-cvcs/CV-Tony_H._Cui-academic%20202602%20CSOM.pdf"
+            ],
+            "quote": "Yunhyoung Kim (Chair; Marketing Dept., U. of Minnesota; First placement: University of Kansas; Graduation Year: 2026)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "source_reported_first_placement",
+            "value": "University of Kansas",
+            "source_urls": [
+              "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/faculty-cvcs/CV-Tony_H._Cui-academic%20202602%20CSOM.pdf"
+            ],
+            "quote": "First placement: University of Kansas",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "new_appointment_2026",
+            "value": "University of Kansas; Assistant Professor of Marketing",
+            "source_urls": [
+              "https://business.ku.edu/news/article/three-emerging-scholars-join-ku-school-of-business-for-2026-27"
+            ],
+            "quote": "The University of Kansas School of Business welcomed three researchers at the start of the 2026-27 academic year.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "degree_received_by_2026",
+            "value": "University of Minnesota PhD",
+            "source_urls": [
+              "https://business.ku.edu/news/article/five-questions-with-yunhyoung-kim-ARTICLE-396J43"
+            ],
+            "quote": "before earning his doctorate in business administration from the University of Minnesota.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/faculty-cvcs/CV-Tony_H._Cui-academic%20202602%20CSOM.pdf",
+          "label": "Official advisor CV indexed body read; PDF download 403",
+          "checked_at": "2026-11-18",
+          "access": "search_index_body",
+          "pages": [
+            16
+          ]
+        },
+        {
+          "url": "https://business.ku.edu/news/article/three-emerging-scholars-join-ku-school-of-business-for-2026-27",
+          "label": "Official employer 2026–27 new-faculty article, indexed full profile read; direct open inaccessible",
+          "checked_at": "2026-11-18",
+          "access": "search_index_body"
+        },
+        {
+          "url": "https://business.ku.edu/people/yunhyoung-kim",
+          "label": "Official current profile, full body actually read",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://business.ku.edu/news/article/five-questions-with-yunhyoung-kim-ARTICLE-396J43",
+          "label": "Official October2026 interview, indexed body read",
+          "checked_at": "2026-11-18",
+          "access": "search_index_body"
+        }
+      ],
+      "note": "Official advisor explicitly labels Marketing and first placement Kansas, and dated employer announcement supports 2026 start. Advisor CV was dated February2026, so its graduationyear2026 could be prospective; keep actual graduationyearnull pending an explicit current degree-year source. Official profile names Quantitative Behavioral Modeling as a research interest, but this is not a literal Quantitative Marketing track declaration: preserve Marketing-only classification and expose the research detail for later classification."
+    },
+    {
+      "id": "hong-kong-polytechnic-university-muxuan-lyu",
+      "set": {
+        "name": "Muxuan Lyu",
+        "school": "Hong Kong Polytechnic University",
+        "program": "博士项目 · Marketing",
+        "program_id": "hong-kong-polytechnic-university-marketing",
+        "origin": "HK",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "source_cohort_year": 2023,
+        "graduation_year": 2023,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "checked_at": "2026-11-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        },
+        {
+          "url": "https://theses.lib.polyu.edu.hk/handle/200/13845",
+          "label": "Official thesis record: PhD 2023; Consumer behavior and Marketing subjects"
+        }
+      ],
+      "note": "The official table labels its year Graduation Year but employment Current Placement. Preserve the current-position observation separately: Manager at AIA Insurance, Hong Kong. No first job or first-job date is established."
+    },
+    {
+      "id": "hong-kong-polytechnic-university-chengchen-liu",
+      "set": {
+        "name": "Chengchen Liu",
+        "school": "Hong Kong Polytechnic University",
+        "program": "博士项目 · Marketing",
+        "program_id": "hong-kong-polytechnic-university-marketing",
+        "origin": "HK",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": 2026,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "checked_at": "2026-11-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/jiang_yuwei/yuwei-jiang-cv.pdf?hash=B2DC12C9F9927F3C8D0E856B10DA37E8&rev=e77ee2d3ebee4839a3c9f2fa4108ea3c",
+          "label": "Official advisor CV lists Chengchen Liu as PhD advisee; indexed CV text read"
+        }
+      ],
+      "note": "The official table labels its year Graduation Year but employment Current Placement. Preserve the current-position observation separately: Assistant Professor at Shanghai University of Finance and Economics. No first job or first-job date is established."
+    },
+    {
+      "id": "hong-kong-polytechnic-university-xin-liu",
+      "set": {
+        "name": "Xin Liu",
+        "school": "Hong Kong Polytechnic University",
+        "program": "博士项目 · Marketing",
+        "program_id": "hong-kong-polytechnic-university-marketing",
+        "origin": "HK",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "source_cohort_year": 2026,
+        "graduation_year": 2026,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "checked_at": "2026-11-18"
+      },
+      "sources": [
+        {
+          "url": "https://www.polyu.edu.hk/mm/experience/phd-graduates-placement/",
+          "label": "Official complete Management and Marketing graduate table, all 2023-2026 rows actually read; header is Current Placement"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/mm/-/media/department/mm/people/academic-staff/jiang_yuwei/yuwei-jiang-cv.pdf?hash=B2DC12C9F9927F3C8D0E856B10DA37E8&rev=e77ee2d3ebee4839a3c9f2fa4108ea3c",
+          "label": "Official advisor CV lists Xin Liu as PhD advisee; indexed CV text read"
+        }
+      ],
+      "note": "The official table labels its year Graduation Year but employment Current Placement. Preserve the current-position observation separately: Assistant Professor at Hong Kong Metropolitan University. No first job or first-job date is established."
+    }
+  ]
+}

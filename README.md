@@ -2,13 +2,13 @@
 
 [在线网站](https://zyx-dirtystar.github.io/mkt-io-placement/) · [数据质量](https://zyx-dirtystar.github.io/mkt-io-placement/#quality) · [项目对比](https://zyx-dirtystar.github.io/mkt-io-placement/#compare) · [招聘市场](https://zyx-dirtystar.github.io/mkt-io-placement/#jobs)
 
-网站版本 1.3.6；按固定 58 所 Marketing 学校 × 2023–2026 共 232 格、另列 8 格扩展项目推进。此次原剩余 184 格已完成 72 格实际年度来源检索／读取，尚余 112 格首次核查；证据缺口保留到复查队列。网站 checklist 默认展示全部固定 Marketing 范围，可按核查队列筛选，CSV／JSON 与 [完整文字检查表](reports/COHORT-CHECKLIST.md) 自动生成。
+网站版本 1.3.7；按固定 58 所 Marketing 学校 × 2023–2026 共 232 格、另列 8 格扩展项目推进。此次原剩余 184 格已完成 184 格实际年度来源检索／读取，尚余 0 格首次核查；证据缺口保留到复查队列。网站 checklist 默认展示全部固定 Marketing 范围，可按核查队列筛选，CSV／JSON 与 [完整文字检查表](reports/COHORT-CHECKLIST.md) 自动生成。
 
-本次累计补录遗漏人物 17 人、复核既有档案 11 次；Quant 87→94、CB 70→75、Strategy 4→5。进度、名单差集与证据限度见 [184 格核查报告](docs/COHORT-FRONTIER-2026-11-18.md)。此前 Berkeley／Kellogg 等 14 项目的结果保留在 [系统核对报告](docs/SYSTEMATIC-COHORT-REVIEW-2026-11-18.md)。统一职业观察窗口仍截止 2026-11-02。
+本次累计补录遗漏人物 36 人、复核原有档案 41 人；Quant 87→108、CB 70→85、Strategy 4→7。进度、名单差集与证据限度见 [184 格核查报告](docs/COHORT-FRONTIER-2026-11-18.md)。此前 Berkeley／Kellogg 等 14 项目的结果保留在 [系统核对报告](docs/SYSTEMATIC-COHORT-REVIEW-2026-11-18.md)。统一职业观察窗口仍截止 2026-11-02。
 
 参考资料页 Market references 保留：31 条官方入口与可比项目，覆盖 Quant、CB、Strategy，并修订部分招聘日期。完整调研与统计边界见 [参考项目与市场资料审计](docs/MARKET-REFERENCE-REVIEW-2026-11-17.md)。
 
-人物资料现为 349 条 placement / candidate 档案，其中 30 人记录在 2026–27 求职季；1,358 位教师独立保存。4 个已核全的具名名单共 8 人，完整性仅适用于各自明确群体。来源网页名单行已对齐、年度检索完成与整届完整是不同进度。教师历史快照与观察日期保留。
+人物资料现为 368 条 placement / candidate 档案，其中 30 人记录在 2026–27 求职季；1,358 位教师独立保存。5 个已核全的具名名单共 11 人，完整性仅适用于各自明确群体。来源网页名单行已对齐、年度检索完成与整届完整是不同进度。教师历史快照与观察日期保留。
 
 ## 网站功能
 

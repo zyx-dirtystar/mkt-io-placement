@@ -1,5 +1,10 @@
 [
   {
+    "school": "Annual cohort review · 1.3.7",
+    "note": "2026-11-18: 184/184 frontier cells received annual official-source reviews; 0 remain untouched. 36 omitted people added; 41 original profiles revised. Quant 108, CB 85, Strategy 7. 5 explicitly defined complete rosters; reviews and source-table matches do not establish independent cohort denominators.",
+    "url": "https://github.com/zyx-dirtystar/mkt-io-placement/blob/main/docs/COHORT-FRONTIER-2026-11-18.md"
+  },
+  {
     "school": "Annual cohort review · 1.3.6",
     "note": "2026-11-18: 72/184 frontier cells received annual official-source reviews; 112 remain untouched. 17 omitted people added; 11 existing profiles reviewed. Quant 94, CB 75, Strategy 5. 4 explicitly defined complete rosters; reviews and source-table matches do not establish independent cohort denominators.",
     "url": "https://github.com/zyx-dirtystar/mkt-io-placement/blob/main/docs/COHORT-FRONTIER-2026-11-18.md"

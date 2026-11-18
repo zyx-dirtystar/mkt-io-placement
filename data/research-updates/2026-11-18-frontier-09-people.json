@@ -1,0 +1,289 @@
+{
+  "id": "frontier-cohorts-2026-11-18-09",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/final-evidence-supplement.json",
+      "sha256": "3673b384365680b77a124c6e2c34409803242e053bb1ad7abacf20095cb378f7"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-count-verification.json",
+      "sha256": "f3931ffe4fad768bc91c4051a92b0727fac497638e97c3650afc6160ae98c1b5"
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/a/supplementary-audit01.json",
+      "sha256": "49b6eeeac43470389d9b7559a359a8ffd2fe64d0c177718826ce431f495070de"
+    }
+  ],
+  "updates": [
+    {
+      "id": "emory-university-da-young-kim",
+      "set": {
+        "sources": [
+          {
+            "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+            "label": "Official 2025 degree-recipient program, physical p33 / printed p31; starred August2024 graduate",
+            "checked_at": "2026-11-18",
+            "pages": [
+              33
+            ]
+          },
+          {
+            "url": "https://www.emorybusiness.com/2019/05/29/2019-phd-award-winners/",
+            "label": "Official EmoryBusiness identifies Da Young Kim as Marketing",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://etd.library.emory.edu/downloads/1j92g8835?locale=es",
+            "label": "Official2024 doctoral dissertation, adviser MichaelLewis",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "source_publication_year": 2025,
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Da Young Kim*; Business; * GRADUATED AUGUST2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing"
+            ],
+            "source_urls": [
+              "https://www.emorybusiness.com/2019/05/29/2019-phd-award-winners/"
+            ],
+            "quote": "Da Young Kim, marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Da Young Kim*; * GRADUATED AUGUST 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "physical_page": 33,
+            "printed_page": 31,
+            "annotation": "Exact physical / printed page registered after visual verification; earlier page label retained only in immutable batch history."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+          "label": "Parent rendered and checked exact physical page 33",
+          "checked_at": "2026-11-18",
+          "pages": [
+            33
+          ]
+        }
+      ],
+      "note": "Corrected physical/printed PDF page metadata; degree year and source cohort remain separate.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "sources": [
+          {
+            "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+            "label": "Official2025 degree-recipient program, physicalp34; star explicitly means graduated August2024",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://www.emorybusiness.com/2019/05/29/2019-phd-award-winners/",
+            "label": "Official EmoryBusiness identifies Da Young Kim as Marketing",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://etd.library.emory.edu/downloads/1j92g8835?locale=es",
+            "label": "Official2024 doctoral dissertation, adviser MichaelLewis",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Da Young Kim*; Business; * GRADUATED AUGUST2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing"
+            ],
+            "source_urls": [
+              "https://www.emorybusiness.com/2019/05/29/2019-phd-award-winners/"
+            ],
+            "quote": "Da Young Kim, marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "id": "emory-university-kyeongbin-kb-kim",
+      "set": {
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://goizueta.emory.edu/phd/career/placement"
+          },
+          {
+            "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+            "label": "Official2024 AMA-Sheth host booklet, physical PDFp83",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+            "label": "Official 2025 degree-recipient program, physical p34 / printed p32",
+            "checked_at": "2026-11-18",
+            "pages": [
+              34
+            ]
+          },
+          {
+            "url": "https://business.wisc.edu/directory/profile/kyeongbin-kim/",
+            "label": "Official Wisconsin profile: August2025 appointment",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "Kyeongbin Kim is a 5th-year Quantitative Marketing PhD candidate",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Recipients of the Doctor of Philosophy Degree; Kyeongbin Kim; Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.wisc.edu/directory/profile/kyeongbin-kim/"
+            ],
+            "quote": "joined the Wisconsin School of Business in August 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Kyeongbin Kim; Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "physical_page": 34,
+            "printed_page": 32,
+            "annotation": "Exact physical / printed page registered after visual verification; earlier page label retained only in immutable batch history."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+          "label": "Parent rendered and checked exact physical page 34",
+          "checked_at": "2026-11-18",
+          "pages": [
+            34
+          ]
+        }
+      ],
+      "note": "Corrected physical/printed PDF page metadata; degree year and source cohort remain separate.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "sources": [
+          {
+            "label": "官方 Marketing placement / 毕业生名单",
+            "url": "https://goizueta.emory.edu/phd/career/placement"
+          },
+          {
+            "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+            "label": "Official2024 AMA-Sheth host booklet, physical PDFp83",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+            "label": "Official2025 degree-recipient program, physicalp34",
+            "checked_at": "2026-11-18",
+            "pages": [
+              34
+            ]
+          },
+          {
+            "url": "https://business.wisc.edu/directory/profile/kyeongbin-kim/",
+            "label": "Official Wisconsin profile: August2025 appointment",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "Kyeongbin Kim is a 5th-year Quantitative Marketing PhD candidate",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Recipients of the Doctor of Philosophy Degree; Kyeongbin Kim; Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.wisc.edu/directory/profile/kyeongbin-kim/"
+            ],
+            "quote": "joined the Wisconsin School of Business in August 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      }
+    }
+  ],
+  "additions": []
+}

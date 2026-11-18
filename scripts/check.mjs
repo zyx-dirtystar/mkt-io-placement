@@ -34,6 +34,7 @@ for(const r of records){
   if(p.kind==='marketing')assert.ok(r.tracks.includes('marketing'),'Marketing cohort excluded from all-Marketing');
 }
 for(const c of coverage){
+  for(const e of c.aggregate_count_evidence||[]){assert.ok(Number.isInteger(e.count)&&e.count>=0);assert.ok(e.population_label&&e.quote&&e.checked_at);assert.match(e.url,/^https:\/\//);}
   assert.ok(programs.some(p=>p.id===c.program_id));assert.ok(AUDIT_STATUS[c.status]);
   assert.ok(/^20\d{2}(-20\d{2})?$/.test(c.period));
   assert.equal(new Set(c.record_ids).size,c.record_ids.length,'Duplicate people in audit cell');
@@ -57,10 +58,20 @@ assert.equal(filterRecords([cb,unclassified],{track:'marketing_unclassified'}).l
 assert.equal(summarize([{...base,status:'outcome_unknown',destination:null,placement_year:null}]).unknown,1);
 const ubc=programs.find(p=>p.school==='University of British Columbia'&&p.kind==='marketing');
 const ubc2023=findAudit(catalog,ubc.id,'2023');
-assert.equal(ubc2023.record_ids.length,3);
+assert.deepEqual(ubc2023.record_ids,['ubc-ekin-ok'],'The primary annual-alumni series lists only Ekin in2023; the older first-placement table labels three people2023');
+assert.deepEqual(new Set(findAudit(catalog,ubc.id,'2024').record_ids),new Set(['ubc-zining-wang','ubc-siddhanth-mookerjee']));
+for(const id of ['ubc-zining-wang','ubc-siddhanth-mookerjee']){
+  const r=records.find(r=>r.id===id);
+  assert.equal(r.source_cohort_year,2024);
+  assert.ok(r.source_year_observations.some(o=>o.year===2023&&o.kind==='marketing_first_placement_table'),'Retain the differing legacy source observation');
+}
 assert.equal(records.find(r=>r.id==='ubc-zining-wang').placement_year,2024,'Prefer CV job-start year over source table year');
 assert.equal(records.find(r=>r.id==='ubc-ekin-ok').placement_year,2022);
-assert.equal(findAudit(catalog,ubc.id,'2024').listed_count,null,'Missing source year is unknown, not zero');
+assert.equal(findAudit(catalog,ubc.id,'2024').listed_count,2,'Annual alumni table lists two names; this does not establish an independent whole-cohort denominator');
+assert.equal(findAudit(catalog,ubc.id,'2024').cohort_complete,false);
+for(const r of records.filter(r=>catalog.history_years.includes(r.source_cohort_year))){
+  assert.ok(findAudit(catalog,r.program_id,String(r.source_cohort_year)).record_ids.includes(r.id),'A source-year person must remain discoverable in the corresponding annual cell: '+r.id);
+}
 const next={...catalog,history_years:[2024,2025,2026,2027],current_cycle:'2027-2028'};
 assert.deepEqual(auditPeriods(next),['2024','2025','2026','2027','2027-2028']);
 assert.equal(findAudit(next,ubc.id,'2027').status,'not_started');

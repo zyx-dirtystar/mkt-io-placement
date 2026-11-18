@@ -49,6 +49,7 @@ test('complete names, research labels, destinations and dates are independent mi
   const missing=x.records.map(r=>ids.has(r.id)?{...r,tracks:['marketing'],placement_year:null}:r);
   let row=buildCohortChecklist({...x,records:missing}).rows.find(r=>r.id===cell.program_id+':'+cell.period);
   assert.equal(row.cohort_complete,true);assert.equal(row.work_complete,false);assert.equal(row.next_stage,'research_classification');
+  assert.match(row.next_action,/Verify primary research-field evidence/,'A general school-source review must not replace the actual next step of a complete named class');
   const allLabelled=missing.map(r=>ids.has(r.id)?{...r,tracks:['marketing','cb']}:r);
   row=buildCohortChecklist({...x,records:allLabelled}).rows.find(r=>r.id===cell.program_id+':'+cell.period);
   assert.ok(['initial_destination','independent_dates'].includes(row.next_stage));

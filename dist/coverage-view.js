@@ -1,6 +1,6 @@
-import {checklistMarkup,bindChecklist} from './checklist-view.js?v=1.3.6';
-import {cohortEvidenceMarkup,countReconciliationMarkup} from './cohort-scope.js?v=1.3.6';
-import {REGIONS} from './core.js?v=1.3.6';
+import {checklistMarkup,bindChecklist} from './checklist-view.js?v=1.3.7';
+import {cohortEvidenceMarkup,countReconciliationMarkup} from './cohort-scope.js?v=1.3.7';
+import {REGIONS} from './core.js?v=1.3.7';
 
 export const AUDIT_STATUS = {
   not_started: 'Not started',

@@ -1,0 +1,113 @@
+{
+  "id": "frontier-cohorts-2026-11-18-10",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/ubc-source-year-supplement.json",
+      "sha256": "89975425005d8333bcff0f5055bf3f820b34fde92b9098949cf228a156b7461d"
+    }
+  ],
+  "updates": [
+    {
+      "id": "ubc-siddhanth-mookerjee",
+      "set": {
+        "source_cohort_year": 2024,
+        "source_year_observations": [
+          {
+            "year": 2023,
+            "kind": "marketing_first_placement_table",
+            "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+            "quote": "2023 Siddhanth Mookerjee"
+          },
+          {
+            "year": 2024,
+            "kind": "primary_annual_alumni_table",
+            "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni",
+            "quote": "2024 Siddhanth Mookerjee Marketing"
+          }
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni"
+            ],
+            "quote": "2024; Siddhanth Mookerjee; Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Primary source roster is the annual alumni series used by the current coverage cells. The separate first-placement table reports 2023; neither table year changes the independently sourced graduation or first-job dates."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni",
+          "label": "Official annual alumni table headed 2024; Marketing entries read in full",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+          "label": "Legacy first-placement table still labels these two 2023; retained as separate source observation",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Primary annual-alumni source year is now2024, aligned with the current annual coverage cell. The prior Marketing first-placement-table label2023 is retained in source_year_observations; independent degree and job-start dates remain unchanged.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "source_cohort_year": 2023
+      }
+    },
+    {
+      "id": "ubc-zining-wang",
+      "set": {
+        "source_cohort_year": 2024,
+        "source_year_observations": [
+          {
+            "year": 2023,
+            "kind": "marketing_first_placement_table",
+            "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+            "quote": "2023 Zining Wang"
+          },
+          {
+            "year": 2024,
+            "kind": "primary_annual_alumni_table",
+            "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni",
+            "quote": "2024 Zining Wang Marketing"
+          }
+        ],
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni"
+            ],
+            "quote": "2024; Zining Wang; Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18",
+            "annotation": "Primary source roster is the annual alumni series used by the current coverage cells. The separate first-placement table reports 2023; neither table year changes the independently sourced graduation or first-job dates."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.sauder.ubc.ca/programs/phd/phd-business-administration/overview/people/alumni",
+          "label": "Official annual alumni table headed 2024; Marketing entries read in full",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.sauder.ubc.ca/thought-leadership/divisions/marketing-and-behavioural-science/phd-program",
+          "label": "Legacy first-placement table still labels these two 2023; retained as separate source observation",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Primary annual-alumni source year is now2024, aligned with the current annual coverage cell. The prior Marketing first-placement-table label2023 is retained in source_year_observations; independent degree and job-start dates remain unchanged.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "source_cohort_year": 2023
+      }
+    }
+  ],
+  "additions": []
+}

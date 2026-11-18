@@ -1,0 +1,17 @@
+{
+  "id": "frontier-cohorts-2026-11-18-06",
+  "checked_at": "2026-11-18",
+  "people_batch": "data/research-updates/2026-11-18-frontier-06-people.json",
+  "people_batch_sha256": "d06cf8754c814fe887d7aecc7641e312de7bc94e568847eeeae249e88855d0ff",
+  "source_packet": "data/research-updates/2026-11-18-frontier-06-sources.json",
+  "annual_review_ids": [],
+  "reviewed_cell_ids": [],
+  "coverage_before_sha256": "788abdfab8f4c3fe67d62518b8a84e019cfb3ef6d8419eaaa6525a5a9d3a06b1",
+  "coverage_after_sha256": "788abdfab8f4c3fe67d62518b8a84e019cfb3ef6d8419eaaa6525a5a9d3a06b1",
+  "coverage_changes": [],
+  "summary": {
+    "updates": 3,
+    "additions": 0,
+    "people": 362
+  }
+}

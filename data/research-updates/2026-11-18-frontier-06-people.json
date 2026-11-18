@@ -1,0 +1,130 @@
+{
+  "id": "frontier-cohorts-2026-11-18-06",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/b/supplementary03.json",
+      "sha256": "44f51161338cf4e57ed9aca31f9c742e71dc5fb55b385584008c2eb7b2aa2830"
+    }
+  ],
+  "updates": [
+    {
+      "id": "pennsylvania-state-university-qi-zhao",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing",
+          "Operations Research"
+        ],
+        "graduation_year": 2025,
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "research_direction",
+            "value": "Quantitative Marketing",
+            "source_urls": [
+              "https://www.unsw.edu.au/staff/qi-zhao"
+            ],
+            "quote": "dual-title Ph.D. in Business Administration (Quantitative Marketing) and Operations Research",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://www.unsw.edu.au/staff/qi-zhao"
+            ],
+            "quote": "from The Pennsylvania State University in 2025.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.unsw.edu.au/staff/qi-zhao",
+          "label": "Official UNSW faculty profile, full body actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Explicit receiving-school dual-title degree supports Quant classification and actual completed PhD2025. Current Lecturer (Assistant Professor) title is documented in the source; it is not silently substituted for a separately dated first-appointment title.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": 2025,
+        "claims": [
+          {
+            "field": "source_reported_appointment_type",
+            "value": "Tenure-track academic placement",
+            "source_urls": [
+              "https://smeal.psu.edu/academics/doctoral/business-phd/marketing/placements"
+            ],
+            "quote": "all academic placements are tenure track unless an alternate job title is provided.",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      }
+    },
+    {
+      "id": "frontier-university-of-rochester-ziyao-tang",
+      "set": {
+        "homepage": "https://www.ziyao-tang.com/home",
+        "cv_url": "https://drive.google.com/file/d/1_WDbUuMm1lIVbDSDMbuh6SkSb3R5qNP9/view?usp=drive_link"
+      },
+      "sources": [
+        {
+          "url": "https://www.ziyao-tang.com/home",
+          "label": "Author homepage, read; same person and CV link",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1_WDbUuMm1lIVbDSDMbuh6SkSb3R5qNP9/view?usp=drive_link",
+          "label": "Author-linked current CV, downloaded and first page read",
+          "checked_at": "2026-11-18",
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "note": "Register the exact person and current CV URLs in the same update that sets them.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {}
+    },
+    {
+      "id": "frontier-university-of-minnesota-yunhyoung-kim",
+      "set": {
+        "homepage": "https://business.ku.edu/people/yunhyoung-kim"
+      },
+      "sources": [
+        {
+          "url": "https://business.ku.edu/people/yunhyoung-kim",
+          "label": "Exact official current faculty profile, full body actually read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Register exact faculty profile as the person homepage. No existing faculty-dataset exact-name match was found, so no faculty ID is fabricated.",
+      "expected_checked_at": "2026-11-18",
+      "expected": {}
+    }
+  ],
+  "additions": []
+}

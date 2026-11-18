@@ -1,0 +1,861 @@
+{
+  "id": "frontier-cohorts-2026-11-18-08",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/a/part03.json",
+      "sha256": "c3a3b97a3edd8e945387ab919aa6ba579120db75530c8be694d5954102157044"
+    }
+  ],
+  "updates": [
+    {
+      "id": "boston-university-chen-jing",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing"
+        ],
+        "field_evidence": "Explicit primary-source classification: Ph.D. candidate in quantitative marketing",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.bu.edu/questrom/profiles/chen-jing/"
+            ],
+            "quote": "Ph.D. candidate in quantitative marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.bu.edu/questrom/profiles/chen-jing/",
+          "label": "BU official individual profile",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The profile explicitly states quantitative marketing; its candidate status is stale and not used as an award date.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "boston-university-jaewoo-lee",
+      "set": {
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Consumer Behavior",
+          "Consumer Psychology"
+        ],
+        "graduation_year": 2024,
+        "placement_year": 2024,
+        "homepage": "https://www.gvsu.edu/seidman/form/6e5d5f89-fb66-4eb5-9eb2-50e1ccf7aed6/response/da963a1a-6831-4507-b4c9-6b0a9e1c4d94",
+        "field_evidence": "Explicit primary-source classification: Expertise: Consumer Psychology; As a behavioral researcher",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.gvsu.edu/seidman/form/6e5d5f89-fb66-4eb5-9eb2-50e1ccf7aed6/response/da963a1a-6831-4507-b4c9-6b0a9e1c4d94"
+            ],
+            "quote": "Expertise: Consumer Psychology; As a behavioral researcher",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.gvsu.edu/seidman/form/6e5d5f89-fb66-4eb5-9eb2-50e1ccf7aed6/response/da963a1a-6831-4507-b4c9-6b0a9e1c4d94"
+            ],
+            "quote": "Ph.D. Boston University, 2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2024,
+            "source_urls": [
+              "https://www.gvsu.edu/seidman/form/6e5d5f89-fb66-4eb5-9eb2-50e1ccf7aed6/response/da963a1a-6831-4507-b4c9-6b0a9e1c4d94"
+            ],
+            "quote": "joined Grand Valley State University in 2024 as an Assistant Professor of Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.gvsu.edu/seidman/form/6e5d5f89-fb66-4eb5-9eb2-50e1ccf7aed6/response/da963a1a-6831-4507-b4c9-6b0a9e1c4d94",
+          "label": "GVSU official individual faculty directory",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Direct behavioral-research and Consumer Psychology expertise, completed PhD2024 and joining2024.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": null,
+        "placement_year": 2024,
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "emory-university-kyeongbin-kb-kim",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing"
+        ],
+        "graduation_year": 2025,
+        "placement_year": 2025,
+        "field_evidence": "Explicit primary-source classification: Kyeongbin Kim is a 5th-year Quantitative Marketing PhD candidate",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf"
+            ],
+            "quote": "Kyeongbin Kim is a 5th-year Quantitative Marketing PhD candidate",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Recipients of the Doctor of Philosophy Degree; Kyeongbin Kim; Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://business.wisc.edu/directory/profile/kyeongbin-kim/"
+            ],
+            "quote": "joined the Wisconsin School of Business in August 2025",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+          "label": "Official2024 AMA-Sheth host booklet, physical PDFp83",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+          "label": "Official2025 degree-recipient program, physicalp34",
+          "checked_at": "2026-11-18",
+          "pages": [
+            34
+          ]
+        },
+        {
+          "url": "https://business.wisc.edu/directory/profile/kyeongbin-kim/",
+          "label": "Official Wisconsin profile: August2025 appointment",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Direct Quantitative Marketing label.2025 official degree-recipient program physicalp34 confirms completed PhD-year separately; Wisconsin profile states August2025 joining.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": null,
+        "placement_year": 2025,
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "emory-university-jihyeon-ha",
+      "set": {
+        "graduation_year": 2024,
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2024.pdf"
+            ],
+            "quote": "DOCTOR OF PHILOSOPHY; Jihyeon Ha; Business",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2024.pdf",
+          "label": "Official2024 degree-recipient program, physicalp31",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The PhD section explicitly lists Jihyeon Ha, Business; no prior-year footnote applies. Do not infer Quant from machine-learning methods.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "graduation_year": null
+      }
+    },
+    {
+      "id": "university-of-houston-praveen-punia",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm",
+          "strategy"
+        ],
+        "fields": [
+          "Quantitative Marketing Strategy"
+        ],
+        "graduation_year": 2026,
+        "placement_year": 2026,
+        "role": "Assistant Professor of Marketing",
+        "job_kind": "faculty",
+        "homepage": "https://praveenpunia.github.io/index.html",
+        "field_evidence": "Explicit primary-source classification: research interests are in the domain of Quantitative Marketing Strategy",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm",
+              "strategy"
+            ],
+            "source_urls": [
+              "https://www.bauer.uh.edu/search/directory/profile.asp?firstname=Praveen&lastname=Punia"
+            ],
+            "quote": "research interests are in the domain of Quantitative Marketing Strategy",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2026,
+            "source_urls": [
+              "https://herald.uohyd.ac.in/alumnus-praveen-punia-appointed-assistant-professor-at-rawls-college-of-business-at-texas-tech-university/"
+            ],
+            "quote": "recently earned his Ph.D. in Marketing from the University of Houston",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2026,
+            "source_urls": [
+              "https://herald.uohyd.ac.in/alumnus-praveen-punia-appointed-assistant-professor-at-rawls-college-of-business-at-texas-tech-university/"
+            ],
+            "quote": "Assistant Professor of Marketing in June 2026",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.bauer.uh.edu/search/directory/profile.asp?firstname=Praveen&lastname=Punia",
+          "label": "Houston official individual profile",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://herald.uohyd.ac.in/alumnus-praveen-punia-appointed-assistant-professor-at-rawls-college-of-business-at-texas-tech-university/",
+          "label": "University of Hyderabad official alumni announcement, May19,2026",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://praveenpunia.github.io/index.html",
+          "label": "Linked author material URL; fact verification is supplied by the separately quoted primary sources",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Direct Quantitative Marketing Strategy. University of Hyderabad May19,2026 announcement confirms completed Houston PhD and June2026 TexasTech appointment.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": null,
+        "placement_year": 2026,
+        "role": null,
+        "job_kind": "unknown",
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "university-of-houston-tsung-yiou-hsieh",
+      "set": {
+        "claims": [
+          {
+            "field": "source_reported_placement",
+            "value": "Oklahoma State University",
+            "source_urls": [
+              "https://www.bauer.uh.edu/doctoral/placement.php"
+            ],
+            "quote": "Tsung-Yioh Hsieh; 2025; Marketing; Oklahoma State University",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2023,
+            "source_urls": [
+              "https://tyhsieh4.github.io/cv/TYH_cv.pdf"
+            ],
+            "quote": "Sep.2018-May2023; University of Houston; Ph.D. in Business Administration",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://tyhsieh4.github.io/cv/TYH_cv.pdf",
+          "label": "Personal CV, public HTTP200 download, all3pages read",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Preserve existing first-job unknown. Two2023 appointments may overlap and no exact order is established. The school-wide2025 Oklahoma State row is not a2025 PhD; department table explicitly shows current affiliation under2023. Existing Quant label is methods-derived, not a newly confirmed direct specialization.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "washington-university-in-st-louis-donggwan-kim",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing"
+        ],
+        "graduation_year": 2024,
+        "placement_year": 2024,
+        "role": "Assistant Professor of Marketing",
+        "cv_url": "https://ccc.bc.edu/content/dam/bc1/schools/carroll/faculty/PDFs/Donggwan%20Kim%20_CV.pdf",
+        "field_evidence": "Explicit primary-source classification: Ph.D. in Business Administration (Quantitative Marketing)",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://ccc.bc.edu/content/dam/bc1/schools/carroll/faculty/PDFs/Donggwan%20Kim%20_CV.pdf"
+            ],
+            "quote": "Ph.D. in Business Administration (Quantitative Marketing)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://ccc.bc.edu/content/dam/bc1/schools/carroll/faculty/PDFs/Donggwan%20Kim%20_CV.pdf"
+            ],
+            "quote": "Washington University in St. Louis, Olin Business School 2018-2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2024,
+            "source_urls": [
+              "https://ccc.bc.edu/content/dam/bc1/schools/carroll/faculty/PDFs/Donggwan%20Kim%20_CV.pdf"
+            ],
+            "quote": "Boston College, Carroll School of Management 2024-Present",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://ccc.bc.edu/content/dam/bc1/schools/carroll/faculty/PDFs/Donggwan%20Kim%20_CV.pdf",
+          "label": "Boston College official CV, physicalp1",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Degree completed2018-2024 and BostonCollege AP2024-present are distinct entries; earlier supervisor2023 placement references are superseded by own dated CV.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "graduation_year": 2024,
+        "placement_year": null,
+        "role": null,
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "washington-university-in-st-louis-chong-bo-zack-wang",
+      "set": {
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "fields": [
+          "Quantitative Marketing"
+        ],
+        "placement_year": 2025,
+        "role": "Assistant Professor of Marketing",
+        "cv_url": "https://chongbozackwang.com/wp-content/uploads/2024/06/CV_Chong_Bo_Zack_Wang.pdf",
+        "field_evidence": "Explicit primary-source classification: Ph.D. in Quantitative Marketing",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "qm"
+            ],
+            "source_urls": [
+              "https://chongbozackwang.com/wp-content/uploads/2024/06/CV_Chong_Bo_Zack_Wang.pdf"
+            ],
+            "quote": "Ph.D. in Quantitative Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://academicdevelopment.hku.hk/new-academic-staff-2025/"
+            ],
+            "quote": "cohort who joined in the2025 calendar year; Chong Bo Zack WANG Assistant Professor Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://chongbozackwang.com/wp-content/uploads/2024/06/CV_Chong_Bo_Zack_Wang.pdf",
+          "label": "Personal CV explicitly Quantitative Marketing; degree end still expected2025",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://academicdevelopment.hku.hk/new-academic-staff-2025/",
+          "label": "HKU official2025 new faculty census",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Research track is explicit, but expected2025 CV is not independently used as completed graduation. HKU official calendar2025 new faculty census confirms joining2025.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "placement_year": null,
+        "role": null,
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "washington-university-in-st-louis-yanyi-leng",
+      "set": {
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "fields": [
+          "Consumer Behavior"
+        ],
+        "homepage": "https://www.yanyileng.com/",
+        "field_evidence": "Explicit primary-source classification: My research explores topics in consumer behavior",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://www.yanyileng.com/"
+            ],
+            "quote": "My research explores topics in consumer behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.yanyileng.com/",
+          "label": "Personal current academic homepage",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "Direct consumer behavior research statement; no job-start year inferred from current title.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "tracks": [
+          "marketing"
+        ],
+        "fields": [
+          "Marketing"
+        ],
+        "field_evidence": "官方 Marketing 项目名单；细分方向尚待个人资料核验。"
+      }
+    },
+    {
+      "id": "washington-university-in-st-louis-guangying-chen",
+      "set": {
+        "graduation_year": 2025,
+        "placement_year": 2025,
+        "role": "Assistant Professor of Marketing",
+        "cv_url": "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/guangying_chen.guangyingchen_cv_20250103_i8y7bdgqm5.pdf",
+        "homepage": "https://www.guangyingchen.org/",
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2025,
+            "source_urls": [
+              "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/guangying_chen.guangyingchen_cv_20250103_i8y7bdgqm5.pdf"
+            ],
+            "quote": "Olin Business School, Washington University in St. Louis 2019-2025; Ph.D. in Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "placement_year",
+            "value": 2025,
+            "source_urls": [
+              "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/guangying_chen.guangyingchen_cv_20250103_i8y7bdgqm5.pdf"
+            ],
+            "quote": "University of Southern California June2025-Present; Assistant Professor of Marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://uscmarshallweb.s3-us-west-2.amazonaws.com/assets/uploads/s1/cv/guangying_chen.guangyingchen_cv_20250103_i8y7bdgqm5.pdf",
+          "label": "USC hosted current CV updated January3,2026",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.guangyingchen.org/",
+          "label": "Linked author material URL; fact verification is supplied by the separately quoted primary sources",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "The misleading filename contains20250103, but actual PDF is updated January3,2026. Education2019-2025 and USC employment June2025-present are explicit. Current CV does not explicitly label Quant, so methods do not trigger a new Quant classification.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {
+        "graduation_year": 2025,
+        "placement_year": null,
+        "role": null
+      }
+    }
+  ],
+  "additions": [
+    {
+      "id": "emory-university-hanyu-zhang",
+      "set": {
+        "id": "emory-university-hanyu-zhang",
+        "name": "Hanyu Zhang",
+        "program_id": "emory-university-marketing",
+        "school": "Emory University",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": null,
+        "status": "placed",
+        "destination": "University of Houston",
+        "destination_region": "US",
+        "role": null,
+        "job_kind": "unknown",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [],
+        "checked_at": "2026-11-18",
+        "claims": [
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://goizueta.emory.edu/phd/career/placement"
+            ],
+            "quote": "Hanyu Zhang, University of Houston (2026)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "source_reported_placement",
+            "value": "University of Houston",
+            "source_urls": [
+              "https://goizueta.emory.edu/phd/career/placement"
+            ],
+            "quote": "Hanyu Zhang, University of Houston (2026)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://goizueta.emory.edu/phd/career/placement",
+          "label": "Complete official placement list, Marketing area,2026",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "All existing placement and faculty names were checked for duplicates. Source roster year, degree year, and appointment start year remain separate. The actual official individual URL returns404 although its indexed biography explicitly says Quantitative Marketing. This is recorded as a field lead, not applied as a confirmed full-read field classification. Hanyu is absent from the2026 May university PhD-recipient program; actual award and job-start dates remain null."
+    },
+    {
+      "id": "washington-university-in-st-louis-hyebin-kim",
+      "set": {
+        "id": "washington-university-in-st-louis-hyebin-kim",
+        "name": "Hyebin Kim",
+        "program_id": "washington-university-in-st-louis-marketing",
+        "school": "Washington University in St. Louis",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Consumer Behavior"
+        ],
+        "tracks": [
+          "marketing",
+          "cb"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2026,
+        "graduation_year": null,
+        "placement_year": null,
+        "status": "placed",
+        "destination": "Washington University in St. Louis",
+        "destination_region": "US",
+        "role": "Postdoctoral Researcher in Behavioral Science",
+        "job_kind": "postdoc",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [],
+        "checked_at": "2026-11-18",
+        "homepage": "https://sites.google.com/view/hyebinkim",
+        "field_evidence": "Explicit primary-source classification: My research focuses on consumer behavior",
+        "claims": [
+          {
+            "field": "tracks",
+            "value": [
+              "marketing",
+              "cb"
+            ],
+            "source_urls": [
+              "https://sites.google.com/view/hyebinkim"
+            ],
+            "quote": "My research focuses on consumer behavior",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "source_roster_year",
+            "value": 2026,
+            "source_urls": [
+              "https://olin.washu.edu/docs/graduation/2605-graduate-program.pdf"
+            ],
+            "quote": "Candidates for the Degree of Doctor of Philosophy in Business Administration; May15,2026; Hyebin Kim",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "initial_destination",
+            "value": "Washington University in St. Louis",
+            "source_urls": [
+              "https://static1.squarespace.com/static/66998642273b1410b692c279/t/69a7651328d37d7e299551a9/1772578067061/Scott_CV.pdf"
+            ],
+            "quote": "Hyebin Kim,2025 (Placement: Washington University in St. Louis, Post-Doc)",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://olin.washu.edu/docs/graduation/2605-graduate-program.pdf",
+          "label": "Official2026 degree-candidate roster, physicalp13",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://sites.google.com/view/hyebinkim",
+          "label": "Personal site explicitly completed Marketing PhD and current WashU postdoc",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://static1.squarespace.com/static/66998642273b1410b692c279/t/69a7651328d37d7e299551a9/1772578067061/Scott_CV.pdf",
+          "label": "Sydney Scott personal CV updated March2026, physicalp7",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "All existing placement and faculty names were checked for duplicates. Source roster year, degree year, and appointment start year remain separate. The committee CV uses2025 while the graduation candidate program uses2026. Her completed PhD is independently stated on her site, but its actual year and the postdoc start year remain unresolved. Do not copy ceremony2026 into degree/job dates."
+    },
+    {
+      "id": "emory-university-da-young-kim",
+      "set": {
+        "id": "emory-university-da-young-kim",
+        "name": "Da Young Kim",
+        "program_id": "emory-university-marketing",
+        "school": "Emory University",
+        "program": "博士项目 · Marketing",
+        "origin": "US",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing"
+        ],
+        "methods": [],
+        "topics": [],
+        "market_cycle": null,
+        "source_cohort_year": 2024,
+        "graduation_year": 2024,
+        "placement_year": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "destination_region": "UNKNOWN",
+        "role": null,
+        "job_kind": "unknown",
+        "jmp": null,
+        "undergraduate": null,
+        "identity": {
+          "chinese_national": {
+            "value": "unknown",
+            "source": null
+          },
+          "chinese_heritage": {
+            "value": "unknown",
+            "source": null
+          }
+        },
+        "subsequent": [],
+        "checked_at": "2026-11-18",
+        "field_evidence": "Explicit primary-source classification: Da Young Kim, marketing",
+        "claims": [
+          {
+            "field": "graduation_year",
+            "value": 2024,
+            "source_urls": [
+              "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+            ],
+            "quote": "Da Young Kim*; Business; * GRADUATED AUGUST2024",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "field": "tracks",
+            "value": [
+              "marketing"
+            ],
+            "source_urls": [
+              "https://www.emorybusiness.com/2019/05/29/2019-phd-award-winners/"
+            ],
+            "quote": "Da Young Kim, marketing",
+            "status": "confirmed",
+            "checked_at": "2026-11-18"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+          "label": "Official2025 degree-recipient program, physicalp34; star explicitly means graduated August2024",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://www.emorybusiness.com/2019/05/29/2019-phd-award-winners/",
+          "label": "Official EmoryBusiness identifies Da Young Kim as Marketing",
+          "checked_at": "2026-11-18"
+        },
+        {
+          "url": "https://etd.library.emory.edu/downloads/1j92g8835?locale=es",
+          "label": "Official2024 doctoral dissertation, adviser MichaelLewis",
+          "checked_at": "2026-11-18"
+        }
+      ],
+      "note": "All existing placement and faculty names were checked for duplicates. Source roster year, degree year, and appointment start year remain separate. Source cohort2024 uses the explicitly identified actual degree year, rather than2025 ceremony publication. LinkedIn self profile identifies KMAC employment, but no date/order is established; keep first outcome unknown. Exclude the different Cornell2017 Operations PhD Dayoung Kim now at NUS."
+    }
+  ]
+}

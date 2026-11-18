@@ -296,5 +296,124 @@
       "university-of-southern-california-ignacio-riveros"
     ],
     "additions": []
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-05",
+    "sha256": "eb521b72aef18e03c4753c18769fff76d58d8e2c4ee8221349786323df06f8e8",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:46:20.095Z",
+    "updates": [
+      "university-of-michigan-varad-vivek-deolankar",
+      "university-of-michigan-gwen-geunhae-ahn",
+      "university-of-michigan-bruno-castelo-branco",
+      "university-of-michigan-jangwon-choi",
+      "university-of-michigan-yeonjin-sung",
+      "pennsylvania-state-university-wenlan-yu",
+      "pennsylvania-state-university-dalal-alqadeeri",
+      "pennsylvania-state-university-tongyao-shen",
+      "pennsylvania-state-university-qi-zhao",
+      "pennsylvania-state-university-nate-allred",
+      "pennsylvania-state-university-benjamin-beck",
+      "the-ohio-state-university-steph-flout",
+      "the-ohio-state-university-cory-haltman",
+      "hong-kong-polytechnic-university-yuting-pang",
+      "hong-kong-polytechnic-university-menglu-dong",
+      "hong-kong-polytechnic-university-jie-wang",
+      "hong-kong-polytechnic-university-yi-gao",
+      "hong-kong-polytechnic-university-qianqian-liu",
+      "hong-kong-polytechnic-university-ce-liang",
+      "hong-kong-polytechnic-university-fei-xu",
+      "hong-kong-polytechnic-university-danyang-zhao",
+      "hong-kong-polytechnic-university-xueying-zhao",
+      "university-of-arizona-wenyan-tuo",
+      "university-of-arizona-liuyi-wang"
+    ],
+    "additions": [
+      "university-of-maryland-qihui-chen",
+      "university-of-maryland-sanghwa-kim",
+      "university-of-maryland-andy-li",
+      "university-of-maryland-zipei-lu",
+      "texas-a-m-university-narendra-bosukonda",
+      "texas-a-m-university-priya-rangaswamy",
+      "ubc-guanzhong-du",
+      "frontier-university-of-rochester-ziyao-tang",
+      "frontier-university-of-south-carolina-mackenzie-volk",
+      "frontier-university-of-minnesota-yunhyoung-kim",
+      "hong-kong-polytechnic-university-muxuan-lyu",
+      "hong-kong-polytechnic-university-chengchen-liu",
+      "hong-kong-polytechnic-university-xin-liu"
+    ]
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-06",
+    "sha256": "d06cf8754c814fe887d7aecc7641e312de7bc94e568847eeeae249e88855d0ff",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:46:46.885Z",
+    "updates": [
+      "pennsylvania-state-university-qi-zhao",
+      "frontier-university-of-rochester-ziyao-tang",
+      "frontier-university-of-minnesota-yunhyoung-kim"
+    ],
+    "additions": []
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-07",
+    "sha256": "77af35eddc397767c38f29531abf3881ae95a2d21fd0a0b5f37a730d42cbfed5",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:51:20.832Z",
+    "updates": [
+      "ntu-lingyu-lin",
+      "singapore-management-university-junqiu-jiang"
+    ],
+    "additions": [
+      "singapore-management-university-qingli-zeng",
+      "singapore-management-university-rahul-narnindi",
+      "singapore-management-university-yichen-wang"
+    ]
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-08",
+    "sha256": "68f184bd82a804f23db1f75191194756ea143d71febab4a9d07d8ed9860b7212",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:54:42.230Z",
+    "updates": [
+      "boston-university-chen-jing",
+      "boston-university-jaewoo-lee",
+      "emory-university-kyeongbin-kb-kim",
+      "emory-university-jihyeon-ha",
+      "university-of-houston-praveen-punia",
+      "university-of-houston-tsung-yiou-hsieh",
+      "washington-university-in-st-louis-donggwan-kim",
+      "washington-university-in-st-louis-chong-bo-zack-wang",
+      "washington-university-in-st-louis-yanyi-leng",
+      "washington-university-in-st-louis-guangying-chen"
+    ],
+    "additions": [
+      "emory-university-hanyu-zhang",
+      "washington-university-in-st-louis-hyebin-kim",
+      "emory-university-da-young-kim"
+    ]
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-09",
+    "sha256": "522156736c84c25e00e5d252768a401baf3780d36794313d3e3ee1d6c56039ef",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-17T23:58:09.381Z",
+    "updates": [
+      "emory-university-da-young-kim",
+      "emory-university-kyeongbin-kb-kim"
+    ],
+    "additions": []
+  },
+  {
+    "id": "frontier-cohorts-2026-11-18-10",
+    "sha256": "6b0262add83d7f54735900527a488a4417526558e6a51c87050309ab091d3e58",
+    "checked_at": "2026-11-18",
+    "applied_at": "2026-11-18T01:22:30.946Z",
+    "updates": [
+      "ubc-siddhanth-mookerjee",
+      "ubc-zining-wang"
+    ],
+    "additions": []
   }
 ]

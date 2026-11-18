@@ -1,0 +1,655 @@
+{
+  "id": "frontier-cohorts-2026-11-18-09-sources",
+  "checked_at": "2026-11-18",
+  "packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/root/final-evidence-supplement.json",
+      "sha256": "3673b384365680b77a124c6e2c34409803242e053bb1ad7abacf20095cb378f7",
+      "data": {
+        "checked_at": "2026-11-18",
+        "annual_reviews": [
+          {
+            "program_id": "hong-kong-university-of-science-and-technology-marketing",
+            "years": [
+              2026
+            ],
+            "issues": [
+              {
+                "id": "hkust-marketing-2026-count-without-matched-names",
+                "status": "open",
+                "type": "independent_count_name_reconciliation",
+                "detail": "The official 2026 institutional degree-count appendix reports four PhD in Marketing degrees. The public book search index assigns this text to page ID 100, printed Appendix iv. A matching list of four named Marketing PhD recipients has not been obtained. The count establishes a published degree-class total, not four individually verified candidates, four initial placements or a complete named cohort.",
+                "next_action": "Locate the corresponding official 2026 Marketing PhD name roster, verify that its population and time window match the appendix, and link all four names to individual records. Until then display official count known: 4, names not reconciled, and preserve cohort_complete=false.",
+                "sources": [
+                  {
+                    "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+                    "label": "Official 2026 institutional count appendix; physical PDF page 100, printed Appendix iv; HTML route 101"
+                  },
+                  {
+                    "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+                    "label": "Official complete 2026 downloadable book, physical page 100, printed Appendix iv",
+                    "pages": [
+                      100
+                    ]
+                  },
+                  {
+                    "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/mobile/search/searchtext.js",
+                    "label": "Official public book search index, page ID 100",
+                    "quote": "PhD in Marketing 哲學博士（市場學） 4"
+                  }
+                ],
+                "count_observation": {
+                  "value": 4,
+                  "population_kind": "published_degree_conferment_class",
+                  "source_year": 2026,
+                  "names_reconciled": false,
+                  "cohort_complete": false
+                },
+                "stage": "named_roster"
+              }
+            ],
+            "checked_at": "2026-11-18",
+            "result": "open_evidence_gap",
+            "finding": "The official 2026 institutional degree-count appendix reports four PhD in Marketing degrees. The public book search index assigns this text to page ID 100, printed Appendix iv. A matching list of four named Marketing PhD recipients has not been obtained. The count establishes a published degree-class total, not four individually verified candidates, four initial placements or a complete named cohort. Sources and physical-page references were checked independently.",
+            "sources": [
+              {
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+                "label": "Official 2026 institutional count appendix; physical PDF page 100, printed Appendix iv; HTML route 101"
+              },
+              {
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+                "label": "Official complete 2026 downloadable book, physical page 100, printed Appendix iv",
+                "pages": [
+                  100
+                ]
+              },
+              {
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/mobile/search/searchtext.js",
+                "label": "Official public book search index, page ID 100",
+                "quote": "PhD in Marketing 哲學博士（市場學） 4"
+              },
+              {
+                "label": "本批核对的官方名单",
+                "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+              },
+              {
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+                "label": "Official degree count, PDF physical p100 / printed Appendix iv; full named roster not obtained",
+                "checked_at": "2026-11-18"
+              },
+              {
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+                "label": "Correct HTML route for the Marketing PhD count; previous /100/ route is the preceding page",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "next_step": "Locate the corresponding official 2026 Marketing PhD name roster, verify that its population and time window match the appendix, and link all four names to individual records. Until then display official count known: 4, names not reconciled, and preserve cohort_complete=false."
+          },
+          {
+            "program_id": "singapore-management-university-marketing",
+            "years": [
+              2024
+            ],
+            "issues": [
+              {
+                "id": "smu-junqiu-jiang-conflicting-official-year-labels",
+                "status": "open",
+                "type": "conflicting_graduation_year_labels",
+                "detail": "Official SMU pages label the same Junqiu Jiang inconsistently: the Marketing alumni directory says 2021 and the CGRS alumni testimonial says 2023. Her official university repository publishes the Marketing PhD dissertation in June 2024, and advisor Kapil Tuli's May 2026 CV lists her under dissertation chair for 2024. The independently read 2024 ceremony book has no Marketing doctoral block or Jiang entry, so ceremony edition cannot resolve the contradiction. Preserve the existing 2024 graduation record and treat 2021 and 2023 as conflicting source labels, not additional people or cohorts.",
+                "next_action": "Obtain a finalized SMU degree-conferment record or an explicit degree-awarded date from the registrar, official graduate register or author CV. Record each source's year meaning and resolve the official-page discrepancy before closing the issue; do not overwrite 2024 solely from either stale alumni label.",
+                "record_ids": [
+                  "singapore-management-university-junqiu-jiang"
+                ],
+                "sources": [
+                  {
+                    "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+                    "label": "Official Marketing alumni directory labels Jiang 2021"
+                  },
+                  {
+                    "url": "https://graduatestudies.smu.edu.sg/phd/alumni",
+                    "label": "Official CGRS testimonial labels Jiang 2023"
+                  },
+                  {
+                    "url": "https://ink.library.smu.edu.sg/etd_coll/614/",
+                    "label": "Official university Marketing PhD dissertation, June 2024 publication"
+                  },
+                  {
+                    "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2026CV/CV_KapilTuli_May2026.pdf",
+                    "label": "Official advisor CV lists Jiang dissertation chair entry 2024"
+                  },
+                  {
+                    "url": "https://commencement.smu.edu.sg/sites/commencement.smu.edu.sg/files/2024-07/SMU_Commencement-v5.pdf",
+                    "label": "Official 2024 ceremony graduate list, doctoral pages actually read",
+                    "pages": [
+                      4,
+                      5
+                    ]
+                  }
+                ]
+              }
+            ],
+            "checked_at": "2026-11-18",
+            "result": "open_evidence_gap",
+            "finding": "Official SMU pages label the same Junqiu Jiang inconsistently: the Marketing alumni directory says 2021 and the CGRS alumni testimonial says 2023. Her official university repository publishes the Marketing PhD dissertation in June 2024, and advisor Kapil Tuli's May 2026 CV lists her under dissertation chair for 2024. The independently read 2024 ceremony book has no Marketing doctoral block or Jiang entry, so ceremony edition cannot resolve the contradiction. Preserve the existing 2024 graduation record and treat 2021 and 2023 as conflicting source labels, not additional people or cohorts. Sources and physical-page references were checked independently.",
+            "sources": [
+              {
+                "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+                "label": "Official Marketing alumni directory labels Jiang 2021"
+              },
+              {
+                "url": "https://graduatestudies.smu.edu.sg/phd/alumni",
+                "label": "Official CGRS testimonial labels Jiang 2023"
+              },
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/614/",
+                "label": "Official university Marketing PhD dissertation, June 2024 publication"
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2026CV/CV_KapilTuli_May2026.pdf",
+                "label": "Official advisor CV lists Jiang dissertation chair entry 2024"
+              },
+              {
+                "url": "https://commencement.smu.edu.sg/sites/commencement.smu.edu.sg/files/2024-07/SMU_Commencement-v5.pdf",
+                "label": "Official 2024 ceremony graduate list, doctoral pages actually read",
+                "pages": [
+                  4,
+                  5
+                ]
+              }
+            ],
+            "next_step": "Obtain a finalized SMU degree-conferment record or an explicit degree-awarded date from the registrar, official graduate register or author CV. Record each source's year meaning and resolve the official-page discrepancy before closing the issue; do not overwrite 2024 solely from either stale alumni label."
+          },
+          {
+            "program_id": "nanyang-technological-university-marketing",
+            "years": [
+              2026
+            ],
+            "issues": [
+              {
+                "id": "ntu-marketing-2026-broad-nbs-register-needs-specialization",
+                "status": "open",
+                "type": "broad_register_specialization_unresolved",
+                "detail": "The official conferred-graduate list contains fourteen Nanyang Business School PhDs: thirteen in the NBS block on physical page 4 plus award winner Chen Du on page 1. Only Lin Lingyu has been linked here to an independently confirmed Marketing record. Chen Du is Operations Management and Sreekrishnan Venkatasubramanian is Accounting according to official university or receiving-unit sources. Eleven other school-level entries still require specialization checks. Fourteen is a school-level population and cannot be used as the Marketing denominator. The separate registered-attendee seating plan includes additional names and is a different population.",
+                "next_action": "Classify the remaining eleven NBS recipients using explicit official doctoral-field records, dissertations or author CVs. Reconcile the final Marketing subset against an independent Marketing-specific total. Keep the school count separate and preserve cohort_complete=false until every relevant graduate has been identified.",
+                "record_ids": [
+                  "ntu-lingyu-lin"
+                ],
+                "broad_school_count": 14,
+                "confirmed_marketing_names": [
+                  "Lin Lingyu"
+                ],
+                "verified_other_fields": [
+                  {
+                    "name": "Chen Du",
+                    "field": "Operations Management"
+                  },
+                  {
+                    "name": "Venkatasubramanian Sreekrishnan",
+                    "field": "Accounting"
+                  }
+                ],
+                "specialization_pending_names": [
+                  "Hsieh Chin Hui",
+                  "Huang Pianpian",
+                  "Liem Pei Fun",
+                  "Luo Shouyi",
+                  "Niu Long",
+                  "Qian Yue",
+                  "Wang Yaqi",
+                  "Xiao Yang",
+                  "Yu Sitong",
+                  "Zhu Fenfen",
+                  "Zhu Haiyun"
+                ],
+                "sources": [
+                  {
+                    "url": "https://www.ntu.edu.sg/media/docs/default-source/ntu-convocation/2026-graduate-listing/phd-ceremony-2-graduate-listing-1-august-2026.pdf",
+                    "label": "Official 2026 conferred-graduate listing, NBS main block and separate award winner",
+                    "pages": [
+                      1,
+                      4
+                    ]
+                  },
+                  {
+                    "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+                    "label": "Official policy distinguishes the complete conferred class from ceremony attendance"
+                  },
+                  {
+                    "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/areas-of-specialisations/operations-management/phd-student-profiles",
+                    "label": "Official NTU profile classifies Chen Du as Operations Management"
+                  },
+                  {
+                    "url": "https://www.bitsom.edu.in/faculty-directory/",
+                    "label": "Official receiving-unit directory classifies Sreekrishnan Venkatasubramanian's NTU PhD as Accounting"
+                  }
+                ],
+                "stage": "independent_denominator"
+              }
+            ],
+            "checked_at": "2026-11-18",
+            "result": "open_evidence_gap",
+            "finding": "The official conferred-graduate list contains fourteen Nanyang Business School PhDs: thirteen in the NBS block on physical page 4 plus award winner Chen Du on page 1. Only Lin Lingyu has been linked here to an independently confirmed Marketing record. Chen Du is Operations Management and Sreekrishnan Venkatasubramanian is Accounting according to official university or receiving-unit sources. Eleven other school-level entries still require specialization checks. Fourteen is a school-level population and cannot be used as the Marketing denominator. The separate registered-attendee seating plan includes additional names and is a different population. Sources and physical-page references were checked independently.",
+            "sources": [
+              {
+                "url": "https://www.ntu.edu.sg/media/docs/default-source/ntu-convocation/2026-graduate-listing/phd-ceremony-2-graduate-listing-1-august-2026.pdf",
+                "label": "Official 2026 conferred-graduate listing, NBS main block and separate award winner",
+                "pages": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+                "label": "Official policy distinguishes the complete conferred class from ceremony attendance"
+              },
+              {
+                "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/areas-of-specialisations/operations-management/phd-student-profiles",
+                "label": "Official NTU profile classifies Chen Du as Operations Management"
+              },
+              {
+                "url": "https://www.bitsom.edu.in/faculty-directory/",
+                "label": "Official receiving-unit directory classifies Sreekrishnan Venkatasubramanian's NTU PhD as Accounting"
+              }
+            ],
+            "next_step": "Classify the remaining eleven NBS recipients using explicit official doctoral-field records, dissertations or author CVs. Reconcile the final Marketing subset against an independent Marketing-specific total. Keep the school count separate and preserve cohort_complete=false until every relevant graduate has been identified."
+          },
+          {
+            "program_id": "the-ohio-state-university-marketing",
+            "years": [
+              2024,
+              2025
+            ],
+            "checked_at": "2026-11-18",
+            "result": "open_evidence_gap",
+            "finding": "The central Ohio State PhD page dates Flout and Haltman 2024, while the Marketing alumni table dates them 2025. Receiving-school evidence independently supports Flout 2025; Haltman source-year discrepancy remains open. Preserve separate source meanings.",
+            "sources": [
+              {
+                "url": "https://fisher.osu.edu/graduate/phd-programs",
+                "label": "Conflicting central year"
+              },
+              {
+                "url": "https://fisher.osu.edu/academic-departments/marketing-logistics/current-prospective-students/ph.d.-marketing/alumni",
+                "label": "Department alumni year"
+              }
+            ],
+            "issues": [
+              {
+                "status": "open",
+                "type": "source_year_conflict",
+                "detail": "The central Ohio State PhD page dates Flout and Haltman 2024, while the Marketing alumni table dates them 2025. Receiving-school evidence independently supports Flout 2025; Haltman source-year discrepancy remains open. Preserve separate source meanings.",
+                "next_action": "Obtain a completed-degree date and first-appointment date for Cory Haltman; reconcile the stale central year with the department table.",
+                "stage": "conflict"
+              }
+            ],
+            "next_step": "Obtain a completed-degree date and first-appointment date for Cory Haltman; reconcile the stale central year with the department table."
+          },
+          {
+            "program_id": "washington-university-in-st-louis-marketing",
+            "years": [
+              2026
+            ],
+            "checked_at": "2026-11-18",
+            "result": "open_evidence_gap",
+            "finding": "Hyebin Kim appears in the official 2026 Olin doctoral candidate program, while an advisor CV lists her with 2025 and a WashU postdoc placement. Her author page confirms the completed Marketing PhD and current postdoc. Exact award and initial-job dates remain unresolved; do not copy either source year into those dates.",
+            "sources": [
+              {
+                "url": "https://olin.washu.edu/docs/graduation/2605-graduate-program.pdf",
+                "label": "Official2026 degree-candidate roster, physicalp13",
+                "checked_at": "2026-11-18"
+              },
+              {
+                "url": "https://sites.google.com/view/hyebinkim",
+                "label": "Personal site explicitly completed Marketing PhD and current WashU postdoc",
+                "checked_at": "2026-11-18"
+              },
+              {
+                "url": "https://static1.squarespace.com/static/66998642273b1410b692c279/t/69a7651328d37d7e299551a9/1772578067061/Scott_CV.pdf",
+                "label": "Sydney Scott personal CV updated March2026, physicalp7",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "issues": [
+              {
+                "status": "open",
+                "type": "ceremony_and_advisor_year_difference",
+                "detail": "Hyebin Kim appears in the official 2026 Olin doctoral candidate program, while an advisor CV lists her with 2025 and a WashU postdoc placement. Her author page confirms the completed Marketing PhD and current postdoc. Exact award and initial-job dates remain unresolved; do not copy either source year into those dates.",
+                "next_action": "Obtain an explicit completed PhD date and postdoc start date from the author CV or institutional award register.",
+                "stage": "conflict"
+              }
+            ],
+            "next_step": "Obtain an explicit completed PhD date and postdoc start date from the author CV or institutional award register."
+          },
+          {
+            "program_id": "university-of-houston-marketing",
+            "years": [
+              2025
+            ],
+            "checked_at": "2026-11-18",
+            "result": "open_evidence_gap",
+            "finding": "Tsung-Yiou Hsieh completed the PhD in 2023. His CV reports both a Northeastern postdoc and an industry appointment starting in 2023; order and overlap are unresolved. A school-wide 2025 Oklahoma State row cannot establish a 2025 graduation or initial placement.",
+            "sources": [
+              {
+                "url": "https://tyhsieh4.github.io/cv/TYH_cv.pdf",
+                "label": "Full author CV with potentially overlapping appointments"
+              },
+              {
+                "url": "https://www.bauer.uh.edu/doctoral/placement.php",
+                "label": "School table dated 2025"
+              }
+            ],
+            "issues": [
+              {
+                "status": "open",
+                "type": "initial_job_order_unresolved",
+                "detail": "Tsung-Yiou Hsieh completed the PhD in 2023. His CV reports both a Northeastern postdoc and an industry appointment starting in 2023; order and overlap are unresolved. A school-wide 2025 Oklahoma State row cannot establish a 2025 graduation or initial placement.",
+                "next_action": "Obtain exact start months and identify the earliest post-PhD appointment; keep first destination and first-job year unknown until supported.",
+                "stage": "initial_destination"
+              }
+            ],
+            "next_step": "Obtain exact start months and identify the earliest post-PhD appointment; keep first destination and first-job year unknown until supported."
+          }
+        ],
+        "updates": [
+          {
+            "id": "emory-university-da-young-kim",
+            "set": {
+              "sources": [
+                {
+                  "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+                  "label": "Official 2025 degree-recipient program, physical p33 / printed p31; starred August2024 graduate",
+                  "checked_at": "2026-11-18",
+                  "pages": [
+                    33
+                  ]
+                },
+                {
+                  "url": "https://www.emorybusiness.com/2019/05/29/2019-phd-award-winners/",
+                  "label": "Official EmoryBusiness identifies Da Young Kim as Marketing",
+                  "checked_at": "2026-11-18"
+                },
+                {
+                  "url": "https://etd.library.emory.edu/downloads/1j92g8835?locale=es",
+                  "label": "Official2024 doctoral dissertation, adviser MichaelLewis",
+                  "checked_at": "2026-11-18"
+                }
+              ],
+              "source_publication_year": 2025
+            },
+            "sources": [
+              {
+                "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+                "label": "Parent rendered and checked exact physical page 33",
+                "checked_at": "2026-11-18",
+                "pages": [
+                  33
+                ]
+              }
+            ],
+            "claims": [
+              {
+                "field": "graduation_year",
+                "value": 2024,
+                "source_urls": [
+                  "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+                ],
+                "quote": "Da Young Kim*; * GRADUATED AUGUST 2024",
+                "status": "confirmed",
+                "checked_at": "2026-11-18",
+                "physical_page": 33,
+                "printed_page": 31,
+                "annotation": "Exact physical / printed page registered after visual verification; earlier page label retained only in immutable batch history."
+              }
+            ],
+            "note": "Corrected physical/printed PDF page metadata; degree year and source cohort remain separate."
+          },
+          {
+            "id": "emory-university-kyeongbin-kb-kim",
+            "set": {
+              "sources": [
+                {
+                  "label": "官方 Marketing placement / 毕业生名单",
+                  "url": "https://goizueta.emory.edu/phd/career/placement"
+                },
+                {
+                  "url": "https://www.alliancembs.manchester.ac.uk/media/ambs/content-assets/documents/events/ama-sheth-doctoral-consortium-2024-booklet.pdf",
+                  "label": "Official2024 AMA-Sheth host booklet, physical PDFp83",
+                  "checked_at": "2026-11-18"
+                },
+                {
+                  "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+                  "label": "Official 2025 degree-recipient program, physical p34 / printed p32",
+                  "checked_at": "2026-11-18",
+                  "pages": [
+                    34
+                  ]
+                },
+                {
+                  "url": "https://business.wisc.edu/directory/profile/kyeongbin-kim/",
+                  "label": "Official Wisconsin profile: August2025 appointment",
+                  "checked_at": "2026-11-18"
+                }
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf",
+                "label": "Parent rendered and checked exact physical page 34",
+                "checked_at": "2026-11-18",
+                "pages": [
+                  34
+                ]
+              }
+            ],
+            "claims": [
+              {
+                "field": "graduation_year",
+                "value": 2025,
+                "source_urls": [
+                  "https://commencement.emory.edu/_includes/documents/commencement-program-2025.pdf"
+                ],
+                "quote": "Kyeongbin Kim; Business",
+                "status": "confirmed",
+                "checked_at": "2026-11-18",
+                "physical_page": 34,
+                "printed_page": 32,
+                "annotation": "Exact physical / printed page registered after visual verification; earlier page label retained only in immutable batch history."
+              }
+            ],
+            "note": "Corrected physical/printed PDF page metadata; degree year and source cohort remain separate."
+          }
+        ],
+        "coverage_recommendations": [
+          {
+            "program_id": "hong-kong-university-of-science-and-technology-marketing",
+            "period": "2026",
+            "status": "partial",
+            "listed_count": null,
+            "record_ids": [],
+            "year_basis": null,
+            "cohort_complete": false,
+            "checked_at": "2026-10-08",
+            "sources": [
+              {
+                "label": "本批核对的官方名单",
+                "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+              },
+              {
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+                "label": "Official degree count, PDF physical p100 / printed Appendix iv; full named roster not obtained",
+                "checked_at": "2026-11-18"
+              },
+              {
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+                "label": "Correct HTML route for the Marketing PhD count; previous /100/ route is the preceding page",
+                "checked_at": "2026-11-18"
+              }
+            ],
+            "notes": "所查来源没有该年份名单，不能解释为零毕业生；需另查年度存档与个人 CV。",
+            "aggregate_count_evidence": [
+              {
+                "population_kind": "published_degree_conferment_class",
+                "population_label": "Marketing PhDs in the HKUST 2026 congregation book",
+                "count": 4,
+                "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+                "html_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+                "quote": "PhD in Marketing 哲學博士（市場學） 4",
+                "checked_at": "2026-11-18",
+                "physical_page": 100,
+                "printed_page": "iv",
+                "names_reconciled": false
+              }
+            ]
+          }
+        ],
+        "source_corrections": [
+          {
+            "superseded_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/100/",
+            "replacement_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+            "detail": "The frozen part02 URL 100 points to the preceding printed Appendix iii and does not contain the Marketing row. The official search index page ID 100 and physical PDF page 100 correspond to HTML route 101. Use the replacement route or direct PDF physical page 100."
+          }
+        ],
+        "artifacts": [
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-p101.html",
+            "sha256": "d377c52461fd98fa2e78688c6d504aa2a6f823947c5fa8d2bf18d97822496043",
+            "bytes": 9511,
+            "physical_pdf_page": 100,
+            "printed_page": "iv"
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-pdf.pdf",
+            "sha256": "16cc96a029fc437527fe35f5d5986b9798270faa1299cf448e4dd2e66dcf148c",
+            "bytes": 60164577,
+            "pages": 105,
+            "evidence_pages": [
+              100
+            ]
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/mobile/search/searchtext.js",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-search.html",
+            "sha256": "54adcd0cd8036fd89bfd6853e4f05ac7bdf706ca330fef0d16d2f754bbb62063",
+            "bytes": 192043,
+            "search_page_id": 100
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-physical100.png",
+            "sha256": "442c362fac248e88f68472bb5311cb592d1d89516ea02b07f7e7f6f792c64045",
+            "bytes": 363452,
+            "rendered_from_physical_page": 100
+          }
+        ],
+        "reviewed_issues_source": "frontier/c/supplementary-issues.json"
+      }
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-count-verification.json",
+      "sha256": "f3931ffe4fad768bc91c4051a92b0727fac497638e97c3650afc6160ae98c1b5",
+      "data": {
+        "checked_at": "2026-11-18",
+        "status": "verified",
+        "program_id": "hong-kong-university-of-science-and-technology-marketing",
+        "source_year": 2026,
+        "official_count": 4,
+        "cohort_complete": false,
+        "names_reconciled": false,
+        "population_kind": "published_degree_conferment_class",
+        "physical_pdf_page": 100,
+        "printed_page": "Appendix iv",
+        "exact_source_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+        "download_pdf_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+        "short_quote": "PhD in Marketing 哲學博士（市場學） 4",
+        "visual_verification": "Official PDF physical page 100 rendered and visually inspected; Marketing PhD row clearly has count 4.",
+        "source_corrections": [
+          {
+            "superseded_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/100/",
+            "replacement_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+            "detail": "The frozen part02 URL 100 points to the preceding printed Appendix iii and does not contain the Marketing row. The official search index page ID 100 and physical PDF page 100 correspond to HTML route 101. Use the replacement route or direct PDF physical page 100."
+          }
+        ],
+        "artifacts": [
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-p101.html",
+            "sha256": "d377c52461fd98fa2e78688c6d504aa2a6f823947c5fa8d2bf18d97822496043",
+            "bytes": 9511,
+            "physical_pdf_page": 100,
+            "printed_page": "iv"
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-pdf.pdf",
+            "sha256": "16cc96a029fc437527fe35f5d5986b9798270faa1299cf448e4dd2e66dcf148c",
+            "bytes": 60164577,
+            "pages": 105,
+            "evidence_pages": [
+              100
+            ]
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/mobile/search/searchtext.js",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-search.html",
+            "sha256": "54adcd0cd8036fd89bfd6853e4f05ac7bdf706ca330fef0d16d2f754bbb62063",
+            "bytes": 192043,
+            "search_page_id": 100
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-physical100.png",
+            "sha256": "442c362fac248e88f68472bb5311cb592d1d89516ea02b07f7e7f6f792c64045",
+            "bytes": 363452,
+            "rendered_from_physical_page": 100
+          }
+        ],
+        "unreliable_for_this_claim": [
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/100/",
+            "file": "data/source-snapshots/2026-11-18/frontier/c/hkust2026-p100.html",
+            "sha256": "3425a9487b0b1e07f033435460b0e21163b890b9c2050d1cc85604324cc73991",
+            "bytes": 9183,
+            "printed_page": "iii",
+            "supports_marketing_count": false
+          }
+        ]
+      }
+    },
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/a/supplementary-audit01.json",
+      "sha256": "49b6eeeac43470389d9b7559a359a8ffd2fe64d0c177718826ce431f495070de",
+      "data": {
+        "checked_at": "2026-11-18",
+        "scope": "Audit-only corrections; frozen part files remain unchanged.",
+        "additions": [],
+        "updates": [],
+        "query_log_corrections": [
+          {
+            "program_id": "washington-university-in-st-louis-marketing",
+            "year": 2025,
+            "field": "search_log.query",
+            "actual_query": "site.washu.edu 2025 marketing PhD graduates commencement Olin",
+            "note": "The frozen part03 generic template says site.wustl.edu; the actual tool query used site.washu.edu."
+          },
+          {
+            "program_id": "washington-university-in-st-louis-marketing",
+            "year": 2026,
+            "field": "search_log.query",
+            "actual_query": "site.washu.edu 2026 marketing PhD graduates commencement Olin",
+            "note": "The frozen part03 generic template says site.wustl.edu; the actual tool query used site.washu.edu."
+          }
+        ],
+        "source_year_reminder": {
+          "id": "emory-university-da-young-kim",
+          "source_document_year": 2025,
+          "graduation_year": 2024,
+          "degree_month": "August",
+          "physical_page": 33,
+          "printed_page": 31,
+          "note": "Parent has already requested source document year and actual conferral year be kept separate; no duplicate record update is included here."
+        }
+      }
+    }
+  ]
+}

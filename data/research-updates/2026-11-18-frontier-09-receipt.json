@@ -1,0 +1,94 @@
+{
+  "id": "frontier-cohorts-2026-11-18-09",
+  "checked_at": "2026-11-18",
+  "people_batch": "data/research-updates/2026-11-18-frontier-09-people.json",
+  "people_batch_sha256": "522156736c84c25e00e5d252768a401baf3780d36794313d3e3ee1d6c56039ef",
+  "source_packet": "data/research-updates/2026-11-18-frontier-09-sources.json",
+  "annual_review_ids": [
+    "hong-kong-university-of-science-and-technology-marketing:frontier:09:2026",
+    "singapore-management-university-marketing:frontier:09:2024",
+    "nanyang-technological-university-marketing:frontier:09:2026",
+    "the-ohio-state-university-marketing:frontier:09:2024-2025",
+    "washington-university-in-st-louis-marketing:frontier:09:2026",
+    "university-of-houston-marketing:frontier:09:2025"
+  ],
+  "reviewed_cell_ids": [
+    "hong-kong-university-of-science-and-technology-marketing:2026",
+    "singapore-management-university-marketing:2024",
+    "nanyang-technological-university-marketing:2026",
+    "the-ohio-state-university-marketing:2024",
+    "the-ohio-state-university-marketing:2025",
+    "washington-university-in-st-louis-marketing:2026",
+    "university-of-houston-marketing:2025"
+  ],
+  "coverage_before_sha256": "43affb42ca2b3a3a3dbae181fa7555fd9cfcbc0c316c1dccd0691438307422bc",
+  "coverage_after_sha256": "1afd1d48559006a4641b994bbef7cd114f682cea588e2fd6176e4a8707b68ecd",
+  "coverage_changes": [
+    {
+      "id": "hong-kong-university-of-science-and-technology-marketing:2026",
+      "before": {
+        "program_id": "hong-kong-university-of-science-and-technology-marketing",
+        "period": "2026",
+        "status": "insufficient",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": null,
+        "cohort_complete": false,
+        "checked_at": "2026-10-08",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+          }
+        ],
+        "notes": "所查来源没有该年份名单，不能解释为零毕业生；需另查年度存档与个人 CV。"
+      },
+      "after": {
+        "program_id": "hong-kong-university-of-science-and-technology-marketing",
+        "period": "2026",
+        "status": "partial",
+        "listed_count": null,
+        "record_ids": [],
+        "year_basis": null,
+        "cohort_complete": false,
+        "checked_at": "2026-11-18",
+        "sources": [
+          {
+            "label": "本批核对的官方名单",
+            "url": "https://mark.hkust.edu.hk/files/phd_summer_camp/2025/HKUST_MARK_PhDSummerCamp2025.pdf"
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+            "label": "Official degree count, PDF physical p100 / printed Appendix iv; full named roster not obtained",
+            "checked_at": "2026-11-18"
+          },
+          {
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+            "label": "Correct HTML route for the Marketing PhD count; previous /100/ route is the preceding page",
+            "checked_at": "2026-11-18"
+          }
+        ],
+        "notes": "所查来源没有该年份名单，不能解释为零毕业生；需另查年度存档与个人 CV。",
+        "aggregate_count_evidence": [
+          {
+            "population_kind": "published_degree_conferment_class",
+            "population_label": "Marketing PhDs in the HKUST 2026 congregation book",
+            "count": 4,
+            "url": "https://booklet.congregation.ust.hk/2026/cbook_book1/files/assets/common/downloads/HKUST%20Congregation%202026%20%2811-14.pdf",
+            "html_url": "https://booklet.congregation.ust.hk/2026/cbook_book1/101/",
+            "quote": "PhD in Marketing 哲學博士（市場學） 4",
+            "checked_at": "2026-11-18",
+            "physical_page": 100,
+            "printed_page": "iv",
+            "names_reconciled": false
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "updates": 2,
+    "additions": 0,
+    "people": 368
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "id": "frontier-cohorts-2026-11-18-07",
+  "checked_at": "2026-11-18",
+  "source_packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/c/part03.json",
+      "sha256": "b66b04d6923b4b692a425e09ce15337883187795c86980183f653a13d824c5b9"
+    }
+  ],
+  "updates": [
+    {
+      "id": "ntu-lingyu-lin",
+      "set": {
+        "source_cohort_year": 2026
+      },
+      "sources": [
+        {
+          "url": "https://www.ntu.edu.sg/media/docs/default-source/ntu-convocation/2026-graduate-listing/phd-ceremony-2-graduate-listing-1-august-2026.pdf",
+          "label": "Official final PhD graduate listing actually read via web PDF renderer; NBS entries on physical pages 1 and 4",
+          "pages": [
+            1,
+            4
+          ]
+        },
+        {
+          "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+          "label": "Official policy: listing includes all conferred graduates, independent of ceremony attendance; available only during ceremony"
+        }
+      ],
+      "note": "The conferred-graduate list explicitly names Lin Lingyu in 2026, separately from the existing author/receiving-unit evidence of Marketing and PhD 2026. This fills source_cohort_year only and does not create a first-job year.",
+      "expected_checked_at": "2026-10-08",
+      "expected": {}
+    },
+    {
+      "id": "singapore-management-university-junqiu-jiang",
+      "set": {},
+      "sources": [
+        {
+          "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+          "label": "Official full Marketing alumni list actually read, but dates conflict with newer independent sources"
+        },
+        {
+          "url": "https://commencement.smu.edu.sg/sites/commencement.smu.edu.sg/files/2024-07/SMU_Commencement-v5.pdf",
+          "label": "Official 2024 graduate listing actually read via web PDF renderer, LKCSB doctoral pages 4-5",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2026CV/CV_KapilTuli_May2026.pdf",
+          "label": "Official advisor CV: dissertation chair Jiang Junqiu 2024"
+        },
+        {
+          "url": "https://ink.library.smu.edu.sg/etd_coll/614/",
+          "label": "Official Marketing PhD dissertation, June 2024"
+        }
+      ],
+      "note": "Retain existing graduation_year 2024, supported by newer official advisor CV and June 2024 PhD dissertation. Departmental alumni 2021 and CGRS testimonial 2023 are conflicting labels; do not silently overwrite with either.",
+      "expected_checked_at": "2026-11-17",
+      "expected": {}
+    }
+  ],
+  "additions": [
+    {
+      "id": "singapore-management-university-qingli-zeng",
+      "set": {
+        "name": "Qingli Zeng",
+        "school": "Singapore Management University",
+        "program": "博士项目 · Marketing",
+        "program_id": "singapore-management-university-marketing",
+        "origin": "SG",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "source_cohort_year": 2025,
+        "graduation_year": 2025,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "checked_at": "2026-11-18",
+        "field_evidence": "Official researcher directory explicitly labels Quantitative Marketing; university library identifies a Marketing PhD dissertation and degree awarded."
+      },
+      "sources": [
+        {
+          "url": "https://ink.library.smu.edu.sg/etd_coll/678/",
+          "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Qingli Zeng"
+        },
+        {
+          "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+          "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+        },
+        {
+          "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2025%20CV/CV_Sandeep_Oct2025.pdf",
+          "label": "Official advisor CV page 9: Qingli at Hebrew University visiting position in October 2025; Rahul at BITSoM, positions labeled Current",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "url": "https://qinglizeng.com/cv/",
+          "label": "Author CV actually read: Marketing PhD 2025, explicit Quantitative Marketing, HUJI Lecturer starts July 2026"
+        },
+        {
+          "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/phdstudents/phdstudentsCV/Zeng%20Qingli_2024.pdf",
+          "label": "Official hosted author CV explicitly Quantitative Marketing, indexed page 1 read"
+        },
+        {
+          "url": "https://bschool-en.huji.ac.il/faculty-members",
+          "label": "Official HUJI faculty directory confirms current tenure-track Lecturer"
+        }
+      ],
+      "note": "Source class is the March 2025 published dissertation; author CV independently confirms PhD 2025. Official advisor October 2025 CV calls HUJI a visiting position, while author CV says regular Lecturer starts July 2026. Retain these separate observations, never automatically label the 2026 regular appointment as the first job."
+    },
+    {
+      "id": "singapore-management-university-rahul-narnindi",
+      "set": {
+        "name": "Rahul Narnindi",
+        "school": "Singapore Management University",
+        "program": "博士项目 · Marketing",
+        "program_id": "singapore-management-university-marketing",
+        "origin": "SG",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "source_cohort_year": 2025,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "checked_at": "2026-11-18",
+        "field_evidence": "Official researcher directory explicitly labels Quantitative Marketing; university library identifies a Marketing PhD dissertation and degree awarded."
+      },
+      "sources": [
+        {
+          "url": "https://ink.library.smu.edu.sg/etd_coll/679/",
+          "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Rahul Narnindi"
+        },
+        {
+          "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+          "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+        },
+        {
+          "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2025%20CV/CV_Sandeep_Oct2025.pdf",
+          "label": "Official advisor CV page 9: Qingli at Hebrew University visiting position in October 2025; Rahul at BITSoM, positions labeled Current",
+          "pages": [
+            9
+          ]
+        },
+        {
+          "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/phdstudents/phdstudentsCV/Rahul%20Narnindi_CV.pdf",
+          "label": "Official hosted author CV explicitly Marketing Quantitative stream"
+        },
+        {
+          "url": "https://www.bitsom.edu.in/faculty-directory/",
+          "label": "Official BITSoM current faculty confirms Assistant Professor of Marketing"
+        }
+      ],
+      "note": "Repository publication March 2025 identifies source_cohort_year only. Official university directory and receiving-unit faculty page confirm current BITSoM Assistant Professor, but do not label it first placement or supply an actual appointment start date."
+    },
+    {
+      "id": "singapore-management-university-yichen-wang",
+      "set": {
+        "name": "Yichen Wang",
+        "school": "Singapore Management University",
+        "program": "博士项目 · Marketing",
+        "program_id": "singapore-management-university-marketing",
+        "origin": "SG",
+        "fields": [
+          "Marketing"
+        ],
+        "tracks": [
+          "marketing",
+          "qm"
+        ],
+        "source_cohort_year": 2025,
+        "graduation_year": null,
+        "placement_year": null,
+        "market_cycle": null,
+        "status": "outcome_unknown",
+        "destination": null,
+        "checked_at": "2026-11-18",
+        "field_evidence": "Official researcher directory explicitly labels Quantitative Marketing; university library identifies a Marketing PhD dissertation and degree awarded."
+      },
+      "sources": [
+        {
+          "url": "https://ink.library.smu.edu.sg/etd_coll/680/",
+          "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Yichen Wang"
+        },
+        {
+          "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+          "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+        },
+        {
+          "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2025%20CV/CV_Sandeep_Oct2025.pdf",
+          "label": "Official advisor CV page 9: Qingli at Hebrew University visiting position in October 2025; Rahul at BITSoM, positions labeled Current",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "note": "Repository publication March 2025 identifies source_cohort_year only. No verified current destination or first-job date was obtained. Do not confuse with same-name finance graduates."
+    }
+  ]
+}

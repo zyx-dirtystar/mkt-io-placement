@@ -1,0 +1,641 @@
+{
+  "id": "frontier-cohorts-2026-11-18-07-sources",
+  "checked_at": "2026-11-18",
+  "packets": [
+    {
+      "file": "data/source-snapshots/2026-11-18/frontier/c/part03.json",
+      "sha256": "b66b04d6923b4b692a425e09ce15337883187795c86980183f653a13d824c5b9",
+      "data": {
+        "batch": "c-part03",
+        "checked_at": "2026-11-18",
+        "annual_reviews": [
+          {
+            "program_id": "nanyang-technological-university-marketing",
+            "years": [
+              2023
+            ],
+            "checked_at": "2026-11-18",
+            "result": "source_reconciled",
+            "finding": "The full official Marketing graduate table lists Qing Tang and Ruoding Wang as 2023 graduates; both are present in the database. Wang has no placement stated. A separate 2023 graduate-listing/archive search did not locate a usable final Marketing-specific degree register. The department table alone does not independently establish all-person cohort completeness.",
+            "sources": [
+              {
+                "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd",
+                "label": "Official Marketing Our Graduates table, all 15 historical alumni rows actually read, ends at 2023"
+              },
+              {
+                "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+                "label": "Official policy: listing includes all conferred graduates, independent of ceremony attendance; available only during ceremony"
+              }
+            ],
+            "known_names": [
+              "Qing Tang",
+              "Ruoding Wang"
+            ],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "nanyang-technological-university-marketing",
+            "years": [
+              2024
+            ],
+            "checked_at": "2026-11-18",
+            "result": "insufficient",
+            "finding": "The full official Marketing graduate table stops at 2023 and lists seven current students. A targeted 2024 graduate-listing and NBS doctoral-convocation search did not locate a retained final Marketing-specific named register. No 2024 table row is not evidence of zero graduates.",
+            "sources": [
+              {
+                "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd",
+                "label": "Official Marketing Our Graduates table, all 15 historical alumni rows actually read, ends at 2023"
+              },
+              {
+                "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+                "label": "Official policy: listing includes all conferred graduates, independent of ceremony attendance; available only during ceremony"
+              }
+            ],
+            "known_names": [],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "nanyang-technological-university-marketing",
+            "years": [
+              2025
+            ],
+            "checked_at": "2026-11-18",
+            "result": "insufficient",
+            "finding": "The full official Marketing graduate table stops at 2023. Official 2025 graduate-listing PDFs were discovered in the university search index, but the inspected indexed lists are other-school or taught-degree ceremonies and cannot stand in for the Marketing doctoral class. A final NBS Marketing-specific register was not obtained.",
+            "sources": [
+              {
+                "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd",
+                "label": "Official Marketing Our Graduates table, all 15 historical alumni rows actually read, ends at 2023"
+              },
+              {
+                "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+                "label": "Official policy: listing includes all conferred graduates, independent of ceremony attendance; available only during ceremony"
+              },
+              {
+                "url": "https://www.ntu.edu.sg/docs/default-source/ntu-convocation/2025-graduate-listing/ceremony-1-22-july-2025-10-30am182fd14d-7445-47d0-913d-79cd1553914f.pdf",
+                "label": "Official 2025 graduate-listing lead; indexed undergraduate section only, not the NBS Marketing PhD roster"
+              }
+            ],
+            "known_names": [],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "nanyang-technological-university-marketing",
+            "years": [
+              2026
+            ],
+            "checked_at": "2026-11-18",
+            "result": "partial",
+            "finding": "The official conferred-graduate listing was read and contains fourteen NBS PhDs: thirteen in the NBS block plus award winner Chen Du on page 1. Lin Lingyu matches the existing quantitative Marketing graduate and is now explicitly in the 2026 source class. The other thirteen are not automatically Marketing: official NTU Operations Management profiles identify Chen Du, and the official BITSoM directory identifies Sreekrishnan Venkatasubramanian as Accounting. The complete school list is retained for specialization checks; its count fourteen is not a Marketing denominator. A separate registered-attendee seating plan has additional names and must not replace the conferred list.",
+            "sources": [
+              {
+                "url": "https://www.ntu.edu.sg/business/academic-divisions/marketing/our-programmes/phd",
+                "label": "Official Marketing Our Graduates table, all 15 historical alumni rows actually read, ends at 2023"
+              },
+              {
+                "url": "https://www.ntu.edu.sg/media/docs/default-source/ntu-convocation/2026-graduate-listing/phd-ceremony-2-graduate-listing-1-august-2026.pdf",
+                "label": "Official final PhD graduate listing actually read via web PDF renderer; NBS entries on physical pages 1 and 4",
+                "pages": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+                "label": "Official policy: listing includes all conferred graduates, independent of ceremony attendance; available only during ceremony"
+              },
+              {
+                "url": "https://www.ntu.edu.sg/business/admissions/phd-programme/areas-of-specialisations/operations-management/phd-student-profiles",
+                "label": "Official NTU profile identifies Chen Du as Operations Management"
+              },
+              {
+                "url": "https://www.bitsom.edu.in/faculty-directory/",
+                "label": "Official receiving-unit directory identifies Sreekrishnan Venkatasubramanian as Accounting"
+              }
+            ],
+            "known_names": [
+              "Lingyu (Lynn) Lin"
+            ],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register.",
+            "broad_school_register": {
+              "population": "All Nanyang Business School PhDs in the official 2026 conferred-graduate list",
+              "count": 14,
+              "names": [
+                "Chen Du",
+                "Hsieh Chin Hui",
+                "Huang Pianpian",
+                "Liem Pei Fun",
+                "Lin Lingyu",
+                "Luo Shouyi",
+                "Niu Long",
+                "Qian Yue",
+                "Venkatasubramanian Sreekrishnan",
+                "Wang Yaqi",
+                "Xiao Yang",
+                "Yu Sitong",
+                "Zhu Fenfen",
+                "Zhu Haiyun"
+              ],
+              "marketing_count": null
+            }
+          },
+          {
+            "program_id": "national-university-of-singapore-marketing",
+            "years": [
+              2023
+            ],
+            "checked_at": "2026-11-18",
+            "result": "source_reconciled",
+            "finding": "The complete official initial-placement table lists Gao Shiwen for 2023 and matches the database. The independent Registrar 2022-23 degree-statistics PDF was actually read: School of Business PhD total is fourteen, without a Marketing specialization split. The official Business Graduation Times 2023 PDF was located but the web renderer rejected its 15.7 MB size; direct requests returned an empty challenge response, so its full names were not read.",
+            "sources": [
+              {
+                "url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+                "label": "Official full initial-placement table actually read through web renderer, latest 2025; all 2023-2025 rows match existing records"
+              },
+              {
+                "url": "https://www.nus.edu.sg/registrar/docs/info/student-statistics/first-degree-graduates/high-degree-graduates/gd-grad-20222023.pdf",
+                "label": "Official 2022-23 degree statistics, school-level PhD total 14; Marketing not split",
+                "pages": [
+                  2
+                ]
+              },
+              {
+                "url": "https://bschool.nus.edu.sg/giving/wp-content/uploads/sites/18/2023/07/The-Business-Graduation-Times-25-Jun.pdf",
+                "label": "Official 2023 graduation newspaper located, full PDF unread due size/challenge"
+              }
+            ],
+            "known_names": [
+              "Shiwen Gao"
+            ],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "national-university-of-singapore-marketing",
+            "years": [
+              2024
+            ],
+            "checked_at": "2026-11-18",
+            "result": "source_reconciled",
+            "finding": "The complete official initial-placement table lists Deng Wanjiang and Samantha Sim for 2024; both match. The independent Registrar 2023-24 statistics were actually read: School of Business PhD total is twenty-one, without Marketing specialization or names. Twenty-one cannot be used as the Marketing count.",
+            "sources": [
+              {
+                "url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+                "label": "Official full initial-placement table actually read through web renderer, latest 2025; all 2023-2025 rows match existing records"
+              },
+              {
+                "url": "https://www.nus.edu.sg/registrar/docs/info/student-statistics/first-degree-graduates/high-degree-graduates/gd-grad-20232024.pdf",
+                "label": "Official 2023-24 degree statistics, school-level PhD total 21; Marketing not split",
+                "pages": [
+                  2
+                ]
+              }
+            ],
+            "known_names": [
+              "Samantha Sim",
+              "Wanjiang Deng"
+            ],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "national-university-of-singapore-marketing",
+            "years": [
+              2025
+            ],
+            "checked_at": "2026-11-18",
+            "result": "source_reconciled",
+            "finding": "The complete official initial-placement table lists Chen Sijin for 2025 and matches. The official Commencement 2025 Traditions PDF was actually read, but its fifteen pages are institutional history and ceremony traditions, not a graduate register. The attempted 2024-25 Registrar statistics URL was inaccessible through the web tool, and no final Marketing-specific count or named all-graduate list was obtained.",
+            "sources": [
+              {
+                "url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+                "label": "Official full initial-placement table actually read through web renderer, latest 2025; all 2023-2025 rows match existing records"
+              },
+              {
+                "url": "https://www.nus.edu.sg/commencement/pdf/2025_TOC.pdf",
+                "label": "Official 2025 Traditions of Commencement, actually read; not a degree/name register"
+              },
+              {
+                "url": "https://www.nus.edu.sg/registrar/docs/info/student-statistics/first-degree-graduates/high-degree-graduates/gd-grad-20242025.pdf",
+                "label": "Attempted annual official statistics URL, inaccessible in web tool"
+              }
+            ],
+            "known_names": [
+              "Sijin Chen"
+            ],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "national-university-of-singapore-marketing",
+            "years": [
+              2026
+            ],
+            "checked_at": "2026-11-18",
+            "result": "insufficient",
+            "finding": "The official initial-placement table stops at 2025 and has no 2026 section. The official commencement entry was read via web renderer, but direct download returns a challenge response. A targeted official ScholarBank Marketing PhD 2026 thesis search returned no usable complete roster. The attempted 2025-26 Registrar statistics URL was inaccessible. No annual zero or completeness claim is justified.",
+            "sources": [
+              {
+                "url": "https://bschool.nus.edu.sg/marketing/phd/placements/",
+                "label": "Official full initial-placement table actually read through web renderer, latest 2025; all 2023-2025 rows match existing records"
+              },
+              {
+                "url": "https://www.nus.edu.sg/commencement/",
+                "label": "Official 2026 commencement entry read; no full named Marketing register"
+              },
+              {
+                "url": "https://www.nus.edu.sg/registrar/docs/info/student-statistics/first-degree-graduates/high-degree-graduates/gd-grad-20252026.pdf",
+                "label": "Attempted annual official statistics URL, inaccessible in web tool"
+              }
+            ],
+            "known_names": [],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "singapore-management-university-marketing",
+            "years": [
+              2023
+            ],
+            "checked_at": "2026-11-18",
+            "result": "insufficient",
+            "finding": "The official CGRS alumni overview calls Junqiu Jiang a 2023 Marketing PhD, but the discipline-specific alumni list says 2021 and the newer advisor CV and repository date support 2024. Treat these as contradictory date labels, not separate people or a new 2023 graduate. A targeted 2023 commencement/repository search did not locate an independent full Marketing award list.",
+            "sources": [
+              {
+                "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+                "label": "Official full Marketing alumni list actually read, but dates conflict with newer independent sources"
+              },
+              {
+                "url": "https://graduatestudies.smu.edu.sg/phd/alumni",
+                "label": "Official CGRS testimonial dates Junqiu Jiang 2023, contradictory"
+              },
+              {
+                "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+                "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+              }
+            ],
+            "known_names": [],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "singapore-management-university-marketing",
+            "years": [
+              2024
+            ],
+            "checked_at": "2026-11-18",
+            "result": "partial",
+            "finding": "The current departmental alumni page dates Junqiu Jiang 2021, while CGRS says 2023. The official advisor Kapil Tuli May 2026 CV lists dissertation chair for Jiang in 2024 and the official repository publishes her Marketing PhD dissertation in June 2024. Preserve the existing 2024 record and flag the conflicting official pages. The independent 2024 ceremony book doctoral pages 4-5 were read: they list Finance, OBHR, General Management and Strategy but no Marketing block or Jiang. This confirms ceremony class and actual degree-year labels cannot be equated.",
+            "sources": [
+              {
+                "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+                "label": "Official full Marketing alumni list actually read, but dates conflict with newer independent sources"
+              },
+              {
+                "url": "https://commencement.smu.edu.sg/sites/commencement.smu.edu.sg/files/2024-07/SMU_Commencement-v5.pdf",
+                "label": "Official 2024 graduate listing actually read via web PDF renderer, LKCSB doctoral pages 4-5",
+                "pages": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2026CV/CV_KapilTuli_May2026.pdf",
+                "label": "Official advisor CV: dissertation chair Jiang Junqiu 2024"
+              },
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/614/",
+                "label": "Official Marketing PhD dissertation, June 2024"
+              }
+            ],
+            "known_names": [
+              "Junqiu Jiang"
+            ],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "singapore-management-university-marketing",
+            "years": [
+              2025
+            ],
+            "checked_at": "2026-11-18",
+            "result": "partial",
+            "finding": "The full current departmental alumni page is stale and omits three independently verified 2025 Marketing PhDs. The university repository explicitly labels Degree Awarded PhD in Business Marketing for Qingli Zeng, Rahul Narnindi and Yichen Wang, published March 2025. Official author CVs or the Marketing researcher directory explicitly classify all three as Quantitative Marketing. All three are absent from existing records and recommended for import. The 2025 full ceremony book was found but not read due download limits/challenge. Three is the number independently found, not a proven full cohort denominator.",
+            "sources": [
+              {
+                "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+                "label": "Official full Marketing alumni list actually read, but dates conflict with newer independent sources"
+              },
+              {
+                "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+                "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+              },
+              {
+                "url": "https://commencement.smu.edu.sg/sites/commencement.smu.edu.sg/files/2025-07/SMU%20Commencement%2025.pdf",
+                "label": "Official 2025 commencement book discovered; full web download exceeds size limit and direct fetch returns 212-byte challenge, not read as a full roster"
+              },
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/678/",
+                "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Qingli Zeng"
+              },
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/679/",
+                "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Rahul Narnindi"
+              },
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/680/",
+                "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Yichen Wang"
+              }
+            ],
+            "known_names": [
+              "Qingli Zeng",
+              "Rahul Narnindi",
+              "Yichen Wang"
+            ],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          },
+          {
+            "program_id": "singapore-management-university-marketing",
+            "years": [
+              2026
+            ],
+            "checked_at": "2026-11-18",
+            "result": "insufficient",
+            "finding": "The official 2026 ceremony and certificate pages were actually read and state the electronic graduate list is only available for the duration of Commencement. The accessible current Marketing alumni list remains stale. A targeted official repository search for 2026 Marketing PhD dissertations returned no additional verified record. Current students and expected-2026 CVs were not converted into actual graduates; no independent final 2026 Marketing cohort is established.",
+            "sources": [
+              {
+                "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+                "label": "Official full Marketing alumni list actually read, but dates conflict with newer independent sources"
+              },
+              {
+                "url": "https://commencement.smu.edu.sg/graduands/certificate-graduand-listing",
+                "label": "Official 2026 certificate and graduate-listing policy actually read; list only available for duration of ceremony"
+              },
+              {
+                "url": "https://commencement.smu.edu.sg/",
+                "label": "Official 2026 ceremony schedule and graduate-term windows read"
+              }
+            ],
+            "known_names": [],
+            "independent_count": null,
+            "cohort_complete": false,
+            "next_step": "Find and reconcile a specialization-level complete annual Marketing PhD award register."
+          }
+        ],
+        "additions": [
+          {
+            "id": "singapore-management-university-qingli-zeng",
+            "set": {
+              "name": "Qingli Zeng",
+              "school": "Singapore Management University",
+              "program": "博士项目 · Marketing",
+              "program_id": "singapore-management-university-marketing",
+              "origin": "SG",
+              "fields": [
+                "Marketing"
+              ],
+              "tracks": [
+                "marketing",
+                "qm"
+              ],
+              "source_cohort_year": 2025,
+              "graduation_year": 2025,
+              "placement_year": null,
+              "market_cycle": null,
+              "status": "outcome_unknown",
+              "destination": null,
+              "checked_at": "2026-11-18",
+              "field_evidence": "Official researcher directory explicitly labels Quantitative Marketing; university library identifies a Marketing PhD dissertation and degree awarded."
+            },
+            "sources": [
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/678/",
+                "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Qingli Zeng"
+              },
+              {
+                "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+                "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2025%20CV/CV_Sandeep_Oct2025.pdf",
+                "label": "Official advisor CV page 9: Qingli at Hebrew University visiting position in October 2025; Rahul at BITSoM, positions labeled Current",
+                "pages": [
+                  9
+                ]
+              },
+              {
+                "url": "https://qinglizeng.com/cv/",
+                "label": "Author CV actually read: Marketing PhD 2025, explicit Quantitative Marketing, HUJI Lecturer starts July 2026"
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/phdstudents/phdstudentsCV/Zeng%20Qingli_2024.pdf",
+                "label": "Official hosted author CV explicitly Quantitative Marketing, indexed page 1 read"
+              },
+              {
+                "url": "https://bschool-en.huji.ac.il/faculty-members",
+                "label": "Official HUJI faculty directory confirms current tenure-track Lecturer"
+              }
+            ],
+            "note": "Source class is the March 2025 published dissertation; author CV independently confirms PhD 2025. Official advisor October 2025 CV calls HUJI a visiting position, while author CV says regular Lecturer starts July 2026. Retain these separate observations, never automatically label the 2026 regular appointment as the first job."
+          },
+          {
+            "id": "singapore-management-university-rahul-narnindi",
+            "set": {
+              "name": "Rahul Narnindi",
+              "school": "Singapore Management University",
+              "program": "博士项目 · Marketing",
+              "program_id": "singapore-management-university-marketing",
+              "origin": "SG",
+              "fields": [
+                "Marketing"
+              ],
+              "tracks": [
+                "marketing",
+                "qm"
+              ],
+              "source_cohort_year": 2025,
+              "graduation_year": null,
+              "placement_year": null,
+              "market_cycle": null,
+              "status": "outcome_unknown",
+              "destination": null,
+              "checked_at": "2026-11-18",
+              "field_evidence": "Official researcher directory explicitly labels Quantitative Marketing; university library identifies a Marketing PhD dissertation and degree awarded."
+            },
+            "sources": [
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/679/",
+                "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Rahul Narnindi"
+              },
+              {
+                "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+                "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2025%20CV/CV_Sandeep_Oct2025.pdf",
+                "label": "Official advisor CV page 9: Qingli at Hebrew University visiting position in October 2025; Rahul at BITSoM, positions labeled Current",
+                "pages": [
+                  9
+                ]
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/phdstudents/phdstudentsCV/Rahul%20Narnindi_CV.pdf",
+                "label": "Official hosted author CV explicitly Marketing Quantitative stream"
+              },
+              {
+                "url": "https://www.bitsom.edu.in/faculty-directory/",
+                "label": "Official BITSoM current faculty confirms Assistant Professor of Marketing"
+              }
+            ],
+            "note": "Repository publication March 2025 identifies source_cohort_year only. Official university directory and receiving-unit faculty page confirm current BITSoM Assistant Professor, but do not label it first placement or supply an actual appointment start date."
+          },
+          {
+            "id": "singapore-management-university-yichen-wang",
+            "set": {
+              "name": "Yichen Wang",
+              "school": "Singapore Management University",
+              "program": "博士项目 · Marketing",
+              "program_id": "singapore-management-university-marketing",
+              "origin": "SG",
+              "fields": [
+                "Marketing"
+              ],
+              "tracks": [
+                "marketing",
+                "qm"
+              ],
+              "source_cohort_year": 2025,
+              "graduation_year": null,
+              "placement_year": null,
+              "market_cycle": null,
+              "status": "outcome_unknown",
+              "destination": null,
+              "checked_at": "2026-11-18",
+              "field_evidence": "Official researcher directory explicitly labels Quantitative Marketing; university library identifies a Marketing PhD dissertation and degree awarded."
+            },
+            "sources": [
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/680/",
+                "label": "Official university repository: published PhD dissertation March 2025, Degree Awarded PhD in Business Marketing; Yichen Wang"
+              },
+              {
+                "url": "https://business.smu.edu.sg/taxonomy/term/1166",
+                "label": "Official Marketing researcher directory actually read; Rahul Narnindi, Wang Yichen and Zeng Qingli explicitly Quantitative Marketing"
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2025%20CV/CV_Sandeep_Oct2025.pdf",
+                "label": "Official advisor CV page 9: Qingli at Hebrew University visiting position in October 2025; Rahul at BITSoM, positions labeled Current",
+                "pages": [
+                  9
+                ]
+              }
+            ],
+            "note": "Repository publication March 2025 identifies source_cohort_year only. No verified current destination or first-job date was obtained. Do not confuse with same-name finance graduates."
+          }
+        ],
+        "updates": [
+          {
+            "id": "ntu-lingyu-lin",
+            "set": {
+              "source_cohort_year": 2026
+            },
+            "sources": [
+              {
+                "url": "https://www.ntu.edu.sg/media/docs/default-source/ntu-convocation/2026-graduate-listing/phd-ceremony-2-graduate-listing-1-august-2026.pdf",
+                "label": "Official final PhD graduate listing actually read via web PDF renderer; NBS entries on physical pages 1 and 4",
+                "pages": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "url": "https://www.ntu.edu.sg/convocation/information-for-phd-graduates",
+                "label": "Official policy: listing includes all conferred graduates, independent of ceremony attendance; available only during ceremony"
+              }
+            ],
+            "note": "The conferred-graduate list explicitly names Lin Lingyu in 2026, separately from the existing author/receiving-unit evidence of Marketing and PhD 2026. This fills source_cohort_year only and does not create a first-job year."
+          },
+          {
+            "id": "singapore-management-university-junqiu-jiang",
+            "set": {},
+            "sources": [
+              {
+                "url": "https://business.smu.edu.sg/phd-business-marketing-research/our-alumni",
+                "label": "Official full Marketing alumni list actually read, but dates conflict with newer independent sources"
+              },
+              {
+                "url": "https://commencement.smu.edu.sg/sites/commencement.smu.edu.sg/files/2024-07/SMU_Commencement-v5.pdf",
+                "label": "Official 2024 graduate listing actually read via web PDF renderer, LKCSB doctoral pages 4-5",
+                "pages": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "url": "https://business.smu.edu.sg/sites/business.smu.edu.sg/files/business/Marketing/2026CV/CV_KapilTuli_May2026.pdf",
+                "label": "Official advisor CV: dissertation chair Jiang Junqiu 2024"
+              },
+              {
+                "url": "https://ink.library.smu.edu.sg/etd_coll/614/",
+                "label": "Official Marketing PhD dissertation, June 2024"
+              }
+            ],
+            "note": "Retain existing graduation_year 2024, supported by newer official advisor CV and June 2024 PhD dissertation. Departmental alumni 2021 and CGRS testimonial 2023 are conflicting labels; do not silently overwrite with either."
+          }
+        ],
+        "coverage_recommendations": [
+          {
+            "program_id": "national-university-of-singapore-marketing",
+            "period": "2023",
+            "record_ids": [
+              "nus-shiwen-gao"
+            ],
+            "listed_count": 1,
+            "status": "source_reconciled",
+            "cohort_complete": false
+          },
+          {
+            "program_id": "national-university-of-singapore-marketing",
+            "period": "2024",
+            "record_ids": [
+              "nus-samantha-sim",
+              "nus-wanjiang-deng"
+            ],
+            "listed_count": 2,
+            "status": "source_reconciled",
+            "cohort_complete": false
+          },
+          {
+            "program_id": "national-university-of-singapore-marketing",
+            "period": "2025",
+            "record_ids": [
+              "nus-sijin-chen"
+            ],
+            "listed_count": 1,
+            "status": "source_reconciled",
+            "cohort_complete": false
+          }
+        ],
+        "artifacts": [],
+        "identity_links": []
+      }
+    }
+  ]
+}
